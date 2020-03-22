@@ -2,7 +2,7 @@ _UNDER DEVELOPMENT_
 
 # CORD-19 Weaviate
 
-The COVID-19 Open Research Dataset Challenge (CORD-19) is published by Kaggle: https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge.
+The COVID-19 Open Research Dataset Challenge (CORD-19) is published by Kaggle: https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge. The goal is to explore the dataset and get new insights using [Weaviate](https://github.com/semi-technologies/weaviate).
 
 
 ## How to get started
