@@ -28,3 +28,6 @@ Currently, the paper id, title, abstract and full body text of 885 papers of `bi
 ## Notes
 - [ ] Let's collaborate to make something great
 - [ ] I did not pay full attention to vectorization settings in the schema. When we want to do search and classification, maybe this needs better setting (better check now than later)
+
+## References
+- Used some code from this kernel: https://www.kaggle.com/xhlulu/cord-19-eda-parse-json-and-generate-clean-csv
