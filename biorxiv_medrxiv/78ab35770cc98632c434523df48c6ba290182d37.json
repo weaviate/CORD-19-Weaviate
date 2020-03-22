@@ -1,0 +1,590 @@
+{
+    "paper_id": "78ab35770cc98632c434523df48c6ba290182d37",
+    "metadata": {
+        "title": "Excess cases of Influenza like illnesses in France synchronous with COVID19 invasion. Pierre-Yves Bo\u00eblle 1 and the Sentinelles syndromic and viral surveillance group",
+        "authors": []
+    },
+    "abstract": [
+        {
+            "text": "Several French regions where COVID19 has been reported currently show a renewed increase in ILI cases in the general practice based Sentinelles network. Here we computed the number of excess cases by region and found correlation with the number of reported COVID19 cases so far. These data suggest larger circulation of SARS-CoV-2 in the French population than apparent from confirmed cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Influenza Like illnesses cases are defined as cases with fever of sudden onset (>39\u00b0C) with respiratory signs (cough, running nose) and myalgia of any age. Acute Respiratory Infection (AIR) include diseases with respiratory signs and are only monitored in the > 65 y.o. Cases are reported in real time by participating GPs (approx. 600 GPs) all over France. Additionally, Sentinelles GPs may swab 1 ILI case and up to 2 IRA cases per week for viral characterization (3) . Influenza virus, respiratory syncytial virus, human rhinovirus and human metapneumovirus are routinely looked for, and SARS-CoV-2 has been added since February 2020.",
+            "cite_spans": [
+                {
+                    "start": 466,
+                    "end": 469,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We computed the expected number of ILI consultations using the superposition of a seasonal (4) and an influenza epidemic component (5) , as detailed in the appendix. Excess cases were computed as the difference between observed cases and expected numbers. The rate of increase in excess cases was determined, assuming exponential growth.",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 134,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Confirmed COVID19 cases were obtained from the sant\u00e9 Publique France website, March 7 Bulletin(6).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In week 10 of 2020, 93 swabs were collected in ILI patients and 23 in ARI patients. Two (2) swabs in each category were positive for SARS-CoV-2. The 2 positive swabs in ARI patients had been collected in In Bourgogne-Franche Comt\u00e9 (BFC) and Grand Est (GRE) regions, out of a total of 7 swabs in these 2 regions. Assuming a positivity rate for SARS-CoV-2 of 2/7 in these regions, we estimated that 760 (CI95% [219, 1706]) ARI consultations in the > 65 y.o. could have been caused by COVID19 during week 10 (2/7 of 2600 ARI visits). One of the positive ILI case was linked to an existing cluster in the east of France.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SARS-CoV2 positive swabs in ILI and ARI cases."
+        },
+        {
+            "text": "The modelling approach allowed computing excess cases in 11 out of 13 regions. The model did not provide a good fit in the remaining 2 regions (see appendix). The overall ILI incidence showed renewed increase with 33 [-8, 64] consultations/100000 in excess during week 9 and 84 [447, 108] consultations/100000 in excess in week 10. This changed with regions: 4/11 regions displayed positive excess (credible interval excluding 0) in week 9 and 7/11 regions in week 10. ",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 283,
+                    "text": "[447,",
+                    "ref_id": null
+                },
+                {
+                    "start": 284,
+                    "end": 288,
+                    "text": "108]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Analysis of ILI incidence"
+        },
+        {
+            "text": "In the last 30 seasons of routine surveillance in France with the Sentinelles network, this is the first time that an increase in ILI cases is observed simultaneously in several regions after the peak of the annual influenza epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Interpretation"
+        },
+        {
+            "text": "Several processes may be at play in this observation, including at least characteristics of the influenza season, change in population behaviour or increase in COVID19 incidence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Interpretation"
+        },
+        {
+            "text": "can lead to prolonged periods for decrease in incidence but a renewed increase has never occurred before (1). The school holidays occurred gradually in France during the end of February and early",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H1N1pdm and B influenza viruses co-circulated in 2019-20 in France. Seasons with the type B virus"
+        },
+        {
+            "text": "March. While this may change the dynamics of influenza (7), the effect is generally notable in the ascending phase of the epidemic rather than after the peak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H1N1pdm and B influenza viruses co-circulated in 2019-20 in France. Seasons with the type B virus"
+        },
+        {
+            "text": "The current situation with COVID19 may change the health-seeking behaviour of patients and, to some extent, of the contributing general practitioners although they conform to a case definition.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H1N1pdm and B influenza viruses co-circulated in 2019-20 in France. Seasons with the type B virus"
+        },
+        {
+            "text": "Preliminary assessment of behavioural data in crowdsourced surveillance system is under way (grippenet.fr(8)) but, as of today, no massive trend towards more consultations has been observed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H1N1pdm and B influenza viruses co-circulated in 2019-20 in France. Seasons with the type B virus"
+        },
+        {
+            "text": "As information regarding the coronavirus risk is widespread, a uniform increase over all regions could have been expected in this scenario, but we acknowledge that it may have led to increased consultation rates in regions where COVID19 is the most reported.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H1N1pdm and B influenza viruses co-circulated in 2019-20 in France. Seasons with the type B virus"
+        },
+        {
+            "text": "The overlap between COVID19 and flu symptoms makes it possible that the excess of ILI cases is due to COVID19 cases, and the presence of SARS-CoV-2 positive swabs in the patients demonstrate this possibility. The correlation between the number of confirmed cases and the computed excess is also consistent with this scenario. In this case, the excess in cases is compatible with an exponential growth with rate estimated at approximately 0.7/week. Interestingly, this estimate is very similar from one region to the next in the four most affected regions (GRE, IDF, OCC, HDF). This estimate may prove useful to help calibrate models for studying the impact of the COVID19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H1N1pdm and B influenza viruses co-circulated in 2019-20 in France. Seasons with the type B virus"
+        },
+        {
+            "text": "Estimating the true number of COVID19 cases remains difficult in the presence of these uncertainties. We note that the extrapolated number of COVID19 presenting as ARI was 760 in the >65 y.o. in the 2 eastern regions (GRE and BFC), which was at least twice more than the number of reported cases at the time (250+129), all ages confounded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H1N1pdm and B influenza viruses co-circulated in 2019-20 in France. Seasons with the type B virus"
+        },
+        {
+            "text": "As we enter a period of generalized circulation of the SARS-CoV-2 virus, surveillance based on clinical description and swabbing by GPs will prove essential to help us assess the situation. . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H1N1pdm and B influenza viruses co-circulated in 2019-20 in France. Seasons with the type B virus"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20035741 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H1N1pdm and B influenza viruses co-circulated in 2019-20 in France. Seasons with the type B virus"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Influenza epidemics observed in primary care from 1984 to 2017 in France: A decrease in epidemic size over time. Influenza Other Respir Viruses",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Souty",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Amoros",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Falchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Capai",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Bonmarin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Der Werf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "148--57",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "First cases of coronavirus disease 2019 (COVID-19) in France: surveillance, investigations and control measures",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Stoecklin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rolland",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Silue",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mailles",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Campese",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Simondon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eurosurveillance",
+            "volume": "13",
+            "issn": "2020",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Baseline characteristics and clinical symptoms related to respiratory viruses identified among patients presenting with influenza-like illness in primary care",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Souty",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Masse",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Valette",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Behillil",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Bonmarin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin Microbiol Infect Off Publ Eur Soc Clin Microbiol Infect Dis. sept",
+            "volume": "25",
+            "issn": "9",
+            "pages": "1147--53",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A routine tool for detection and assessment of epidemics of influenza-like syndromes in France",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Costagliola",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Flahault",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Galinec",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Garnerin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Menares",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Valleron",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Am J Public Health. janv",
+            "volume": "81",
+            "issn": "1",
+            "pages": "97--106",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Early Outbreak of 2009 Influenza A (H1N1) in Mexico Prior to Identification of pH1N1 Virus",
+            "authors": [
+                {
+                    "first": "Y-H",
+                    "middle": [],
+                    "last": "Hsieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Velasco",
+                    "middle": [],
+                    "last": "Hernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Disponible sur",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "COVID-19 : point \u00e9pid\u00e9miologique du 7 mars 2020",
+            "authors": [
+                {
+                    "first": "France",
+                    "middle": [],
+                    "last": "Sant\u00e9 Publique",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Estimating the impact of school closure on influenza transmission from Sentinel data",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cauchemez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A-J",
+                    "middle": [],
+                    "last": "Valleron",
+                    "suffix": ""
+                },
+                {
+                    "first": "P-Y",
+                    "middle": [],
+                    "last": "Boelle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Flahault",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Nature. 10 avr",
+            "volume": "452",
+            "issn": "7188",
+            "pages": "750--756",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Participatory Syndromic Surveillance of Influenza in Europe",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Guerrisi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Turbelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Blanchon",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hanslik",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Bonmarin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Levy-Bruhl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Infect Dis. 1 d\u00e9c",
+            "volume": "214",
+            "issn": "suppl_4",
+            "pages": "386--92",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "the Sentinelles syndromic and viral and surveillance group\" including (but not limited to) C\u00e9cile Souty 1 , Titouan Launay 1 , Cl\u00e9ment Turbelin 1 , Caroline Guerrisi 1 , Chiara Poletto 2 , Vittoria Colizza 2 , Sylvie van der Werf 4",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "5 -Institut Pasteur, Centre Coordonnateur du Centre National de R\u00e9f\u00e9rence des virus des infections respiratoires (dont la grippe)",
+            "authors": [
+                {
+                    "first": "-Institut",
+                    "middle": [],
+                    "last": "Pasteur",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Sorbonne Paris Cit\u00e9, Unit\u00e9 de G\u00e9n\u00e9tique Mol\u00e9culaire des Virus \u00e0 ARN",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Number of consultations for ILI (per 100000) in France and 11 French regions from 2020 W1 to 2020 W10, with expected number of consultations (gren) fitted on the first 8 weeks of 2020 (circles). Excess consultations (blue) computed by difference between observations (squares) and expected counts. See Table1 for region codes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Example data used for excess consultations modelling. The black line corresponds with the 2020 epidemic. The orange points corresponds with the seasonal background information from previous years. Two French regions where the model failed to describe the data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Decomposition of observed ILI cases in France (dots) in a seasonal + epidemic part (green) and excess part (blue). The red curve is the sum of the two components.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "The number of excess cases correlated with the cumulated number of COVID19 cases reported in the same regions (r=0.61, p<0.05).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Excess consultations/10000 in French regions in 2020 week 9 and 10 and cumulated number of COVID19 cases by March 7.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The number of expected ILI consultations reported to the Sentinelles network was modelled as the superposition of 2 components: an \"epidemic\" component due to influenza infections and a background seasonal signal not due to influenza (4) . More precisely, we fitted the influenza epidemic part using Richard's model (5) . Richard's model is a 4 parameters equation describing the cumulated number of cases at time t as follows :The seasonal part was modelled as In a second step, we fitted excess cases by an exponential increase ( ) = 0 exp ( ), and assumed that number of ILI cases for weeks 8 to 10 was Poisson distributed with mean ( ) +",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 237,
+                    "text": "(4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 316,
+                    "end": 319,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Appendix"
+        }
+    ]
+}

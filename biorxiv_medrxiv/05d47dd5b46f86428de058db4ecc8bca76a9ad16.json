@@ -1,0 +1,2455 @@
+{
+    "paper_id": "05d47dd5b46f86428de058db4ecc8bca76a9ad16",
+    "metadata": {
+        "title": "Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza",
+        "authors": [
+            {
+                "first": "Timothy",
+                "middle": [
+                    "R"
+                ],
+                "last": "Abbott",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Girija",
+                "middle": [],
+                "last": "Dhamdhere",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yanxia",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xueqiu",
+                "middle": [],
+                "last": "Lin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Laine",
+                "middle": [],
+                "last": "Goudy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Leiping",
+                "middle": [],
+                "last": "Zeng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Augustine",
+                "middle": [],
+                "last": "Chemparathy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Stephen",
+                "middle": [],
+                "last": "Chmura",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nicholas",
+                "middle": [
+                    "S"
+                ],
+                "last": "Heaton",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Duke University School of Medicine",
+                    "location": {
+                        "postCode": "27710",
+                        "settlement": "Durham",
+                        "region": "NC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Robert",
+                "middle": [],
+                "last": "Debs",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tara",
+                "middle": [],
+                "last": "Pande",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Los Altos High School",
+                    "location": {
+                        "postCode": "94022",
+                        "settlement": "Los Altos",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Drew",
+                "middle": [],
+                "last": "Endy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Marie",
+                "middle": [
+                    "La"
+                ],
+                "last": "Russa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2020",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "B"
+                ],
+                "last": "Lewis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lei",
+                "middle": [
+                    "S"
+                ],
+                "last": "Qi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The world is currently faced with a pandemic of novel coronavirus disease 2019 (COVID- 19) , which is caused by Severe Acute Respiratory Syndrome coronavirus 2 (SARS-CoV-2) and has no vaccine or cure. It is predicted the development of a safe and effective vaccine to prevent COVID-19 will take one year to 18 months, by which time it is likely that several hundreds of thousands to millions of people may have been infected. With a rapidly growing number of cases and deaths around the world, this emerging threat requires a nimble and targeted means of protection. Since coronaviruses causing COVID-19, Severe Acute Respiratory Syndrome (SARS), and Middle East Respiratory Syndrome (MERS) are able to suddenly transfer to humans from diverse animal hosts that act as viral reservoirs, there is a pressing need to develop methods to combat other potential coronaviruses that may emerge in the future [1] [2] [3] . A recent report further showed two strains (L and S) of SARS-CoV-2 with different genome sequences are circulating and likely evolving, further highlighting the need for a pan-coronavirus vaccination strategy 4 .",
+            "cite_spans": [
+                {
+                    "start": 87,
+                    "end": 90,
+                    "text": "19)",
+                    "ref_id": null
+                },
+                {
+                    "start": 901,
+                    "end": 904,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 905,
+                    "end": 908,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 909,
+                    "end": 912,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The novel coronavirus causing COVID-19 belongs to a family of positive-sense RNA viruses, which typically infect the upper and lower respiratory tracks and cause disease by direct cytotoxic effects and the induction of host cytokines disease 5 . The SARS-CoV-2 life cycle is likely similar to closely related coronaviruses such as the virus that causes SARS, in which the virus enters the cell, releases its RNA genome into the cytoplasm, and synthesizes negativesense genomic and subgenomic RNAs from which viral mRNAs and a new copy of the positive sense viral genome are synthesized (Fig. 1A) 6, 7 . Whereas traditional vaccines work by priming the human immune system to recognize viral proteins or weakened viruses and decrease viral entry into cells 8 , the alternative antiviral approach we propose here relies on a CRISPR-based system for recognizing and degrading the intracellular viral genome and its resulting viral mRNAs (Fig. 1B) . Targeting the positive-sense genome and viral mRNAs to simultaneously degrade viral genome templates for replication and viral gene expression would be expected to robustly limit viral replication.",
+            "cite_spans": [
+                {
+                    "start": 242,
+                    "end": 243,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 596,
+                    "end": 598,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 599,
+                    "end": 600,
+                    "text": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 756,
+                    "end": 757,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 586,
+                    "end": 595,
+                    "text": "(Fig. 1A)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 934,
+                    "end": 943,
+                    "text": "(Fig. 1B)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "To inhibit RNA viruses in human cells, we used the CRISPR-Cas13d system derived from Ruminococcus flavefaciens XPD3002, a recently discovered RNA-guided RNA endonuclease 9, 10 . Cas13d employs CRISPR-associated RNAs (crRNAs) that contain a customizable 22 nucleotide (nt) spacer sequence that can direct the Cas13d protein to specific RNA molecules for targeted RNA degradation. The high catalytic activity of Cas13d in mammalian cells provides a potential mechanism for targeting SARS-CoV-2 for specific viral RNA genome degradation and viral gene expression inhibition. Because of its small size (967 amino acids), high specificity, and strong catalytic activity, we chose Cas13d rather than other Cas13 proteins to target and destroy RNA viruses including SARS-CoV-2 and Influenza A virus (IAV) [10] [11] [12] .",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 172,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 173,
+                    "end": 175,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 798,
+                    "end": 802,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 803,
+                    "end": 807,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 808,
+                    "end": 812,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In this work, we developed a Prophylactic Antiviral CRISPR in huMAN cells (PAC-MAN) strategy as a form of genetic intervention to target SARS-CoV-2, IAV, and potentially all sequenced coronaviruses. We created a bioinformatic pipeline to define conserved regions across the SARS-CoV-2 genomes and target these regions using CRISPR-Cas13d for viral genome degradation and viral gene inhibition. At the time of paper submission, there is no widely available laboratory strains of SARS-CoV-2. Therefore, we tested our approach using synthesized fragments of SARS-CoV-2, as well as with live H1N1 IAV. We designed and screened a panel of crRNA pools targeting conserved viral regions and defined the most effective crRNAs. We demonstrated the ability of our approach to cleave SARS-CoV-2 fragments and to reduce the replication of IAV in human lung epithelial cells. Our bioinformatics author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript analysis revealed a group of six crRNAs that can target 91% of sequenced coronaviruses, as well as a group of 22 crRNAs able to target all sequenced coronaviruses. The potential pancoronavirus protection using CRISPR-Cas13d offers an alternative and complementary approach over traditional pharmaceuticals or vaccines. Through the use of crRNA pools targeting different regions of the same virus or different strains of coronavirus, this system could possibly buffer against viral evolution and escape, as well as enable rapid development and deployment against emerging viruses. When combined with an effective delivery platform, PAC-MAN is a promising strategy to combat not only coronaviruses including that causing COVID-19, but also a broad range of other genera of viruses. author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "To create effective and specific crRNA sequences to target and cleave SARS-CoV-2, we first performed a bioinformatic analysis by aligning published SARS-CoV-2 genomes from 47 patients with SARS-CoV and MERS-CoV genomes at the single-nucleotide resolution level. SARS-CoV-2 has a single-stranded RNA genome with ~30,000 nucleotides that encodes 12 putative, functional open reading frames [13] [14] [15] . Our analysis found regions with a high conservation between 47 SARS-CoV-2, SARS-CoV and MERS-CoV genomes ( Fig. 2A) . The two highly-conserved regions respectively contain the RNA-dependent RNA polymerase (RdRP) gene in the polypeptide ORF1ab region, which maintains the proliferation of all coronaviruses, and the Nucleocapsid (N) gene at the 3' end of the genome, which encodes the capsid protein for viral packaging.",
+            "cite_spans": [
+                {
+                    "start": 388,
+                    "end": 392,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 393,
+                    "end": 397,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 398,
+                    "end": 402,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 512,
+                    "end": 520,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Computational design and analysis of targetable regions on SARS-CoV-2"
+        },
+        {
+            "text": "author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Computational design and analysis of targetable regions on SARS-CoV-2"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Computational design and analysis of targetable regions on SARS-CoV-2"
+        },
+        {
+            "text": "To target highly conserved SARS-CoV-2 regions, we generated an in silico collection of all 3,802 possible crRNAs (Supplemental Fig. 1 ). After excluding crRNAs either predicted to have potential off-target binding (\u22641 mismatch) in the human transcriptome or having poly-T (\u22654 Ts) sequences that may prevent crRNA expression, we obtained a collection of 3,203 crRNAs (Supplemental Table 1 ). We designed and synthesized 40 crRNAs, with 20 crRNAs each targeting the conserved sequences of the RdRP and N genes (Supplemental Table 2 ). Our rationale for densely targeting these two regions was to significantly reduce both viral genomic RNA and mRNA templates for expressing essential viral proteins and to minimize the risk of loss of targeting activity by mutational escape.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 127,
+                    "end": 133,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 380,
+                    "end": 387,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 522,
+                    "end": 529,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "6"
+        },
+        {
+            "text": "To evaluate whether Cas13d is effective for targeting SARS-CoV-2 sequences, we created two reporters expressing synthesized fragments of SARS-CoV-2 fused to GFP (SARS-CoV-2-F1 and SARS-CoV-2-F2; Fig. 2B , Supplemental Table 3 ). As SARS-CoV-2 appears to mainly infect respiratory tract cells in patients 5 , we chose to use human lung epithelial A549 cells as a model cell line. We created a stable A549 cell line expressing Cas13d through lentiviral infection, followed by sorting for the mCherry marker that was co-expressed with Cas13d ( Fig.  2C) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 195,
+                    "end": 202,
+                    "text": "Fig. 2B",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 218,
+                    "end": 225,
+                    "text": "Table 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 541,
+                    "end": 550,
+                    "text": "Fig.  2C)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "CRISPR PAC-MAN is capable of inhibiting coronavirus fragment expression in human lung epithelial cells"
+        },
+        {
+            "text": "We first investigated which regions of the SARS-CoV-2 fragments were most susceptible to Cas13d-mediated targeting and cleavage. To do this, we transfected or transduced the SARS-CoV-2 reporters into Cas13d A549 cells that had been transduced with pools of four crRNAs targeting either RdRP or N gene regions (Fig. 2D , see Methods). We chose to evaluate the effectiveness of our system using a pool of crRNAs, since in the context of live viral infection, this would prevent the possibility of escape from inhibition due to a mutation involving a single crRNA target site. A total of ten groups (G1-G10) were tested for all 40 crRNAs (Supplemental Table 2 ). Twenty-four hours after SARS-CoV-2 reporter transfection, we performed flow cytometry to examine levels of GFP protein expression and collected RNA from cells to perform quantitative real-time PCR (qRT-PCR) to examine mRNA transcript abundance.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 309,
+                    "end": 317,
+                    "text": "(Fig. 2D",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 649,
+                    "end": 656,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "CRISPR PAC-MAN is capable of inhibiting coronavirus fragment expression in human lung epithelial cells"
+        },
+        {
+            "text": "We observed that most RdRP-targeting crRNA pools were able to repress reporter expression to some extent compared to the control, and one pool targeting the middle of the SARS-CoV-2- Table 2 for the designed crRNA sequences and Supplemental Table 3 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 183,
+                    "end": 190,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 241,
+                    "end": 248,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "CRISPR PAC-MAN is capable of inhibiting coronavirus fragment expression in human lung epithelial cells"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript F1 RdRP region (G4; SARS-CoV-2 genome coordinates 13,784-14,149) was able to repress GFP by 86% (p = 2x10 -6 ) (Fig. 3A, S2A -B, Supplemental Table 4 ). One pool of N genetargeting crRNAs (G8; SARS-CoV-2 genome coordinates 28,803-29,034) was able to substantially repress SARS-CoV-2-F2 GFP, causing a 71% decrease in expression (p = 2x10 -7 ) (Fig. 3B, S2A -B, Supplemental Table S4 ). Our qRT-PCR analysis showed consistent results at the RNA level, with G4 and G8 inhibiting their respective reporter mRNA abundance by 83% (p = 3x10 -11 ) and 79% (p = 2x10 -12 ) ( Fig. 3A -B, Supplemental Table S4 ). The variations in the ability of different crRNA pools to repress the SARS-CoV-2 reporters are likely due to RNA secondary structure inherent in the SARS-CoV-2 genome or differences in binding affinities for each crRNA sequence composition. Table 4 . P values for C-E are labeled for each group.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 369,
+                    "end": 382,
+                    "text": "(Fig. 3A, S2A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 400,
+                    "end": 407,
+                    "text": "Table 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 601,
+                    "end": 614,
+                    "text": "(Fig. 3B, S2A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 632,
+                    "end": 640,
+                    "text": "Table S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 825,
+                    "end": 832,
+                    "text": "Fig. 3A",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 850,
+                    "end": 858,
+                    "text": "Table S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1103,
+                    "end": 1110,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "CRISPR PAC-MAN is capable of inhibiting coronavirus fragment expression in human lung epithelial cells"
+        },
+        {
+            "text": "author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CRISPR PAC-MAN is capable of inhibiting coronavirus fragment expression in human lung epithelial cells"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CRISPR PAC-MAN is capable of inhibiting coronavirus fragment expression in human lung epithelial cells"
+        },
+        {
+            "text": "We next independently validated the performance of adjacent crRNA pools when SARS-CoV-2-F1 or -F2 was introduced via lentiviral transduction. We argue that this approach, in which the lentivirus-derived RNA serves as a PAC-MAN target prior to lentivirus integration into DNA, mimics the crRNA targeting conditions that would apply for natural COVID-19 infection. We tested on a few selected crRNA pools, including the 3 best groups G4, G5, and G8 and one less efficient group G1, with a lentiviral multiplicity of infection (MOI) of 0.5. Our results revealed similar patterns to our SARS-CoV-2 transfection experiments, with the best groups (G4, G5, G8) able to repress their reporters by 69%, 71%, and 60% (p = 7x10 -6 , 10 -3 , 3x10 -6 for G4, G5, G8, respectively) (Fig. 3C) . qRT-PCR analysis also showed consistent results, with G4, G5, and G8 repressing 70%, 68%, and 49% of RNA abundance (p = 8x10 -8 , 4x10 -6 , 10 -4 for G4, G5, G8 respectively) (Fig. 3D) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 768,
+                    "end": 777,
+                    "text": "(Fig. 3C)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 955,
+                    "end": 964,
+                    "text": "(Fig. 3D)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "CRISPR PAC-MAN is capable of inhibiting coronavirus fragment expression in human lung epithelial cells"
+        },
+        {
+            "text": "We further validated the effectiveness of Cas13d-mediated repression of SARS-CoV-2 reporters by co-transfecting each reporter with a pool of 5 crRNAs tiled along the whole fragment, compared to a pool of 5 non-targeting control crRNAs (Table S2) . We found that the RdRPtargeting crRNAs were able to repress SARS-CoV-2-F1 GFP by 81% (p = 0.01), while Ntargeting crRNAs were able to repress SARS-CoV-2-F2 GFP by 90% (p = 5x10 -4 ) (Fig. 3E,  S3A) . We also did an analysis of the extent to which expression of Cas13d or crRNAs affected SARS-CoV-2 GFP reporter inhibition. Our analysis revealed that SARS-CoV-2 inhibition was more sensitive to crRNA concentration in our samples, while lower Cas13d expression only moderately decreased inhibitory activity (Fig. S3B) . Thus, maintaining a high level of crRNA concentration is likely a determining factor for more effective SARS-CoV-2 sequence targeting and cleavage.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 235,
+                    "end": 245,
+                    "text": "(Table S2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 430,
+                    "end": 445,
+                    "text": "(Fig. 3E,  S3A)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 754,
+                    "end": 764,
+                    "text": "(Fig. S3B)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "CRISPR PAC-MAN is capable of inhibiting coronavirus fragment expression in human lung epithelial cells"
+        },
+        {
+            "text": "These data together suggest: 1) Cas13d PAC-MAN can be an effective system to target and degrade SARS-CoV-2 sequences in human cells and 2) proper design of crRNAs are important for obtaining a high efficiency of SARS-CoV-2 inhibition.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CRISPR PAC-MAN is capable of inhibiting coronavirus fragment expression in human lung epithelial cells"
+        },
+        {
+            "text": "Since we do not yet have access to live SARS-CoV-2 virus, as a proof-of-concept we elected to test the CRISPR-Cas13d strategy on inhibiting H1N1 IAV, a RNA virus with a similar tropism as SARS-CoV-2 for respiratory tract epithelial cells. In contrast to SARS-CoV-2, which has only a single, continuous RNA genome, the IAV genome is contained in 8 negative-sense RNA segments, in which each plays an important role in packaging the viral RNA into budding virions 16, 17 .",
+            "cite_spans": [
+                {
+                    "start": 462,
+                    "end": 465,
+                    "text": "16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 466,
+                    "end": 468,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CRISPR PAC-MAN is able to inhibit IAV infection in human lung epithelial cells"
+        },
+        {
+            "text": "To create crRNAs targeting a broad range of IAV strains, we aligned all complete IAV genomes retrieved from the Influenza Research Database and searched for the most conserved regions (Supplemental Table 5 ). Our analysis and the work of others showed that the segment ends are highly conserved for all 8 segments [16] [17] [18] [19] [20] [21] . The segment ends are potentially attractive regions for targeting with Cas13d because of the potential to inhibit a broad range of IAV strains and because of the previous evidence that interfering with the packaging of one segment encoded on the segment ends can decrease the packaging efficiency of other segments and overall virion packaging 18, [22] [23] [24] [25] . Using sequence representation from ~140 different strains of influenza, we designed crRNAs that could be robust across as many different IAV strains as possible. Our bioinformatics analysis resulted in 6 crRNAs targeting highly conserved genome regions for each of the 8 IAV segments, for a total of 48 crRNAs (Supplemental Table 6 ).",
+            "cite_spans": [
+                {
+                    "start": 314,
+                    "end": 318,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 319,
+                    "end": 323,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 324,
+                    "end": 328,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 329,
+                    "end": 333,
+                    "text": "[19]",
+                    "ref_id": null
+                },
+                {
+                    "start": 334,
+                    "end": 338,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 339,
+                    "end": 343,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 690,
+                    "end": 693,
+                    "text": "18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 694,
+                    "end": 698,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 699,
+                    "end": 703,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 704,
+                    "end": 708,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 709,
+                    "end": 713,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 198,
+                    "end": 205,
+                    "text": "Table 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1040,
+                    "end": 1047,
+                    "text": "Table 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "CRISPR PAC-MAN is able to inhibit IAV infection in human lung epithelial cells"
+        },
+        {
+            "text": "author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CRISPR PAC-MAN is able to inhibit IAV infection in human lung epithelial cells"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CRISPR PAC-MAN is able to inhibit IAV infection in human lung epithelial cells"
+        },
+        {
+            "text": "To test the efficiency of IAV-targeting crRNAs, we performed a screen of our crRNA pools in the stable Cas13d A549 cell line to determine which were most effective at inhibiting IAV infection (Fig. 4A) . To do this, we transfected a pool of 6 crRNAs targeting a given IAV genome segment. Two days after crRNA transfection, the Cas13d A549 cells were challenged with PR8-mNeon, a strain of H1N1 IAV (A/Puerto Rico/8/1934) engineered to express the mNeonGreen gene, a fluorescent reporter protein (hereafter referred to as PR8-mNeon) at an MOI of 2.5 or 5.0 [26] [27] [28] . At approximately 18 hours post-challenge, the cells were analyzed for IAV infection through flow cytometry and microscopy. We examined the percentage of cells that were mNeon positive for each segment-targeting crRNA pool and calculated the fold-change compared to cells transfected with a pool of non-targeting crRNAs). Out of all crRNAs, the crRNA pool targeting segment 6 (S6) delivered the most consistent and robust results across different MOIs (72% reduction for MOI = 2.5 and 52% reduction for MOI = 5; Fig. 4B, S4) . Additionally, the segment 4 (S4) pool also showed moderate but consistent inhibition. To verify Cas13d-mediated inhibitory effects on S4 and S6, we further tested at a lower MOI of 0.5, which showed better inhibition of IAV across samples (e.g., 79% reduction using crRNAs targeting S6; Fig. S5 ). This confirms consistent inhibitory activity of IAV by Cas13d when targeting these two segments. There is a possible trend of greater inhibition at lower viral titers, suggesting that Cas13d PAC-MAN could be a particularly effective strategy for prevention of new infections, which typically occurs from exposure to a low level of virus.",
+            "cite_spans": [
+                {
+                    "start": 556,
+                    "end": 560,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 561,
+                    "end": 565,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 566,
+                    "end": 570,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 192,
+                    "end": 201,
+                    "text": "(Fig. 4A)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1084,
+                    "end": 1096,
+                    "text": "Fig. 4B, S4)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1386,
+                    "end": 1393,
+                    "text": "Fig. S5",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "9"
+        },
+        {
+            "text": "We further characterized the S6-targeting crRNA pool. S6 encodes the gene neuraminidase (NA), which releases budding virions from the host cell 16 . We performed microscopy quantification of mNeon+ cells and found that mNeon expression was reduced by 62% (p = 10 -5 ) and 73% (p = 5x10 -9 ) with an MOI of 2.5 and 5, respectively, with S6-targeting crRNAs (Fig. 4C) and this trend was corroborated by flow cytometry (Fig. 4D) . Together, our data show that Cas13d PAC-MAN is able to target highly conserved viral regions and robustly inhibit viral replication in human lung epithelial cells.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 146,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 356,
+                    "end": 365,
+                    "text": "(Fig. 4C)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 416,
+                    "end": 425,
+                    "text": "(Fig. 4D)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "9"
+        },
+        {
+            "text": "In the past two decades, multiple variants of coronavirus, including those causing COVID-19, SARS and MERS, emerged from animal reservoirs and infected humans, each time causing significant disease and fatalities 1-3 . Thus, the design of a strategy that could broadly prevent and target viral threats, including all coronavirus strains that currently reside in animals, would be a valuable resource. We asked whether it is possible to design a minimal number of crRNAs that could target a majority of known coronaviruses found in both humans and animals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cas13d PAC-MAN as a potential pan-coronavirus inhibition strategy"
+        },
+        {
+            "text": "To do this, we analyzed all known coronavirus genomes (3,051) to identify all possible crRNAs that can target each of those genomes, ending up with approximately 6.48 million possible crRNAs (Fig. 5A, S6) . We then refined our list to define the smallest number of crRNAs that could target all known coronavirus genomes with zero mismatches. We found that just two crRNAs could target ~50% of coronavirus genomes, including those causing COVID-19, SARS, and MERS; 6 crRNAs were able to target ~91% of coronavirus genomes; and 22 crRNAs covered all sequenced coronaviruses with no mismatches (Fig. 5B, Supplemental Table 7 ). The ability to use a relatively small number of crRNAs to broadly target most or all coronavirus strains further highlights the uniqueness of our approach in contrast to traditional pharmaceutical or vaccination approaches.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 191,
+                    "end": 204,
+                    "text": "(Fig. 5A, S6)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 591,
+                    "end": 621,
+                    "text": "(Fig. 5B, Supplemental Table 7",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Cas13d PAC-MAN as a potential pan-coronavirus inhibition strategy"
+        },
+        {
+            "text": "As a resource, we provide a map to show how our top 6 crRNAs (PAC-MAN-T6) targeted the coronavirus phylogenetic tree (Fig. 5A, red box) . Beta coronaviruses, the genus of viruses causing COVID-19, SARS, and MERS, were mostly covered by 3 crRNAs (crRNA 1-3) , while the other genera were covered by these three plus the remaining 3 crRNAs. Altogether, the PAC-MAN-T6 can target all known human coronavirus with broad coverage against other animal coronaviruses.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 117,
+                    "end": 135,
+                    "text": "(Fig. 5A, red box)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 245,
+                    "end": 256,
+                    "text": "(crRNA 1-3)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Cas13d PAC-MAN as a potential pan-coronavirus inhibition strategy"
+        },
+        {
+            "text": "The minimal set of six crRNAs also included one crRNA (designated crRNA-N18f) that we validated. A recent work analyzed 103 SARS-CoV-2 genomes and indicated that there are two major types (L and S) of SARS-CoV-2 existing with different viral signature sequences 4 . To verify whether crRNA-N18f can target all L and S strains, we retrieved a set of 202 recently sequenced SARS-CoV-2 sequences from Global Initiative on Sharing All Influenza Data author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cas13d PAC-MAN as a potential pan-coronavirus inhibition strategy"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cas13d PAC-MAN as a potential pan-coronavirus inhibition strategy"
+        },
+        {
+            "text": "(GISAID). Notably, crRNA-N18f targets all 201 genomes, with only one SARS-CoV-2 sequence carrying a single mismatch mutation (Supplemental Table 8 ). This suggests that our approach can robustly target multiple SARS-CoV-2 strains, but also suggests the potential need to use a pool of crRNAs to avoid mutational escapes. author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 139,
+                    "end": 146,
+                    "text": "Table 8",
+                    "ref_id": null
+                }
+            ],
+            "section": "11"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "11"
+        },
+        {
+            "text": "CRISPR-Cas13 emerged as a natural bacterial defense against bacteriophages, a powerful antiviral system that is able to use sequence-specific crRNAs to protect host bacterial cells from infections 29 . Here, we have repurposed the RNA-guided RNA endonuclease activity of Cas13d in mammalian cells against emergent viral targets, SARS-CoV-2 and IAV, in our PAC-MAN strategy. This expands the applications of CRISPR-Cas13 systems in addition to their uses for diagnostics such as SHERLOCK and live-cell imaging [30] [31] [32] [33] . Prior work showed Cas13a/b systems could inhibit ssRNA viruses including influenza, which is consistent with our observed high efficiency of SARS-CoV-2 reporter and IAV inhibition using the PAC-MAN approach 31 . We demonstrated that Cas13d-based genetic targeting can effectively target and cleave the RNA sequences of SARS-CoV-2 fragments and IAV in lung epithelial cell cultures. Our bioinformatics analysis also suggested a minimal pool of 6 crRNAs able to target over 90% of sequenced coronaviruses. While this strategy is a proof-of-concept and will require further testing using replication-competent SARS-CoV-2 viruses and validation in animal models before clinical tests in humans, it represents a unique approach to implement a rapid and broad antiviral defense in humans against emerging pathogens for which there are no effective vaccines.",
+            "cite_spans": [
+                {
+                    "start": 197,
+                    "end": 199,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 509,
+                    "end": 513,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 514,
+                    "end": 518,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 519,
+                    "end": 523,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 524,
+                    "end": 528,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 738,
+                    "end": 740,
+                    "text": "31",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION AND PERSPECTIVES"
+        },
+        {
+            "text": "For both SARS-CoV-2 and IAV, we found highly conserved regions of the viral genomes to target with Cas13d. In the case of SARS-CoV-2, these genome regions encode the RdRP and Nucleocapsid proteins, which are essential for coronavirus replication and function 13, 34 . RdRP is responsible for catalyzing the replication of all viral mRNAs and Nucleocapsid binds to genomic RNA, protecting it and serving as one of the two main structural proteins in virions. Targeted inhibition of these proteins could have an outsized effect on disabling virus production and function, in addition to reducing viral load through degradation of the viral genome itself. For IAV, the crRNAs that showed the best viral inhibition target the conserved ends of the segment S6 that encodes Neuraminidase (NA), a viral surface protein essential for mediating budding of new virions 35 . Prior mutation analysis has shown that mutating the packaging signals of one segment end leads to decreased packaging of other segments, indicating that there is a cooperative mechanism for packaging the IAV genome 18 . Thus, by inhibiting a single IAV genome segment, we could reduce the overall packaging of IAV in a synergistic fashion.",
+            "cite_spans": [
+                {
+                    "start": 259,
+                    "end": 262,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 263,
+                    "end": 265,
+                    "text": "34",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 859,
+                    "end": 861,
+                    "text": "35",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION AND PERSPECTIVES"
+        },
+        {
+            "text": "Notably, the SARS-CoV-2 RdRP gene and IAV NA gene that we targeted in our study are also the targets of two antiviral drugs, Remdesivir and Oseltamivir. Remdesivir, created by Gilead Sciences (development code GS-5734), is an RdRP inhibitor that was developed to treat Ebola and Marburg virus infections and has been reported to have antiviral activity against MERS and SARS 36-38 . Remdesivir is already administered for COVID-19 through compassionate use requests, and clinical trials for its use against COVID-19 have already started in the U.S.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION AND PERSPECTIVES"
+        },
+        {
+            "text": "(clinical trial ID NCT04280705) and China. Oseltamivir (also known as Tamiflu), is an antiviral medication for treating and preventing IAV that acts as an inhibitor of NA, thereby preventing the egress of new viral particles 39 . It will be interesting to see if these drugs could be used in combination with Cas13d PAC-MAN to synergistically cripple viral function and replication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION AND PERSPECTIVES"
+        },
+        {
+            "text": "While we demonstrate that the PAC-MAN system is able to exhibit strong repression of viral sequences in an in vitro setting, it must be coupled with an effective in vivo delivery system for therapeutic use. There are several potential strategies that could be employed for transient in vivo expression of CRISPR components. Cas13d and its cognate crRNAs could be delivered as RNAs within polymers or lipid nanoparticles, perhaps with chemical alterations to increase stability 40 . In addition, a DNA-based liposomal delivery strategy, such as the recently developed HEDGES platform is also attractive 41 . Yet another strategy would be to deliver a author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 477,
+                    "end": 479,
+                    "text": "40",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION AND PERSPECTIVES"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript 13 ribonucleoprotein complex containing purified Cas13d assembled with crRNAs 42, 43 . All of these could potentially be used both as a therapeutic and as a prophylactic measure.",
+            "cite_spans": [
+                {
+                    "start": 247,
+                    "end": 257,
+                    "text": "Manuscript",
+                    "ref_id": null
+                },
+                {
+                    "start": 336,
+                    "end": 339,
+                    "text": "42,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 340,
+                    "end": 342,
+                    "text": "43",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION AND PERSPECTIVES"
+        },
+        {
+            "text": "If the delivery barriers are overcome and a strategy like this is able to be used therapeutically, there are many potential benefits over traditional vaccines. Traditional vaccines rely on priming the immune system through exposure to viral proteins or peptides often derived from surface proteins that exhibit a high rate of mutation, which increased the chances of viral evasion of the host immune response 44 . In contrast, here we have demonstrated a genetic strategy that is able to target highly conserved regions, which would be expected to make it much more unlikely for the virus to escape inhibition through mutation. In addition, the ability of Cas13d to process its own crRNAs from a crRNA array means that multiple crRNAs targeting different regions (e.g. Fig. 3E , and PAC-MAN-T6 in Fig. 5A ) could be delivered simultaneously 9 , further reducing the chances of viral escape. As a further advantage, we demonstrate a potential pan-coronavirus strategy to target not only viruses that circulate in humans, but also those that currently are found in animal reservoirs that might transfer to humans to cause disease. If the crRNAs targeting these viruses can be tested and validated before they ever infect humans, we can greatly accelerate the development of countermeasures for future emergent threats.",
+            "cite_spans": [
+                {
+                    "start": 409,
+                    "end": 411,
+                    "text": "44",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 769,
+                    "end": 776,
+                    "text": "Fig. 3E",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 797,
+                    "end": 804,
+                    "text": "Fig. 5A",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "DISCUSSION AND PERSPECTIVES"
+        },
+        {
+            "text": "In summary, our PAC-MAN strategy represents a potentially powerful new approach for inhibiting viral function and replication, and we envision it could be useful for a diverse array of circulating and emergent viral threats.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION AND PERSPECTIVES"
+        },
+        {
+            "text": "47 complete SARS-CoV-2 assemblies were downloaded from (https://www.ncbi.nlm.nih.gov/genbank/2019-ncov-seqs/) on February 21, 2020. All the other 3,108 Coronavirinae complete genome sequences were downloaded from ViPR (Virus Pathogen Resource) database on February 21, 2020. After excluding very short genomes, we collected in total 3,051 Coronavirinae virus genomes. 202 SARS-CoV-2 genome sequences were downloaded from GISAID (Global Initiative on Sharing All Influenza Data; https://www.gisaid.org/).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Genome Sequences Collection"
+        },
+        {
+            "text": "We developed a full computational workflow to design crRNAs for the Cas13d system. To design all possible crRNAs for the three pathogenic RNA viruses (SARS-CoV-2, SARS-CoV, and MERS-CoV), the reference genomes of SARS-CoV, MERS-CoV, along with SARS-CoV-2 genomes derived from 47 patients were first aligned by MAFFT using the --auto flag. crRNA candidates were identified by using a sliding window to extract all 22 nt sequences with perfect identity among the SARS-CoV-2 genomes. We annotated each crRNA candidate with the number of mismatches relative to the SARS-CoV and MERS-CoV genomes, as well as the GC content. 3,802 crRNA candidates were selected with perfect match against the 47 SARS-CoV-2 genomes and with \u22641 mismatch to SARS-CoV or MERS-CoV sequences. To characterize the specificity of 22nt crRNAs, we ensured that crRNA do not target any sequences in the human transcriptome. We used Bowtie 1.2.2 to align crRNAs to the human transcriptome (HG38; including non-coding RNA) and removed crRNAs that mapped to the human transcriptome with fewer than 2 mismatches.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "High-throughput crRNA Design"
+        },
+        {
+            "text": "We maximized the vertical coverage of pooled crRNAs to target a maximal set of the 3,051 Coronavirinae viruses with a minimal set of crRNAs. A sliding window was used to extract all unique 22 nt sequences in the Coronavirinae genomes, yielding 6,480,955 unique crRNA candidates. A hash table was used to map each crRNA candidate to the number of Coronavirinae genomes that it targets with a perfect match. A greedy algorithm was used to identify a minimal set of covering crRNAs. In each iteration, the crRNAs were sorted in descending order by the number of genomes targeted. The crRNA that targeted the most genomes was added to the minimal set of crRNAs, and all of the genomes it targeted were removed from the hash table values. If multiple crRNAs were tied for targeting the most genomes, the crRNAs were ranked by the length and quantity of stretches of repeated nucleotides, and the lowest ranking crRNA (i.e. the one with the fewest, shortest stretches of repeated nucleotides) was added to the set of minimal crRNAs. Using this approach, a set of 22 crRNAs was identified that was able to target all 3150 Coronavirinae virus genomes (including 47 SARS-CoV-2). The phylogenetic tree and the associated annotations were generated by the Interactive Tree Of Life (iTOL v5.5; https://itol.embl.de/).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Computational identification of minimal set of crRNAs for pan-coronavirus targeting"
+        },
+        {
+            "text": "All the complete SARS-CoV-2 genome sequences were aligned with the SARS-CoV and MERS-CoV NCBI Refseq sequences by MAFFT using the --auto flag. The alignment was visualized using the Geneious Prime software (Geneious 2020.0.4; https://www.geneious.com).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conservation Plot Creation"
+        },
+        {
+            "text": "author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conservation Plot Creation"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conservation Plot Creation"
+        },
+        {
+            "text": "A consensus nucleotide (which is shared by >50% of non-gap characters at the given position) was assigned to each position in the alignment. Not every position has a consensus nucleotide.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conservation Plot Creation"
+        },
+        {
+            "text": "The percent conservation at each position was calculated as the percentage of sequences matching the consensus at that position. To aid interpretation, the resulting plot of percentage conservation was smoothed using a moving average with a window size of 1,001 bp centered at each position. Positions corresponding to gap characters in the SARS-CoV-2 reference sequence were omitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conservation Plot Creation"
+        },
+        {
+            "text": "The crRNA plasmids were cloned using standard restriction-ligation cloning. Forward and reverse oligos for each spacer (IDT) were annealed and inserted into backbone using T4 DNA Ligase (NEB). Assembled oligos were either inserted into a pHR or pUC19 backbone, obtained and modified from Addgene (#121514 and #109054, respectively). Spacer sequences for all crRNAs can be found in Supplemental Table 2 and 6.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 394,
+                    "end": 401,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Design and cloning of RdRP-and Nucleocapsid-targeting crRNAs"
+        },
+        {
+            "text": "To clone SARS-CoV-2 reporters, pHR-PGK-scFv GCN4-sfGFP (pSLQ1711) was digested with EcoR1 and Sbf1 and gel purified. The PGK promoter and sfGFP were PCR amplified from pSLQ1711 and gel purified. The SARS-CoV-2-F1 and SARS-CoV-2-F2 fragments were synthesize from Integrated DNA Technologies (IDT). At last, the PGK, sfGFP, and SARS-CoV-2-F1/F2 fragments were inserted into the linearized pSLQ1711 vector using In-Fusion cloning (Takara Bio).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Design and cloning of SARS-CoV-2 reporters"
+        },
+        {
+            "text": "On day 1, one confluent 100mm dish (Corning) of HEK293T cells were seeded into three 150mm dishes (Corning). On day 2, cells were ~50-70% confluent at the time of transfection. For A549 cells, lentivirus precipitation solution (Alstem) was added and precipitated as per the manufacturer's protocol. One well of a 6-well plate (Corning) of A549 cells at ~50% confluency were transduced with the precipitated lentivirus. After 2-3 days of growth, the cell supernatant containing virus was removed and the cells were expanded. Cells were then sorted for mCherry+ cells using a Sony SH800S cell sorter. Table S2 ). On day 3, cells were switched to fresh medium with Puromycin at 2 ug/mL. Twenty-four hours after Puromycin selection, cells with transfected crRNAs were challenged with SARS-CoV-2 reporter plasmids or SARS-CoV-2 reporter lentivirus. Twenty-four hours after transfection or 48 hours after transduction, cells were tested using flow cytometry on a Beckman-Coulter CytoFLEX S and qRT-PCR on a Biorad author/funder. All rights reserved. No reuse allowed without permission. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 599,
+                    "end": 607,
+                    "text": "Table S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Lentiviral packaging and stable cell line generation"
+        },
+        {
+            "text": "The PR8 mNeon IAV was generated by insertion of the mNeon fluorescent gene into segment 4 of the H1N1 A/Puerto Rico/8/1934 strain (Nicholas Heaton's Lab, Duke University) as previously described . The PR8-mNeon virus was propagated in chicken eggs, and harvested allantoic fluid containing the virus was titered using MDCK plaque assays, and frozen in aliquots for later use.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation and titering of PR8 mNeon IAV"
+        },
+        {
+            "text": "3.1x10 6 Cas13d A549 cells were plated in two 100 mm dishes. The following day, the cells were transfected with 15 \u03bcg pooled crRNAs targeting the IAV genome or non-targeting controls (Supplemental Table 6 ) in 1.5 mL Opti-MEM reduced serum media and 30 \u03bcL Mirus LT1 reagent. After approximately 24 hours, the transfected Cas13d A549 cells were dissociated and re-plated in 24-well plates at a density of 15-20,000 cells/well and incubated overnight. Flow cytometry was performed on excess cells to quantify the transfection efficiency. Cells were challenged overnight with mNeonGreen expressing H1N1 A/Puerto Rico/8/1934 at an MOI of 2.5 and 5. Uninfected cells were included as a negative control. An independent two-tailed T test was used to calculate the p values and statistics in Fig. 4C-D. author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 197,
+                    "end": 204,
+                    "text": "Table 6",
+                    "ref_id": null
+                },
+                {
+                    "start": 785,
+                    "end": 795,
+                    "text": "Fig. 4C-D.",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "IAV challenge experiments"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IAV challenge experiments"
+        },
+        {
+            "text": "Real-time qRT-PCR was performed to quantify RNA abundance. For each sample, total RNA was isolated by using the RNeasy Plus Mini Kit (Qiagen Cat# 74134), followed by cDNA synthesis using the iScript cDNA Synthesis Kit (BioRad, Cat# 1708890). qRT-PCR primers were ordered from Integrated DNA Technologies (IDT). Quantitative PCR was performed using the PrimePCR assay with the SYBR Green Master Mix (BioRad), and run on a Biorad CFX384 realtime system (C1000 Touch Thermal Cycler), according to manufacturers' instructions. Cq values were used to quantify RNA abundance. The relative abundance of the SARS-CoV-2 fragments was normalized to a GAPDH internal control.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quantitative RT-PCR (qRT-PCR)"
+        },
+        {
+            "text": "Microscopy for SARS-CoV-2 experiments was performed on a Nikon TiE inverted confocal microscope equipped with an Andor iXon Ultra-897 EM-CCD camera and 405 nm, 488 nm, 561 nm and 642 nm lasers, using the 20x PLAN APO air objective (NA = 0.75). Image were taken using NIS Elements version 4.60 software. Microscopy for IAV experiments was performed on a Keyence BZ-X810 microscope equipped with a GFP and Texas Red filter was used to obtain images with a 20X objective lens.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microscopy"
+        },
+        {
+            "text": "A549 cells that express Cas13d and are transfected with crRNAs and challenged with PR8 mNeon virus were washed with 1X PBS, treated with 1X Trypsin EDTA and fixed in 1.6% paraformaldehyde in PBS for 10 minutes. Cells were washed with FACS buffer (1X PBS, 0.3% BSA, 1mM EDTA). BD Accuri C6 plus flow cytometer was used to collect raw data. Raw data were processed with Cytobank (BD) software.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Flow Cytometry"
+        },
+        {
+            "text": "author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Flow Cytometry"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Flow Cytometry"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A review of studies on animal reservoirs of the SARS coronavirus",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Virus Res",
+            "volume": "133",
+            "issn": "",
+            "pages": "74--87",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Middle East Respiratory Syndrome Coronavirus (MERS-CoV) origin and animal reservoir",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mohd",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Al-Tawfiq",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Memish",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Virol. J",
+            "volume": "",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12985-016-0544-0"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Bats are natural reservoirs of SARS-like coronaviruses. Science (80-. )",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "310",
+            "issn": "",
+            "pages": "676--679",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "On the origin and continuing evolution of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Natl. Sci. Rev",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nsr/nwaa036/5775463"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Overlapping and discrete aspects of the pathology and pathogenesis of the emerging human pathogenic coronaviruses SARS-CoV, MERS-CoV, and 2019-nCoV",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Med. Virol",
+            "volume": "1",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25709"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The spike protein of SARS-CoV -A target for vaccine and therapeutic development",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nat. Rev. Microbiol",
+            "volume": "7",
+            "issn": "",
+            "pages": "226--236",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Glycoconjugate vaccines: Principles and mechanisms",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rappuoli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci. Transl. Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Transcriptome Engineering with RNA-Targeting Type VI-D CRISPR Effectors",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Konermann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cell",
+            "volume": "173",
+            "issn": "",
+            "pages": "665--668",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Cas13d Is a Compact RNA-Targeting Type VI CRISPR Effector Positively Modulated by a WYL-Domain-Containing Accessory Protein",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Mol. Cell",
+            "volume": "70",
+            "issn": "",
+            "pages": "327--339",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Nucleic acid detection with CRISPR-Cas13a/C2c2. Science",
+            "authors": [
+                {
+                    "first": "Jonathan",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gootenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "Omar",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Abudayyeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Patrick",
+                    "middle": [],
+                    "last": "Essletzbichler",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aaron",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julia",
+                    "middle": [],
+                    "last": "Joung",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nina",
+                    "middle": [],
+                    "last": "Donghia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nichole",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Daringer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Catherine",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Freije",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Roby",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bhattacharyya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jonathan",
+                    "middle": [],
+                    "last": "Livny",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "356",
+            "issn": "",
+            "pages": "438--442",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Cas13b Is a Type VI-B CRISPR-Associated RNA-Guided RNase Differentially Regulated by Accessory Proteins Csx27 and Csx28",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Smargon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Mol. Cell",
+            "volume": "65",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan. Emerg. Microbes &amp",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "221--236",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The outbreak of SARS-CoV-2 pneumonia calls for viral vaccines",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41541-020-0170-0"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Replication-competent influenza a viruses expressing reporter genes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Breen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nogales",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mart\u00ednez-Sobrido",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Viruses",
+            "volume": "8",
+            "issn": "",
+            "pages": "1--28",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Single-Reaction Genomic Amplification Accelerates Sequencing and Vaccine Production for Classical and Swine Origin Human Influenza A Viruses",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Virol. author/funder. All rights reserved",
+            "volume": "",
+            "issn": "",
+            "pages": "10309--10313",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.13.991307"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Hierarchy among Viral RNA (vRNA) Segments in Their Role in vRNA Incorporation into Influenza A Virions",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Muramoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Virol",
+            "volume": "80",
+            "issn": "",
+            "pages": "2318--2325",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Nucleotide sequences at the 5\u2032 termini of influenza virus RNAs and their transcripts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Skehel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hay",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Nucleic Acids Res",
+            "volume": "5",
+            "issn": "",
+            "pages": "1207--1219",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The 3' and 5'-terminal sequences of influenza A, B and C virus RNA segments are highly conserved and show partial inverted complementarity",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Desselberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Racaniello",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zazra",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                }
+            ],
+            "year": 1980,
+            "venue": "Gene",
+            "volume": "8",
+            "issn": "",
+            "pages": "315--328",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Influenza A Virus Assembly Intermediates Fuse in the Cytoplasm",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lakdawala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS Pathog",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Selective packaging of the influenza A genome and consequences for genetic reassortment",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gerber",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Isel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Moules",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Marquet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Trends Microbiol",
+            "volume": "22",
+            "issn": "",
+            "pages": "446--455",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Selective incorporation of influenza virus RNA segments into virions",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fujii",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Goto",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yoshida",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kawaoka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "100",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Nucleotide resolution mapping of influenza A virus nucleoprotein-RNA interactions reveals RNA features required for replication",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat. Commun",
+            "volume": "9",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Rationally designed influenza virus vaccines that are antigenically stable during growth in eggs",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Harding",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Heaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dumm",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Heaton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "MBio",
+            "volume": "8",
+            "issn": "",
+            "pages": "1--16",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "A bright monomeric green fluorescent protein derived from Branchiostoma lanceolatum",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Shaner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat. Methods",
+            "volume": "10",
+            "issn": "",
+            "pages": "407--409",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A CRISPR Activation Screen Identifies a Pan-avian Influenza Virus Inhibitory Host Factor",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Heaton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cell Rep",
+            "volume": "20",
+            "issn": "",
+            "pages": "1503--1512",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Cas13d Is a Compact RNA-Targeting Type VI CRISPR Effector Positively Modulated by a WYL-Domain-Containing Accessory Protein",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--19",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.molcel.2018.02.028"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Multiplexed and portable nucleic acid detection platform with Cas13, Cas12a and Csm6. Science (80-. )",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gootenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "360",
+            "issn": "",
+            "pages": "439--444",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Programmable Inhibition and Detection of RNA Viruses Using Cas13",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Freije",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Mol. Cell",
+            "volume": "76",
+            "issn": "e11",
+            "pages": "826--837",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Dynamic Imaging of RNA in Living Cells by CRISPR-Cas13 Systems",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Mol. Cell",
+            "volume": "76",
+            "issn": "",
+            "pages": "981--997",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "CRISPR-mediated live imaging of genome editing and transcription. Science (80-. )",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "365",
+            "issn": "",
+            "pages": "1301--1305",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The coronavirus nucleocapsid is a multifunctional protein",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mcbride",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Van Zyl",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fielding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Viruses",
+            "volume": "6",
+            "issn": "",
+            "pages": "2991--3018",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Influenza virus neuraminidase structure and functions",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gilbertson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Trifkovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mckimm-Breschkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front. Microbiol",
+            "volume": "10",
+            "issn": "",
+            "pages": "26--32",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "No reuse allowed without permission. The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.13.991307"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Prophylactic and therapeutic remdesivir (GS-5734) treatment in the rhesus macaque model of MERS-CoV infection",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Wit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc. Natl. Acad. Sci. 201922083",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1922083117"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Therapeutic efficacy of the small molecule GS-5734 against Ebola virus in rhesus monkeys",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Warren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nature",
+            "volume": "531",
+            "issn": "",
+            "pages": "381--385",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "The antiviral compound remdesivir potently inhibits RNA-dependent RNA polymerase from Middle East respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Tchesnokov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Porter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gotte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Biol Chem jbc",
+            "volume": "120",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1074/jbc.AC120.013056"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Oseltamivir, zanamivir and amantadine in the prevention of influenza: A systematic review",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Infect",
+            "volume": "62",
+            "issn": "",
+            "pages": "14--25",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Chemically modified guide RNAs enhance CRISPR-Cas genome editing in human primary cells",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hendel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nat. Biotechnol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Durable multitransgene expression in vivo using systemic, nonviral DNA delivery",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Handumrongkul",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci. Adv",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Rational designs of in vivo CRISPR-Cas delivery systems",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Adv. Drug Deliv. Rev",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.addr.2019.11.005"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Systems of Delivery of CRISPR/Cas9",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Amirkhanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stepanov",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Ribonucleoprotein Complexes for Genome Editing",
+            "authors": [],
+            "year": 2019,
+            "venue": "Russ. J. Bioorganic Chem",
+            "volume": "45",
+            "issn": "",
+            "pages": "431--437",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Influenza vaccine: The challenge of antigenic drift",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Carrat",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Flahault",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Vaccine",
+            "volume": "25",
+            "issn": "",
+            "pages": "6852--6862",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "The hypothetical life cycle of SARS-CoV-2 and the PAC-MAC approach for anti-COVID-19. (A) A hypothetical life cycle of SARS-CoV-2 based on what is known about other coronavirus life cycles. SARS-CoV-2 virions bind to the ACE2 receptor on the surface of cells via interactions with the Spike protein. Upon viral release, the positive strand RNA genome serves as a template to make negative strand genomic and subgenomic templates, which are used to produce more copies of the positive strand viral genome and viral mRNAs. (B) Cas13d can inhibit viral function and replication by directly targeting and cleaving all viral positive-sense RNA.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Bioinformatic analysis of CRISPR-Cas13d target sites for SARS-CoV-2 and the PAC-MAN system design. (A) Alignment of sequences from SARS-CoV-2 genomes from 47 patients along with SARS-and MERS-causing coronaviruses. Top: predicted abundance of crRNAs that are able to target SARS-CoV-2 genomes and SARS or MERS; Middle: annotation of genes in the SARS-CoV-2 genomes, along with conserved regions chosen to be synthesized into the SARS-CoV-2 reporters (in magenta and purple). Color regions indicate the synthesized SARS-CoV-2 fragments; Bottom: the percent of conservation between aligned viral genomes. See Supplemental",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "for synthesized SARS-CoV-2 fragments. (B) Schematic of the two reporters (SARS-CoV-2-F1/F2) created with synthesized viral sequences. SARS-CoV-2-F1 contains GFP fused to a portion of RdRP (RdRP-F1) and SARS-CoV-2-F2 contains GFP fused to portions of both RdRP (RDRP-F2) and N. (C) Schematics for the constructs used to express Cas13d or its crRNAs. (D) Workflow used to challenge Cas13d A549 lung epithelial cells with SARS-CoV-2 reporters.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "CRISPR PAC-MAN can effectively inhibit SARS-CoV-2 reporters. (A-B) Left, schematics of pools of crRNAs targeting the SARS-CoV-2-F1 (A) or F2 (B) reporters for transfection. Middle, GFP expression as measured by flow cytometry. Right, mRNA abundance as measured by qRT-PCR. (C) GFP expression when SARS-CoV-2-F1 (left) or SARS-CoV-2-F2 (right) is delivered via lentiviral transduction. MOI = 0.5. (D) RNA abundance when SARS-CoV-2-F1 (left) or SARS-CoV-F2 (right) is delivered via lentiviral transduction. MOI = 0.5. (E) GFP expression levels when using pools of crRNAs tiling across SARS-CoV-2-F1 or F2 reporters. Red, SARS-CoV-2-F1 reporter; blue, SARS-CoV-2-F2 reporter. NT, non-targeting crRNA controls. P values for A-B crRNA groups are shown in Supplemental",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Inhibition of IAV infection using CRISPR PAC-MAN. (A) Workflow used to challenge Cas13d A549 lung epithelial cells with PR8 mNeon IAV. (B) Screen of pools of 6 crRNAs targeting each of the eight IAV genome segments. % of mNeon+ cells in each of the eight crRNA conditions are compared to a pool of non-targeting (NT) crRNAs at an MOI of 2.5 (left) or 5 (right). (C) Microscopy quantification of % of mNeon+ cells per field of view (FOV) at an MOI of 2.5 (p = 1x10 -5 , left) and 5 (p = 5x10 -9 , right). Each dot represents the % for a single microscopy FOV. N = 48 FOV. (D) Flow cytometry evaluation of % of mNeon+ cells at an MOI of 2.5 (p = 0.04, left) and 5 (p = 0.006, right). N = 6 biological samples.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Pan-coronavirus targeting using a minimal pool of PAC-MAN crRNAs. (A) A view of the phylogenetic tree of all sequenced coronaviruses, organized by genus of strains. The inner ring depicts coverage by each of the top 6 (PAC-MAN-T6) crRNAs targeting all human coronaviruses. The outer ring shows current species of coronaviruses that are infectious to humans, including COVID-19 (red). (B) A histogram showing the minimum number of predicted crRNAs it takes to cover a maximum number of coronavirus genomes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "For each dish, 27.18 \u03bcg of pHR vector containing the construct of interest, 23.76 \u03bcg of dR8.91 and 2.97 \u03bcg of pMD2.G (Addgene) were mixed in 4.5 mL of Opti-MEM reduced serum media (Gibco) with 150 \u03bcL of Mirus TransIT-LT1 reagent and incubated at room temperature for 30 minutes. The transfection complex solution was distributed evenly to HEK293T cultures dropwise. On day 5, lentiviruses are harvested from the supernatant with a sterile syringe and filtered through a 0.22-\u03bcm polyvinylidene fluoride filter (Millipore).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "3D: On day 1, A549 cells stably expressing were seeded at a density of 60,000 cells per well in a 12-well plate. On day 2, cells were transduced with pooled crRNAs targeting specific regions on SARS-CoV-2 (Supplemental",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991307 doi: bioRxiv preprint Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza Abbott et al. Manuscript CFX384 real-time system. Statistical analyses were done using a two-sided t-test with unequal variance in Excel to calculate p values. Fig. 3E: On day 0, 30,000 wildtype A549 cells and 30,000 A549 cells stably expressing Cas13d (hereafter referred to as Cas13d A549) were plated in 24-well plates (Corning). On day 1, Cas13d A549 cells were transfected with two pools of five crRNAs targeting the two SARS-CoV-2 reporters or a non-targeting crRNA along with the respective SARS-CoV-2 reporters in an equimolar ratio using Mirus LT1 reagent (50 \u03bcL Opti-MEM reduced serum media, 0.136 \u03bcg crRNA pool, 0.364 \u03bcg SARS-CoV-2 reporter, 1 \u03bcL Mirus LT1 per well). Wildtype cells were transfected with either the crRNA pools or SARS-CoV-2 reporter plasmids as compensation controls. GFP expression was measured on day 3 by flow cytometry on a Beckman-Coulter CytoFLEX S instrument. Statistical analyses were done using a two-sided t-test with unequal variance in Excel to calculate p values.On day 0, Lenti-X 293T cells (Takara Bio) were seeded to 1:6 from a 100 mm dish in a 150 mm dish. The following day, Lenti-X 293T cells were transfected with 27.18 \u03bcg of SARS-CoV-2 reporter, 23.76 \u03bcg of dR8.91 and 2.97 \u03bcg of pMD2.G (Addgene) in 4.5 mL of Opti-MEM reduced serum media (Gibco) with 150 \u03bcL of Mirus TransIT-LT1 reagent. 30,000 Cas13d A549 and wildtype A549 cells were also seeded in 24-well plates. On day 2, A549 cells were transfected with pools of targeting crRNAs or a non-targeting guide (50 \u03bcL Opti-MEM reduced serum media, 0.5 \u03bcg crRNA pool, 1 \u03bcL Mirus LT1 per well). On day 3, lentiviruses are harvested from the supernatant with a sterile syringe and filtered through a 0.22-\u03bcm polyvinylidene fluoride filter and precipitated with lentivirus precipitation solution and resuspended in 7 mL DMEM media. The media on the cells was replaced with either fresh media for the compensation controls or 0.5 mL virus-containing media at the following dilutions for the experimental conditions: undiluted, 1/2 dilution, 1/3 dilution, and 1/4 dilution. On day 4, the media on all the cells was replaced with 0.5 mL fresh DMEM. On day 5, cells were measured by flow cytometry and assessed for GFP knockdown. Statistical analyses were done using a two-sided t-test with unequal variance in Excel to calculate p values.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank all members from Lei S. Qi lab and David Lewis lab for facilitating experiments and useful discussions. The authors thank the researchers who generated and contributed the SARS-CoV-2 sequence data to GISAID (https://www.gisaid.org/). ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGEMENTS"
+        },
+        {
+            "text": "There are provisional patents filed via Stanford University related to the work. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COMPETING FINANCIAL INTERESTS"
+        }
+    ]
+}

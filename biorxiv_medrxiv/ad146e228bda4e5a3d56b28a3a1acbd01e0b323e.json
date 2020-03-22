@@ -1,0 +1,477 @@
+{
+    "paper_id": "ad146e228bda4e5a3d56b28a3a1acbd01e0b323e",
+    "metadata": {
+        "title": "Modelling the epidemic 2019-nCoV event in Italy: a preliminary note",
+        "authors": [
+            {
+                "first": "Marco",
+                "middle": [
+                    "Claudio"
+                ],
+                "last": "Traini",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e0 degli Studi di Trento",
+                    "location": {
+                        "addrLine": "Via Sommarive 14",
+                        "postCode": "I-38123",
+                        "settlement": "Trento-Povo",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Carla",
+                "middle": [],
+                "last": "Caponi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Azienda Ospedaliero-Universitaria Piazzale Gambuli 1",
+                    "location": {
+                        "postCode": "06132",
+                        "settlement": "Perugia",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Giuseppe",
+                "middle": [],
+                "last": "Vittorio",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "De",
+                "middle": [],
+                "last": "Socio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Azienda Ospedaliero-Universitaria Piazzale Gambuli 1",
+                    "location": {
+                        "postCode": "06132",
+                        "settlement": "Perugia",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Late December 2019 health facilities reported cluster of patients with pneumonia of unknown origin epidemiologically linked to a seafood and wet animal wholesale market in Wuhan China. A new previous unknown betacoronavirus was discovered and identified as the etiologic agent of this new pneumonia diagnosed in Wuhan [1] . Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases. The new virus was provisory named 2019-nCoV by World Health Organizzation on 12 January 2020 [2] and sun after the Coronavirus Study Group (CSG) based on phylogeny, taxonomy and established practice, formally recognized this virus as a sister to severe acute respiratory syndrome coronaviruses (SARS-CoVs) of the species Severe acute respiratory syndrome-related coronavirus and designates it as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) [3] . The outbreak of the SARS-CoV-2 due to the global spread has been defined pandemia on March 11, 2020. In Europe Italy is becoming a particularly alarming and interesting place to study the evolution of the epidemic also thanks to the rapid reaction of the Italian Health organizations and the relevant control measure to prevent transmission adopted. Based on Chinese experience and the estimation of transmission rate published by Tang B et al.. [4] . Here we develop models for the evolution of the SARS-CoV-2 during the early stages of transmission in Italy; models which may be useful for inference, forecasting or scenario analysis. Despite the fact that epidemic is changing rapidly and our results have been considered preliminary, the models we are using are considered strongly predictive and useful for the interpretation of such an unexpected event in a country like Italy.",
+            "cite_spans": [
+                {
+                    "start": 318,
+                    "end": 321,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 904,
+                    "end": 907,
+                    "text": "[3]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1356,
+                    "end": 1359,
+                    "text": "[4]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "A. The SEIR model and its limiting approximation",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. DETERMINISTIC MODELS"
+        },
+        {
+            "text": "In the SEIR framework [5] , individuals in the population are classified according to their infectious status: Susceptible (S), Exposed (E) (infected but not infectious), Infectious (I) and Recovered (R). In the case of a new infection (as in the present case) the population has no prior immunity, consequently the population starts out at the disease-free equilibrium (S \u2248 N, E = 0, I = 0, R = 0), where N is the total population size, and the dynamics are determined by the following equations describing the rates of change of each simplified classes:",
+            "cite_spans": [
+                {
+                    "start": 22,
+                    "end": 25,
+                    "text": "[5]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. DETERMINISTIC MODELS"
+        },
+        {
+            "text": "(1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. DETERMINISTIC MODELS"
+        },
+        {
+            "text": "After introduction of an infectious individual (and if the basic reproductive ratio, R 0 = \u03b2/\u03b3, is greater than 1), the infection develops through the population by contacts between susceptible and infected individuals to sustain further transmission. Neglecting background birth and death processes (because of the short period analyzed w.r.t. the typical vital periods), the population eventually reaches the following state (S = S \u221e , E = 0, I = 0,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. DETERMINISTIC MODELS"
+        },
+        {
+            "text": "The SIR model is a limiting case of the previous framework and assumes E + I \u2192 I at any time, without dis-. CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. DETERMINISTIC MODELS"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20034884 doi: medRxiv preprint tinguishing the classes E and I. The previous equations reduce to",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. DETERMINISTIC MODELS"
+        },
+        {
+            "text": "In Fig. 1 we show the available data [6, 7] for the initial period February 20th -March 11th (21 days) and their comparison with the simplest SIR approximation (5), (6) , and (7) (iteratively solved by means of a MATLAB code) for a first intuitive analysis. The continuous black curve shows the solution assuming a I(0) = 3 number of infectious individuals at day=0, exactly equivalent to the official detected cases at the same day. No attention is paid to a best fit of the data, also because they are rather sparse, however the quality of the simple (SIR) model is evident also at the first stages of the epidemic. The parameter values sound also reasonable: with a recovering average time T r = 7 days (\u03b3 = 1/T r ) and R 0 = 3.4 and no further corrections: a brilliant example of the predictive force of the SIR model. However Fig. 1 has a more specific aim: showing the rather delicate r\u00f4le played by a possible underestimation of the infectious individual at the early stages of the infection outbreak. In fact one can assumes a different (possible) scenario based on the difficulty of a precise estimation of the initial number of infectious individuals. Such a possible scenario is illustrated by the the full blue curve showing a prediction which results from a misleading estimation of I(0). The effective number of initial infectious is 30 times larger (I(0) = 90), but the curve has been translated to a fictitious\u012a(0) = 3, the reveled number, from the dashed mathematical result. A change in R 0 from R 0 = 3.4 to R 0 = 1.7 would give a reason- able fit of the early stage of the outbreak. The effect is rather well known as discussed in ref. [8] in the case of the epidemic event in China. In that case a proposed exponential fit of the precocious data (January 10th to January 24th) results in a values of R 0 \u2248 3.58 which is reduced to R 0 \u2248 2.24 is the associated initial condition on I(0) is multiplied by an increasing factor from 2 to 8. In Fig. 2 we show the time behavior of the infectious population within the simple SIR model of Eqs. (5)-(7) (T r = 1/\u03b3 = 7 days, R 0 = 3.4) both in logarithmic (upper panel) and linear scale (lower panel). The data are the data of Fig. 1 .",
+            "cite_spans": [
+                {
+                    "start": 37,
+                    "end": 40,
+                    "text": "[6,",
+                    "ref_id": null
+                },
+                {
+                    "start": 41,
+                    "end": 43,
+                    "text": "7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 165,
+                    "end": 168,
+                    "text": "(6)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1656,
+                    "end": 1659,
+                    "text": "[8]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 9,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 831,
+                    "end": 837,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1961,
+                    "end": 1967,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2190,
+                    "end": 2196,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "II. DETERMINISTIC MODELS"
+        },
+        {
+            "text": "The exponential behavior predicted by the model in the growing part of the outbreak description is evident and can be compared with the recent fit to the data by . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. DETERMINISTIC MODELS"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20034884 doi: medRxiv preprint Bucci and Marinari in ref. [9] . While the present simplified SIR model predict a doubling infectious population each (roughly) 2 days, the Roma fit [9] gives an estimation of 2.6 days (see Fig. 3 ).",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 174,
+                    "text": "[9]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 293,
+                    "end": 296,
+                    "text": "[9]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 334,
+                    "end": 340,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "II. DETERMINISTIC MODELS"
+        },
+        {
+            "text": "The model [4] is a generalized SEIR-type epidemiological model which incorporates appropriate compartments relevant to intervention such as quarantine, isolation and treatment. The population is stratified in Susceptible ",
+            "cite_spans": [
+                {
+                    "start": 10,
+                    "end": 13,
+                    "text": "[4]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. A Quarantined model with isolation"
+        },
+        {
+            "text": "The authors of ref. [4] have calibrated the model on the data of the 2019-nCoV as emerged in Wuhan the last two months, therefore in a situations that has the same basic parameters. In table I The results are shown in Figs 4 and 5. The drastic reduction of the infectious population is evident as well as the long tail of the distribution.",
+            "cite_spans": [
+                {
+                    "start": 20,
+                    "end": 23,
+                    "text": "[4]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 185,
+                    "end": 192,
+                    "text": "table I",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "B. A Quarantined model with isolation"
+        },
+        {
+            "text": "The quarantine imposed to the infectious individuals, the effects of an intensive contact tracing and isolation reduce the maximum value of the distribution by a factor \u223c 26 (see Fig. 5 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 179,
+                    "end": 185,
+                    "text": "Fig. 5",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "B. A Quarantined model with isolation"
+        },
+        {
+            "text": "The present calculation strongly supports the interventions and restrictions adopted in Italy to reduce the outbreak of the infectious population of the 2019-nCoV. . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. CONCLUSIONS"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20034884 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. CONCLUSIONS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China Novel Coronavirus Investigating and Research Team",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--733",
+            "other_ids": {
+                "PMID": [
+                    "31978945"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Severe acute respiratory syndrome-related coronavirus: The species and its viruses a statement of the Coronavirus Study Group",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.07.937862"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions",
+            "authors": [
+                {
+                    "first": "Biao",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Clin. Med",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/jcm9020462"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Modeling Infectious Diseases in Humans and Animals, Matthew James Keeling and Pejman Rohani",
+            "authors": [],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak",
+            "authors": [
+                {
+                    "first": "Shi",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "92",
+            "issn": "",
+            "pages": "214--217",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.01.050"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Considerazioni sull'evoluzione in corso dell'epidemia da nuovo coronavirus SARS-COV-2 in Italia",
+            "authors": [
+                {
+                    "first": "Enrico",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "Enzo",
+                    "middle": [],
+                    "last": "Marinari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Patto Trasversale per la Scienza",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "(color on line). The data cases as detected in Italy in the period February 20th (day=0) and March 11th (day = 20) (Ministero della Salute[6,7]), compared with the prediction of few deterministic models, see text.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "(color on line) upper panel Behavior (in logarithmic scale) of the number of infectious individuals in Italy within the SIR model and the comparison with available data till March 11th, 2020. lower panel: As in the upper panel but in linear scale to better appreciate the global behavior and the effective time to recover.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "(color on line). The model predictions of Fig. 2 are compared with an exponential fit (full red line) I \u223c exp (t days /2.994) and compared with the fit proposed in ref.[9] (dashed red line). (color on line). Number of infectious individuals for the 2019-nCoV outbreak in Italy. The SEIR model predictions (full black line) are compared with the simplified results of the SIR model of Fig. 3 as well as the proposed exponential fit of Bucci and Marinari [9] (see Figure caption). The maximum values are drastically reduced, at the cost of a long tail in the distribution.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "(color on line). The time evolution of the infectious population in the Italian outbreak. The linear scale emphasize the drastic reduction induced by isolation, quarantine and intense tracing as described by the recent formulation of a SEIR model based on the Wuhan database (see ref.[4]).(S), exposed (E), infectious but not yet symptomatic (pre-symptomatic) (A), infectious with symptoms (I), hospitalized (H) and recovered (R). Further stratification includes quarantined susceptible (S q ), isolated exposed (E q ) and isolated infected (I q ) compartments. The equations of the model are explicitly shown in Eqs. (8)-(15).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "dS dt = \u2212(\u03b2c + cq(1 \u2212 \u03b2)) S (I + \u03b8 A) N + \u03bb S q ; (8)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "the values of the model parameters as tuned by Tang et al. on the outbreak event at Wuhan are summarized and the initial conditions imposed to the populations localized in Wuhan and in Italy.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Parameters of the SEIR model description of the Wuhan outbreak. The contact rate Probability transmission has been reduced by a factor 0.14 to describe the data of the Italian event. In addition the value \u03b8 = 1 in Eqs. (8)-(15) has been assumed to be to reduce the model dependence.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We summarize in the table I of the present appendix the parameters of the SEIR-type model as proposed by Tang et al. in ref. [4] . Table II is devoted to summarize the initial conditions imposed to the SEIR solutions in the numerical calculation.",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 128,
+                    "text": "[4]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 139,
+                    "text": "Table II",
+                    "ref_id": null
+                }
+            ],
+            "section": "Appendix A: Parameters and tables"
+        }
+    ]
+}

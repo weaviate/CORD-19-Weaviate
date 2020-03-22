@@ -1,0 +1,1997 @@
+{
+    "paper_id": "d5a1fed3fc7baf4e31c897ec639995106e9fae78",
+    "metadata": {
+        "title": "Inhibition of SARS-CoV-2 infection (previously 2019-nCoV) by a highly potent pan-coronavirus fusion inhibitor targeting its spike protein that harbors a high 2 capacity to mediate membrane fusion 3 Health, Beijing Key Laboratory for Animal Models of Emerging and Re-emerging Laboratory of Drug Research for Emerging Virus Prevention and Treatment, School of",
+        "authors": [
+            {
+                "first": "Shuai",
+                "middle": [],
+                "last": "Xia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Medical Molecular Virology (MOE/NHC/CAMS)",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Meiqin",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CAS Key Laboratory of Special Pathogens",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chao",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Toxicology and Medical Countermeasures",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Beijing Institute"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Medical Molecular Virology (MOE/NHC/CAMS)",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Qiaoshuai",
+                "middle": [],
+                "last": "Lan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Medical Molecular Virology (MOE/NHC/CAMS)",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Siliang",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Toxicology and Medical Countermeasures",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Beijing Institute"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Feifei",
+                "middle": [],
+                "last": "Qi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Toxicology and Medical Countermeasures",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Beijing Institute"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Linlin",
+                "middle": [],
+                "last": "Bao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Human Disease Comparative Medicine, Chinese Ministry",
+                    "institution": "Union Medical College",
+                    "location": {
+                        "postCode": "19, 100021",
+                        "settlement": "Peking, Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lanying",
+                "middle": [],
+                "last": "Du",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shuwen",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "8 Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chuan",
+                "middle": [],
+                "last": "Qin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Human Disease Comparative Medicine, Chinese Ministry",
+                    "institution": "Union Medical College",
+                    "location": {
+                        "postCode": "19, 100021",
+                        "settlement": "Peking, Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fei",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "National Laboratory of Biomacromolecules",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhengli",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shi",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yun",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CAS Key Laboratory of Special Pathogens",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": "zhuyun@ibp.ac.cn"
+            },
+            {
+                "first": "Shibo",
+                "middle": [],
+                "last": "Jiang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Medical Molecular Virology (MOE/NHC/CAMS)",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": "28shibojiang@fudan.edu.cn"
+            },
+            {
+                "first": "Lu",
+                "middle": [],
+                "last": "Lu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Medical Molecular Virology (MOE/NHC/CAMS)",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The recent outbreak of coronavirus disease caused by SARS-CoV-2 31 infection in Wuhan, China has posed a serious threat to global public health. To 32 develop specific anti-coronavirus therapeutics and prophylactics, the molecular 33 mechanism that underlies viral infection must first be confirmed. Therefore, we herein 34 used a SARS-CoV-2 spike (S) protein-mediated cell-cell fusion assay and found that 35 SARS-CoV-2 showed plasma membrane fusion capacity superior to that of 36 SARS-CoV. We solved the X-ray crystal structure of six-helical bundle (6-HB) core 37 of the HR1 and HR2 domains in SARS-CoV-2 S protein S2 subunit, revealing that 38 several mutated amino acid residues in the HR1 domain may be associated with 39 enhanced interactions with HR2 domain. We previously developed a pan-coronavirus 40 fusion inhibitor, EK1, which targeted HR1 domain and could inhibit infection by 41 divergent human coronaviruses tested, including SARS-CoV and MERS-CoV. We 42 then generated a series of lipopeptides and found that the EK1C4 was the most potent 43 fusion inhibitor against SARS-CoV-2 S protein-mediated membrane fusion and 44 pseudovirus infection with IC 50 s of 1.3 and 15.8 nM, about 241-and 149-fold more 45 potent than that of EK1 peptide, respectively. EK1C4 was also highly effective 46 against membrane fusion and infection of other human coronavirus pseudoviruses 47 tested, including SARS-CoV and MERS-CoV, as well as SARSr-CoVs, potently 48 inhibiting replication of 4 live human coronaviruses, including SARS-CoV-2. 49 Intranasal application of EK1C4 before or after challenge with HCoV-OC43 protected 50 mice from infection, suggesting that EK1C4 could be used for prevention and 51 treatment of infection by currently circulating SARS-CoV-2 and emerging 52 SARSr-CoVs. 53 including 2,618 deaths, were reported in China and 27 other countries 11 , posing a 70 serious threat to global public health and thus calling for the prompt development of 71 specific anti-coronavirus therapeutics and prophylactics for treatment and prevention 72 of COVID-19. 73 Coronaviruses (CoVs), the largest RNA viruses identified so far, belonging to the 74 Coronaviridae family, are divided into 4 genera, \u03b1-, \u03b2-, \u03b4-and \u03b3-coronaviruses, while 75 the \u03b2-coronaviruses are further divided into A, B, C, and D lineages. The seven CoVs 76 that can infect humans (HCoVs) include HCoV-229E and HCoV-NL63 in the 77 \u03b1-coronaviruses, HCoV-OC43 and HCoV-HKU1 in the \u03b2-coronaviruses lineage A, 78 SARS-CoV and SARS-CoV-2 in the \u03b2-coronaviruses lineage B (\u03b2-B coronaviruses), 79 and MERS-CoV in the \u03b2-coronaviruses lineage C 6 . To develop specific SARS-CoV-2 80 fusion inhibitors, it is essential to study the fusion capacity of SARS-CoV-2 compared 81 to that of SARS-CoV. Particularly, the spike (S) protein S2 subunit of SARS-CoV-2, We have solved the X-ray crystal structure of SARS-CoV-2's 6-HB core and 111 identified several mutated amino acid residues in HR1 domain responsible for its 112 enhanced interactions with HR2 domain. By conjugating the cholesterol molecule to 113 the EK1 peptide, we found that one of the lipopeptides, EK1C4, exhibited highly 114 potent inhibitory activity against SARS-CoV-2 S-mediated membrane fusion and PsV 115 infection, about 240-and 150-fold more potent than EK1 peptide, respectively. 116 EK1C4 is also highly effective against in vitro and in vivo infection of some live 117 HCoVs, such as SARS-CoV-2, HCoV-OC43 and MERS-CoV, suggesting potential for 118 further development as pan-CoV fusion inhibitor-based therapeutics and prophylactics 119 for treatment and prevention of infection by the currently circulating SARS-CoV-2 120 and MERS-CoV, as well as future reemerging SARS-CoV and emerging 121 SARSr-CoVs. 122 Results 123 The capacity of SARS-CoV-2 S protein-mediated membrane fusion 124 From the GISAID Platform (https://platform.gisaid.org), we obtained the 125 full-length amino-acid sequence of SARS-CoV-2 (BetaCoV 2019-2020) S protein 126 (GenBank: QHD43416). Through alignment with SARS-CoV and SL-CoVs S 127 proteins, we located the functional domains in SARS-CoV-2 S protein, which 128 contains S1 subunit and S2 subunit with the cleavage site at R685/S686 15 . S1 subunit 129 is located within the N-terminal 14-685 amino acids of S protein, containing 130 N-terminal domain (NTD), receptor binding domain (RBD), and receptor binding 131 motif (RBM). S2 subunit contains fusion peptide (FP), heptad repeat 1 (HR1), heptad 132 repeat 2 (HR2), transmembrane domain (TM) and cytoplasmic domain (CP) (Fig. 1b) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 4552,
+                    "end": 4561,
+                    "text": "(Fig. 1b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "Recent biophysical and structural evidence showed that SARS-CoV-2 S protein 134 binds hACE2 with 10-fold to 20-fold higher affinity than SARS-CoV S protein, 135 suggesting the higher infectivity of the new virus 12 . Unlike other \u03b2-B coronaviruses, 136 S protein of SARS-CoV-2 harbors a special S1/S2 furin-recognizable site, indicating 137 that its S protein might possess some unique infectious properties. Indeed, in live 138 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In April of 2018, the World Health Organization (WHO) established a priority 56 list of pathogens, including Middle East respiratory syndrome (MERS), severe acute 57 respiratory syndrome (SARS) and Disease X, a disease with an epidemic or pandemic 58 potential caused by an unknown pathogen 1,2 (Fig.1a) . 59 In late December 2019, an outbreak of pneumonia with an unknown etiology in 60 Wuhan, China was considered as the first Disease X following the announcement by 61 WHO. Shortly thereafter, a novel coronavirus, 2019-nCoV, as denoted by WHO 3 , 62 was identified as the pathogen causing the coronavirus disease COVID-19 4,5 . 63 2019-nCoV with 79.5% and 96% sequence identity to SARS-CoV and a bat 64 coronavirus, SL-CoV-RaTG13, respectively 6 , was renamed SARS-CoV-2 by the which mediates membrane fusion, has 89.8% sequence identity and 96.9% sequence 83 similarity to those of SARS-CoV, and both of them utilize human 84 angiotensin-converting enzyme 2 (hACE2) as the receptor to infect human cells 6 . 85 Most importantly, the ACE2-binding affinity of the receptor-binding domain (RBD) in 86 S1 subunit of S protein of SARS-CoV-2 is 10-to 20-fold higher than that of 87 SARS-CoV 12 , which may contribute to the higher infectivity and transmissibility of 88 SARS-CoV-2 compared to SARS-CoV. However, it is unclear whether SARS-CoV-2 89 can mediate membrane fusion in a manner that exceeds the capacity of SARS-CoV. 90 After binding of RBD in S1 subunit of S protein on the virion to the ACE2 91 receptor on the target cell, the heptad repeat 1 (HR1) and 2 (HR2) domains in its S2 92 subunit of S protein interact with each other to form a six-helix bundle (6-HB) fusion 93 core, bringing viral and cellular membranes into close proximity for fusion and 94 infection 13 . Therefore, the 6-HB fusion core structure of SARS-CoV-2 and 95 SARS-CoV S proteins should also be compared in order to investigate the structural 96 basis for membrane fusion mediated by their S proteins and thus set the stage for the 97 rational design of coronavirus fusion inhibitors. 98 In our previous studies, we designed a pan-coronavirus fusion inhibitor, EK1, 99 targeting the HR1 domains of HCoV S proteins, which proved to be effective in In this study, we have shown that SARS-CoV-2 exhibits much higher capacity of 108 membrane fusion than SARS-CoV, suggesting that the fusion machinery of SARS-CoV-2 infection, we found a typical syncytium phenomenon naturally formed 139 by infected cells, which is rarely reported in SARS-CoV infection (Fig. 1c) . To 140 further explore the special characteristic of SARS-CoV-2 infection, we cloned the S 141 gene into PAAV-IRES-GFP vector and established the S-mediated cell-cell fusion 142 system, using 293T cells that express SARS-CoV-2 S protein and EGFP 143 (293T/SARS-CoV-2/EGFP) as the effector cells, and ACE2/293T cells expressing 144 human ACE2 receptor as the target cells ( Fig. 1d and Fig. S1a ). After effector cells 145 and target cells were cocultured at 37 \u00b0C for 2 h, the fused cells showed at least 2-fold 146 larger size than normal cells and multiple nuclei, and these cells were observed in the 147 SARS-CoV-2 group, but not the SARS-CoV group. After coincubation for 24 h, 148 hundreds of target cells fused together as one big syncytium, containing multiple 149 nuclei (Fig. 1d) . Another 24h later, the syncytium grew bigger and could be easily Previously, we identified that the 6-HB formed by HR1 and HR2 domains of the 166 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 306,
+                    "end": 308,
+                    "text": "59",
+                    "ref_id": null
+                },
+                {
+                    "start": 385,
+                    "end": 387,
+                    "text": "60",
+                    "ref_id": null
+                },
+                {
+                    "start": 1009,
+                    "end": 1010,
+                    "text": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1013,
+                    "end": 1015,
+                    "text": "85",
+                    "ref_id": null
+                },
+                {
+                    "start": 1426,
+                    "end": 1428,
+                    "text": "90",
+                    "ref_id": null
+                },
+                {
+                    "start": 1842,
+                    "end": 1844,
+                    "text": "95",
+                    "ref_id": null
+                },
+                {
+                    "start": 2070,
+                    "end": 2072,
+                    "text": "98",
+                    "ref_id": null
+                },
+                {
+                    "start": 2151,
+                    "end": 2153,
+                    "text": "99",
+                    "ref_id": null
+                },
+                {
+                    "start": 2720,
+                    "end": 2723,
+                    "text": "142",
+                    "ref_id": null
+                },
+                {
+                    "start": 2873,
+                    "end": 2876,
+                    "text": "144",
+                    "ref_id": null
+                },
+                {
+                    "start": 2964,
+                    "end": 2967,
+                    "text": "145",
+                    "ref_id": null
+                },
+                {
+                    "start": 3229,
+                    "end": 3232,
+                    "text": "148",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 295,
+                    "end": 303,
+                    "text": "(Fig.1a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2534,
+                    "end": 2543,
+                    "text": "(Fig. 1c)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2919,
+                    "end": 2939,
+                    "text": "Fig. 1d and Fig. S1a",
+                    "ref_id": null
+                },
+                {
+                    "start": 3326,
+                    "end": 3335,
+                    "text": "(Fig. 1d)",
+                    "ref_id": null
+                }
+            ],
+            "section": "55"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint S2 subunit plays a very important role in the membrane fusion process mediated by 167 MERS-CoV or SARS-CoV S protein 16, 17 . Similarly, our recent study suggested that 168 HR1 and HR2 in subunit S2 of SARS-CoV-2 also interacted to form coiled-coil 169 complex to support membrane fusion and viral infection 15 ( Fig. 2a and Fig. S2 ).",
+            "cite_spans": [
+                {
+                    "start": 259,
+                    "end": 262,
+                    "text": "16,",
+                    "ref_id": null
+                },
+                {
+                    "start": 263,
+                    "end": 265,
+                    "text": "17",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 455,
+                    "end": 474,
+                    "text": "Fig. 2a and Fig. S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "55"
+        },
+        {
+            "text": "However, the specific binding characteristics of SARS-CoV-2 6-HB remained to be 171 explored.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "170"
+        },
+        {
+            "text": "To understand the structural basis of the interactions between HR1 and HR2 173 regions of SARS-CoV-2, a fusion protein containing the major parts of HR1 (residues 174 910 to 988) and HR2 (residues 1162 to 1206) with a flexible linker (L6, SGGRGG) in 175 between was constructed for crystallographic study. The crystal structure of 176 HR1-L6-HR2 shows a canonical 6-HB structure with a rod-like shape 115 \u00c5 in length 177 and 25 \u00c5 in diameter (Fig. 2b) V1164, L1166, I1169, I1172, A1174, V1176, V1177, I1179, I1183, L1186, V1189,   183 L1193, L1197 and I1198 (Fig. 2c) . The hydrophobic interactions between HR1 and 184 HR2 are mainly located in the helical fusion core region, which will be discussed 185 later.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 442,
+                    "end": 451,
+                    "text": "(Fig. 2b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 452,
+                    "end": 534,
+                    "text": "V1164, L1166, I1169, I1172, A1174, V1176, V1177, I1179, I1183, L1186, V1189,   183",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 558,
+                    "end": 567,
+                    "text": "(Fig. 2c)",
+                    "ref_id": null
+                }
+            ],
+            "section": "172"
+        },
+        {
+            "text": "The overall 6-HB structure of SARS-CoV-2 is similar to that of other HCoVs 187 with root-mean-square deviation (RMSD) of 0.36 \u00c5 to SARS-CoV 6-HB and 0.66 \u00c5 188 to MERS-CoV 6-HB for all the C\u03b1 atoms (Fig. 2d) . This finding suggested that the 189 overall 6-HB conformation is an important and highly conserved component for these 190 dangerous coronaviruses. When comparing with the 6-HB of other common 191 coronaviruses causing mild respiratory disease, such as 229E and NL63, the 192 SARS-CoV-2 6-HB has a similar overall structure, except for the different length of 193 HR2 helix in the 6-HB. The HR2 domain of 229E or NL63 forms a longer and 194 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 198,
+                    "end": 207,
+                    "text": "(Fig. 2d)",
+                    "ref_id": null
+                }
+            ],
+            "section": "186"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint bending helix to interact with trimeric HR1 core (Fig. 2e) . The relationship between 195 the structural difference and the pathogenicity of these HCoVs remains to be 196 elucidated.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 191,
+                    "end": 200,
+                    "text": "(Fig. 2e)",
+                    "ref_id": null
+                }
+            ],
+            "section": "186"
+        },
+        {
+            "text": "According to sequence alignment, the S2 subunits of SARS-CoV-2 and 198 SARS-CoV are highly conserved, with 92.6% and 100% overall homology in HR1 through a weak salt bridge 3.7 \u00c5 in distance. In SARS-CoV-2, E918 is mutated to 212 D936 and binds to R1185 in the HR2 domain through a salt bridge 2.7 \u00c5 in distance 213 (Fig. 3c) . In SARS-CoV, K929 in HR1 binds to E1163 in HR2 through a salt bridge 214 3.2 \u00c5 in distance, while T925 is not involved in the interaction. However, when T925 215 was mutated to S943, it could bind to E1182 in the HR2 domain with a hydrogen 216 bond 2.6 \u00c5 in distance, and K947 could also bind to E1182 through a salt bridge 3.0 217 \u00c5 in distance (Fig. 3d) . These results suggested that the multiple replacements in the 218 HR1 domain of emerging SARS-CoV-2 virus could enhance the interactions between 219 HR1 and HR2 domain to further stabilize the 6-HB structure, which may lead to 220 increased infectivity of the virus. 221 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 316,
+                    "end": 325,
+                    "text": "(Fig. 3c)",
+                    "ref_id": null
+                },
+                {
+                    "start": 674,
+                    "end": 683,
+                    "text": "(Fig. 3d)",
+                    "ref_id": null
+                }
+            ],
+            "section": "197"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint Design and structure-activity relationship (SAR) analysis of lipopeptides with 222 remarkably improved fusion inhibitory activity 223 Previously, we found that peptide EK1 could disturb viral 6-HB formation and for EK1P, respectively (Fig. 4c) . Meanwhile, the EK1-scrambled peptide showed no 236 inhibitory activity with the concentration up to 5 \u03bcM (Fig. 4c) . These results strongly 237 suggest that lipidation of EK1 is a promising strategy to improve its fusion-inhibitory 238 activity against SARS-CoV-2 infection, especially, cholesterol-modification. 239 On the basis of the structure of EK1C, series of cholesteryl EK1 with multiple 240 linkers were constructed, where the glycine/serine-based linker, i.e., GSG, or 241 PEG-based spacer was employed between EK1 and the cholesterol moiety (Fig. 4d ).",
+            "cite_spans": [
+                {
+                    "start": 272,
+                    "end": 275,
+                    "text": "223",
+                    "ref_id": null
+                },
+                {
+                    "start": 701,
+                    "end": 704,
+                    "text": "239",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 376,
+                    "end": 385,
+                    "text": "(Fig. 4c)",
+                    "ref_id": null
+                },
+                {
+                    "start": 493,
+                    "end": 502,
+                    "text": "(Fig. 4c)",
+                    "ref_id": null
+                },
+                {
+                    "start": 940,
+                    "end": 948,
+                    "text": "(Fig. 4d",
+                    "ref_id": null
+                }
+            ],
+            "section": "197"
+        },
+        {
+            "text": "Compared with EK1C1, EK1C2 and EK1C showed similar inhibitory activities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "242"
+        },
+        {
+            "text": "Strikingly, EK1C3 peptide with both the 3-amino acid linker \"GSG\" and the 244 PEG4-based spacer, exhibited 4-fold more potency than EK1C1. It is noteworthy that 245 changing \"GSG\" in EK1C3 to a longer 5-amino acid linker \"GSGSG\" significantly 246 increased the inhibitory potency of the hybrid molecule, and EK1C4 had IC 50 value of 247 1.3 nM, which was 43-fold more potent than EK1C1. These findings indicate that the 248 linker length has a significant effect on the overall activity of lipopeptides. 249 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "243"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint Comparison of increasing PEG-based arm lengths in EK1C4 shows that inhibitors 250 potency slightly decreased in the cell-cell fusion assay (Fig. 4e) . The data suggest that 251 \"GSGSG-PEG4\" linker was optimal to bridge both parts of the conjugates. Similarly, 252 EK1C4 showed the most potent inhibitory activity against SARS-CoV-2 PsV 253 infection, with IC 50 value of 15.8 nM, providing 149-fold stronger anti-SARS-CoV-2 254 activity than that of EK1 (IC 50 =2,375 nM) (Fig. 4f) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 281,
+                    "end": 290,
+                    "text": "(Fig. 4e)",
+                    "ref_id": null
+                },
+                {
+                    "start": 614,
+                    "end": 623,
+                    "text": "(Fig. 4f)",
+                    "ref_id": null
+                }
+            ],
+            "section": "243"
+        },
+        {
+            "text": "The lipopeptide EK1C4 exhibits the most potent inhibitory activity against RsSHC014, the fusion process of which is mediated by S protein, could also be 276 significantly prevented by EK1C4 with IC 50 ranging from 4.3 to 8.1 nM, as well as 277 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "255"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint EK with IC 50 ranging from 237.0 to 279.6 nM ( Fig. 5f -h). As control, the 278 EK1-scrambled peptide showed no inhibitory activity with concentration up to 5 \u03bcM 279 in all those coronavirus cell-cell fusion assays ( Fig. 5a-h) . 280 We also assessed the antiviral activity of EK1C4 on PsV infection by divergent The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint (CC 50 ) was beyond 5 \u03bcM, which is the highest detection concentration of EK1C4 (Fig.   306 S3). Therefore, the selectivity index (SI=CC 50 /IC 50 ) of EK1C4 is >136, suggesting 307 that EK1C4 is a promising SARS-CoV-2 fusion inhibitor with little, or even no, toxic 308 effect in vitro. Further, we explored the potent antiviral mechanism of EK1C4 and 309 found that the complexes of EK1C4/SARS-2HR1, EK1C4/MERS-HR1, and 310 EK1C4/SARS-2HR1 harbor higher stability and increased Tm values than those of the 311 complexes formed by EK1 and HR1s (Fig. S4) . These results suggested that increased 312 antiviral activity of EK1C4 should be related its increased binding affinity with HR1, 313 but their detailed interactions require further studies. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 372,
+                    "end": 375,
+                    "text": "280",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 189,
+                    "end": 196,
+                    "text": "Fig. 5f",
+                    "ref_id": null
+                },
+                {
+                    "start": 359,
+                    "end": 369,
+                    "text": "Fig. 5a-h)",
+                    "ref_id": null
+                },
+                {
+                    "start": 677,
+                    "end": 688,
+                    "text": "(Fig.   306",
+                    "ref_id": null
+                },
+                {
+                    "start": 1142,
+                    "end": 1151,
+                    "text": "(Fig. S4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "255"
+        },
+        {
+            "text": "We then tested the therapeutic effect of EK1C4 0.5 h (Post-0.5 group) and 2 h 333 (Post-2 group) after HCoV-OC43 infection (Fig. 6h-i) . The Post-0.5 group and Post-2 334 group mice showed 100% and 16.7% survival rate, respectively, suggesting that 335 EK1C4 harbors good therapeutic effect after a short period of HCoV-OC43 infection, 336 possibly resulting from the establishment of HCoV-OC43 infection in mouse brain 337 where EK1C4 cannot get through the blood brain barrier via nasal administration 14 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 123,
+                    "end": 134,
+                    "text": "(Fig. 6h-i)",
+                    "ref_id": null
+                }
+            ],
+            "section": "255"
+        },
+        {
+            "text": "As shown in Fig. S6 , high viral titer was detected in brains of all 5 mice in Pre-24 339 group and 4 out of 5 mice in Post-2 group, but was not detected in brain tissues of all 340 mice in Pre-0.5, Pre-2, Pre-4, and Post-0.5 groups, while only moderate level of viral 341 titer was detected in brain tissue in one of the 5 mice in Pre-12 group (Fig. S6 a and b) . Inducing the S1/S2 furin-recognition site could significantly increase the capacity of 371 SARS-CoV S protein to mediate cellular membrane surface infection 26 . Interestingly, 372 SARS-CoV-2 harbors the S1/S2 cleavage site in its S protein, but its specific role in S 373 protein-mediated membrane fusion and viral life-cycle remains to be further explored 374 (Fig. S7) . A recent report suggested that SARS-CoV-2 mainly used TMPRSS2 for 375 plasma membrane fusion; this means that the TMPRSS2 inhibitor might constitute an 376 option for blocking SARS-CoV-2 fusion with and entry into the host cell 27 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 12,
+                    "end": 19,
+                    "text": "Fig. S6",
+                    "ref_id": null
+                },
+                {
+                    "start": 345,
+                    "end": 362,
+                    "text": "(Fig. S6 a and b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 727,
+                    "end": 736,
+                    "text": "(Fig. S7)",
+                    "ref_id": null
+                }
+            ],
+            "section": "338"
+        },
+        {
+            "text": "The 6-HB structure formed by HR1 and HR2 regions in the S2 subunit of HCoVs 378 plays a key role during the viral membrane fusion process, which makes it one of the 379 most important targets for drug design. In previous studies, we have found that HR1 380 and HR2 of SARS-CoV-2 could form a stable coiled-coil complex, but the detailed 381 conformations remain unknown. According to the X-ray crystallographic analysis of 382 the complex formed by HR1 and HR2 of SARS-CoV-2 (Fig. 2b) , it is a typical 6-HB However, instead of weakening the interaction between HR1 and HR2, such unilateral 387 difference seems to form new interactions in some regions and enhance the existing 388 ones in other regions (Fig. 3) . When K991 in SARS-CoV HR1 was replaced with 389 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 475,
+                    "end": 484,
+                    "text": "(Fig. 2b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 704,
+                    "end": 712,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "377"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint S929 in SARS-CoV2 HR1, a new, strong hydrogen bond was formed with a distance 390 of 2.4 \u00c5. K933 forms a new interaction with N1192 in SARS-CoV-2 with a distance 391 of 2.7 \u00c5, whereas the corresponding position in SARS-CoV has no such interaction.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "377"
+        },
+        {
+            "text": "In the other two regions, E918 binds to R1166 and K929 binds to E1163 in 393 SARS-CoV, both of which were enhanced in SARS-CoV-2. These results suggest that 394 this new HCoV has evolved with improved binding affinity between HR1 and HR2 395 domains, which may accelerate the viral membrane fusion process and enhance viral 396 infectivity or transmissibility. A recent study also found that the binding affinity 397 between ACE2 receptor on the host cell and RBD in S protein of SARS-CoV-2 is 398 more than 10-fold higher than that of SARS-CoV, which may also be associated with 399 the increased infectivity and transmissibility of SARS-CoV-2 12 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "392"
+        },
+        {
+            "text": "The conjugation of cholesterol to viral entry inhibitor has been proved to be an 401 effective strategy to enhance the antiviral activity, such as C34 peptide for HIV-1 28 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "400"
+        },
+        {
+            "text": "However, the mechanism of this enhancement, especially the role of cholesterol group 403 in the C-terminal tail of entry inhibitor, is still unclear. There is a possibility that the 404 cholesterol group could anchor to the target membrane to facilitate the binding of 405 inhibitor to the HR1 targets. However, we noticed that binding affinity between 406 EK1C4 and SARS-CoV-2-HR1P is significantly enhanced than EK1 peptide alone, 407 which suggested that cholesterol group may be involved in binding to HR1P directly 408 (Fig. S4) . Therefore, using structural simulation and docking method, we predicted a 409 possible model of EK1C4 in binding with SARS-CoV-2 HR1P (Fig. S8) . In this The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 524,
+                    "end": 533,
+                    "text": "(Fig. S4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 670,
+                    "end": 679,
+                    "text": "(Fig. S8)",
+                    "ref_id": "FIGREF20"
+                }
+            ],
+            "section": "402"
+        },
+        {
+            "text": "In the past few decades, the viral HR1 domain has been proved to be an important were administered intranasally 0.5, 1, 2, 4, 12, and 24 h before challenge, or 0.5 and 2 579 h after challenge . Then mice were challenged intranasally with HCoV at a dose of 580 10 2 TCID50. For the viral control group, the same volume of 28% HBC or PBS was 581 administered intranasally. In each group, six mice were randomly selected for 582 euthanasia on day 5 after infection, then five mice for collecting and assessing the 583 viral titer in mouse brain, one mouse for brain histological examination. Body weight 584 and survival of the remaining six mice in each group were monitored for 14 days 35 585 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "402"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint Cytotoxicity assay 586 Cytotoxicity of the peptides to the cells (Vero-E6, Huh-7, LLC-MK2 and RD cells) 587 was tested by using the Cell Counting Kit-8 (CCK-8). Briefly, each cell type was 588 seeded into the wells of a 96-well microtiter plate (10,000 per well) and incubated at 589 37 \u00b0C for 12-15 h, replacing medium with DMED containing EK1C4 at graded 590 concentrations to culture at 37 \u00b0C for 2 days; CCK-8 solution (10 \u03bcL per well) was was predicted by SWISS-MODEL sever 39 using 6XLT as reference for EK1 moiety, 627 and by Autodock 4 software 40 for cholesterol moiety (Fig. S8) . References 638 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 161,
+                    "end": 164,
+                    "text": "586",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 721,
+                    "end": 730,
+                    "text": "(Fig. S8)",
+                    "ref_id": "FIGREF20"
+                }
+            ],
+            "section": "402"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.983247 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "402"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Prioritizing diseases for research and development in emergency contexts",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Coronavirus disease",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A novel Coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "651",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat 653 origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Severe acute respiratory syndrome-related coronavirus: The species 655 and its viruses -a statement of the Coronavirus Study Group",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.07.937862"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "An emerging coronavirus causing pneumonia outbreak in 658",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "China: calling for developing therapeutic and prophylactic strategies",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wuhan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in 661",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "A distinct name is needed for the new coronavirus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30419-0"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Coronavirus disease 2019",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion 668 conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.11.944462"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Severe acute respiratory syndrome coronavirus (SARS-CoV) infection 670 inhibition using spike protein heptad repeat-derived peptides",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bosch",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A pan-coronavirus fusion inhibitor targeting the HR1 domain of human 673 coronavirus spike",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci. Adv",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Fusion mechanism of 2019-nCoV and fusion inhibitors targeting HR1 675 domain in spike protein",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Mol. Immunol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41423-020-0374-2"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Structure-based discovery of Middle East respiratory syndrome coronavirus 677 fusion inhibitor",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nat. Commun",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Interaction between heptad repeat 1 and 2 regions in spike protein of 679",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "SARS-associated coronavirus: implications for virus fusogenic mechanism and 680 identification of fusion inhibitors",
+            "authors": [],
+            "year": 2004,
+            "venue": "Lancet",
+            "volume": "363",
+            "issn": "",
+            "pages": "938--947",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "A lipopeptide HIV-1/2 fusion inhibitor with highly potent in vitro, ex 682 author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.09.983247"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Fusion inhibitory lipopeptides engineered for prophylaxis of Nipah 684 virus in primates",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mathieu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Infect. Dis",
+            "volume": "218",
+            "issn": "",
+            "pages": "218--227",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Antigenic and genetic characteristics of swine-origin 2009 A(H1N1) 686 influenza viruses circulating in humans",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Garten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Science",
+            "volume": "325",
+            "issn": "",
+            "pages": "197--201",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Emerging human coronaviruses--disease potential and 688 preparedness",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "N. Engl. J. Med",
+            "volume": "367",
+            "issn": "",
+            "pages": "1850--1852",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Emerging virus diseases: can we ever expect the 690 unexpected?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Howard",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fletcher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Emerg. Microbes. Infect",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Clinical isolates of human 692 coronavirus 229E bypass the endosome for cell entry",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shirato",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kanou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kawase",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Matsuyama",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Wild-type human coronaviruses prefer 694 cell-surface TMPRSS2 to endosomal cathepsins for cell entry",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shirato",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kawase",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Matsuyama",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Virology",
+            "volume": "517",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Activation of the SARS coronavirus spike 696 protein via sequential proteolytic cleavage at two distinct sites",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Belouzard",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Whittaker",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Furin cleavage of the SARS coronavirus spike 699 glycoprotein enhances cell-cell fusion but does not affect virion entry",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Follis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "York",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Nunberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Virology",
+            "volume": "350",
+            "issn": "",
+            "pages": "358--369",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The novel coronavirus 2019 (2019-nCoV) uses the",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into 703 target cells",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.31.929042"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Conjugation of cholesterol to HIV-1 fusion inhibitor C34 increases 705 peptide-membrane interactions potentiating its action",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hollmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS One",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Protective effect of intranasal regimens containing peptidic 707",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Channappanavar",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Middle East Respiratory Syndrome coronavirus fusion inhibitor against MERS-CoV 708 infection",
+            "authors": [],
+            "year": 2015,
+            "venue": "J. Infect. Dis",
+            "volume": "212",
+            "issn": "",
+            "pages": "1894--1903",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Remdesivir and chloroquine effectively inhibit the recently emerged 710 novel coronavirus (2019-nCoV) in vitro",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "71110.1038/s41422-020-0282-0."
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "On the origin and continuing evolution of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Natl. Sci. Rev",
+            "volume": "713",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nsr/nwaa033"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Potent MERS-CoV fusion inhibitory peptides identified from HR2 domain 715 in spike protein of bat coronavirus HKU4",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Viruses",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Peptide-Based membrane fusion inhibitors targeting HCoV-229E spike 717 protein HR1 and HR2 domains",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Int. J. Mol. Sci",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Determination of the helix and beta form of proteins in aqueous solution 719 676 by circular dichroism",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1974,
+            "venue": "Biochemistry",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Vacuolating encephalitis in mice infected by human coronavirus 721 OC43",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jacomy",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Talbot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Virology",
+            "volume": "315",
+            "issn": "",
+            "pages": "20--33",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "iMOSFLM: a new graphical interface for diffraction-image processing 723 with MOSFLM",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Battye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Acta Crystallogr. D. Biol. Crystallogr",
+            "volume": "67",
+            "issn": "",
+            "pages": "271--281",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Macromolecular structure determination using X-rays, neutrons and 725 electrons: recent developments in Phenix",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liebschner",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Acta Crystallogr. D. Struct. Biol",
+            "volume": "75",
+            "issn": "",
+            "pages": "861--877",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "No reuse allowed without permission. The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.09.983247"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "REFMAC5 dictionary: organization of prior chemical knowledge and 728 guidelines for its use",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Vagin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Acta Crystallogr. D. Biol. Crystallogr",
+            "volume": "60",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "SWISS-MODEL: homology modelling of protein structures and 730 complexes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Waterhouse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nucleic Acids Res",
+            "volume": "46",
+            "issn": "",
+            "pages": "296--303",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "AutoDock4 and AutoDockTools4: Automated docking with selective 732 receptor flexibility",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Comput Chem",
+            "volume": "30",
+            "issn": "",
+            "pages": "2785--2791",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "TM (1214-1237 aa) and CP 741 (1238-1273 aa). c. The formation of syncytium in Huh-7 cells 24 h after SARS-CoV-2 742 infection",
+            "authors": [],
+            "year": null,
+            "venue": "doi: bioRxiv preprint (14-305 aa), RBD (319-541 aa), and RBM (437-508 aa). Its S2 subunit contains FP 740 (788-806 aa), HR1 (912-984 aa), HR2 (1163-1213 aa)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.09.983247"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "S-mediated cell-cell fusion on 293T/ACE2 cells at 2 h (left) and 24 h (right",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "I-II) and SARS-CoV-2 (III-IV) S-mediated syncytium formation on",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sars-Cov",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "293T/ACE2 cells at 48 h. f. SARS-CoV (I-II) and SARS-CoV-2 (III-IV) S-mediated 746 syncytium formation on Huh-7 cells at 48 h. Scale bar equals 400 \u00b5m in d-f",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Overall structure of post-fusion 6-HB in SARS-CoV-2. a. Sequence 749 alignment of HR1 and HR2 domains in SARS-CoV and SARS-CoV-2",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "SARS-CoV-2 6-HB is shown in cartoon representation with HR1 colored in green and 751 HR2 in cyan. The structural dimensions are indicated in angstroms",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "The superposition of 6-HB structure of SARS-CoV (PDB entry 755 1WYY), MERS-CoV (PDB entry 4NJL) and SARS-CoV-2 is shown in ribbon. The 756 RMSD between structures is indicated. e. The sequence comparison of 6-HB structure 757 author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "SARS-CoV-2 6-HB is shown in electrostatic surface, and HR2 domain is shown in 753 cartoon representation, the important binding residues of which are shown in sticks 754 and labeled. d",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.09.983247"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Interaction between HR1 and HR2 of SARS-CoV-2 and SARS-CoV. a-d",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "The 6-HB structure of SARS-CoV-2 and SARS-CoV is shown in cartoon 762 representation. The HR1 domain is shown in green for",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "while the HR2 domain is shown in cyan for SARS-CoV-2 and orange for 764 SARS-CoV. Important residues are shown in sticks and labeled",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sars-Cov",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "EK1-Lipopeptides showed potent inhibitory activity against SARS-CoV-2",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Amino acid sequences of the designed peptides EK1 and EK1C. The dotted lines 769 represent E-K salt-bridge with i to i + 3, or i + 4 arrangement. b. SARS-CoV-2 S 770 protein-mediated cell-cell fusion in the presence of EK1-scramble (I), EK1 (II), EK1C 771 (III), and EK1P (IV) at 2.5 \u03bcM (scale bar: 400 \u00b5m). c. Inhibitory activity of 772 EK1-scramble, EK1, EK1C and EK1P against SARS-CoV-2 S-mediated cell-cell 773 fusion. d. Design diagram of EK1-lipopeptides with cholesterol modification",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "S-mediated cell-cell fusion. f. Inhibitory activity of EK1-lipopeptides on",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Experiments were repeated twice, and the data are 777 expressed as means \u00b1 SD (error bar)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "doi: bioRxiv preprint Fig. 5. EK1C4 broadly and potently inhibited cell-cell fusion and PsV infection 780 mediated by S protein of divergent HCoVs. a to h. Inhibitory activity of EK1C4 in 781 cell-cell fusion mediated by the S proteins of",
+            "authors": [],
+            "year": null,
+            "venue": "MERS-CoV (b)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.09.983247"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "HCoV-229E (d), HCoV-NL63 (e), WIV1 (f), Rs3367 (g) and",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hcov-Oc43",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Experiments were repeated twice",
+            "authors": [],
+            "year": null,
+            "venue": "SHC014 (h). i to o. Inhibitory activity of EK1C4 in PsV infection assays against 784 SARS-CoV (i), MERS-CoV (j), HCoV-OC43(k), HCoV-229E (l), NL63 (m), WIV1 785 (n) and Rs3367 (o)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "EK1C4 effectively inhibited live-CoVs infection in vitro and in vivo",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Inhibitory activity of EK1 on live HCoV replication for SARS",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "f-g. In vivo 791 prophylactic efficacy of EK1C4 against HCoV-OC43 infection in mice. Body weight 792 change (f) and survival curves (g) of mice challenged with HCoV-OC43. h-i. In vivo 793 therapeutic efficacy of EK1C4 against HCoV-OC43 infection in mice. Body weight 794 change (h) and survival curves (i) of mice challenged with HCoV-OC43",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mers-Cov",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "HCoV-OC43 (c), HCoV-229E (d), and HCoV-NL63 (e)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "No reuse allowed without permission. The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.09.983247"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "100 inhibiting infection of 5 HCoVs, including SARS-CoV and MERS-CoV, and 3 101 SARS-related CoVs (SARSr-CoVs). By intranasal application of this peptide, either 102 pre-or post-challenge with a coronavirus, the treated mice were protected from 103 HCoV-OC43 or MERS-CoV infection, suggesting that this peptide has prophylactic 104 and therapeutic potential against SARS-CoV-2 infection 14 . Indeed, our recent studies 105 have shown that EK1 peptide is effective against SARS-CoV-2 S protein-mediated 106 membrane fusion and PsV infection in a dose-dependent manner 15 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "150 observed under both light and fluorescence microscopy (Fig. 1e). Similar results were 151 observed in the fusion between 293T/SARS-CoV-2/EGFP cells and Huh-7 cells, 152 which naturally express human ACE2 receptor on the cell surface. Their syncytium 153 was obviously formed after coincubation for 48 h, similar to the syncytium formed by 154 live SARS-CoV-2-infected Huh-7 cells (Fig. 1c and 1f). On the contrary, SARS-CoV 155 S protein lacked the ability to mediate the cell-cell fusion under the same conditions 156 (Fig. 1d) based on the required presence of exogenous trypsin to complete membrane 157 fusion in our previous studies. Therefore, compared to SARS-CoV, SARS-CoV-2 S 158 protein showed much more efficiency in mediating viral surface-fusion and entry into 159 target cells 14 . Meanwhile, no fusion was observed for 293T/EGFP cells without 160S-expression or 293T cells without ACE2-expression (Fig. 1d and Fig. S1b),161    confirming that S-receptor engagement is necessary for the S-mediated viral fusion 162 and entry.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "-ray crystallographic analysis of the 6-HB fusion core formed by HR1 and HR2 164 domains in S2 subunit of SARS-CoV-2 S protein 165",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "199 and HR2 domains, respectively. Inside the fusion core region of HR1 domain, there 200 are 8 different residues (Fig. 3a), which may contribute the enhanced interactions 201 between HR1 and HR2 and stabilize 6-HB conformation of SARS-CoV-2 as revealed 202 by crystallographic analysis, compared with those of SARS-CoV. This significant 203 difference has not been observed in other SARS-like viruses, such as WIV1, Rs3367, 204 and RsSHC014. As shown in Figure 3b, the K911 in SARS-CoV HR1 could bind to 205 E1176 in HR2 through a salt bridge 2.9 \u00c5 in distance. However, with the Lys-Ser 206 replacement, S929 in SARS-CoV-2 binds to S1196 through a strong hydrogen bond 207 2.4 \u00c5 in distance. In SARS-CoV, Q915 in the HR1 domain does not bind to the HR2 208 domain. However, with Q-K replacement in the new virus, K933 in the HR1 domain 209 binds to carbonyl oxygen of N1172 in HR2 through a salt bridge 2.7 \u00c5 in distance 210 (Fig. 3b). In SARS-CoV, E918 in the HR1 domain binds to R1166 in the HR2 domain211",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "224 effectively inhibit SARS-CoV-2 PsV infection. However, the potent stability of 225 SARS-CoV-2 6-HB structure might reduce the antiviral efficacy of EK1. Recently, 226 numerous reports have shown that the lipidation strategy can effectively improve the 227 antiviral activity of fusion inhibitory peptides, such as the ant-HIV-1 peptide LP-19 18 , 228 and the anti-Nipah virus lipopeptides 19 . In order to improve the inhibitory activity of 229 EK1, cholesterol (Chol) and palmitic acid (Palm) were covalently attached to the 230 C-terminus of EK1 sequence under the help of a flexible polyethylene glycol (PEG) 231 spacer, and the corresponding lipopeptides EK1C and EK1P were constructed, 232 respectively (Fig. 4a). Both of them could completely inhibit SARS-CoV-2 mediated 233 cell-cell fusion at the concentration of 2.5 \u03bcM (Fig. 4b). The inhibitory activity with 234 mean 50% inhibitory concentration (IC 50 ) values is 48.1 nM for EK1C and 69.2 nM 235",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "256 membrane fusion mediated by S proteins and entry of pseudotyped 257 coronaviruses 258 We have previously demonstrated that EK1 could effectively inhibit divergent 259 HCoV infection by targeting the HR1 domains, including \u03b1-HCoV and \u03b2-HCoV. Here, 260 we further systematically evaluated the broad-spectrum surface-fusion inhibitory 261 activity of EK1C4 on cell-cell fusion mediated by S proteins of divergent 262 coronaviruses, including SARS-CoV, MERS-CoV, HCoV-OC43, HCoV-NL63 and 263 HCoV-229E. Among them, SARS-CoV has the closest relatives to SARS-CoV-2, and 264 its S protein-mediated cell-cell fusion could be effectively inhibited by EK1C4 with 265 IC 50 of 4.3 nM, which is about 94-fold more active than that of EK1 (IC 50 = 409.3 nM) 266 (Fig. 5a). Similarly, EK1C4 showed extremely potent fusion-inhibitory activity on 267 MERS-S-and OC43-S-mediated cell-cell fusion with IC 50 of 2.5 nM and 7.7 nM, 268 which were 95-and 101-fold more potent when compared to EK1, respectively, 269 indicating that EK1C4 could potently and broadly inhibit S protein-mediated cell-cell 270 fusion of various \u03b2-HCoVs (Fig. 5b-c). For \u03b1-HCoVs, EK1C4 also effectively 271 blocked the fusion process mediated by the S protein of HCoV-229E and 272 HCoV-NL63 with IC 50 of 5.2 nM and 21.4 nM, respectively, while EK1 showed 273 inhibitory activity of IC 50 ranging from 207.4 to 751.0 nM (Fig. 5d-e). Moreover, with 274 their potential for human infection, SL-CoVs, including WIV1, Rs3367 and275",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "281 coronaviruses. As expected, EK1C4 showed much more potent activity than EK1 282 (IC 50 ranging from 631.8 to 3237.0 nM) against SARS-CoV, MERS-CoV, and 283 HCoV-OC43 infection with IC 50 of 11.7 nM, 11.1 nM and 37.7 nM, respectively (Fig. 284 5i-k). EK1C4 also effectively blocked PsV infection of \u03b1-HCoVs, including 285 HCoV-229E and HCoV-NL63, with IC 50 of 12.4 nM and 76.6 nM, respectively, 286 which was about 319-and 99-fold more active than EK1 (IC 50 ranging from 3,963 to 287 7,666 nM) (Fig. 5l-m). Similarly, by cholesteryl modification with \"GSGSG-PEG4\" 288 linker, the inhibitory activity of EK1 could be significantly increased on PsV infection 289 from SL-CoVs, including WIV1 and Rs3367, where EK1C4 showed potent inhibitory 290activity with IC 50 of 30.8 nM and 66.9 nM, respectively, which is 175-fold to 89-fold 291 more potent than that of EK1(Fig. 5n-o).292 EK1C4 possesses the most potent inhibitory activity against in vitro infection by 293 live coronaviruses 294 We further assessed the inhibitory activity of EK1C4 against live HCoVs infection, 295 including SARS-CoV-2, MERS-CoV, HCoV-OC43, HCoV-229E, and HCoV-NL63. 296 Importantly, EK1C4 effectively blocked SARS-CoV-2 infection at the cellular level 297 in a dose-dependent manner with IC 50 of 36.5 nM, being 67-fold more active than that 298 of EK1 (IC 50 =2,468 nM) (Fig. 6a), which is consistent to the results of cell-cell fusion 299 assay and PsV infection assay mediated by SARS-CoV-2 S protein. Similarly, EK1C4 300 also showed more potent antiviral activity than EK1 against MERS-CoV, 301 HCoV-OC43, HCoV-229E, and HCoV-NL63 infection with IC 50 s of 4.2 nM, 24.8 302 nM, 101.5 nM and 187.6 nM, respectively, which are 190-, 62-, 42-and 19-fold more 303potent than those of EK1, respectively(Fig. 6b-e). We next assessed the cytotoxicity 304 of EK1C4 on various target cells and found that the half cytotoxic concentration 305 author/funder. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "SARS-CoV-2 rapidly spread in humans by transmitting through the 317 respiratory tract. Here, we used an HCoV-OC43 infection mouse model to further 318 investigate the potential prophylactic effect of EK1C4 in clinical applications via the 319 intranasal administration route (Fig. 6f-g). In the OC43-infected mouse model, we 320 treated newborn mice with EK1C4 at a single dose of 0.5 mg/kg 0.OC43 at 100 TCID 50 (50% tissue culture infectious dose). Starting from 4 days' 323 post-infection (dpi), the body weight of mice in the viral control group decreased 324significantly along with 100% mortality(Fig. 6f-g). The final survival rates of mice in 325 Pre-0.5, Pre-2, Pre-4, Pre-12 and Pre-24 groups were 100%, 100%, 100%, 83% and 326 0%, respectively(Fig. 6f-g). In contrast, EK1 with a single dose of 20 mg/kg via nasal 327 administration exhibited very promising prophylactic effect in the Pre-0.5 h and Pre-1 328 h groups, whereas all mice in the EK1-Pre-2 h group eventually died similarly to the 329 mice in the viral control group(Fig. S5). These results suggested that EK1C4 has 330 better stability, antiviral activity, and prolonged half-life in the airway environment 331 when compared with EK1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Similar to those in the viral control mice, mice in Pre-24 and Post-2 groups exhibited 343 similar histopathological changes in brain tissues, including vacuolation, degeneration, 344 and infiltration. However, the brain tissues of mice in Pre-0.5, Pre-2, Pre-4, Pre-12 345 and Post-0.5 group as well as the normal control group showed no apparent 346 histopathological changes(Fig. S6 c).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "the past 20 years, highly infectious pathogens have been emerging 349 increasingly, such as SARS-CoV in 2003 and MERS-CoV in 2012 20-22 . In 2018, 350 WHO proposed \"Disease X\" in the blueprint priority diseases for any new unknown 351 pathogen that may cause an epidemic or pandemic in the future, calling for the 352 development of effective and safe vaccines and antivirals to prevent and treat such 353 Disease X. Indeed, at the end of 2019, the outbreak of Wuhan pneumonia with an 354 unknown etiological agent, the first Disease X following WHO's announcement was 355 reported to WHO. Shortly thereafter, a novel coronavirus, SARS-CoV-2 (also known 356 as 2019-nCoV or HCoV-19), was identified to be the etiology of the Wuhan 357 pneumonia, i.e., COVID-19 as designated by WHO.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "SARS-CoV, live SARS-CoV-2-infected cells were found to form typical359    syncytium, suggesting that SARS-CoV-2 may mainly utilize the plasma membrane to enter and replicate inside host cells. Consistently, in the cell-cell 361 fusion system, SARS-CoV-2 S protein could effectively mediate the formation of 362 syncytium between the effector cell and the target cell in the absence of an exogenous 363 proteolytic enzyme, e.g., trypsin, while SARS-CoV S protein could not. Actually, the 364 plasma membrane fusion pathway is more efficient than the endosomal membrane 365 fusion pathway for most viruses because the latter is more prone to activating the host 366 cell antiviral immunity 23,24 . Generally, \u03b2-B coronaviruses lack the S1/S2367 furin-recognition site, and their S proteins are uncleaved in the native state. For 368 example, SARS-CoV enters into the cell mainly via the endosomal membrane fusion 369 pathway where its S protein is cleaved by endosomal cathepsin L and activated 25 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "383 fusion core structure similar to those of SARS-CoV and MERS-CoV. Although the 384 amino acid sequences of HR2 domain from SARS-CoV and SARS-CoV-2 are fully 385 identical, multiple residue differences occur in the HR1 domain of SARS-CoV-2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "410 model, the EK1C4 peptide anchors to one of the three hydrophobic grooves of HR1 411 trimer via its EK1 moiety, and also anchors to another adjacent hydrophobic groove of 412 HR1 trimer via its cholesterol moiety. The cholesterol group of EK1C4 may bind to 413 HR1P through hydrophobic interactions, while several hydrogen bonds may form 414 between HR1 and helical region of EK1C4. The intermediated GSGSG-PEG4 linker 415 of EK1C4 peptide is just enough to connect these two moieties on the two binding 416 targets. Admittedly, the exact mechanism and structure of EK1C4 need more studies 417 in the future.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "419 target for the development of viral fusion and entry inhibitors. In the early outbreak of 420 MERS, we quickly solved the 6-HB fusion core structure formed by MERS-CoV S 421 protein HR1 and HR2 domains and designed the fusion inhibitory peptide HR2P-M2 422 which proved to be highly effective in blocking its spike protein-mediated membrane 423 fusion and inhibit in vitro MERS-CoV infection 16 . The results from animal 424 experiments showed that intranasal application of HR2P-M2 peptide could effectively 425 protect mice from MERS-CoV infection with reduction of virus titers in the lung 426 more than 1000-fold 29 . However, the MERS-CoV HR2P-M2 peptide could not inhibit 427 SARS-CoV infection, suggesting that this peptide lacks cross-inhibitory activity 428 against other \u03b2-CoVs, such as SARS-CoV and bat SARSr-CoVs. To be well prepared 429 for combating the emerging coronaviruses with epidemic or pandemic potential, we 430 designed and synthesized the first pan-coronavirus fusion inhibitor, EK1, and found 431 that EK1 exhibited potent inhibitory activity against all HCoVs that we tested, 432 including SARS-CoV and MARS-CoV, as well as bat SARSr-CoVs. As expected, we 433 recently have shown that EK1 is also effective in inhibiting infection of the novel 434 \u03b2-CoV, SARS-CoV-2 15 . We then optimized EK1 peptide in hopes of improving its 435 fusion inhibitory activity. Indeed, we found that one of the modified EK1 peptides, 436 EK1C4, was 226-fold and 149-fold more potent against SARS-CoV-2 S 437 protein-mediated membrane fusion and PsV infection, respectively, than EK1. EK1C4 438 also showed broad-spectrum inhibitory activity against infection by SARS-CoV, 439 MERS-CoV and other HCoVs. EK1C4 showed prolonged and significant 440 prophylactic effect against HCoV-OC43 infection in mouse model, suggesting that 441 EK1C4 may also be used as an inhibitor against SARS-CoV-2 infection in vivo. 442 Consistent with other studies 35 , HCoV-OC43 was showed as a typical neurotropic 443 virus in the mouse model, and quickly entered and established infection in mouse 444 brain tissue, leading to the relatively weak therapeutic effect of EK1C4 via intranasal 445 administration. However, SARS-CoV-2 mainly infected and caused severe 446 pathological changes in human lung tissue 4 . Therefore, EK1C4 administered no specific anti-CoV therapeutics or prophylactics have been used in 450 clinics for treatment or prevention of SARS-CoV-2 infection. A number of 451 nonspecific antiviral drugs, including IFN, lopinavir-ritonavir (HIV protease 452 inhibitors), chloroquine, favipiravir (T-705) and remdesivir (GS-5734), have been 453 used in clinics in China to treat SARS-CoV-2 infection 30 . Their in vivo efficacies still 454 require further confirmation. Their potential use for treatment of infection by other 455 coronaviruses and emerging coronaviruses in the future is unclear. Compared with 456 these clinically used nonspecific antiviral drugs, EK1C4 has more advantages for 457 treatment and prevention of SARS-CoV-2 infection. First, the sequence of its target, 458 the HR1 domain in S2 subunit of S protein, is highly conserved. Therefore, EK1C4 459 possesses a high genetic barrier to resistance and cannot easily induce drug-resistant 460 mutations. Second, EK1C4 can be used in an intranasal formulation to prevent 461 coronavirus infection. The small bottles can be carried easily by persons who will 462 have close contact with infected patients or high-risk populations. Third, EK1C4 can 463 be used in inhalation formulation for treatment of patients to reduce the viral loads in 464 their lungs, thus attenuating the acute lung injury caused by viral infection and 465 reducing the chance to spread the virions to the closely contacted persons. The 466 inhalation equipment can be used in home or hotel room, reducing the expense of 467 staying in hospitals. Fourth, EK1C4 is expected to be safe to humans because it will 468 be used locally, not systemically, and peptide drugs are generally safer than chemical 469 drugs. Fifth, because of its broad-spectrum anti-coronavirus activity, EK1C4 can be 470 used for treatment and prevention of infection by not only SARS-CoV-2, but also 471 other HCoVs. Sixth, recently 103 SARS-CoV-2 genomes have been identified 31 , but 472 we found that both the HR1 and HR2 domains among those reported genomes show 473 100% identity (Fig. S9), indicating the high conservation of EK1C4 target. In the 474 meantime, the HR2 derived peptides have much larger interface on HR1 domain, 475 making it more resistant to the viral mutations. Therefore, EK1C4 shows exceptional HTB-55\u2122), A549 (CCL-185), Vero E6 (CRL-1586\u2122), RD (CCL-136\u2122), and 484 LLC-MK2 Original (CCL-7\u2122) cells were obtained from the American Type Culture 485 Collection (ATCC). Human hepatoma Huh-7 cells were from the Cell Bank of the 486 Chinese Academy of Sciences (Shanghai, China), and 293T cells stably expressing 487 human ACE2 (293T/ACE2) cells were kindly provided by Dr. Lanying Du. All of 488 these cell lines were maintained and grown in Dulbecco's Modified Eagle's Medium 489 (DMEM, Invitrogen, Carlsbad, CA, USA) containing 100 U/ml penicillin, 100 mg/ml 490 streptomycin, and 10% heat-inactivated fetal calf serum (FCS) (Gibco).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "Patient-derived COVID-19 (BetaCoV/Wuhan/WIV04/2019) was isolated by the 492 Wuhan Institute of Virology 6 . MERS-CoV-EMC/2012 was originally provided by 493 Chuan Qin (Beijing Key Laboratory for Animal Models of Emerging and 494 Re-emerging Infectious Diseases). ATCC strain of Human coronavirus 229E 495 (HCoV-OC43, VR-740), as well as Human coronavirus OC43 (HCoV-229E, VR-1558) 496 and HCoV-NL63 (Amsterdam strain) strains were amplified in Huh-7, HCT-8 and 497 LLC-MK2 cells, respectively.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "-S), and the plasmids pAAV-IRES-EGFP that encode EGFP as 510 well as the luciferase reporter vector (pNL4-3.Luc.R-E-) were maintained in our 511 laboratory. 512 Cell-cell fusion assay 513 The establishment and detection of several cell-cell fusion assays are as previously 514 described 14,16 . In brief, Huh-7 cells (for testing all coronaviruses) or 293T/ACE2 cells 515 (for testing SARS-CoV-2) were used as target cells. For preparing effector cells 516 expressing S protein a coronavirus, 293T cells were transfected with one of the S SL-CoV/GFP, 293T/HCoV-OC43/GFP, 293T/HCoV-NL63/GFP or empty 520 plasmid pAAV-IRES-EGFP. For SARS-CoV S-, SL-CoV S-, OC43 S-or NL63 521 S-mediated cell-cell fusion assays, effector cells and target cells were cocultured in 522 DMEM containing trypsin (80 ng/mL) for 4 h, while for SARS-CoV-2 and 523 MERS-CoV S-mediated cell-cell fusion assays, effector cells and target cells were 524 cocultured in DMEM without trypsin but 10% FBS for 2 h. After incubation, five 525 fields were randomly selected in each well to count the number of fused and unfused 526 cells under an inverted fluorescence microscope (Nikon Eclipse Ti-S).527 Inhibition of HCoV S-mediated cell-cell fusion 528 The inhibitory activity of a peptide on a HCoV S-mediated cell-cell fusion was 529 assessed as previously described 14,16 . Briefly, a total of 2\u00d710 4 cells/well target cells in the presence or absence of a peptide at the indicated concentrations at 532 37 \u00b0C for 2 h. 293T/EGFP cells with phosphate-buffered saline (PBS) were used as a 533 negative control. The fusion rate was calculated by observing the fused and unfused 534 cells using fluorescence microscopy. 535 Inhibition of pseudotyped HCoV infection 536 293T cells were cotransfected with pNL4-3.luc.RE (the luciferase reporter-expressing 537 HIV-1 backbone) and pcDNA3.1-SARS-CoV-2-S (encoding for CoVs S protein) 538 using VigoFect (Vigorous Biotechnology, Beijing, China) 16,32,33 . Pseudotyped 539 particles were efficiently released in the supernatant. The supernatant was harvested at 540 72 h post-transfection, centrifuged at 3000\u00d7 g for 10 min, and frozen to \u221280 \u00b0C. To 541 detect the inhibitory activity of a peptide on infection of coronavirus PsV, target cells 542 (293T/ACE2 for SARS-CoV-2, SARS-CoV and SL-CoVs; RD cells for HCoV-OC43; 543 Huh-7 for other CoVs) were plated at a density of 10 4 cells per well in a 96-well plate 544 one day prior to infection 14 . PsV was mixed with an equal volume of a peptide which 545 was series diluted with PBS at 37 \u00b0C for 30 min. The mixture was transferred to the 546 Huh-7 cells. Medium was changed after 12 h and incubation continued for 48 h. 547 Luciferase activity was analyzed by the Luciferase Assay System (Promega, Madison, 548 WI, USA). 549 Inhibition of live HCoV replication 550 The inhibition assay for live SARS-CoV-2 and MERS-CoV was performed in a 551 biosafety level 3 (BSL3) facility at the Wuhan Research Institute and Beijing Key 552 Laboratory for Animal Models of Emerging and Re-emerging Infectious Diseases, 553 respectively 6 . Inhibition activity of peptides on SARS-CoV-2 and MERS-CoV was 554 determined by plaque reduction assay. Peptides with different dilution concentrations 555 were mixed with SARS-CoV-2 (100 TCID50) for 30 minutes and then added to 556 monolayer VERO-E6 cells. After adsorption at 37 \u00b0C, the supernatant was removed, 557 and 0.9 % methyl cellulose was overlaid on the cells. After 72 h, the plates were fixed peptide and incubated at 37 \u00b0 C for 1 hour. Afterwards, the mixture was 562 added to RD, Huh-7 and LLC-MK2 cells, respectively. Cell Counting Kitor peptide mixtures were dissolved in PBS to prepare a solution with a 567 final concentration of 10 \u03bcM at 37 \u00b0C for 30 min and then measured on a Jasco-815-568 circular dichroism spectrometer 34 . The scanning wavelength range was 198-260 nm. 569 Thermal denaturation detection starts at 222 nm with a 5 \u00b0C/min thermal gradient 570 detection. 571 Mouse infection studies 572 Newborn mice were bred from pregnant mice purchased from the Animal Center of 573 Fudan University, and all the related experiments were carried out in strict accordance 574 with institutional regulations (approval number 20190221-070, approval date 21 575 February 2019). Each group had 12 3-day-old mice. To test the protective effect of 576 peptides on HCoV-infected mice, EK1C4 (0.5 mg/kg), EK1 (20 mg/kg) in 2 \u00b5l 28% 577 Hydroxypropyl-\u03b2-Cyclodextrin (HBC), or phosphate-buffered saline (PBS) solution, 578",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF21": {
+            "text": "and purification of fusion protein HR1-L6-HR2 of SARS-CoV-2 594 The coding sequences of HR1 (residues 910 to 988) and HR2 (residues 1162 to 1206) 595 domains of SARS-CoV-2 S2 subunits were tandem linked though a 6-residue linker 596 (L6: SGGRGG). The resulting sequences encoding the fused HR1-L6-HR2 protein 597 were then cloned into a modified pET-28a vector containing a His 6 -SUMO tag 598 upstream of the multiple cloning site. The recombinant construct was expressed in 599 Escherichia coli BL21 (DE3). Cells were grown in lysogeny broth (LB) media 600 supplemented with 50 \u03bcg/mL kanamycin at 37 \u00b0C and were induced with 1 mM IPTG 601 for 12 h at 16 \u00b0C overnight. Cells were harvested by centrifugation at 4500 g for 10 602 min at 4 \u00b0C and were lysed by high-pressure homogenizer twice after resuspension in 603 buffer containing 25 mM Tris-HCl, pH 8.0, and 200 mM NaCl. The fusion proteins 604 were isolated by Ni-affinity chromatography, and the SUMO tag was removed by 605 Ulp1 enzyme (1:100 w/w) cleavage. HR1-L6-HR2 protein was concentrated and 606 gel-filtered on a 10/300 Superdex 75 (GE Healthcare) column. Peak fractions 607 containing HR1-L6-HR2 trimer were pooled and concentrated to 20 mg/ml through 608 centrifugation (EMD Millipore).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "were obtained at 16 \u00b0C for 7 days using the hanging drop vapor diffusion 611 method by mixing equal volume of protein solution (HR1-L6-HR2, 10 mg/mL) and Rigaku, Japan), HR1-L6-HR2 crystals at 100 K were diffracted to 2.9-\u00c5 resolution at 617 a wavelength of 1.5418 \u00c5. A native set of X-ray diffraction data was collected with618 the R-AXIS IV ++ detector (Rigaku, Japan) with an exposure time of 3 min per image 619 and was indexed and processed using iMosflm 36 . The space group of the collected 620 dataset is P21. Molecular replacement was performed with PHENIX.phaser 37 to solve 621 the phasing problem, using the SARS-CoV S protein core structure (PDB code 622 1WYY) as a search model. The final model was manually adjusted in COOT and 623 refined with Refmac 38 . Data collection statistics and refinement statistics are given in 624",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "rates of mice were analyzed by GraphPad Prism 5.0 software. CalcuSyn 630 software was kindly provided by T.C. Chou, and the percent inhibition and IC 50 631 values were calculated based on it 34 . declare no conflict of interest.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF25": {
+            "text": "Legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF26": {
+            "text": "Establishment of SARS-CoV-2 S protein-mediated cell-cell fusion system 737 a. The emerging timeline for highly pathogenic viruses and the proposed Disease X. b.738    Schematic representation of SARS-CoV-2 S protein. Its S1 subunit contains NTD 739",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". The three HR1 domains form a parallel trimeric 178 coiled-coil center, around which three HR2 domains are entwined in an antiparallel 179 manner. The interaction between these two domains is predominantly a hydrophobic 180 force. Each pair of two adjacent HR1 helices forms a deep hydrophobic groove, providing the binding site for hydrophobic residues of the HR2 domain, including",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Coordinates were deposited in the RCSB Protein Data Bank (PDB code: 6LXT). The interaction model of EK1C4 peptide and HR1 domains of SARS-nCoV-2",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Data collection and refinement statistics SARS-CoV-2 HR1-L6-HR2PDB entry 6LXT author/funder. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

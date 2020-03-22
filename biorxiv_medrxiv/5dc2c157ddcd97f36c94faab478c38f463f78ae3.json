@@ -1,0 +1,1323 @@
+{
+    "paper_id": "5dc2c157ddcd97f36c94faab478c38f463f78ae3",
+    "metadata": {
+        "title": "An emergent clade of SARS-CoV-2 linked to returned travellers from Iran Corresponding Authors",
+        "authors": [
+            {
+                "first": "John-Sebastian",
+                "middle": [],
+                "last": "Eden",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Marie Bashir Institute for Infectious Diseases and Biosecurity",
+                    "location": {
+                        "postCode": "2006",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rebecca",
+                "middle": [],
+                "last": "Rockett",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Marie Bashir Institute for Infectious Diseases and Biosecurity",
+                    "location": {
+                        "postCode": "2006",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ian",
+                "middle": [],
+                "last": "Carter",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Infectious Diseases and Microbiology Laboratory Services",
+                    "institution": "NSW Health Pathology -Institute of Clinical Pathology and Medical Research",
+                    "location": {
+                        "postCode": "2145",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hossinur",
+                "middle": [],
+                "last": "Rahman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Infectious Diseases and Microbiology Laboratory Services",
+                    "institution": "NSW Health Pathology -Institute of Clinical Pathology and Medical Research",
+                    "location": {
+                        "postCode": "2145",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Joep",
+                "middle": [],
+                "last": "De Ligt",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "James",
+                "middle": [],
+                "last": "Hadfield",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Vaccine and Infectious Disease Division",
+                    "institution": "Fred Hutchinson Cancer Research Center",
+                    "location": {
+                        "settlement": "Seattle",
+                        "region": "WA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Matthew",
+                "middle": [],
+                "last": "Storey",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xiaoyun",
+                "middle": [],
+                "last": "Ren",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rachel",
+                "middle": [],
+                "last": "Tulloch",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Marie Bashir Institute for Infectious Diseases and Biosecurity",
+                    "location": {
+                        "postCode": "2006",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kerri",
+                "middle": [],
+                "last": "Basile",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Westmead Institute for Medical Research",
+                    "location": {
+                        "postCode": "2145",
+                        "settlement": "Westmead",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": "e:kerri.basile@health.nsw.gov.au"
+            },
+            {
+                "first": "Jessica",
+                "middle": [],
+                "last": "Wells",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Infectious Diseases and Microbiology Laboratory Services",
+                    "institution": "NSW Health Pathology -Institute of Clinical Pathology and Medical Research",
+                    "location": {
+                        "postCode": "2145",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Roy",
+                "middle": [],
+                "last": "Byun",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nicky",
+                "middle": [],
+                "last": "Gilroy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Infectious Diseases and Microbiology Laboratory Services",
+                    "institution": "NSW Health Pathology -Institute of Clinical Pathology and Medical Research",
+                    "location": {
+                        "postCode": "2145",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Matthew",
+                "middle": [
+                    "V"
+                ],
+                "last": "O&apos;sullivan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Infectious Diseases and Microbiology Laboratory Services",
+                    "institution": "NSW Health Pathology -Institute of Clinical Pathology and Medical Research",
+                    "location": {
+                        "postCode": "2145",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vitali",
+                "middle": [],
+                "last": "Sintchenko",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Marie Bashir Institute for Infectious Diseases and Biosecurity",
+                    "location": {
+                        "postCode": "2006",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sharon",
+                "middle": [
+                    "C"
+                ],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Susan",
+                "middle": [],
+                "last": "Maddocks",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Marie Bashir Institute for Infectious Diseases and Biosecurity",
+                    "location": {
+                        "postCode": "2006",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tania",
+                "middle": [
+                    "C"
+                ],
+                "last": "Sorrell",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Marie Bashir Institute for Infectious Diseases and Biosecurity",
+                    "location": {
+                        "postCode": "2006",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Edward",
+                "middle": [
+                    "C"
+                ],
+                "last": "Holmes",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Marie Bashir Institute for Infectious Diseases and Biosecurity",
+                    "location": {
+                        "postCode": "2006",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dominic",
+                "middle": [
+                    "E"
+                ],
+                "last": "Dwyer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Marie Bashir Institute for Infectious Diseases and Biosecurity",
+                    "location": {
+                        "postCode": "2006",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jen",
+                "middle": [],
+                "last": "Kok",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Infectious Diseases and Microbiology Laboratory Services",
+                    "institution": "NSW Health Pathology -Institute of Clinical Pathology and Medical Research",
+                    "location": {
+                        "postCode": "2145",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "John-Sebastian",
+                "middle": [
+                    "Eden"
+                ],
+                "last": "Po Box",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Infectious Diseases and Microbiology Laboratory Services",
+                    "institution": "NSW Health Pathology -Institute of Clinical Pathology and Medical Research",
+                    "location": {
+                        "postCode": "2145",
+                        "region": "NSW",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The SARS-CoV-2 epidemic has rapidly spread outside China with major outbreaks occurring in Italy, South Korea and Iran. Phylogenetic analyses of whole genome sequencing data identified a distinct SARS-CoV-2 clade linked to travellers returning from Iran to Australia and New Zealand. This study highlights potential viral diversity driving the epidemic in Iran, and underscores the power of rapid genome sequencing and public data sharing to improve the detection and management of emerging infectious diseases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "From a public health perspective, the real-time whole genome sequencing (WGS) of emerging viruses enables the informed development and design of molecular diagnostic methods, and tracing patterns of spread across multiple epidemiological scales (i.e. genomic epidemiology). However, WGS capacities and data sharing policies vary in different countries and jurisdictions, leading to potential sampling bias due to delayed or underrepresented sequencing data from some areas with substantial SARS-CoV-2 activity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MAIN TEXT"
+        },
+        {
+            "text": "Herein, we show that the genomic analyses of SARS-CoV-2 strains from Australian returned travellers with COVID-19 disease may provide important insights into viral diversity present in regions currently lacking genomic data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MAIN TEXT"
+        },
+        {
+            "text": "In late December 2019, a cluster of cases of pneumonia of unknown aetiology in Wuhan city, Hubei province, China was reported by health authorities [1] . A novel betacoronavirus, designated SARS-CoV-2, was identified as the causative agent [2] of the disease now known as COVID-19, with substantial human-to-human transmission [3] . To contain a growing epidemic, Chinese authorities implemented strict quarantine measures in Wuhan and surrounding areas in Hubei province. Significant delays in the global spread of the virus were achieved, but despite these measures, cases were exported to other countries. As of 9",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 151,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 240,
+                    "end": 243,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 327,
+                    "end": 330,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 emergence and dissemination"
+        },
+        {
+            "text": "March 2020, these numbered more than 100 countries, on all continents except Antarctica; the total number of confirmed infections exceeded 110,000 and there were nearly 4,000 deaths [4] . Although the vast majority of cases have occurred in China, major outbreaks have also been reported in Italy, South Korea and Iran [5] . Importantly, there is widespread local transmission in multiple countries outside China following independent importations of infection from visitors and returned travellers.",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 185,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 319,
+                    "end": 322,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 emergence and dissemination"
+        },
+        {
+            "text": "In New South Wales (NSW), Australia, WGS for SARS-CoV-2 was developed based on an existing amplicon-based Illumina sequencing approach [6] . Viral extracts were prepared from respiratory tract samples where SARS-CoV-2 was detected by RT-PCR using World Health Organization recommended primers and probes targeting the E and RdRp genes, and then reverse transcribed using SSIV VILO cDNA master mix. The viral cDNA was used as input for multiple overlapping PCR reactions (~2.5kb each) spanning the viral genome using Platinum SuperFi master mix (primers provided in Supplementary Table S1 ). Amplicons were pooled equally, purified and quantified. Nextera XT libraries were prepared and sequencing was performed with multiplexing on an Illumina iSeq (300 cycle flow cell). In New Zealand, the ARTIC network protocol was used for WGS [7] . In short, 400bp tiling . CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992818 doi: bioRxiv preprint 4 amplicons designed with Primal Scheme [8] were used to amplify viral cDNA prepared with SuperScript III. A sequence library was then constructed using the Oxford NanoPore ligation sequencing kit and sequenced on a R9.4.1 MinION flow-cell. Near-complete viral genomes were then assembled de novo in Geneious Prime 2020.0.5 or through reference mapping with RAMPART V1.0.6 [9] using the ARTIC network nCoV-2019 novel coronavirus bioinformatics protocol [10] . In total, 13 SARS-CoV-2 genomes were sequenced from cases in NSW diagnosed between 24 January and 3 March 2020, as well as a single genome from the first patient in Auckland, New Zealand sampled on 27 February 2020 (Table 1) .",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 138,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 832,
+                    "end": 835,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1124,
+                    "end": 1127,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1457,
+                    "end": 1460,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1537,
+                    "end": 1541,
+                    "text": "[10]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 565,
+                    "end": 587,
+                    "text": "Supplementary Table S1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1759,
+                    "end": 1768,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Whole genome sequencing of SARS-CoV-2 cases in Australia and New Zealand"
+        },
+        {
+            "text": "Australian and New Zealand sequences were aligned to global reference strains sourced from GISAID with MAFFT [11] and then compared phylogenetically using a maximum likelihood approach [12] .",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 113,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 185,
+                    "end": 189,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Whole genome sequencing of SARS-CoV-2 cases in Australia and New Zealand"
+        },
+        {
+            "text": "The Australian strains of SARS-CoV-2 were dispersed across the global SARS-CoV-2 phylogeny ( Figure 1A ). The first four cases of COVID-19 disease in NSW occurred between 24 and 26 January 2020, and these were closely related (with 1-2 SNPs difference) to the prototype strain MN908947/SARS-CoV-2/Wuhan-Hu-1, which is the dominant variant The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992818 doi: bioRxiv preprint 5 A search of partial sequences identified two SARS-CoV-2 sequences which originated in Iran (413553/IRN/Tehran15AW/2020-02-28 and 413554/IRN/Tehran9BE/2020-02-23) spanning a 363 nt region of the viral nucleoprotein (N). Although short in length, these two sequences covered one of the informative SNPs defining this clade -T28688C, and both Iranian strains matched the sequences from patients with travel histories to Iran and grouped by phylogenetic analysis (Supplementary Figures S1 & S2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 93,
+                    "end": 102,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 942,
+                    "end": 972,
+                    "text": "(Supplementary Figures S1 & S2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "A distinct clade of SARS-CoV-2 identified in travellers returned from Iran"
+        },
+        {
+            "text": "Technological advancements and the wide-spread adoption of WGS in pathogen genomics have transformed public health and infectious disease outbreak responses [13] . Previously, disease investigations often relied on the targeted sequencing of a small locus to identify genotypes and infer patterns of spread along with epidemiological data. As seen with the recent West African Ebola [14] and Zika virus epidemics [15] , rapid WGS significantly increases resolution of diagnosis and surveillance thereby strengthening links between clinical and epidemiological data [16] . This advance improves our understanding of pathogen origins and spread that ultimately lead to stronger and more timely intervention and control measures [17] . Following the first release of the SARS-CoV-2 genome [18] , public health and research laboratories worldwide have rapidly shared sequences on public data repositories such as GISAID [19] (n = 236 genomes as of 9 March 2020) that have been used to provide near real-time snapshots of global diversity through public analytic and visualization tools [20] .",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 161,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 383,
+                    "end": 387,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 413,
+                    "end": 417,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 565,
+                    "end": 569,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 726,
+                    "end": 730,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 786,
+                    "end": 790,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 916,
+                    "end": 920,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1082,
+                    "end": 1086,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "While all known cases linked to Iran are contained in this clade, it is important to note the presence of two Chinese strains sampled during mid-January 2020 from Hubei and Shandong provinces. It is expected that further Chinese strains would be identified within this clade, and across the entire diversity of SARS-CoV-2 as this is where the outbreak started, including for the outbreak in Iran itself. However, while we cannot completely discount that the cases in Australia and New Zealand came from other sources including China, our phylogenetic analyses, as well as epidemiological (recent travel to Iran) and clinical data (date of symptom onset), provide evidence that this clade of SARS-CoV-2 is linked to the Iranian epidemic, from where genomic data is currently lacking. Importantly, the seemingly multiple importations of very closely related viruses from Iran into Australia suggests that this diversity reflects the early stages of SARS-CoV-2 transmission within Iran. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "None declared. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992818 doi: bioRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONFLICT OF INTEREST"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Wuhan Municipal Health and Health Commission's briefing on the current pneumonia epidemic situation in our city",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wang",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--74",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "An interactive web-based dashboard to track COVID-19 in real time",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gardner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "World Health Organisation Coronavirus Situation Report -8 th",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Evolution of Human Respiratory Syncytial Virus (RSV) over Multiple Seasons in New South Wales, Australia. Viruses",
+            "authors": [
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Giallonardo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Geoghegan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dwyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "nCoV-2019 sequencing protocol, Quick J",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "An amplicon-based sequencing framework for accurately measuring intrahost virus diversity using PrimalSeq and iVar",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Grubaugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gangavarapu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Quick",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Matteson",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Jesus",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Main",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Genome Biol",
+            "volume": "20",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Katoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Misawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K-I",
+                    "middle": [],
+                    "last": "Kuma",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Miyata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nucleic Acids Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.15.992818"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Guindon",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Gascuel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Syst Biol",
+            "volume": "52",
+            "issn": "5",
+            "pages": "696--704",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Whole Genome Sequencing-Implications for Infection Prevention and Outbreak Investigations. Curr Infect Dis Rep",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Popovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Snitkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Virus genomes reveal factors that spread and sustained the Ebola epidemic",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dudas",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Carvalho",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bedford",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tatem",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Baele",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Faria",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature",
+            "volume": "544",
+            "issn": "7650",
+            "pages": "309--324",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Genomic Insights into Zika Virus Emergence and Spread. Cell",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Grubaugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Faria",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Andersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pybus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "172",
+            "issn": "",
+            "pages": "1160--1162",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Unifying the epidemiological and evolutionary dynamics of pathogens",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Grenfell",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pybus",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gog",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jln",
+                    "middle": [],
+                    "last": "Wood",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Daly",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mumford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Science",
+            "volume": "303",
+            "issn": "5656",
+            "pages": "327--359",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Tracking virus outbreaks in the twenty-first century",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Grubaugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ladner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lemey",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pybus",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature Microbiology",
+            "volume": "4",
+            "issn": "1",
+            "pages": "10--19",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "org -Novel 2019 coronavirus genome",
+            "authors": [
+                {
+                    "first": ";",
+                    "middle": [],
+                    "last": "Virological",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Global initiative on sharing all influenza data -from vision to reality",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mccauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gisaid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Euro Surveill",
+            "volume": "22",
+            "issn": "13",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Nextstrain: real-time tracking of pathogen evolution",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hadfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Megill",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huddleston",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Potter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Callender",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bioinformatics",
+            "volume": "34",
+            "issn": "23",
+            "pages": "4121--4124",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.15.992818"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Australia 01-Mar-20 SE Asia",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sydney",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.15.992818"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "circulating in Wuhan. As the four patients identified in this period had recently returned from China, this region was the likely source of infection. From 1 February 2020, travel to Australia from mainland China was restricted to returning Australian residents and their children, who were placed in home quarantine for 14 days. Despite the intensive testing of such returning travellers, no further cases of COVID-19 were detected in NSW until 28 February 2020, when SARS-COV-2 was detected in an individual returning from Iran (NSW05). A close contact of this individual also tested positive (NSW14) providing the first evidence of local transmission within NSW. This was followed by further Iran travel-linked cases in NSW (NSW06, NSW11, NSW12, NSW13) and New Zealand (NZ01). Of note, the genomes of all patients with a history of travel to Iran were part of a monophyletic group defined by three nucleotide substitutions (G1397A, T28688C & G29742T) in the SARS-CoV-2 genome relative to the Wuhan prototype strain (Figure 1B). G1397A and T28688C both occur in coding regions with G1397A producing a nonsynonymous change (V378I) in the ORF1ab encoded non-structural protein 2 region. G29742T occurs in the 3' UTR. In addition to the Australian and New Zealand strains, this clade also included a traveller who had returned to Canada from Iran (BC_37_0-2), providing further evidence of its likely link to the Iranian epidemic. Indeed, a search of all currently available GISAID sequences and metadata revealed no other complete genome sequences from patients with documented history of travel to or residence in Iran (as of 9 March 2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Karen-Ann Gray, Rosemarie Sadsad and Alicia Arnott. The authors acknowledge the Sydney Informatics Hub and the use of the University of Sydney's high performance computing cluster, Artemis, and all the laboratories that have referred SARS-CoV-2 samples to the Centre for Infectious Diseases and Microbiology Laboratory Services, NSW Health Pathology -Institute of Clinical Pathology and Medical Research, Westmead Hospital. We would finally like to thank all the authors who have kindly shared genome data on GISAID, and have included a table (Supplementary Table S2) outlining the authors and institutes involved. Data including the sequences in this study are available for download from https://www.gisaid.org/. AUTHOR CONTRIBUTIONS Study concept and design by JSE, ECH & JK. Sample processing and testing by IC & HR. Sequencing and analysis by JSE, RR, JDL, JH, MS, XR, RT & ECH. Study coordination by NG, MVOS, VS, SCC, SM, TCS, DED & JK. JSE wrote the first manuscript draft with editing from ECH, JDL, RR, TCS, VS & JK. The final manuscript was approved by all authors.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Phylogenetic analysis of SARS-CoV-2 genome sequences highlighting a clade of imported cases from Iran. (A) Global diversity of circulating SARS-CoV-2 strains including Australian sequences (blue circles, n=19). The prototype strain Wuhan-Hu-1 is shown as a red circle. An emergent clade containing cases imported from Iran is highlighted with grey shading. (B) Sub-tree showing the informative branch containing imported Iranian cases (highlighted with yellow squares) and defined by substitutions at positions G1397A, T28688C, G29742T. Node support is provided as bootstrap values of 100 replicates. For both panels A & B, the scales are proportional to the number of substitutions per site.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "This study was supported by the Prevention Research Support Program funded by the New South Wales Ministry of Health and the NHMRC Centre of Research Excellence in Emerging Infectious Diseases (GNT1102962). . CC-BY-NC 4.0 International license author/funder. It is made available under aThe copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992818 doi: bioRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "SARS-CoV-2 genomes sequenced in this study",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

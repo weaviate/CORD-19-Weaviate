@@ -1,0 +1,1802 @@
+{
+    "paper_id": "d38c890fa2f9a9325e663e55a43cfbef262e86d8",
+    "metadata": {
+        "title": "High sensitivity detection of coronavirus SARS-CoV-2 using multiplex PCR and a multiplex-PCR-based metagenomic method",
+        "authors": [
+            {
+                "first": "Chenyu",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "1#",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "N"
+                ],
+                "last": "Debruyne",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Julia",
+                "middle": [],
+                "last": "Spencer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vidushi",
+                "middle": [],
+                "last": "Kapoor",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lily",
+                "middle": [
+                    "Y"
+                ],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bo",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lucie",
+                "middle": [],
+                "last": "Lee",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rounak",
+                "middle": [],
+                "last": "Feigelman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Grayson",
+                "middle": [],
+                "last": "Burdon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jeffrey",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alejandra",
+                "middle": [],
+                "last": "Oliva",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Adam",
+                "middle": [],
+                "last": "Borcherding",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hongdong",
+                "middle": [],
+                "last": "Tan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alexander",
+                "middle": [
+                    "E"
+                ],
+                "last": "Urban",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "postCode": "94305",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Guoying",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhitong",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paragon Genomics Inc",
+                    "location": {
+                        "postCode": "94545",
+                        "settlement": "Hayward",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": "zhitong@paragongenomics.com"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Many detection methods have been used or reported for the diagnosis and/or surveillance of SARS-CoV-2. Among them, reverse transcription polymerase chain reaction (RT-PCR) is the most sensitive, claiming detection of about 5 copies of viruses. However, it has been reported that only 47-59% of the positive cases were identified by RT-PCR, probably due to loss or degradation of virus RNA in the sampling process, or even mutation of the virus genome. Therefore, developing highly sensitive methods is imperative to ensure robust detection capabilities. With the goal of improving sensitivity and accommodate various application settings, we developed a multiplex-PCR-based method comprised of 172 pairs of specific primers, and demonstrated its efficiency to detect SARS-CoV-2 at low copy numbers. The assay produced clean characteristic target peaks of defined sizes, which allowed for direct identification of positives by electrophoresis. In addition, optional sequencing can provide further confirmation as well as phylogenetic information of the identified virus(es) for specific strain discrimination, which will be of paramount importance for surveillance purposes that represent a global health imperative. Finally, we also developed in parallel a multiplex-PCR-based metagenomic method that is amenable to detect SARS-CoV-2, with the additional benefit of its potential for uncovering mutational diversity and novel pathogens at low sequencing depth.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "A severe epidemic coronavirus (SARS-CoV-2) infection, now just characterized as a pandemic by the World Health Organization (WHO), started in December of 2019 in Wuhan China and quickly spread to many countries in the world [1] [2] [3] . It has caused over 7,000 deaths as of mid-March and made daily impacts on various aspects of societal life around the globe 4 . SARS-CoV-2 is a coronavirus with positive-sense, singlestranded RNA about 30kb in length. The genome of SARS-CoV-2 is currently under careful investigation [5] [6] [7] [8] [9] and being extensively modeled according to the Chinese National Center for Biological information (2019 New Coronavirus Information Database, https://bigd.big.ac.cn/ncov). Of note, SARS-CoV-2 exhibits over 99% sequence similarity among many sequenced isolates, and is also highly similar to other coronaviruses 5,9 . Present methods for detecting SARS-CoV-2 have been reported and discussed 10, 11 , including RT-PCR, serological testing 12 and reverse transcription-loop-mediated isothermal amplification 13, 14 . Currently, RT-PCR is considered the gold standard of diagnosis for SARS-CoV-2 due to its ease of use and high sensitivity. RT-PCR has been reported to detect SARS-CoV-2 in saliva 15 , pharyngeal swab, blood, anal swab 16 , urine, stool 17 , and sputum specimens 18 . In laboratory conditions, the RT-PCR methodology has been shown to detect 4-8 copies of virus, through amplification of targets in the Orf1ab, E and N viral genes, at 95% confidence intervals [19] [20] [21] . However, only about 47-59% of the positive cases were identified by RT-PCR, and 75% of RT-PCR negative results were actually found to be positive, with repeated tests required 17, [22] [23] [24] . In addition, there is evidence suggesting that heat inactivation of clinical samples causes loss of virus particles, thereby hindering the efficiency of downstream diagnosis 25 .",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 227,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 228,
+                    "end": 231,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 232,
+                    "end": 235,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 362,
+                    "end": 363,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 522,
+                    "end": 525,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 526,
+                    "end": 529,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 530,
+                    "end": 533,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 534,
+                    "end": 537,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 538,
+                    "end": 541,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 853,
+                    "end": 858,
+                    "text": "5,9 .",
+                    "ref_id": null
+                },
+                {
+                    "start": 933,
+                    "end": 936,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 937,
+                    "end": 939,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 980,
+                    "end": 982,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1048,
+                    "end": 1051,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1052,
+                    "end": 1054,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1236,
+                    "end": 1238,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1275,
+                    "end": 1277,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1293,
+                    "end": 1295,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1319,
+                    "end": 1321,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1516,
+                    "end": 1520,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1521,
+                    "end": 1525,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1526,
+                    "end": 1530,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1709,
+                    "end": 1712,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1713,
+                    "end": 1717,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1718,
+                    "end": 1722,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1723,
+                    "end": 1727,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1904,
+                    "end": 1906,
+                    "text": "25",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Therefore, it is necessary to develop robust, sensitive, specific and highly quantitative methods for the delivery of reliable diagnostic assays 26, 27 . The urgency to develop an effective surveillance method that can be easily used in a variety of laboratory settings is underlined by the wide and rapid spreading of SARS-CoV-2 [28] [29] [30] . In addition, such method should also distinguish SARS-CoV-2 from other respiratory pathogens such as influenza virus, parainfluenza virus, adenovirus, respiratory syncytial virus, rhinovirus, human metapneumovirus, SARS coronavirus, etc., as well as mycoplasma pneumoniae, chlamydia pneumonia and bacterial pneumonia [31] [32] [33] [34] . Furthermore, providing nucleotide sequence information through next generation sequencing (NGS) will prove to be essential for the surveillance of SARS-CoV-2's evolution [35] [36] [37] [38] . Indeed, SARS-CoV-2 phylogenetic studies through genome sequence analysis have provided better understanding of the transmission origin, time and routes, which has guided policy-making and management procedures 8, 36, 37, [39] [40] [41] .",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 148,
+                    "text": "26,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 149,
+                    "end": 151,
+                    "text": "27",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 330,
+                    "end": 334,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 335,
+                    "end": 339,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 340,
+                    "end": 344,
+                    "text": "[30]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 664,
+                    "end": 668,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 669,
+                    "end": 673,
+                    "text": "[32]",
+                    "ref_id": null
+                },
+                {
+                    "start": 674,
+                    "end": 678,
+                    "text": "[33]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 679,
+                    "end": 683,
+                    "text": "[34]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 856,
+                    "end": 860,
+                    "text": "[35]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 861,
+                    "end": 865,
+                    "text": "[36]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 866,
+                    "end": 870,
+                    "text": "[37]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 871,
+                    "end": 875,
+                    "text": "[38]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1088,
+                    "end": 1090,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1091,
+                    "end": 1094,
+                    "text": "36,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1095,
+                    "end": 1098,
+                    "text": "37,",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1099,
+                    "end": 1103,
+                    "text": "[39]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1104,
+                    "end": 1108,
+                    "text": "[40]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1109,
+                    "end": 1113,
+                    "text": "[41]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Here, we describe the development of a highly sensitive and robust detection assay incorporating the use of multiplex PCR technology to identify SARS-CoV-2. Theoretically, the multiplex PCR strategy, by amplifying hundreds of targets, has significantly higher sensitivity than RT-PCR and may even detect DNA molecules resulting from degraded virus genome fragments. Multiplex PCR has been shown to be an efficient and low-cost method to detect Plasmodium falciparum infections, with high coverage (median 99%), specificity (99.8%) and sensitivity. Moreover, this solution can be tailored to simultaneously address multiple questions of interest within various epidemiological settings 42 . Similar to a recently described metagenomic approach for SARS-CoV-2 identification 43 , we also establish a user-friendly multiplex-PCRbased metagenomic method that is not only able to detect SARS-CoV-2, but could also be applied for the identification of significant sequence mutations within known viruses and to uncover novel pathogens with a limited sequencing depth of approximately 1 million reads.",
+            "cite_spans": [
+                {
+                    "start": 685,
+                    "end": 687,
+                    "text": "42",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Several RT-PCR methods for detecting SARS-CoV-2 have been reported to date 15, [19] [20] [21] . Among them, two groups reported the detection of 4-5 copies of the virus 19, 21 . To investigate the opportunity for further improvement on the sensitivity of RT-PCR, we built a mathematical model to estimate the limit of detection (LOD) for SARS-CoV-2. The reported RT-PCR amplicon lengths are around 78-158bp, and the SARS-CoV-2 genome is 29,903bp (NC_045512.2). Thus, in this mathematical modeling, we chose 100bp amplicon length and 30kb SARS-CoV-2 genome size for the estimation. With the assumption of 99% RT-PCR efficiency 20 , we found that RT-PCR assays could detect 4.8 copies of SARS-CoV-2 at 95% probability ( Fig. 1A) , which is consistent with the experimental results obtained in a previous report 19 . In this model, the probability of RT-PCR assays to detect one copy of SARS-CoV-2 is only 26% (Supplemental Fig. 1 ). This finding may explain, at least in part, the low reported 47-56% detection rates of SARS-CoV-2 in positive samples by RT-PCR 17, 22 . We further found that the LOD appears to be independent of the virus genome size. For genomes of 4 to 100kb, the detection limit remains 4.8 copies at 95% probability.",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 78,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 79,
+                    "end": 83,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 84,
+                    "end": 88,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 169,
+                    "end": 172,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 173,
+                    "end": 175,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 626,
+                    "end": 628,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 809,
+                    "end": 811,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1059,
+                    "end": 1062,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1063,
+                    "end": 1065,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 718,
+                    "end": 726,
+                    "text": "Fig. 1A)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 907,
+                    "end": 927,
+                    "text": "(Supplemental Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Mathematical model of RT-PCR"
+        },
+        {
+            "text": "One way to elevate the sensitivity is to amplify multiple targets on the same virus genome in a multiplex PCR reaction, thereby increasing the frequency of occurrence in the mathematical model. Amplifying multiple targets has the advantage of potentially detecting fragments of degraded virus genome while withstanding sequencing variations, thus allowing for the detection of upcoming mutants. The amplification efficiency of multiplex PCR is critical for LOD. We estimated that the efficiency of our multiplex PCR technology is about 26% by using Unique Molecular Identifier (UMI)-labeled primers to count the amplified products after NGS sequencing (Supplemental Fig. 2 and Supplemental Table 1 ). However, the amplification efficiency could be lower, and not all amplicons amplified successfully if the template used is one single strand of cDNA. Thus, more amplicons are potentially required for multiplex PCR to detect limited copies of viruses.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 666,
+                    "end": 672,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 690,
+                    "end": 697,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mathematical model of RT-PCR"
+        },
+        {
+            "text": "We thus designed a panel of 172 pairs of multiplex PCR primers for the sensitive detection of SARS-CoV-2 ( Fig. 1B) . The average amplicon length is 99bp. The amplicons run across the entire SARS-CoV-2 genome with a 76bp gap (76\u00b110bp) between each amplicon. Since the observed efficiency of multiplex PCR is about 26% in amplifying the four DNA strands of a pair of human chromosomes, we assumed an efficiency of 6% in amplifying a single-strand of cDNA. In addition, it has already been reported that 79% of variants are recovered when directly amplifying 600 amplicons from a single cell using our technology 44 . Therefore, we assume that 80% of amplicons would be amplified successfully. Using the same mathematical model described above, we estimated that our specific SARS-CoV-2-designed panel can detect 1.15 copies of the virus at 95% probability (Fig. 1C) . Again, the LOD is independent of virus genome size.",
+            "cite_spans": [
+                {
+                    "start": 611,
+                    "end": 613,
+                    "text": "44",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 107,
+                    "end": 115,
+                    "text": "Fig. 1B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 855,
+                    "end": 864,
+                    "text": "(Fig. 1C)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Mathematical model of multiplex-PCR-based detection method"
+        },
+        {
+            "text": "We also designed a second pool of 171 multiplex PCR primers. These primers overlap with those in the previous 172-primer pool. Together, these two overlapping pools of primers deliver full coverage of the entire virus genome. If using both pools in detection, the calculated detection limit is 0.29 copies at 95% probability. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mathematical model of multiplex-PCR-based detection method"
+        },
+        {
+            "text": "The workflow was designed so that the multiplex PCR products are further amplified in a secondary PCR, while sample indexes and NGS sequencing primers are added (Fig. 1D) . The PCR products were first analyzed by electrophoresis to identify potential positives. Since dozens of amplicons could be amplified from a single copy of SARS-CoV-2, electrophoresis peaks with defined peak sizes were expected. Multiplex PCR amplifies SARS-CoV-2, as well as other coronaviruses due to their high sequence similarities. In that context, electrophoresis analysis provides a fast and sensitive indication of infection from that family of viruses. In addition, the generated library allows for further investigation through NGS sequencing to provide definitive identification of the specific virus family member.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 161,
+                    "end": 170,
+                    "text": "(Fig. 1D)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Detecting limited copies of SARS-CoV-2"
+        },
+        {
+            "text": "Two plasmids, containing the full sequence of S and N genes of SARS-CoV-2, respectively, were used to validate our multiplex PCR method. 28 amplicons are expected to be amplified within our 172amplicon panel. To simulate the use of real clinical samples, these two plasmids were spiked into the cDNA made from human total RNA. The copy number of each plasmid was determined by droplet-based digital PCR in QX200 from Bio-Rad\u00ae 45 . The two plasmids were diluted from approximately 9,000 copies to below one copy, and were amplified in multiplex PCR reactions. The library peaks of expected sizes were obtained from 8,900 to 2.8 copies of plasmids ( Fig. 2A) . Quantification of peaks demonstrated a wide dynamic range from 1 to about 1,000 copies of plasmids (Fig. 2B) . The yield of the libraries started to saturate when the copy number was 1,700. It is possible that the saturation point could be even lower when all of the 172 amplicons are amplified from positive clinical samples, and the library peak could be observed with even fewer copies of virus. In contrast, the detected quantities of a single target on N gene by RT-PCR rapidly dropped when using 2.85 copies (Fig. 2B and Supplemental Fig. 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 648,
+                    "end": 656,
+                    "text": "Fig. 2A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 758,
+                    "end": 767,
+                    "text": "(Fig. 2B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1173,
+                    "end": 1206,
+                    "text": "(Fig. 2B and Supplemental Fig. 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Detecting limited copies of SARS-CoV-2"
+        },
+        {
+            "text": "Estimated from the aforementioned mathematical model, 28 amplicons have a 16% chance to detect one single copy. To test this hypothesis, we amplified about one copy of plasmid in multiplex PCR reactions. The theoretical calculation gives a 66% probability to sample 1.1 copies, and a 12% chance to detect them based on a multiplex PCR efficiency of 6%. In reality, we experimentally observed a significantly higher 56% probability to detect 1.1 copies (Fig. 2C) . These results suggest that the efficiency of multiplex PCR is actually higher than the previously estimated 6% when single-stranded cDNA was amplified.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 452,
+                    "end": 461,
+                    "text": "(Fig. 2C)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Detecting limited copies of SARS-CoV-2"
+        },
+        {
+            "text": "When the amplified products were sequenced, we found that the recovered reads were within a range of about 20-fold relative depth with about 1.4 to 2.8 plasmids, and uniformly distributed across the GC range (Fig. 2D) . When detecting down to 1.4 copies of plasmids, only the reads of one amplicon were about 100-fold lower than the average. Approximately 96% of the amplicons were recovered with 14 copies of plasmids, 77% with 2.8 copies, and 37% with 0.6 copies (Fig. 2E) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 208,
+                    "end": 217,
+                    "text": "(Fig. 2D)",
+                    "ref_id": null
+                },
+                {
+                    "start": 465,
+                    "end": 474,
+                    "text": "(Fig. 2E)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Detecting limited copies of SARS-CoV-2"
+        },
+        {
+            "text": "(A) Two plasmids, containing S and N genes of SARS-CoV-2, respectively, were diluted in human cDNA and amplified in multiplex PCR with pool 1 (172 pairs of primers). The number of plasmid copies per reaction, determined by ddPCR, were from 8,900 to 0.6. The resulting products obtained after multiplex PCR were resolved by electrophoresis. The specific amplification products (the library) can still be seen with 2.8 copies of plasmids. (B) The library yields can be detected down to 0.6 copies of plasmids (n=4) by multiplex PCR (black line), while only down to 2.8 copies can still be detected by RT-PCR (> 4.5-fold difference) (red",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 2. Detection of SARS-CoV-2 gene-containing plasmids by electrophoresis and sequencing"
+        },
+        {
+            "text": "In order to discover highly mutated viruses and unknown pathogens, we subsequently developed a userfriendly multiplex-PCR-based metagenomic method. In this method, random hexamer-adapters were used to amplify DNA or cDNA targets in a multiplex PCR reaction. The large amounts of non-specific amplification products were removed by using Paragon Genomics' proprietary background removing reagent, thus resolving a library suitable for sequencing. For RNA samples, our reverse transcription reagents were additionally used to convert RNA into cDNA, resulting in significantly reduced amount of human ribosomal RNA species.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Metagenomic method design for novel pathogens"
+        },
+        {
+            "text": "We sequenced a library made with 4,500 copies of N and S gene-containing plasmids spiked into 10 ng of human gDNA, which roughly represents 3,300 haploid genomes. Even though the molar ratios of viral targets and human haploid genomes were comparable, N and S genes which encompass about 4kb of targets, were a negligible fraction of the 3 billion base pairs of a human genome. If every region of the human genome were amplified and sequenced at 0.6 million reads per sample, only one read of viral target would be recovered. In fact, our results showed that 16% of the recovered bases, or 13% of the recovered reads, were within the viral N and S genes ( Fig. 3A and Supplemental Table 2 ). 80% and 78% of SARS-CoV-2 and mitochondrial targets were covered, respectively (Fig. 3B) , and the base coverage was significantly higher than human targets (Fig. 3C) . In contrast, only 0.08% of regions in human chromosomes were amplified. Furthermore, the human exonic regions were preferentially amplified (Fig.  3D) . This suggested that the random hexamers deselected a large portion of the human genome, while favorably amplifying regions that were more \"random\" in base composition. Indeed, long gaps and absence of coverage in very large repetitive regions were observed in human chromosomes (Fig. 3E) . On the contrary, the gaps in SARS-CoV-2 and mitochondrial regions were significantly shorter (Fig. 3F) , whereas the amplified targets overlapped and were longer than human targets (Fig. 3G) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 656,
+                    "end": 663,
+                    "text": "Fig. 3A",
+                    "ref_id": null
+                },
+                {
+                    "start": 681,
+                    "end": 688,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 771,
+                    "end": 780,
+                    "text": "(Fig. 3B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 849,
+                    "end": 858,
+                    "text": "(Fig. 3C)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1001,
+                    "end": 1011,
+                    "text": "(Fig.  3D)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1292,
+                    "end": 1301,
+                    "text": "(Fig. 3E)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1397,
+                    "end": 1406,
+                    "text": "(Fig. 3F)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1485,
+                    "end": 1494,
+                    "text": "(Fig. 3G)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Metagenomic method design for novel pathogens"
+        },
+        {
+            "text": "The coverage was from 1000-to 10,000-fold for S and N genes, and 30-to 500-fold for the mitochondrial chromosome (Fig. 3F) . The coverage is roughly within a 10-fold range, as is observed in human chromosomes (Fig. 3E) . Therefore, increasing sequencing depth might not significantly improve the coverage. This 10-fold difference in coverage has been routinely observed with our multiplex PCR technology (Supplemental Table 3 and Supplemental Fig. 4) . We were able to detect 80% of the regions in S and N genes in libraries generated using 4,500 copies of plasmids, with an average base coverage of 5,000 for a total sequencing depth of 0.6 million reads. A few targets of 150 to 200 bp in length in S and N genes were preferentially amplified. Even when copy number went down to a few copies (3-14), these targets were still detected (Fig.4) . They represented 14% and 11% of the target regions when 14 and 2.8 copies of plasmids were amplified, respectively.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 113,
+                    "end": 122,
+                    "text": "(Fig. 3F)",
+                    "ref_id": null
+                },
+                {
+                    "start": 209,
+                    "end": 218,
+                    "text": "(Fig. 3E)",
+                    "ref_id": null
+                },
+                {
+                    "start": 418,
+                    "end": 425,
+                    "text": "Table 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 430,
+                    "end": 450,
+                    "text": "Supplemental Fig. 4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 836,
+                    "end": 843,
+                    "text": "(Fig.4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Metagenomic method design for novel pathogens"
+        },
+        {
+            "text": "(A) Random hexamer-adapters were used in multiplex PCR to amplify 4,500 copies of plasmids in the background of 3,300 haploid human gDNA molecules. The resulting libraries were sequenced at an average of 0.6 million total reads. Of the total bases recovered, 16% were on SARS-CoV-2 S and N genes. (B) 80% of S and N genes, and 78% of the human mitochondrial chromosome were amplified with >= 1X coverage, while only 0.08% of the human chromosomes were. (C) On average, S and N genes were covered at 2,346X, mitochondria at 77X, and human chromosomes at 20X. (D) Human exons were relatively overamplified about 4-fold higher compared to their actual ratio within the genome. (E) Gaps and long regions of absence of amplification were observed for human chromosomes. An example shown here is chromosome Y. Small gaps were additionally found in the enlarged cluster of amplification. The long absent region (red double arrow) overlapped with the repetitive regions on Y chromosome. (F) Representation of the recovered regions in S and N genes and the human mitochondrial chromosome. The coverage was from 1,000-to 10,000-fold for S and N genes, and 30-to 500-fold for the mitochondrial chromosome. (G) The length of the majority of chromosomal amplification products are clustered around 100bp, while the amplified regions for the S and N genes, as well as the mitochondrial chromosome, were significantly longer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 3. Multiplex PCR-based metagenomic method for the detection of SARS-CoV-2 genes"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988246 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 3. Multiplex PCR-based metagenomic method for the detection of SARS-CoV-2 genes"
+        },
+        {
+            "text": "Even when low number of plasmids were used (3 to 14 copies), several targets of 150 to 200 bp in S and N genes were still detected at a total sequencing depth of about 1 million reads. These targets represented 19%, 14%, and 11% of S and N genes when 71, 14 and 2.8 copies of plasmids were used, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 4. Metagenomic method for the detection of limited copies of SARS-CoV-2 genes"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988246 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 4. Metagenomic method for the detection of limited copies of SARS-CoV-2 genes"
+        },
+        {
+            "text": "Tremendous efforts have been made from around the world to provide a fast and reliable diagnostic method for SARS-CoV-2. RT-PCR is currently the preferential and most frequently used detection strategy. Yet, we found that the LOD for RT-PCR sits at around 5 copies with 95% confidence, independent of the size of the target genome. Consequently, to overcome the instability of RNA and the genomic sequence variability of virus genome due to evolution, more sensitive and robust methods are required.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Here, we report the development of a multiplex PCR assay for high-sensitivity identification of SARS-CoV-2 infection. With 172 pairs of primers, this method enables the detection of low copy numbers, potentially degraded fragments of the viral genome, or even a mutated variant, with high confidence. The 172 pairs of primers cover about 56% of the genome of SARS-CoV-2. When detecting limited copies of virus, fewer targets are successfully amplified. In the case of one copy of virus, we estimate that 20% of the viral genome, or 6kb of sequences, could be amplified. These are sufficient to produce a conspicuous peak in electrophoresis for an initial indication of positives. The use of NGS sequencing can provide nucleic acid-level information to further confirm the identification, and provide additional evidence for phylogenetic analysis. In addition, our method is robust, accurate and easily performed from different levels of expertise in various laboratory settings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Furthermore, we also propose a metagenomic method for the potential identification of unknown pathogens. Metagenomic technology usually requires about 20 to 100 million of sequencing reads in order to detect minuscule numbers of targets embedded in the massive amounts of human background. However, our method appears to selectively amplify target sequences. This bias permits the obtention of around 16% of target bases by sequencing at a depth of about 1 million total reads. It is thus especially suitable for the detection of novel pathogens and highly genetically unstable pathogens, such as influenza viruses. The exact mechanism of deselecting human sequences is currently under investigation. The random hexamer preference, chromosomal structure, sequence composition, target length, circularity, methylation status, telomeric and centromeric regions, as well as the edge effect, may influence such outcome. Ultimately, the observed preferential amplification towards more \"random\" sequences could provide us with an advantageous edge for the continuous improvement of this method.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The Universal Human Reference RNA was from Agilent Technologies, Inc. (Cat#74000). The plasmids containing either S or N gene of SARS-CoV-2 (pUC-S and pUC-N, respectively) were purchased from Sangon Biotech, Shanghai, China. The PCR primers used in ddPCR and RT-PCR reactions for S gene are 5'-TGTACTTGGACAATCAAAAAGAGTTGAT and 5'-AGGAGCAGTTGTGAAGTTCTTTTC; for N gene are 5'-GGGGAACTTCTCCTGCTAGAAT and 5'-CAGACATTTTGCTCTCAAGCTG, respectively. 343 pairs of multiplex PCR primers covering the entire genome of SARS-CoV-2 (the panel) were designed by Paragon Genomics, Inc. and separated into two pools. Pool 1, containing 172 pairs of primers, was used in the detection of SARS-CoV-2 by multiplex PCR.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample preparation"
+        },
+        {
+            "text": "50ng of Universal Human Reference RNA was converted into cDNA using random primers and SuperScript\u2122 IV Reverse Transcriptase by following the supplier recommended method (Thermo Fisher Scientific, Cat# 18090050). After reverse transcription, cDNA was purified with 2.4X volume of magnetic beads, and washed twice with 70% ethanol. Finally, the purified cDNA was dissolved in 1X TE buffer and used per multiplex PCR reaction.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reverse transcription"
+        },
+        {
+            "text": "Panel design is based on the SARS-CoV-2 sequence NC_045512.2 (https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2/). In total, 343 primer pairs, distributed into two pools, were selected by a proprietary panel design pipeline to cover the whole genome except for 92 bases at its ends. Primers were optimized to preferentially amplify the SARS-CoV-2 cDNA versus background human cDNA or genomic DNA. They were also optimized to uniformly amplify the covered genome.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplex PCR panel design"
+        },
+        {
+            "text": "Plasmids pUC-S and pUC-N were combined with human cDNA and used in each multiplex PCR reaction. Paragon Genomics' CleanPlex\u00ae multiplex PCR reagents and protocol were used. Briefly, a 10\u00b5l multiplex PCR reaction was made by combining 5X mPCR mix, 10X Pool 1 of the panel, plasmid pUC-S, pUC-N and cDNA. The reaction was run in a thermal cycler (95\u00b0C for 10min, then 98\u00b0C for 15sec, 60\u00b0C for 5min for 10 cycles), then terminated by the addition of 2\u00b5l of stop buffer. The reaction was then purified by 29\u00b5l of magnetic beads, followed by a secondary PCR with a pair of primers for 25 cycles. The secondary PCR added sample indexes and sequencing adapters, allowing for sequencing of the resulting products by high throughput sequencing. A final bead purification was performed after the secondary PCR, followed by library interrogation using a Bioanalyzer 2100 instrument with Agilent High Sensitivity DNA Kit (Agilent Technologies, Inc. Part# 5067-4626). The copyright holder for this preprint (which was not peer-reviewed) is the .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplex PCR"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Economic Impacts of Wuhan 2019-nCoV on China and the World",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ayittey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Genome Composition and Divergence of the Novel Coronavirus (2019-nCoV) Originating in China",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Host Microbe",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Full-genome evolutionary analysis of the novel corona virus (2019-nCoV) rejects the hypothesis of emergence as a result of a recent recombination event",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Paraskevis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect Genet Evol",
+            "volume": "79",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Genomic variance of the 2019-nCoV coronavirus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ceraolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Giorgi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Measures for diagnosing and treating infections by a novel coronavirus responsible for a pneumonia outbreak originating in Wuhan",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Microbes Infect",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Recent advances in the detection of respiratory virus infection in humans",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Molecular and serological investigation of 2019-nCoV infected patients: implication of multiple shedding routes",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "1",
+            "pages": "386--389",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Rapid Detection of Novel Coronavirus (COVID-19) by Reverse Transcription-Loop-Mediated Isothermal Amplification. medRxiv",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lamb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Rapid colorimetric detection of COVID-19 coronavirus using a reverse transcriptional loop-mediated isothermal amplification (RT-LAMP) diagnostic plat-form: iLACO. medRxiv",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Consistent detection of 2019 novel coronavirus in saliva",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Detectable 2019-nCoV viral RNA in blood is a strong indicator for the further clinical severity",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "1",
+            "pages": "469--473",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Comparison of different samples for 2019 novel coronavirus detection by nucleic acid amplification tests",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Comparison of throat swabs and sputum specimens for viral nucleic acid detection in 52 cases of novel coronavirus (SARS-Cov-2) infected pneumonia (COVID-19). medRxiv",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Molecular Diagnosis of a Novel Coronavirus (2019-nCoV) Causing an Outbreak of Pneumonia",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "K W"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Chem",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Development of Genetic Diagnostic Methods for Novel Coronavirus 2019 (nCoV-2019) in Japan",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shirato",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Jpn J Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Correlation of Chest CT and RT-PCR Testing in Coronavirus Disease 2019 (COVID-19) in China: A Report of 1014 Cases",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Chest CT for Typical 2019-nCoV Pneumonia: Relationship to Negative RT-PCR Testing",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Comparison of the clinical characteristics between RNA positive and negative patients clinically diagnosed with",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Racing towards the development of diagnostics for a novel coronavirus (2019-nCoV)",
+            "authors": [
+                {
+                    "first": "Dennis",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W K"
+                    ],
+                    "last": "Chiu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Chem",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci China Life Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "First cases of coronavirus disease 2019 (COVID-19) in France: surveillance, investigations and control measures",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bernard Stoecklin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Novel Coronavirus Outbreak in Wuhan, China, 2020: Intense Surveillance Is Vital for Preventing Sustained Transmission in New Locations",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Clin Med",
+            "volume": "2020",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Laboratory readiness and response for novel coronavirus (2019-nCoV) in expert laboratories in 30 EU/EEA countries",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reusken",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Guidelines for the Diagnosis and Treatment of Novel Coronavirus (2019-nCoV) Infection by the National Health Commission (Trial Version 5",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "100(0): p. E001. 32. [Diagnosis and clinical management of 2019 novel coronavirus infection: an operational recommendation of Peking Union Medical College Hospital",
+            "authors": [
+                {
+                    "first": "Zhonghua Yi Xue Za",
+                    "middle": [],
+                    "last": "Zhi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Genome Detective Coronavirus Typing Tool for rapid identification and characterization of novel coronavirus genomes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cleemput",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bioinformatics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Diagnosis, treatment, and prevention of 2019 novel coronavirus infection in children: experts' consensus statement",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "World J Pediatr",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Emerging novel Coronavirus (2019-nCoV) -Current scenario, evolutionary perspective based on genome analysis and recent developments",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Malik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Vet Q",
+            "volume": "",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Potential of large 'first generation' human-to-human transmission of 2019-nCoV",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Transmission dynamics and evolutionary history of 2019-nCoV",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Homologous recombination within the spike glycoprotein of the newly identified coronavirus may boost cross-species transmission from snake to human",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The 2019-new coronavirus epidemic: Evidence for virus evolution",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Benvenuto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The global spread of 2019-nCoV: a molecular evolutionary analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Benvenuto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pathog Glob Health",
+            "volume": "",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "The first two cases of 2019-nCoV in Italy: Where they come from",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Giovanetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Sensitive, highly multiplexed sequencing of microhaplotypes from the <em&gt",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tessema",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "RNA based mNGS approach identifies a novel human coronavirus from two individual pneumonia cases in 2019 Wuhan outbreak",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "1",
+            "pages": "313--319",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Amplicon-Based Targeted Sequencing of Single Circulating Tumor Cells",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ericson",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Journal of Molecular Diagnostics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Mathematical model, primer design and workflow(A) A mathematical model of RT-PCR based on Poisson process. The LOD is 4.8 copies of virus at 95% probability. (B) Two overlapping pools of multiplex PCR primers, shown on the right of the genome of SARS-CoV-2, were designed to span the entire virus genome. Pool 1, containing 172 pairs of primers, covers 56.9% of the viral genome and was used in the detection. Pool 2 contains 171 pairs of primers and covers 56.4% of the genome. Both pools are used to cover the full length of the genome. (C) A mathematical model of multiplex PCR with pool 1 of the primers. The LOD is 1.15 copies of virus at 95% probability. (D) The workflow of the multiplex PCR method. The prepared libraries can be detected using high-resolution electrophoresis, and sequenced together with other samples using high-throughput sequencing.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "al., Comparison of four digital PCR platforms for accurate quantification of DNA copy number of a certified plasmid DNA reference material. Scientific Reports, 2015.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors would like to thank Jian Xu of MGI, BGI-Shenzhen for technical support in MGI sequencing, Dr. Jin Billy Li of Stanford University for the coordination of academic support, Dr. Alexander E. Urban of Stanford University for suggestions in preparing the manuscript, and Dr. Zihuai He of Stanford University for discussion on a potential mathematical model of the metagenomic method.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

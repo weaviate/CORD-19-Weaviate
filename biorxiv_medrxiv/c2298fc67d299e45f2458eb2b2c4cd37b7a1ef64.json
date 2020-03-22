@@ -1,0 +1,413 @@
+{
+    "paper_id": "c2298fc67d299e45f2458eb2b2c4cd37b7a1ef64",
+    "metadata": {
+        "title": "Indications for healthcare surge capacity in European countries facing an exponential increase in COVID19 cases",
+        "authors": [
+            {
+                "first": "Frederik",
+                "middle": [],
+                "last": "Verelst",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Antwerp",
+                    "location": {
+                        "settlement": "Antwerp",
+                        "country": "Belgium"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elise",
+                "middle": [],
+                "last": "Kuylen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Antwerp",
+                    "location": {
+                        "settlement": "Antwerp",
+                        "country": "Belgium"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Philippe",
+                "middle": [],
+                "last": "Beutels",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Antwerp",
+                    "location": {
+                        "settlement": "Antwerp",
+                        "country": "Belgium"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "European healthcare systems face rapidly increasing pressure from COVID-19. We calculated pressures on EU healthcare systems by relating both country-specific accumulated COVID-19 deaths (intensityapproach) and active COVID-19 cases (magnitude-approach) to various estimates of hospital beds. On March 14 2020 -relative to Italy on March 11-we found Spain, Luxembourg, Switzerland and France to experience the highest pressure using the intensity-approach, versus Iceland, Denmark, Norway, Sweden, Spain, Switzerland and Slovenia using the magnitude approach.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In the past days and weeks, it has become clear the SARS-COV-2 poses an insurmountable health threat on a global scale. Europe, and especially Italy with 17 666 cases reported by March 13, 2020, faces an exponential increase in the number of new COVID19 cases. Several institutions have communicated the necessity to 'flatten the curve' in order to lower pressure on health care institutions and to buy time for antivirals and other medication to become available in the short term and vaccines in the longer term.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Remuzzi & Remuzzi report that in Italy ICU bed occupation will exceed capacity [1] . Since other countries are considering to implement large scale interventions such as school closure at the right time [2, 3] , an important urgent question is how close other countries are from reaching an Italy-like pressure on the health system, and which countries are closest to such a situation. Furthermore, policymakers require information on the magnitude of additional health care capacity that is needed for the fu ture course of the epidemic, when at a later stage, new exponential growth may occur.",
+            "cite_spans": [
+                {
+                    "start": 79,
+                    "end": 82,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 203,
+                    "end": 206,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 207,
+                    "end": 209,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We calculated the relative pressure on national healthcare systems by determining the number of deaths and cases per hospital bed for each country. Three categories of hospital beds were considered: (1) available hospital bed capacity and (2) curative hospital bed capacity, as reported by Eurostat [4] from 2017 or 2018 (most recent data extracted) and (3) critical care hospital bed capacity as reported by Rhodes et al. [5] . As a first measure, we compared the number of COVID-19 related deaths relative to the number of beds, which provides an approximation of the severity of cases up to the present, and therefore also more likely to approximate pressure experienced on the health care system. The accumulated deaths to beds ratio provides an assessment that is likely less susceptible to inter-country variation in testing practices, and associated variation of underreporting of cases. We refer to this measure as the \"intensity-approach\". In a second measure, we compared the number of active COVID-19 cases, relative to the number of beds. The latter is referred to as the \"magnitude-approach\". We used the number of active COVID-19 cases and cumulative number of COVID-19 related deaths in Italy on March 11, 2020 as a benchmark. These numbers, 10 590 active cases and 827 deaths were chosen as a benchmark, based on Remuzzi & Remuzzi [1] . The authors forecast the number of cases attending ICU to exceed the ICU bed capacity by March 14. As such, this benchmark acts as a reference for a \"soon to be overloaded\" healthcare system.",
+            "cite_spans": [
+                {
+                    "start": 299,
+                    "end": 302,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 423,
+                    "end": 426,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1347,
+                    "end": 1350,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "We retrieved the number of active cases and the cumulative number of COVID-19 related deaths on March 14, 2020 [6] and calculated the proportion per hospital bed for each of the hospital bed types for 30 countries. We calculated, for each country, six ratios by dividing the number of active cases and cumulative deaths by the number of beds for each bed type. Afterwards, we normalized ratios by the bedspecific benchmarks for Italy, which is defined as the cumulative number of COVID-19 related deaths (intensity-approach) or active cases (magnitude-approach) on March 11, divided by the number of all hospital beds, curative care beds and critical care beds, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "In Italy, the concentration of critical care beds is at the higher end with 12.5 critical care beds per 100 000 population, compared to the European average of 11.5 [5] . In Figure 1 , using the intensity-approach, Italian hospitals are extremely impacted if we look at the numbers in terms of deaths per hospital bed (left axis). Spain is, next to Italy, the most severely affected country at about 45% (right axis), compared to the benchmark situation. Luxembourg, Switzerland, the Netherlands and France's health systems are also experiencing relatively high pressure, but at this stage still lower than 15%, in comparison to the benchmark situation. In Figure 2 , we show that the number of cases relative to the number of hospital beds is especially high in Iceland and the Scandinavian countries. Indeed, in these countries, the outbreak of COVID-19 has been very high, whereas hospital bed capacity is typically at the lower end for these countries. The pressure on the Icelandic healthcare system is even higher than in Italy. The Scandinavian countries are followed by Spain, Switzerland, Slovenia and Luxembourg, which all face severe pressure on ICU wards especially. But even if we look at all available hospital beds as a measure of health care capacity, most EU countries are relatively close to the Italian situation on March 11, 2020 -our benchmark situation. . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 168,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 174,
+                    "end": 182,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 657,
+                    "end": 665,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20035980 doi: medRxiv preprint Figure 2 : Relative pressure on the healthcare systems in different countries by the \"magnitude-approach\". Ratios are normalized to the number of cases in Italy on March 11, 2020. Ratios were calculated for all hospital beds (blue), curative care beds (yellow) and critical care beds (red).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 107,
+                    "end": 115,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The measures proposed in this paper are an approximation to the current hospital capacity in Europe. Unfortunately, data on health care capacity is rel atively scarce and we have to rely on data from 2017 or 2018 for all available hospital beds and curative hospital beds. Data availability is even worse for critical care beds, on which we rely on multi-country data from 2010. Remuzzi & Remuzzi report ICU capacity of 5200 beds for Italy as a whole, which is lower than the 7550 critical care beds reported by Rhodes et al. It is likely that other EU countries have downsized their critical bed capacity too. In terms of curative beds per 100 000 population as reported by Eurostat, for most countries (all except Ireland, Bulgaria, Poland and Romania), we observed a downward trend in the past 10 years. Moreover, hospital capacity strain was recently found to be associated with increased mortality and decreased health outcomes [7] . Note that if we would assume the same extent of downsizing in Italy and other EU countries, our relative comparisons would not change. Our analysis shows that many European countries are soon to be confronted with a health care pressure that will exceed current hospital bed capacity. Based on the intensity-approach, we believe that for Spain, Luxembourg, Switzerland, The Netherlands and France the pressure on healthcare systems will soon reach Italy's levels. With respect to the magnitude-approach, Iceland, the Scandinavian countries, Spain and Switzerland were found to be more vulnerable. Where this is not yet done, policymakers should urgently expand their health care capacities to avoid pressure as experienced in Italy.",
+            "cite_spans": [
+                {
+                    "start": 933,
+                    "end": 936,
+                    "text": "[7]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Funding statement: This work is funded by the Epipose project from the European Union's SC1-PHE-CORONAVIRUS-2020 programme, project number 101003688 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest: None declared"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20035980 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest: None declared"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Covid-19 and italy: what next? The Lancet Public Health, Health Policy",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Remuzzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Remuzzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The timing of one-shot interventions for epidemic control",
+            "authors": [
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Lauro",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Public health interventions and epi-demic intensity during the 1918 influenza pandemic",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hatchett",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mecher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "104",
+            "issn": "18",
+            "pages": "7582--7589",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Hospital beds by type of care",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Eurostat",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2023",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The variability of critical care bed numbers in europe",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rhodes",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ferdinande",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Flaatten",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Guidet",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Metnitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Moreno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Intensive care medicine",
+            "volume": "38",
+            "issn": "10",
+            "pages": "1647--53",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The associa-tion between hospital capacity strain and inpatient outcomes in highly de-veloped countries: a systematic review",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Eriksson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stoner",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Eden",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Newgard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Guise",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of general internal medicine",
+            "volume": "32",
+            "issn": "6",
+            "pages": "686--96",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Relative pressure on the healthcare systems in different countries by the \"intensity-approach\". Ratios are normalized to the cumulative number of COVID-19 related deaths in Italy on March 11, 2020. Ratios were calculated for all hospital beds (blue), curative care beds (yellow) and critical care beds (red). The left scale is used to visualize the Italian data, whereas the right scale is used for all other countries.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

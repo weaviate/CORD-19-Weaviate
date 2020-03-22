@@ -1,0 +1,1714 @@
+{
+    "paper_id": "81f08d610ed4c61197c816bdbe5f23b14670dd47",
+    "metadata": {
+        "title": "The effect of control strategies that reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China",
+        "authors": [
+            {
+                "first": "Kiesha",
+                "middle": [],
+                "last": "Prem",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Yang",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Timothy",
+                "middle": [
+                    "W"
+                ],
+                "last": "Russell",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Adam",
+                "middle": [
+                    "J"
+                ],
+                "last": "Kucharski",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Rosalind",
+                "middle": [
+                    "M"
+                ],
+                "last": "Eggo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Nicholas",
+                "middle": [],
+                "last": "Davies",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [],
+                "last": "Jit",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Petra",
+                "middle": [],
+                "last": "Klepac",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Stefan",
+                "middle": [],
+                "last": "Flasche",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Samuel",
+                "middle": [],
+                "last": "Clifford",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Carl",
+                "middle": [
+                    "A B"
+                ],
+                "last": "Pearson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "James",
+                "middle": [
+                    "D"
+                ],
+                "last": "Munday",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Sam",
+                "middle": [],
+                "last": "Abbott",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Hamish",
+                "middle": [],
+                "last": "Gibbs",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Alicia",
+                "middle": [],
+                "last": "Rosello",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Billy",
+                "middle": [
+                    "J"
+                ],
+                "last": "Quilty",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Thibaut",
+                "middle": [],
+                "last": "Jombart",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Fiona",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Charlie",
+                "middle": [],
+                "last": "Diamond",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Amy",
+                "middle": [],
+                "last": "Gimma",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Kevin",
+                "middle": [],
+                "last": "Van Zandvoort",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Sebastian",
+                "middle": [],
+                "last": "Funk",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Christopher",
+                "middle": [
+                    "I"
+                ],
+                "last": "Jarvis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [],
+                "last": "Edmunds",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Nikos",
+                "middle": [
+                    "I"
+                ],
+                "last": "Bosse",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Joel",
+                "middle": [],
+                "last": "Hellewell",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "BACKGROUND: In December 2019, a novel strain of SARS-CoV-2 emerged in Wuhan, China. Since then, the city of Wuhan has taken unprecedented measures and efforts in response to the outbreak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "China, to assess their effects on the progression of the outbreak. We included the latest estimates of epidemic parameters from a transmission model fitted to data on local and internationally exported cases from Wuhan in the age-structured epidemic framework. Further, we looked at the age-distribution of cases. Lastly, we simulated lifting of the control measures by allowing people to return to work in a phased-in way, and looked at the effects of returning to work at different stages of the underlying outbreak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The SARS-CoV-2, a novel coronavirus, emerged in the City of Wuhan, Hubei Province, China, in early Person-to-person transmission is mostly driven by \"who interacts with whom\", 9,10 which can vary by age and location of the contact i.e., school, work, home, and community. Under the context of a largescale on-going outbreak, contact patterns would drastically shift from their baseline conditions. In the COVID-19 outbreak in Wuhan, social distancing measures including but not limited to school and workplace closures and health promotions that encourage the general public to avoid crowded places are designed to drastically shift social mixing patterns and are often used in epidemic settings. 4 While contact patterns can be inferred from reported social contact data that include the information in which setting the contact took place, such studies are often focused on high-income countries, 11 or particular high-density areas. 12 Prem and colleagues 13 address that limitation by quantifying contact patterns in the home, school, work and other locations across a range of countries based on available information from household-level data and local population demographic structure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To examine how these changes in population mixing have affected the outbreak progression in Wuhan, we used synthetic location-specific contact patterns in Wuhan and adapted it in the presence of school closures, extended workplace closures, reduction in mixing in the general community. Using these matrices and the latest estimates of the epidemiological parameters of the Wuhan outbreak, 14-16 we simulated the ongoing trajectory of an outbreak in Wuhan using an age-structured susceptible-exposedinfectious-removed (SEIR) model 17, 18 for several social distancing measures.",
+            "cite_spans": [
+                {
+                    "start": 531,
+                    "end": 534,
+                    "text": "17,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 535,
+                    "end": 537,
+                    "text": "18",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We simulated the outbreak in Wuhan using a deterministic stage-structured SEIR model over a six month period, during which the modelled outbreak peters out. An implication of this approach is that all demographic changes in the population (i.e., births, deaths, and ageing) are ignored.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SEIR model"
+        },
+        {
+            "text": "We divide the population according to the infection status into susceptible ( ), exposed ( ), infected ( ), and removed ( ) individuals, and according to age into five-year bands until age 75 and a single category aged 80+ (resulting in the total of 16 age categories, ). Susceptible individuals may acquire the infection at a given rate when they come into contact with an infectious person, and enter the exposed disease state before they become infectious and later either recover or die. We assume Wuhan to be a close system with a constant population size of 11 million (i.e., = + + + = 11 million) throughout the course of this epidemic. We considered the SEIR model presented in Figure 1 . The agespecific mixing patterns of individuals in age group alter their likelihood of being exposed to the virus given a certain number of infectives in the population. In addition, we incorporated contributions of asymptomatic and subclinical cases, however, the question of whether they are able to transmit infection is still not resolved at the time of writing, although current evidence suggests that they are likely to. 19 We further considered a scenario where we assumed that younger individuals are more likely to be asymptomatic (or subclinical) and less infectious than older individuals. 20, 21 For a given age group , epidemic transitions can be described by:",
+            "cite_spans": [
+                {
+                    "start": 1123,
+                    "end": 1125,
+                    "text": "19",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1297,
+                    "end": 1300,
+                    "text": "20,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1301,
+                    "end": 1303,
+                    "text": "21",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 686,
+                    "end": 694,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "SEIR model"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SEIR model"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SEIR model"
+        },
+        {
+            "text": "Where is the transmission rate (scaled to the right value of + ), C !,& describe the contacts of age group made by age group , = 1 \u2212 exp (\u22121/ , ) is the daily probability of exposed individual becoming infectious (with , being the average incubation period), and = 1 \u2212 exp (\u22121/ -) is the daily probability that an infected individual recovers when the average duration of infection is -. We further incorporated contributions of asymptomatic and subclinical cases, 1 \u2212 ! denotes the probability of an infected cases being asymptomatic or subclinical. We assumed that younger individuals are more likely to be asymptomatic (or subclinical) and less infectious (proportion of infectiousness compared to ' , ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SEIR model"
+        },
+        {
+            "text": "Using parameters from the literature as presented in Table 1 , we simulated the outbreak. In particular, we assumed the average incubation period and average infectious period to be 6.4 days 15 and 3 or 7 days, respectively. Each simulation started with 200 or 2000 infectious individuals + , 16 with the rest of the population being in the susceptible state. We explored the uncertainty in the model by drawing + values uniformly from the 95% confidence interval from the posterior of the + distribution from the semi-mechanistic model by Kucharski and colleagues 14 (Fig S3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 53,
+                    "end": 60,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 568,
+                    "end": 576,
+                    "text": "(Fig S3)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "SEIR model"
+        },
+        {
+            "text": "Social mixing patterns vary across locations-households, workplaces, schools, and other locations. Therefore, we use the method set out in Prem and colleagues 13 which accounts for these differences, and obtain the location-specific contact matrices C for different scenarios. In a normal setting, contacts made at all of these locations contribute to the overall mixing pattern in a population, so we sum the contacts across the different locations to obtain our baseline contact pattern in the population before the outbreak (Fig 2, Fig S1 and Fig S2) . In an outbreak setting, different intervention strategies are aimed at reducing social mixing in different contexts in order to lower the overall transmission in the population. To simulate the effects of interventions aimed at reducing social mixing, we create synthetic contact matrices for each intervention scenario from these building block matrices.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 527,
+                    "end": 553,
+                    "text": "(Fig 2, Fig S1 and Fig S2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Social mixing and interventions"
+        },
+        {
+            "text": "We consider the following three scenarios: (1) theoretical: assume no change to social mixing patterns at all location types, no school term break and no Lunar New Year holidays; (2) no interventions, winter school break in Wuhan, and Lunar New Year holidays: assume no social distancing control measures, school-going individuals do not have any contacts at school because of school holidays from 15 th January-10 th February 2020 and 10% and later 75% of workforce will be working during the holidays from 25 th -31 st January 2020 and from 1 st -10 th February 2020, respectively; (3) intense control measures in Wuhan to contain the outbreak: assume school closure and about 10% of workforce-for example, healthcare personnel, police, other essential government staff-will be working even during the control measures (Fig 2 and Fig S4) . For the third scenario, we further modelled the impact of . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 821,
+                    "end": 839,
+                    "text": "(Fig 2 and Fig S4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Social mixing and interventions"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint whether the intense control measures end in beginning of March or April, and we allowed for a staggered return to work while the school remains closed, i.e. 25% of workforce will be working in weeks one and two (Fig 2 second row) , 50% of workforce will be working in weeks three and four to work (Fig 2 third row) , and 100% of workforce will be working and school resumes (Fig 2 fourth   row) . 3,22,23",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 318,
+                    "end": 336,
+                    "text": "(Fig 2 second row)",
+                    "ref_id": null
+                },
+                {
+                    "start": 404,
+                    "end": 421,
+                    "text": "(Fig 2 third row)",
+                    "ref_id": null
+                },
+                {
+                    "start": 481,
+                    "end": 501,
+                    "text": "(Fig 2 fourth   row)",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Our simulations show that the control measures aimed at reducing the social mixing in the population can be effective in reducing the magnitude of the peak of the outbreak. We presented the median cumulative incidence (Fig 4A) , incident case per day ( Fig 4B) and agespecific incidence per day (Fig 4C-G) of the 200 simulated outbreaks. The 25 th and 75 th percentile outbreaks are represented by the shaded area in the cumulative incidence. The intense control measures of prolonged school closure and work holidays reduced the final size ( Fig 4A) and peak incidence, while also delaying the peak of the outbreak (Fig 4B) . Our model suggests that the effects of these social distancing strategies vary across age categories, the reduction in incidence is highest among school children and older individuals and lowest among working-aged adults (Fig 4C-G and Fig 5) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 218,
+                    "end": 226,
+                    "text": "(Fig 4A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 253,
+                    "end": 260,
+                    "text": "Fig 4B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 295,
+                    "end": 305,
+                    "text": "(Fig 4C-G)",
+                    "ref_id": null
+                },
+                {
+                    "start": 543,
+                    "end": 550,
+                    "text": "Fig 4A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 616,
+                    "end": 624,
+                    "text": "(Fig 4B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 848,
+                    "end": 868,
+                    "text": "(Fig 4C-G and Fig 5)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "These measures were most effective if staggered return to work was at the beginning of April; this reduced the overall number of infections in mid-2020 size by more than 92% (interquartile range: 66-97%) (Fig 5 and Fig S4) should the disease have a longer duration of infectiousness, and greatly reduced the magnitude of the peak incidence across all age categories (Fig 4C-E) which can have further beneficial impact by relieving the pressure on the healthcare system. However, premature return to work can result in an increase in incidence even if it originally seemed that the epidemic has started to turn over (second wave, Fig 4B peak of the orange line followed by the sharp increase in incidence in red line). Uncertainty in + values has a large impact on the timing of the peak and the final size of the outbreak (Fig 4A) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 204,
+                    "end": 222,
+                    "text": "(Fig 5 and Fig S4)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 366,
+                    "end": 376,
+                    "text": "(Fig 4C-E)",
+                    "ref_id": null
+                },
+                {
+                    "start": 822,
+                    "end": 830,
+                    "text": "(Fig 4A)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The modelled effects of intense control measures of prolonged school closure and work holidays vary by the duration of infectiousness. If the disease had a short infectious period (3 days), then the model suggests that relaxing the social distancing interventions in March (Fig 5A) could avert approximately half of cases in school children and older individuals. More than half of the cases could be averted should the disease have a longer duration of infectiousness (for e.g., 7 days as presented in Fig 5C) -. CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 273,
+                    "end": 281,
+                    "text": "(Fig 5A)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 503,
+                    "end": 510,
+                    "text": "Fig 5C)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint social distancing interventions would need to be relaxed a month later (in April) in order to observe a larger effect. If children were less infectious as described in M2, lifting the social distancing interventions in April instead of March could have less additional health benefits (Fig 5B and 5D ). Mathematical models can help us understand how SARS-CoV-2 would spread across the population and inform control measures that may mitigate future transmission. 24, 25 Here, we simulated the trajectory of the ongoing outbreak of COVID-19 in Wuhan, using an age-structured SEIR model. 17, 18 Because individuals' mixing patterns are non-random, they influence the transmission dynamics of the disease. 11 Models assessing the effectiveness of social distancing interventions, such as school closure, need to account for social structures and heterogeneities in mixing of individuals. [26] [27] [28] [29] [30] In our model, we incorporated changes to age-and location-specific social mixing patterns to estimate the effects of location-specific social distancing interventions in curtailing the spread of the outbreak. Consequently, if these restrictions are lifted prematurely while there are still enough susceptibles to keep the . > 1 once contacts increase, the number of infections would increase. Realistically, interventions are lifted slowly, partly as an attempt to avoid a sharp increase in infection, but also for logistical and practical reasons. Therefore, lifting the interventions was simulated in a staggered fashion, whereby the interventions were relaxed bit-by-bit (Figures 3, 4 and 5) . Much remains to be discovered about the true age-specific susceptibility and transmissibility of COVID-19. Therefore, we assumed no heterogeneity in susceptibility between children. Furthermore, . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 570,
+                    "end": 573,
+                    "text": "24,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 574,
+                    "end": 576,
+                    "text": "25",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 693,
+                    "end": 696,
+                    "text": "17,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 697,
+                    "end": 699,
+                    "text": "18",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 992,
+                    "end": 996,
+                    "text": "[26]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 997,
+                    "end": 1001,
+                    "text": "[27]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1002,
+                    "end": 1006,
+                    "text": "[28]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1007,
+                    "end": 1011,
+                    "text": "[29]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1012,
+                    "end": 1016,
+                    "text": "[30]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 392,
+                    "end": 406,
+                    "text": "(Fig 5B and 5D",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1691,
+                    "end": 1711,
+                    "text": "(Figures 3, 4 and 5)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint for simplicity we assumed children and adults were equally transmissible, other than the differences in their contact rates. Similar to a flu-like pathogen, the model suggests that interactions between school children and the older individuals in the population have important public health implications, as children may have high infection rates while the elderly are more vulnerable to severe infections with potentially fatal outcome. 31,32 However, unlike models built for pandemic or seasonal flu, we do take into account the lack of population immunity to SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Extreme social distancing measures, including school closures, workplace closures, and avoiding any public gatherings all at once, can push the transmission to households leading to increased clustering in . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Non-pharmaceutical interventions based on sustained social distancing have a strong potential to reduce the magnitude of the peak and lead to overall smaller number of cases. Lowering and flattening of the epidemic peak is particularly important, as it reduces the acute pressure on the health system. Premature and sudden lifting of interventions could lead to a secondary peak that can be flattened by relaxing the interventions gradually. . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint Figure 1 . Age-structured SEIR model and details of the modelled social distancing interventions. The age-specific mixing patterns of individuals in age group alter their likelihood of being exposed to the virus given a certain number of infectives in the population. Younger individuals are more likely to be asymptomatic and less infectious, i.e. subclinical (SC). When ! = 0 for all , the model simplifies to a standard SEIR. The force of infection !,# is given by",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 107,
+                    "end": 115,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint Figure 2 . Synthetic age-and location-specific contact matrices for China under various social distancing scenarios during the intense control period. The synthetic age-specific contact patterns across all locations, at home, at the workplace, in school, and at other locations during normal circumstances (i.e. under no intervention) are presented in panels A-E. The age-and location-specific contact matrices under the various social distancing interventions are presented in the panels F-T. Darker colour intensities indicate higher proclivity of making the age-specific contact.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 107,
+                    "end": 115,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint Figure 4 . Effects of the different social distancing measures on the cumulative incidence (A) and new cases per day (B), and age-specific incidence per day (C to G) from late 2019 to mid-2020. The median cumulative incidence, incident cases per day and age-specific incidence per day are represented as solid lines. The 25 th and 75 th percentile outbreaks are represented by the shaded area in the cumulative incidence. Theoretical no intervention (black line), school break and Lunar New Year (blue line) and intense control measures that are relaxed in a staggered fashion at the beginning of March (red line), and intense control measured that are relaxed in a staggered fashion at the beginning of April (orange line). Shading indicates the timing of the school holidays, Lunar New Year weekend (dark vertical line), intense control measures (dark grey), and staggered return to work followed by school opening (lighter grey).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 137,
+                    "end": 145,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033050 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "of the 2019-20 outbreak in Wuhan: Exploring initial point-source exposure sizes and durations using scenario analysis",
+            "authors": [],
+            "year": 2020,
+            "venue": "Wellcome Open Res",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Stage-structured transmission of phocine distemper virus in the Dutch",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Klepac",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Pomeroy",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Bj\u00f8rnstad",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kuiken",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adme",
+                    "middle": [],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rijks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Proc R Soc B Biol Sci",
+            "volume": "276",
+            "issn": "",
+            "pages": "2469--76",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The stage-structured epidemic: Linking disease and demography with a multi-state matrix approach model",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Klepac",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Caswell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Theor Ecol",
+            "volume": "4",
+            "issn": "",
+            "pages": "301--320",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The Contribution of Pre-symptomatic Transmission to the COVID-19 Outbreak | CMMID Repository",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Flasche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Epidemiology and Transmission of COVID-19 in Shenzhen China: Analysis of 391 cases and 1,286 of their close contacts",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "medRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Zhezhou City Strategy for Resuming Work and Production Among Business Enterprises",
+            "authors": [
+                {
+                    "first": "Zhengzhou",
+                    "middle": [],
+                    "last": "Daily",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Academic Calendar for Elementary and Middle School in Wuhan",
+            "authors": [
+                {
+                    "first": "Sohu",
+                    "middle": [],
+                    "last": "News",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Transmission dynamics of the etiological agent of SARS in Hong Kong: Impact of public health interventions",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Donnelly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1961--1967",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Planning for smallpox outbreaks",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Keeling",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "425",
+            "issn": "",
+            "pages": "681--686",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Using Data on Social Contacts to Estimate Age-specific Transmission Parameters for Respiratory-spread Infectious Agents",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Teunis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kretzschmar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Am J Epidemiol",
+            "volume": "164",
+            "issn": "",
+            "pages": "936--980",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Disease evolution on networks: the role of contact structure",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Read",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Keeling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Proc R Soc London B Biol Sci",
+            "volume": "270",
+            "issn": "",
+            "pages": "699--708",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Incorporating household structure and demography into models of endemic disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Keeling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J R Soc Interface",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1098/rsif.2019.0317"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Perspective: human contact patterns and the spread of airborne infectious diseases",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wjj",
+                    "middle": [],
+                    "last": "Edmunds",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kretzschmar",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Trends Microbiol",
+            "volume": "7",
+            "issn": "",
+            "pages": "372--379",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Who mixes with whom? A method to determine the contact patterns of adults that may lead to the spread of airborne infections",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "O&apos;callaghan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Nokes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Proc R Soc B Biol Sci",
+            "volume": "264",
+            "issn": "",
+            "pages": "949--57",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Clinical manifestations and consequences of influenza",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Cate",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Am J Med",
+            "volume": "82",
+            "issn": "",
+            "pages": "15--24",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Human Metapneumovirus Infections in Young and Elderly Adults",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Falsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Erdman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Walsh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Infect Dis",
+            "volume": "187",
+            "issn": "",
+            "pages": "785--90",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Modelling disease outbreaks in realistic urban social networks",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eubank",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guclu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Anil",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nature",
+            "volume": "429",
+            "issn": "",
+            "pages": "180--184",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Simulation of an SEIR infectious disease model on the dynamic contact network of conference attendees",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stehl\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Voirin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Barrat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "BMC Med",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Estimating Within-Household Contact Networks from Egocentric Data",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Potter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Handcock",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Longini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Halloran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Ann Appl Stat",
+            "volume": "5",
+            "issn": "",
+            "pages": "1816--1854",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The psychological impact of quarantine and how to reduce it: rapid review of the evidence",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Brooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30460-8"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "689--97",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "KP, YL, and PK designed and programmed the model, and KP made the figures. TWR, AJK, RME, and ND consulted on the analyses. All authors interpreted the results",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Contributors",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yl",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "the Bill & Melinda Gates Foundation (grant number INV",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kp",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "This research was partly funded by the National Institute for Health Research (NIHR) (16/137/109) using UK aid from the UK Government to support global health research. The views expressed in this publication are those of the author(s) and not necessarily those of the NIHR or the UK Department of Health and Social Care. We would like to acknowledge (in a randomised order) the other members of the London School of Hygiene & Tropical Medicine COVID-19 modelling group",
+            "authors": [],
+            "year": null,
+            "venue": "TWR and AJK were funded by the Wellcome Trust",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Their funding sources are as follows",
+            "authors": [
+                {
+                    "first": "Hamish",
+                    "middle": [],
+                    "last": "Gibbs",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alicia",
+                    "middle": [],
+                    "last": "Rosello",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Billy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Thibaut",
+                    "middle": [],
+                    "last": "Quilty",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fiona",
+                    "middle": [],
+                    "last": "Jombart",
+                    "suffix": ""
+                },
+                {
+                    "first": "Charlie",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amy",
+                    "middle": [],
+                    "last": "Diamond",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kevin",
+                    "middle": [],
+                    "last": "Gimma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sebastian",
+                    "middle": [],
+                    "last": "Van Zandvoort",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Christopher",
+                    "suffix": ""
+                },
+                {
+                    "first": "John",
+                    "middle": [],
+                    "last": "Jarvis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nikos",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                },
+                {
+                    "first": "Joel",
+                    "middle": [],
+                    "last": "Bosse",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hellewell",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Wellcome Trust",
+            "authors": [
+                {
+                    "first": "Sebastian",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Global Challenges Research Fund",
+            "authors": [
+                {
+                    "first": "Jarvis",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Department of Health and Social Care",
+            "authors": [
+                {
+                    "first": "Hamish",
+                    "middle": [],
+                    "last": "Gibbs",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Elrha's Research for Health in Humanitarian Crises (R2HC) Programme, UK Government (DFID), Wellcome Trust, NIHR)",
+            "authors": [
+                {
+                    "first": "Kevin",
+                    "middle": [],
+                    "last": "Van Zandvoort",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Since then, the local and national governments have taken unprecedented measures in response to the COVID-19 outbreak caused by SARS-CoV-2. 3 Exit screening of passengers was shortly followed by travel restrictions in Wuhan on 23 rd January 2020, halting all means of unauthorised travel into and out of the city. Similar control measures were extended to the entire province of Hubei by 26 th January 2020. 3 Non-pharmaceutical social distancing interventions such as extended school closure and workplace distancing were introduced to reduce the impact of the COVID-19 outbreak in Wuhan. 4 Within the city, schools remained closed; Lunar New Year holidays were extended so that people stayed away from their workplaces; the local government promoted social distancing and encouraged residents to avoid crowded places. These measures are known to greatly changed the agespecific mixing patterns within the population in previous outbreak response efforts for other respiratory infectious diseases. 5,6 While travel restrictions undoubtedly had a role in reducing the exportations of infections outside of Wuhan, and delayed the onset of outbreaks in other regions, 7,8 changes in the mixing patterns affected the trajectory of the outbreak within Wuhan itself. In order to estimate the effects of social distancing measures on the progression of the COVID-19 epidemic, we look at Wuhan, hoping to provide some insights for the rest of the world.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "shows the effects of different control measures among individuals aged 55-60 and 10-15 years old. The standard school winter break and holidays for the Lunar New Year would have had little effect on progression of the outbreak had the school and workplace re-opened as normal.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "SARS-CoV-2, a contact-transmissible infectious disease, percolates through a population through direct contact between infected and susceptible individuals.1,9,10 Outbreak control measures aimed at reducing the amount of mixing in the population have the potential to reduce the final size of the epidemic and the magnitude of the peak. To evaluate the effect of location-specific social distancing measures such as extended school closure and interventions around workplaces on the magnitude of the peak and the final size, we accounted for these heterogeneities in contact networks in our model. Here, we simulated outbreaks and modelled the interventions by scaling down the appropriate component of the contact mixing matrices for China.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Current evidence of the effects of various social distancing measures on containing the outbreak are limited and little is known about the behavioural changes of individuals over a period of time either during an outbreak, or otherwise. Therefore, to model the effects of the social distancing measures implemented in Wuhan, we assumed what effect certain types of social distancing has on age-and location-specific contact rates.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "As households are not explicitly included in the model, we do not consider heterogeneity and clustering of household transmission. Distinguishing between repeated and new contacts is important for disease propagation in contact network models, 33,34 more sophisticated methods accounting for temporal presence within the household 35 would be needed to characterise higher degrees of contact. A key parameter is the basic reproduction number ( + ) which determines how fast SARS-CoV-2 spreads through the population during the early stages of the outbreak. This is an inherently difficult parameter to estimate, since the true number of cases that can transmit infection at a given time is unknown (reported cases are likely to be just a small fraction of these), and likely varies over time (due to different interventions being introduced and population behaviour changing in response to the epidemic). In our analysis, we used an existing model that inferred time-dependent . based on the growth of reported cases in Wuhan as well as number of exported cases outside China originating from Wuhan. 14 Social distancing and travel restrictions combined have clearly aided the lowering of the transmission of COVID-19 over the course of the ongoing outbreak in Wuhan. 8,36,37 Evidence for this drop in transmission can be gleaned from the time-varying estimates of the reproductive number, 14 or, even more simply, observing that the turnover of the epidemic has occurred far before the depletion of the susceptibles indicates the effects of the implemented measures. Insofar as social distancing alone is responsible for the drop is extremely difficult to quantify, especially during the ongoing epidemic. Therefore we took a broad-view of the question, making assumptions about the result of certain forms of social distancing and measuring the effects somewhat qualitatively. However, it is clear that to a greater or lesser extent, social distancing has resulted in both a shorter epidemic and one with a lower peak. Given what is known about the transmissibility and (the relatively long) incubation period of COVID-19, 1,15 the efficacy of social distancing in reducing these important attributes of any epidemic are no surprise.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Effects of different intervention strategies on the cumulative incidence and new cases per day among individuals aged 55-60 (A to D) and 10-15 (E to H) from late 2019 to mid-2020. Under two scenarios children being equally infectious and children being less infectious, the effects of social distancing measures were investigated. Theoretical no intervention (black line), school break and LNY (blue line) and intense control measures that are relaxed in a staggered fashion at the beginning of March (red line), and intense control measures that are relaxed in a staggered fashion at the beginning of April (orange line). Shading indicates the timing of the school holidays, Lunar New Year (dark vertical line), intense control measures (dark grey), and staggered return to work followed by school opening (lighter grey).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "The modelled proportion of number of infections averted in mid-2020 by age for the different social distancing measures, assuming the duration of infectiousness to be (A and B) 3 days and (C and D) 7 days. The additional proportions of cases averted (compared to no intervention) are presented across age and by the different social distancing measures: school break and Lunar New Year (blue area), intense control measures that are relaxed in a staggered fashion at the beginning of March (red area), and intense control measures that are relaxed in a staggered fashion at the beginning of April (orange area).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Table 1. Parameters of the SEIR model.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

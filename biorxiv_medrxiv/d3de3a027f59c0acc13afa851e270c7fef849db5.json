@@ -1,0 +1,975 @@
+{
+    "paper_id": "d3de3a027f59c0acc13afa851e270c7fef849db5",
+    "metadata": {
+        "title": "Predicting the cumulative number of cases for the COVID-19 epidemic in China from early data",
+        "authors": [
+            {
+                "first": "Z",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "P",
+                "middle": [],
+                "last": "Magal",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UMR 5251",
+                    "institution": "IMB",
+                    "location": {
+                        "postCode": "F-33400",
+                        "settlement": "Talence",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "O",
+                "middle": [],
+                "last": "Seydi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "\u00c9cole Polytechnique de Thi\u00e8s",
+                    "location": {
+                        "country": "S\u00e9n\u00e9gal ("
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "G",
+                "middle": [],
+                "last": "Webb",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Vanderbilt University",
+                    "location": {
+                        "settlement": "Nashville",
+                        "region": "TN",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We model the COVID-19 coronavirus epidemic in China. We use early reported case data to predict the cumulative number of reported cases to a final size. The key features of our model are the timing of implementation of major public policies restricting social movement, the identification and isolation of unreported cases, and the impact of asymptomatic infectious cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Many mathematical models of the COVID-19 coronavirus epidemic in China have been developed, and some of these are listed in our references [4, 7, 9, 10, 11, 12, 13, 14, 15] . We develop here a model describing this epidemic, focused on the effects of the Chinese government imposed public policies designed to contain this epidemic, and the number of reported and unreported cases that have occurred. Our model here is based on our model of this epidemic in [5] , which was focused on the early phase of this epidemic (January 20 through January 29) in the city of Wuhan, the epicenter of the early outbreak. During this early phase, the cumulative number of daily reported cases grew exponentially. In [5] , we identified a constant transmission rate corresponding to this exponential growth rate of the cumulative reported cases, during this early phase in Wuhan.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 142,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 143,
+                    "end": 145,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 146,
+                    "end": 148,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 149,
+                    "end": 152,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 153,
+                    "end": 156,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 157,
+                    "end": 160,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 161,
+                    "end": 164,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 165,
+                    "end": 168,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 169,
+                    "end": 172,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 458,
+                    "end": 461,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 703,
+                    "end": 706,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "On January 23, 2020, the Chinese government imposed major public restrictions on the population of Wuhan. Soon after, the epidemic in Wuhan passed beyond the early exponential growth phase, to a phase with slowing growth. In this work, we assume that these major government measures caused the transmission rate to change from a constant rate to a time dependent exponentially decreasing rate. We identify this exponentially decreasing transmission rate based on reported case data after January 29. We then extend our model of the epidemic to the central region of China, where most cases occurred. Within just a few days after January 29, our model can be used to project the time-line of the model forward in time, with increasing accuracy, to a final size.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The model consists of the following system of ordinary differential equations:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model"
+        },
+        {
+            "text": "\u2212 \u03bdI(t), R (t) = \u03bd 1 I(t) \u2212 \u03b7R(t), U (t) = \u03bd 2 I(t) \u2212 \u03b7U (t).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "t)S(t)[I(t) + U (t)], I (t) = \u03c4 (t)S(t)[I(t) + U (t)]"
+        },
+        {
+            "text": "(2.1) This system is supplemented by initial data S(t 0 ) = S 0 > 0, I(t 0 ) = I 0 > 0, R(t 0 ) = 0 and U (t 0 ) = U 0 \u2265 0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "t)S(t)[I(t) + U (t)], I (t) = \u03c4 (t)S(t)[I(t) + U (t)]"
+        },
+        {
+            "text": "(2.2)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "t)S(t)[I(t) + U (t)], I (t) = \u03c4 (t)S(t)[I(t) + U (t)]"
+        },
+        {
+            "text": "Here t \u2265 t 0 is time in days, t 0 is the beginning date of the model of the epidemic, S(t) is the number of individuals susceptible to infection at time t, I(t) is the number of asymptomatic infectious individuals at time t, R(t) is the number of reported symptomatic infectious individuals at time t, and U (t) is the number of unreported symptomatic infectious individuals at time t. Asymptomatic infectious individuals I(t) are infectious for an average period of 1/\u03bd days. Reported symptomatic individuals R(t) are infectious for an average period of 1/\u03b7 days, as are unreported symptomatic individuals U (t). We assume that reported symptomatic infectious individuals R(t) are reported and isolated immediately, and cause no further infections. The asymptomatic individuals I(t) can also be viewed as having a low-level symptomatic state. All infections are acquired from either I(t) or U (t) individuals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "t)S(t)[I(t) + U (t)], I (t) = \u03c4 (t)S(t)[I(t) + U (t)]"
+        },
+        {
+            "text": "The parameters of the model are listed in Table 1 and a schematic diagram of the model is given in Figure 1 . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 42,
+                    "end": 49,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 99,
+                    "end": 107,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "t)S(t)[I(t) + U (t)], I (t) = \u03c4 (t)S(t)[I(t) + U (t)]"
+        },
+        {
+            "text": "We use cumulative reported data from the National Health Commission of the People's Republic of China and the Chinese CDC for mainland China. Before February 11, the data was based on confirmed testing. From February 11 to February 15, the data included cases that were not tested for the virus, but were clinically diagnosed based on medical imaging showing signs of pneumonia. There were 17,409 such cases from February 10 to February 15. The data from February 10 to February 15 specified both types of reported cases. From February 16, the data did not separate the two types of reporting, but reported the sum of both types. We subtracted 17,409 cases from the cumulative reported cases after February 15 to obtain the cumulative reported cases based only on confirmed testing after February 15. The data is given in Table 2 We plot the data for daily reported cases and the cumulative reported cases in Figure 2 . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 822,
+                    "end": 829,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 909,
+                    "end": 917,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Data"
+        },
+        {
+            "text": "We assume f = 0.8, which means that 20% of symptomatic infectious cases go unreported. We assume \u03b7 = 1/7, which means that the average period of infectiousness of both unreported symptomatic infectious individuals and reported symptomatic infectious individuals is 7 days. We assume \u03bd = 1/7, which means that the average period of infectiousness of asymptomatic infectious individuals is 7 days. These values can be modified as further epidemiological information becomes known.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model parameters"
+        },
+        {
+            "text": "A illustrated in our previous work [5] , we assume that in the early phase of the epidemic, the cumulative number of reported cases grow approximately exponentially, according to the formula:",
+            "cite_spans": [
+                {
+                    "start": 35,
+                    "end": 38,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model parameters"
+        },
+        {
+            "text": "with values \u03c7 1 = 0.15, \u03c7 2 = 0.38, \u03c7 3 = 1.0. These values of \u03c7 1 , \u03c7 2 , and \u03c7 3 are fitted to reported case data from January 19 to January 28. We assumed the initial value S 0 = 11, 000, 000, the population of the city Wuhan, which was the epicenter of the epidemic outbreak where almost all cases in China occurred in this time period. The other initial conditions are",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model parameters"
+        },
+        {
+            "text": "The value of the transmission rate \u03c4 (t), during the early phase of the epidemic, when the cumulative number of reported cases was approximately exponential, is the constant value",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model parameters"
+        },
+        {
+            "text": "The initial time is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model parameters"
+        },
+        {
+            "text": "The value of the basic reproductive number is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model parameters"
+        },
+        {
+            "text": "These parameter formulas were derived in [5] . After January 23, strong government measures in all of China, such as isolation, quarantine, and public closings, strongly impacted the transmission of new cases. The actual effects of these measures were complex, and we use an exponential decrease for the transmission rate \u03c4 (t) to incorporate these effects after the early exponentially increasing phase. The formula for \u03c4 (t) during the exponential decreasing phase was derived by a fitting procedure. The formula for \u03c4 (t) is",
+            "cite_spans": [
+                {
+                    "start": 41,
+                    "end": 44,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model parameters"
+        },
+        {
+            "text": "The date N and the value of \u00b5 are chosen so that the cumulative reported cases in the numerical simulation of the epidemic aligns with the cumulative reported case data during a period of time after January 19. We choose N = 25 (January 25) for our simulations. We illustrate \u03c4 (t) in Figure 3 , with \u00b5 = 0.16. In this way we are able to project forward the time-path of the epidemic after the government imposed public restrictions, as it unfolds. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 285,
+                    "end": 293,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Model parameters"
+        },
+        {
+            "text": "We assume that exponentially increasing phase of the epidemic (as incorporated in \u03c4 0 ) is intrinsic to the population of any subregion of China, after it is has been established in the epidemic epicenter Wuhan. We also assume that the susceptible population S(t) in not significantly reduced over the course of the epidemic. We set \u03c4 0 = 4.51 \u00d7 10 \u22128 , t 0 = 5.0, I(t 0 ) = 3.3, U (t 0 ) = 0.18, and R(t 0 ) = 1.0, as in Section 4. We set S(t 0 ) in (2.2) to 1, 400, 050, 000 (the population of mainland China). We set \u03c4 (t) in",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model simulation"
+        },
+        {
+            "text": "where S 0 = 11, 000, 000 (the population of Wuhan). We thus assume that the government imposed restriction measures became effective in reducing transmission on January 25. In Figure 4 , we plot the graphs of CR(t), CU (t), R(t), and U (t) from the numerical simulation for simulations based on six time intervals for known values of the cumulative reported case data. For each of these time intervals, a value of \u00b5 is chosen so that the simulation for that time interval aligns with the cumulative reported case data in that interval. In this way, we are able to predict the future values of the epidemic from early cumulative reported case data. In Figure 5 we plot the graphs of the reported cases R(t), the unreported cases U (t), and the infectious pre-symptomatic cases I(t). The blue dots are obtained from the reported cases data ( Table 2) for each 5 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 176,
+                    "end": 184,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 651,
+                    "end": 659,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 840,
+                    "end": 848,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Model simulation"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034314 doi: medRxiv preprint day beginning on January 26, by subtracting from each day, the value of the reported cases one week earlier. Our model transmission rate \u03c4 (t) can be modified to illustrate the effects of an earlier or later implementation of the major public policy interventions that occurred in this epidemic. The implementation one week earlier (25 is replaced by 18 in (4.1)) is graphed in Figure 6A . All other parameters and the initial conditions remain the same. The total reported cases is approximately 4, 500 and the total unreported cases is approximately 1, 100. The implementation one week later (25 is replaced by 32 in (4.1)) is graphed in Figure 6B . The total reported cases is approximately 820, 000 and the total unreported cases is approximately 200, 000. The timing of the institution of major social restrictions is critically important in mitigating the epidemic. The number of unreported cases is of major importance in understanding the evolution of an epidemic, and involves great difficulty in their estimation. The data from January 19 to February 15 for reported cases in Table 2 , was only for confirmed tested cases. Between February 11 and February 15, additional clinically diagnosed case data, based on medical imaging showing signs of pneumonia, was also reported by the Chinese CDC. Since February 16, only tested case data has been reported by the Chinese CDC, because new NHC guidelines removed the clinically diagnosed category. Thus, after February 15, there is a gap in the reported case data that we used up to February 15. The uncertainty of the number of unreported cases for this epidemic includes this gap, but goes even further to include additional unreported cases.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 485,
+                    "end": 494,
+                    "text": "Figure 6A",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 747,
+                    "end": 756,
+                    "text": "Figure 6B",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 1193,
+                    "end": 1200,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "6"
+        },
+        {
+            "text": "The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "We assumed previously that the fraction f of reported cases was f = 0.8 and the fraction of unreported cases was 1 \u2212 f = 0.2. Our model formulation can be applied with varying values for the fraction f . In Figure 7 , we provide illustrations with the fraction f = 0.4 ( Figure 7A ) and f = 0.6 ( Figure 7B ). The number of days an asymptomatic infected individual is infectious is uncertain. We simulate in Figure 8 the model with \u03bd = 1/3 (asymptomatic infected individuals are infectious on average 3 days before becoming symptomatic), and \u03bd = 1/5 (asymptomatic infected individuals are infectious on average 5 days before becoming symptomatic). For \u03bd = 1/3, \u03c4 0 = 5.75 \u00d7 10 \u22128 , I 0 = 1.48, U 0 = 0.18, R 0 = 2.78, \u00b5 = 0.0765, N = 24. For \u03bd = 1/5, \u03c4 0 = 4.90 \u00d7 10 \u22128 , I 0 = 2.38, U 0 = 0.18, R 0 = 3.45, \u00b5 = 0.098, N = 24. Because the asymptomatic infectious periods are shorter, The date N of the effective reduction of the transmission rate due to restriction measures, is one day earlier.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 207,
+                    "end": 215,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 271,
+                    "end": 280,
+                    "text": "Figure 7A",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 297,
+                    "end": 306,
+                    "text": "Figure 7B",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 408,
+                    "end": 416,
+                    "text": "Figure 8",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. In Figure 9 , we illustrate the importance of the level of government imposed public restrictions by altering the value of \u00b5 in formula (4.1). All other parameters and initial conditions are the same as in Figure 4 . In Figure 9A we set \u00b5 = 0.0, corresponding to no restrictions. The final size of cumulative reported cases after 100 days is approximately 1,080,000,000 cases, approximately 270,000,000 unreported cases, and approximately 1,350,000,000 total cases. The turning point is approximately day 65 = March 6. In Figure 9B we set \u00b5 = 0.17, corresponding to a higher level of restrictions than in Figure 4 . The final size of cumulative reported cases after 70 days is approximately 45,300 cases, approximately 11,300 unreported cases, and approximately 56,600 total cases. The turning point is approximately day 38 = February 7. The level and timing of government restrictions on social distancing is very important in controlling the epidemic. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 167,
+                    "end": 175,
+                    "text": "Figure 9",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 370,
+                    "end": 378,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 384,
+                    "end": 393,
+                    "text": "Figure 9A",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 686,
+                    "end": 695,
+                    "text": "Figure 9B",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 769,
+                    "end": 777,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "7"
+        },
+        {
+            "text": "We have developed a model of the COVID-19 epidemic in China that incorporates key features of this epidemic: (1) the importance of the timing and magnitude of the implementation of major government public restrictions designed to mitigate the severity of the epidemic; (2) the importance of both reported and unreported cases in interpreting the number of reported cases; and (3) the importance of asymptomatic infectious cases in the disease transmission. In our model formulation, we divide infectious individuals into asymptomatic and symptomatic infectious individuals. The symptomatic infectious phase is also divided into reported and unreported cases. Our model formulation is based 8 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint . on our work [5] , in which we developed a method to estimate epidemic parameters at an early stage of an epidemic, when the number of cumulative cases grows exponentially. The general method in [5] , was applied to the COVID-19 epidemic in Wuhan, China, to identify the constant transmission rate corresponding to the early exponential growth phase.",
+            "cite_spans": [
+                {
+                    "start": 53,
+                    "end": 56,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 235,
+                    "end": 238,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "In this work, we use the constant transmission rate in the early exponential growth phase of the COVID-19 epidemic identified in [5] . We model the effects of the major government imposed public restrictions in China, beginning on January 23, as a time-dependent exponentially decaying transmission rate after January 24. With this time dependent exponentially decreasing transmission rate, we are able to fit with increasing accuracy, our model simulations to the Chinese CDC reported case data for all of China, forward in time from February 15, 2020.",
+            "cite_spans": [
+                {
+                    "start": 129,
+                    "end": 132,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Our model demonstrates the effects of implementing major government public policy measures. By varying the date of the implementation of these measures in our model, we show that had implementation occurred one week earlier, then a significant reduction in the total number of cases would have resulted. We show that if these measures had occurred one week later, then a significant increase in the total number of cases would have occurred. We also show that if these measures had been less restrictive on public movement, then a significant increase in the total size of the epidemic would have occurred. It is evident, that control of a COVID-19 epidemic is very dependent on an early implementation and a high level of restrictions on public functions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "We varied the fraction 1 \u2212 f of unreported cases involved in the transmission dynamics. We showed that if this fraction is higher, then a significant increase in the number of total cases results. If it is lower, then a significant reduction occurs. It is evident, that control of a COVID-19 epidemic is very dependent on identifying and isolating symptomatic unreported infectious cases. We also decreased the parameter \u03bd (the reciprocal of the average period of asymptomatic infectiousness), and showed that the total number of cases in smaller. It is also possible to decrease \u03b7 (the reciprocal of the average period of unreported symptomatic infectiousness), to obtain a similar result. It is evident that understanding of these periods of infectiousness is important in understanding the total number of epidemic cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Our model was specified to the COVID-19 outbreak in China, but it is applicable to any outbreak location for a COVID-19 epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Identifying the number of unreported cases in SIR epidemic models",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ducrot",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Magal",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Webb",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Math. Med. Biol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Parameter identification in epidemic models",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hadeler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Math. Biosci",
+            "volume": "229",
+            "issn": "",
+            "pages": "185--189",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Parameter estimation in epidemic models: simplified formulas",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hadeler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Can. Appl. Math. Q",
+            "volume": "19",
+            "issn": "",
+            "pages": "343--356",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The continuing 2019-nCoV epidemic threat of novel corona viruses to global health -The latest 2019 novel corona virus outbreak in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Infect. Dis",
+            "volume": "91",
+            "issn": "",
+            "pages": "264--266",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Understanding unreported cases in the 2019-nCov epidemic outbreak in Wuhan, China, and the importance of major public health interventions (biology) March",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Magal",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Seydi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The parameter identification problem for SIR epidemic models: Identifying Unreported Cases",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Magal",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Math. Biol",
+            "volume": "77",
+            "issn": "6-7",
+            "pages": "1629--1648",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Initial cluster of novel coronavirus (2019-nCoV) infections in Wuhan, China Is consistent with substantial human-to-human transmission",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Linton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Akhmetzhanov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Clin. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The Rate of Under ascertainment of Novel Coronavirus (2019-nCoV) Infection: Estimation Using Japanese Passengers Data on Evacuation Flights",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Clin. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Real-time forecasts of the COVID-19 epidemic in China from",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Roosa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect. Dis. Model",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "IDM editorial statement on the 2019-nCoV",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "An updated estimation of the risk of transmission of the novel coronavirus (2019-nCov)",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bragazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect. Dis. Model",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Estimation of the transmission risk of the 2019-nCoV and its implication for public health interventions",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bragazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Clin. Med",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Novel coronavirus outbreak in Wuhan, China, 2020: Intense surveillance Is vital for preventing sustained transmission in new locations",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Clin. Med",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Estimating the unreported number of novel Coronavirus (2019-nCoV) cases in China in the first half of January 2020: A data-driven modelling analysis of the early outbreak",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Clin. Med",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Compartments and flow chart of the model.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Daily reported cases data (left) and cumulative reported cases data (right). The epidemic turning point of the reported case data is approximately February 4, 2020 (day 35, day 1 = January 1, 2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Graph of \u03c4 (t) with N = 25 (January 25) and \u00b5 = 0.16. The transmission rate is effectively 0.0 after day 53 (February 22).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Graphs of CR(t), CU (t), U (t), R(t). The red dots are the reported case data. The value of \u00b5 (indicated in each of the sub-figures) is estimated by fitting the model output for each time interval to the cumulative reported case data for that time interval. The final size of cumulative cases is approximately (A) 49, 600 reported, 12, 400 unreported; (B) and (C) 62,700 reported, 15,700 unreported cases; and (D), (E), (F): 63, 500 reported, 15, 900 unreported.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Graphs of R(t), U (t), I(t). The blue dots are the day by day weekly reported data. The turning point of the asymptomatic infectious cases I(t) is approximately day 35 = February 4. The turning point of the reported cases R(t) and the unreported cases U (t) is approximately day 41 = February 10. The turning point of the day by day weekly reported data is approximately day 41.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Graphs of CR(t), CU (t), U (t), R(t).A: The major public policy interventions were implemented one week earlier (January 18). B: The major public policy interventions were implemented one week later (March 1). The one week earlier turning point day is 33 = February 2. The one week later turning point is day 46 = February 15.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "For f = 0.4, the formula for the time dependent transmission rate \u03c4 (t) in (4.1) involves new values for \u03c4 0 = 4.08 \u00d7 10 \u22128 and \u00b5 = 0.148. The initial conditions I 0 = 6.65 and U 0 = 1.09 also have new values. The other parameters and initial conditions remain the same. For f = 0.4, the total reported cases is approximately 63, 100 and the total unreported cases is approximately 94, 700. For f = 0.6, the formula for the time dependent transmission rate \u03c4 (t) in (4.1) involves new values for \u03c4 0 = 4.28 \u00d7 10 \u22128 and \u00b5 = 0.144. The initial conditions I 0 = 4.43 and U 0 = 0.485 also have new values. The other parameters and initial conditions remain the same. For f = 0.6, the total reported cases is approximately 63, 300 and the total unreported cases is approximately 42, 200. From these simulations, we see that estimation of the number of unreported cases has major importance in understanding the severity of this epidemic. Graphs of CR(t), CU (t), U (t), R(t). The red dots are the cumulative reported case data from Table 2. A: f = 0.4. The basic reproductive number is R 0 = 5.03. The final size of the epidemic is approximately 157, 800 total cases. The turning point of the epidemic is approximately day 41 = February 10. B: f = 0.6, The basic reproductive number is R 0 = 4.62. The final size of the epidemic is approximately 105, 500 total cases. The turning point is approximately day 41 = February 10.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Graphs of CR(t), CU (t), U (t), R(t). The red dots are the cumulative reported case data fromTable 2. A: \u03bd = 1/3. B: \u03bd = 1/5. The turning point is approximately day 40 = February 9 for both cases. The final sizes of CR(t) and CU (t) are approximately the same as for \u03bd = 1/7 in both cases.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Graphs of CR(t), CU (t), U (t), and R(t). case data fromTable 2. A: \u00b5 = 0.0 The orange horizontal line is the population of mainland China. B: \u00b5 = 0.17. A significant reduction of cases occurs compared to the cumulative reported case data (red dots).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Parameters of the model.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "with this adjustment.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Cumulative daily reported case data from January 20, 2020 to February 15, 2020, reported for mainland China by the National Health Commission of the People's Republic of China and the Chinese CDC. The data corresponds to cumulative reported cases confirmed by testing.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,956 @@
+{
+    "paper_id": "f7b069911c90d9deab85becbad3e9a633e0bf57c",
+    "metadata": {
+        "title": "Inferring the number of COVID-19 cases from recently reported deaths Centre for the Mathematical Modelling of Infectious Diseases COVID-19 Working Group",
+        "authors": [
+            {
+                "first": "Thibaut",
+                "middle": [],
+                "last": "Jombart",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": "thibautjombart@gmail.com"
+            },
+            {
+                "first": "Kevin",
+                "middle": [],
+                "last": "Van Zandvoort",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2020",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Timothy",
+                "middle": [
+                    "W"
+                ],
+                "last": "Russell",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Christopher",
+                "middle": [
+                    "I"
+                ],
+                "last": "Jarvis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Amy",
+                "middle": [],
+                "last": "Gimma",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sam",
+                "middle": [],
+                "last": "Abbott",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sam",
+                "middle": [],
+                "last": "Clifford",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sebastian",
+                "middle": [],
+                "last": "Funk",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hamish",
+                "middle": [],
+                "last": "Gibbs",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yang",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Carl",
+                "middle": [
+                    "A B"
+                ],
+                "last": "Pearson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nikos",
+                "middle": [
+                    "I"
+                ],
+                "last": "Bosse",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rosalind",
+                "middle": [
+                    "M"
+                ],
+                "last": "Eggo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Adam",
+                "middle": [
+                    "J"
+                ],
+                "last": "Kucharski",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [],
+                "last": "Edmunds",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We estimate the number of COVID-19 cases from newly reported deaths in a population without previous reports. Our results suggest that by the time a single death occurs, hundreds to thousands of cases are likely to be present in that population. This suggests containment via contact tracing will be challenging at this point, and other response strategies should be considered. Our approach is implemented in a publicly available, userfriendly, online tool.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We applied our approach to three countries which recently reported their first COVID-19 deaths (Spain, Italy, and France), using the same range of parameters as in the single-death analysis. In order to compare predictions to cases actually reported in these countries, projections were run until 4th March. Overall, predictions from the model using the baseline scenario (R = 2, CRF = 2%) were in line with reported epidemic sizes (Table 2). Results from other scenarios are presented in the Supplementary Material. Actual numbers of reported cases fell within the 50% quantile intervals of simulations in all three countries Italy (median: 1 294 ; QI50%: [390 ; 3 034]; reported: 2 037), France (median: 592 ; QI50%: [177 ; 1 705]; reported: 190) and Spain, (median: 202 ; QI50%: [95 ; 823]; reported 202).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "As the coronavirus-2019 (COVID-19, (1)) epidemic continues to spread worldwide, there is mounting pressure to assess the scale of epidemics in newly affected countries as rapidly as possible. We introduce a method for estimating cases from recently reported COVID-19 deaths. Results suggest that by the time the first deaths have been reported, there may be hundreds to thousands of cases in the affected population. We provide epidemic size estimates for several countries, and a user-friendly, web-based tool that implements our model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "COVID-19 deaths start to be notified in countries where few or no cases had previously been reported (2) . Given the non-specific symptoms (3) , and the high rate of mild disease (4), a COVID-19 epidemic may go unnoticed in a new location until the first severe cases or deaths are reported (5) . Available estimates of the case fatality ratio, i.e. the proportion of cases that are fatal (CFR, (6,7)), can be used to estimate the number of cases who would have shown symptoms at the same time as the fatal cases. We developed a model to use CFR alongside other epidemiological factors underpinning disease transmission to infer the likely number of cases in a population from newly reported deaths.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 104,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 139,
+                    "end": 142,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 291,
+                    "end": 294,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Using deaths to infer cases"
+        },
+        {
+            "text": "Our approach involves two steps: first, reconstruct historic cases by assuming non-fatal cases are all undetected, and, second, model epidemic growth from these cases until the present day to estimate the likely number of current cases. We account for uncertainty in the epidemiological processes by using stochastic simulations for estimation of relevant quantities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Using deaths to infer cases"
+        },
+        {
+            "text": "Two pieces of information are needed to reconstruct past cases: the number of cases for each reported death, and their dates of symptom onset. Intuitively, the CFR provides some information on the number of cases, as it represents the expected number of deaths per case, so that CFR -1 corresponds to the expected number of cases per death. In practice, the number of cases until the first reported death can be drawn from a Geometric distribution with an event probability equal to the CFR. Note that while our approach could in theory use different CFR for each case (to account for different risk groups), our current implementation uses the same CFR for all cases in a simulation. Dates of symptom onset are simulated from the distribution of the time from onset to death, modelled as a discretised Gamma distribution with a mean of 15 days and a standard deviation of 6.9 days (8).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Using deaths to infer cases"
+        },
+        {
+            "text": "Once past cases are reconstructed, we use a branching process model for forecasting new cases (9, 10) . This model combines data on the reproduction number (R) and serial interval distribution to simulate new cases 'yt' on day 't' from a Poisson distribution:",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 97,
+                    "text": "(9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 98,
+                    "end": 101,
+                    "text": "10)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Using deaths to infer cases"
+        },
+        {
+            "text": "where w(.) is the probability mass function of the serial interval distribution. More details on this simulation model can be found in Jombart et al. (10) . Optionally, this model can also incorporate heterogeneity in transmissibility using a Negative Binomial distribution instead of Poisson. The serial interval distribution was characterised as a discretised Lognormal distribution with mean 4.7 days and standard deviation 2.9 days (11) . We assume that past cases caused secondary transmissions independently (i.e. are not ancestral to each other), so that simulated cases for each death can be added. This assumption is most likely to be met when reported deaths are close in time. As the time between reported deaths increases, past cases may come from the same epidemic trajectory rather than separate, additive ones, in which case our method would overpredict epidemic size. Further details on model design and parameters values are provided in Supplementary Material. Our approach is implemented in the R software (12) and publicly available as R scripts (see Supporting Information) as well as in a user-friendly, interactive web-interface available at: https://cmmid.github.io/visualisations/inferring-covid19-cases-from-deaths.",
+            "cite_spans": [
+                {
+                    "start": 150,
+                    "end": 154,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "(11)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1024,
+                    "end": 1028,
+                    "text": "(12)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Using deaths to infer cases"
+        },
+        {
+            "text": "We first used our model to assess likely epidemic sizes when an initial COVID-19 death is reported in a new location. We ran simulations for a range of plausible values of R (1.5, 2 and 3) and CFR (1%, 2%, 3% and 10%), assuming a single death on the 1st March 2020 (7) . 25,000 epidemic trajectories were simulated for each parameter combination. Simulations for an 'average severity' scenario (7) with R = 2 and CFR = 2% show that by the time a death has occured, hundreds to thousands of cases may have been generated in the affected population ( Figure 1 ). Results vary widely across other parameter settings, and amongst simulations from a given setting (Table 1) , with higher R and lower CFR leading to higher estimates of the numbers of cases. However, a majority of settings give similar results to our 'average' scenario, suggesting that a single death is likely to reflect several hundreds of cases. Results were qualitatively unchanged when incorporating heterogeneity in the model using recent estimates (13), but prediction intervals were wider (Supplementary Material).",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 268,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 549,
+                    "end": 557,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 659,
+                    "end": 668,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "How many cases for a single death?"
+        },
+        {
+            "text": "Several limitations need to be considered when applying our method. First, our approach only applies to the deaths of patients who have become symptomatic in the location considered, which should usually be the case in places where traveller screening is in place. We also assume constant transmissibility (R) over time, which implies that behaviour change and control measures have not taken place yet, and that there is no depletion of susceptible individuals. Consequently, our method should only be used in the early stages of a new epidemic, where these assumptions are reasonable. Similarly, the assumption that each death reflects independent, additive epidemic trajectories is most likely to hold true early on, when reported deaths are close in time (e.g. no more than a week apart). Used on deaths spanning longer time periods, our approach is likely to overestimate epidemic sizes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Contact tracing has been shown to be an efficient control measure when imported cases can be detected early on (14), in addition to permitting the estimation of key epidemiological parameters (11) . When the first cases reported in a new location are mostly deaths, however, our results suggest that the underlying size of the epidemic would make control via contact tracing extremely challenging. In such situations, efforts focusing on social distancing measures such as school closures and self-isolation may be more likely to mitigate epidemic spread.",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 196,
+                    "text": "(11)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033761 doi: medRxiv preprint . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Ribbons of different shades represent, from the lightest to the darkest, the 95%, 75%, 50% and 25% quantile intervals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033761 doi: medRxiv preprint ",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 137,
+                    "text": "10.20033761 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "WHO | Novel Coronavirus -China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "Coronavirus disease 2019 (COVID-19). Situation Report",
+            "volume": "34",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Pneumonia of unknown cause--China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Organization",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Others",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Geneva: WHO",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The incubation period of 2019-nCoV from publicly reported confirmed cases: estimation and application. medRxiv",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Grantz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Meredith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Estimating underdetection of internationally imported COVID-19 cases. medRxiv [Internet",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Salazar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Niehus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Estimating the Case Fatality Risk of COVID-19 using Cases from Outside China. medRxiv",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kvalsvig",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Barnard",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/www.medrxiv.org/content/10.1101/2020.02.15.20023499v1.abstract"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "COVID-19 parameter estimates",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Midas-Network",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Linton",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Akhmetzhanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "S-M",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med Res",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/jcm9020538"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A simple approach to measure transmissibility and forecast incidence",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Nouvellet",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cori",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Garske",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Blake",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dorigatti",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hinsley",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Epidemics",
+            "volume": "22",
+            "issn": "",
+            "pages": "29--35",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The cost of insecurity: from flare-up to control of a major Ebola virus disease hotspot during the outbreak in the Democratic Republic of the Congo",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jombart",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Jarvis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mesfin",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tabal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mossoko",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mpia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Serial interval of novel coronavirus (2019-nCoV) infections. medRxiv [Internet",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Linton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Akhmetzhanov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "R: A Language and Environment for Statistical Computing",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "R Core Team",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Austria: R Foundation for Statistical Computing",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Pattern of early human-to-human transmission of Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Riou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Althaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.4.2000058"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Example of simulated epidemic trajectories from a single death. This figure shows results of 200 simulations using a CFR of 2% and R of 2 based on an hypothetical situation where a single death occurred on the 1st March 2020, represented by the red line.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "inferred number of cases for a single death. Inferred number of cases after detection of a single death under different values of the reproduction number, and case fatality ratio. We estimate the number of expected cases in the population at the day the death occurred, and present median, 50%, and 95% estimates of the quantile interval.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Inferred number of cases for several countries assuming CFR of 2% and R of 2. All values are presented for the 4th of March 2020 for different countries. We present the predicted case counts as their median, 50%, and 95% estimates of the quantile interval. * First suspected death due to within country transmission.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,1721 @@
+{
+    "paper_id": "0e38333bff68345492526fd39b70d1b18969cb83",
+    "metadata": {
+        "title": "Deep Learning-based Detection for COVID-19 from Chest CT using Weak Label",
+        "authors": [
+            {
+                "first": "Chuangsheng",
+                "middle": [],
+                "last": "Zheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430022",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xianbo",
+                "middle": [],
+                "last": "Deng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430022",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qiang",
+                "middle": [],
+                "last": "Fu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430022",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qiang",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430074",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jiapei",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430074",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hui",
+                "middle": [],
+                "last": "Ma",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430022",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wenyu",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430074",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xinggang",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430074",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": "xgwang@hust.edu.cn&w.liuliuwy@hust.edu.cn"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Accurate and rapid diagnosis of COVID-19 suspected cases plays a crucial role in timely quarantine and medical treatment. Developing a deep learning-based model for automatic COVID-19 detection on chest CT is helpful to counter the outbreak of SARS-CoV-2. A weakly-supervised deep learning-based software system was developed using 3D CT volumes to detect COVID-19. For each patient, the lung region was segmented using a pre-trained UNet; then the segmented 3D lung region was fed into a 3D deep neural network to predict the probability of COVID-19 infectious. 499 CT volumes collected from Dec. 13, 2019, to Jan. 23, 2020, were used for training and 131 CT volumes collected from Jan 24, 2020, to Feb 6, 2020, were used for testing. The deep learning algorithm obtained 0.959 ROC AUC and 0.976 PR AUC. There was an operating point with 0.907 sensitivity and 0.911 specificity in the ROC curve. When using a probability threshold of 0.5 to classify COVID-positive and COVID-negative, the algorithm obtained an accuracy of 0.901, a positive predictive value of 0.840 and a very high negative predictive value of 0.982. The algorithm took only 1.93 seconds to process a single patient's CT volume using a dedicated GPU. Our weaklysupervised deep learning model can accurately predict the COVID-19 infectious probability in chest CT volumes without the need for annotating the lesions for training. The easily-trained and highperformance deep learning algorithm provides a fast way to identify COVID-19 patients, which is beneficial to control the outbreak of SARS-CoV-2. The developed deep learning software is available at https://github.com/sydney0zq/covid-19-detection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "huge amount of efforts for radiologists, which is not acceptable when COVID-19 is spreading fastly and there are great shortages for radiologists. Thus, performing COVID-19 detection in a weakly-supervised manner is of great importance. One of the simplest labels for COVID-19 detection is the patient-level, i.e., indicating the patient is COVID-19 positive or negative. Therefore, aim of current study was to investigate the potential of a deep learning-based model for automatic COVID-19 detection on chest CT volumes using the weak patient-level label, for the sake of rapid diagnosis of COVID-19 at this critical situation to help to counter this outbreak, especially within Wuhan, Hubei province, China.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Patients This retrospective study was approved by Huazhong University of Science and Technology ethics committee, patient consent was waived due to the retrospective nature of this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and methods"
+        },
+        {
+            "text": "Between Dec. 13, 2019 to Feb. 6, 2020, we searched unenhanced chest CT scans of patients with suspected COVID-19 from the picture archiving and communication system (PACS) of radiology department (Union Hospital, Tongji Medical College, Huazhong University of Science and Technology). Finally, 540 patients (mean age, 42.5\u00b116.1 years; range, 3-81 years, male 226, female 314) were enrolled into this study, including 313 patients (mean age, 50.7\u00b114.7 years; range, 8-81 years; male 138, female 175) with clinical diagnosed COVID-19 (COVID-positive group) and 229 patients (mean age, 31.2\u00b110.0 years; range, 3-69 years; male 88, female 141) without COVID-19 (COVID-negative group). There was no significant difference in sex between the two groups (\u03c7 2 =1.744; P=0.187), age in COVIDpositive group significantly higher than that of COVID-negative group (t=17.09; P<0.001). The main clinical symptoms for these patients were fever, cough, fatigue, and diarrhea. Of all the patients, two were included by both groups due to the first and second follow-up CT scans. The first case (female, year 66) was diagnosed as COVID-19 negative on Jan 24, 2020, then changed into COVID-positive on Feb 6, 2020; the second case (female, year 23) was diagnosed as COVID-19 positive on Jan 24, 2020, then changed into COVID-negative on Feb 3, 2020. All the CT volumes scanned on and before Jan 23, 2020, were assigned for deep learning training, and all the CT volumes scanned after Jan 23, 2020, were assigned for deep learning testing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and methods"
+        },
+        {
+            "text": "The CT scanning of all the enrolled patients was performed on a gemstone CT scanner (GE Discovery CT750HD; GE Healthcare, Milwaukee, WI), and were positioned in a headfirst supine position, with their bilateral arms raised and placed beside bilateral ears. All the patients underwent CT scans during the end-inspiration without the administration of contrast material. Related parameters for chest CT scanning were listed as follows: field of view (FOV), 36 cm; tube voltage, 100 kV; tube current, 350 mA; noise index, 13; helical mode; section thickness, 5 mm; slice interval, 5 mm; pitch, 1.375; collimation 64\u00d70.625 mm; gantry rotation speed, 0.7 s; matrix, 512\u00d7512; the reconstruction slice thickness 1 mm with an interval of 0.8 mm; scan rage from apex to lung base; the mediastinal window: window width of 200 HU with a window level of 35 HU, and the lung window: window width of 1500 HU with a window level of -700 HU.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Image Acquisition"
+        },
+        {
+            "text": "Ground-truth Label In the latest diagnosis and treatment protocols of pneumonia caused by a novel coronavirus (trial version 5) [18] which was released by National Health Commission of the People's Republic of China on Feb 4, 2020, suspected cases with characteristic radiological manifestations of 3 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 132,
+                    "text": "[18]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Image Acquisition"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Image Acquisition"
+        },
+        {
+            "text": "COVID-19 has been regarded as current standard for clinical diagnostic cases in severely affected areas only in Hubei Province, indicating that chest CT is fundamental for COVID-19 identification of clinically diagnosed cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Image Acquisition"
+        },
+        {
+            "text": "Typical CT findings for COVID-19 are also listed: multifocal small patchy shadowing and interstitial abnormalities in the early stage, especially for the peripheral area of the bilateral lungs. In the progressive period, the lesions could increase in range and in number; it could develop into multiple ground glass opacity (GGO) with further infiltration into the bilateral lungs. In severe cases, pulmonary diffuse consolidation may occur and pleural effusion is rarely shown.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Image Acquisition"
+        },
+        {
+            "text": "The combination of epidemiologic features (travel or contact history), clinical signs and symptoms, chest CT, laboratory findings and real-time RT-PCR (if available) for SARS-CoV-2 nucleic acid testing is used for the final identification of COVID-19. The medical CT reports were acquired via the electronic medical record of Union Hospital, Tongji Medical College, Huazhong University of Science and Technology. According to the CT reports, if a CT scan was COVID-positive, its ground-truth label was 1; otherwise, the label was 0. Figure 1 : Architecture of the proposed DeCoVNet. The network took a CT volume with its 3D lung mask as input and directly output the probabilities of COVID-positive and COVID-negative.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 533,
+                    "end": 541,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Image Acquisition"
+        },
+        {
+            "text": "The Proposed DeCoVNet We proposed a 3D deep convolutional neural Network to Detect COVID-19 (DeCoVNet) from CT volumes. As shown in Fig. 1 , DeCoVNet took a CT volume and its 3D lung mask as input. The 3D lung mask was generated by a pre-trained UNet [19] . DeCoVNet was divided into three stages for a clear illustration in Table. 1. The first stage was the network stem, which consisted of a vanilla 3D convolution with a kernel size of 5 \u00d7 7 \u00d7 7, a batchnorm layer and a pooling layer. The second stage was composed of two 3D residual blocks (ResBlocks). In each ResBlock, a 3D feature map was passed into both a 3D convolution with a batchnorm layer and a shortcut connection containing a 3D convolution that was omitted in Fig. 1 for dimension alignment. The resulted feature maps were added in an element-wise manner. The third stage was a progressive classifier (ProClf), which mainly contained three 3D convolution layers and a fully-connected (FC) layer with the softmax activation function. ProClf progressively abstracts the information in the CT volumes by 3D max-pooling and finally directly output the probabilities of being COVID-positive and COVID-negative. The 3D lung mask of an input chest CT volume helped to reduce background information and better detect COVID-19. Detecting the 3D lung mask was a well-studied issue. In this study, we trained a simple 2D UNet using the CT images in our training set. To obtain the ground-truth lung masks, we 4 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 251,
+                    "end": 255,
+                    "text": "[19]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 132,
+                    "end": 138,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 325,
+                    "end": 331,
+                    "text": "Table.",
+                    "ref_id": null
+                },
+                {
+                    "start": 728,
+                    "end": 734,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Image Acquisition"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . Table 1 : Detailed structure of the proposed DeCovNet. The number after the symbol \"@\", e.g., 5\u00d77\u00d77, denotes the kernel size of the convolution layer or the residual block. \"&\" means that there are two types of kernel size in the residual block. \"T\" denotes the length of the input CT volume. The number in \"Output size\" is in the order of \"channel, length, height, width\". The input size is 2 \u00d7 T \u00d7 192 \u00d7 288. segmented the lung regions using an unsupervised learning method [20] , removed the failure cases manually, and the rest segmentation results were taken as ground-truth masks. The 3D lung mask of each CT volume was obtained by testing the trained 2D UNet frame-by-frame without using any temporal information. The overall training and testing procedures of UNet and DeCoVNet for COVID-19 detection were illustrated in Fig. 2 .",
+            "cite_spans": [
+                {
+                    "start": 554,
+                    "end": 558,
+                    "text": "[20]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 78,
+                    "end": 85,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 907,
+                    "end": 913,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Image Acquisition"
+        },
+        {
+            "text": "Preprocessing of 2D UNet All the CT volumes were preprocessed in a unified manner before training the 2D UNet for lung segmentation. First, the unit of measurement was converted to the Hounsfield Unit (HU) and the value was linearly normalized from 16-bit to 8-bit (i.e., 0-255) after determining the threshold of a HU window (e.g., -1 200-600 HU). After that, all the CT volumes were resampled into a same spatial resolution (e.g., 368\u00d7368), by which the CT volumes could be aligned without the influence of the cylindrical scanning bounds of CT scanners. This step was applied to the obtained ground-truth lung masks as well.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Preprocessing and Data Augmentation"
+        },
+        {
+            "text": "Preprocessing of DeCoVNet For each CT volume, the lung masks produced by the trained UNet formed a mask volume, then the CT volume was concatenated with the mask volume to obtain a CT-Mask volume. Finally, the CT-Mask volume was resampled into a fixed spatial resolution (e.g., 224\u00d7336) without changing the number of slices for DeCoVNet training and testing. The number of slices in the whole dataset was 141\u00b116 ranging from 73 to 250.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Preprocessing and Data Augmentation"
+        },
+        {
+            "text": "Data Augmentation To avoid the overfitting problem since the number of training CT volumes was limited, online data augmentation strategies were applied including random affine transformation and color jittering. The affine transformation was composed of rotation (0 \u2022 \u00b110 \u2022 ), horizontal and vertical 5 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Preprocessing and Data Augmentation"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint translations (0%\u00b110%), scaling (0%\u00b120%) and shearing in the width dimension (0 \u2022 \u00b110 \u2022 ). The color jittering adjusted brightness (0%\u00b150%) and contrast (0%\u00b130%). For each training sample, the parameters were randomly generated and the augmentation was identically applied for each slice in the sampled CT volume.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Preprocessing and Data Augmentation"
+        },
+        {
+            "text": "Training and Testing Procedures The DeCoVNet software was developed based on the PyTorch framework [21] . Our proposed DeCoVNet was trained in an end-to-end manner, which meant that the CT volumes were provided as input and only the final output was supervised without any manual intervention. The network was trained for 100 epochs using Adam optimizer [22] with a constant learning rate of 1e-5. Because the length of CT volume of each patient was not fixed, the batch size was set to 1. The binary cross-entropy loss function was used to calculate the loss between predictions and ground-truth labels.",
+            "cite_spans": [
+                {
+                    "start": 99,
+                    "end": 103,
+                    "text": "[21]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 354,
+                    "end": 358,
+                    "text": "[22]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Preprocessing and Data Augmentation"
+        },
+        {
+            "text": "During the procedure of testing, data augmentation strategies were not applied. The trained DeCoV-Net took the preprocessed CT-Mask volume of each patient and output the COVID-positive probability as well as COVID-negative probability. Then the predicted probabilities of all patients and their corresponding ground-truth labels were collected for statistical analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Preprocessing and Data Augmentation"
+        },
+        {
+            "text": "The cohort for studying the COVID-19 detection contained 630 CT scans collected from Dec 13, 2019 to Feb 6, 2020. To simulate the process of applying the proposed DeCoVNet for clinical computeraided diagnosis (i.e., prospective clinical trials), we used the 499 CT scans collected from Dec 13, 2019 to Jan 23, 2020 for training and used the rest 131 CT volumes collected from Jan 24, 2020 to Feb. 06, 6 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Preprocessing and Data Augmentation"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20027185 doi: medRxiv preprint 2020 for testing. Of the training volumes, 15% were randomly selected for hyperparameter tuning during the training stage.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Preprocessing and Data Augmentation"
+        },
+        {
+            "text": "Statistical Analysis COVID-19 detection results were reported and analyzed using receiver operating characteristic (ROC) and precision-recall (PR) curves. The area under the ROC curve (ROC AUC) and the area under the precision-recall curve (PR AUC) were calculated. Besides, multiple operating points were chosen on the ROC curve, e.g., the points with approximately 0.95 sensitivity (high sensitivity point) and with approximately 0.95 specificity (high specificity point). ROC AUC, PR AUC, and some key operating points were used to assess the deep learning algorithm.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Preprocessing and Data Augmentation"
+        },
+        {
+            "text": "This was a retrospective case series study and no patients were involved in the study design, setting the research questions, or the outcome measures directly. No patients were asked to advise on interpretation or writing up of results. The software for COVID-19 detection with the pre-trained model as well as the results was available at https://github.com/sydney0zq/covid-19-detection, which will be made publicly available on the publication of this paper. Training DeCoVNet on the training set which consisted of 499 CT volumes took about 20 hours (11 hours for UNet and 9 hours for DeCoVNet) and testing a CT volume costed an average of 1.93 seconds (1.80 seconds for UNet and 0.13 seconds for DeCoVNet) on an NVIDIA Titan Xp GPU.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient and Public Involvement"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity. For every testing CT scan, we used the trained DeCoVNet to predict its probability of COVID-19. By comparing with their binary ground-truth labels, we plotted ROC and PR curves as shown in Fig. 3 and Fig. 4 respectively. In the ROC, we obtained a ROC AUC value of 0.959. When true positive rate (TPR, i.e., sensitivity) was approximately 0.95, our model obtained a true negative rate (TNR, i.e., specificity) of 0.786; when TNR was approximately 0.95, our model obtained a TPR of 0.880; there was another operating showed that our algorithm obtained both TPR and FPR larger than 0.9, i.e., sensitivity=0.907 and specificity=0.911. On the PR curve, our model obtained a PR AUC of 0.975.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 346,
+                    "end": 352,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 357,
+                    "end": 363,
+                    "text": "Fig. 4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "7"
+        },
+        {
+            "text": "When using the threshold of 0.5 to make COVID-19 detection prediction (i.e., if the probability of COVID-19 was larger than 0.5, the patient was classified as COVID-positive, and vice versa), the algorithm obtained an accuracy of 0.901 with a positive predictive value (PPV) of 0.840 and a negative predictive value (NPV) of 0.982. By varying the probability threshold, we obtained a series of COVID-19 detection accuracy, PPV and NPV in Table 2 . Our data showed that the COVID-19 prediction accuracy obtained by the DeCoVNet algorithm was higher than 0.9 when the threshold ranged from 0.2 to 0.5. At the threshold setting of 0.5, there were 12 false positive predictions in total and only one false positive prediction by the algorithm in our study, indicating that the algorithm to have a very high negative predictive value.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 438,
+                    "end": 445,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "7"
+        },
+        {
+            "text": "The accurate predictions (a true positive and a true negative) were presented in Fig. 5 (A-B) , and erroneous predictions in Fig. 5 (C-F) . In images corresponding to the true positive and the false negative, the lesions of COVID-19 were annotated by red arrows. As shown in Fig. 5 (C, D, E) , the false negative predictions were made by the algorithm, and Fig. 5 (F) showed the only false positive prediction, in which the respiratory artifact had been mistaken as a COVID-19 lesion by the DeCoVNet algorithm.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 81,
+                    "end": 93,
+                    "text": "Fig. 5 (A-B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 125,
+                    "end": 137,
+                    "text": "Fig. 5 (C-F)",
+                    "ref_id": null
+                },
+                {
+                    "start": 275,
+                    "end": 291,
+                    "text": "Fig. 5 (C, D, E)",
+                    "ref_id": null
+                },
+                {
+                    "start": 357,
+                    "end": 367,
+                    "text": "Fig. 5 (F)",
+                    "ref_id": null
+                }
+            ],
+            "section": "7"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "8"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . Figure 5 : Some accurate and erroneous predictions of the proposed DeCoVNet.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 78,
+                    "end": 86,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "8"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "9"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "9"
+        },
+        {
+            "text": "To our knowledge, this is the first study to perform weakly-supervised computer-aided COVID-19 detection with a large number of CT volumes from the frontline hospital at the present epidemic period. By designing an effective weakly-supervised deep learning-based algorithm and training it on CT volumes collected before Jan 23, 2020 with only patient-level labels, the testing results on 131 CT scans collected from Jan 24, 2020, to Feb 6, 2020, were very impressive, e.g., the PR AUC value was 0.975. On the ROC curve, the algorithm obtained sensitivity and specificity values larger than 0.9, which were both clinically applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The motivation of this study was to utilize AI to alleviate the problem of shortage of professional interpretations for CT images when the epidemic is still fast spreading. Though there were many effective applications of medical AI in previous studies [13, 23] , developing AI for automatic COVID-19 detection was still a challenging task. Firstly, in the current emergency situation, the number of enrolled patients is relatively smaller compared with that used in previous studies [13, 23] ; and patients enrolled in our study were clinically diagnosed cases with COVID-19, because the majority of them did not undergo the nucleic acid testing due to the sudden outbreak and limited medical resource in such a short time period. Secondly, the lesions of COVID-19 in CT volumes were not labeled by radiologists and only patientlevel labels (i.e., COVID-positive or COVID-negative) were utilized for training the AI algorithm in our study. Thirdly, some small infected areas of COVID-19 have the potential to be missed even by professional radiologists, and whether it is feasible to be detected by deep learning-based 3D DCNN model remains unclear. We hypothesized to solve these problems by proposing a delicate 3D DCNN, i.e., DeCoVNet. It solved the first problem by applying extensive data augmentation on training CT volumes to obtain more training examples. The second problem was solved by regarding the COVID-19 detection problem as a weakly-supervised learning problem [24] , i.e., detecting COVID-19 without annotating the regions of COVID-19 lesions. In the designed DeCoVNet, we used the spatially global pooling layer and the temporally global pooling layer to technically handle the weakly-supervised COVID-19 detection problem. The third problem was addressed by taking the advantages of deep learning and utilizing a pre-trained UNet for providing the lung masks to guide the learning of DeCoVNet.",
+            "cite_spans": [
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "[13,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 258,
+                    "end": 261,
+                    "text": "23]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 484,
+                    "end": 488,
+                    "text": "[13,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 489,
+                    "end": 492,
+                    "text": "23]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1479,
+                    "end": 1483,
+                    "text": "[24]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The deep learning-based COVID-19 diagnostic algorithm used in our study is effective compared to recent deep learning-based computer-aided diagnosis methods. On the task of predicting the risk of lung cancer [13] , the deep learning model was trained on 42290 CT cases from 14851 patients and obtained 0.944 ROC AUC. On the task of critical findings from head CT [23] , the deep learning model was trained on 310055 head CT scans and obtained ROC AUC of 0.920. In our study, only 499 scans were used for training, but the obtained ROC AUC was 0.959. By comparing the data between them, it was able to find that the task of COVID-19 detection may be easier and the proposed deep learning algorithm was very powerful. As for the erroneous 12 false negative predictions in our results, the most possible explanations after we rechecked the original CT images were listed as follows: those lesions were slightly increased in CT densities, and images of those ground-glass opacities were very faint without consolidation.",
+            "cite_spans": [
+                {
+                    "start": 208,
+                    "end": 212,
+                    "text": "[13]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "[23]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study provided a typical and successful solution for developing medical AI for emerging diseases, such as COVID-19. While we were developing this AI, doctors in Wuhan were still extremely busy with treating a huge number of COVID-19 patients and it may be impossible for them to annotate the lesions in CT volumes in the current austere fight against this epidemic. Thanks to the weaklysupervised algorithm in this study, locations of pulmonary lesions in CT volumes are not necessary to be annotated, and radiologists' annotating efforts can be minimized, i.e., only providing patient-level labels. Therefore, developing a helpful AI tool swiftly has become possible and available in the clinical application. In the future, the burden of AI experts could be lifted significantly by automatic machine learning (AutoML) [25] .",
+            "cite_spans": [
+                {
+                    "start": 824,
+                    "end": 828,
+                    "text": "[25]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Limitations of this study There are still several limitations in this study. First, network design and training may be further improved. For example, the UNet model for lung segmentation did not utilize temporal information and it was trained using imperfect ground-truth masks, which could be improved by using 3D segmentation networks and adopting precise ground-truth annotated by experts. Second, the data used in this study came from a single hospital and cross-center validations were not performed. Third, when diagnosing COVID-19, the algorithm worked in a black-box manner, since the algorithm was based on deep learning and its explainability was still at an early stage. Related work of all limitations mentioned above will be addressed in our further studies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, without the need for annotating the COVID-19 lesions in CT volumes for training, our weakly-supervised deep learning algorithm obtained strong COVID-19 detection performance. Therefore, our algorithm has great potential to be applied in clinical application for accurate and rapid COVID-19 diagnosis, which is of great help for the frontline medical staff and is also vital to control this epidemic worldwide.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in wuhan, china. The Lancet",
+            "authors": [
+                {
+                    "first": "Chaolin",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yeming",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xingwang",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lili",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jianping",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yi",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Li",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Guohui",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiuyang",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiaoying",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Outbreak of pneumonia of unknown etiology in wuhan china: the mystery and the miracle",
+            "authors": [
+                {
+                    "first": "Hongzhou",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Charles",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yi-Wei",
+                    "middle": [],
+                    "last": "Stratton",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Journal of Medical Virology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in wuhan, china: a descriptive study",
+            "authors": [
+                {
+                    "first": "Nanshan",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Min",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xuan",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jieming",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fengyun",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jingli",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ying",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yuan",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "International committee on taxonomy of viruses (ictv) website",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Early transmission dynamics in wuhan, china, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Qun",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xuhua",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Peng",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiaoye",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lei",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yeqing",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ruiqi",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Eric",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jessica",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-ncov outbreak originating in wuhan, china: a modelling study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Joseph",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kathy",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gabriel M",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "National health commission of the people's republic of china website",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Clinical characteristics of 2019 novel coronavirus infection in china",
+            "authors": [
+                {
+                    "first": "Zheng-Yi",
+                    "middle": [],
+                    "last": "Wei-Jie Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yu",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wen-Hua",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chun-Quan",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jian-Xing",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lei",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hong",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chun-Liang",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "David",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Ct imaging of the 2019 novel coronavirus (2019-ncov) pneumonia",
+            "authors": [
+                {
+                    "first": "Junqiang",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Junfeng",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xun",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiaolong",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Emerging coronavirus 2019-ncov pneumonia",
+            "authors": [
+                {
+                    "first": "Fengxiang",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nannan",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fei",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhiyong",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jie",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hongzhou",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yun",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yebin",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yuxin",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Ct imaging features of 2019 novel coronavirus",
+            "authors": [
+                {
+                    "first": "Michael",
+                    "middle": [],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adam",
+                    "middle": [],
+                    "last": "Bernheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xueyan",
+                    "middle": [],
+                    "last": "Mei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ning",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mingqian",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xianjian",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiufa",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wenjian",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zahi",
+                    "middle": [],
+                    "last": "Fayad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography",
+            "authors": [
+                {
+                    "first": "Diego",
+                    "middle": [],
+                    "last": "Ardila",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Atilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sujeeth",
+                    "middle": [],
+                    "last": "Kiraly",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bokyung",
+                    "middle": [],
+                    "last": "Bharadwaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "Joshua",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lily",
+                    "middle": [],
+                    "last": "Reicher",
+                    "suffix": ""
+                },
+                {
+                    "first": "Daniel",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mozziyar",
+                    "middle": [],
+                    "last": "Tse",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wenxing",
+                    "middle": [],
+                    "last": "Etemadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Greg",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Corrado",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature medicine",
+            "volume": "25",
+            "issn": "6",
+            "pages": "954--961",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Overview of deep learning in medical imaging",
+            "authors": [
+                {
+                    "first": "Kenji",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Radiological physics and technology",
+            "volume": "10",
+            "issn": "3",
+            "pages": "257--273",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Classification and mutation prediction from non-small cell lung cancer histopathology images using deep learning",
+            "authors": [
+                {
+                    "first": "Nicolas",
+                    "middle": [],
+                    "last": "Coudray",
+                    "suffix": ""
+                },
+                {
+                    "first": "Paolo",
+                    "middle": [
+                        "Santiago"
+                    ],
+                    "last": "Ocampo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Theodore",
+                    "middle": [],
+                    "last": "Sakellaropoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "Navneet",
+                    "middle": [],
+                    "last": "Narula",
+                    "suffix": ""
+                },
+                {
+                    "first": "Matija",
+                    "middle": [],
+                    "last": "Snuderl",
+                    "suffix": ""
+                },
+                {
+                    "first": "David",
+                    "middle": [],
+                    "last": "Feny\u00f6",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Andre",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Moreira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Narges Razavian, and Aristotelis Tsirigos",
+            "volume": "24",
+            "issn": "",
+            "pages": "1559--1567",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Delving deep into rectifiers: Surpassing human-level performance on imagenet classification",
+            "authors": [
+                {
+                    "first": "Kaiming",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiangyu",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shaoqing",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jian",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proceedings of the IEEE international conference on computer vision",
+            "volume": "",
+            "issn": "",
+            "pages": "1026--1034",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Dermatologist-level classification of skin cancer with deep neural networks",
+            "authors": [
+                {
+                    "first": "Andre",
+                    "middle": [],
+                    "last": "Esteva",
+                    "suffix": ""
+                },
+                {
+                    "first": "Brett",
+                    "middle": [],
+                    "last": "Kuprel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Roberto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Justin",
+                    "middle": [],
+                    "last": "Novoa",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Susan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Helen",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Swetter",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sebastian",
+                    "middle": [],
+                    "last": "Blau",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Thrun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature",
+            "volume": "542",
+            "issn": "7639",
+            "pages": "115--118",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "National health commission of the people's republic of china website -diagnosis and treatment protocols of pneumonia caused by a novel coronavirus",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "U-net: Convolutional networks for biomedical image segmentation",
+            "authors": [
+                {
+                    "first": "Olaf",
+                    "middle": [],
+                    "last": "Ronneberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "Philipp",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Thomas",
+                    "middle": [],
+                    "last": "Brox",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "International Conference on Medical image computing and computerassisted intervention",
+            "volume": "",
+            "issn": "",
+            "pages": "234--241",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Evaluate the malignancy of pulmonary nodules using the 3-d deep leaky noisy-or network",
+            "authors": [
+                {
+                    "first": "Fangzhou",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ming",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhe",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiaolin",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sen",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "IEEE transactions on neural networks and learning systems",
+            "volume": "30",
+            "issn": "",
+            "pages": "3484--3495",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Pytorch: An imperative style, highperformance deep learning library",
+            "authors": [
+                {
+                    "first": "Adam",
+                    "middle": [],
+                    "last": "Paszke",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sam",
+                    "middle": [],
+                    "last": "Gross",
+                    "suffix": ""
+                },
+                {
+                    "first": "Francisco",
+                    "middle": [],
+                    "last": "Massa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adam",
+                    "middle": [],
+                    "last": "Lerer",
+                    "suffix": ""
+                },
+                {
+                    "first": "James",
+                    "middle": [],
+                    "last": "Bradbury",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gregory",
+                    "middle": [],
+                    "last": "Chanan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Trevor",
+                    "middle": [],
+                    "last": "Killeen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zeming",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Natalia",
+                    "middle": [],
+                    "last": "Gimelshein",
+                    "suffix": ""
+                },
+                {
+                    "first": "Luca",
+                    "middle": [],
+                    "last": "Antiga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Advances in Neural Information Processing Systems",
+            "volume": "",
+            "issn": "",
+            "pages": "8024--8035",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Adam: A method for stochastic optimization",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Diederik",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jimmy",
+                    "middle": [],
+                    "last": "Kingma",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ba",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1412.6980"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Deep learning algorithms for detection of critical findings in head ct scans: a retrospective study",
+            "authors": [
+                {
+                    "first": "Sasank",
+                    "middle": [],
+                    "last": "Chilamkurthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rohit",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Swetha",
+                    "middle": [],
+                    "last": "Tanamala",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mustafa",
+                    "middle": [],
+                    "last": "Biviji",
+                    "suffix": ""
+                },
+                {
+                    "first": "Norbert",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Campeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "Vasantha",
+                    "middle": [],
+                    "last": "Kumar Venugopal",
+                    "suffix": ""
+                },
+                {
+                    "first": "Vidur",
+                    "middle": [],
+                    "last": "Mahajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pooja",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Prashant",
+                    "middle": [],
+                    "last": "Warier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "The Lancet",
+            "volume": "392",
+            "issn": "",
+            "pages": "2388--2396",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "A brief introduction to weakly supervised learning",
+            "authors": [
+                {
+                    "first": "Zhi-Hua",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "National Science Review",
+            "volume": "5",
+            "issn": "1",
+            "pages": "44--53",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Auto-weka: Combined selection and hyperparameter optimization of classification algorithms",
+            "authors": [
+                {
+                    "first": "Chris",
+                    "middle": [],
+                    "last": "Thornton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Frank",
+                    "middle": [],
+                    "last": "Hutter",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Holger",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kevin",
+                    "middle": [],
+                    "last": "Hoos",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Leyton-Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining",
+            "volume": "",
+            "issn": "",
+            "pages": "847--855",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Training and testing procedures. A UNet for lung region segmentation was first trained on the labeled training set using the ground-truth lung masks generated by an unsupervised learning method. Then, all CT volumes were tested by the pre-trained UNet to obtain all lung masks. Each CT volume was concatenated with its lung mask volume as the input of DeCoVNet. DeCoVNet was trained under the supervision of clinical ground-truth labels (COVID-positive and COVID-negative). Lastly, the trained DeCoVNet made predictions on the testing set.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "COVID-19 detection results evaluated using the receiver operating characteristic curve.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "COVID-19 detection results evaluated using the precision-recall curve.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF3": {
+            "text": "COVID-19 detection statistics by varying the probability thresholds. (PPV: positive prediction value. NPV: negative prediction value.)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Contributors CZ, XD, QF and QZ contributed equally to this study and are considered as joint first authors. XW, CZ, XD, QZ, QF and LW conceived and designed the study. QZ, XW and JF developed the algorithms with the help of clinical input from CZ, XD and QF. CZ, XD and HM collected, anonymized, and prepared the data from Department of Radiology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, China. XD and QF contributed to the protocol of the study. XW and QF did the statistical analysis. XW, QF and QZ wrote the initial draft. All authors subsequently critically edited the report. All authors read and approved the final report. CZ, XD, QF, HM, QZ and XW had full access to all data in the study. CZ, XD, LW and XW had final responsibility for the decision to submit for publication.Funding This study was in part funded by National Natural Science Foundation of China (NSFC) (No. 61876212 and No. 61733007). The funder had no role in study design, data collection, data analysis, data interpretation, or writing of the report.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

@@ -1,0 +1,2317 @@
+{
+    "paper_id": "fa15a1608185e44b0bf4e66354533e1a05316535",
+    "metadata": {
+        "title": "Accurate Identification of SARS-CoV-2 from Viral Genome Sequences using Deep Learning",
+        "authors": [
+            {
+                "first": "Alejandro",
+                "middle": [],
+                "last": "Lopez-Rincon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "addrLine": "Universiteitsweg 99",
+                        "postCode": "3584 CG",
+                        "settlement": "Utrecht",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alberto",
+                "middle": [],
+                "last": "Tonda",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UMR 518",
+                    "institution": "MIA-Paris",
+                    "location": {
+                        "addrLine": "113 rue Nationale",
+                        "postCode": "75103",
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lucero",
+                "middle": [],
+                "last": "Mendoza-Maldonado",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad de Guadalajara",
+                    "location": {
+                        "addrLine": "Sierra Mojada No. 950, Col. Independencia",
+                        "postCode": "C.P. 44348",
+                        "settlement": "Guadalajara, Jalisco",
+                        "country": "Mexico"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Eric",
+                "middle": [],
+                "last": "Claassen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Vrije Universiteit",
+                    "location": {
+                        "addrLine": "De Boelelaan 1085",
+                        "postCode": "1081 HV",
+                        "settlement": "Amsterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Johan",
+                "middle": [],
+                "last": "Garssen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "addrLine": "Universiteitsweg 99",
+                        "postCode": "3584 CG",
+                        "settlement": "Utrecht",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Aletta",
+                "middle": [
+                    "D"
+                ],
+                "last": "Kraneveld",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "addrLine": "Universiteitsweg 99",
+                        "postCode": "3584 CG",
+                        "settlement": "Utrecht",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "One of the reasons for the fast spread of SARS-CoV-2 is the lack of accuracy in detection tools in the clinical field. Molecular techniques, such as quantitative real-time RT-PCR and nucleic acid sequencing methods, are widely used to identify pathogens. For this particular virus, however, they have an overall unsatisfying detection rate, due to its relatively recent emergence and still not completely understood features. In addition, SARS-CoV-2 is remarkably similar to other Coronaviruses, and it can present with other respiratory infections, making identification even harder. To tackle this issue, we propose an assisted detection test, combining molecular testing with deep learning. The proposed approach employs a state-of-the-art deep convolutional neural network, able to automatically create features starting from the genome sequence of the virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Experiments on data from the Novel Coronavirus Resource (2019nCoVR) show that the proposed approach is able to correctly classify SARS-CoV-2, distinguishing it from other coronavirus strains, such as MERS-CoV, HCoV-NL63, HCoV-OC43, HCoV-229E, HCoV-HKU1, and SARS-CoV regardless of missing information and errors in sequencing (noise). From a dataset of 553 complete genome non-repeated sequences that vary from 1,260 to 31,029 bps in length, the proposed approach classifies the different coronaviruses with an average ac-: bioRxiv preprint curacy of 98.75% in a 10-fold cross-validation, identifying SARS-CoV-2 with an AUC of 98%, specificity of 0.9939 and sensitivity of 1.00 in a binary classification. Then, using the same basis, we classify SARS-CoV-2 from 384 complete viral genome sequences with human host, that contain the gene ORF1ab from the NCBI with a 10-fold accuracy of 98.17% , a specificity of 0.9797 and sensitivity of 1.00. These preliminary results seem encouraging enough to identify deep learning as a promising research venue to develop assisted detection tests for SARS-CoV-2. At this end the interaction between viromics and deep learning, will hopefully help to solve global infection problems. In addition, we offer our code and processed data to be used for diagnostic purposes by medical doctors, virologists and scientists involved in solving the SARS-CoV-2 pandemic. As more data become available we will update our system.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The Coronaviridae family presents a positive sense, single-strand RNA genome.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This viruses have been identified in avian and mammal hosts, including humans.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Coronaviruses have genomes from 26.4 kilo base-pairs (kbps) to 31.7 kbps, with G + C contents varying from 32% to 43%, and human-infecting coronaviruses 5 include SARS-CoV, MERS-CoV, HCoV-OC43, HCoV-229E, HCoV-NL63 and HCoV-HKU1 [1] . In December 2019, SARS-CoV-2, a novel, human-infecting Coronavirus was identified in Wuhan, China, using Next Generation Sequencing [2] .",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 154,
+                    "text": "5",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 229,
+                    "end": 232,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 367,
+                    "end": 370,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "As a typical RNA virus, new mutations appears every replication cycle of 10 Coronavirus, and its average evolutionary rate is roughly 10-4 nucleotide substitutions per site each year [2] . In the specific case of SARS-CoV-2, RT-qPCR testing using primers in ORF1ab and N genes have been used to identified the infection in humans. However, this method presents a high false negative rate (FNR), with a detection rate of 30-50% [3, 4] . This low detection rate can be 15 2 . CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint explained by the variation of viral RNA sequences within virus species, and the viral load in different anatomic sites [5] . Population mutation frequency of site 8,872 located in ORF1ab gene and site 28,144 located in ORF8 gene gradually increased from 0 to 29% as the epidemic progressed [6] .",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 75,
+                    "text": "10",
+                    "ref_id": null
+                },
+                {
+                    "start": 183,
+                    "end": 186,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 427,
+                    "end": 430,
+                    "text": "[3,",
+                    "ref_id": null
+                },
+                {
+                    "start": 431,
+                    "end": 433,
+                    "text": "4]",
+                    "ref_id": null
+                },
+                {
+                    "start": 467,
+                    "end": 469,
+                    "text": "15",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 814,
+                    "end": 817,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 985,
+                    "end": 988,
+                    "text": "[6]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "As of March 6 th of 2020, the new SARS-CoV-2 has 98,192 confirmed cases 20 across 88 countries, with 17,481 cases outside of China [7] . In addition, SARS-CoV-2 has an estimated mortality rate of 3-4%, and it is spreading faster than SARS-CoV and MERS-CoV [8] . SARS-CoV-2 assays can yield false positives if they are not targeted specifically to SARS-CoV-2, as the virus is closely related to other Coronavirus organisms. In addition, SARS-CoV-2 may present 25 with other respiratory infections, which make it even more difficult to identify [9, 10] . Thus, it is fundamental to improve existing diagnostic tools to contain the spread. For example, diagnostic tools combining computed tomography (CT) scans with deep learning have been proposed, achieving an improved detection accuracy of 82.9% [11] . Another solution for identifying SARS-CoV-2 30 is additional sequencing of the viral complementary DNA (cDNA). We can use sequencing data with cDNA, resulting from the PCR of the original viral RNA; e,g, Real-Time PCR amplicons ( Fig. 1) to identify the SARS-CoV-2 [12]. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint Classification using viral sequencing techniques is mainly based on alignment methods such as FASTA [13] and BLAST [14] . These methods rely on the 35 assumption that DNA sequences share common features, and their order prevails among different sequences [15, 16] . However, these methods suffer from the necessity of needing base sequences for the detection [17] . Nevertheless, it is necessary to develop innovative improved diagnostic tools that target the genome to improve the identification of pathogenic variants, as sometimes several tests, 40 are needed to have an accurate diagnosis. As an alternative deep learning methods have been suggested for classification of DNA sequences, as these methods do not need pre-selected features to identify or classify DNA sequences. Deep",
+            "cite_spans": [
+                {
+                    "start": 72,
+                    "end": 74,
+                    "text": "20",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 131,
+                    "end": 134,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 256,
+                    "end": 259,
+                    "text": "[8]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 459,
+                    "end": 461,
+                    "text": "25",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 543,
+                    "end": 546,
+                    "text": "[9,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 547,
+                    "end": 550,
+                    "text": "10]",
+                    "ref_id": null
+                },
+                {
+                    "start": 797,
+                    "end": 801,
+                    "text": "[11]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 848,
+                    "end": 850,
+                    "text": "30",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1317,
+                    "end": 1321,
+                    "text": "[13]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1332,
+                    "end": 1336,
+                    "text": "[14]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1472,
+                    "end": 1476,
+                    "text": "[15,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1477,
+                    "end": 1480,
+                    "text": "16]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1576,
+                    "end": 1580,
+                    "text": "[17]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1034,
+                    "end": 1041,
+                    "text": "Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "Learning has been efficiently used for classification of DNA sequences, using one-hot label encoding and Convolution Neural Networks (CNN) [18, 19] , albeit In particular, for the case of viruses, Next Generation Sequencing (NGS) genomic samples might not be identified by BLAST, as there are no reference sequences valid for all genomes, as viruses have high mutation frequency [20] .",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 143,
+                    "text": "[18,",
+                    "ref_id": null
+                },
+                {
+                    "start": 144,
+                    "end": 147,
+                    "text": "19]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 379,
+                    "end": 383,
+                    "text": "[20]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Alternative solutions based on deep learning have been proposed to classify viruses, by dividing sequences into pieces of fixed lengths, from 300 bps [20] to 3,000 bps [21] . However, this approach has the negative effect of potentially ignoring part of the information contained in the input sequence, that is disregarded if it cannot completely fill a piece of fixed size.",
+            "cite_spans": [
+                {
+                    "start": 150,
+                    "end": 154,
+                    "text": "[20]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 168,
+                    "end": 172,
+                    "text": "[21]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "50"
+        },
+        {
+            "text": "Given the impact of the world-wide outbreak, international efforts have been made to simplify the access to viral genomic data and metadata through international repositories, such as; the 2019 Novel Coronavirus Resource (2019nCoVR) repository [6] and the National Center for Biotechnology Information (NCBI) [22] , expecting that the easiness to acquire information would make it possible to de-60 velop medical countermeasures to control the disease worldwide, as it happened in similar cases earlier [23, 24, 25] . Thus, taking advantage of the available information of international resources without any political and/or economic borders, we propose an innovative system based on viral gene sequencing. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint fixed length features and one-hot label encoding, in this work we propose the use of a different encoding to input the full sequence as a whole. In addition, we use as base input 31,029 as an input vector, which is the maximum length of available DNA sequences for Coronavirus. Finally, we propose a novel architecture for the deep network, inspired by successful applications in cancer detection starting 70 from miRNA [26] .",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 247,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 309,
+                    "end": 313,
+                    "text": "[22]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 503,
+                    "end": 507,
+                    "text": "[23,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 508,
+                    "end": 511,
+                    "text": "24,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 512,
+                    "end": 515,
+                    "text": "25]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1270,
+                    "end": 1274,
+                    "text": "[26]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "55"
+        },
+        {
+            "text": "SARS-CoV-2 identification can give wrong results, as the virus is difficult 75 to distinguish from other Coronaviruses, due to their genetic similarity. In addition, people with SARS-CoV-2 may present other infections besides the virus [9, 10] . Therefore, it is important to be able to properly classify SARS-CoV-2 from other Coronaviruses.",
+            "cite_spans": [
+                {
+                    "start": 236,
+                    "end": 239,
+                    "text": "[9,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 240,
+                    "end": 243,
+                    "text": "10]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Classification of Coronaviruses"
+        },
+        {
+            "text": "From the repository 2019 Novel Coronavirus Resource (2019nCoVR) [6] , we 80 downloaded all the available sequences with the query Nucleotide Complete-ness=\"complete\" AND host=\"homo sapiens\", for a total of 588 samples. Next, we removed all repeated sequences, resulting in 553 unique sequences of variable length (1,260-31,029 bps). The data was organized and labeled as summarized by Table 1 . We grouped HCoV-229E and HCoV-OC43 in the same class, as they 85 are mostly known as Coronaviruses responsible for the common cold [27] ; the two available samples of HCoV-4408 were also added to the same class, as it is a Betacoronavirus 1, as HCoV-OC43. In a similar fashion, we grouped HCoV- The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint Table 1 : Organism, assigned label, and number of samples in the unique sequences obtained from the repository [6] . We use the NCBI organism naming convention [30] . HCoV-OC43 2 140",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 67,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 526,
+                    "end": 530,
+                    "text": "[27]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 943,
+                    "end": 946,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 992,
+                    "end": 996,
+                    "text": "[30]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 385,
+                    "end": 392,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 832,
+                    "end": 839,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Classification of Coronaviruses"
+        },
+        {
+            "text": "HCoV-229E 2 22",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classification of Coronaviruses"
+        },
+        {
+            "text": "HCoV-4408 2 2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classification of Coronaviruses"
+        },
+        {
+            "text": "HCoV-NL63 3 58",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classification of Coronaviruses"
+        },
+        {
+            "text": "HCoV-HKU1 3 17",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classification of Coronaviruses"
+        },
+        {
+            "text": "To encode the cDNA data into an input tensor for the CNN, we assigned numeric values to the different bases; C=0.25, T=0.50, G=0.75, A=1.0 (see Fig. 2 ). All missing entries were assigned the value 0.0. This procedure is 95 different from previous methods, that relied upon one-hot encoding [21, 20] , and has the advantages of making the input more human-readable and do not multiply the amount of memory required to store the information. We divide the available samples in two parts, 90% for training and validation (80% training, 10% validation), and 10% for testing, in a 10-fold cross-validation scheme. k-100 fold cross-validation is a procedure by which available data is divided into k parts, called folds. At each iteration i, the i-th fold is used as a test set, while all the other folds are used as training. At the end of the k-th iteration, the average performance of the model in test over all folds provides a good estimate of the generality of the results. In this particular case, we use stratified folds, 105 that preserve the same proportion of classes in every fold. The procedure is summarized by Fig. 3. ",
+            "cite_spans": [
+                {
+                    "start": 291,
+                    "end": 295,
+                    "text": "[21,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 296,
+                    "end": 299,
+                    "text": "20]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 150,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1120,
+                    "end": 1127,
+                    "text": "Fig. 3.",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Classification of Coronaviruses"
+        },
+        {
+            "text": "Two thirds of the Coronaviruses' genome contain the ORF1ab gene [1] .",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 67,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Separating SARS-CoV-2 from other viruses containing gene ORF1ab"
+        },
+        {
+            "text": "Therefore, it is important that we are able to differentiate SARS-CoV-2 from 110 similar viruses, like Astroviruses. From the NCBI repository [30] , we down-6 . CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint loaded the genome sequences corresponding to the following search: gene=\"ORF1ab\" AND host=\"homo sapiens\" AND \"complete genome\". This resulted in 402 sequences, distributed as described in Table 2 . For this data, we assigned SARS-CoV-2 label 0, and grouped the rest of the organisms together in label 1. Next, 115 we removed all the repeated sequences, obtaining a total of 384 unique sequences, with 45 samples belonging to SARS-CoV-2. The genomic data was translated to digits using the encoding previously described in Subsection 2.1.1. ",
+            "cite_spans": [
+                {
+                    "start": 142,
+                    "end": 146,
+                    "text": "[30]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 834,
+                    "end": 837,
+                    "text": "115",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 712,
+                    "end": 719,
+                    "text": "Table 2",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Separating SARS-CoV-2 from other viruses containing gene ORF1ab"
+        },
+        {
+            "text": "Label Number of Samples SARS-CoV-2 0 50",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Virus"
+        },
+        {
+            "text": "HCoV-OC43 1 105",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MERS-CoV 1 191"
+        },
+        {
+            "text": "HCoV-NL63 1 29",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MERS-CoV 1 191"
+        },
+        {
+            "text": "HCoV-HKU1 1 14",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MERS-CoV 1 191"
+        },
+        {
+            "text": "HCoV-4408 1 3",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MERS-CoV 1 191"
+        },
+        {
+            "text": "HCoV-229E 1 3",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MERS-CoV 1 191"
+        },
+        {
+            "text": "HAstV-VA1 1 2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MERS-CoV 1 191"
+        },
+        {
+            "text": "HAstV-BF34 1 2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MERS-CoV 1 191"
+        },
+        {
+            "text": "HAstV-SG 1 1 ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MERS-CoV 1 191"
+        },
+        {
+            "text": "The deep learning model used for the experiments is a CNN with 3 convolu-120 tional layers and one fully connected layer, as described in Fig. 4 . The input is a vector of 31,029 elements, which is the maximum size of the genome sequences in the dataset. Each convolutional layer is characterized by 3 hyperparameters, as shown in Fig. 5 . The architecture is summarized by hyper-parameters The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint with probability p d = 0.5 during training; moreover, a l2 regularization is applied to the cross-categorical entropy loss function, considering all weights in the convolutional layers, with \u03b2 = 10 \u22123 . The optimizer used for the weights is ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 138,
+                    "end": 144,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 331,
+                    "end": 337,
+                    "text": "Fig. 5",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "Convolutional Neural Network"
+        },
+        {
+            "text": "In the first test, we separated the SARS-CoV-2 from other sequences available at the repository 2019 Novel Coronavirus Resource (2019nCoVR) [6] . We obtained a 10-fold average test accuracy of \u00b5 = 0.9875 with \u03c3 = 0.0160. The 140 resulting confusion matrix (Fig. 6) shows that only 3 out of the 66 SARS-CoV-2 sequences were mistakenly assigned to another class. The binarized curve of the test (Fig. 7) has an area under the curve (AUC) of 0.98, with a specificity of 1 http://github.org/albertotonda/deep-learning-coronavirus-genome 9 . CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint 0.9939 and sensitivity of 1.00. This is considered an outstanding performance, according to the guidelines provided by [33, 34] .",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 143,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 877,
+                    "end": 881,
+                    "text": "[33,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 882,
+                    "end": 885,
+                    "text": "34]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 256,
+                    "end": 264,
+                    "text": "(Fig. 6)",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 393,
+                    "end": 401,
+                    "text": "(Fig. 7)",
+                    "ref_id": "FIGREF14"
+                }
+            ],
+            "section": "Classification of SARS-CoV-2 among Coronaviruses"
+        },
+        {
+            "text": "As viruses are characterized by high mutation frequencies, to assess the robustness of our approach, we performed further experiments where we added noise to the dataset, simulating possible future mutations. 5% noise was added by randomly selecting 1,551 positions from each sequence, from the 31,029 available, and modifying each selected base to another, or to a missing value, ran- ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "145"
+        },
+        {
+            "text": "In a next batch of experiments, we aim to distinguish SARS-CoV-2 from other genome sequences from NCBI [30] , with the following search parameters:",
+            "cite_spans": [
+                {
+                    "start": 103,
+                    "end": 107,
+                    "text": "[30]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "155"
+        },
+        {
+            "text": "gene=\"ORF1ab\" AND host=\"homo sapiens\" AND \"complete genome\". We get a 10-fold average accuracy of \u00b5 = 0.9817 with a \u03c3 = 0.0167. The resulting confusion matrix (Fig. 6 ) shows that 7 out of the 45 SARS-CoV-2 sequences, 160 were classified in another class. The ROC curve of the test (Fig. 11) has an area 10 . CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint ",
+            "cite_spans": [
+                {
+                    "start": 218,
+                    "end": 221,
+                    "text": "160",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 159,
+                    "end": 166,
+                    "text": "(Fig. 6",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 282,
+                    "end": 291,
+                    "text": "(Fig. 11)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "155"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "11"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint 14 . CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "13"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "15"
+        },
+        {
+            "text": "Being able to reliably identify SARS-CoV-2 and distinguish it from other 165 similar pathogens is important to contain its spread. The time of processing samples and the availability of reliable diagnostic tests is a challenge during an outbreak. Developing innovative diagnostic tools that target the genome to improve the identification of pathogens, can help reduce health costs and time to identify the infection, instead of using unsuitable treatments or testing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Moreover, it is necessary to perform an accurate classification to identify the different species of Coronavirus, the genetic variants that could appear in the future, and the coinfections with other pathogens.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "170"
+        },
+        {
+            "text": "Following, the high transmissibility of the SARS-CoV-2, the proper diagnosis of the disease is urgent, to stop the virus from spreading further. Considering 175 the false negatives given by the standard nucleic acid detection, better implementations such as using deep learning are necessary in order to to properly detect the virus. While the accuracy of current nucleic acid testing is around 30-50%, and CT scans with deep learning go up at 83%, we believe that the use of a CNN-based system with sequencing has the potential to improve the 180 accuracy of the diagnosis above 90%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "170"
+        },
+        {
+            "text": "Our preliminary results using non-repeated sequences with differences in length from 1,260 to 31,029, missing information (segments with Ns) and noise (errors) do show an area under the curve of 98% in binary classification in a 10fold cross-validation. In order to further improve the proper classification within 185 the 7 existing coronavirus strains, more examples of full genome sequences with host=homo sapiens are needed, in order to make a full sub-type classification instead of grouping HCoV-229E/OC43 and HCoV-NL60/HKU1 as we were forced to do, due to the lack of samples. Thus, to further validate our results, we will increase, and accommodate the data as it becomes available in the international 190 repositories to further improve our system.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "170"
+        },
+        {
+            "text": "As of March 12th 2020, China and USA have made publicly available 50 SARS-CoV-2 virus gene sequences each. In Europe, however due to the strict 16 . CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint privacy laws, only 3 sequences; Italy, Sweden and Finland, one viral genome sequence each are available and this is of great concern. We urge to consider to 195 make more data publicly available, in order to increase the possibility to create counter-measures to the spread of the virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "170"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990242 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "17"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Coronavirus genomics and 200 bioinformatics analysis, viruses",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Woo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-Y",
+                    "middle": [],
+                    "last": "Yuen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "1804--1820",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--574",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Detection of 2019 novel coronavirus (2019-ncov) by real-time rt-pcr",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Landt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Molenkamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meijer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bleicker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Br\u00fcnink",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Molecular diagnosis of a novel coronavirus (2019-ncov) causing an outbreak of pneumonia",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clinical chemistry",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Next generation 215 sequencing of viral rna genomes",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Marston",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcelhinney",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Horton",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wise",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Leech",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "David",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "De Lamballerie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fooks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "BMC genomics",
+            "volume": "14",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "WHO report Coronavirus disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Organization",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.13.990242"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Combination of rt-qpcr testing and clinical features for diagnosis of covid-19 facilitates management of sars-225 cov-2 outbreak",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Medical Virology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Crispr-based surveillance for covid-19 using genomicallycomprehensive machine learning design",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Metsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Freije",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.-S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Kosoko-Thoroddsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sabeti",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Myhrvold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Clinical diagnosis of 8274 samples with 2019-novel coronavirus in wuhan, medRxiv",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A deep learning algorithm using ct images to screen for corona virus disease",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The first case of 2019 novel coronavirus pneumonia imported into korea from wuhan, china: implication for infection prevention and control measures",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Choe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Oh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Oh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Na",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-D",
+                    "middle": [],
+                    "last": "Oh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Korean Medical Science",
+            "volume": "35",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "] rapid and sensitive sequence comparison with fastp and 240 fasta",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pearson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Basic local alignment search tool",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Altschul",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Gish",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Myers",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lipman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Journal of molecular biology",
+            "volume": "215",
+            "issn": "3",
+            "pages": "403--410",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Applications of alignment-free methods in epigenomics",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pinello",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bosco",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.-C",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Briefings in Bioinformatics",
+            "volume": "15",
+            "issn": "3",
+            "pages": "419--430",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Alignment-free sequence comparison-a review",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Almeida",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Bioinformatics",
+            "volume": "19",
+            "issn": "4",
+            "pages": "513--523",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Phylogenetically diverse tt virus viremia among pregnant women",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bzhalava",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ekstr\u00f6m",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lysholm",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hultin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Faust",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Persson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lehtinen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.-M",
+                    "middle": [],
+                    "last": "De Villiers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dillner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Virology",
+            "volume": "432",
+            "issn": "2",
+            "pages": "427--434",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.13.990242"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Dna sequence classification by convolutional neural network",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Faisal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Abapihi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kubo",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Satou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of Biomedical Science and Engineering",
+            "volume": "9",
+            "issn": "05",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "A deep learning approach 255 to dna sequence classification",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rizzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fiannaca",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Urso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "International Meeting on Computational Intelligence Methods for Bioinformatics and Biostatistics",
+            "volume": "",
+            "issn": "",
+            "pages": "129--140",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Viraminer: Deep learning on raw dna sequences for identifying viral genomes in human samples",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tampuu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Bzhalava",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dillner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Vicente",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PloS",
+            "volume": "260",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Identifying viruses from metagenomic data by deep learning",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ahlgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fuhrman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1806.07810"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Smigiel-265 ski, K. Sirotkin, dbsnp: the ncbi database of genetic variation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Sherry",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-H",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kholodov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Phan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Nucleic acids research",
+            "volume": "29",
+            "issn": "1",
+            "pages": "308--311",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "How ownership rights over microorganisms affect infectious disease control and innovation: a root-cause analysis 270 of barriers to data sharing as experienced by key stakeholders",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D S"
+                    ],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Van Roode",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Haringhuizen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Koopmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Claassen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Van De Burgwal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PloS one",
+            "volume": "13",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Managing severe acute respiratory syndrome (sars) intellectual property rights: the possible role of patent pooling",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Simon",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Claassen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Correa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Bulletin of the World Health Organization",
+            "volume": "83",
+            "issn": "",
+            "pages": "707--710",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Threats to timely sharing of pathogen sequence data",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D S"
+                    ],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Koopmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Haringhuizen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Science",
+            "volume": "362",
+            "issn": "6413",
+            "pages": "404--406",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.13.990242"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Evolutionary optimization of convolutional neural networks for",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lopez-Rincon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tonda",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Elati",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Schwander",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Piwowarski",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gallinari",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "cer mirna biomarkers classification",
+            "authors": [],
+            "year": 2018,
+            "venue": "Applied Soft Computing",
+            "volume": "65",
+            "issn": "",
+            "pages": "91--100",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "An outbreak of coronavirus oc43 respiratory infection in normandy, france, Clinical infectious diseases",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vabret",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mourez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gouarin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Petitjean",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Freymuth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "36",
+            "issn": "",
+            "pages": "985--989",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Human coronaviruses hcov-nl63 and hcov-hku1 in hospitalized children with acute respiratory infections in beijing, china",
+            "authors": [
+                {
+                    "first": "L.-J",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.-J",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-D",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.-L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.-M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X.-J",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Advances in virology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "The complete genome sequence of severe acute respiratory syndrome coronavirus strain hku-39849 (hk-39)",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Experimental Biology and Medicine",
+            "volume": "228",
+            "issn": "7",
+            "pages": "866--873",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Genbank: the nucleotide sequence database, The NCBI Handbook",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mizrachi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Adam: A method for stochastic optimization",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kingma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ba",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1412.6980"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Measures of diagnostic accuracy: basic definitions",
+            "authors": [
+                {
+                    "first": "A.-M",
+                    "middle": [],
+                    "last": "\u0160imundi\u0107",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Ejifcc",
+            "volume": "19",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Receiver operating characteristic curve in diagnostic test assessment",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mandrekar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Journal of Thoracic Oncology",
+            "volume": "5",
+            "issn": "9",
+            "pages": "1315--1316",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.13.990242"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "PCR Amplicons sequencing procedure.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "45 the examples in literature are featuring DNA sequences of length up to 500 bps, only.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "NL63 and HCoV-HKU1, as they are both associated with acute respiratory infections (ARI)[28]. Finally, we grouped SARS-CoV/SARS-CoV-P2/SARS-90CoV HKU-39849[29]/SARS-CoV GDH-BJH01 organisms together,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Coding for the input sequences.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Scheme of a k-fold cross-validation. Available data is divided into k parts. At each iteration i, the i-th fold is used for testing, while all the others are used as a training set.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "= 130, w 1 = 204, w 2 = 150, w 3 = 196, h 0 = 148, h 2 = 236, h 2 = 81, wd 0 = 125 9, wd 1 = 106, wd 3 = 121 where w 3 is the number of units in the fully connected layer. To improve generality, the fully connected layer is set with a",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Moment Estimation (Adam) [31], with learning rate lr = 10 \u22125 , run for 500 epochs. The hyper-parameters used in the experiments were selected after a set of preliminary trials. All the necessary code was developed in Python 3, using the keras library for deep learning [32], and has been made available on an open GitHub repository 1 . CNN Architecture.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "CNN layer description.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "150 domly. A new 10-fold cross-validation classification run on the noisy dataset yields an average accuracy \u00b5 = 0.9674 with a \u03c3 = 0.0158. Figs. 8 and 9 show the resulting confusion matrix and ROC curve, respectively. This gives a AUC of 0.97, with a specificity of 0.9939 and sensitivity of 0.90.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Confusion matrix resulting from the test of a 10-fold cross-validation, comprising 553 samples belonging to 5 different classes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Binarized ROC curve of the 553 sequences, where we consider samples belonging to SARS-CoV-2 as class 0, and all the rest as class 1. under the curve (AUC) of 0.92 , with a specificity of 0.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Confusion matrix resulting from the test of a 10-fold cross-validation, comprising 553 samples belonging to 5 different classes, with a 5% noise in the dataset.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Binarized ROC curve of the 553 sequences, where we consider samples belonging to SARS-CoV-2 as class 0, and all the rest as class 1, with 5% added noise.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "Confussion Matrix of the 384 NCBI sequences with 2 classes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "ROC curve of the 384 sequences, where we consider SARS-CoV-2, as class 0 and the rest as 1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Organism, assigned label, and number of samples in the unique sequences obtained from the repository NCBI[30].",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

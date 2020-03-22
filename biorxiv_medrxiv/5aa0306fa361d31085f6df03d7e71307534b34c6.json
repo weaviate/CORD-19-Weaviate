@@ -1,0 +1,944 @@
+{
+    "paper_id": "5aa0306fa361d31085f6df03d7e71307534b34c6",
+    "metadata": {
+        "title": "Revealing the influence of national public health policies for the outbreak of the SARS-CoV-2 epidemic in Wuhan, China through status dynamic modeling",
+        "authors": [
+            {
+                "first": "Tianyi",
+                "middle": [],
+                "last": "Qiu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": "ty_qiu@126.com"
+            },
+            {
+                "first": "Han",
+                "middle": [],
+                "last": "Xiao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Aalto University",
+                    "location": {
+                        "settlement": "Espoo",
+                        "country": "Finland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2020",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The epidemic caused by SARS-CoV-2 was first reported in Wuhan, China, and now is spreading worldwide. The Chinese government responded to this epidemic with multiple public health policies including locking down the city of Wuhan, establishing multiple temporary hospitals, and prohibiting public gathering events. Here, we constructed a new real-time status dynamic model of SEIO (MH) to reveal the influence of national public health policies and to model the epidemic in Wuhan.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In December 2019, a pneumonia case caused by the new coronavirus SARS-CoV-2 was firstly reported in Wuhan, the capital city of Hubei Province, China 1 . The serious clinical symptoms of the viral infection including fever, dry cough, dyspnea, and pneumonia, may result in progressive respiratory failure and even death 2 . The disease which quickly spread to the rest of China and other continents, was currently been named as COVID-19 by the World Health Organization (WHO) 3, 4 . Till March 1 st , 2020, at least 79,971 confirmed cases and 2,873 death caused by SARS-CoV-2 were reported by the National Health Commission of China 5 .",
+            "cite_spans": [
+                {
+                    "start": 475,
+                    "end": 477,
+                    "text": "3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 478,
+                    "end": 479,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 632,
+                    "end": 633,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The epidemiological study of SARS-CoV-2 infected pneumonia provided evidence of human-to-human transmission 6, 7 . Subsequently, the Chinese government quickly responded to this epidemic with a series of public health policies. For example, Wuhan, the largest city in central China with over 9 million permanent residents, was blocked for both outside and internal transportation to contain the spread of the epidemic on Jan 23 rd , 2020 8 . Meanwhile, 31 provinces, cities and autonomous regions launched the level 1 public health response before Jan 30 rd , 2020 9 . Moreover, multiple converted hospitals including Huoshenshan hospital, Leishenshan hospital, and mobile cabin hospital were constructed or renovated to support the battle against the epidemic in Hubei, China 10 .",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 110,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 111,
+                    "end": 112,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 438,
+                    "end": 439,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 565,
+                    "end": 566,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Currently, several epidemic models were established for SARS-CoV-2 and the basic reproductive number R0 was estimated from 2 to 5 [11] [12] [13] [14] . The rapid transmission at the early stages might have been accelerated because of the out-break time is close to the Chinese Lunar New Year. The positive news is, besides Hubei province, the daily increase of new laboratory-confirmed patients in other regions of China has been declining since the peak on Feb 3 rd , 2020, 11 days after the lockdown of Wuhan and 4 days after level 1 public health response in other regions 15 . This further indicated that timely public health policies might significantly prevent the rapid spread of the epidemic.",
+            "cite_spans": [
+                {
+                    "start": 130,
+                    "end": 134,
+                    "text": "[11]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 135,
+                    "end": 139,
+                    "text": "[12]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 140,
+                    "end": 144,
+                    "text": "[13]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 145,
+                    "end": 149,
+                    "text": "[14]",
+                    "ref_id": null
+                },
+                {
+                    "start": 576,
+                    "end": 578,
+                    "text": "15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Here, we proposed a status dynamic Susceptible-Exposed-Infectious-Out of the system (with Medical care/maximum beds in Hospital) SEIO (MH) model, to reveal the influence of the national public health response for the SARS-CoV-2 epidemics outbreak in Wuhan, China. Different from the traditional Susceptible-Exposed-Infectious-Recovered (SEIR) continuous model 13 . SEIO(MH) model is a real-time discrete model with two more essential parameters: 1) the number of people with medical care (M), and 2) the currently available beds in hospitals. The local status dynamic SEIO (MH) model could simulate the population in each status at any date during the epidemic. Also, this model could simulate multiple national public health responses including: 1) lockdown of the traffic in one city, 2) the hospital bed shortage as well as the amelioration in the medical system when multiple converted hospitals are available, and 3) the temporary public gathering events.",
+            "cite_spans": [
+                {
+                    "start": 360,
+                    "end": 362,
+                    "text": "13",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "According to the simulation results, the first patient (patient zero) was more likely to appear on Nov. 29 th , 2019. From Nov. 29 th , 2019 to Jan. 23 th , 2020, the basic reproduction number \u0734 was estimated at 2.65 before the lockdown of Wuhan. Till Jan 22 th , 2020 before lockdown, the cumulative number of infections and exposures was 4,153 and 6,536, respectively. After the lockdown, the value of \u0734 decreased to 1.98 for the first 30 days. The peak point was simulated on Feb. 17 th , 2020 with 24,115 infected people and the endpoint would be near June 17 th , 2020. The total number of infected people in Wuhan was predicted to be 77,453. Moreover, we also simulated the infections under the three aforementioned public health responses. The construction of this model could not only study the SARS-CoV-2 epidemic outbreak in Wuhan, but also help design appropriate national public health policies for other countries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The increasing number of infected, cured and dead from Jan 27 th , 2020 to Feb 2 nd , 2020 were derived from the Health Commission of Hubei Province 16 . Migration index before the lockdown and after the lockdown was derived from BAIDU migration 17 . Beds in hospitals were derived from the news and reports from the Wuhan government 18 .",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 151,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 246,
+                    "end": 248,
+                    "text": "17",
+                    "ref_id": null
+                },
+                {
+                    "start": 334,
+                    "end": 336,
+                    "text": "18",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dataset"
+        },
+        {
+            "text": "The following variables denote the total number of people in each of the following statuses: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Notation of Parameters"
+        },
+        {
+            "text": "The parameters of the status dynamic SEIO (MH) model were fitted according to the daily reports of new infections in Wuhan from Jan 27 th to Feb 2 th , during which the daily new increase of people in status \u202b\u072b\u202c was monotonously increasing with time. The initial number of people in status \u202b\u072b\u202c and \u202b\u0727\u202c were simulated from 500 to 10,000, while parameter \u07d9 and \u07da were simulated from 10 -9 to 10 -11 , respectively. Also, the median time of people from status \u202b\u072f\u202c to status \u0731 and people from status \u202b\u072b\u202c to status \u0731 were simulated according to the increasing number of cured and dead from Jan 27 th to Feb 2 th . By minimizing the absolute error to the ground truth number in status \u202b\u072b\u202c , the statuses on Jan 27 th can be inferred.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model construction and status dynamic modeling of epidemic in Wuhan"
+        },
+        {
+            "text": "Based on the fitted parameters, the simulation showed that it would take 14 days for people to transfer from status \u202b\u072f\u202c to status \u0731 . For those out of the system before been hospitalized, it would take 28 days to transfer from status ) raised up to 8,509 on Jan 26 th . With the default parameters, the epidemic in Wuhan was described by local status dynamic SEIO (MH) modeling. Illustrated in Figure 2a , patient zero was inferred to appear on Nov. 29 th , 2019. From that day to Jan 23 th , 2020, when less intervention was applied to prevent the epidemic, the number of infected people increased exponentially. After Jan 23 th , the circulation intensity of people in Wuhan decreased sharply after the city lockdown 19 . However, the people infected with symptoms, exposed and in hospitalization were estimated to be 1,682, 6,536 and 2,471 respectively on Jan 22 nd , 2020 and increased to 1,999, 7,676 and 2,877 respectively on Jan 23 rd , 2020 (Figure 2b) , which was a large population with infected people and would lead to the outbreaks of the epidemic in the early period even after the lockdown.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 394,
+                    "end": 403,
+                    "text": "Figure 2a",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 949,
+                    "end": 960,
+                    "text": "(Figure 2b)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Model construction and status dynamic modeling of epidemic in Wuhan"
+        },
+        {
+            "text": "Notably, the hospital was full of people (>80% of the current \u202b\u072a\u202c ) in status \u202b\u072b\u202c from Jan 22 th , 2020 to Feb 10 th , 2020. After the increasing number of beds in hospitals at Date Jan 25 th , Jan 31 th , Feb 6 th , and Feb 10 th , the hospital was still full immediately, indicating the deficiency of medical resources in Wuhan at the early period ( Figure  2a ). After the large scale of mobile cabin hospitals, the shortage of beds in hospitals was improved. We expected that the peak point in Wuhan would be Feb 17 th , 2020 with 24,115 infected people, including 7,676 exposed, 1,999 infected with symptoms and 2,877 with medical care (Figure 2c) , and the epidemic would end on Jun. 17 th , 2020 with 77,453 infected people eventually, which was basically consistent with Yang's study 14 . The basic reproduction number \u0734 was estimated to be 2.65 and would drop to 1.98 after one month since the lockdown. This result suggested that the choice of lockdown date and the number of hospital beds would significantly affect the development of the epidemic. Also, it should be noticed that the time of the epidemic period is overlapped with the Chinese Lunar New Year, in which public gathering events are expected. Thus, 1) the date of lockdown, 2) the number of available hospital beds 3) the public gathering events, were considered in our simulation.",
+            "cite_spans": [
+                {
+                    "start": 792,
+                    "end": 794,
+                    "text": "14",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 352,
+                    "end": 362,
+                    "text": "Figure  2a",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 641,
+                    "end": 652,
+                    "text": "(Figure 2c)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Model construction and status dynamic modeling of epidemic in Wuhan"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model construction and status dynamic modeling of epidemic in Wuhan"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20032995 doi: medRxiv preprint dots located on the map of Wuhan represent the exposed, infected with symptoms and with medical care respectively. c) The epidemic situation at peak time, blue, red and green dots located on the map of Wuhan represent the exposed, infected with symptoms and with medical care respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model construction and status dynamic modeling of epidemic in Wuhan"
+        },
+        {
+            "text": "Impact of the lockdown of Wuhan. Here, we studied the effect of advancing or delaying the lockdown date by 1 to 7 days. Results indicated that, if Wuhan was blocked on Jan 16 th , the accumulated infectious would be 4,063 on Jan 22 th , which was slightly below 4,521 on the same date in current status. However, the exposed people on Jan 22 th were 2,427, only 37% of the simulated number (2,428/6,536) with the current lockdown date. Moreover, the peak time and endpoint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of different public health policies"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of different public health policies"
+        },
+        {
+            "text": "would be advanced by 10 days (Figure 3 ). The total number of infected people would be 21,508, 28% (21,508/77,453) of the current situation and even one-day advance would cause only 82% (63,226/77,453) infections at the end point (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 29,
+                    "end": 38,
+                    "text": "(Figure 3",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 230,
+                    "end": 239,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Impact of different public health policies"
+        },
+        {
+            "text": "On the contrary, if the lockdown was delayed by 1 to 7 days, the peak number would be dramatically increased. It could be found that, if the city was blocked 1 to 6 days later than Jan. 23 th , 2020, the total infected people would be 1.23 times (95,273), 1.47 times (114,105), 1.83 times (141,409) , 2.28 times (176,300), 2.90 times (222,384) and 4.94 times (382,695) than Jan. 23 th , 2020 (Supplementary Figure 1 & Table 1 ), which was also consistent with one previous study 14 . When the lockdown was 7 days later than the current choice, the first peak would arrive at Mar. 1 st , 2020 with 97,779 infected people and the second peak would reach 243,693 on Sept. 1 st , 2020. The number of total infected people would exceed 1.9 million and make the epidemic uncontrollable within the year 2020 (Figure 3b) .",
+            "cite_spans": [
+                {
+                    "start": 479,
+                    "end": 481,
+                    "text": "14",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 267,
+                    "end": 298,
+                    "text": "(114,105), 1.83 times (141,409)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 407,
+                    "end": 425,
+                    "text": "Figure 1 & Table 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 801,
+                    "end": 812,
+                    "text": "(Figure 3b)",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Impact of different public health policies"
+        },
+        {
+            "text": "Our simulation results showed that there was a shortage of hospital beds at the early stage of the epidemic, in which people in status \u202b\u072b\u202c would not be completely isolated and treated with medical care. In that case, we simulated the effect of hospital bed numbers by multiplying its value by factors from 0.5 to 3 times, for each time point compared with current situations. Results indicated that if the beds in hospitals were halved, the peak time and endpoint would be Feb. 26 th and Jul. 15 th , respectively. Moreover, 34,526 total infectious would be observed in the peak time, 1.43 times than the current situation, and 148,848 people would be infected eventually (Figure 3c ). If the beds in hospitals were 1.5, 2, 2,5 and 3 times compared to the current situation, the total infectious number would be 62,353, 56,031, 53,245 and 51,898, respectively (Supplementary Table 1 ). Typically, tripling the beds in hospitals would end the epidemic 9 days earlier than the current situation ( Figure 3d) . Different from the lockdown of the city, when beds in hospitals were 2 times of current situations at each time point, the effect of increasing beds in hospitals was no longer significant (Supplementary Figure 2) . In fact, when increasing the beds of hospitals by 3 times of the current situation, the total infectious at the endpoint would only decrease by 2.6% (1,347) than the 2.5-fold increase.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 672,
+                    "end": 682,
+                    "text": "(Figure 3c",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 875,
+                    "end": 882,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 995,
+                    "end": 1005,
+                    "text": "Figure 3d)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1211,
+                    "end": 1220,
+                    "text": "Figure 2)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Impact of hospital bed numbers."
+        },
+        {
+            "text": "Impact of public gathering events. Since the time of the epidemic was overlapped with the Chinese Spring Festival and winter holiday, people were gathering together for celebration during the epidemic time. Thus, public gathering events would frequently happen if no prevention policies were imposed. For example, Wuhan conducted the banquet for ten thousand families on Jan 18 th , 2020 20 , 5 days before the city lockdown. Here, we simulated the impact of public gathering events by increasing the transmission parameter \u03b1 from 5% to 25% in an individual day such as Jan 20 th , 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of hospital bed numbers."
+        },
+        {
+            "text": "Results showed that, if we increase \u03b1 by 5% in one single day such as Jan 20 th , the number of infections in peak time and end point will increase by 1,237 (5%) and 4,243(5%), respectively (Figure 3e ). If \u03b1 is increased by 25%, the number of people in peak time and endpoint will increase by 7,449 (31%) and 24,929 (32%), respectively (Figure 3f ). Other results were also illustrated in Supplementary Figure 3 &  Supplementary Table 2 . Thus, the public gathering events in one single day could . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 190,
+                    "end": 200,
+                    "text": "(Figure 3e",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 337,
+                    "end": 347,
+                    "text": "(Figure 3f",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 390,
+                    "end": 437,
+                    "text": "Supplementary Figure 3 &  Supplementary Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Impact of hospital bed numbers."
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of hospital bed numbers."
+        },
+        {
+            "text": "significantly impact the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of hospital bed numbers."
+        },
+        {
+            "text": "Generally, we believe the impact of locking down the city is more significant than the increasing number of beds in hospitals and public gathering events. The delay of city lockdown might easily make the epidemic out of control. Also, the public gathering events were inconducive for the prevention and control of the epidemic, since the slight increase of transmission parameter \u03b1 would significantly affect the total infectious numbers at the end point. The number of beds in hospitals was essential in the early period of the epidemic when infected people increased rapidly, after the peak point, the beds would be enough for the increasing number of infected people. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of hospital bed numbers."
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of hospital bed numbers."
+        },
+        {
+            "text": "Finally, we simulated the extreme situation that no intervention is performed. The circulation intensity in the same time period last year was derived from BAIDU migration data 17 to generated the \u03b1 and \u03b2 without any interventions. By setting the total number in human as 9 million 21 the results showed that the \u0734 would reach to 4.4 and over 7,697,484 people would be infected on Jun. 21 st , 2019 (Figure 4a ), which indicated that the epidemic was totally out of control without any intervention.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 399,
+                    "end": 409,
+                    "text": "(Figure 4a",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Simulation of no intervention and early time to release the Wuhan"
+        },
+        {
+            "text": "Another issue was about the early release of Wuhan. We experimented with the release time point of 150 days after the occurrence of patient zero, which is Apr. 27 th , 2020 (Figure 4b) . Results showed that, at that time the epidemic seemed to be under control with only 168 infected with symptoms and 2,912 with medical care on Apr. 27 th , 2020 ( Figure 4c ) and kept decreasing until Mar 9 th , 2020, in which the status number of infected with symptoms and 2,912 with medical care was 178 and 2,201 respectively. However, the number of exposed people increased from 863 on Apr. 27 th to 1,085 on Mar 9 th , 2020, with the epidemic rapidly rebounded. After 120 days of releasing the city, on Aug. 25 th , 2020, 11,203 exposed, 2,315 infected with symptoms and 20,516 with medical care were predicted (Figure 4d ). The beds in hospitals would not be enough again on Oct. 2 nd , 2020 with over 256,730 accumulated infections.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 173,
+                    "end": 184,
+                    "text": "(Figure 4b)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 349,
+                    "end": 358,
+                    "text": "Figure 4c",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 803,
+                    "end": 813,
+                    "text": "(Figure 4d",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Simulation of no intervention and early time to release the Wuhan"
+        },
+        {
+            "text": "Although the transmission parameter \u03b1 and \u03b2 would not be the same as those before the lockdown, they were both increased by 25% (compared to the values during lockdown) to simulate the early release of the city. The results indicated that it was still a great risk to release the city before the epidemic reached the end point, even though the situation seemed to be under control. Simulation results for release Wuhan on Apr. 27 th , 2020. c) The epidemic situation on Apr. 27 th , 2020, 150 days after the lockdown. Blue, red and green dots located on the map of Wuhan represent the exposed, infected with symptoms and with medical care respectively. d) The epidemic situation on Jun. 26 th , 2020, 60 days after the release of the city.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation of no intervention and early time to release the Wuhan"
+        },
+        {
+            "text": "Blue, red and green dots located on the map of Wuhan represent the exposed, infected with symptoms and with . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation of no intervention and early time to release the Wuhan"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20032995 doi: medRxiv preprint medical care respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation of no intervention and early time to release the Wuhan"
+        },
+        {
+            "text": "The epidemic of SARS-CoV-2 has spread to China and multiple continents, which will be developed into a worldwide epidemic. During the epidemic period, nowcasting and forecasting are crucial for public health planning and control domestically and internationally 12, 22 . Here, we constructed a real-time status dynamic SEIO (MH) model to estimate the local outbreaks. By adding the parameters of status M and H, this model could accurately forecast the epidemics when the medical system under unexpected pressure. Moreover, this model could simulate the influence of different public health policies such as 1) lockdown of the city and 2) construction of temporary hospitals, which could help design the appropriate public health policies for epidemic control. At present, besides Wuhan, the epidemic situation in China has been effectively contained within a short period of time. This is largely due to the rapid response of the Chinese governments at various levels and the decision to lock down Wuhan, which is the first time to block a city with over 9 million permanent residents in human history. The lockdown of Wuhan would not only prevent the transportation between Wuhan to other cities, but also decrease the circulation intensity of people within Wuhan. According to BAIDU migration data, the circulation index of Wuhan is 6 to 8 times lower than those before the lockdown. The number of newly confirmed cases increased rapidly after the lockdown may due to the fact that, there have been already 4,521 infected and 6,536 exposed without symptoms before lockdown. It is noted that only 444 confirmed cases were reported by the Health Commission of Hubei Province 16 . However, by facing an epidemic with the new pathogen, it is difficult to invent the diagnosis kit in such a short time. Thus, the diagnosis quantity might affect the early understanding of the epidemics and the lockdown decision at that time was decisive and timely. In fact, even one day delay of the lockdown would make 17,631 more infected people at the end point and a one-week delay would make the epidemic in Wuhan uncontrollable with over 1.9 million infectious.",
+            "cite_spans": [
+                {
+                    "start": 262,
+                    "end": 265,
+                    "text": "12,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 266,
+                    "end": 268,
+                    "text": "22",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Despite the advantage of epidemic control, the lockdown of Wuhan has significantly increased the pressure of local medical resources, including the rapidly growing demands for hospitalization, lack of medical staff such as doctors and nurses, and shortage of medical supplies. The simulation results illustrated the establishment of new temporary hospitals that could accommodate more patients could significantly help the control of the epidemic. In fact, if the beds in hospitals were three times more than the current situation, the total infectious would decrease by 33% at the end point. After the period of rapidly rising, beds in hospitals were not an essential parameter since the daily increase of infected people was less than the people out of the system. The lock of medical staff and the shortage of medical supplies increased the death rate in Wuhan, which was significantly higher than the rest of China. Based on this situation, multiple provinces sent medical teams and supplies to support Wuhan for epidemic control and treatment, which might help improve the curative ratio. Till Feb.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . 5 th , 2020, nearly 7,000 medical staff were sent to Wuhan by governments at all levels in China 23 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Another noteworthy point is the public gathering events. Since the epidemic is overlapped with the Chinese Lunar New Year, public gathering events such as banquet of one thousand families in Wuhan could promote the spread of the epidemic. By adding a small turbulence (5%) in transmission parameter \u03b1 on Jan 20 th , 2020, 4,194 more people would be infected at the end point, which indicated the public gathering events at the early period of the epidemic should be stopped. Thus, the Chinese government prohibited the public gathering events with policies such as close large public places, extend the winter holiday for both staff and students. It is noted that, Japan and Koran also organized public gathering activities such as marathons, sacrifices activities, and rally in early February, 2020, which would be inconducive to the prevention and control of the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The model forecasted that the peak time in Wuhan has been past and the epidemic in China is now under control. Currently, multiple countries including Koran, Japan, Iran, Italy, and the United States are in the outbreak stage 24 . As the first country facing the SARS-CoV-2 epidemic, the experience of China in fighting the epidemics might provide useful guidance for other countries. According to our modeling study, we believe that the most effective public health policies for SARS-CoV-2 epidemic prevention are provided as follows: 1) reduce the local circulation intensity of people, 2) prepare enough medical resources, especially available beds in hospitals, 3) try to prohibit large public gathering events. It is expected that this study might provide useful guidance for other countries in fighting against the epidemic of COVID-19 or other similar infectious diseases.",
+            "cite_spans": [
+                {
+                    "start": 226,
+                    "end": 228,
+                    "text": "24",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "TYQ collected the data and designed the model and experiment. HX formally defined the model and conducted the experiments. Both of them contributed to the writing of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contributors"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20032995 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "-nCoV) : situation reports 20. World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Reported cases of 2019-nCoV",
+            "authors": [
+                {
+                    "first": "Cnh",
+                    "middle": [],
+                    "last": "Committee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "507--520",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Wuhan Novel Coronavirus Pneumonia Infection Prevention and Control Command Centre Notice Number 2. Wuhan, China. Hubei Provincial Government",
+            "authors": [
+                {
+                    "first": "Wncpirc",
+                    "middle": [],
+                    "last": "Centre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "National Health Commission of the People's Republic of China. . 2020. 10. National Development and Reform Commission",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Epidemiological and clinical features of the 2019 novel coronavirus outbreak in China",
+            "authors": [
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "Yea",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Real-time Epidemic Forecasting: Challenges and Opportunities",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mug",
+                    "middle": [],
+                    "last": "Kraemer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhatia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Health Secur",
+            "volume": "17",
+            "issn": "4",
+            "pages": "268--75",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Modified SEIR and AI prediction of the epidemics trend of COVID-19 in China under public health interventions",
+            "authors": [],
+            "year": 2020,
+            "venue": "Journal of Thoracic Disease",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Health Commission of Hubei Province",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Outbreak analytics: a developing data science for informing the response to emerging pathogens",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Polonsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baidjoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kamvar",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Philos Trans R Soc Lond B Biol Sci",
+            "volume": "374",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Interactive map shows worldwide spread of coronavirus",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Eckart",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Definition of each status can be found in Supplementary Methods. In SEIO (MH) modeling, status parameters of fitted based on the increasing number of people in each status reported by Health Commission of Hubei Province 16 during Jan. 27 th , 2020 to Feb. 2 nd , 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Illustration of the status dynamic SEIO (MH) model. S, E, I, M and O represent the people in the status of susceptible, exposed, infected with symptoms, with medical care and out of the system. The number of M is limited by the current number of H, which is the beds in hospitals. The arrow indicates the direction of status transmission. \u03b1 and \u03b2 represent the infection coefficients that E imposes on S and I impose on S, respectively.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "transmission probability between two statuses.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "fitting on Jan 26 th , there were 3,998 symptomatic infections, 7,984 contacts, 3,815 hospitalizations and 696 out of the system (Cured or Dead) in Wuhan, in which the accumulative number of infected people (I M O",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Simulation of the epidemic of SARS-CoV-2 in Wuhan. a) The epidemic of SARS-CoV-2 in Wuhan from patient 0 to end point. b) The epidemic situation at the time point of Wuhan lockdown, blue, red and green",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Status dynamic modeling of the epidemic under different public health response. a) Simulation results of locking down Wuhan 7 days earlier. b) Simulation results of 7 days delay for lockdown. c) Simulation results of 50% of beds in hospitals. d) Simulation of 300% of the current number of hospital beds. e) Simulation results of increasing 5% of parameter \u03b1 on Jan 20 th , 2020. f) Simulation results of increasing 25% of parameters \u03b1 on Jan 20 th , 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Status dynamic modeling of the epidemic without any intervention and early time to release Wuhan. a) Simulation results under no intervention in Wuhan based on the migration level in Wuhan last year. b)",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "\u202b\u0727\u202c: Exposed (infected but without symptoms yet) \u202b\u0725\u202c as the size of the population in a local area being considered and as the size of initial infections (a small integer). Given any status such as",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Simulation results of Wuhan city lockdown with 1-7 days advance or delay Date for the Wuhan city lockdown. b R0 before the lockdown. c R0 for the first month after the lockdown. d Simulated end point, day/month/year. Number of infected people at end point. f Simulated peak time, day/month/year. g Simulated turning time, day/month/year.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,1555 @@
+{
+    "paper_id": "2ba7dfd6227e7f64d80204770ccbe140afa78117",
+    "metadata": {
+        "title": "RBD mutations from circulating SARS-CoV-2 strains enhance the structure stability and 1 infectivity of the spike protein 2 3",
+        "authors": [
+            {
+                "first": "Junxian",
+                "middle": [],
+                "last": "Ou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Tropical Disease Research",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2020",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhonghua",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Functional Protein Research of Guangdong Higher Education Institutes",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Jing",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Virology",
+                    "institution": "Jinan 12 University",
+                    "location": {
+                        "postCode": "510632",
+                        "settlement": "Guangzhou",
+                        "region": "Guangdong",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wendong",
+                "middle": [],
+                "last": "Lan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Tropical Disease Research",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Shan",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Tropical Disease Research",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Jianguo",
+                "middle": [],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Virology",
+                    "institution": "Jinan 12 University",
+                    "location": {
+                        "postCode": "510632",
+                        "settlement": "Guangzhou",
+                        "region": "Guangdong",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Donald",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Seto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "George Mason 14 University",
+                    "location": {
+                        "postCode": "20110",
+                        "settlement": "Manassas",
+                        "region": "VA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qiwei",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Tropical Disease Research",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "26 A novel zoonotic coronavirus SARS-CoV-2 is associated with the current global pandemic of 27 Coronavirus Disease 2019 (COVID-19). Bats and pangolins are suspected as the reservoir and the 28 intermediate host. The receptor binding domain (RBD) of the SARS-CoV-2 S protein plays the key 29",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "role in the tight binding to human ACE2 for viral entry. In this study, we analyzed the worldwide 30 RBD mutations and found 10 mutants under high positive selection pressure during the spread. The 31 equilibrium dissociation constant (K D ) of three RBD mutants emerging in Wuhan, Shenzhen, Hong 32",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Kong and France were two orders of magnitude lower than the prototype Wuhan-Hu-1 strain due to 33 the stabilization of the beta-sheet scaffold of the RBD. This indicated that the mutated viruses have 34 evolved to acquire remarkably increased infectivity. Five France isolates and one Hong Kong 35 isolate shared the same RBD mutation enhancing the binding affinity, which suggested that they 36 may have originated as a novel sub-lineage. The K D values for the bat and the pangolin SARS-like 37",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "CoV RBDs indicated that it would be difficult and unlikely for this bat SARS-like CoV to infect 38 humans; however, the pangolin CoV is potentially infectious to humans with respect to its RBD. 39",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "These analyses of critical mutations of the RBD provide further insights into the molecular 40 evolution of SARS-CoV-2, presumably while under selection pressure. This enhancement of the 41 SARS-CoV-2 binding affinity to its host receptor ACE2 reveals a higher risk of more severe 42",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "infections during a sustained pandemic of COVID-19 if no effective precautions are implemented. 43 44 1 . CC-BY-NC-ND 4.0 Keywords: SARS-CoV-2, ACE2, RBD, spike glycoprotein protein, mutations, infectivity, receptor 45 binding dynamics 46 47 Introduction 48 A novel coronavirus SARS-CoV-2 has caused the outbreaks of Coronavirus Disease 2019 49 (COVID-19) all over the world since the first appearance in mid-December 2019 in Wuhan, Central 50",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "China 1-4 . Up to March 11, 2020, SARS-CoV-2 has infected more than 120,000 people world-wide, 51",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "causing more than 4,600 deaths with the mortality rate of 3.69% 5 . 52 53",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The origin of SARS-CoV-2 remains elusive. However, the initial cases were largely associated with 54 the seafood market, which indicated this were potential zoonotic infections 2 . Although bats and 55",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "pangolins are most likely the reservoir hosts and the intermediate hosts in the wild, more evidences 56 are in need to support the zoonotic infections and track the origin of this new coronavirus 6-8 . 57 58",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The angiotensin-converting enzyme 2 (ACE2) has been proven to the cellular receptor of 59 SARS-CoV-2, which is the same receptor of SARS-CoV. The spike glycoprotein protein (S) of 60 SARS-CoV-2 recognizes and attaches ACE2 when the viruses infect the cells. S protein consists of 61 a receptor-binding subunit S1 and a membrane-fusion subunit S2. Previous studies revealed that the 62 S1 binds to a receptor on the host cell surface for viral attachment, and S2 fuses the host and viral 63 membranes, allowing viral genomes enter host cells 9-12 . 64 65",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The receptor binding domain (RBD) of the subunit S1 directly interact with ACE2 , while the other 66 part of the S protein do not. This RBD alone is sufficient for tight binding to the peptidase domain 67 of ACE2. Therefore, RBD is the critical determinant of virus-receptor interaction and thus of viral 68 host range, tropism and infectivity 9,13,14 . 69 70",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Meanwhile, S protein participates in antigen recognition expressed on its protein surface, likely to 71 be immunogenic as for carrying both T-cell and B-cell epitopes. The potential antibody binding 72 sites that have been identified indicates RBD has important B-cell epitopes. The main antibody 73 binding site substantially overlaps with RBD, and the antibody binding to this surface is likely to 74 block viral entry into cells 15,16 . 75 76",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The amino acid mutations and recombination in the RBD of different host origin coronaviruses are 77 deemed to be associated with the host adaption and across species infection. Recently research 78",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "indicates that the recombination and a cleavage site insertion in the RBD may increase the virus 79 infectivity and replication capacity 7 . The RBD sequences of different SARS-CoV-2 viruses 80 spreading in the world are conserved. However, mutations in RBD still appeared, which might 81 relate to the progression of the infectivity of this virus. 82 83",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "To invest whether these mutations in RBD have enhanced or weakened the receptor binding activity 84",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "and if the viruses is becoming more aggressive and spreading more quickly, we investigated and 85 compared the exact receptor binding dynamics between the SARS-CoV-2 RBDs of all the newly 86 mutated strains and ACE2 of humans as well as their potential hosts such as bats and pangolins.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Genome sequence dataset in this study 90 Full-length protein sequences of S protein RBD were downloaded from the NCBI GenBank 91",
+            "cite_spans": [
+                {
+                    "start": 38,
+                    "end": 40,
+                    "text": "90",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods 89"
+        },
+        {
+            "text": "Database, China analyzed by DnaSP6 (version 6.12.03) 19 . Analyses were conducted using the Nei-Gojobori model 20 . 105",
+            "cite_spans": [
+                {
+                    "start": 10,
+                    "end": 15,
+                    "text": "China",
+                    "ref_id": null
+                },
+                {
+                    "start": 53,
+                    "end": 55,
+                    "text": "19",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods 89"
+        },
+        {
+            "text": "All positions containing gaps and missing data were eliminated. Evolutionary analyses were 106 conducted in Mega X(version 10.0.2) 21 . 107 . 108",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 133,
+                    "text": "21",
+                    "ref_id": null
+                },
+                {
+                    "start": 136,
+                    "end": 139,
+                    "text": "107",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods 89"
+        },
+        {
+            "text": "Molecular dynamics simulation 109",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods 89"
+        },
+        {
+            "text": "The complex structure of the SARS-CoV-2 S-protein RBD domain and human ACE2 was obtained 110",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods 89"
+        },
+        {
+            "text": "from Nation Microbiology Data Center (ID: NMDCS0000001) (PDB ID: 6LZG) 9 . Mutated amino 111 acids of the nCoV RBD mutants were directly replaced in the model, and the bat/pangolin CoV 112 RBD domain was modelled using SWISS-MODEL 22 . Molecular dynamics simulation was 113 performed using GROMACS 2019 with the following options and parameters: explicit solvent 114 model, system temperature 37\u00b0C, OPLS/AA all-atoms force field, LINCS restraints. With 2fs steps, 115 each simulation was performed 10ns, and each model was simulated 3 times to generate 3 116 independent trajectory replications. Binding free energy was calculated using MM-PBSA method 117 (software downloaded from GitHub: https://github.com/Jerkwin/gmxtool) with the trajectories after 118 structural equilibrium assessed using RMSD (Root Mean Square Deviation) 23 . 119 120",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods 89"
+        },
+        {
+            "text": "Results",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods 89"
+        },
+        {
+            "text": "The profile of SARS-CoV-2 S protein RBD mapping the mutants 122",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "121"
+        },
+        {
+            "text": "Among the 244 SARS-CoV-2 strains in the public databases with whole genome sequences, only 10 123 strains contained amino acid mutations in the RBD (details listed in Table S1 ). These mutants were 124 isolated from multiple locations in the world, including Wuhan, Shenzhen, Hong Kong, England, 125",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 167,
+                    "end": 175,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "121"
+        },
+        {
+            "text": "France and India (Fig. 1A) . Nine out of 10 mutants deviate from the firstly reported strain 126",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 17,
+                    "end": 26,
+                    "text": "(Fig. 1A)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "121"
+        },
+        {
+            "text": "(SARS-COV-2 Wuhan-Hu-1) for only one amino acid, while the Shenzhen-SZTH-004 strain 127 contain two amino acids substitutions (Fig. 1B) . Mutation V367F was found in six individual 128",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 126,
+                    "end": 135,
+                    "text": "(Fig. 1B)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "121"
+        },
+        {
+            "text": "isolates from four adult patients: three in France and one in Hong Kong, China, which suggested 129 that these strains may have originated as a novel sub-lineage. 130 131",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "121"
+        },
+        {
+            "text": "To be noted, none of the mutations in SARS-CoV-2 mutants were found in the Bat SARS-like 132 3 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991844 doi: bioRxiv preprint CoV-RaTG013 or in the Pangolin SARS-like CoV-GD-1. This demonstrated that these mutations 133",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "121"
+        },
+        {
+            "text": "were not recombinants from the animal-originated virus, at least in the RBD, but rather naturally 134 selected during spreading and circulating among human beings. The protein mutations are originated from the mutated RNA genome sequence, which is the nature 147 of RNA virus. Since RBD is the only domain to bind human ACE2 to initiate the invasion, it is 148 4 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991844 doi: bioRxiv preprint thought that the RBD should be highly conserved. However, our nucleotide diversity analysis of the 149 entire S gene showed that the RBD domain is as diverse as the other regions of the S protein ( Fig.  150 2). The peak signals for diversity distribute in the entire S protein, and the peak in the RBD also 151 reached the Pi value of ~0.01, higher than more than 90% of the peaks outside of RBD. Since the 152 RBD function is essential for the virus, we hypothesize that the mutation-prone RBD should be 153 selected to maintain or even improve the binding affinity against human ACE2. To further test this hypothesis, we investigated the selective pressures of the S gene by calculating 160 nonsynonymous/synonymous rate ratio (dN/dS ratios) for various segments of the S gene in the 244 161 SARS-CoV-2 strains. In accordance to our hypothesis, the entire S gene exhibited a dN/dS of 162 1.9336, remarkably greater than 1, showing that the S gene is under positive selective pressure 163 (Table 1) . Surprisingly, the S1 subunit showed a much higher dN/dS value of 7.4971. More 164 strikingly, inside the S1 subunit, no synonymous substitutions were observed in RBD, resulting in a 165 practical infinite dN/dS ratio in this domain. Therefore, RBD is the major contributor of positive 166 selective pressure to the S gene. The extremely high dN/dS value of RBD indicates that very high 167 selective pressure is applied to this functionally essential domain. Therefore, the functional 168 relevance of these mutations can be postulated. 169 170 Table. 1",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 787,
+                    "end": 796,
+                    "text": "Fig.  150",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1580,
+                    "end": 1589,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2137,
+                    "end": 2143,
+                    "text": "Table.",
+                    "ref_id": null
+                }
+            ],
+            "section": "121"
+        },
+        {
+            "text": "The numbers of nonsynonymous and synonymous differences per sequence from averaging over all 172 sequence pairs are shown. Analyses were conducted using the Nei-Gojobori model. The analysis 173",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "involved 244 SARS-CoV-2 nucleotide sequences. All positions containing gaps and missing data 174 Most mutants bind ACE2 with higher affinity 178",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "To estimate the functional alteration caused by the RBD mutations, we performed molecular 179 dynamics simulation for the original SARS-CoV-2 and the RBD mutants to assess their binding 180 energy to human ACE2. Each model was simulated in triple replicates. All trajectories reached 181 plateau of RMSD after 2~5ns (Fig. 3A) , indicating that their structure reached an equilibrium. 182",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 316,
+                    "end": 325,
+                    "text": "(Fig. 3A)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "Therefore, all the subsequent computation on thermodynamics was based on the 5~10ns trajectories. 183",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "Four out of five RBD mutants (except R408I) showed a decreased binding free energy compared to 184 the prototype Wuhan-Hu-1 strain. Three of them (N354D and D364Y, V367F, W436R) exhibited 185 statistical significance, suggesting their significantly increased affinity to human ACE2 (Fig. 3B ). 186",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 282,
+                    "end": 290,
+                    "text": "(Fig. 3B",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "The \u0394G of these three mutants were all around -200 kJ/mol, ~25% lower than the prototype WH-1 187 strain. Considering the K D = 14.7 nM of the prototype RBD, the equilibrium dissociation constant 188 (K D ) of these three mutants are calculated as 0.12 nM for N354D adn D364Y, 0.11 nM for V367F, 189 and 0.13 nM for W436R (Fig. 3C) , two orders of magnitude lower than the prototype strain, 190",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 322,
+                    "end": 331,
+                    "text": "(Fig. 3C)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "indicating a remarkably increased infectivity of the mutated viruses. 191 192",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "Only one mutant isolated from Shenzhen possesses dual amino acids mutation (N354D, D364Y). 193 We also made models of single amino acids respectively and performed molecular dynamics 194 simulation to investigate their individual influence to the affinity. The N354D substitution decreased 195 the affinity, while the D364Y single mutation reached even higher affinity than the dual mutant ( Fig.  196 4B). This indicated that the D364Y is the major contributor to the affinity. 197 198",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 94,
+                    "text": "193",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 392,
+                    "end": 401,
+                    "text": "Fig.  196",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "In comparison, the bat CoV RaTG13 showed only minor binding free energy to human ACE2, 199",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "while the pangolin CoV discovered in Guangdong showed remarkable \u0394G, but slightly higher than 200 the prototype human SARS-CoV-2 Wuhan-Hu-1 strain. The K D of the SARS-CoV RBD of bats and 201 pangolins to human ACE2 are estimated as 1.17mM and 1.89\u03bcM, respectively (Fig. 3C) . 202",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 265,
+                    "end": 274,
+                    "text": "(Fig. 3C)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "Considering that the SARS-CoV RBD binds to human ACE2 at an affinity of K D = 0.326\u03bcM, these 203 data indicated that bat SARS-like CoV RaTG13, which was the closest bat CoV to human 204 SARS-CoV-2, may be hardly infectious to humans. However, the K D of pangolin CoV is only 5.8 205 times higher than the SARS-CoV. This indicated that the pangolin CoV is potentially infectious for 206 humans by unprotected close contact with the virus-rich media, such as body fluid of the infected 207",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "animal. This was consistent with the situation in the seafood market. 208 6 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991844 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991844 doi: bioRxiv preprint calculated according to the \u0394G.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimates of Average Codon-based Evolutionary Divergence over S gene Pairs 171"
+        },
+        {
+            "text": "Structural basis of the increased affinity 216",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "To explain the structural basis of the increased affinity, we investigated deeper into the dynamics of 217 the residues of these structures. The 6 mutants were divided into two groups: the \"similar affinity\" 218 group (F342L, R408I), whose affinity is not significantly increased, and the \"higher affinity\" group 219 (N354D D364Y, V367F, W436R), whose affinity is significantly increased. We compared the 220 RMSF (Root Mean Square of Fluctuation) of the mutants to the prototype Wuhan-Hu-1 strain (Fig.  221 4A). The only feature which is exhibited by all three \"higher affinity\" mutants but not in the 222 \"similar affinity\" mutants lays in the C-terminal of the RBD domain, namely the amino acids 223 510-524. The three \"higher affinity\" mutants showed considerable decrease of the RMSF at this 224 region, but not in the \"similar affinity\" mutants. Coincidently, the mutated amino acids which 225 caused the affinity increase (D364Y, V367F, W436R) are all located near this fragment, while the 226 mutated amino acids which did not increase the affinity (F342L, N354D, R408I) are away from this 227 fragment (Fig. 4B ). This explains the structural influence. Lower fluctuation reflects more rigid 228",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 498,
+                    "end": 508,
+                    "text": "(Fig.  221",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1112,
+                    "end": 1120,
+                    "text": "(Fig. 4B",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "215"
+        },
+        {
+            "text": "structure. The fragment 510-524 is the center of the beta-sheet structure (Fig. 4B , marked as red), 229",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 82,
+                    "text": "(Fig. 4B",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "215"
+        },
+        {
+            "text": "which is the center scaffold of the RBD domain. To be noted, the binding surface of the RBD to 230 ACE2 is largely in random-coil conformation, which lacks structural rigidity. In this case, a firm 231 scaffold should be necessary to maintain the conformation of the interaction surface and thus may 232 facilitate the binding affinity. 233 234",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "To test this hypothesis, we analyzed the contribution of each amino acids to the binding free energy. 235",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "In the binding site region, the insignificant mutant F342L did not show an obvious decrease in \u0394G, 236",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "while the other three mutants exhibited a general decrease of \u0394G in this region (Fig. 4C) . Although 237 the R408I mutant showed also a general decrease of \u0394G in the binding site, the substitution R408I 238",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 80,
+                    "end": 89,
+                    "text": "(Fig. 4C)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "215"
+        },
+        {
+            "text": "itself caused a remarkable increase of \u0394G (Fig. 4C) and thus weakened the affinity. This evidenced 239 the above mentioned hypothesis that the firm scaffold facilitates the binding. In addition, the D364Y 240 and W436R themselves directly contributed to the \u0394G decrease. In contrast, the N354D mutation 241 directly elevated the \u0394G, which coincides its consequence (Fig. 4B) . The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991844 doi: bioRxiv preprint acids to the binding free energy. Red bars denote the binding site. 247 248 249",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 42,
+                    "end": 51,
+                    "text": "(Fig. 4C)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 365,
+                    "end": 374,
+                    "text": "(Fig. 4B)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "215"
+        },
+        {
+            "text": "Discussion 250",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "Due to the pandemic and constant mutations of the SARS-CoV-2 virus all over the world, the 251 evolution of infectivity is one of the most interested questions by the public. Alterations of infectivity 252 may severely influence the quarantine policies. Our work tried to unravel the functional aspect of the 253 RBD mutants. 254 255",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "Firstly, we investigated the polymorphism and diversity among the available SARS-CoV-2 S gene 256 sequences. Among them, several diversity hot spots in S protein have been found in the whole gene, 257",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "i.e., in both S1 and S2 subunits, including RBD domain which was related to receptor binding and 258 antigen cognition. The high non-synonymous and synonymous mutation rate ratio revealed the 259 strong selective pressure of S gene, especially in S1 subunit gene. 260 261",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "By the detailed alignment of all the S gene sequences available in the databases, two groups of 262 amino acid mutations in SARS-CoV-2 RBD domain were identified: the \"similar affinity\" group 263 (F342L, R408I) and the \"higher affinity\" group (N354D D364Y, V367F, W436R). Mutations F342L, 264 N354D, D364Y, and W436R were only discovered in single isolate. However, mutation V367F was 265 discovered in six isolates. It was firstly discovered in one Hong Kong isolate, later appeared in five 266",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "French isolates, across the continent. As RBD is conserved in SARS-CoV-2, the coincidence of six 267 strains with the same mutation V367F in RBD in both France and Hong Kong is presumed 268 significant for the virus transmission. It also indicates that these isolates may have originated as a 269",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "novel sub-lineage, which has been circulating in the world, considering the close isolation dates 270",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "(January 22 and 23, respectively). More epidemiological data are needed to confirm their potential 271 relatedness. 272 273",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "The origination of the virus is a constant hot topic since the virus outbreak. Due to the high 274 homology of the bat SARS-like CoV genome and pangolin CoV RBD to the SARS-CoV-2, these 275 wild animals, especially the ones which were illegally on sale in the Wuhan Huanan Seafood 276",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "Market, were thought to initiate the infection in human. Our results provided more clues on this 277 postulation. In one aspect, the binding energy of the bat SARS-like CoV RBD is too high to directly 278 bind human ACE2 (K D in millimolar range). In contrast, the pangolin CoV showed a K D to human 279 ACE2 at micromolar range, just ~6x higher than that of the human SARS virus (Fig. 4) , which 280",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 380,
+                    "end": 388,
+                    "text": "(Fig. 4)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "215"
+        },
+        {
+            "text": "indicates that the pangolin CoV can potentially infect human in close contact. The highly 281",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "homologous pangolin CoV has been widely detected among the illegally transported Malayan 282 pangolins in recent years in multiple provinces in China 7,8 , which means that the wild pangolins are 283 frequent carriers of the CoV in the nature. This indicates that the risk of zoonotic infection from 284 wild animals to human constantly and widely exists. In another aspect, however, the sequence 285 pattern suggested that this outbreak of SARS-CoV-2 was not directly originated from the pangolin 286",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "CoV infection. The pangolin CoV deviate from human SARS-CoV-2 for 6 amino acids in RBD, but 287 none of the 244 SARS-CoV-2 strains contain any of these 6 amino acids (Fig. 1B) explain the strong positive selection and enhancement of the affinity during the pandemic. The 296",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 166,
+                    "end": 175,
+                    "text": "(Fig. 1B)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "215"
+        },
+        {
+            "text": "viruses have been adapting to transmission and replication in humans; mutation or recombination 297 events in RBD may boost the affinity, causing the human to human transmission more easily. 298 299",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "The S protein is also important for antigen cognition. Fortunately, only a few amino acid mutations 300 have been found in the RBD domain of the S protein, which showed the conservativeness of this 301 domain. Judging from this point, the vaccines which focus on the RBD of S protein may still work 302",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "for the SARS-CoV-2. However, the variation of S protein may change the antigen of virus and 303",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "influence the vaccine immune efficiency. The biological outcomes of the mutations need further 304 confirmation in the future. 305 306",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "In summary, our study identified two groups of amino acid mutations in SARS-CoV-2 RBD domain. 307",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "The \"higher affinity\" group included the amino acids that were located at the firm scaffold, which 308 facilitated the receptor binding. The four mutations of RBD under the positive selective pressure 309 enhanced the infection efficiency of the SARS-CoV-2. Knowing the structural binding mechanism 310 will support the vaccine development and facilitate prevention countermeasure development. The 311 mutation of S protein RBD will provide the insights to the evolutional trend of SARS-CoV-2 under 312 selection pressure. Combined with the epidemiology data, mutation surveillance is important and it 313",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "can reveal more exact spreading routes of the epidemics and provide early warning for the possible 314",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "outbreaks. Enhancement of SARS-CoV-2 binding affinity to human ACE2 reveals the higher risk of 315 more severe epidemic and pandemic of COVID-19 in the world if no effective precautions are taken. 316",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "The emergence of RBD mutations in Hong Kong, France and wherever in other countries, needs 317 great attention. 318 319",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": "Reference: 320",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in 321",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Early Transmission Dynamics in Wuhan, China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients with 2019 325 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "JAMA -J Am Med Assoc",
+            "volume": "326",
+            "issn": "2020",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A familial cluster of pneumonia associated with the 2019 328 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "Jfw",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The Coronavirus Disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hageman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Pediatr Ann",
+            "volume": "331",
+            "issn": "2020",
+            "pages": "99--100",
+            "other_ids": {
+                "DOI": [
+                    "10.3928/19382359-20200219-01"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A pneumonia outbreak associated with a new 333 coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Isolation and Characterization of 2019-nCoV-like Coronavirus 335 from Malayan Pangolins. bioRxiv",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.17.951335"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Identification of 2019-nCoV related coronaviruses 338 in Malayan pangolins in southern China. bioRxiv",
+            "authors": [
+                {
+                    "first": "Tt-Y",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mh-H",
+                    "middle": [],
+                    "last": "Shum",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-C",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.13.945485"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the 341 prefusion conformation. Science (80-)",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Corbett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "367",
+            "issn": "",
+            "pages": "1260--1263",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb2507"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Cryo-electron microscopy structure of a coronavirus 344 spike glycoprotein trimer Alexandra",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tortorici",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bosch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "531",
+            "issn": "",
+            "pages": "114--117",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature16988.Cryo-electron346"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Tectonic conformational changes of a coronavirus 349 spike glycoprotein promote membrane fusion",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Reese",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bober",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Daly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "531",
+            "issn": "7592",
+            "pages": "11157--11162",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/cncr.31084.Talking34812"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Structure analysis of the receptor binding of 2019-nCoV",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Receptor recognition by novel coronavirus from 354 Wuhan: An analysis based on decade-long structural studies of SARS",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biochem Biophys Res Commun",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbrc.2020.02.071"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Potential T-cell and B-cell Epitopes of 2019-nCoV",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fast",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Preliminary identification of potential vaccine targets 358 for 2019-nCoV based on SARS-CoV immunological studies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Quadeer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mckay",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Viruses",
+            "volume": "359",
+            "issn": "2020",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.03.933226"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "aLeaves facilitates on-demand exploration of 361 metazoan gene family trees on MAFFT sequence alignment server with enhanced 362 interactivity",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kuraku",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zmasek",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Nishimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Katoh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nucleic Acids Res",
+            "volume": "41",
+            "issn": "",
+            "pages": "22--28",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkt389"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "MAFFT online service: Multiple sequence alignment, 364 interactive sequence choice and visualization",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Katoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rozewicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Yamada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Brief Bioinform",
+            "volume": "20",
+            "issn": "4",
+            "pages": "1160--1166",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bib/bbx108"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "DnaSP 6: DNA sequence 367 polymorphism analysis of large data sets",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rozas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ferrer-Mata",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sanchez-Delbarrio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Mol Biol Evol",
+            "volume": "34",
+            "issn": "12",
+            "pages": "3299--3302",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/molbev/msx248"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Simple methods for estimating the numbers of synonymous and 370 nonsynonymous nucleotide substitutions",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nei",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gojoborit",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Mol Biol Evol",
+            "volume": "3",
+            "issn": "5",
+            "pages": "418--426",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/oxfordjournals.molbev.a040410"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Molecular evolutionary genetics 373 analysis across computing platforms",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Stecher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Knyaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mega X",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Mol Biol Evol",
+            "volume": "35",
+            "issn": "6",
+            "pages": "1547--1549",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/molbev/msy096"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "SWISS-MODEL: Homology modelling of protein 376 structures and complexes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Waterhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bertoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bienert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nucleic Acids Res",
+            "volume": "46",
+            "issn": "W1",
+            "pages": "296--303",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gky427"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Free energy calculations by the Molecular Mechanics 379 Poisson-Boltzmann Surface Area method",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Homeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gohlke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Mol Inform",
+            "volume": "31",
+            "issn": "2",
+            "pages": "114--122",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "The SARS-CoV-2 mutated strains in RBD of the S protein. (A) The geographic 138 distribution of the RBD mutated isolates. The strains with names in red are mutants with the 139 enhanced binding affinity. The strains with names in red are mutants with the enhanced binding 140 affinity; The strains with names in yellow are mutants with similar binding affinity. (B) Multiple 141 alignments of the RBD amino acid sequences. SARS-CoV-2 Wuhan-Hu-1, the first isolated strain, 142 is used as reference. The bat and pangolin SARS-like virus are also included. Amino acid 143 substitutions are marked. 144 145 Nucleotide diversity indicates strong positive selective pressure in RBD 146",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Polymorphism and divergence graph of SARS-CoV-2 S gene. Structural domains are 157 annotated. The Pi values are calculated with window size: 5 nt, step size: 1. 158 159",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Binding free energy of the SARS-CoV-2 S-RBD to human ACE2. (A) RMSD of typical 210 MD trajectories of SARS-CoV-2 prototype and mutants. (B) Binding free energy (\u0394G) of the RBDs 211 and the human ACE2. Lower \u0394G means higher affinity. Data are presented as mean\u00b1SD. P-values 212were calculated using single-tailed student t-test. (C) The equilibrium dissociation constant (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Structural analysis of RBD mutants on their affinity. (A) RMSF of the 5 mutants 244 compared to the prototype. Red arrows denote the fragment of residues 510-524. (B) Spatial 245 location of the mutated amino acids and the fragment 510-524. (C) Contribution of each",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": ". Alignment of the 288 genomic sequences of SARS-CoV-2 and pangolin CoV viruses indicated the evidence for 289 recombination events in RBD domain between pangolin and bat viruses 6,8 . 290 10 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under aThe copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991844 doi: bioRxiv preprint Our analysis of molecular dynamics simulation indicates the remarkable enhancement of the 292 affinity efficiency of mutated S protein. Compared to the prototype virus Wuhan-Hu-1, the binding 293 energy of mutants decreased ~25%. Mutants bind ACE2 more stably due to the enhancement of the 294 base rigidity. Potential and recent animal-to-human transmission events of SARS-CoV-2, may 295",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

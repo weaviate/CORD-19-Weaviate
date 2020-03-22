@@ -1,0 +1,1027 @@
+{
+    "paper_id": "e49c9e5b4f77c5cdbf6fa77343d767d909548dea",
+    "metadata": {
+        "title": "Cross-reactive antibody response between SARS-CoV-2 and SARS-CoV infections 2 3 18",
+        "authors": [
+            {
+                "first": "Huibin",
+                "middle": [],
+                "last": "Lv",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing",
+                    "institution": "HKU-Pasteur Research Pole",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Nicholas",
+                "middle": [
+                    "C"
+                ],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Owen",
+                "middle": [],
+                "last": "Tak",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yin",
+                "middle": [],
+                "last": "Tsang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Meng",
+                "middle": [],
+                "last": "Yuan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ranawaka",
+                "middle": [
+                    "A P"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [],
+                "last": "Perera",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Hong Kong",
+                    "location": {
+                        "addrLine": "Li Ka Shing, 16 Hong Kong SAR",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wai",
+                "middle": [
+                    "Shing"
+                ],
+                "last": "Leung",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ray",
+                "middle": [
+                    "T Y"
+                ],
+                "last": "So",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing",
+                    "institution": "HKU-Pasteur Research Pole",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Jacky",
+                "middle": [],
+                "last": "Man",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chun",
+                "middle": [],
+                "last": "Chan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Garrick",
+                "middle": [
+                    "K"
+                ],
+                "last": "Yip",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing",
+                    "institution": "HKU-Pasteur Research Pole",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Thomas",
+                "middle": [],
+                "last": "Shiu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hong",
+                "middle": [],
+                "last": "Chik",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yiquan",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing",
+                    "institution": "HKU-Pasteur Research Pole",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Chris",
+                "middle": [],
+                "last": "Yau",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chung",
+                "middle": [],
+                "last": "Choi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yihan",
+                "middle": [],
+                "last": "Lin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing",
+                    "institution": "HKU-Pasteur Research Pole",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Wilson",
+                "middle": [
+                    "W"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Ng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing",
+                    "institution": "HKU-Pasteur Research Pole",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Jincun",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Respiratory Disease, National Clinical Research Center for",
+                    "institution": "Guangzhou Medical University",
+                    "location": {
+                        "postCode": "20",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Leo",
+                "middle": [
+                    "L M"
+                ],
+                "last": "Poon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing",
+                    "institution": "HKU-Pasteur Research Pole",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [
+                    "S Malik"
+                ],
+                "last": "Peiris",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing",
+                    "institution": "HKU-Pasteur Research Pole",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Ian",
+                "middle": [
+                    "A"
+                ],
+                "last": "Wilson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chris",
+                "middle": [
+                    "K P"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Mok",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing",
+                    "institution": "HKU-Pasteur Research Pole",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The World Health Organization has recently declared the ongoing outbreak of COVID-27 19, which is caused by a novel coronavirus SARS-CoV-2, as pandemic. There is 28 currently a lack of knowledge in the antibody response elicited from SARS-CoV-2 29 infection. One major immunological question is concerning the antigenic differences 30 between SARS-CoV-2 and SARS-CoV. We address this question by using plasma from 31 patients infected by SARS-CoV-2 or SARS-CoV, and plasma obtained from infected or 32 immunized mice. Our results show that while cross-reactivity in antibody binding to the 33 spike protein is common, cross-neutralization of the live viruses is rare, indicating the 34 presence of non-neutralizing antibody response to conserved epitopes in the spike.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Whether these non-neutralizing antibody responses will lead to antibody-dependent 36 disease enhancement needs to be addressed in the future. Overall, this study not only 37 addresses a fundamental question regarding the antigenicity differences between 38 SARS-CoV-2 and SARS-CoV, but also has important implications in vaccine 39 development.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The emergence of spread of a novel coronavirus SARS-CoV-2 causing severe 42 respiratory disease has now led to a pandemic with major impact on global 43 health, economy and societal behavior (Coronaviridae Study Group of the International 44 Committee on Taxonomy of, 2020; Poon and Peiris, 2020; Zhu et al., 2020) . As of 2020",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 314,
+                    "text": "Zhu et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "41"
+        },
+        {
+            "text": "March 15, over 150,000 confirmed cases of SARS-CoV-2 have been reported with close 46 to 6,000 deaths. Phylogenetic analysis has demonstrated that SARS-CoV-2 and SARS-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "45"
+        },
+        {
+            "text": "CoV, a coronavirus that also caused a global outbreak in 2003, are closely related 48 phylogenetically, with genomic nucleotide sequence identity of around 80% (Wu et al., 49 2020; Zhou et al., 2020) . Moreover, it has been shown that both viruses use the 50 angiotensin-converting enzyme 2 (ACE2) as the receptor for cell entry and infection 51 (Letko et al., 2020; Li et al., 2003) .",
+            "cite_spans": [
+                {
+                    "start": 160,
+                    "end": 171,
+                    "text": "(Wu et al.,",
+                    "ref_id": null
+                },
+                {
+                    "start": 181,
+                    "end": 199,
+                    "text": "Zhou et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 346,
+                    "end": 366,
+                    "text": "(Letko et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 367,
+                    "end": 383,
+                    "text": "Li et al., 2003)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "47"
+        },
+        {
+            "text": "The spike glycoprotein (S) on the surface of coronaviruses is essential for virus entry 54 through binding to the ACE2 receptor and viral fusion with the host cell. The S protein 55 forms a homotrimer in which each protomer is composed of two subunits, S1 and S2 56 (Figure 1A) . Binding between the receptor-binding domain (RBD) in the S1 subunit and 57 the ACE2 receptor triggers a conformational change in the S protein that subsequently 58 initiates membrane fusion events with the host cell. The RBD is also a primary target of 59 the antibody response in humoral immunity and is believed to be the major protective 60 antigen (Chen et al., 2005) . The prefusion structure of the S protein of SARS-CoV-2 has 61 been recently determined by cryo-EM (Wrapp et al., 2020) , and revealed overall 62 structural similarity to that of SARS-CoV. However, most monoclonal antibodies tested 63 to date that target the RBD of SARS-CoV have failed to bind to the RBD of SARS-CoV-2 64 (Tian et al., 2020; Wrapp et al., 2020) , suggesting that the antigenicity of these two 4 polyclonal human sera from patients to evaluate the antibody response elicited by 67 SARS-CoV-2 infection and to determine whether cross-reactive antibody responses 68 between SARS-CoV-2 and SARS-CoV can be generated. In this study, we examined the 69 antibody responses in 15 patients from Hong Kong who were infected by SARS-CoV-2, 70 and seven by SARS-CoV. Mice infected or immunized with SARS-CoV-2 or SARS-CoV 71 were also used to investigate cross-reactivity of antibody responses between SARS-",
+            "cite_spans": [
+                {
+                    "start": 266,
+                    "end": 277,
+                    "text": "(Figure 1A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 632,
+                    "end": 651,
+                    "text": "(Chen et al., 2005)",
+                    "ref_id": null
+                },
+                {
+                    "start": 752,
+                    "end": 772,
+                    "text": "(Wrapp et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 976,
+                    "end": 995,
+                    "text": "(Tian et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 996,
+                    "end": 1015,
+                    "text": "Wrapp et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "53"
+        },
+        {
+            "text": "CoV-2 and SARS-CoV.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "72"
+        },
+        {
+            "text": "Fifteen heparin anticoagulated plasma samples (from day 2 to 22 post-symptom onset) 77 from SARS-CoV-2 infected patients were analyzed (Table S1 ). Binding of plasma to the 78 S ectodomain and RBD of both SARS-CoV-2 and SARS-CoV (see Methods) was 79 measured by ELISA ( Figure 1B , Figure S1 ). Plasma samples from healthy donors 80 collected from the Hong Kong Red Cross served as controls. As compared to the 81 plasma from healthy donors, plasma from patients from day 10 post-symptom onward 82 reacted strongly in ELISA binding assays to the S ectodomain (p-value < 2e-16, two-83 tailed t-test) and RBD (p-value = 2e-13, two-tailed t-test) of SARS-CoV-2. Interestingly, 84 the plasma from SARS-CoV-2-infected patients could also cross-react, although less 85 strongly, with the SARS-CoV S ectodomain (p-value = 8e-06, two-tailed t-test) and the 86 SARS-CoV RBD (p-value = 0.048, two-tailed t-test) ( Figure 1B) . Nevertheless, only five 87 of the samples from the SARS-CoV-2-infected patients had convincing antibody binding 88 responses to the SARS-CoV RBD. The other plasma reacted more weakly or not at all 89 with the SARS-CoV RBD ( Figure 1B ). This result indicates that the cross-reactive 90 antibody response to the S protein after SARS-CoV-2 infection mostly targets non-RBD 91 regions. Consistent with that observation, reactivity of the plasma from SARS-CoV-2-",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 135,
+                    "end": 144,
+                    "text": "(Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 270,
+                    "end": 279,
+                    "text": "Figure 1B",
+                    "ref_id": null
+                },
+                {
+                    "start": 282,
+                    "end": 291,
+                    "text": "Figure S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 904,
+                    "end": 914,
+                    "text": "Figure 1B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1141,
+                    "end": 1150,
+                    "text": "Figure 1B",
+                    "ref_id": null
+                }
+            ],
+            "section": "76"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.993097 doi: bioRxiv preprint 5 infected patients could be detected with the S2 subunit of SARS-CoV-2 (p-value = 2e-4, 93 two-tailed t-test, Figure 1B ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 331,
+                    "end": 340,
+                    "text": "Figure 1B",
+                    "ref_id": null
+                }
+            ],
+            "section": "92"
+        },
+        {
+            "text": "We also analyzed seven heparin anticoagulated convalescent (3-6 months post 96 infection) plasma samples from SARS-CoV infected patients. Similar to that observed in 97 plasma samples from SARS-CoV-2-infected patients, cross-reactivity in binding could be 98 detected ( Figure 1B) . As compared to the plasma from healthy donors, SARS-CoV-99 infected patients have significant cross-reactivity in binding to SARS-CoV-2 spike (p-100 value = 0.03, two-tailed t-test), RBD (p-value = 0.03, two-tailed t-test), and S2 subunit (p-101 value = 0.007, two-tailed t-test). These results show that cross-reactivity in binding is 102 common between SARS-CoV and SARS-CoV-2 infections in both directions.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 270,
+                    "end": 280,
+                    "text": "Figure 1B)",
+                    "ref_id": null
+                }
+            ],
+            "section": "95"
+        },
+        {
+            "text": "We next tested the neutralization activity of these plasma samples from SARS-CoV-2-106 infected patients. Except for four plasma samples that came from patients with less than 107 12 days post-symptom onset with concomitantly low reactivity to both SARS-CoV-2 S 108 ectodomain and RBD, all other plasma samples could neutralize the SARS-CoV-2 virus 109 with titers ranging from 1:40 to 1:640 ( Figure 1C , Table S1 ). However, only one plasma 110 sample could cross-neutralize SARS-CoV, with very low neutralization activity (1:10). In 111 fact, that cross-neutralizing plasma sample had the strongest reactivity in binding against 112 SARS-CoV S ectodomain among all 15 patient samples, although its binding activity 113 against SARS-CoV RBD is not particularly strong (Table S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 394,
+                    "end": 403,
+                    "text": "Figure 1C",
+                    "ref_id": null
+                },
+                {
+                    "start": 406,
+                    "end": 414,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 770,
+                    "end": 779,
+                    "text": "(Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "105"
+        },
+        {
+            "text": "Similarly, while five of the seven plasma samples from SARS-CoV-convalescent patients 116 could neutralize SARS-CoV with titers ranging from 1:40 to 1:320, none can cross-117 neutralize SARS-CoV-2 ( Figure 1C ). These results show that although cross-reactivity in 118 . CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.993097 doi: bioRxiv preprint 6 binding is common between plasma from SARS-CoV-2 and SARS-CoV infected 119 patients, cross-neutralization activity is rare.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 199,
+                    "end": 208,
+                    "text": "Figure 1C",
+                    "ref_id": null
+                }
+            ],
+            "section": "115"
+        },
+        {
+            "text": "To further investigate the cross-reactivity of antibody responses to SARS-CoV-2 and 123 SARS-CoV, we analyzed the antibody response of plasma collected from mice infected 124 or immunized with SARS-CoV-2 or SARS-CoV (n = 5 or 6 per experimental and control 125 groups). Plasma from mice with mock immunization with a genetically more distant 126 betacoronavirus coronavirus OC43-CoV, PBS or adjuvant were used as negative 127 controls (Figure 2A -D) . As compared to controls, plasma from mice immunized with 128 SARS-CoV-2 virus reacted strongly to its autologous S ectodomain (p-value < 0.002, 129 two-tailed t-test, Figure 2A ) and RBD (p-value < 1e-4, two-tailed t-test, Figure 2B ).",
+            "cite_spans": [
+                {
+                    "start": 446,
+                    "end": 449,
+                    "text": "-D)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 435,
+                    "end": 445,
+                    "text": "(Figure 2A",
+                    "ref_id": null
+                },
+                {
+                    "start": 619,
+                    "end": 628,
+                    "text": "Figure 2A",
+                    "ref_id": null
+                },
+                {
+                    "start": 675,
+                    "end": 684,
+                    "text": "Figure 2B",
+                    "ref_id": null
+                }
+            ],
+            "section": "122"
+        },
+        {
+            "text": "Similarly, plasma from mice immunized with SARS-CoV virus reacted strongly to its 131 autologous S ectodomain (p-value < 2e-7, two-tailed t-test, Figure 2C ) and RBD (p-value 132 < 6e-6, two-tailed t-test, Figure 2D ). In addition, plasma from mice immunized with 133 SARS-CoV S ectodomain could react to its autologous RBD (p-value < 0.02, two-tailed t-134 test, Figure 2D ). However, while plasma from mice infected with SARS-CoV virus could 135 react with its autologous S ectodomain (p-value < 8e-6, two-tailed t-test, Figure 2C ) and 136 RBD (p-value < 2e-5, two-tailed t-test, Figure 2D ), the reactivity of plasma from mice 137 infected with SARS-CoV-2 virus to its autologous S ectodomain and RBD could not be 138 observed in this assay (p-value > 0.28, two-tailed t-test, Figure 2A -B). Unlike SARS-CoV 139 virus, which can replicate in wild-type mice (Yang et al., 2004) , it has been recently 140 shown that SARS-CoV-2 is only able to replicate in human ACE2-expression transgenic The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.993097 doi: bioRxiv preprint 7 Interestingly, we observed some cross-reactivity of plasma from SARS-CoV-2-145 immunized mice to the SARS-CoV S ectodomain (p-value < 4e-5, two-tailed t-test, 146 Figure 2C ) and less so to SARS-CoV RBD (p-value < 0.006, two-tailed t-test, Figure 2D ), 147 as well as plasma from SARS-CoV-infected mice to the SARS-CoV-2 S ectodomain (p-148 value < 0.005, two-tailed t-test, Figure 2A ). The conclusion that the cross-reactive 149 antibodies mostly target non-RBD regions is supported by the stronger reactivity of the 150 antibody responses from SARS-CoV-2 immunization with the SARS-CoV S ectodomain 151 than to its RBD, and that plasma from SARS-CoV-infected mice did not react at all with 152 SARS-CoV-2 RBD (p-value > 0.5, two-tailed t-test, Figure 2B ). Despite the presence of ",
+            "cite_spans": [
+                {
+                    "start": 861,
+                    "end": 880,
+                    "text": "(Yang et al., 2004)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 146,
+                    "end": 155,
+                    "text": "Figure 2C",
+                    "ref_id": null
+                },
+                {
+                    "start": 206,
+                    "end": 215,
+                    "text": "Figure 2D",
+                    "ref_id": null
+                },
+                {
+                    "start": 364,
+                    "end": 373,
+                    "text": "Figure 2D",
+                    "ref_id": null
+                },
+                {
+                    "start": 523,
+                    "end": 532,
+                    "text": "Figure 2C",
+                    "ref_id": null
+                },
+                {
+                    "start": 583,
+                    "end": 592,
+                    "text": "Figure 2D",
+                    "ref_id": null
+                },
+                {
+                    "start": 781,
+                    "end": 790,
+                    "text": "Figure 2A",
+                    "ref_id": null
+                },
+                {
+                    "start": 1299,
+                    "end": 1308,
+                    "text": "Figure 2C",
+                    "ref_id": null
+                },
+                {
+                    "start": 1376,
+                    "end": 1385,
+                    "text": "Figure 2D",
+                    "ref_id": null
+                },
+                {
+                    "start": 1511,
+                    "end": 1520,
+                    "text": "Figure 2A",
+                    "ref_id": null
+                },
+                {
+                    "start": 1883,
+                    "end": 1892,
+                    "text": "Figure 2B",
+                    "ref_id": null
+                }
+            ],
+            "section": "130"
+        },
+        {
+            "text": "The work here shows that antibody responses in the SARS-CoV-2 infected patient 159 cohort are generated to both S protein and RBD in the majority of the patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "158"
+        },
+        {
+            "text": "Furthermore, cross-reactivity with SARS-CoV can be detected in these plasma samples 161 as well as in mice studies. These cross-reactive antibody responses mostly target non-162 RBD regions. Consistently, higher sequence conservation is found between the S2 163 subunits of SARS-CoV-2 and SARS-CoV (90% amino-acid sequence identity) as 164 compared to that of their RBDs (73% amino-acid sequence identity). Nonetheless, some 165 SARS-CoV-2-infected patients were able to produce cross-reactive antibody responses 166 to SARS-CoV RBD. Consistent with these findings, a human antibody CR3022 that The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.993097 doi: bioRxiv preprint 8 While cross-reactive antibody binding responses to both SARS-CoV-2 and SARS-CoV S 171 proteins appears to be relatively common in this cohort, cross-neutralizing responses are 172 rare. Only one out of 15 SARS-CoV-2-infected patients was able to generate a cross-173 neutralizing response to both SARS-CoV-2 and SARS-CoV viruses, and this cross-174 reactive response was very weak. Therefore, it is possible that only a subset of the 175 cross-reactive binding epitopes is a bona fide neutralizing epitope. This notion is also 176 supported by our recent study, which showed that the cross-reactive antibody CR3022 177 could not neutralize SARS-CoV-2 despite its strong binding (Yuan et al., 2020) . Future The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.993097 doi: bioRxiv preprint in the SARS-CoV-2 spike protein were designed to knock-out the furin cleavage site that 223 is a novel addition to this coronavirus compared to related sequences in bats and 224 pangolins (Wong et al., 2020) . The spike ectodomain constructs were fused with an N- ",
+            "cite_spans": [
+                {
+                    "start": 1417,
+                    "end": 1436,
+                    "text": "(Yuan et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1776,
+                    "end": 1795,
+                    "text": "(Wong et al., 2020)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "160"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https: //doi.org/10.1101 //doi.org/10. /2020 13 Bao, L., Deng, W., Huang, B., Gao, H., Liu, J., Ren, L., Wei, Q., Yu, P., Xu, Y., Qi, F., et 302 al. (2020) . The pathogenicity of SARS-CoV-2 in hACE2 transgenic mice. bioRxiv 303 10.1101/2020.02.07.939389. 304 Bootz, A., Karbach, A., Spindler, J., Kropff, B., Reuter, N., Sticht, H., Winkler, T.H., Britt, 305 W.J., and Mach, M. (2017) . Protective capacity of neutralizing and non-neutralizing ",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 180,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 181,
+                    "end": 200,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 223,
+                    "end": 311,
+                    "text": "Huang, B., Gao, H., Liu, J., Ren, L., Wei, Q., Yu, P., Xu, Y., Qi, F., et 302 al. (2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 384,
+                    "end": 410,
+                    "text": "10.1101/2020.02.07.939389.",
+                    "ref_id": null
+                },
+                {
+                    "start": 415,
+                    "end": 540,
+                    "text": "Bootz, A., Karbach, A., Spindler, J., Kropff, B., Reuter, N., Sticht, H., Winkler, T.H., Britt, 305 W.J., and Mach, M. (2017)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "301"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10. 1101 ",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 180,
+                    "text": "1101",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "380"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Evidence of 381 recombination in coronaviruses implicating pangolin origins of",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Javornik Cregeen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ajami",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Petrosino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "nCoV-2019.bioRxiv38210.1101/2020.02.07.939207"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the 385 prefusion conformation",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb2507"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A new coronavirus associated with human respiratory 388 disease in China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A DNA vaccine induces SARS coronavirus neutralization and protective 391 immunity in mice",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nature",
+            "volume": "428",
+            "issn": "",
+            "pages": "561--564",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A highly conserved cryptic epitope in the receptor-binding domains of SARS-394",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "A pneumonia outbreak associated with a new coronavirus of 397 probable bat origin",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "141mice but not wild-type mice(Bao et al., 2020), which then can explain the weak immune 142 response from SARS-CoV-2-infected wild-type mice in this study.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "153cross-reactivity in binding, cross-neutralization activity was not detected in any of the 154 mouse plasma samples (Figure 2E-F), corroborating with our findings from human 155 patients.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "167neutralizesSARS-CoV (ter Meulen et al., 2006)  has recently been reported to also bind 168 to the RBD of SARS-CoV-2 (Tian et al., 2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "178 studies need to investigate whether these non-neutralizing antibody responses can 179 confer in vivo protections despite the lack of in vitro neutralization activity, which have 180 been observed in some non-neutralizing antibodies to other viruses (Bajic et al., 2019; 181 Bangaru et al., 2019; Bootz et al., 2017; Burke et al., 2018; Dreyfus et al., 2012; Henchal 182 et al., 1988; Lee et al., 2016; Petro et al., 2015; Watanabe et al., 2019). On the contrary, 183 non-neutralizing antibody responses can also lead to antibody-dependent enhancement 184 (ADE) of infection as reported in other coronaviruses (Tseng et al., 2012; Wang et al., 185 2014; Weiss and Scott, 1981). Whether ADE plays a role in SARS-CoV-2 infection will 186 need to be carefully examined, due to its potential adverse effect in vaccination (Tseng 187 et al., 2012).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "CoV-2 is the third newly emerged coronavirus to cause outbreaks (along with 190 SARS-CoV and MERS-CoV) in the past two decades. Since Coronavirus outbreak are 191 likely to continue to pose global health risks in the future (Menachery et al., 2015; 192 Menachery et al., 2016), the possibility of developing a cross-protective vaccine against 193 multiple coronaviruses has been considered. Identification of cross-protective epitopes 194 on the coronavirus S protein will be important for the development of a more universal 195 coronavirus vaccine analogous to those currently in development for influenza virus. that such broadly cross-protective epitopes are not common in the 197 human immune repertoire. Moving forward, monoclonal clonal antibodies discovery and 198 characterization will be crucial to the development of a SARS-CoV-2 vaccine in short-199 term, as well as a cross-protective coronavirus vaccine in long-term. of patients and specimen collections 203 Patients with RT-PCR confirmed COVID-19 disease at the Infectious Disease Centre of 204 the Princess Margaret Hospital, Hong Kong, were invited to participate in the study after 205 providing informed consent. The study was approved the institutional review board of the 206 Hong Kong West Cluster of the Hospital Authority of Hong Kong (approval number: 207 UW20-169). Specimens of heparinized blood were collected from the patients, and the 208 plasma were separated and stored at -80\u00b0C until use. The plasma was heat inactivated 209 at 56\u00b0C for 30 minutes before use. The plasma samples from patients with SARS-CoV 210 infection were obtained from the bio-repository of specimens stored from patients 211 following the SARS outbreak in 2003. 212 213 Protein expression and purification 214 Ectodomain (residues 14-1195) with K968P/V969P mutations and RBD (residues: 306-215 527) of the SARS-CoV spike (S) protein (GenBank: ABF65836.1), as well as the 216 ectodomain (residues 14-1213) with R682G/R683G/R685G/K986P/V987P mutations 217 and RBD (residues 319-541) of the SARS-CoV-2 spike protein (GenBank: QHD43416.1) 218 were cloned into a customized pFastBac vector (Ekiert et al., 2011). K968P/V969P were 219 stabilizing mutations in the SARS-CoV spike protein (Kirchdoerfer et al., 2018) and the 220 corresponding K986P/V987P mutations in the SARS-CoV-2 spike protein should have 221 the same stabilizing effect due to sequence similarity. R682G/R683G/",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "225 terminal gp67 signal peptide and a C-terminal BirA biotinylation site, thrombin cleavage 226 site, trimerization domain, and His 6 tag. The RBD constructs were fused with an N-227 terminal gp67 signal peptide and a C-terminal His 6 tag. Recombinant bacmid DNA was 228 generated using the Bac-to-Bac system (Life Technologies). Baculovirus was generated 229 by transfecting purified bacmid DNA into Sf9 cells using FuGENE HD (Promega), and 230 subsequently used to infect suspension cultures of High Five cells (Life Technologies) at 231 an MOI of 5 to 10. Infected High Five cells were incubated at 28 \u00b0C with shaking at 232 110 r.p.m. for 72 h for protein expression. The supernatant was then concentrated using 233 a Centramate cassette (10 kDa MW cutoff for RBD and 30 kDa MW cutoff for spike 234 protein, Pall Corporation). Spike ectodomain and RBD proteins were purified by Ni-NTA 235 (Figure S2), followed by size exclusion chromatography, and then buffer exchanged into 236 PBS. The S2 extracellular domain of SARS-CoV-2 was purchased from Sino Biological, Balb/c mice were immunized with 10 5 pfu of SARS-CoV, SARS-CoV-2, 241 HCoV-OC43 or 15 \u00b5g of SARS-CoV spike protein in 150 \u00b5L PBS together with 50 \u00b5L 242 Addavax (MF59-like squalene adjuvant from InvivoGen) through intraperitoneally 243 injection (i.p.). For the control group, Balb/c mice were injected intraperitoneally (i.p.) 244 with 50 \u00b5L Addavax plus 150 \u00b5L PBS, or 200 \u00b5L PBS only. The plasma samples were 245 collected on day 14 post-vaccination using heparin tubes. The experiments were 246 conducted in The University of Hong Kong Biosafety Level 3 (BSL3) facility. This study 247 protocol was carried out in strict accordance with the recommendations and was Balb/c mice were anesthetized with Ketamine and Xylazine, and infected 253 intranasally (i.n.) with 10 5 pfu of SARS-CoV or SARS-CoV-2 diluted in 25 \u00b5L PBS.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Mouse plasma samples were collected on day 14 post-infection using heparin tubes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "-well enzyme-linked immunosorbent assay (ELISA) plate (Nunc MaxiSorp, Thermo 260 Fisher Scientific) was first coated overnight with 100 ng per well of purified recombinant 261 protein in PBS buffer. To substrate the background noise caused by the unspecific 262 binding of antibodies from the samples, serum-specific background noise (SSBN) 263 normalization approach was used (Moritz et al., 2019). In brief, an additional plate was 264 coated overnight with PBS buffer only. The plates coated with either purified 265 recombinant protein or PBS were then blocked with PBS containing 5% non-fat milk 266 powder at room temperature for 2 hours. Each mouse plasma sample was 1:10 diluted 267 and human sample was serially diluted from 1:100 to 1:12800 in PBS. Each sample was 268 then added into the ELISA plates that were coated with purified recombinant protein or 269 PBS buffer respectively for 2-hour incubation at 37\u00b0C. After extensive washing with PBS 270 containing 0.1% Tween 20, each well in the plate was further incubated with the HRP-271 sheep anti-mouse or anti-human secondary antibody (1:5000, GE Healthcare) for 1 hour 272 at 37\u00b0C. The ELISA plates were then washed five times with PBS containing 0.1% 273 Tween 20. Subsequently, 50 \u00b5L of each solution A and B (R&D Systems) was added wavelength. The normalized results were obtained by the calculating the 277 difference between the OD of the purified recombinant protein-coated well and the PBSwere diluted in serial two-fold dilutions commencing with a dilution of 282 1:10, and mixed with equal volumes of SARS-CoV or SARS-CoV-2 at a dose of 200 283 tissue culture infective doses 50% (TCID 50 ) determined by Vero and Vero E6 cells 284 respectively. After 1 h of incubation at 37\u00b0C, 35 \u00b5l of the virus-serum mixture was added 285 in quadruplicate to Vero or Vero E6 cell monolayers in 96-well microtiter plates. After 1 h 286 of adsorption, the virus-serum mixture was removed and replaced with 150ul of virus 287 growth medium in each well. The plates were incubated for 3 days at 37\u00b0C in 5% CO 2 in 288 a humidified incubator. Cytopathic effect was observed at day 3 post-inoculation. The 289 highest plasma dilution protecting 50% of the replicate wells was denoted as the 290 neutralizing antibody titer. A virus back-titration of the input virus was included in , G., Maron, M.J., Adachi, Y., Onodera, T., McCarthy, K.R., McGee, C.E., 295 Sempowski, G.D., Takahashi, Y., Kelsoe, G., Kuraoka, M., et al. (2019). Influenza 296 antigen engineering focuses immune responses to a subdominant but broadly protective 297 viral epitope. Cell Host Microbe 25, 827-835.e826.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Bangaru, S., Lang, S., Schotsaert, M., Vanderven, H.A., Zhu, X., Kose, N., Bombardi, 299 R., Finn, J.A., Kent, S.J., Gilchuk, P., et al. (2019). A site of vulnerability on the influenza 300 virus hemagglutinin head domain trimer interface. Cell 177, 1136-1152.e1118.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "306 antibodies against glycoprotein B of cytomegalovirus. PLoS Pathog 13, e1006601.307 Burke, C.W., Froude, J.W., Miethe, S., Hulseweh, B., Hust, M., and Glass, P.J. (2018).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Human-like neutralizing antibodies protect mice from aerosol exposure with western 309 equine encephalitis virus. Viruses 10, 147.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Chen, Z., Zhang, L., Qin, C., Ba, L., Yi, C.E., Zhang, F., Wei, Q., He, T., Yu, W., Yu, J.,311 et al. (2005). Recombinant modified vaccinia virus Ankara expressing the spike 312 glycoprotein of severe acute respiratory syndrome coronavirus induces protective 313 neutralizing antibodies primarily targeting the receptor binding region. J Virol 79, Group of the International Committee on Taxonomy of, V. (2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-317 nCoV and naming it SARS-CoV-2. Nat Microbiol 10.1038/s41564-020-0695-z.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Dreyfus, C., Laursen, N.S., Kwaks, T., Zuijdgeest, D., Khayat, R., Ekiert, D.C., Lee, J.H., 319 Metlagel, Z., Bujny, M.V., Jongeneelen, M., et al. (2012). Highly conserved protective 320 epitopes on influenza B viruses. Science 337, 1343-1348.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Ekiert, D.C., Friesen, R.H., Bhabha, G., Kwaks, T., Jongeneelen, M., Yu, W., Ophorst, 322 C., Cox, F., Korse, H.J., Brandenburg, B., et al. (2011). A highly conserved neutralizing 323 epitope on group 2 influenza A viruses. Science 333, 843-850.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "Henchal, E.A., Henchal, L.S., and Schlesinger, J.J. (1988). Synergistic interactions of 325 anti-NS1 monoclonal antibodies protect passively immunized mice from lethal challenge 326 with dengue 2 virus. J Gen Virol 69 (Pt 8), 2101-2107.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "327 Kirchdoerfer, R.N., Wang, N., Pallesen, J., Wrapp, D., Turner, H.L., Cottrell, C.A., 328 Corbett, K.S., Graham, B.S., McLellan, J.S., and Ward, A.B. (2018). Stabilized 329 coronavirus spikes are resistant to conformational changes induced by receptor 330 recognition or proteolysis. Sci Rep 8, 15701.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "Lee, J., Boutz, D.R., Chromikova, V., Joyce, M.G., Vollmers, C., Leung, K., Horton, A.P.,332 DeKosky, B.J., Lee, C.H., Lavinder, J.J., et al. (2016). Molecular-level analysis of the 333 serum antibody repertoire in young adults before and after seasonal influenza 334 vaccination. Nat Med 22, 1456-1464.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "Letko, M., Marzi, A., and Munster, V. (2020). Functional assessment of cell entry and 336 receptor usage for SARS-CoV-2 and other lineage B betacoronaviruses. Nat Microbiol 337 10.1038/s41564-020-0688-y.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF21": {
+            "text": "Li, W., Moore, M.J., Vasilieva, N., Sui, J., Wong, S.K., Berne, M.A., Somasundaran, M., 339 Sullivan, J.L., Luzuriaga, K., Greenough, T.C., et al. (2003). Angiotensin-converting 340 enzyme 2 is a functional receptor for the SARS coronavirus. Nature 426, 450-454.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "V.D., Yount, B.L., Jr., Sims, A.C., Debbink, K., Agnihothram, S.S., Gralinski, 346 L.E., Graham, R.L., Scobey, T., Plante, J.A., Royal, S.R., et al. (2016). SARS-like WIV1-347 CoV poised for human emergence. Proc Natl Acad Sci U S A 113, 3048-3053. 348 Moritz, C.P., Tholance, Y., Lassabliere, F., Camdessanche, J.P., and Antoine, J.C. 349 (2019). Reducing the risk of misdiagnosis of indirect ELISA by normalizing serum-350 specific background noise: The example of detecting anti-FGFR3 autoantibodies. J 351 Immunol Methods 466, 52-56.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "Petro, C.,Gonzalez, P.A., Cheshenko, N., Jandl, T., Khajoueinejad, N., Benard, A.,    353 Sengupta, M., Herold, B.C., and Jacobs, W.R. (2015). Herpes simplex type 2 virus 354 deleted in glycoprotein D protects against vaginal, skin and neural disease. eLife 4, 355 e06054. 356 Poon, L.L.M., and Peiris, M. (2020). Emergence of a novel human coronavirus 357 threatening human health. Nat Med 10.1038/s41591-020-0796-5. 358 ter Meulen, J., van den Brink, E.N., Poon, L.L., Marissen, W.E., Leung, C.S., Cox, F., 359 Cheung, C.Y., Bakker, A.Q., Bogaards, J.A., van Deventer, E., et al. (2006). Human 360 monoclonal antibody combination against SARS coronavirus: synergy and coverage of 361 escape mutants. PLoS Med 3, e237.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF24": {
+            "text": "Tian, X., Li, C., Huang, A., Xia, S., Lu, S., Shi, Z., Lu, L., Jiang, S., Yang, Z., Wu, Y., et 363 al. (2020). Potent binding of 2019 novel coronavirus spike protein by a SARS 364 coronavirus-specific human monoclonal antibody. Emerg Microbes Infect 9, 382-385.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF25": {
+            "text": "Tseng, C.T., Sbrana, E., Iwata-Yoshikawa, N., Newman, P.C., Garron, T., Atmar, R.L.,366 Peters, C.J., and Couch, R.B. (2012). Immunization with SARS coronavirus vaccines 367 leads to pulmonary immunopathology on challenge with the SARS virus. PLoS One 7, 368 e35421. 369 Wang, S.F., Tseng, S.P., Yen, C.H., Yang, J.Y., Tsao, C.H., Shen, C.W., Chen, K.H., 370 Liu, F.T., Liu, W.T., Chen, Y.M., et al. (2014). Antibody-dependent SARS coronavirus 371 infection is mediated by antibodies against spike proteins. Biochem Biophys Res 372 Commun 451, 208-214.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF26": {
+            "text": "Watanabe, A., McCarthy, K.R., Kuraoka, M., Schmidt, A.G., Adachi, Y., Onodera, T., 374 Tonouchi, K., Caradonna, T.M., Bajic, G., Song, S., et al. (2019). Antibodies to a 375 conserved influenza head interface epitope protect by an IgG subtype-dependent 376 mechanism. Cell 177, 1124-1135.e1116.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF27": {
+            "text": "Weiss, R.C., and Scott, F.W. (1981). Antibody-mediated enhancement of disease in 378 feline infectious peritonitis: comparisons with dengue hemorrhagic fever. Comp Immunol379Microbiol Infect Dis 4, 175-189.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Black lines indicate mean +/-standard deviation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "455"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10. 1101 ",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 180,
+                    "text": "1101",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "456"
+        }
+    ]
+}

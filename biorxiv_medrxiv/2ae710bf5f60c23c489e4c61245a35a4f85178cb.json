@@ -1,0 +1,1274 @@
+{
+    "paper_id": "2ae710bf5f60c23c489e4c61245a35a4f85178cb",
+    "metadata": {
+        "title": "Heat inactivation of serum interferes with the immunoanalysis of antibodies to SARS-CoV-2",
+        "authors": [
+            {
+                "first": "Xiumei",
+                "middle": [],
+                "last": "Hu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Taixue",
+                "middle": [],
+                "last": "2#",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Guangdong Medical Aid Team for Hubei Province",
+                    "location": {
+                        "postCode": "430010",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "An",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bo",
+                "middle": [
+                    "Situ"
+                ],
+                "last": "2#",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Guangdong Medical Aid Team for Hubei Province",
+                    "location": {
+                        "postCode": "430010",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuhai",
+                "middle": [],
+                "last": "1#",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Hu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hankou Hospital of Wuhan",
+                    "location": {
+                        "postCode": "430010",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zihao",
+                "middle": [],
+                "last": "Ou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qiang",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaojing",
+                "middle": [],
+                "last": "He",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ye",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peifu",
+                "middle": [],
+                "last": "Tian",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hankou Hospital of Wuhan",
+                    "location": {
+                        "postCode": "430010",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dehua",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yongyu",
+                "middle": [],
+                "last": "Rui",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qian",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dan",
+                "middle": [],
+                "last": "Ding",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Bioactive Materials",
+                    "institution": "Nankai University",
+                    "location": {
+                        "postCode": "300071",
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": "dingd@nankai.edu.cn"
+            },
+            {
+                "first": "Lei",
+                "middle": [],
+                "last": "Zheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Medical University. Guangdong Engineering and Technology Research Center for Rapid Diagnostic Biosensors",
+                    "location": {
+                        "postCode": "510515",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": "nfyyzhenglei@smu.edu.cn"
+            },
+            {
+                "first": "",
+                "middle": [
+                    "Lei"
+                ],
+                "last": "Zheng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The detection of serum antibodies to the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is emerging as a new tool for the coronavirus disease-2019 diagnosis. Since many coronaviruses are sensitive to heat, heating inactivation of samples at 56 \u2103 prior to testing is considered a possible method to reduce the risk of transmission, but the effect of heating on the measurement of SARS-CoV-2 antibodies is still unclear. By comparing the levels of SARS-CoV-2 antibodies before and after heat inactivation of serum at 56 \u2103 for 30 minutes using a quantitative fluorescence immunochromatographic assay, we shown that heat inactivation significantly interferes with the levels of antibodies to SARS-CoV-2. The IgM levels of all the 34 serum samples (100%) from COVID-19 patients decreased by an average level of 53.56%. The IgG levels were decreased in 22 of 34 samples (64.71%) by an average level of 49.54%. Similar changes can also be observed in the non-COVID-19 diseases group (n=9). Of note, 44.12% of the detected IgM levels were dropped below the cut-off value after heating, suggesting heat inactivation can lead to false-negative results of these samples. Our results indicate .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https: //doi.org/10.1101//doi.org/10. /2020 that heat inactivation of serum at 56 \u2103 for 30 minutes interferes with the immunoanalysis of antibodies to SARS-CoV-2. Heat inactivation prior to immunoanalysis is not recommended and the possibility of false-negative results should be considered if the sample was pre-inactivated by heating.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The current outbreak of coronavirus disease-2019 (COVID-19) caused by a novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is posing a serious threat to public health. [1] [2] [3] Early diagnosis of suspect cases is critical to reduce and interrupt the transmission of COVID-19 from person-to-person. 4 Currently, laboratory testing of viral nucleic acid by real-time reverse transcriptase-polymerase chain reaction (RT-PCR) assay is the \"gold standard\" for COVID-19 diagnosing. 5 However, the requirement of sophisticated instruments and laboratory conditions, tedious experimental procedures, and longer detection time significantly hamper its widespread applicability. 4 Antibodies produced in the blood after COVID-19 infection are emerging as a promising class of biomarkers. 6 The antibodies to SARS-CoV-2 are specific, sensitive, and more importantly, their detection can be much faster and simpler than RT-PCR, which allows rapid screening of suspect cases to be possible. 7 All the biological specimens for COVID-19 testing should be considered to be potentially infectious. Therefore, test must be performed by medical professionals with protective equipment in a qualified laboratory. To further reduce the risk of exposure to infectious agents, viral inactivation before sample handling are usually be recommended. 8, 9 While the sensitivity of SARS-CoV-2 to the conditions of inactivation is unknown, it is reported that many coronavirus such as SARS are heat-sensitive and can be killed at 56 \u2103 for 30 minutes. [10] [11] [12] [13] [14] It is thus inferred that heating at 56 \u2103 could be an effective approach for SARS-CoV-2 inactivation. 15 However, the effect of heating at 56 \u2103 on COVID-19 antibody detection is unclear. The objective of this study was to compare the levels of . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 187,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 188,
+                    "end": 191,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 192,
+                    "end": 195,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 317,
+                    "end": 318,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 495,
+                    "end": 496,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 688,
+                    "end": 689,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 797,
+                    "end": 798,
+                    "text": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 997,
+                    "end": 998,
+                    "text": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1343,
+                    "end": 1345,
+                    "text": "8,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1346,
+                    "end": 1347,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1541,
+                    "end": 1545,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1546,
+                    "end": 1550,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1551,
+                    "end": 1555,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1556,
+                    "end": 1560,
+                    "text": "[13]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1561,
+                    "end": 1565,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1667,
+                    "end": 1669,
+                    "text": "15",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034231 doi: medRxiv preprint COVID-19 antibody before and after heat inactivation. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034231 doi: medRxiv preprint ([95% CI,21.37%-66.63%]). None of the measured antibodies became higher than the cut-off value after heating.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034231 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034231 doi: medRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "This study analyzes the changes in SARS-CoV-2 antibody concentration before and after heat inactivation at 56 \u2103 for 30 minutes. We found that after heat inactivation, all of the serum IgM (100%) demonstrated significantly lower levels. For IgG, 64.71% of the sample levels dropped after heat inactivation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "All immunological assays are highly dependent on the recognition and binding of antigens to antibodies. The decrease in SARS-CoV-2 antibody levels may be related to their structural change of denaturation and aggregation. 16, 17 Previous studies have shown that antibodies can be denatured and lose their antigen binding activities after heating, 18 and IgM is reported to be less thermally stable than IgG 19,20 due to their different compositions and structures of heavy chains. 21 This is consistent with our results that SARS-CoV-2 IgM concentration decreased more significantly than IgG after heating. In . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 222,
+                    "end": 225,
+                    "text": "16,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 226,
+                    "end": 228,
+                    "text": "17",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 347,
+                    "end": 349,
+                    "text": "18",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 481,
+                    "end": 483,
+                    "text": "21",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034231 doi: medRxiv preprint addition, the IgG levels in 12 samples (35.29%) increased with a median of 24.22% after heating, which may be due to the increases immunogenicity caused by the formation of IgG aggregates heating at 56 . 16, 22, 23 It is noteworthy that after heat inactivation, 44.12% of the IgM levels form COVID-19 patients were below the cut-off value. These results suggests that heat inactivation of serum can lead to false-negative results in these samples.",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 351,
+                    "text": "16,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 352,
+                    "end": 355,
+                    "text": "22,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 356,
+                    "end": 358,
+                    "text": "23",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Heat inactivation of serum at 56 \u2103 for 30 minutes interferes with the immunoanalysis of antibodies to SARS-CoV-2. For highly suspected cases, the possibility of false-negative results should be considered if the sample was inactivated by heating.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "covid-19 has killed more people than SARS and MERS combined, despite lower case fatality rate",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mahase",
+                    "suffix": ""
+                },
+                {
+                    "first": "Coronavirus",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "British Medical Journal",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A novel coronavirus outbreak of global health concern",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P W",
+                    "middle": [],
+                    "last": "Horby",
+                    "suffix": ""
+                },
+                {
+                    "first": "F G",
+                    "middle": [],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "470--473",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The novel coronavirus originating in Wuhan, China: challenges for global health governance",
+            "authors": [
+                {
+                    "first": "A L",
+                    "middle": [],
+                    "last": "Phelan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gostin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of the American Medical Association",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1097"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "World Health Organization, Laboratory testing for coronavirus disease 2019 (COVID-19) in suspected human cases: interim guidance",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Genernal office of the National Health Commission, Guide of diagnosis and treatment of novel coronavirus (nCoV) pneumonia, 6th Version",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Development and clinical application of a rapid IgM-IgG combined antibody test for SARS-CoV-2 infection diagnosis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Medrxiv Preprint",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Medical Virology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.12.20034231"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "World Health Organization, Infection prevention and control during health care when novel coronavirus (nCoV) infection is suspected: interim guidance",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Inactivation of the coronavirus that induces severe acute respiratory syndrome, SARS-CoV",
+            "authors": [
+                {
+                    "first": "M E R",
+                    "middle": [],
+                    "last": "Darnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Subbarao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S M",
+                    "middle": [],
+                    "last": "Feinstone",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Journal of Virological Methods",
+            "volume": "121",
+            "issn": "1",
+            "pages": "85--91",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Heat inactivation of the Middle East respiratory syndrome coronavirus, Influenza and Other Respiratory Viruses",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Leclercq",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bat\u00e9jat",
+                    "suffix": ""
+                },
+                {
+                    "first": "A M",
+                    "middle": [],
+                    "last": "Burgui\u00e8re",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Manuguerra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "585--586",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Heat sensitivity of a SARS-associated coronavirus introduced into plasma products",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yunoki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Urayama",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abe",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ikuta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Vox Sanguinis",
+            "volume": "87",
+            "issn": "4",
+            "pages": "302--303",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Inactivation of SARS coronavirus by means of povidone-iodine, physical conditions and chemical reagents",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kariwa",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Fujii",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Takashima",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Dermatology",
+            "volume": "212",
+            "issn": "1",
+            "pages": "119--123",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Stability of SARS coronavirus in human specimens and environment and its sensitivity to heating and UV irradiation",
+            "authors": [
+                {
+                    "first": "S M",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "R F",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J J",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G H",
+                    "middle": [],
+                    "last": "Pi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "S L",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X P",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sars Research Team",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Biomedical and Environmental Sciences",
+            "volume": "16",
+            "issn": "3",
+            "pages": "246--255",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Coronavirus disease 2019: coronaviruses and blood safety",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tmrv.2020.02.003"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Antibody structure, instability, and formulation",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D L",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nema",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Journal of Pharmaceutical Sciences",
+            "volume": "96",
+            "issn": "1",
+            "pages": "1--26",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Effect of heat treatment on the antigen-binding activity of anti-peroxidase immunoglobulins in bovine colostrum",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dominguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M D",
+                    "middle": [],
+                    "last": "Perez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Calvo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Journal of Dairy Science",
+            "volume": "80",
+            "issn": "12",
+            "pages": "3182--3187",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "IgM and lactoferrin contents of human milk during early lactation and the effect of processing and storage",
+            "authors": [
+                {
+                    "first": "S J",
+                    "middle": [],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J S",
+                    "middle": [],
+                    "last": "Dickson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H M",
+                    "middle": [],
+                    "last": "Barnhart",
+                    "suffix": ""
+                },
+                {
+                    "first": "R T",
+                    "middle": [],
+                    "last": "Toledo",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Eiten-Miller R R",
+                    "suffix": ""
+                },
+                {
+                    "first": "Igg",
+                    "middle": [],
+                    "last": "Iga",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Journal of Food Protection",
+            "volume": "46",
+            "issn": "1",
+            "pages": "4--7",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Effects of pulsed electric fields and heat treatment on stability and secondary structure of bovine immunoglobulin G",
+            "authors": [
+                {
+                    "first": "S Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J A",
+                    "middle": [],
+                    "last": "Bomser",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Agricultural and Food Chemistry",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Kinetic and thermodynamic parameters for heat denaturation of bovine milk IgG, IgA and IgM",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mainer",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "S\u00e1nchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J M",
+                    "middle": [],
+                    "last": "Ena",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Calvo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Journal of Food Science",
+            "volume": "62",
+            "issn": "5",
+            "pages": "1034--1038",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Heat denaturation of the antibody, a multi-domain protein",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Akazawa-Ogawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nagai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hagihara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Biophysical Reviews",
+            "volume": "10",
+            "issn": "2",
+            "pages": "255--258",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The effect of heat inactivation of serum on aggregation of immunoglobulins",
+            "authors": [
+                {
+                    "first": "R D",
+                    "middle": [],
+                    "last": "Soltis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hasz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M J",
+                    "middle": [],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1979,
+            "venue": "Immunology",
+            "volume": "36",
+            "issn": "1",
+            "pages": "37--45",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Structure-immunogenicity relationships of therapeutic proteins",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hermeling",
+                    "suffix": ""
+                },
+                {
+                    "first": "D J",
+                    "middle": [],
+                    "last": "Crommelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Schellekens",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Jiskoot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Pharmaceutical Research",
+            "volume": "21",
+            "issn": "6",
+            "pages": "897--903",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "A total of 34 serum samples with positive SARS-CoV-2 antibody results from patients with COVID-19 infections and 9 serum form non-COVID-19 diseases were collected form Hankou Hospital, Wuhan city with approval of the ethics committee (hkyy2020-004). All patients with COVID-19 infections were confirmed by RT-PCR. The antibody detection kits for SARS-CoV-2 were obtained from KingFocus Biomedical engineering Co.,Ltd (AIE/Quantum dot-based fluorescence immunochromatographic assay, AFIA). The immunoassay quantitatively measures IgM and IgG antibodies to SARS-CoV-2. Serum samples before and after heat inactivation at 56 \u2103 for 30 minutes were analyzed according to the protocol. Briefly, 100 microliters of serum was dropped on the test card and the fluorescence signal was measured after 15 minutes. Detection values above the cut-off threshold are considered positive. Results In the patients with COVID-19, the IgM signals of all the 34 serum samples (64%-99.49%]; P < 0.013) after heat inactivation. The IgG signals were decreased in 22 of 34 samples (64.71%) by an average level of 49.54% ([95% CI,8.76%-90.32%]), and 12 samples (35.29%) increased with a median percentage of 24.22%. 44.12% of the IgM signals form COVID-19 patients were below the cut-off value after heat inactivation. In the non-COVID-19 group, the IgM levels were decreased in 7 of 9 samples (77.78%) by an average of 43.31% (Figure 2) after heat inactivation and 2 samples (22.22%) increased with an average level of 29.84% ([95% CI,5.44%-54.23%]). The IgG signals were decreased in 7 of 9 samples (77.78%) by an average level of 79.42% ([95% CI,44.54%-114.31%]), and 2 samples (22.22%) increased with an average level of 44.00%",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The changes in the IgM and IgG levels of the 34 serum samples from patients with COVID-19 infections detected by AFIA before and after heat inactivation. Dash line indicates the cut-off value of the assay.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The changes in the IgM and IgG levels of the 9 serum samples from non-COVID-19 group detected by AFIA before and after heat inactivation.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

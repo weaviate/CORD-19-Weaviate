@@ -1,0 +1,1941 @@
+{
+    "paper_id": "57a86b3acd182c955877afd4792719a4e9a0ac32",
+    "metadata": {
+        "title": "Cross-sectional Study Affiliations",
+        "authors": [
+            {
+                "first": "Yuchen",
+                "middle": [],
+                "last": "Ying",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Medical School of Ningbo University",
+                    "location": {
+                        "postCode": "315010",
+                        "settlement": "Ningbo",
+                        "region": "Zhejiang",
+                        "country": "P.R. China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fanqian",
+                "middle": [],
+                "last": "Kong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ningbo Medical Center Lihuili Hospital",
+                    "location": {
+                        "postCode": "315041",
+                        "settlement": "Ningbo",
+                        "region": "Zhejiang",
+                        "country": "P.R.China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Binbin",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "the Affiliated Hospital of Medical School of Ningbo University",
+                    "location": {
+                        "postCode": "315020",
+                        "settlement": "Ningbo",
+                        "country": "P.R. China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yunxin",
+                "middle": [],
+                "last": "Ji",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ningbo Hospital of Zhejiang University",
+                    "location": {
+                        "postCode": "315211",
+                        "settlement": "Ningbo",
+                        "region": "Zhejiang",
+                        "country": "P.R. China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhongze",
+                "middle": [],
+                "last": "Lou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ningbo Hospital of Zhejiang University",
+                    "location": {
+                        "postCode": "315211",
+                        "settlement": "Ningbo",
+                        "region": "Zhejiang",
+                        "country": "P.R. China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Liemin",
+                "middle": [],
+                "last": "Ruan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ningbo Hospital of Zhejiang University",
+                    "location": {
+                        "postCode": "315211",
+                        "settlement": "Ningbo",
+                        "region": "Zhejiang",
+                        "country": "P.R. China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: So far, the psychological impact of COVID-19 epidemic among family members of Health care workers (HCWs) in China has been neglected. The present cross-sectional study aimed to investigate the mental health status and related factors of families of HCWs in Designated Hospitals in Ningbo, China. Method: Family members of HCWs working in five designated hospitals in Ningbo, China were recruited between February 10th and 20th, 2020. Information on demographic variables, the COVID-19-related events in the lives, knowledge of COVID-19 and the working status of family members (that is, HCWs) was collected using online self-administered questionnaires. The mental health status were assessed using the Chinese version of Patient Health Questionnare-9 (PHQ-9) and Chinese version of Generalized Anxiety Disorder-7 (GAD-7). Multivariable logistic regression analyses were conducted to identify the main factors associated with the mental health conditions. Results: A total of 822 participants completed questionnaires correctly. (response rate of 95.80% ). The overall prevalence of GAD and depressive symptoms were 33.73%, and 29.35%, respectively. More times (hours) to focus on the COVID-19 (Odd ratio (OR)=1.215, 95% confidence interval (CI):1.061-1.391), family members (that is, HCWs) directly contact with confirmed or suspected COVID-19 patients (OR=1.477, 95%CI:1.069-2.040) were risk factors for GAD, while higher participants self-reported safety score for protective equipment of HCWs (OR=0.807, 95%CI:0.700-0.930) was a protective factor. More times (hours) to focus on the COVID-19 (OR=1.215, 95%CI:1.061-1.391), longer average working times per week for family members (that is, HCWs) (OR=1.017, 95%CI:1.005-1.029), being parents and other next of kin of HCWs were risk factors for depressive symptoms (OR=3.526, respectively). In addition, compared with participants who were HCWs, participants who were enterprise workers and were more likely to develop depressive symptoms(OR=1.750, 95%CI:1.104-2.776), while who were government employees or institutions All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Since December 2019, coronavirus disease 2019 (COVID- 19) outbreak has occurred in Wuhan, Hubei Province, China, which has spread rapidly throughout China and even the world 1 Compelling evidence have suggested that infectious disease pandemics, including severe acute respiratory syndrome (SARS), middle east respiratory syndrome (MERS) and 2009 novel influenza A (H1N1), were associated with mental health problems among the general population [7] [8] [9] , HCWs 10-14 , patients [15] [16] [17] and family members of patients 18 .",
+            "cite_spans": [
+                {
+                    "start": 54,
+                    "end": 57,
+                    "text": "19)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 174,
+                    "end": 175,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 331,
+                    "end": 337,
+                    "text": "(MERS)",
+                    "ref_id": null
+                },
+                {
+                    "start": 446,
+                    "end": 449,
+                    "text": "[7]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 450,
+                    "end": 453,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 454,
+                    "end": 457,
+                    "text": "[9]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 482,
+                    "end": 486,
+                    "text": "[15]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 487,
+                    "end": 491,
+                    "text": "[16]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 492,
+                    "end": 496,
+                    "text": "[17]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 528,
+                    "end": 530,
+                    "text": "18",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The severe situation of COVID-19 is also causing HCWs' mental health problems such as stress, anxiety and depressive symptoms in China 19 . One of the most important reasons is that many HCWs lacked contacting with families 19 . Meanwhile, they may also experience fear of contagion and spreading the virus to their families 20 .",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 137,
+                    "text": "19",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 224,
+                    "end": 226,
+                    "text": "19",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 325,
+                    "end": 327,
+                    "text": "20",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Based on the above research evidence, we have reason to speculate that families of HCWs may also suffer from similar psychological problems to HCWs during COVID-19 epidemic [21] [22] [23] . As a result, in the National Health Commission guidelines for emergency psychological crisis intervention for people affected by COVID-19, families of HCWs were ranked as the third priority group 24 .",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 177,
+                    "text": "[21]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 178,
+                    "end": 182,
+                    "text": "[22]",
+                    "ref_id": null
+                },
+                {
+                    "start": 183,
+                    "end": 187,
+                    "text": "[23]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org /10.1101 /10. /2020 To date, series of studies have explored the psychological impact of COVID-19 outbreak on HCWs 19, 20, 26, 27 . However , epidemiological data on the psychological impact among families of HCWs for COVID-19 epidemic have been limited.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 102,
+                    "text": "/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 113,
+                    "text": "/10. /2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 209,
+                    "end": 212,
+                    "text": "19,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 213,
+                    "end": 216,
+                    "text": "20,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 217,
+                    "end": 220,
+                    "text": "26,",
+                    "ref_id": null
+                },
+                {
+                    "start": 221,
+                    "end": 223,
+                    "text": "27",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Therefore, we performed a online-based cross-sectional study to investigate the mental health status and its influencing factors among families of HCWs who directly or indirectly contacted with confirmed or suspected COVID-19 patients in Ningbo, China. We hope our study findings will provide data support for the targeted interventions to this often unseen populations to cope with psychological problems during COVID-19 epidemic 28 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A cross-sectional study was conducted in Ningbo in February 2020. To prevent the spread of COVID-19 through droplets or contact, we used a online-based survey via the WeChat-based survey programme Questionnaire Star to collected data. With the help of five designated hospitals that have treated for confirmed or suspected COVID-19 patients in Ningbo, a total of 882 family members of HCWs from these five designated hospitals were invited to participate in this study. All participants were informed of study procedure upon their recruitment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and participants"
+        },
+        {
+            "text": "The inclusion criteria of this study were (1) being the next of kin of HCWs from designated-hospitals for medical treatment of COVID-19 in Ningbo; (2) having access to the internet; Exclusion criteria were as follows: (1) self-reported history of The questionnaires consisted of demographics, the Chinese version of Patient Health Questionnare-9 (PHQ-9) , the Chinese version of Generalized Anxiety Disorder-7 (GAD-7) and questionnaires that were developed specifically for this study, as there were no suitable scales available for measuring the factors related to families of HCWs during COVID-19 outbreak. The self-developed questionnaires included the working status of family members (that is, HCWs), the participants' knowledge of COVID-19, and the COVID-19-related events in the lives of participants.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and participants"
+        },
+        {
+            "text": "The demographic characteristics included age, gender, educational level, occupation and the kinship with HCWs. Occupation included the following four types:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographics"
+        },
+        {
+            "text": "(1)HCWs; (2) enterprise workers; (3) government employees or institutions employees; (4) students; (5) others, which consisted of freelancers, retirees, social workers, and other relevant staffs. The kinship of HCWs included the following four types:(1)spouses; (2)children; (3)parents; (4) other next of kin",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographics"
+        },
+        {
+            "text": "The working status of family members (that is, HCWs) included: (1)whether HCWs directly contact with confirmed or suspected COVID-19 patients; (2) the average working time (hours) per week for HCWs; (3) participants' self-reported safety score for protective equipment of HCWs (The safety scores ranging from 1 to 5, with the higher score indicating a better protective effect); (4) the department of HCWs, which was categorized into five items: a. front-line departments included respiratory department, infection department, ICU, fever clinic and isolation ward; b. medical technology department (imaging department and laboratory department, etc.); c. nursing department; d. logistics department; e. other departments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Self-developed questionnaires"
+        },
+        {
+            "text": "The participants' knowledge of COVID-19 was assessed by answering five single topic selection related to COVID-19: (1)which of the following symptoms is not a common symptom of COVID-19, with possible response options being fever, stuffy nose and runny nose, fatigue, and dry cough; (2) how many days do people returning All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Self-developed questionnaires"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.20033290 doi: medRxiv preprint from Hubei province need to be quarantined and observed, with possible response options being ten days, twelve days, fourteen days and fifteen days; (3) which of the following masks can prevent COVID-19, with possible response options being activated carbon mask, cotton mask, sponge mask and medical surgical mask; (4) the known transmission routes of COVID-19 do not include which of the following, with possible response options being contact transmission, droplet transmission, soil transmission and aerosol transmission; (5)with regard to the disposal of discarded masks, what is incorrect about the following statement, with possible response options being throw it away at any time when you run out of it, masks worn by people with fever need to be disinfected, sealed and discarded, wash your hands immediately after handling the mask and discarded masks should be discarded into hazardous trash cans.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Self-developed questionnaires"
+        },
+        {
+            "text": "Of the above five questions, one point for each correct answer and no points for incorrect answers. A total score was calculated by summing points for each of the five questions, ranging from 0 to 5, with the higher score indicating a better knowledge of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Self-developed questionnaires"
+        },
+        {
+            "text": "The COVID-19-related events in the lives of participants included: (1) whether there had been confirmed COVID-19 cases in families or friends; (2) whether there had been suspected COVID-19 cases in families or friends; (3) times to focus on COVID-19, which was measured by the average hour spent focusing on the COVID-19 information every day.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Self-developed questionnaires"
+        },
+        {
+            "text": "We employed the Chinese version of PHQ-9 to assess the depressive symptoms of families of HCWs. PHQ-9 is a self-report, 9-item measure to assess depression severity. Participants rated each item in accordance with the frequency of symptoms over the past two weeks, on a 4-point scale, from 0 (not at all ) to 3 (nearly every day).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient Health Questionnare-9"
+        },
+        {
+            "text": "Total scores range from 0 to 27, with higher scores indicting greater severity of depressive symptoms 29 . The PHQ-9 has been widely used in China 30,31 .The good internal consistency reliability (Cronbach's alpha coefficients ranged from 0.84 to 0.86) of the Chinese version of PHQ-9 has been demonstrated 32-34 . In the present All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient Health Questionnare-9"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.20033290 doi: medRxiv preprint study, Cronbach's \u03b1 = 0.81. The depressive symptom was defined as a total score of \u2265 5 points in the PHQ-9 according to the previous study during COVID-19 epidemic 25 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient Health Questionnare-9"
+        },
+        {
+            "text": "We employed the Chinese version of GAD-7 to assess the GAD of families of HCWs. GAD-7 is a self-report questionnaire that screening and measure severity of GAD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generalized Anxiety Disorder-7"
+        },
+        {
+            "text": "Participants rated seven items according to the frequency of symptoms in the past two weeks, on a 4-point scale , from 0 (not at all ) to 3 (nearly every day). Total scores range from 0 to 21, with higher scores indicting greater severity of GAD 35 . The GAD-7 has also been widely used in China and the good internal consistency reliability (Cronbach's alpha coefficients ranged from 0.84 to 0.88) of the Chinese version of GAD-7 has been confirmed [36] [37] [38] [39] [40] . In the present study, Cronbach's \u03b1 = 0.84.",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 248,
+                    "text": "35",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 450,
+                    "end": 454,
+                    "text": "[36]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 455,
+                    "end": 459,
+                    "text": "[37]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 460,
+                    "end": 464,
+                    "text": "[38]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 465,
+                    "end": 469,
+                    "text": "[39]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 470,
+                    "end": 474,
+                    "text": "[40]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Generalized Anxiety Disorder-7"
+        },
+        {
+            "text": "The presence of anxiety was defined as a total score of \u2265 5 points in the GAD-7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generalized Anxiety Disorder-7"
+        },
+        {
+            "text": "according to the previous study during COVID-19 epidemic 25 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generalized Anxiety Disorder-7"
+        },
+        {
+            "text": "Categorical variables were described as percentages and were compared using chi-square tests. Continuous variables were described as mean\u00b1SD and were compared using ANOVA analyse. Variables with skewed distributions were log-transformed to normal distribution. Multivariable logistic regressions were used to assess the associations between the PHQ-9 and GAD-7 score and potential related factors. Statistical analysis were performed using SPSS 22.0 (SPSS Inc., Chicago, IL,USA). Two-sided p-value <0.05 was considered statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Of the 882 participants who were recruited in this study, 845 completed the questionnaires correctly (response rate of 95.80% ). Table 1 presents characteristics of participants.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 129,
+                    "end": 136,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Demographic characteristics"
+        },
+        {
+            "text": "The mean age of participants was 37.98\u00b19.39 years. Among these samples, 52.66%",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic characteristics"
+        },
+        {
+            "text": "were male, nearly a half (46.98%) were also HCWs, 65.44% were in a spousal All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic characteristics"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic characteristics"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.20033290 doi: medRxiv preprint relationship with the HCWs, and most of participants (approximately 87.81%) had a Junior college or bachelor or above education.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic characteristics"
+        },
+        {
+            "text": "Only 0.36% and 8.28% of participants had confirmed and suspected COVID-19 cases in families or friends, respectively. 25.09% of participants focused on the COVID-19 for 3 hours or more every day. The mean score of participants' knowledge of COVID-19 was 4.45\u00b10.68. Almost one-sixth (15.5%) of participants' family members (that is, HCWs) worked in the Front-line departments, nearly a half (48.05%) have to directly contact with confirmed or suspected VOVID-19 patients, the mean working time per week for HCWs was 41.44\u00b113.07 hours, and the mean points of participants' self-reported safety score for protective equipment of HCWs was 3.78\u00b11.08.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic characteristics"
+        },
+        {
+            "text": "The prevalence of GAD and depressive symptoms among families of HCWs stratified by all the variables were also shown in Table 1 . The overall prevalence of GAD and depressive symptoms were 33.73%, and 29.35%, respectively. There was statistically significant difference in the prevalence of GAD by gender, age, times to focus on COVID-19 per day (hours), whether HCWs directly contact with confirmed or suspected VOVID-19 patients , the average working time per week for HCWs (hours) , and self-reported safety score for protective equipment of HCWs . There was statistically significant difference in the prevalence of depressive symptoms by gender, age, occupation, kinship of HCWs, times to focus on COVID-19 per day (hours), and the average working time per week for HCWs (hours).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 120,
+                    "end": 127,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "COVID-19 epidemic stratified by variables"
+        },
+        {
+            "text": "The associations of potential influence factors with GAD and depressive symptoms among families of HCWs during COVID-19 epidemic were presented in Table 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 147,
+                    "end": 154,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "HCWs during COVID-19 epidemic"
+        },
+        {
+            "text": "Multiple logistic regression analysis revealed that the participants who spent more times (hours) to focus on the COVID-19 (Odd ratio (OR)=1.215, 95% confidence interval (CI):1.061-1.391) and whose family members (that is, HCWs) directly All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "HCWs during COVID-19 epidemic"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "HCWs during COVID-19 epidemic"
+        },
+        {
+            "text": "This online-based cross-sectional study has provided evidence of a high prevalence of GAD and depressive symptoms among family members of HCWs in designated hospitals in Ningbo, China during COVID-19 epidemic. Therefore, as with HCWs, the mental health status of their families needs urgent attention. To the best of our knowledge, this is the first study to explore the mental health problems and its related factors among family members of HCWs during COVID-19 outbreak, and even the first study to investigate this issue during any infectious epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We note that 33.73% and 29.35% of family members of HCWs reported GAD and depressive symptoms, respectively. The prevalence of GAD and depressive symptoms were both much higher than the levels reported among general Chinese populations [41] [42] [43] [44] . In addition, The prevalence of GAD and depressive symptoms were All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 236,
+                    "end": 240,
+                    "text": "[41]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 241,
+                    "end": 245,
+                    "text": "[42]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 246,
+                    "end": 250,
+                    "text": "[43]",
+                    "ref_id": null
+                },
+                {
+                    "start": 251,
+                    "end": 255,
+                    "text": "[44]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.20033290 doi: medRxiv preprint both lower than levels reported for a total of 1563 medical staff in a previous study using the same assessment instrument and cut-off score as this study (44.7% and 50.7%) 26 . It worth nothing that this study was conducted in the early phase of COVID-19 epidemic when most of Chinese HCWs had been facing the most severe situation, which is causing extreme psychological response 19 . Comparing our current study data with similar studies conducted at the same designed-hospitals it was interesting to note that, family members of HCWs were more likely to develop GAD and depressive symptoms than HCWs (28.8% and 23.9%, respectively). Although one needs to be cautious when comparing data from different studies using inconsistent time frames and medical conditions, this finding does demonstrate, to some extent, that an extreme psychological impact in association with COVID-19 epidemic, also in family members of HCWs.",
+            "cite_spans": [
+                {
+                    "start": 317,
+                    "end": 319,
+                    "text": "26",
+                    "ref_id": null
+                },
+                {
+                    "start": 526,
+                    "end": 528,
+                    "text": "19",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Previous studies have demonstrated that hospital-related transmission was suspected to be the possible mechanism of infection for affected HCWs 45 . Thus, it is easy to understand that family members (that is, HCWs) directly contact with confirmed or suspected COVID-19 patients was associated with higher risk for GAD among participants, because they excessively concerned that their families might be infected or even die. This is consistent with the results of a previous study representing that family members of H1N1 patients suffer anxiety 18 .",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 146,
+                    "text": "45",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 546,
+                    "end": 548,
+                    "text": "18",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Moreover, without proper personal protective equipment, COVID-19 may endanger HCWs 46 .As a result, it is possibly understandable that participants who report a higher safety score for protective equipment of HCWs would believe that their families were better protected, and therefore they were less likely to develop GAD.",
+            "cite_spans": [
+                {
+                    "start": 83,
+                    "end": 85,
+                    "text": "46",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our findings demonstrated that longer average working times per week for HCWs was significantly associated with a higher risk of depressive symptoms among participants. Longer working times means that HCWs have to spent more time on contacting with confirmed or suspected COVID-19 patients, which may increase their chances of being infected with COVID-19 45 , and thus have a impact of depressive symptoms on their family members 18 . Longer working times would also occupy more family times of HCWs, and therefore may cause work-family conflict between HCWs All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 356,
+                    "end": 358,
+                    "text": "45",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 431,
+                    "end": 433,
+                    "text": "18",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.20033290 doi: medRxiv preprint and their family members, resulting in depression among both sides in the process of coping with this conflict 47 .",
+            "cite_spans": [
+                {
+                    "start": 255,
+                    "end": 257,
+                    "text": "47",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "It is interesting to note that, compared to participants who were HCWs, enterprise workers were more likely to develop depressive symptoms (OR=1.750, 95%CI:1.104-2.776). Most enterprise workers have no medical background, and thus lack sufficient cognitive ability to raise awareness of COVID-19 outbreak. Their psychological endurance is lacking during a pandemic, and therefore may develop depressive symptom 48 . In addition, many enterprises were forced to shut down their work and production during the epidemic in China, resulting in the loss of income for their employees. However, income reduction was the predicting factor with the highest correlation of depression among enterprise workers, according to the results of a previous study during SARS in 2003 49 . Government employees or institutions employees were less likely to have depressive symptoms, which was less documented in the literature. It is likely that these populations were more likely to have access to a transparent announcement of epidemic information, so one possible explanation is that they do not have to suffer a feeling of uncertainty, which is a known risk factor for depression during a infectious epidemic 51 . Moreover, compared with HCWs who always suffer depression during the infectious epidemic, including COVID-19 outbreak 15, 19, 26, 51 , most of government employees or institutions employees stayed away from confirmed or suspected COVID-19 patients, and therefore have lower risk of depressive symptoms than HCWs.",
+            "cite_spans": [
+                {
+                    "start": 411,
+                    "end": 413,
+                    "text": "48",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 766,
+                    "end": 768,
+                    "text": "49",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1194,
+                    "end": 1196,
+                    "text": "51",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1317,
+                    "end": 1320,
+                    "text": "15,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1321,
+                    "end": 1324,
+                    "text": "19,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1325,
+                    "end": 1328,
+                    "text": "26,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1329,
+                    "end": 1331,
+                    "text": "51",
+                    "ref_id": "BIBREF61"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Meanwhile, similar to the results of a previous study during H1N1 in 2009, higher depression was noted for those in non-spousal relationships with HCWs, i.e. in our sample these were parents and other next of kin. Considering the majority of parents of HCWs were already elderly, one possible explanation is that rapid transmission of COVID-19 and high death rate have exacerbated the risk of mental health problems and worsen existing psychiatric symptoms among older adults 52 . We also speculate that most of parents and other next of kin of HCWs have no medical background, and therefore have a more extreme psychological response to COVID-19 epidemic, as we have discussed before 48 .",
+            "cite_spans": [
+                {
+                    "start": 476,
+                    "end": 478,
+                    "text": "52",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 685,
+                    "end": 687,
+                    "text": "48",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.20033290 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The only factor significantly associated with both GAD and depressive symptoms was times focus on COVID-19, which is consistent with findings in the general populations during COVID-19 outbreak 51 author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 196,
+                    "text": "51",
+                    "ref_id": "BIBREF61"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.20033290 doi: medRxiv preprint essential to enhance their sense of control and self-efficacy, and therefore enable them to cope with the psychological impact of COVID-19 outbreaks 58 . This study has several limitations. First, because we performed a cross-sectional study, our results do not show a causal relationship. Second, in order to prevent potential COVID-19 infection, a web-based survey was conducted, and therefore the sampling of our study was voluntary, resulting in possible selection bias. Third, our sample is not highly representative as the respondents were all from Ningbo city.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The present study provided evidence of a major mental health burden of family members of HCWs worked in designated hospitals during COVID-19 epidemic in Ningbo, China, particularly in participants with more times to focus on COVID-19, family members (that is, HCWs) directly contact with confirmed or suspected COVID-19 patients, family members (that is, HCWs) have longer average working times per week, and who were in non-spousal relationships with HCWs. On the contrary, participants' higher self-reported safety score for protective equipment of HCWs was a protective factor against psychological problems. Compared with participants who were HCWs, those who were enterprise workers were more likely to develop mental health problems, while who were government employees or institutions employees were less likely to report psychological response. In summary, we suggest that more attention should be paid on the mental health status of this vulnerable but often unseen populations in a infectious disease outbreak. In addition, our findings are important in enabling government to allocate health resources and offer appropriate treatments for family members of HCWs who suffer mental health problems during COVID-19 epidemic and any of the infectious disease outbreak in the future. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest:"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.20033290 doi: medRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A novel coronavirus outbreak of global health concern",
+            "authors": [
+                {
+                    "first": "Wang",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Horby",
+                    "middle": [],
+                    "last": "Peter",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hayden",
+                    "middle": [],
+                    "last": "Frederick",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "National Health Commission of the People's Republic of China. , The latest situation of COVID-19 epidemic as of",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "World Health Organization. Coronavirus disease 2019 (COVID-19) Situation Report-47",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "List of COVID-19 designated Hospitals in Zhejiang Province",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Psychosocial impact among the public of the severe acute respiratory syndrome epidemic in Taiwan",
+            "authors": [
+                {
+                    "first": "Yen",
+                    "middle": [],
+                    "last": "Ko Chih-Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yen",
+                    "middle": [],
+                    "last": "Cheng-Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ju-Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Intolerance of uncertainty, appraisals, coping, and anxiety: the case of the 2009 H1N1 pandemic",
+            "authors": [
+                {
+                    "first": "Taha",
+                    "middle": [],
+                    "last": "Sheena",
+                    "suffix": ""
+                },
+                {
+                    "first": "Matheson",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cronin",
+                    "middle": [],
+                    "last": "Tracey",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Community psychological and behavioral responses through the first wave of the 2009 influenza A(H1N1) pandemic in Hong Kong",
+            "authors": [
+                {
+                    "first": "Cowling",
+                    "middle": [],
+                    "last": "Benjamin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ng",
+                    "middle": [],
+                    "last": "Diane",
+                    "suffix": ""
+                },
+                {
+                    "first": "M W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ip",
+                    "middle": [],
+                    "last": "Dennis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Survey of stress reactions among health care workers involved with the SARS outbreak",
+            "authors": [
+                {
+                    "first": "Bai",
+                    "middle": [],
+                    "last": "Yamei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lin",
+                    "middle": [],
+                    "last": "Chao-Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lin",
+                    "middle": [],
+                    "last": "Chih-Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The mental health of hospital workers dealing with severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "Lu",
+                    "middle": [],
+                    "last": "Yi-Ching",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shu",
+                    "middle": [],
+                    "last": "Bih-Ching",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chang",
+                    "middle": [],
+                    "last": "Yong-Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Psychological impact of the 2015 MERS outbreak on hospital workers and quarantined hemodialysis patients",
+            "authors": [
+                {
+                    "first": "Lee",
+                    "middle": [],
+                    "last": "Sang Min",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kang Won",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cho",
+                    "middle": [],
+                    "last": "Sub",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ah-Rang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Psychological impact of the 2015 MERS outbreak on hospital workers and quarantined hemodialysis patients",
+            "authors": [
+                {
+                    "first": "Lee",
+                    "middle": [],
+                    "last": "Sang Min",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kang Won",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cho",
+                    "middle": [],
+                    "last": "Sub",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ah-Rang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Stress and psychological distress among SARS survivors 1 year after the outbreak",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcalonan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Is quarantine related to immediate negative psychological consequences during the 2009 H1N1 epidemic?",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Psychological response of family members of patients hospitalised for influenza A/H1N1 in Oaxaca, Mexico",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Elizarrar\u00e1s-Rivas",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Vargas-Mendoza",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mayoral-Garc\u00eda",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The mental health of medical workers in",
+            "authors": [
+                {
+                    "first": "Li",
+                    "middle": [],
+                    "last": "Kang Lijun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hu",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Shaohua",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "China dealing with the 2019 novel coronavirus",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wuhan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Timely mental health care for the 2019 novel coronavirus outbreak is urgently needed",
+            "authors": [
+                {
+                    "first": "Xiang",
+                    "middle": [],
+                    "last": "Yu-Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Li",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J] .Lancet Psychiatry",
+            "volume": "7",
+            "issn": "",
+            "pages": "228--229",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The 2014 Ebola outbreak and mental health: current status and recommended response",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shultz James",
+                    "suffix": ""
+                },
+                {
+                    "first": "Baingana",
+                    "middle": [],
+                    "last": "Florence",
+                    "suffix": ""
+                },
+                {
+                    "first": "Neria",
+                    "middle": [],
+                    "last": "Yuval",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Reliability and validity of the Chinese version of the Patient Health Questionnaire 9 (C-PHQ-9) in patients with epilepsy",
+            "authors": [
+                {
+                    "first": "Xia",
+                    "middle": [],
+                    "last": "Nian-Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lin",
+                    "middle": [],
+                    "last": "Jia-He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ding",
+                    "middle": [],
+                    "last": "Si-Qi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "A brief measure for assessing generalized anxiety disorder: the GAD-7",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Spitzer Robert",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kroenke",
+                    "middle": [],
+                    "last": "Kurt",
+                    "suffix": ""
+                },
+                {
+                    "first": "Williams",
+                    "middle": [],
+                    "last": "Janet",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "The prevalence of anxiety and depression in patients with or without hyperhidrosis (HH)",
+            "authors": [
+                {
+                    "first": "Bahar",
+                    "middle": [],
+                    "last": "Rayeheh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhou",
+                    "middle": [],
+                    "last": "Pingyu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Liu",
+                    "middle": [],
+                    "last": "Yudan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Effect of generalized anxiety disorders on the success of pessary treatment for pelvic organ prolapse",
+            "authors": [
+                {
+                    "first": "Ai",
+                    "middle": [],
+                    "last": "Fang-Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mao",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhang",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The discordance of information needs between cancer patients and their families in China",
+            "authors": [
+                {
+                    "first": "Yi",
+                    "middle": [],
+                    "last": "Ting-Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Deng",
+                    "middle": [],
+                    "last": "Yao-Tiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chen",
+                    "middle": [],
+                    "last": "Hui-Ping",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Validation of the Generalized Anxiety Disorder-7 (GAD-7) among Chinese people with epilepsy",
+            "authors": [
+                {
+                    "first": "An",
+                    "middle": [],
+                    "last": "Tong Xin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mcgonigal",
+                    "middle": [],
+                    "last": "Dongmei",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Aileen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Prevalence and risk factors of depression and anxiety among patients with convulsive epilepsy in rural West China",
+            "authors": [
+                {
+                    "first": "Wang",
+                    "middle": [],
+                    "last": "Hai-Jiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tan",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "Deng",
+                    "middle": [],
+                    "last": "Ying",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Reliability and validity of the Chinese version of the Patient Health Questionnaire (PHQ-9) in the general population",
+            "authors": [
+                {
+                    "first": "Wang",
+                    "middle": [],
+                    "last": "Wenzheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bian",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhao",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "The Patient Health",
+            "authors": [
+                {
+                    "first": "Yu",
+                    "middle": [],
+                    "last": "Xiaonan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tam",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "W S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wong",
+                    "middle": [],
+                    "last": "Paul",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Generalized anxiety disorder in urban China: prevalence, awareness, and disease burden",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Calhoun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of Affective Disorder",
+            "volume": "234",
+            "issn": "",
+            "pages": "89--96",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "Wang",
+                    "middle": [],
+                    "last": "Dawei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hu",
+                    "middle": [],
+                    "last": "Bo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hu",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "The outbreak of COVID-19: An overview",
+            "authors": [
+                {
+                    "first": "Wu",
+                    "middle": [],
+                    "last": "Yi-Chi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chen",
+                    "middle": [],
+                    "last": "Ching-Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chan",
+                    "middle": [],
+                    "last": "Yu-Jiun",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Factors influencing job performance of nursing staff",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dhar",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Vicarious traumatization in the general public, members, and non-members of medical teams aiding in COVID-19 control",
+            "authors": [
+                {
+                    "first": "Zhenyu",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jingwu",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "Meiling",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.29.20029322"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Predictive factors of psychological disorder development during recovery following SARS outbreak",
+            "authors": [
+                {
+                    "first": "Mihashi",
+                    "middle": [],
+                    "last": "Mutsuko",
+                    "suffix": ""
+                },
+                {
+                    "first": "Otsubo",
+                    "middle": [],
+                    "last": "Yasunao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yinjuan",
+                    "middle": [],
+                    "last": "Xin",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Psychological impact of severe acute respiratory syndrome on health workers in a tertiary hospital",
+            "authors": [
+                {
+                    "first": "Chong",
+                    "middle": [],
+                    "last": "Mian-Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wang",
+                    "middle": [],
+                    "last": "Wen-Chih",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hsieh",
+                    "middle": [],
+                    "last": "Wen-Chien",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Generalized anxiety disorder, depressive symptoms and sleep quality during COVID-19 epidemic in China: a web-based cross-sectional survey",
+            "authors": [
+                {
+                    "first": "Yeen",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ning",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Mental health services for older adults in China during the COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Li",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhang",
+                    "middle": [],
+                    "last": "Qinge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J] .Lancet Psychiatry",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Information Dissemination of Public Health Emergency on Social Networks and Intelligent Computation",
+            "authors": [
+                {
+                    "first": "Hu",
+                    "middle": [],
+                    "last": "Hongzhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mao",
+                    "middle": [],
+                    "last": "Huajuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hu",
+                    "middle": [],
+                    "last": "Xiaohua",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "The Risk and Prevention of",
+            "authors": [
+                {
+                    "first": "Zhu",
+                    "middle": [],
+                    "last": "Yuncheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chen",
+                    "middle": [],
+                    "last": "Liangliang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ji",
+                    "middle": [],
+                    "last": "Haifeng",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": ". As of March 8, 2020, a total of 80,695 COVID-19 confirmed cases with 3,097 deaths had been reported in mainland China and the 21,110 confirmed cases with 413 deaths had been reported outside of China. In total, the global number of confirmed cases of COVID-19 has surpassed 100,000 in 93 countries/territories/areas 2,3 . The first confirmed case of COVID-19 in Ningbo was reported on January 21 , 2020 4 . As of March 8, 2020, a total of 157 COVID-19 cases have been confirmed in Ningbo 5 . In order to prevent and control the epidemic of COVID-19, the local government has set up fifteen designated-hospitals, of which five have treated for confirmed or suspected COVID-19 patients as of February 28, 2020 6 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ". Under this period of COVID-19 outbreak, most of the general populations, including family members of HCWs, stayed at home for isolation and faced with a great deal of information, as the government run national messaging campaigns that constantly emphasizing the dangers of COVID-19, especially on affected HCWs. Thus, family members of HCWs gained more time to gather information of HCWs who treated for COVID-19 patients, through the Internet and media 53 , for example on WeChat, which has spread the psychological influences, such as GAD and depressive symptoms, among the public more widely 20,54 . Moreover, the expression of this psychological reaction may be related to the normal protective response of the human body to the pressure of the epidemic, which also occurred in SARS outbreak in 2003 55 . In reviewing the results of this study, there is evidence that insufficient and inadequate attention was paid to family members of HCWs during COVID-19 epidemic in China. Several appropriate interventions to alleviate GAD and depressive symptoms among this vulnerable population are recommended as follows: First, health policy makers and stakeholders should collaborate to provide high-quality, timely crisis psychological services to families of HCWs. Online psychological self-help intervention systems, including online cognitive behavioural therapy for depression and anxiety (eg, on WeChat), would be appropriate for families of HCWs 25,54 . Second, providing suitable protective equipment, work schedule, and accommodation to HCWs would benefit family members who were concerned about HCWs being infected. Third, according to the findings of previous studies 21,27 , social support appeared as a protective effect on mental health problems between HCWs and their families. Thus, we strongly recommend both sides to take the initiative to communicate with each other to show their support. Last but not least, government's propaganda strategies should be well-organized and effective 56 . The provision of reliable and transparent epidemic information to family members of HCWs is All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Shuai,Yang Lulu,Zhang Chenxi et al. Online mental health services in China during the COVID-19 outbreak.[J] .Lancet Psychiatry, 2020, undefined: undefined 26. Zhou Zhu, Shabei Xu, Hui Wang, Zheng Liu, Jianhong Wu, et al. COVID-19 in Wuhan: Immediate Psychological Impact on 5062 Health Workers. medRxiv 2020.02.20.20025338; doi: https://doi.org/10.1101/2020.02.20.20025338/ 27. Chen Siyu, Min Xia, Weiping Wen, Liqian Cui eti al. Mental health status and coping strategy of medical workers in China during The COVID-19 outbreak. medRxiv 2020.02.23.20026872; doi: https://doi.org/10.1101/2020.02.23.20026872 28. Sim Kang,Chua Hong Choon,The psychological impact of SARS: a matter of heart and mind.[J] .CMAJ, 2004, 170: 811-2. 29. Kroenke, K., Spitzer, R.L., Williams, J.B.W., 2001. The PHQ-9: validity of a brief depression severity measure. [J] . Gen. Intern. Med. 16, 606-613. 30. Xiong Nana,Fritzsche Kurt,Wei Jing et al. Validation of patient health questionnaire (PHQ) for major depression in Chinese outpatients with multiple somatic symptoms: a multicenter cross-sectional study.[J] .J Affect Disord, 2015, 174: 636-43. 31. Zhang Yuying,Ting Rose,Lam Marco et al. Measuring depressive symptoms using the Patient Health Questionnaire-9 in Hong Kong Chinese subjects with type 2 diabetes.[J] .J Affect Disord, 2013, 151: 660-6. 32. Tsai Fang-Ju,Huang Yu-Hsin,Liu Hui-Ching et al. Patient health questionnaire for school-based depression screening among Chinese adolescents.[J] .Pediatrics, 2014, 133: e402-9. 33. Wang Wenzheng,Bian Qian,Zhao Yan et al. Reliability and validity of the Chinese version of the Patient Health Questionnaire (PHQ-9) in the general population.[J] .Gen Hosp Psychiatry, 2014, 36: 539-44. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "J., Verhaeghe, L.M., Steinberg, R., Mazzulli, T., 2003. The immediate psychological and occupational impact of the 2003 SARS outbreak in a teaching hospital.[J] . CMAJ 168, 1245-1251. doi:10.1001/jama.289.18.2432 56. Kang X, Fang Y, Li S et al. The Benefits of Indirect Exposure to Trauma: The Relationships among Vicarious Posttraumatic Growth, Social Support, and Resilience in Ambulance Personnel in China.[J] .Psychiatry investigation. 2018; 15(5):452-459. 57. Wang S, Wang BY, Peng C et al. Awareness on SARS and public health emergencies among general publics.[J] .Chinese Journal of Epidemiology.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.20033290 doi: medRxiv preprint contact with confirmed or suspected COVID-19 patients (OR=1.477, 95%CI:1.069-2.040) were significantly more likely to develop GAD, while higher participants' self-reported safety score for protective equipment of HCWs (OR=0.807, 95%CI:0.700-0.930) was a significantly protective factor for participants to suffer GAD. In addition, female participants were marginally significantly more likely to have GAD (OR=1.435, 95%CI:0.991-2.079) than males. Multiple logistic regression analysis also demonstrated that more times (hours) to focus on the COVID-19 (OR=1.215, 95%CI:1.061-1.391) and longer average working times per week for HCWs (OR=1.017, 95%CI:1.005-1.029) were significantly associated with higher risks of depressive symptoms among participants . Compared to participants who were HCWs , enterprise workers were significantly more likely to develop depressive symptoms (OR=1.750, 95%CI:1.104-2.776), while government employees or institutions employees were significantly less likely to have depressive symptoms (OR=0.529, 95%CI:0.286-0.977). Compared to participants who being a spouse of HCWs, parents and other next of kin were significantly much likely to develop depressive symptoms (OR=3.526, 95%CI:1.609-7.728 and OR=1.639, 95%CI:1.096-2.451, respectively)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Sample characteristics and associations with generalized anxiety disorder and depressive symptoms The COVID-19-related events in the lives of participants Whether there had been confirmed COVID-19 cases in families or friends The working status of family members (that is, HCWs) Abbreviations: n=number; GAD=Generalized Anxiety Disorder; PHQ= Patient Health Questionnaire; HCWs= health care workers; COVID-19=2019 Corona Virus Disease. Notes: Numbers in bold indicate statistical significance at the 5% level.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Factors associated with generalized anxiety disorder and depressive symptoms Whether there had been confirmed COVID-19 cases in families or friends Whether there had been suspected COVID-19 cases in families or friends Times to focus on COVID-19 per day (hours)Whether HCWs directly contact with confirmed or suspected VOVID-19 patientsAbbreviations: n=number; GAD=Generalized Anxiety Disorder; PHQ= Patient Health Questionnaire; HCWs= health care workers; COVID-19=2019 Corona Virus Disease; OR=Odd ratio; CI=Confidence interval. Notes: Numbers in bold indicate statistical significance at the 5% level. Adjusted for age, educational level, occupation, kinship of HCWs, whether there had been confirmed COVID-19 cases in families or friends, whether there had been suspected COVID-19 cases in families or friends, whether there had been suspected COVID-19 cases in families or friends, knowledge of COVID-19, the department of HCWs, whether HCWs directly contact with confirmed or suspected VOVID-19 patients, the average working time per week for HCWs and participants' self-reported safety score for protective equipment of HCWs.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

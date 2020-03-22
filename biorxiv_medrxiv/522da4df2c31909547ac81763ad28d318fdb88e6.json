@@ -1,0 +1,715 @@
+{
+    "paper_id": "522da4df2c31909547ac81763ad28d318fdb88e6",
+    "metadata": {
+        "title": "A highly conserved cryptic epitope in the receptor-binding 3 domains of SARS-CoV-2 and SARS-CoV 4 5 6 7",
+        "authors": [
+            {
+                "first": "Meng",
+                "middle": [],
+                "last": "Yuan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nicholas",
+                "middle": [
+                    "C"
+                ],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xueyong",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chang-Chun",
+                "middle": [
+                    "D"
+                ],
+                "last": "Lee",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ray",
+                "middle": [
+                    "T Y"
+                ],
+                "last": "So",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "HKU-Pasteur Research Pole",
+                    "institution": "The University of Hong Kong",
+                    "location": {
+                        "addrLine": "Li Ka Shing, 16",
+                        "settlement": "Hong Kong SAR",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Huibin",
+                "middle": [],
+                "last": "Lv",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "HKU-Pasteur Research Pole",
+                    "institution": "The University of Hong Kong",
+                    "location": {
+                        "addrLine": "Li Ka Shing, 16",
+                        "settlement": "Hong Kong SAR",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chris",
+                "middle": [
+                    "K P"
+                ],
+                "last": "Mok",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "HKU-Pasteur Research Pole",
+                    "institution": "The University of Hong Kong",
+                    "location": {
+                        "addrLine": "Li Ka Shing, 16",
+                        "settlement": "Hong Kong SAR",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ian",
+                "middle": [
+                    "A"
+                ],
+                "last": "Wilson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The outbreak of COVID-19, which is caused by SARS-CoV-2 virus, continues to spread 23 globally, but there is currently very little understanding of the epitopes on the virus. In 24 this study, we have determined the crystal structure of the receptor-binding domain 25 (RBD) of the SARS-CoV-2 spike (S) protein in complex with CR3022, a neutralizing 26 antibody previously isolated from a convalescent SARS patient. CR3022 targets a highly 27 conserved epitope that enables cross-reactive binding between SARS-CoV-2 and 28 SARS-CoV. Structural modeling further demonstrates that the binding site can only be 29 accessed when at least two RBDs on the trimeric S protein are in the \"up\" conformation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Overall, this study provides structural and molecular insight into the antigenicity of 31 SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "33",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "ONE SENTENCE SUMMARY",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Structural study of a cross-reactive SARS antibody reveals a conserved epitope on the 35 SARS-CoV-2 receptor-binding domain.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "(3). Such a high degree of sequence similarity raises the possibility that cross-reactive 48 epitopes may exist. A recent study has shown that CR3022, which is a human 49 neutralizing antibody that targets the receptor-binding domain (RBD) of SARS-CoV (4),",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "47"
+        },
+        {
+            "text": "can bind to the RBD of SARS-CoV-2 (5). This finding provides an opportunity to uncover 51 a cross-reactive epitope. 52 53 CR3022 was previously isolated from a convalescent SARS patient and is encoded by 54 germline genes IGHV5-51, IGHD3-10, IGHJ6 (heavy chain), and IGKV4-1, IGKJ2 (light 55 chain) (4). Based on IgBlast analysis (6), the IGHV of CR3022 is 3.1% somatically 56 mutated at the nucleotide sequence level, which results in eight amino-acid changes 57 from the germline sequence, whereas IGKV of CR3022 is 1.3% somatically mutated 58 resulting in three amino-acid changes from the germline sequence (fig. S1). We 59 therefore determined the crystal structure of CR3022 with the SARS-CoV-2 RBD at 3.1 60 \u00c5 resolution (table S1 and fig.S2 , A and B) (7). CR3022 uses both heavy and light 61 chains (Fig. 1B) , and all six complementarity-determining region (CDR) loops (Fig. 1C) ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 728,
+                    "end": 741,
+                    "text": "(table S1 and",
+                    "ref_id": null
+                },
+                {
+                    "start": 742,
+                    "end": 748,
+                    "text": "fig.S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 808,
+                    "end": 817,
+                    "text": "(Fig. 1B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 879,
+                    "end": 888,
+                    "text": "(Fig. 1C)",
+                    "ref_id": null
+                }
+            ],
+            "section": "50"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991570 doi: bioRxiv preprint 4 for interaction with the RBD. The buried surface area on the epitope is 917 \u00c5 2 and 63 SARS-CoV-2 recognition by CR3022 is largely driven by hydrophobic interactions (Fig.   64 1E). Five out of 11 somatic mutations are found in the paratope region ( fig. S2C ),",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 388,
+                    "end": 398,
+                    "text": "(Fig.   64",
+                    "ref_id": null
+                },
+                {
+                    "start": 472,
+                    "end": 480,
+                    "text": "fig. S2C",
+                    "ref_id": null
+                }
+            ],
+            "section": "62"
+        },
+        {
+            "text": "implying their likely importance in the affinity maturation process.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "65"
+        },
+        {
+            "text": "Out of 28 residues in the epitope (defined as residues buried by CR3022), 24 (86%) are 68 conserved between SARS-CoV-2 and SARS-CoV (Fig. 1D ). This high sequence 69 conservation explains the cross-reactivity of CR3022. Nonetheless, despite having a 70 high conservation in the epitope residues, CR3022 Fab binds to SARS-CoV RBD (K d = 1 71 nM) with a much higher affinity than to SARS-CoV-2 RBD (K d = 115 nM) (Table 1 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 132,
+                    "end": 140,
+                    "text": "(Fig. 1D",
+                    "ref_id": null
+                },
+                {
+                    "start": 411,
+                    "end": 419,
+                    "text": "(Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "67"
+        },
+        {
+            "text": "Mass spectrometry analysis has shown that a complex glycan is indeed present at this 79 N-glycosylation site in . An N-glycan at N370 would fit into a groove 80 formed between heavy and light chains ( fig. S4C ), which could increase contact and, 81 hence, binding affinity to CR3022. We then tested whether CR3022 was able to 82 neutralize SARS-CoV-2 and SARS-CoV in an in vitro microneutralization assay (7).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 201,
+                    "end": 209,
+                    "text": "fig. S4C",
+                    "ref_id": null
+                }
+            ],
+            "section": "78"
+        },
+        {
+            "text": "While CR3022 could neutralize SARS-CoV, it did not neutralize SARS-CoV-2 at the The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991570 doi: bioRxiv preprint 5 SARS-CoV-2 uses the same host receptor, angiotensin I converting enzyme 2 (ACE2) 89 as [9] [10] [11] . Interestingly, the epitope of CR3022 does not overlap with the 90 ACE2-binding site ( Fig. 2A) . Structural alignment of CR3022-SARS-CoV-2 RBD complex 91 with the ACE2-SARS-CoV-2 RBD complex (11) further indicates that binding of CR3022 92 would not clash with ACE2 (12). This analysis implies that the neutralization mechanism 93 of CR3022 does not depend on direct blocking of receptor binding, which is consistent 94 with the observation that CR3022 does not compete with ACE2 for binding to the RBD 95 (5). Unlike CR3022, most known SARS RBD-targeted antibodies compete with ACE2 for 96 binding to RBD (4, [13] [14] [15] [16] . The epitopes of these antibodies are very different from that 97 of CR3022 (Fig. 2B ). In fact, it has been shown that CR3022 can synergize with other 98 RBD-targeted antibodies to neutralize SARS-CoV (4). Although CR3022 itself cannot 99 neutralize SARS-CoV-2 in this in vitro assay, whether CR3022 can synergize with other 100 SARS-CoV-2 RBD-targeted monoclonal antibodies for neutralization remains to be 101 determined.",
+            "cite_spans": [
+                {
+                    "start": 311,
+                    "end": 314,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 315,
+                    "end": 319,
+                    "text": "[10]",
+                    "ref_id": null
+                },
+                {
+                    "start": 320,
+                    "end": 324,
+                    "text": "[11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 929,
+                    "end": 936,
+                    "text": "RBD (4,",
+                    "ref_id": null
+                },
+                {
+                    "start": 937,
+                    "end": 941,
+                    "text": "[13]",
+                    "ref_id": null
+                },
+                {
+                    "start": 942,
+                    "end": 946,
+                    "text": "[14]",
+                    "ref_id": null
+                },
+                {
+                    "start": 947,
+                    "end": 951,
+                    "text": "[15]",
+                    "ref_id": null
+                },
+                {
+                    "start": 952,
+                    "end": 956,
+                    "text": "[16]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 413,
+                    "end": 421,
+                    "text": "Fig. 2A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1034,
+                    "end": 1042,
+                    "text": "(Fig. 2B",
+                    "ref_id": null
+                }
+            ],
+            "section": "83"
+        },
+        {
+            "text": "Recently, the cryo-EM structure of homotrimeric SARS-CoV-2 S protein was determined 104 (17, 18) and demonstrated that the RBD, as in other coronaviruses (19, 20) adopts two 105 different dispositions in the trimer. The RBD can then undergo a hinge-like movement to 106 transition between \"up\" or \"down\" conformations ( Fig. 3A ). ACE2 host receptor can only 107 interact with the RBD when it is in the \"up\" conformation, whereas the \"down\" 108 conformation is inaccessible to ACE2. Interestingly, the epitope of CR3022 is also only 109 accessible when the RBD is in the \"up\" conformation ( Fig. 3, B and C) . Furthermore, the 110 ability for CR3022 to access the RBD also depends on the relative disposition of the The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991570 doi: bioRxiv preprint 6 protomer if the latter adopts a \"down\" conformation ( Fig. 3D) . As a homotrimer, the S 115 protein could potentially adopt four possible RBD configurations, namely none-\"up\", 116 single-\"up\", double-\"up\", and triple-\"up\". It appears that CR3022 can only bind to the S 117 protein when it is in double-\"up\" or triple-\"up\" configuration. Specifically, one molecule of 118 CR3022 can be accommodated in the double-\"up\" configuration ( Fig. 3E) , whereas three 119 molecules of CR3022 could potentially be accommodated in the triple-\"up\" configuration 120 (Fig. 3F ). Previous cryo-EM studies have also shown that the recombinant SARS-CoV S 121 protein is mostly found in the none-\"up\", single-\"up\", or double-\"up\" conformations (19, 122 21), but rarely in the triple-\"up\" conformation, even with ACE2 receptor bound (21, 22) .",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 92,
+                    "text": "(17,",
+                    "ref_id": null
+                },
+                {
+                    "start": 93,
+                    "end": 96,
+                    "text": "18)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1674,
+                    "end": 1678,
+                    "text": "(21,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1679,
+                    "end": 1682,
+                    "text": "22)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 320,
+                    "end": 327,
+                    "text": "Fig. 3A",
+                    "ref_id": null
+                },
+                {
+                    "start": 591,
+                    "end": 607,
+                    "text": "Fig. 3, B and C)",
+                    "ref_id": null
+                },
+                {
+                    "start": 914,
+                    "end": 922,
+                    "text": "Fig. 3D)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1293,
+                    "end": 1301,
+                    "text": "Fig. 3E)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1413,
+                    "end": 1421,
+                    "text": "(Fig. 3F",
+                    "ref_id": null
+                }
+            ],
+            "section": "103"
+        },
+        {
+            "text": "Together with the fact that CR3022 was isolated from a convalescent SARS patient (4) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "123"
+        },
+        {
+            "text": "Therefore, although CR3022 does not neutralize SARS-CoV-2 in vitro despite its 146 reasonable binding affinity, it is possible that this epitope can confer in vivo protection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "145"
+        },
+        {
+            "text": "The potential existence of non-neutralizing protective antibodies to SARS-CoV-2 148 highlights the need for an effective SARS-CoV-2 infection mouse model, which has yet 149 to be established.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "147"
+        },
+        {
+            "text": "Since there is currently great urgency in the efforts to develop a vaccine against SARS-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "151"
+        },
+        {
+            "text": "CoV-2, characterizing the epitopes on SARS-CoV-2 S protein is extremely valuable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "152"
+        },
+        {
+            "text": "Much work is now ongoing in isolating human monoclonal antibodies from SARS-CoV-2 154 patients. We anticipate that these investigations will decipher the antigenic properties ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "153"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https: //doi.org/10.1101 //doi.org/10. /2020 ",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 180,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 181,
+                    "end": 200,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "202"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Development and characterisation of neutralising monoclonal 203 antibody to the SARS-coronavirus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Berry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Virol Methods",
+            "volume": "120",
+            "issn": "",
+            "pages": "87--96",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Structure of severe acute respiratory syndrome coronavirus 205 receptor-binding domain complexed with neutralizing antibody",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Prabakaran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Biol Chem",
+            "volume": "281",
+            "issn": "",
+            "pages": "15829--15836",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion 208 conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb2507"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Structure, function, and antigenicity of the SARS-CoV-2 spike 210 glycoprotein",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.058"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Cryo-EM structures of MERS-CoV and SARS-CoV spike",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "2020 and become pandemic. COVID-19 is caused by a novel coronavirus, severe 40 acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (2). In fact, two other 41 coronaviruses have caused global outbreak in the past two decades, namely SARS-CoV 42 (2002-2003) and Middle East respiratory syndrome coronavirus (MERS-CoV) (2012-43 present). The surface spike glycoprotein (S), which is critical for virus entry through 44 engaging the host receptor and mediating virus-host membrane fusion, is the major 45 antigen of coronaviruses. The S proteins of SARS-CoV-2 and SARS-CoV, which are 46 phylogenetically closely related, have an amino-acid sequence identity of around 77%",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "and 72 fig. S3). We postulate that the difference in binding affinity of CR3022 between SARS-73 CoV-2 and SARS-CoV RBDs is due to the non-conserved residues in the epitope (fig. 74 S4). The most dramatic difference between the CR3022 epitope in SARS-CoV-2 and 75 SARS-CoV is an additional N-glycosylation site at N370 (N357 in SARS-CoV 76 numbering). The N-glycan sequon (NxS/T) arises from an amino-acid difference at 77 residue 372, where SARS-CoV has a Thr compared to Ala in SARS-CoV-2 (fig. S4B).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "84 highest concentration tested (400 \u00b5g/mL) (fig. S5). This in vitro neutralization result is 85 consistent with lower affinity binding of CR3022 for SARS-CoV-2, although other 86 explanations are possible as outlined below.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "111RBD on the adjacent protomer. CR3022 can only access RBD when the targeted RBD 112 on one protomer of the trimer and the RBD on the adjacent protomer are both in the \"up\" 113 conformation. The variable region of CR3022 would clash with the RBD on the adjacent",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "suggest that an antibody response can be elicited against this cryptic 125 epitope in SARS-CoV and possibly SARS-CoV-2. Structural comparison shows that, as 126 compared to SARS-CoV-2, the \"up\" conformation of RBD in SARS-CoV has a larger 127 dihedral angle to the horizontal plane of the S protein (fig. S6), suggesting that the 128 CR3022 epitope may be slightly more accessible in SARS-CoV than in SARS-CoV-2, in 129 these spike ectodomain constructs. Nevertheless, the availability of this cryptic epitope 130 on the actual virus surface still has to be quantified to fully comprehend its 131 immunological role during natural infection.132 133Overall, our study provides insight into how SARS-CoV-2 can be targeted by the 134 humoral immune response and revealed a conserved, but cryptic epitope shared 135 between SARS-CoV-2 and SARS-CoV. Recently, our group and others have identified a 136 conserved epitope on influenza A virus hemagglutinin (HA) that is located in the trimeric 137 interface and is only exposed through protein \"breathing\" (23-25), which is somewhat 138 analogous to the epitope of CR3022. Antibodies to this influenza HA trimeric interface 139 epitope do not exhibit in vitro neutralization activity but can confer in vivo protection.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "trimeric interface also are non-neutralizing in vitro, but protective in vivo 142 (26). Furthermore, there are other examples of antibodies that do not have in vitro 143 neutralization activity but confer in vivo protection, such as reported for influenza virus 144 (27), herpesvirus (28), cytomegalovirus (29), alphavirus (30), and dengue virus (31).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "155and major epitopes of SARS-CoV-2. In addition, the molecular features that antibodies 156 use for targeting neutralizing epitopes can inspire development of therapeutics, such as 157 antiviral peptides and small molecules (32). As this coronavirus outbreak continues to 158 pose an enormous global risk (33, 34), the availability of conserved epitopes may allow 159 structure-based design not only of a SARS-CoV-2 vaccine, but also for cross-protective 160 antibody responses against future coronavirus epidemics and pandemics. While a more 161 universal coronavirus vaccine is not the most urgent goal at present, it is certainly 162 worthwhile for future consideration especially as cross-protective epitopes are identified 163 so that we can be better prepared for the next novel coronavirus outbreak.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Zhou et al., A pneumonia outbreak associated with a new coronavirus of 173 probable bat origin. Nature 10.1038/s41586-020-2012-7 (2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Meulen et al., Human monoclonal antibody combination against SARS 175 coronavirus: synergy and coverage of escape mutants. PLoS Med 3, e237 176 (2006).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Tian et al., Potent binding of 2019 novel coronavirus spike protein by a SARS 178 coronavirus-specific human monoclonal antibody. Emerg Microbes Infect 9, 382-179 385 (2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Ye, N. Ma, T. L. Madden, J. M. Ostell, IgBLAST: an immunoglobulin variable 181 domain sequence analysis tool. Nucleic Acids Res 41, W34-40 (2013).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Watanabe et al., Vulnerabilities in coronavirus glycan shields despite 184 extensive glycosylation. bioRxiv 10.1101/2020.02.20.957472 (2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": ", A. Marzi, V. Munster, Functional assessment of cell entry and receptor 186 usage for SARS-CoV-2 and other lineage B betacoronaviruses. Nat Microbiol 187 10.1038/s41564-020-0688-y (2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Yan et al., Structural basis for the recognition of the SARS-CoV-2 by full-189 length human ACE2. Science 10.1126/science.abb2762 (2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "Lan et al., Crystal structure of the 2019-nCoV spike receptor-binding domain 191bound with the ACE2 receptor. bioRxiv10.1101/2020.02.19.956235 (2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "forms a dimer when it associates with an amino acid transporter 193 B 0 AT1 (10). We modeled a CR3022 IgG onto this dimer structure and found no 194 clashes of CR3022 with ACE2 in its dimeric form where the RBDs would likely 195 come from adjacent trimers on the virus (10).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "Sui et al., Potent neutralization of severe acute respiratory syndrome (SARS)197 coronavirus by a human mAb to S1 protein that blocks receptor association. Proc 198 Natl Acad Sci U S A 101,2536-2541 (2004).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": ". N. van den Brink et al., Molecular and biological characterization of human 200 monoclonal antibodies binding to the spike and nucleocapsid proteins of severe 201 acute respiratory syndrome coronavirus. J Virol 79,1635-1644 (2005).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "Gui et al., Cryo-electron microscopy structures of the SARS-CoV spike 215 glycoprotein reveal a prerequisite conformational state for receptor binding. Cell 216 Res 27, 119-129 (2017).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": ". N. Kirchdoerfer et al., Stabilized coronavirus spikes are resistant to 218 conformational changes induced by receptor recognition or proteolysis. Sci Rep 219 8, 15701 (2018).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF24": {
+            "text": "al. (19) observed 56% of the wild-type recombinant SARS-CoV S protein 221 particle in none-\"up\" conformation and 44% in single-\"up\" conformation, while 222 Kirchdoerfer et al. (21) found that recombinant SARS-CoV S protein, with 223 K968P/V969P mutations in the S2 subunit to stabilize the prefusion 224 conformation, has 58% single-\"up\", 39% in double-\"up\", and 3% in triple-\"up\" 225 conformations. However, it is not known whether the distribution of different 226 configurations of S proteins on virus surface is the same as that of recombinant S 227 protein. 228 23. S. Bangaru et al., A site of vulnerability on the influenza virus hemagglutinin head 229 domain trimer interface. Cell 177, 1136-1152.e1118 (2019).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF25": {
+            "text": "Watanabe et al., Antibodies to a conserved influenza head interface epitope 231 protect by an IgG subtype-dependent mechanism. Cell 177, 1124-1135.e1116 232 (2019).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF26": {
+            "text": "Bajic et al., Influenza antigen engineering focuses immune responses to a 234 subdominant but broadly protective viral epitope. Cell Host Microbe 25, 827-235 835.e826 (2019).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF27": {
+            "text": "Lee et al., Molecular-level analysis of the serum antibody repertoire in young 237 adults before and after seasonal influenza vaccination. Nat Med 22, 1456-1464 238 (2016).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF28": {
+            "text": "239 27. C. Dreyfus et al., Highly conserved protective epitopes on influenza B viruses.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF29": {
+            "text": "1343-1348 (2012).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF30": {
+            "text": ". W. Burke et al., Human-like neutralizing antibodies protect mice from aerosol 246 exposure with western equine encephalitis virus. Viruses 10, 147 (2018).247 31. E. A. Henchal, L. S. Henchal, J. J. Schlesinger, Synergistic interactions of anti-248 NS1 monoclonal antibodies protect passively immunized mice from lethal 249 challenge with dengue 2 virus. J Gen Virol 69 (Pt 8), 2101-2107 (1988).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF31": {
+            "text": "C. Wu, I. A. Wilson, Structural insights into the design of novel anti-influenza 251 therapies. Nat Struct Mol Biol 25, 115-121 (2018).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF32": {
+            "text": ". D. Menachery et al., A SARS-like cluster of circulating bat coronaviruses 253shows potential for human emergence. Nat Med 21,1508-1513 (2015).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF33": {
+            "text": ". D. Menachery et al., SARS-like WIV1-CoV poised for human emergence. Proc 255 Natl Acad Sci U S A 113, 3048-3053 (2016).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF34": {
+            "text": ", K. Henrick, Inference of macromolecular assemblies from crystalline 257 state. J Mol Biol 372, 774-797 (2007).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF35": {
+            "text": ". E. Pak et al., Structural insights into immune recognition of the severe acute 259 respiratory syndrome coronavirus S protein receptor binding domain. J Mol Biol 260 388, 815-823 (2009).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF36": {
+            "text": ". C. Hwang et al., Structural basis of neutralization by a human anti-severe 262 acute respiratory syndrome spike protein antibody, 80R. J Biol Chem 281,",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991570 doi: bioRxiv preprint 10 28. C. Petro et al., Herpes simplex type 2 virus deleted in glycoprotein D protects against vaginal, skin and neural disease. eLife 4, e06054 (2015). 29. A. Bootz et al., Protective capacity of neutralizing and non-neutralizing antibodies against glycoprotein B of cytomegalovirus. PLoS Pathog 13, e1006601 (2017).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Henry Tien for technical support with the crystallization robot, Jeanne",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "Matteson for contribution to mammalian cell culture, Wenli Yu to insect cell culture,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "267"
+        },
+        {
+            "text": "Robyn Stanfield for assistance in data collection, and Andrew Ward for discussion. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991570 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "268"
+        }
+    ]
+}

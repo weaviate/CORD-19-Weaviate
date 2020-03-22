@@ -1,0 +1,1368 @@
+{
+    "paper_id": "f14434d7d3b68f4fe7f68adba747b7700ccdd6ac",
+    "metadata": {
+        "title": "Prolonged presence of SARS-CoV-2 in feces of pediatric patients during the convalescent phase",
+        "authors": [
+            {
+                "first": "Yuhan",
+                "middle": [],
+                "last": "Xing",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Chinese University of Hong Kong",
+                    "location": {
+                        "settlement": "Hong Kong SAR",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Ni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Qingdao University",
+                    "location": {
+                        "settlement": "Qingdao, Shandong Province",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qin",
+                "middle": [],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Qingdao University",
+                    "location": {
+                        "settlement": "Qingdao, Shandong Province",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wenjie",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Qingdao University",
+                    "location": {
+                        "settlement": "Qingdao, Shandong Province",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Guoju",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Qingdao University",
+                    "location": {
+                        "settlement": "Qingdao, Shandong Province",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jianning",
+                "middle": [],
+                "last": "Tong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Qingdao University",
+                    "location": {
+                        "settlement": "Qingdao, Shandong Province",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiufeng",
+                "middle": [],
+                "last": "Song",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Qingdao University",
+                    "location": {
+                        "settlement": "Qingdao, Shandong Province",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Quansheng",
+                "middle": [],
+                "last": "Xing",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Qingdao University",
+                    "location": {
+                        "settlement": "Qingdao, Shandong Province",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Severe acute respiratory coronavirus 2 (SARS-CoV-2) is a newly identified virus which mainly spreads from person-to-person. Presence of SARS-CoV-2 has been constantly reported in stools of patients with coronavirus disease 2019 (COVID-19).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "However, there is a paucity of data concerning fecal shedding of the virus in pediatric patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Objective: To investigate dynamic changes of SARS-CoV-2 in respiratory and fecal specimens in children with COVID-19. , three pediatric cases of were reported in Qingdao, Shandong Province, China. Epidemiological, clinical, laboratory, and radiological characteristics and treatment data of these children were collected. Real-time fluorescence reverse-transcriptase-polymerase-chain reaction (RT-PCR) was performed to detect SARS-CoV-2 RNA in throat swabs and fecal specimens. Patients were followed up to March 10, 2020, the final date of follow-up, and dynamic profiles of RT-PCR results were closely monitored.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: All the three pediatric cases were household contacts of adults whose symptoms developed earlier. Severity of disease was mild to moderate and fever was the most consistent and predominant symptom at onset of illness of these children (two cases had body temperature higher than 38.5\u00b0C). All children showed increased lymphocytes (>4.4\u00d710 9 /L) with normal white blood cell counts on admission. Radiological changes were not typical for COVID-19. All children showed good response to supportive treatment. Clearance of SARS-CoV-2 in respiratory tract occurred within two weeks after abatement of fever, whereas viral RNA remained positive in stools of pediatric patients for longer than 4 weeks. Two children had fecal SARS-CoV-2 turned negative 20 days after throat swabs showing negative, while that of another child lagged behind for 8 days.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Interpretation: SARS-CoV-2 may exist in gastrointestinal tract for a longer time than respiratory system. Persistent shedding of SARS-CoV-2 in stools of infected children indicates the potential for the virus to be transmitted through fecal excretion. Massive efforts should be made at all levels to prevent spreading of the infection among children after reopening of kindergartens and schools.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "On December 12, 2019, 27 pneumonia cases of unknown cause emerged in Wuhan, Hubei Province, China. 1 The etiological agent was identified as a novel coronavirus and was later renamed as severe acute respiratory coronavirus 2 (SARS-CoV-2) by the world health organization (WHO). 2, 3 The pandemic of coronavirus disease 2019 (COVID-19) has wreaked havoc in China and spread rapidly to about ninety countries, constituting a global threat with the highest risk impact. 4 Epidemiological evidence gained in China suggested that most individuals lack relevant immunity and are generally susceptible to the virus. The majority of published studies of COVID-19 focused on adult populations. [5] [6] [7] [8] While knowledge on SARS-CoV-2 infection in children are still yet to be fully developed and only a limited number of case reports of pediatric patients are currently available. [9] [10] [11] [12] As of February 23, 2020, a cumulative total of 60 confirmed COVID-19 cases were temperature for more than 3 days\", \"with obvious features of absorption of inflammation shown in lung imaging\" and \"negative results of the nucleic acid tests of respiratory pathogens for consecutive two times [sampling interval at least 1 day]\"). 13",
+            "cite_spans": [
+                {
+                    "start": 99,
+                    "end": 100,
+                    "text": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 278,
+                    "end": 280,
+                    "text": "2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 281,
+                    "end": 282,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 467,
+                    "end": 468,
+                    "text": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 685,
+                    "end": 688,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 689,
+                    "end": 692,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 693,
+                    "end": 696,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 697,
+                    "end": 700,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 878,
+                    "end": 881,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 882,
+                    "end": 886,
+                    "text": "[10]",
+                    "ref_id": null
+                },
+                {
+                    "start": 887,
+                    "end": 891,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 892,
+                    "end": 896,
+                    "text": "[12]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "From January 17, 2020 to February 23, 2020, a total of 60 patients were diagnosed with COVID-19 in Qingdao, Shandong Province, China. We recruited all three pediatric patients with laboratory confirmed SARS-CoV-2 infection who were reported by the local health authority. Diagnosis of COVID-19 was based on the WHO interim guidance. 14 Patients were followed up on a regular basis after hospital discharge till March 10, 2020. All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03. 11.20033159 doi: medRxiv preprint This study was approved by the Ethics Commission of Qingdao Women and Children's Hospital (QFFLL-KY-2020-11) and written informed consent was obtained from patients' legal guardians prior to enrolment.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "11.20033159 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patients"
+        },
+        {
+            "text": "Personal, clinical, laboratory, and radiological characteristics and treatment and outcomes information were obtained with standardized data collection forms from electronic medical records. Additionally, we directly contacted patients' families to ascertain epidemiological and symptom information. Data were entered into a computerized database and doublechecked by two researchers independently.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Throat swabs were obtained from patients on admission. Fecal specimens were first collected in two patients (case 1, 1.5-year-old male; and case 2, 5-year-old male) on day 4 after onset of the disease. While the stool sample from another patient (case 3, 6-year-old female) was obtained 9 days after hospital discharge. To monitor the dynamic changes of viral shedding, we obtained throat swabs from patients every day during hospitalization and every other day during follow-up after discharge. Fecal specimens were collected applying a similar rationale since the first day of sample collection (samples from case 3 were only collected during follow-up period). Presence of SARS-CoV-2 RNA was detected by real-time fluorescence reverse-transcriptase-polymerase-chain reaction (RT-PCR) using a commercial kit approved by the China Food and Drug Administration. Detailed procedures were described elsewhere. 15 author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample Collection and Detection of SARS-CoV-2"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033159 doi: medRxiv preprint Laboratory findings of these children on admission to hospital are shown in Table 1 . On admission, all the children had increased lymphocyte count (>4.4\u00d710 9 /L). Only case 1 showed decreased neutrophil count (<1.7\u00d710 9 /L), whereas those of the other two children were within normal range. Elevation of platelets was observed in case 1 and case 2. Case 3 had increased levels of procalcitonin (0.73 ng/mL) and C-reaction protein (10.5 mg/L), while serum level of D-dimer (860.0 ng/mL) was found elevated in case 1. Reduced level of serum creatinine was detected in case 1 and case 2 (<41.0 \u00b5mol/L). Transverse chest computed tomograms (CT) showed delicate patches of ground glass opacity of lower lobe of right lung in case 1 on day 1 after symptom onset and consolidation changes of the left lower lobe near the pleura in case 2 on admission; while case 3 had no abnormality on CT imaging (Figure 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 220,
+                    "end": 227,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1036,
+                    "end": 1046,
+                    "text": "(Figure 1)",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Clinical presentations, laboratory and radiological findings"
+        },
+        {
+            "text": "Two pediatric patients (case 1 and case 2) and their family members with SARS-CoV-2 infection were admitted in Qingdao Women and Children's Hospital. During clinical practice, we noticed that the time for viral RNA in respiratory specimens turning negative was similar between pediatric patients and infected adults (these children's family members). At this point, adult patients had negative results for nucleic acid testing in fecal specimens, whereas SARS-CoV-2 RNA remained detectable in stools from the two infected children. Therefore, we conducted a quarantine and surveillance protocol for the children and their family members who were already qualified for hospital discharge according to current standards after recovery with two consecutively negative RT-PCR test results in throat swabs (sampling interval at least 1 day). Concerned about the possibility of fecal-oral transmission, we recorded the timeline of changes in nucleic acid testing results in both throat swabs and fecal samples collected from these patients (Figure 2 ). All adult patients of the two families showed negative results for fecal SARS-CoV-2 RNA detection. Strikingly, viral RNA remained detectable in stools of the two children for 8 and 20 days, respectively, after nucleic acid turning negative in respiratory samples.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1034,
+                    "end": 1043,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "Persistent fecal shedding of SARS-CoV-2 in pediatric patients during the convalescent phase"
+        },
+        {
+            "text": "We suspected whether this phenomenon also existed in the third pediatric patient (case 3) who was admitted in another designated hospital in Qingdao. Unfortunately, by the time we reached the patient, this child had already been \"cured\" and discharged. Medical professionals of this hospital did not collect fecal specimens from the patient and they only author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Persistent fecal shedding of SARS-CoV-2 in pediatric patients during the convalescent phase"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033159 doi: medRxiv preprint from case 3 and the child's family members 9 days after hospital discharge. This child showed positive results for RT-PCR analysis in feces. During quarantine and follow-up period, clearance of SARS-CoV-2 in stool samples occurred 20 days after viral RNA in respiratory specimens turning negative. Detailed information was not available as no fecal sample was examined during hospitalization.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Persistent fecal shedding of SARS-CoV-2 in pediatric patients during the convalescent phase"
+        },
+        {
+            "text": "The newly issued report of the WHO-China Joint Mission on COVID-19 summarized the evidence so far on SARS-CoV-2 and pointed out 2.4% of those infected were individuals below 18 years of age. 18 According to data released by the China Centers for Disease Control and Prevention, only 0.9% of COVID-19 patients were children under the age of 10 years. 19 Among the 60 patients infected with SARS-CoV-2 in Qingdao, 3 (5%) cases were children younger than 10 years of age.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 193,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 350,
+                    "end": 352,
+                    "text": "19",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Most of the pediatric COVID-19 patients had mild disease with good treatment response and a relatively short time to resolution, with exception of one critically ill case reported in Wuhan. 12 Consistent with previous findings, the three infected children in our study only presented with fever and mild cough or with no obvious symptom but CT abnormalities.",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 192,
+                    "text": "12",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "From available data, children appeared to be slightly affected by SARS-CoV-2, a feature resembling that of SARS-CoV emerged 17 years ago. 20 However, the relatively low attack rate of COVID-19 in children could be explained by the stringent implementation of home confinement and prolonged school closure during the outbreak as required by the Chinese governments. Whether it is also the case during school year is hard to tell. One distinct feature of pediatric cases is that almost all of them are infected through household contact with adult patients. [9] [10] [11] [12] 21 As with all new diseases, many characteristics of COVID-19 still remain largely unknown. There is limited data to support the notion that children are less susceptible to SARS-CoV-2 infection or virus transmission is less effective among them. Viral RNA has been constantly detected in stool samples and anal swabs collected from confirmed cases of COVID-19. 5, [22] [23] [24] [25] In one study, fecal specimens from 9 (53%) of 17 patients were positive for nucleic acid testing, although viral loads of the stool were less than those of respiratory samples. 24 Presence of SARS-CoV-2 was even detected in environmental samples taken from the surface of toilet bowl and sink in infection isolation rooms. 26 Moreover, SARS-CoV-2 remained viable in the stool of infected patients as reported by some case reports. 18 Evidence so far indicates the potential for SARS-CoV-2 to be transmitted through fecal excretion. 18 Although the role of fecal shedding in viral All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 140,
+                    "text": "20",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 556,
+                    "end": 559,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 560,
+                    "end": 564,
+                    "text": "[10]",
+                    "ref_id": null
+                },
+                {
+                    "start": 565,
+                    "end": 569,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 570,
+                    "end": 574,
+                    "text": "[12]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 575,
+                    "end": 577,
+                    "text": "21",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 937,
+                    "end": 939,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 940,
+                    "end": 944,
+                    "text": "[22]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 945,
+                    "end": 949,
+                    "text": "[23]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 950,
+                    "end": 954,
+                    "text": "[24]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 955,
+                    "end": 959,
+                    "text": "[25]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1137,
+                    "end": 1139,
+                    "text": "24",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1283,
+                    "end": 1285,
+                    "text": "26",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1391,
+                    "end": 1393,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1492,
+                    "end": 1494,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033159 doi: medRxiv preprint transmission has not been systematically determined, a cautious approach is warranted when handling stool samples.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "While we were closely monitoring the dynamic changes of fecal SARS-CoV-2 in our patients, a 6-year-old boy in Guangzhou, Guangdong Province, China, was reported to be under more than 34 days of hospitalization due to prolonged presence of viral RNA in stools after showing negative in respiratory samples. Actually, this phenomenon is not rare among pediatric patients. 27 Xiao and colleagues demonstrated that about a quarter of COVID-19 patients had SARS-CoV-2 RNA detectable in feces after viral clearance in respiratory tract. 25 However, the researchers did not discuss whether persistent shedding of SARS-CoV-2 was more common in certain age group than the others (patient's ages ranged from 10 months to 78 years in this study). Therefore, discharged patients might be a potential source of transmission and follow-up after hospital discharge or discontinuation of quarantine is advisable. The limitations of this study should also be noted. In response to the emerging disease, only respiratory specimens were required for the detection of SARS-CoV-2 according to clinical guidelines in the early stage of COVID-19 outbreak. We therefore failed to obtain stool samples from the patients during their first few days of hospitalization and could not determine whether throat swabs and fecal samples showed positive on RT-PCR analysis simultaneously. Moreover, we did not culture the virus isolated from the feces to test the viability nor measure viral loads in the samples due to limited conditions. All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 370,
+                    "end": 372,
+                    "text": "27",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 531,
+                    "end": 533,
+                    "text": "25",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033159 doi: medRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "None reported. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest Disclosures:"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033159 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest Disclosures:"
+        },
+        {
+            "text": "The funders had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the Funder/Sponsor:"
+        },
+        {
+            "text": "We thank Municipal Centre of Disease Control and Prevention of Qingdao for coordinating data collection for COVID-19 patients in Qingdao. We thank all patients and their families involved in the study. We thank all health-care workers involved in the diagnosis and treatment of patients. And we thank Prof Gary WK Wong for guidance in study design and interpretation of results. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements:"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033159 doi: medRxiv preprint \u2193 denotes levels below the 1st percentile lower reference limit; NA= not available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements:"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements:"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Report of clustering pneumonia of unknown etiology in Wuhan City. Wuhan Municipal Health Commission",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "8",
+            "pages": "727--733",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Clinical findings in a group of patients infected with the 2019 novel coronavirus (SARS-Cov-2) outside of Wuhan, China: retrospective case series",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "First case of 2019 novel coronavirus infection in children in Shanghai (in Chinese)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chin J Pediatr",
+            "volume": "58",
+            "issn": "2",
+            "pages": "86--87",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "All rights reserved. No reuse allowed without permission",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.11.20033159"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "First case of neonate infected with novel coronavirus pneumonia in China (in Chinese)",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chin J Pediatr",
+            "volume": "58",
+            "issn": "0",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "2019-novel coronavirus infection in a threemonth-old baby (in Chinese)",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chin J Pediatr",
+            "volume": "58",
+            "issn": "0",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "National Health Commission of the People's Republic of China. Diagnosis and Treatment Plan of Corona Virus Disease 2019 (tentative seventh edition). National Health Commission of the People's Republic of China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chin J Pediatr",
+            "volume": "58",
+            "issn": "0",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Clinical management of severe acute respiratory infection when novel coronavirus (2019-nCoV) infection is suspected: interim guidance",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Organization",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "National Health Commission of the People's Republic of China. Diagnosis and Treatment Plan of Corona Virus Disease 2019 (tentative fifth edition). National Health Commission of the People's Republic of China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "National Health Commission of the People's Republic of China. Diagnosis and Treatment Plan of Corona Virus Disease 2019 (tentative sixth edition). National Health Commission of the People's Republic of China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19). WHO-China Joint Mission on COVID-19",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Who-China",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "All rights reserved. No reuse allowed without permission",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.11.20033159"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Novel Coronavirus Pneumonia Emergency Response Epidemiology T. The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) in China (in Chinese)",
+            "authors": [],
+            "year": 2020,
+            "venue": "Chin J Epidemiol",
+            "volume": "41",
+            "issn": "2",
+            "pages": "145--151",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Severe acute respiratory syndrome (SARS) in neonates and children",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Archives of Disease in Childhood -Fetal and Neonatal Edition",
+            "volume": "90",
+            "issn": "6",
+            "pages": "461--465",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Molecular and serological investigation of 2019-nCoV infected patients: implication of multiple shedding routes. Emerg Microbes Infect",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "386--389",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "First Case of 2019 Novel Coronavirus in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Holshue",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Debolt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lindquist",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Viral load of SARS-CoV-2 in clinical samples",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Llm",
+                    "middle": [],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Evidence for gastrointestinal infection of SARS-CoV-2. medRxiv",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Surface Environmental, and Personal Protective Equipment Contamination by Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) From a Symptomatic Patient",
+            "authors": [
+                {
+                    "first": "Swx",
+                    "middle": [],
+                    "last": "Ong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "SARS-CoV-2 was detected in anal swab of pediatric patients with COVID-19, but it is not sure whether it is infectious. Yangcheng Evening News",
+            "authors": [
+                {
+                    "first": "Alan",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "reported in Qingdao, Shandong Province, China, of which three cases (5%) were children under 10 years of age. Pediatric patients presented clinical characteristics distinct from those observed in adult patients. Notably, SARS-CoV-2 RNA was detected in the stool of these children 8-20 days after negative conversion of viral RNA in respiratory specimens. Whereas the majority of adult patients had negative results of nucleic acid testing in respiratory and fecal specimens synchronously. Prolonged presence of SARS-CoV-2 RNA in feces after showing negative in respiratory specimens may become a source of COVID-19 in the community and pose a threat to public health if fitness for discharge is based on the current version of Diagnosis and Treatment Plan of Corona Virus Disease 2019 (\"with normal body",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Severity of disease in all patients was mild according to Diagnosis and Treatment Plan ofCorona Virus Disease 2019 (tentative fifth/sixth edition). 16,17 The disease started with fever (\u226738.5\u00b0C) in all of the three children. None of them developed severe complications nor required intensive care or mechanical ventilation. All children showed good response to supportive treatment including inhalation of interferon, oral Ribavirin and traditional Chinese medicine.All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "performed RT-PCR testing for throat swabs plus CT according to Diagnosis and Treatment Plan of Corona Virus Disease 2019 (tentative fifth edition). 16 Municipal Centre of Disease Control and Prevention of Qingdao conducted nucleic acid testing in stool samples collected All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "In face of the emerging infectious disease and limited data on pediatric patients, it is unclear what role children play in SARS-CoV-2 transmission or to what extent children are affected by the virus. More attention should be drawn to children, especially for young children who cannot handle their own excretions. Caregivers of these children should avoid direct contact with the stool and close the lid before flushing the toilet. Precautionary measures are needed when conducting aerosol-generating procedures and sewer system should be kept unobstructed. In some rural areas and underdeveloped regions with poor sanitation in China, stools are often used as natural fertilizer in agriculture. As sewage cannot be properly disinfected in these places, it might be possible that SARS-CoV-2 polluted water causes infection in wild animals which bring the virus back to humans, creating a vicious cycle. It is also of vital importance to implement strict hygiene measures after reopening of kindergartens and schools to prevent spreading of the infection among preschool and schoolchildren.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Taken together, there is an urgent need to re-evaluate the current version of Diagnosis and Treatment Plan of Corona Virus Disease 2019 (tentative seventh edition). 13 Nucleic acid testing on fecal specimens should be added to the current criteria for hospital discharge and release of isolation. We call for multi-center studies with larger sample size to clarify the time lag between fecal and respiratory specimens negative for RNA RT-PCR analysis in infected children.Postscript:We reported to the local health authority immediately once we noticed the persistentshedding of SARS-CoV-2 in feces of our pediatric patients about three weeks ago. When this paper was finalized, the seventh edition of Diagnosis and Treatment Plan of Corona Virus Disease 2019 had just been issued and indicated the possibility of fecal-oral transmission of SARS-CoV-2. Currently, capable hospitals in some parts of China (such as Shanghai, Guangdong Province, and Shandong Province) have already included negative nucleic acid testing result of fecal specimens as one of the standards for hospital discharge and release of isolation. Author Contributions: Q-SX had full access to all the data in the study and took responsibility for the integrity of and the accuracy of the data. Q-SX and Y-HX designed the study and conceptualized the paper. WN, QW, G-JL, J-NT and X-FS collected the epidemiological, clinical, laboratory and radiological data. W-JL contributed to laboratory testing. WN and G-JL summarized the data. Y-HX, WN and QW wrote the initial draft of the manuscript. All authors provided critical feedback and approved the final version.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "This study was funded by The National Natural Science Foundation of China (NSFC) [Grant number 81770315]; and Distinguished Taishan Scholars (2019).All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Figure legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Transverse Chest Computed Tomographic Images",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Dynamic profile of SARS-CoV-2 RNA in respiratory and fecal specimen All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "of normal range are shown in bold; \u2191 denotes levels above the 99th percentile upper reference limit;",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Laboratory Findings of Pediatric Patients with COVID-19 on Admission to Hospital",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ". https://doi.org/10.1101/2020.03.11.20033159",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

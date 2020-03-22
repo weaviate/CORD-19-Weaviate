@@ -1,0 +1,834 @@
+{
+    "paper_id": "a6cba8f9a9f89a08bb87e30a209389c9f1ca8c3d",
+    "metadata": {
+        "title": "Establishing Prokaryotic Expression System of Angiotensin- Converting Enzyme 2 (ACE2) gene in pigs",
+        "authors": [
+            {
+                "first": "Hang",
+                "middle": [],
+                "last": "Xiao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xin-Tian",
+                "middle": [],
+                "last": "Nie",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xiao-Xia",
+                "middle": [],
+                "last": "Ji",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shu-Ping",
+                "middle": [],
+                "last": "Yan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhu",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yuan-Shu",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {},
+                "email": "zhangyuanshu@njau.edu.cn"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In this paper, ACE2 gene of pigs was cloned and the purified protein was obtained via 12 the prokaryotic expression system. Polyclonal antibody of high titer and sensitivity 13 was obtained using Wastar rats immunization method and is then used to determine of 14 the expression of ACE2 using immunohistochemistry. The sequence of ACE2 in pigs 15 covered 2418 nucleotides and coded 805 amino acid (aa) residues. Sequence 16 homology analysis showed that the ACE2 sequence in pigs is highly conserved 17 among species at the nucleotide and amino acid levels. Genetic evolution analysis 18 revealed that ACE2 gene in pigs has the shortest genetic distance with that in goats 19 while residing in a totally different branch from that in zebra fishes. Analysis of 20 protein structure predicted that ACE2 protein is a transmembrane secreted protein 21 with high hydrophilicity, containing a signal peptide sequences locating between 1aa 22 to 17aa. The ACE2 fusion protein expressed (under the induction with 1.0 mmol/L 23 IPTG for 10 h) was of approximately 100 kDa and mainly existed in inclusion body.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Wastar rats immunization showed that the titer of the anti-ACE2 antiserum in rats was",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The renin-angiotensin system (RAS) is an importance regulator of 34 cardiovascular and renal function, both under physiological and pathological 35 conditions (Tipnis et al., 2000) . Angiotensin converting enzyme 2 (ACE2) was 36 discovered as a new member of the RAS system in 2000. Earlier studies showed that 37 ACE2 in rats or humans was highly expressed in the kidney, heart and testicle tissues, 38 and was later confirmed existence in the lungs, brain, and the intestines and other The ACE2 genes in human, rat and mouse have been located on the X chromosome. ",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 147,
+                    "text": "35",
+                    "ref_id": null
+                },
+                {
+                    "start": 159,
+                    "end": 180,
+                    "text": "(Tipnis et al., 2000)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 401,
+                    "end": 403,
+                    "text": "38",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "So far, the research on ACE2 has been focused on rodents and human beings. 53 The research gaps in other animals, especially production animals, such as cattle, 54 sheep, pigs still need to be filled. Particularly, GenBank still lacks the information of The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988634 doi: bioRxiv preprint 61 polyclonal antibody was obtained and the expression distribution of ACE2 was 62 determined. We hope to be able to provide the whole sequence of ACE2 gene and other 63 related information for Genbank. 75 The Healthy newborn piglets were terminally anesthetized via an intraperitoneal 76 (ip.) injection of 20% urethane (5 mL/kg body weight), were decapitated within 15 77 min after anesthesia took effect (i.e. animals lost conciseness and whole body muscle 78 relaxation was observed), and all tissues including heart, liver, hung, kindey, stomach 79 and soon were collected and frozen immediately in liquid nitrogen and then stored at 80 -80\u00b0C , Part of tissues were fixed immediately with 4% buffered paraformaldehyde 81 for 24 hours, then transferred to 20% sucrose solution for 3 h. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988634 doi: bioRxiv preprint Freund's adjuvant. Serum was collected from heart method and stored at \u221280 o C. 152 The protein of heart, spleen, kidney, liver, duodenum, liver of pig, and also liver 153 and kidney tissue of chicken were extracted from Roe. The protein concentration of 154 each tissue was measured by BCA kit(Beyotime Biotechnology, China). The IPEC-J2 cells were cultured in 6 orifice plates with cell crawling slices.",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 77,
+                    "text": "53",
+                    "ref_id": null
+                },
+                {
+                    "start": 161,
+                    "end": 163,
+                    "text": "54",
+                    "ref_id": null
+                },
+                {
+                    "start": 599,
+                    "end": 601,
+                    "text": "75",
+                    "ref_id": null
+                },
+                {
+                    "start": 1408,
+                    "end": 1411,
+                    "text": "152",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "52"
+        },
+        {
+            "text": "After being placed in 37\u00b0C and 5%CO 2 incubators to 70% of fusion degree, After 177 washing with PBS for 2 times, then 4% polyformaldehyde was used to fix 15 min, between 82.0%~90.0%, and the lowest homology with zebrafish was less than 50%. reached over 80%, and the lowest homology with zebrafish was 46.8% (Fig. 2-A) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 309,
+                    "end": 319,
+                    "text": "(Fig. 2-A)",
+                    "ref_id": null
+                }
+            ],
+            "section": "176"
+        },
+        {
+            "text": "From the tree of genetic evolution (Figure 52-B) , the fragment is in the same 237 evolutionary group with the ACE2 amino acid sequence of goats and cattle, and the 238 zebrafish is in a completely different 2 branch, and the genetic evolution is consistent . CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988634 doi: bioRxiv preprint 239 with the evolution of amino acid. proteins, such as people and sheep, were the same. Among them, part 1~739aa is the 245 extracellular part, and there is a transmembrane helix between 740~762 aa, and the 246 763~805 AA is the intracellular part (Fig. 3-A) . The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988634 doi: bioRxiv preprint pET-32a-ACE2 recombinant plasmid was successfully constructed. Results as shown in Figure 7 , the serum dilution ratio of the positive serum OD 450 was 288 about 1, and the P/N value (P: the mean OD 450 value of the positive hole, the mean 289 value of the negative pore, OD 450 ) was the best serum dilution degree, that was 3200. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 35,
+                    "end": 48,
+                    "text": "(Figure 52-B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 727,
+                    "end": 737,
+                    "text": "(Fig. 3-A)",
+                    "ref_id": "FIGREF35"
+                },
+                {
+                    "start": 965,
+                    "end": 973,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF37"
+                }
+            ],
+            "section": "236"
+        },
+        {
+            "text": "The rat anti ACE2 serum was prepared with the best multiple dilution as a single 292 antibody, and the Sheep anti rat IgG-HRP was used as a two antibody. The purified 293 fusion protein, pig heart, spleen, kidney, liver, duodenum, sheep liver, rat liver, rat 294 liver and chicken liver and kidney tissue protein were analyzed by Western blot. The 295 results showed the fusion protein and pig heart. There was a specific binding protein 296 in the size of 100 kDa in the viscera, spleen, kidney, liver and duodenum (Fig. 8) , and 297 the rest did not appear. The results show that the ACE2 polyclonal antibody can 298 identify the fusion protein and the ACE2 protein in the pig tissues, but the ACE2 . CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988634 doi: bioRxiv preprint 299 protein in other species can not be combined, that is, the ACE2 polyclonal antibody 300 against the pig's mouse has good immune response and specificity. 301 3.11 Anti ACE2 serum specificity in mice by immunofluorescent 302 The mouse anti ACE2 serum was diluted by multiple 1:600 as one antibody, the 303 fluorescent enzyme labeled Sheep anti mouse IgG-HRP was two resistance, and the 304 final concentration was 100 ng/mL DAPI for 5 minutes. The immunofluorescence 305 analysis of the pig intestinal epithelial cells, as shown in Figure 9 , that the mouse anti 306 ACE2 could specifically identify the ACE on the membrane of the pig small intestinal 307 epithelial cells. The 2 protein, that is, the polyclonal antibody of pig anti mouse ACE2 308 prepared, has better immunoreactivity. 310 As shown in Figure 10 , the proteins extracted from pig spleen, kidney, liver, lung, 311 pancreas, lymph node, stomach, duodenum, jejunum, ileum, colon, rectum and cecum 312 were analyzed by Western blotting, and the rat anti porcine polyclonal antibody was 313 diluted with 1: 3200 as one resistance, and the IgG of sheep resistant to HRP was two.",
+            "cite_spans": [
+                {
+                    "start": 1145,
+                    "end": 1148,
+                    "text": "302",
+                    "ref_id": null
+                },
+                {
+                    "start": 1712,
+                    "end": 1715,
+                    "text": "310",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 516,
+                    "end": 524,
+                    "text": "(Fig. 8)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1456,
+                    "end": 1464,
+                    "text": "Figure 9",
+                    "ref_id": null
+                },
+                {
+                    "start": 1728,
+                    "end": 1737,
+                    "text": "Figure 10",
+                    "ref_id": null
+                }
+            ],
+            "section": "Detection of serum specificity of anti ACE2 in rats by Western blot 291"
+        },
+        {
+            "text": "Resistance, the results showed that the tissue protein extracted from pig kidney, 315 jejunum and rectum had obvious bands at 92 kDa, and the highest content in kidney, 316 but not in other tissues. Under the same condition, the Sheep anti rabbit polyclonal 317 antibody was diluted with 1:1000 multiple as a single antibody, and the HRP labeled 318 Goat anti rabbit IgG was two. The results showed that the tissue protein extracted 319 from pig spleen, kidney, lung, pancreas, lymph node, stomach, duodenum, jejunum, 320 ileum, colon, rectum, and cecum was marked at 92 kDa. The results showed that the 321 sensitivity of mouse against polyclonal antibody was poor. ",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 172,
+                    "text": "316",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "314"
+        },
+        {
+            "text": "The cellular localization of ACE2 in porcine tissues was analyzed after dilution 325 of 1:600 prepared by anti ACE2 serum. The criterion is that if Brown is positive, the 326 result is shown in Fig. 11 . As can be seen from figure 3-21, ACE2 protein exists in 327 various tissues and organs of the pig, mainly expressed in the mucosa of the gastric 328 fundus (Fig. 11-A) , the myometrium of the small intestine, serous layer, and villi ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 194,
+                    "end": 201,
+                    "text": "Fig. 11",
+                    "ref_id": null
+                },
+                {
+                    "start": 360,
+                    "end": 371,
+                    "text": "(Fig. 11-A)",
+                    "ref_id": null
+                }
+            ],
+            "section": "324"
+        },
+        {
+            "text": "In this study, the pig ACE2 gene was cloned, analyzed and prokaryotic expressed 362 successfully, and the polyclonal antibody of mouse ACE2 was prepared. The whole 363 gene sequence of ACE2 in pig was 2418 bp and 805 amino acids were encoded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "361"
+        },
+        {
+            "text": "Homology analysis on GenBank found that the cloned ACE2 gene were above 99% 365 similar to other porcine ACE2 genes, which shows that the pig ACE2 gene cloning 366 was successful. The full-length gene sequence of pig ACE2 gene was provided to 367 GenBank database., It is deduced that the pig ACE2 protein belongs to the type I 368 secretory transmembrane protein and its signal peptide sequence is located between 369 1~17 AA, which is similar to that of goats (1~18 AA) (Yang et al,. 2016 ).",
+            "cite_spans": [
+                {
+                    "start": 472,
+                    "end": 490,
+                    "text": "(Yang et al,. 2016",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "364"
+        },
+        {
+            "text": "In conclusion, In this paper, the basic information of porcine ACE2 protein was 371 provided and the specific anti-porcine polyclonal antibody was successfully, which The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988634 doi: bioRxiv preprint 471 tissue protein of chicken. Figure 9 . Immunofluorescence analysis of specificity of polyclonal antibody. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988634 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 340,
+                    "end": 348,
+                    "text": "Figure 9",
+                    "ref_id": null
+                }
+            ],
+            "section": "370"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Angiotensin-(1-7) 414 ameliorates myocardial remodeling and interstitial fibrosis in spontaneous 415 hypertension: role of MMPs/TIMPs",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhuang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Toxicology letters",
+            "volume": "199",
+            "issn": "2",
+            "pages": "173--181",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A Human 417",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tipnis",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hyde",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Karran",
+                    "suffix": ""
+                },
+                {
+                    "first": "Christie",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Homolog of Angiotensin Converting Enzyme-Cloning and Functional Expression 418",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "As A Captopril Insensitive Carboxypeptidase",
+            "authors": [],
+            "year": 2000,
+            "venue": "Journal of Biological Chemistry",
+            "volume": "275",
+            "issn": "43",
+            "pages": "33238--33243",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Mas in myocardial fibrosis by downregulating K Ca 3.1 422 channel via ERK1/2 pathway",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ace2-Ang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Pfl\u00fcgers Archiv-European Journal of 423 Physiology",
+            "volume": "468",
+            "issn": "1-7",
+            "pages": "2041--2051",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Domestic Cat ACE2",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yd",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Cloning, expression and sequence analysis 428 and tissue distribution of angiotensin-converting enzyme 2 (ACE2) gene in adult 429 mice",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Cloning and genetic Evolution Analysis of 431",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "ACE2 Gene in Kidney of Trionyx sinensis",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Expression of apical Na + -l -glutamine 434 co-transport activity, B0 -system neutral amino acid co-transporter (B 0 AT1) and 435 angiotensin-converting enzyme 2 along the jejunal crypt-villus axis in young pigs 436 fed a liquid formula",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Lackeyram",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Cloning of ACE2 gene of Suzhong 438 pigs and its phylogenetic analysis",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Miao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Jiangsu Journal of Agricultural Sciences",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.12.988634"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "39 organs(Lambert et al., 2010; Pei et al., 2010; Briones et al., 2010; Imai et al., 2005) 40",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "ACE2 protein main structure consists of an extracellular N terminal catalytic 42 domain, a transmembrane region and a C terminal anchored on the cell 43 membrane(Danilczyk et al., 2006). The metalloproteinases, such as ADAM metal 44 protease domain 17 (ADAM17), can hydrolyze the extracellular domain (which is of 45 enzyme activity) to produce active soluble ACE2 form, which has carboxypeptidase 46 activity and participates in the hydrolysis of AngI, AngII and other peptides. Among 47 all, the main function of it is to hydrolyze the phenylalanine at the C-end of the AngII 48 to produce Ang (1-7). Ang (1-7) is later combined with the Mas receptor and plays 49 various protective functions, which antihypertensive activities and exhibits some 50 biological actions that are quite distinct from Ang II(Hashimoto et al,. 2012; Wang et 51 al,. 2016).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "55 ACE2 gene in pigs. Recently, Zhang has reported a segment of the ACE2 gene 56 sequence in Chinese Jiangsu local Hybrid Pigs(Zhang et al,. 2012). However the size 57 of the gene fragment is only 641 bp.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Therefore, this study was aimed at determining the whole cDNA sequence of 59 porcine ACE2 gene using gene cloning and other molecular biology techniques and 60 establishing a prokaryotic expression system of ACE2 in pigs. The porcine ACE2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "procedures were approved by the Institutional Animal Care and Use 67 Committee of Nanjing Agricultural University. The protocols were reviewed and 68 approved, and the project number 2011CB100802 was assigned. The slaughter and 69 sampling procedures strictly followed the 'Guidelines on Ethical Treatment of 70 Experimental Animals' (2006) no. 398 established by the Ministry of Science and 71 Technology, China and the 'Regulation regarding the Management and Treatment of 72 Experimental Animals' (2008) no. 45 set by the Jiangsu Provincial People's 73 Government.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "the ACE2 and \u03b2-actin genes were designed with Primer 5.0 software 84 and were synthesized by Dingguo, Beijing, China based on their respective porcine 85 sequences to produce an amplification product. which the primers for \u03b2-actin (an I 86 nternal control) were forward 5'-GATCTGGCACCACACCTTCT-3', and reverse 87 5'-CCAGAGGCATACAGGGACAG3'; and the primers for ACE2 were forward 5' 88 GGATCCATGTCAGGCTCTTTCTGGCT-3', and reverse 89 5'-GAGCTCCTAAAACGAAGTCTGAATGTCATCGC-3'; The expected size of the",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Purification, cloning and sequence analysis of PCR products 103 2.5.1 Purification of PCR products 104 The target gene from PCR was recovered by a gel Recovery Kit (Axygen, USA) , 105 and the PCR products recovered were connected with pMD-19T carrier( Takara, 106 Janpan), then converted to DH5 alpha receptive cells (Vazyme, China), and evenly 107 coated into the LB agar plate containing 0.1 mM ampilin for single monoclonal 108 colony culture. After 18 h\uff0cpositive colony was collected. and the bacteria solution 109 was verified by PCR. The PCR reaction and conditions were the same as described 110 previously.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Extraction Kit was used to extract recombinant plasmid vector.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "The extracted plasmid was identified by single enzyme digestion (HindIII) and double 114 enzyme digestion (BamHI and SacI) according to the Takara enzyme product 115 instructions, and the enzyme digestion products were identified by 1% agarose gel 116 electrophoresis.117The amino acid sequence was deduced from the Editseq program in DNASTAR118 software and MegAlign software plotted the genetic evolution tree for affinity 119 analysis. SignalP 4.1 (http://www.cbs.dtu.dk/services/SignalP/) predicted the location of the protein amino acid as well as the sequence signal peptide of the 121 ACE2 gene encoding. TMHMM Server v.2.0 (http://www.cbs.dtu.dk/services/TMHMM/) 122 predict the transmembrane and transmembrane directions of ACE2 encoded protein 123 and Kyte-Doolittle method predicts the hydrophilic region by DNASTAR software.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Construction and identification of recombinant expression vector 125 The plasmid of pMD-19T-ACE2 and pET-32a was digested by BamHI, SacI 126 enzyme, the target fragment was recovered and the recombinant protein expression 127 vector pET-32a-ACE2 was constructed used T4 DNA ligase, and transformed into 128 Escherichia coli DH5 alpha. The positive recombinant plasmid were screened for the 129 monoclonal bacterial liquid PCR and the double enzyme digestion.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Induction and expression of fusion protein 131 The Escherichia coli BL21 (DE3) containing the recombinant plasmid containing 132 pET-32a-ACE2 was inoculated into the liquid medium LB containing Amp (100 133 \u00b5g/mL), 37\u00b0C, 180 rpm/min until OD 600 0.6~0.8. then The 1.0 mmol/L of IPTG was 134 added to the Escherichia coli BL21 (DE3), and collecting 1 mL bacteria solution after 135 inducting 2, 4, 6, 8, 10 h and overnight respectively. After centrifuging in 8000 136 rpm/min for 15 min, these bacteria solution were detected by SDS-PAGE.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Identification and purification of the expression of fusion protein 138 The IPTG stimulation time of high expression was selected according to the 139 results of the former. The bacterial solution was centrifuged in 8000 rpm/min for 15 140 min, and the bacterial sedimentation was collected and suspended used PBS. The 141 bacterial supernatant and precipitate after ultrasonic breakage (ice bath conditions) 142 were purified, and precipitated by SDS-PAGE. Sure. The fusion protein was purified 143 by staining with reference to Gao Shen Yang(Gao et al,.2010), and the size and purity 144 of the purified protein were detected by SDS-PAGE.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Preparation of anti ACE2 polyclonal antibody 146 Male New Zealand White rabbits were immunized by subcutaneous injec-tion to 147 gain ACE2 antibody. Briefly, the ACE2 antigen mixed 1:1 with Freund's complete 148 adjuvant was injected into rab-bits, and booster injections were administered once 149 at10-days intervals with the same amount of antigen mixed 1:1 with incomplete",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Indirect ELISA method for determination of polyclonal antibody titer of pig 156 ACE2 157The serum and pre immune serum of the rat were diluted by 16400, and then incubated in 96 well plate. After 159 washing, Sheep anti rat marked by HRP were added. Finally, TMB was used as the 160 substrate. The OD 450 value of each well was read on the enzyme standard analyzer 161 and pre immunized serum. As a negative control, the OD 450 value was N, the serum 162 OD 450 was P after immunization, and was positive by P/N>2.1.163 2.12 Westen-Blot detection of anti ACE2 antiserum specificity in rats 164 After SDS-PAGE electrophoresis of the total tissue protein extracted from the 165 ACE2 fusion protein and the proteins from former, the corresponding strips on the gel 166 were transferred to the PVDF membrane, and the PVDF membrane was placed in the 167 50 g/mL skimmed milk powder in 2 h at room temperature, and then transferred to the 168 rat anti ACE2 blood albumin diluted with TBST 1:6400 times in overnight at 4\u00b0C 169 temperature, and the film was washed with a TBST liquid for 5 times. Then 170 transferred to the Goat anti mouse IgG labeled with 1:5000 diluted horseradish 171 enzyme in TBST solution, incubated at room temperature for 2 h and TBST washing 172 solution for 5 times. After color rendering, the images were observed in the automatic 173 chemiluminescence image analysis system.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Immunofluorescent detection of anti ACE2 serum specificity175",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "178PBS was washed 5 times and permeated with 0.5%Triton 100 for 20 min, and then 179 washed again, placed in the 50g/mL skimmed milk powder in 2 h at room temperature for 100 mg/mL, and PBS washing for 3 times, observed in a confocal 184 microscope/ultrahigh resolution microscope STORM.185 2.14 Immunohistochemical identification and localization of murine anti ACE2 186 protein polyclonal antibody in pig tissues 187 Immunohistochemical was performed on formalin-fixed tissue. Gut fragments, 188 3\u00d71 cm (7~10 cm away from the stomach), were flushed with water, bound in 189 surgical tape and fixed in ice-cold 10% neutral buffered formalin for a maximum of 190 14 h at 4\u00b0C. All fixed samples were embedded in paraffin and sectioned to 5 \u03bcm on 191 poly L-lysine slides. Antigen retrieval was performed by boiling in citrate buffer 192 (LabVision, Fremont, California, USA) for 10 min at 100\u00b0C. The endogenous 193 peroxidase was blocked (only for immunohistochemical staining) by EnVision 194 blocking solution (DakoCytomation, Glostrup, Denmark) for 5 min. The non-specific 195 binding was blocked for 30 min with 5% rabbit serum (DakoCytomation) for the 196 primary mouse serum(1:600), and primary antibody incubation was performed at 4\u00b0C 197 overnight. The immunohistochemical detection was performed using secondary 198 antibody horseradish peroxidase labelled polymer and DAB reagent (Dako 199 Cytomation).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "and sequence analysis of the target gene of porcine ACE2 202 4 reverse transcriptional products were randomly selected for PCR amplification.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "single band was found in the spleen, duodenum, jejunum and ileum by 1% agarose 204 gel electrophoresis(Line 1-4). The size of the strip was about 2400 bp, and was the 205 same as expected (2418 bp)(Figure 1-A).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "The recombinant vector of PMD-19T-ACE 2 was successfully constructed207    In order to verify whether the ACE2 gene fragment was successfully inserted 208 into the pMD19-T vector, 2 positive colonies were selected and the plasmid was III single enzyme was cut, and the size was consistent with the sum of the212 pMD-19T vector (2692 bp) and the target gene (2418 bp). BamH I and Sac I double 213 digestion showed about two bands around 2700 bp and 2400 bp, which confirmed that 214 pMD-19T-ACE2 recombinant vector had been successfully constructed. The positive 215 plasmid was selected and sent to Shanghai Ying Jun Biotechnology.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "software, EditSeq template was used to analyze the coding 218 region sequence and homology analysis of wild boar and other genes in Genbank.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF21": {
+            "text": "According to the results of nucleotide sequencing, the corresponding amino acid225 sequence was conjectured. The piglet encodes 805 amino acids, which is consistent 226 with the number of ACE2 amino acids in human and Rattus norvegicus, and an amino 227 acid difference with cattle and sheep (804 amino acids).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "MegAlign module in DNAstar software, the amino acid sequences 230 derived from the cloned pig ACE2 nucleotide sequence and the amino acid sequences 231 derived from wild boar and domestic pig ACE2 nucleotides were 99.3% and 98.5%, 232 respectively, compared with the other species ACE2 amino acid sequences, and the 233 results were compared with sheep, mountain cattle, domestic cats, domestic dogs, 234 macaques, brown, brown, and brown. Homology of rodents, humans and alpacas235",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "TMHMM2.0 software. The results showed that the porcine ACE2 protein 243 belonged to I type transmembrane protein, and the transmembrane types of ACE2 244",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF24": {
+            "text": "Signal P4.1 software predicts the amino acids encoded by the pig ACE2 248 gene. The results are as shown in figure 3-B: the C value at the frame is maximum, 249 the S value is steep, and the Y value is the highest. It is predicted here that there is a 250 potential cracking site between 17-18aa and the protein is secreted protein (this is 251 judged by the value of D, D is the average value of S-mean and Y-max. It is important 252 to distinguish whether the protein is secreted or not, the D value is 0.883, greater than 253 that of 0.450--, which is the criterion for the secretion of protein. Through online 254 SMART analysis (http://smart.embl-heidelberg.de/), the signal peptide region is 255 between 1-17aa, which is consistent with the results predicted by the transmembrane 256 region analysis.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF25": {
+            "text": "ACE2 protein has good hydrophilicity 258 The hydrophilicity of ACE2 protein was analyzed according to the amino acid 259 hydrophilic standard of Kyke-Doolittle. Results are shown in Figure 4. The proportion 260 of hydrophilic region of ACE2 protein in piglets is larger, and the distribution is more 261 uniform (more than 0 lines in the map), indicating that the protein has good 262 hydrophilicity.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF26": {
+            "text": "Construction and identification of prokaryotic expression vectors 264 After the recombinant plasmid and the expression vector were cut by BamH I 265 and Sac I, the T4 DNA ligase was linked and transformed into E.coli BL21 (DE3), 266 and the positive colony was picked up for PCR, and then the plasmid was identified 267 by BamH I and double enzyme digestion. 1% agarose gel was used to detect the strain 268 and about two bands. (Fig.5) the sequencing results were correct, indicating that",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF27": {
+            "text": "Induced expression, identification and purification of recombinant protein 271 The recombinant expression bacteria were induced and expressed at the final 272 concentration of IPTG at 1 mmol/L. The expression products were collected at 273 different time points. After SDS-PAGE analysis, the target protein was obtained in the 274 induction of 2, 4, 6, 8, 10 h and overnight, and the expression of target protein was the 275 highest when 10 h was induced (Figure 6-A). After ultrasonic breakage centrifugation, 276 the supernatant and precipitation were taken respectively. After SDS-PAGE, the 277 recombinant protein of ACE2 was found mainly in the precipitate, that is, in the form 278 of inclusion body (Figure 6-B). The purified fusion protein (Fig 6-C) was purified and 279 purified by KCl staining, which could be used for subsequent polyclonal antibody 280 preparation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF28": {
+            "text": "Determination of anti ACE2 polyclonal antibody titer by indirect ELISA 282 method 283 The purified pET-32a-ACE2 fusion protein was immunized with 4 Wastar 284 female rats. After 4 immunizations, the antibody test results were all positive, the rats 285 were slaughtered, the isolated serum obtained the anti ACE2 antibody of the 286 polyclonal mice, and the antiserum titer was detected by indirect ELISA method.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF32": {
+            "text": "Immunohistochemistry was used to detect the expression of ACE2 in pig 323 tissues.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF33": {
+            "text": "amplified the genes encoding ACE2 from the cDNA Library of 335 human lymphoid cancer(Tipnis et al., 2000). It was named as ACEH and numbered as336 AF241254 in the gene pool. Further study found that the open reading frame of cDNA 337 of the ACEH was composed of 2418 nucleotides, encoding 805 amino acids, and the 338 gene was located at the chromosome Xp22 site and contains 18 exons. In the same 339 year, Donoghue et.al constructed a full-length ACE2 expression vector from the 340 cDNA Library of heart failure patients through transfection of CHO cells(Donoghue 341 et al,. 2000). The gene sequence was recorded by GenBank and numbered as 342 AF291820. Later, it was confirmed that ACE2 and ACEH were the same. In 2003, 343 Moore confirmed that ACE2 was the main functional receptor of the SARS 344 coronavirus(Li et al,. 2003). In order to further understand the route of infection, Li 345 cloned the full-length ACE2 sequence of the beaver, and confirmed that the beaver 346 was infected mainly by the S protein region of the SARS coronavirus combined with 347 its ACE2(Ge et al,. 2013; Li et al,. 2005). Wang extracted the total RNA from the 348 lungs of 9 month old cats and amplified the ACE2 gene sequence of the home cat by 349 RT-PCR(Wang et al. 2005). The gene number in Genebank was AY957464 and its 350 sequence size was 2418 bp. It encodes 805 amino acids. It was suggested that cat 351 ACE2 might be more likely to mediate the invasion of SARS-CoV. In 2005, Xie 352 successfully amplified the full length cDNA sequence of the ACE2 gene from the 353 mouse kidney tissue, and the sequence size was 2418 bp(Xie et al,. 2005). Then Xu 354 uploaded the partial ACE2 gene sequence of kidney of Trionyx sinensis(Genbank\uff1a 355 HM107424)(Xu et al,. 2011). In 2018 Chen cloned the whole ACE2 gene sequence 356 from the kidney and lung of monkeys. Compared with the human ACE2 sequence, 357 there were 38 NS mutations(Chen et al,. 2008). The specific fragment of the ACE2 region of the goat kidney tissue was amplified by Yang in the laboratory 359 for the first time. The length of the nucleotide sequence was 2415 bp(Yang et al,.360 2016).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF34": {
+            "text": "enzyme 2 supports entry of severe acute respiratory 384 syndrome coronavirus in Chinese macaques. Virology, 381(1), 89-97.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF35": {
+            "text": "Danilczyk, U, Sarao, R, Remy, C, Benabbas, C, Stange, G, Richter, A, Makrides, 386 V et al.(2006). Essential role for collectrin in renal amino acid 387 transport. Nature, 444(7122), 1088.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF36": {
+            "text": ", RE et al. (2000) A novel angiotensin-converting enzyme-related 390 carboxypeptidase (ACE2) converts angiotensin I to angiotensin 1-9. Circulation 391 research, 87(5), e1-e9. 392 5. Hashimoto, T, Perlot, T, Rehman, A, Trichereau, J, Ishiguro, H, Paolino, M, Wild, 393 B et al. (2012) ACE2 links amino acid malnutrition to microbial ecology and 394 intestinal inflammation. Nature, 487(7408), 477. 395 6. Imai, Y, Kuba, K, Rao, S, Huan, Y, Guo, F, Guan, B, Crackower, MA et al. 396 (2005) Angiotensin-converting enzyme 2 protects from severe acute lung 397 failure. Nature, 436(7047), 112.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF37": {
+            "text": "Gao, SY, Zha, EH, Wang, S, Zhou, TZ, Hui, L et al. (2010) A 399 'cost-effective'method for purification of prokaryotic expression proteins in gel 400 slices. CHINESE AGR SCI BULL, 26, 24-26. 401 8. Ge, XY, Li, JL, Yang, XL, Chmura, AA, Zhu, G, Epstein, JH, Zhang, YJ et al. 402 (2013) Isolation and characterization of a bat SARS-like coronavirus that uses the 403 ACE2 receptor. Nature, 503(7477), 535. 404 9. Li, W, Moore, MJ, Vasilieva, N, Sui, J, Wong, SK, Berne, MA, Choe, H et al. 405 (2003). Angiotensin-converting enzyme 2 is a functional receptor for the SARS 406 coronavirus. Nature, 426(6965), 450.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF38": {
+            "text": "Li, W, Zhang, C, Sui, J, Kuhn, JH, Moore, MJ, Luo, S et al. (2005) Receptor and 408 viral determinants of SARS-coronavirus adaptation to human ACE2. The EMBO 409 journal, 24(8), 1634-1643. 410 11. Lambert, DW, Clarke, NE, & Turner, AJ. (2010) Not just angiotensinases: new 411 roles for the angiotensin-converting enzymes. Cellular and molecular life 412 sciences, 67(1), 89-98. ACE2 gene sequencing.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF39": {
+            "text": "Recombinant plasmid was digested by Hind III; Line 3: Recombinant plasmid was 446 digested by BamHI and SacI. Homology / phylogenetic tree analysis of ACE2 protein. 448 A: Comparison of the deduced amino acid sequences betweendifferent species of ACE2; B: Phylogenetic tree of 449 the deduced amino acid sequence of ACE2 nucleotide sequences between different species. Prediction of transmembrane domain /signal peptide analysis of ACE2 protein from 451 piglet.452 A: Prediction of transmembrane domain; B: signal peptide analysis. Hydrophilic analysis of ACE2 protein in piglet. Development of prokaryotic expression construction of ACE2. 455 M 1 : DL10000; Line 1: Recombinant plasmid; Line 2: Recombinant plasmid was digested by Hind III; Line 3: 456 Recombinant plasmid was digested by BamHI and SacI. Expression Purification of pET-32a-ACE2 fusion protein. 458 A: Induced expression of pET-32a-ACE2 in E:coli BL21(DE3); M: Protein molecular weight Marker; Line 1~7: 459 Recombinant pET-32a-ACE2 expression products in E:coli BL21(DE3) induced with IPTG at 0\u30012\u30014\u30016\u30018\u300110 460 and overnight; B: Solubility analysis of pET-32a-ACE2 fusion protein; M: Protein molecular weight Marker; Line 461 1:Recombinant bacterium; Line 2: The upernatant; Line 3: The deposit; C: Purification of pET-32a-ACE2 fusion 462 protein; M: Protein molecular weight Marker; Line 1 : Recombinant bacterium; Line 2~3: Purificated fusion 463 protein. ELISA detection of rats anti-ACE2 titer. Western blotting analysis of specificity of polyclonal antibody. 466 A: Western blotting analysis of purified protein; M: Protein molecular weight Marker; Line 1~2: purified protein; 467 B: Western blotting analysis of purified protein of different tissue proteins; M: Protein molecular weight Marker; 468 Line 1: Cardiac tissue protein of porcine; Line 2: Spleen tissue protein of porcine; Line 3: Duodenum tissue 469 protein of porcine; Line 4: Kidney tissue protein of porcine; Line 5: Liver tissue protein of porcine; Line 6: Liver 470 tissue protein of goat; Line 7: Liver tissue protein of rat; Line 8: Liver tissue protein of chicken;",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF40": {
+            "text": "Western blotting analysis of differert tissues from porcine. 474 Line 1: Live tissue protein of porcine; Line 2: Spleen tissue protein of porcine; Line 3: lymph tissue protein of 475 porcine; Line 4: stomach tissue protein of porcine; Line 5: duodenum tissue protein of porcine; Line 6: jejunum 476 tissue protein of porcine; Line 7: ileum tissue protein of porcine; Line 8: colon tissue protein of porcine; Line 9: 477 rectum tissue protein of porcine; Line 10: caecum tissue protein of porcine; Line 11: lung tissue protein of porcine; 478 Line 12: kindey tissue protein of porcine; Line 13: pancreas tissue protein of porcine. ACE2 immunohistochemical map of differert tissues from pigs.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "porcine ACE2 gene product was 2418 bp (GenBank accession no. NM_001123070). RNA extraction and RT-PCR Total RNA was extracted by using the RNeasy mini kit (Qiagen, Valencia CA), and RNA concentrations were determined by a ultraviolet colorimetry 94 (ThermoScientific, Wilmington, DE). One microgram of total RNA was reverse transcribed to cDNA using two step reverse transcription inversion following the manufacturer's protocol. ACE2 mRNA expression were amplified by PCR with 97 \u03b2-actin as an internal control (Bt03279175); The amplification conditions of PCR reaction were 95\u00b0C for 5 min, 32 cycles of denaturation at 98 \u00b0C for 10 sec, annealing at 57\u00b0C for 15 sec, extension at 72\u00b0C for 30 sec, and finally an additional extension 100 step at 72\u00b0C for 10 min. The amplified products were identified by 1% agarose gel",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "FromTable 1, we can see that the nucleotide sequence obtained from this experiment is compared with the ACE2 nucleotide sequence of 2 pig species found on Genbank, and its homology is 99.5% and 99.1% respectively. Their homology with cattle, goats, domestic cats, domestic dogs, rhesus monkeys, humans and Rattus norvegicus were",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": " Table   Table 1 Comparison of nucleic acid homology between the piglet and other organisms ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1,
+                    "end": 16,
+                    "text": "Table   Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "annex"
+        }
+    ]
+}

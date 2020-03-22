@@ -1,0 +1,2223 @@
+{
+    "paper_id": "7677310b4e43cfaff6fd4ad53636fa80de589fd2",
+    "metadata": {
+        "title": "The effects of border control and quarantine measures on global spread of COVID-19",
+        "authors": [
+            {
+                "first": "M",
+                "middle": [
+                    "Pear"
+                ],
+                "last": "Hossain",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Hong Kong",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Alvin",
+                "middle": [],
+                "last": "Junus",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Hong Kong",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaolin",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Hong Kong Polytechnic University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Pengfei",
+                "middle": [],
+                "last": "Jia",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tzai-Hung",
+                "middle": [],
+                "last": "Wen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Taiwan University",
+                    "location": {
+                        "country": "Taiwan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dirk",
+                "middle": [],
+                "last": "Pfeiffer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Applied One Health Research and Policy Advice City",
+                    "institution": "University of Hong",
+                    "location": {
+                        "settlement": "Kong"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hsiang-Yu",
+                "middle": [],
+                "last": "Yuan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Hong Kong",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Hong",
+                "middle": [],
+                "last": "Kong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The rapid expansion of coronavirus has been observed in many parts of the world. Many newly reported cases of this new coronavirus during early outbreak phases have been associated with travel history from an epidemic region (identified as imported cases). For those cases without travel history, the risk of wider spreads through community contact is even higher. However, most population models assume a homogeneous infected population without considering that the imported and secondary cases contracted by the imported cases can pose a different risk to community spread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We have developed an \"easy-to-use\" mathematical framework extending from a meta-population model embedding city-to-city connections to stratify the dynamics of transmission waves caused by imported, secondary, and others from an outbreak source region when control measures are considered. Using the dynamics of the secondary cases, we are able to determine the probability of community spread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Using the top 10 visiting cities from Wuhan in China as an example, we first demonstrated that the arrival time and the dynamics of the outbreaks at these cities can be successfully predicted under the reproductive number R 0 = 2.92 and latent period \u03c4 = 5.2 days. Next, we showed that although control measures can gain extra 32.5 and 44.0 days in arrival time through a high intensive border control measure and a shorter time to quarantine under a low R 0 (1.4), if the R 0 is higher (2.92), only 10 extra days can be gained for each of the same measures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "This suggests the importance of lowering the incidence at source regions together with infectious disease control measures in susceptible regions. The study allows us to assess the effects of border control and quarantine measures on the emergence and the global spread in a fully connected world using the dynamics of the secondary cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "2 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Meta-population model 59 Assuming the newly emergence of COVID-19 causes an outbreak at location i, during the emergence, the 60 changes of the numbers of infectious cases I j at a different location j can be determined using a simple 61 Susceptible, Infected, and Recovered (SIR) meta-population model with a mobility matrix (contact mixing at 62 the population level):",
+            "cite_spans": [
+                {
+                    "start": 22,
+                    "end": 24,
+                    "text": "59",
+                    "ref_id": null
+                },
+                {
+                    "start": 235,
+                    "end": 237,
+                    "text": "61",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "58"
+        },
+        {
+            "text": "where \u03b2 is the baseline transmission rate that can be estimated from R 0 Tg , R 0 is the basic reproductive number, T g 65 is the generation time, M ii is the human mobility rate within the source location i, M ji is the mobility rate from 66 i to j, and I j is the number of infected individuals at the location j. Our aim was to develop a meta-population is higher up to 1, the mobility rate is reduced to zero. The infected cases were quarantined on average T qr days 72 after they are transmitted. After derivation (steps are described in later sections), the final model became:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "58"
+        },
+        {
+            "text": "where Imp and Sec represent the imported and secondary cases produced by the imported cases (we will use 77 secondary cases to denote this group in the remaining parts). We introduced an \u03b7(k, .) function to map the 78 number of the infected at the source i to the imported and secondary cases at j given different border control 79 5 and quarantine measures. The term \u03b7(k = 0, .) calculated the changes during first wave transmission (imported) 80 and \u03b7(k = 1, .) calculated the changes during second wave transmission (secondary infected cases produced by 81 the imported cases) under quarantine. The dot in \u03b7(k = 0, .) represents other epidemiological parameters. 82 During the early outbreak phase, because the susceptible population S was so close to the population size N , 83 therefore, we assumed S N \u2248 1. Because M ii and M jj are both near one (every day, more than 99.99% of 84 individuals stay in the same location), we thus ignored the variables M ii and M jj to increase readability in the 85 remaining sections. 86 Calculating the arrival rate of imported cases 87 In order to calculate the imported cases, we assumed that infected cases could pass the border screening or 88 move to another location only during their latent or incubation periods. We calculated the number of latent 89 cases at time s by including a latent period \u03c4 . Therefore, the number of cases I i in Eq(1) that were within the 90 latent period at a specific time s were",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 331,
+                    "text": "79",
+                    "ref_id": null
+                },
+                {
+                    "start": 445,
+                    "end": 447,
+                    "text": "80",
+                    "ref_id": null
+                },
+                {
+                    "start": 666,
+                    "end": 668,
+                    "text": "82",
+                    "ref_id": null
+                },
+                {
+                    "start": 779,
+                    "end": 781,
+                    "text": "83",
+                    "ref_id": null
+                },
+                {
+                    "start": 1026,
+                    "end": 1028,
+                    "text": "86",
+                    "ref_id": null
+                },
+                {
+                    "start": 1076,
+                    "end": 1078,
+                    "text": "87",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "58"
+        },
+        {
+            "text": "is the cumulative distribution function of latent cases that were transmitted a days ago but before recovery. The 92 longer a latent period was, the more total imported cases were produced in a given duration. After replacing the 93 number of infected cases by the latent cases, we obtained the rate of imported cases:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "58"
+        },
+        {
+            "text": "where \u039b is the growth rate and can be calculated as \u039b = R 0 \u22121 Tg . If all the infected cases can move to a different 95 place as the latent period \u03c4 is quite long enough, the formula is reduced to (1 \u2212 c)M ji I(t).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "58"
+        },
+        {
+            "text": "Calculating numbers of imported and secondary cases",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "96"
+        },
+        {
+            "text": "To calculate the number imported (Imp) and secondary cases (Sec), we had the following formulas now:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "where T qr is the time to quarantine. The number of cumulative imported cases can thus be derived during a 100 certain period of time when the incidence is still exponentially increasing at the source location. Assuming 101 6 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20035261 doi: medRxiv preprint S i (t) N \u2248 1, after solving the differential equation (detail derivation is available in the supplementary methods), 102 the numbers of the imported cases and the secondary cases at time t were:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "104",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "where \u03c4 is the latent period, \u039b is the growth rate and 1 Tqr is the time to quarantine. Because of dI i dt \u2248 \u039bI i , we 105 have the infected number at i as a function of time t, that is I i (t) = I 0 e \u039bt . If we set \u03b2 = R 0 Tg , we obtained the 106 infectious disease spreading control function given k transmission waves before the community transmission:",
+            "cite_spans": [
+                {
+                    "start": 119,
+                    "end": 122,
+                    "text": "105",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "The formula was simplified after we replaced \u039b + 1 Tg by R0 Tg . Under this notation, secondary infection cases can 108 simply be calculated as \u03b7(k = 2, . . . ) multiplied by the (1 \u2212 c)M ji I 0 e \u039bt :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "109",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "110",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "Consequently, the cumulative number of imported and secondary cases at time t under latent period were:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "Because before the outbreak occurred (or before community spread) at a location j, infections only happened 113 when transmission events occurred between the imported cases and the susceptible individuals at j (we call it 114 the second wave of transmission), it is essential to estimate the cumulative number of the imported cases 115 (CI Imp ; the first wave of transmission) and the cumulative secondary cases transmitted from those imported 116 cases (CI Sec ; the second wave of transmission). We were able to deduce tertiary cases but the number will be 117 7 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20035261 doi: medRxiv preprint relatively small comparing to the imported and the secondary.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 137,
+                    "text": "13.20035261 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "Thus, we have a simple formula to predict certain important infection numbers before an outbreak emerges in a 119 specific location using three epidemiological parameters reproductive number, generation time, incubation time 120 and time to disease detection after onset along with a contact matrix. This framework provides a more 121 generalized expression to estimate the cumulative imported cases (first wave of transmission) and the 122 cumulative secondary infected cases generated by the imported cases (second wave of transmission) at 123 connected cities or locations during a certain period of time when the incidence is exponentially increasing at 124 the source.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "97"
+        },
+        {
+            "text": "Constructing contact matrix 126 Airline passenger data were collected from the International Air Transport Association (IATA) database. We 127 collected the actual passenger data for top 10 visiting cities leaving from Wuhan Tianhe International Airport 128 before the lockdown of Wuhan city from 30 December to 20 January, 2020. Note that we did not have data for 129 railroad and other forms of transport, and thus made an assumption that the total number of travelers is 4 times 130 higher than that of air transport except for certain cities on Hainan island that have no road connections to 131 Wuhan. We made this assumption because that the number of train passengers is few times higher than that of 132 airline in China [15] and the results from a population migration database suggested a similar ratio [16] . The 133 number of daily passengers between different cities were used to generate the mobility rate M ji between 134 locations i and j. For example, we divided a daily passenger number by total population size in Wuhan to 135 represent the contact rate between Wuhan city and any other connected city j. We denote i = 0 as the index for 136 the source city. Therefore, M 00 = 1 is the base level of contact rate within the source city. j is a number to 137 represent the index of the top visiting cities from first to last following the order in the list. Because the 138 estimated number of people leaving from Wuhan to the first visiting city (Beijing) is 10793.5 per day, given that 139 the population size of Wuhan is about 11 million, the daily percentage of people leaving to the 1st visiting city 140 can be approximated to 0.001. Thus, we have M 10 = 0.001. We used the same approach to determine M j0 for 141 j = 2, 3, . . . , 10.",
+            "cite_spans": [
+                {
+                    "start": 729,
+                    "end": 733,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 813,
+                    "end": 817,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "125"
+        },
+        {
+            "text": "Determining outbreak potential 143 Next we considered the outbreak potential, defined as the probability of outbreak emergence given the number 144 of cumulative cases. At the initial stage, if there were n infected individuals, the chance of the viruses to cause 145 an outbreak is p j,n = 1 \u2212 1 R n j ini [17] . We determined a critical threshold number \u03bd to be 8 and set p j,\u03bd = 50% 146 8 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 307,
+                    "end": 311,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "142"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20035261 doi: medRxiv preprint after we compared the trends of the top 10 visiting cities. 50% of the cities demonstrated rapid growth of the 147 numbers of infected cases once the numbers reached or near the threshold. We thus obtained the effective 148 reproductive number R j ini = 1.0905 to represent the transmissibility during the second wave of transmission 149 at location j. Note that this number represents the epidemic growth under control measures before community 150 spread. R j ini indicates the average number of transmissions that are generated from the secondary cases (Sec) 151 before the community spread. Because the nation-wide alert has already been received at different cities after 152 31 December, 2019, and many infectious disease control measures have been implemented, R j ini was 153 expected to be lower than R 0 . Given the R j ini number, we used the cumulative number of secondary cases 154 CI Sec at the location j to calculate the probability of outbreak emergence as p j,",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 85,
+                    "text": "13.20035261",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(to simplify the 155 notation, the CI j is used to represent CI Sec ). We defined the critical arrival time such that the probability of 156 outbreak emergence p j,CI j was larger than 50%. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Model of outbreak spreading 159 The cities that most Wuhan citizens moved to in the first month after the outbreak of the COVID-19 was were extracted with the 1779.9 persons on average ( Figure 1A) . We estimated the total passengers leaving out 164 from Wuhan using a human migration map airline passengers. We obtained the estimated numbers of total 165 passengers given the proportion of airline passenger was about 23% of all transportation in early January [16] . 166 An increasing number of the confirmed cases was observed among the top visiting cities, including Beijing, 167 Shanghai, and Guangzhou ( Figure 1B ).",
+            "cite_spans": [
+                {
+                    "start": 28,
+                    "end": 31,
+                    "text": "159",
+                    "ref_id": null
+                },
+                {
+                    "start": 462,
+                    "end": 466,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 469,
+                    "end": 472,
+                    "text": "166",
+                    "ref_id": null
+                },
+                {
+                    "start": 580,
+                    "end": 583,
+                    "text": "167",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 187,
+                    "end": 197,
+                    "text": "Figure 1A)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 610,
+                    "end": 619,
+                    "text": "Figure 1B",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "158"
+        },
+        {
+            "text": "The community spread began as the number of the imported cases and the associated secondary cases generated 170 by the imported cases accumulated to a certain number (Figure 2A) . Thus, the increasing number of the 171 imported cases can be correlated to the outbreak spreads through the number of departure passenger data. We . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 166,
+                    "end": 177,
+                    "text": "(Figure 2A)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "169"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "11"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20035261 doi: medRxiv preprint q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q \u03bd = 8 0 30 60 90 120 0 1 J a n 0 3 J a n 0 5 J a n 0 7 J a n 0 9 J a n 1 1 J a n 1 3 J a n 1 5 J a n 1 7 J a n 1 9 J a n 2 1 J a n 2 3 J a n 2 5 J a n 2 7 J a n 2 9 J a n Date Cumulative number of secondary cases generated by the imported cases B e ij in g S h a n g h a i G u a n g z h o u C h e n g d u K u n m in g X ia m e n S h e n z h e n N a n n in g Q in g d a o S h e n y a n g City Table 1 : Actual and predicted arrival time of outbreak emergence at top ten connected cities in China. R 0 = 2.92 with incubation time \u03c4 = 5.2 days and \u03c4 = 14 days were used. CI Sec is the cumulative number of secondary infected cases generated by the imported cases. The actual arrival time of outbreak is defined as the the date when the number of cumulative cases is larger than the threshold number 8 and the number of newly reported cases is larger than 5. 9.2 days reporting lag between the date of onset and the date of diagnosis was estimated using the top five cities with most number of confirmed cases. Figure 4 and supplementary Figure S7 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 779,
+                    "end": 786,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1394,
+                    "end": 1402,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 1421,
+                    "end": 1430,
+                    "text": "Figure S7",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "In contrast, a longer latent period shortened the outbreak arrival time by allowing more secondary cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "211"
+        },
+        {
+            "text": "Considering the same R 0 setting but with incubation time 14 days, on day 28 the total number of secondary 213 cases raised to 1179.8 persons for all the top ten visiting cities in which Beijing contributes 180 persons in the 214 total secondary cases. Therefore, the longer latent period allowed 22% more secondary cases. The arrival time 215 of outbreak emergence were 14-18 days ( Figure 5A ), which were 2 days earlier than using 5.2 days latent 216 period. On day 18, all top ten cities except Shenyang have outbreak probability more than 50% ( Figure 5B ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 384,
+                    "end": 393,
+                    "text": "Figure 5A",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 550,
+                    "end": 559,
+                    "text": "Figure 5B",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "212"
+        },
+        {
+            "text": "The results confirmed that if latent period is long, more ill people can move to other cities. Guangzhou and Chengdu were successfully predicted ( Since R 0 of COVID-19 was not fully known yet, we predicted the outbreak spreads using different R 0 settings. 226",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "217"
+        },
+        {
+            "text": "In most cases, the effective reproductive number R may decrease after many control measures are conducted 227 [13] . Therefore, in addition to R 0 = 2.92, we made the same calculation under a low transmission setting with 228",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 114,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "217"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. 14 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "13"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20035261 doi: medRxiv preprint q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q q \u03bd = 8 0 30 60 90 120 150 180 0 1 J a n 0 3 J a n 0 5 J a n 0 7 J a n 0 9 J a n 1 1 J a n 1 3 J a n 1 5 J a n 1 7 J a n 1 9 J a n 2 1 J a n 2 3 J a n 2 5 J a n 2 7 J a n 2 9 J a n Date Cumulative number of secondary cases generated by the imported cases B e ij in g S h a n g h a i G u a n g z h o u C h e n g d u K u n m in g X ia m e n S h e n z h e n N a n n in g Q in g d a o S h e n y a n g City Global Infectious Disease Analysis at Imperial College London [22] , to evaluate the arrival times of outbreak 231 emergence among the top 10 visiting cities. Under these scenarios, following the suggestion from a recent 232 study [23] , we considered the initial infected number as 1000 on 31 December.",
+            "cite_spans": [
+                {
+                    "start": 849,
+                    "end": 853,
+                    "text": "[22]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1018,
+                    "end": 1022,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "When R 0 = 1.4, the cumulative secondary infected number was slowly linearly increasing and the top visiting 235 city had 6.8 cases on 28 January, which was below the critical threshold line \u03bd = 8 (supplementary Figure S2) . 236",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 222,
+                    "text": "Figure S2)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "234"
+        },
+        {
+            "text": "For each of the top ten cities, the arrival time at which the cumulative number of secondary cases larger than the 237 critical threshold was determined (supplementary Table S1 ). Beijing, Shanghai, Guangzhou had the shortest 238 required time periods. However, the arrival times of outbreak emergence in the above cities were between 239 31-34 days, corresponding to the end of January and the early of February, which were about more than 10 days 240 later comparing to the actual reported data (supplementary Table S1 ). The mean arrival time of the top 10 241 visiting cities was 39 days, which was 21 days later than R 0 = 2.92. With R 0 = 1.68, the mean arrival time 242 was 26.3 days. Given the reporting delay was about 10 days, we found that R 0 = 2.92 with latent period 5.2 243 days gave a better prediction compared to other low R 0 or long latent period settings. 244 15 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 877,
+                    "end": 880,
+                    "text": "244",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 168,
+                    "end": 176,
+                    "text": "Table S1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 512,
+                    "end": 520,
+                    "text": "Table S1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "234"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20035261 doi: medRxiv preprint Impact assessment of border control and quarantine 246 We first evaluated the effects of border control measures by changing the control rate c to reduce the The current epidemic marks the third time in 20 years that a member of the family of coronaviruses (CoVs) has 266 caused an epidemic employing its zoonotic potential, for example, from bats [24] . The COVID-19 virus is able 267 to establish between human-to-human transmission [3] and is currently spreading from Wuhan to many nearby 268 cities and countries. It is hypothesized that the rate of transmission between different cities or countries is 269 related to the number of people moving from different locations to Wuhan. About 2 weeks later after 31 270 December, using the number of cases detected outside China, it has been inferred that more than a thousand 271 individuals (with an estimated mean 1723) had had an onset of symptoms by 12 January, 2020 [25] .",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 107,
+                    "text": "13.20035261 doi: medRxiv preprint",
+                    "ref_id": null
+                },
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "246",
+                    "ref_id": null
+                },
+                {
+                    "start": 456,
+                    "end": 460,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 543,
+                    "end": 546,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 823,
+                    "end": 826,
+                    "text": "270",
+                    "ref_id": null
+                },
+                {
+                    "start": 1029,
+                    "end": 1033,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The study demonstrated that after reporting delay was estimated, the dynamics of the outbreaks at connected when the outbreak will arrive [26] and how to delay the arrival time to have a better preparation. The challenge, 277 however, is that we lack a simple and accurate tool for assessing outbreak emergence risk and subsequently the 278 required levels of border control and quarantine measures to prevent additional outbreaks.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 142,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "273"
+        },
+        {
+            "text": "Until recently, although some studies have been done to predict the spreading of this new disease using air and 281 other forms of transport information [6, 7, 27, 28, 29] , none of studies were designed to estimate the dynamics 282 of the imported and secondary cases. The benefit of stratifying the imported and secondary cases in a disease 283 transmission model is to provide a risk assessment of community spread. Because most of the imported cases 284 can be detected more easily under 14 days quarantine from the passengers coming from the epidemic source 285 region, thus the risk of outbreak is not primarily linked to the number of the imported cases. However, 286 secondary cases, without travel history to the epidemic source region, are more difficult to be identified or 287 quarantined before disease onset and thus are more easily to become undetected cases in a community. infectious disease control [30] . A recent study has used a modeling approach to forecast the dynamics of 292 outbreak spreading [27] . We developed an \"easy-to-use\" mathematical formula that are able to have an 293 analytical solution of the first wave transmission (imported cases) and the second wave transmission (secondary 294 cases generated by the imported cases). With these numbers, we are able to evaluate the impact of border 295 18 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 156,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 157,
+                    "end": 159,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 160,
+                    "end": 163,
+                    "text": "27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 164,
+                    "end": 167,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 168,
+                    "end": 171,
+                    "text": "29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 917,
+                    "end": 921,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1019,
+                    "end": 1023,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1327,
+                    "end": 1330,
+                    "text": "295",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "280"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20035261 doi: medRxiv preprint control and quarantine measures. Surprisingly, under the higher R 0 setting (2.92), the effect on obtaining 10 extra days requires an enhanced border control measure to reduce more than 90% of the passengers or a very 297 efficient quarantine measure. The results suggest that if the epidemic growth at the source location is high, even 298 a near full-scale border control without proper quarantine measure, will have only limited effects. The 299 transmission waves can be treated as a branching process. However, instead of using the offspring variability to 300 estimate the probability of extinction, we adopted a classical way to derive probability of extinction that was 301 based on R 0 or effective R.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "280"
+        },
+        {
+            "text": "We have learnt from the previous SARS outbreak that it is crucial to implement rapid infection control 304 measures to limit the impact of epidemics, both in terms of preventing more casualties and shortening the 305 epidemic period. Delaying the institution of control measures by 1 week would have nearly tripled the epidemic 306 size and would have increased the expected epidemic duration by 4 weeks [31] . Previous study showed that 307 control measures at international cross-borders and screening at borders are influential in mitigating the spread 308 of infectious diseases [32] [33] . Cross-boarder screening system to prevent infectious disease outbreak is 309 important but cannot successfully prevent ill persons during their latent period. imposed. Here the model we constructed can be used to estimate the dynamics of imported and secondary cases 314 using transportation data with different control measurements. The framework can be extended to multiple 315 infected sources to multiple target cities without increasing the complexity of the computation dramatically. 316 Hence, the model proposed in the current study could provide a risk assessment of COVID-19 global spreading 317 in a highly connected world.",
+            "cite_spans": [
+                {
+                    "start": 404,
+                    "end": 408,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 583,
+                    "end": 587,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 588,
+                    "end": 592,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1085,
+                    "end": 1088,
+                    "text": "316",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "303"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Pneumonia of unknown cause -China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Coronavirus disease (COVID-19) outbreak",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "Jasper Fuk-Woo",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shuofeng",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kin-Hang",
+                    "middle": [],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kelvin",
+                    "middle": [],
+                    "last": "Kai-Wang To",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hin",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fanfan",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jieling",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cyril",
+                    "middle": [],
+                    "last": "Chik-Yan Yip",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rosana",
+                    "middle": [],
+                    "last": "Wing-Shan Poon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "6736",
+            "issn": "20",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Coronavirus map: how Covid-19 is spreading across the world",
+            "authors": [
+                {
+                    "first": "The",
+                    "middle": [],
+                    "last": "Guardian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Center for Disease Control and Prevention (CDC)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A model-based tool to predict the propagation of infectious disease via airports",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Grace",
+                    "suffix": ""
+                },
+                {
+                    "first": "Paula",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hwang",
+                    "suffix": ""
+                },
+                {
+                    "first": "John",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mahoney",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gene",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "James",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andre",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Meredith",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Berro",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Michael"
+                    ],
+                    "last": "Keybl",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jennifer",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Goedecke",
+                    "suffix": ""
+                },
+                {
+                    "first": "Todd",
+                    "middle": [],
+                    "last": "Mathieu",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Travel Medicine and Infectious Disease",
+            "volume": "10",
+            "issn": "1",
+            "pages": "32--42",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A metric of influential spreading during contagion dynamics through the air transportation network",
+            "authors": [
+                {
+                    "first": "Christos",
+                    "middle": [],
+                    "last": "Nicolaides",
+                    "suffix": ""
+                },
+                {
+                    "first": "Luis",
+                    "middle": [],
+                    "last": "Cueto-Felgueroso",
+                    "suffix": ""
+                },
+                {
+                    "first": "Marta",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gonz\u00e1lez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ruben",
+                    "middle": [],
+                    "last": "Juanes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS ONE",
+            "volume": "7",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Global disease spread: statistics and estimation of arrival times",
+            "authors": [
+                {
+                    "first": "Aur\u00e9lien",
+                    "middle": [],
+                    "last": "Gautreau",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alain",
+                    "middle": [],
+                    "last": "Barrat",
+                    "suffix": ""
+                },
+                {
+                    "first": "Marc",
+                    "middle": [],
+                    "last": "Barthelemy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Journal of theoretical biology",
+            "volume": "251",
+            "issn": "3",
+            "pages": "509--522",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A simple explanation for the low impact of border control as a countermeasure to the spread of an infectious disease",
+            "authors": [
+                {
+                    "first": "Gianpaolo",
+                    "middle": [],
+                    "last": "Scalia Tomba",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jacco",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Mathematical biosciences",
+            "volume": "214",
+            "issn": "1-2",
+            "pages": "70--72",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Characterizing the dynamics underlying global spread of epidemics",
+            "authors": [
+                {
+                    "first": "Lin",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Joseph",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature Communications",
+            "volume": "9",
+            "issn": "1",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Insights into the evolution and emergence of a novel infectious disease",
+            "authors": [
+                {
+                    "first": "Ruben",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kubiak",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nimalan",
+                    "middle": [],
+                    "last": "Arinaminpathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Angela",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mclean",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PLoS Computational Biology",
+            "volume": "6",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Secondary attack rate and superspreading events for SARS-CoV-2. The Lancet",
+            "authors": [
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rosalind",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Eggo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adam",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Transmission dynamics of the etiological agent of sars in hong kong: impact of public health interventions",
+            "authors": [
+                {
+                    "first": "Steven",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "Christophe",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Christl",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Donnelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Azra",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ghani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Laith",
+                    "suffix": ""
+                },
+                {
+                    "first": "Anthony",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Abu-Raddad",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hedley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gabriel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lai-Ming",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tai-Hing",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Thuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Thach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1961--1966",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts. The Lancet Global Health",
+            "authors": [
+                {
+                    "first": "Joel",
+                    "middle": [],
+                    "last": "Hellewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sam",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amy",
+                    "middle": [],
+                    "last": "Gimma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nikos",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Bosse",
+                    "suffix": ""
+                },
+                {
+                    "first": "Christopher",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Jarvis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Timothy",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "James",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Munday",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adam",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "John",
+                    "middle": [],
+                    "last": "Edmunds",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fiona",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stefan",
+                    "middle": [],
+                    "last": "Flasche",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Billy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nicholas",
+                    "middle": [],
+                    "last": "Quilty",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "Samuel",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": ";",
+                    "middle": [],
+                    "last": "Clifford",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rosalind",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Eggo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Number of train passengers in China from",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Statista",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The Tencent database. Population migration map",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Extinction thresholds in deterministic and stochastic epidemic models",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Linda",
+                    "suffix": ""
+                },
+                {
+                    "first": "Glenn E Lahodny",
+                    "middle": [],
+                    "last": "Allen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Journal of Biological Dynamics",
+            "volume": "6",
+            "issn": "2",
+            "pages": "590--611",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Transmission dynamics of 2019 novel coronavirus",
+            "authors": [
+                {
+                    "first": "Tao",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jianxiong",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Min",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lifeng",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Haojie",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jianpeng",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Guanhao",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tie",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qiong",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zuhua",
+                    "middle": [],
+                    "last": "Rong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Transmission dynamics and control of severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "Marc",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ted",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ben",
+                    "middle": [],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "James",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stefan",
+                    "middle": [],
+                    "last": "Robins",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lyn",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gowri",
+                    "middle": [],
+                    "last": "James",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gopalakrishna",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kai",
+                    "middle": [],
+                    "last": "Suok",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Chew",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Chorh Chuan Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Matthew",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Samore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1966--1970",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72314 Cases From the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Zunyou",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jennifer",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Statement on the meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel coronavirus",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Novel coronavirus 2019-nCoV: Early estimation of epidemiological parameters and epidemic predictions. medRxiv",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jonathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jessica",
+                    "middle": [
+                        "Re"
+                    ],
+                    "last": "Read",
+                    "suffix": ""
+                },
+                {
+                    "first": "Derek",
+                    "middle": [
+                        "At"
+                    ],
+                    "last": "Bridgen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Antonia",
+                    "middle": [],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chris",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jewell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin",
+            "authors": [
+                {
+                    "first": "Peng",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xing-Lou",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xian-Guang",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ben",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lei",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wei",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hao-Rui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yan",
+                    "middle": [],
+                    "last": "Si",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bei",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chao-Lin",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Estimating the potential total number of novel coronavirus cases in wuhan city",
+            "authors": [
+                {
+                    "first": "Natsuko",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ilaria",
+                    "middle": [],
+                    "last": "Dorigatti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Anne",
+                    "middle": [],
+                    "last": "Cori",
+                    "suffix": ""
+                },
+                {
+                    "first": "Steven",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "Neil M",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "CDC official warns Americans it's not a question of if coronavirus will spread",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Joseph",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kathy",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gabriel M",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "689--697",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Assessing spread risk of wuhan novel coronavirus within and beyond china",
+            "authors": [
+                {
+                    "first": "Shengjie",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Isaac",
+                    "middle": [],
+                    "last": "Bogoch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nick",
+                    "middle": [],
+                    "last": "Ruktanonchai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alexander",
+                    "middle": [],
+                    "last": "Watts",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yu",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jianzing",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xin",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "Weizhong",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hongjie",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kamran",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Incorporating human movement data to improve epidemiological estimates for 2019-nCoV. medRxiv",
+            "authors": [
+                {
+                    "first": "Zhidong",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qingpeng",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xin",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dirk",
+                    "middle": [],
+                    "last": "Pfeiffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lei",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hongbing",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tao",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhongwei",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Daniel Dajun",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Factors that make an infectious disease outbreak controllable",
+            "authors": [
+                {
+                    "first": "Christophe",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "Steven",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Neil M",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "101",
+            "issn": "16",
+            "pages": "6146--6151",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures",
+            "authors": [
+                {
+                    "first": "Jacco",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "Peter",
+                    "middle": [],
+                    "last": "Teunis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "American Journal of epidemiology",
+            "volume": "160",
+            "issn": "6",
+            "pages": "509--516",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Epidemiology of imported infectious diseases, china",
+            "authors": [
+                {
+                    "first": "Yali",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xuan",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiaobo",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ruiqi",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lei",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chao",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wenxiao",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Daxin",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qun",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zijian",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Emerging infectious diseases",
+            "volume": "25",
+            "issn": "1",
+            "pages": "33--41",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Effectiveness of border screening for detecting influenza in arriving airline travelers",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Patricia",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Priest",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lance",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alasdair",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jennings",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cheryl",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Duncan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael G",
+                    "middle": [],
+                    "last": "Brunton",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "American journal of public health",
+            "volume": "105",
+            "issn": "S4",
+            "pages": "607--613",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "model embedded with analytical expressions that can stratify the imported cases and the secondary cases 68 produced by the imported cases along with other infected individuals with border control and quarantine 69 measures. We modified this simple meta-population model by introducing the effect of border control and the 70 quarantine. The mobility rate was multiplied by (1 \u2212 c), where c represents a border control measure. When c 71",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Statistics of airline passenger from Wuhan Tianhe International Airport and COVID-19 confirmed cases. (A) Number of airline passengers from Wuhan to top ten visiting cities between 30 December, 2019 to 20 January, 2020. (B) Number of confirmed cases at top ten visiting cities between 22 January to 28 January, 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "reported in Wuhan posed a higher potential of outbreak emergence. We collected airline passenger data during 161 22 days after outbreak emerged between 30 December to 20 January, before the lockdown of Wuhan was 162 implemented on 23 January, 2020. The daily airline passenger number from Wuhan to the top 10 visiting cities 163",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "developed a mathematical framework deriving from a standard meta-population model coupling with a 173 migration matrix and incubation time with different control measures (Figure 2B) to calculate the number of the 174 total imported cases and the cumulative secondary cases. 175 Outbreak spreads in Mainland China 176 10",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "COVID-19 outbreak spread from source to community transmission. (A) Outbreak progression from source to community spread. The imported cases arrive after passengers passed the border control. The secondary cases produced by the imported cases eventually cause the community outbreak. The community outbreak starts after t. (B) Mathematical model framework for COVID-19 estimates of secondary cases. I i and I j represent number of infected cases in a source location i and a target location j respectively. M is the mobility rate and f (\u03c4 ) is a function of incubation time that represent the percentage of infected cases that can pass the border (dashed line). T g and T qr are generation time and time to quarantine respectively. \u03b2 estimates the ratio R 0 Tg , where R 0 basic reproductive rate. Outbreak spreads in Mainland China were reconstructed and compared with different transmissibilities and 177 latent periods. We first calculated the cumulative number of secondary infected cases produced by imported 178 cases among top 10 visiting cities from Wuhan under a scenario corresponding to an R 0 of 2.92 [18], a 179 generation time of 8.4 days [19], and an incubation time (for defining latent period) of 5.2 days for the outbreak 180 in Wuhan city. The migration matrix M was constructed using the average of the airline passengers data during 181 22 days in January among these cities (materials and methods). The cumulative number of secondary infected 182individuals generated by the imported cases moving from Wuhan was calculated (Figure 3A). A threshold 183 number of cases \u03bd = 8 was used to indicate a higher than 50% probability of community spread will occur if 184 the cumulative number of secondary cases is over that threshold.185 186The arrival times of outbreak emergence (defined as the time to reach above this threshold) for the top 10 cities 187were between 16 -20 days (Figure 3A), with the average arrival time 18 days (corresponding to 18 January).188On day 28, the secondary cases rise to 139 persons for the top city Beijing, which makes the total number of 189 secondary cases among all the top ten visiting cities to 915.7 persons. The outbreak potentials of the cities were 190 assessed on 18 January. 7 out of 10 cities have a probability of outbreak emergence larger than 50% (Figure 3B 191and supplementaryFigure S8). Among those 7 cities, 5 of them had a high number of actual confirmed cases 192 more than 36 on 28 January (10 days later), only 3 of them maintained low case numbers below 10. Taking into 193",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Outbreak potential estimated from the secondary cases contacted by imported cases. A higher R 0 = 2.92 scenario with incubation time \u03c4 = 5.2 days and time to quarantine T qr = 2 days were used. (A) Number of cumulative secondary cases generated by imported cases. The secondary infections are listed among the top 10 visiting cities from Wuhan. \u03bd = 8 is the critical threshold number; (B) Probability of outbreak emergence in different cities at mean arrival time (18 days).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "of the top ten cities, the arrival times of outbreak emergence for both 5.2 and 14 days latent periods 220 were determined. The actual order of the arrival time for the top 4 cities, including Beijing, Shanghai, 221",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Observed number of confirmed cases and predicted number of imported and secondary cases. The predicted number of cases were adjusted by the reporting delay after using maximum likelihood estimation. The six cities that have the actual earliest arrival times are listed (four other remaining cities are given in the supplementary file).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Outbreak potential estimated from the secondary cases contacted by imported cases. A higher R 0 = 2.92 scenario with incubation time \u03c4 = 14 days and time to quarantine T qr = 2 days were used. (A) Number of cumulative secondary cases generated by imported cases. The secondary infections are listed among the top 10 visiting cities from Wuhan. \u03bd = 8 is the critical threshold number; (B) Probability of outbreak emergence in different cities at critical time (18 days).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "= 1.4, which was the lower bound of World Health Organization's estimate[21] and a medium 229 transmission setting with R 0 = 1.68, which was near the lower bound of R 0 estimated by the MRC Centre for 230",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "247transportation between two cities under three different R 0 settings. Border control or other special events, like248    lunar new year, can affect the traveling rates. Ideally, complete cessation of population movement between 249 cities or isolation of every susceptible case from the source city can reduce transmission events most however it 250 happens rarely. Then the extra arrival gain times of outbreak emergence comparing to a baseline setting using251    Beijing city were calculated.252 253 Under a low R 0 (1.4), the border control measure that reduced 90% of the passenger numbers gained extra 32.5 254 days of outbreak arrival time (Figure 6A). Under a medium R 0 (1.68), we found that the effect of border control 255 was weaker but still created 20.0 extra days under the same control level. However, under the high R 0 (2.92), 256 the effect on reducing the chance of outbreak emergence was very low, with only 10 extra days obtained. 257 258 Next, we calculated gain time by time to quarantine under different R 0 settings. Under the low R 0 (1.4), if the 259 individual was quarantined immediately (happened in one day after the person became infectious), the gain 260 time became as large as 44.0 days (Figure 6B). Under the medium R 0 (1.68), we found that the quarantine 261 effect was approximately half of the low R 0 scenario (24.1 days) using the same time to quarantine. However, 262 under the high R 0 (2.92), the effect of quarantine was much lower, with only 10.0 days was gained. Assessment of border control and quarantine effects on outbreak arrivals. (A) Gain time of outbreak emergence by the rates of successful border control. The effects of border control on gain time under a low R 0 (1.4), mild R 0 (1.68), high R 0 (2.92) were plotted in blue, green, and red colors. (B) Gain time of outbreak emergence by time to quarantined. The effects of border control on gain time under a low R 0 (1.4), mild R 0 (1.68), high R 0 (2.92) were plotted using the same color codes as A. The passenger data of the top visiting city Beijing was used to generate the baseline arrival time. To get the gain time, the arrival time using different infectious disease control measures was calculated and was subtracted by the baseline arrival time.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "274 cities can be successfully reconstructed using both the imported and the secondary cases. The result implies 275 that all the connected (direct or indirect) countries are having a great risk of outbreak. The question is about 276",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "the effectiveness of different infectious disease control on the secondary cases in order to estimate 290 the arrival time of future community spread. Recent studies have shown the importance of modeling in291",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "scale border control measures to prevent the spread of the virus have been discussed in many countries in 312 the world. At the same time, a lockdown of Wuhan city (border control from leaving out) has already been 313",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

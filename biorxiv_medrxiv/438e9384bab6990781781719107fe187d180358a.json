@@ -1,0 +1,1181 @@
+{
+    "paper_id": "438e9384bab6990781781719107fe187d180358a",
+    "metadata": {
+        "title": "COMPARATIVE PATHOGENESIS OF COVID-19, MERS AND SARS IN A NON-HUMAN PRIMATE MODEL",
+        "authors": [
+            {
+                "first": "Barry",
+                "middle": [],
+                "last": "Rockx",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Thijs",
+                "middle": [],
+                "last": "Kuiken",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sander",
+                "middle": [],
+                "last": "Herfst",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Theo",
+                "middle": [],
+                "last": "Bestebroer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mart",
+                "middle": [
+                    "M"
+                ],
+                "last": "Lamers",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dennis",
+                "middle": [],
+                "last": "De 5 Meulder",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Geert",
+                "middle": [],
+                "last": "Van Amerongen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Viroclinics Xplore",
+                    "location": {
+                        "settlement": "Schaijk",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Judith",
+                "middle": [],
+                "last": "Van Den Brand",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2020",
+                "middle": [],
+                "last": "Nisreen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "A"
+                ],
+                "last": "Okba",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Debby",
+                "middle": [],
+                "last": "Schipper",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peter",
+                "middle": [],
+                "last": "Van Run",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lonneke",
+                "middle": [],
+                "last": "Leijten",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ernst",
+                "middle": [],
+                "last": "Verschoor",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Babs",
+                "middle": [],
+                "last": "Verstrepen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jan",
+                "middle": [],
+                "last": "Langermans",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Christian",
+                "middle": [],
+                "last": "Drosten",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Charit\u00e9-Universit\u00e4tsmedizin",
+                    "location": {
+                        "settlement": "Berlin",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Martje",
+                "middle": [],
+                "last": "Fentener Van Vlissingen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "15 the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ron",
+                "middle": [],
+                "last": "Fouchier",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rik",
+                "middle": [],
+                "last": "De Swart",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Marion",
+                "middle": [],
+                "last": "Koopmans",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bart",
+                "middle": [
+                    "L"
+                ],
+                "last": "Haagmans",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Erasmus University Medical Center",
+                    "location": {
+                        "settlement": "Rotterdam",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "*",
+                "middle": [],
+                "last": "Affiliations",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "A novel coronavirus, SARS-CoV-2, was recently identified in patients with an acute respiratory syndrome, COVID-19. To compare its pathogenesis with that of previously emerging coronaviruses, we inoculated cynomolgus macaques with SARS-CoV-2 or MERS-CoV and compared with historical SARS-CoV infections. In SARS-CoV-2-infected macaques, virus was 5 excreted from nose and throat in absence of clinical signs, and detected in type I and II pneumocytes in foci of diffuse alveolar damage and mucous glands of the nasal cavity. In SARS-CoV-infection, lung lesions were typically more severe, while they were milder in MERS-CoV infection, where virus was detected mainly in type II pneumocytes. These data show that SARS-CoV-2 can cause a COVID-19-like disease, and suggest that the severity of SARS-CoV-2 infection 10 is intermediate between that of SARS-CoV and MERS-CoV.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Following the first reports of an outbreak of an acute respiratory syndrome (2019 coronavirus disease, or in China in December 2019, a novel coronavirus, SARS-CoV-2, was identified (1, 2). As of March 14, 2020, over 140,000 cases were reported worldwide with over 20 5,400 deaths, surpassing the combined number of cases and deaths of two previously emerging coronaviruses, SARS-CoV and MERS-CoV (3) . COVID-19 is characterized by a range of symptoms, including fever, cough, dyspnoea and myalgia in most cases (2). In severe cases, bilateral lung involvement with ground-glass opacity is the most common chest CT finding (4) . Similar to the 2002/2003 outbreak of SARS, severity of COVID-19 disease is associated with 25 increased age and/or a comorbidity, although severe disease is not limited to these risk groups (5) . However, despite the large number of cases and deaths, limited information is available on the pathogenesis of this virus infection. Two reports on the histological examination of the lungs of three patients showed bilateral diffuse alveolar damage (DAD), pulmonary oedema and hyaline membrane formation, indicative of acute respiratory distress syndrome (ARDS), as well as 30 characteristic syncytial cells in the alveolar lumen (6, 7) , similar to findings during the 2002/2003 outbreak of SARS-CoV (8) . The pathogenesis of SARS-CoV infection was previously studied in a non-human primate model where aged animals were more likely to develop disease (9) (10) (11) (12) (13) . In the current study, SARS-CoV-2 infection was characterized in the same animal model, using cynomolgus macaques, and compared with infection with MERS-CoV and historical data on 35 SARS-CoV (9, 10, 12) .",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 266,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 396,
+                    "end": 399,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 622,
+                    "end": 625,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 818,
+                    "end": 821,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1198,
+                    "end": 1200,
+                    "text": "30",
+                    "ref_id": null
+                },
+                {
+                    "start": 1254,
+                    "end": 1257,
+                    "text": "(6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1258,
+                    "end": 1260,
+                    "text": "7)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1325,
+                    "end": 1328,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1477,
+                    "end": 1480,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1481,
+                    "end": 1485,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1486,
+                    "end": 1490,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1491,
+                    "end": 1495,
+                    "text": "(12)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1496,
+                    "end": 1500,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1694,
+                    "end": 1697,
+                    "text": "(9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1698,
+                    "end": 1701,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1702,
+                    "end": 1705,
+                    "text": "12)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "First, two groups of four cynomolgus macaques (both young adult, 4-5 years of age; and aged, 15-20 years of age) were inoculated via a combined intratracheal (IT) and intranasal (IN) route with a SARS-CoV-2 strain from a German traveller returning from China. No overt clinical signs were observed in any of the infected animals, with the exception of a serous nasal discharge in one aged 40 animal on day 14 post inoculation (p.i.). No significant weight loss was observed in any of the animals during the study. By day 14 p.i. all remaining animals seroconverted as revealed by the . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.17.995639 doi: bioRxiv preprint presence of SARS-CoV-2 specific antibodies against the S1 domain and nucleocapsid proteins in their sera (Fig. S1 ).",
+            "cite_spans": [
+                {
+                    "start": 389,
+                    "end": 391,
+                    "text": "40",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 915,
+                    "end": 923,
+                    "text": "(Fig. S1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "As a measure of virus shedding, nasal, throat and rectal swabs were assayed for virus by RT-qPCR and virus culture. In nasal swabs, detection of SARS-CoV-2 RNA peaked by day 2 p.i. in young adult animals and day 4 p.i. in aged animals and was detected up to at least day 8 p.i. in two out of 5 four animals and up to day 21 p.i. in one out of four animals (Fig. 1A) . Overall, higher levels of SARS-CoV-2 RNA were detected in nasal swabs of aged animals compared to young adult animals. SARS-CoV-2 RNA detection in throat swabs peaked at day 1 p.i. in young adult and day 4 p.i. in aged animals and decreased more rapidly over time, compared to nasal swabs, but could still be detected intermittently up to day 10 p.i. (Fig. 1B) . Low levels of infectious virus could be 10 cultured from nasal and throat swabs up to day 4 and 2 respectively (Table S1 ). SARS-CoV-2 RNA could only be detected in a rectal swab from 1 animal on day 14 p.i. and no viral RNA could be detected in whole blood at any time point throughout the study.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 293,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 771,
+                    "end": 773,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 356,
+                    "end": 365,
+                    "text": "(Fig. 1A)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 719,
+                    "end": 728,
+                    "text": "(Fig. 1B)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 842,
+                    "end": 851,
+                    "text": "(Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Upon autopsy of four macaques on day 4 p.i., two had foci of pulmonary consolidation in the lungs ( Fig. 2A ). One animal (aged: 17 years) in the right middle lobe, representing less than 5% of the 15 lung tissue. A second animal (young adult: 5 years) had two foci in the left lower lobe, representing about 10% of the lung tissue ( Fig. 2A) . The consolidated lung tissue was well-circumscribed, redpurple, level, and less buoyant than normal. The other organs in these two macaques, as well as the respiratory tract and other organs of the other two animals were normal.",
+            "cite_spans": [
+                {
+                    "start": 198,
+                    "end": 200,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 100,
+                    "end": 107,
+                    "text": "Fig. 2A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 334,
+                    "end": 342,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Virus replication was assessed by RT-qPCR on day 4 p.i. in tissues from the respiratory, digestive 20 urinary, and cardiovascular tracts, from endocrine and central nervous systems, as well as from various lymphoid tissues. Virus replication was primarily restricted to the respiratory tract (nasal cavity, trachea, bronchi and lung lobes) with highest levels of SARS-CoV-2 RNA in lungs (Fig.  1C) . Interestingly, in three out of four animals, SARS-CoV-RNA was also detected in ileum and tracheo-bronchial lymph nodes (Fig. 1C) . 25 The main histological lesion in the consolidated pulmonary tissue involved the alveoli and bronchioles, and consisted of areas with acute or more advanced DAD (Fig. 2B ). In these areas, the lumina of alveoli and bronchioles were variably filled with protein-rich oedema fluid, fibrin, and cellular debris, a moderate number of alveolar macrophages, and fewer neutrophils and lymphocytes ( Fig. 2C -E). There was epithelial necrosis with extensive loss of epithelium from 30 alveolar and bronchiolar walls. Hyaline membranes were present in a few damaged alveoli. In areas with more advanced lesions, the alveolar walls were moderately thickened and lined by cuboidal epithelial cells (type II pneumocyte hyperplasia), and the alveolar lumina were empty. Alveolar and bronchiolar walls were thickened by oedema fluid, mononuclear cells, and neutrophils. There were aggregates of lymphocytes around small pulmonary vessels. Moderate 35 numbers of lymphocytes and macrophages were present in the lamina propria and submucosa of the bronchial walls, and a few neutrophils in the bronchial epithelium. Regeneration of epithelium was seen in some bronchioles, visible as an irregular layer of squamous to high cuboidal epithelial cells with hyperchromatic nuclei. There were occasional multinucleated giant cells (syncytia) free in the lumina of bronchioles and alveoli (Fig. 2F) , and, based on positive pan-keratin staining and 40 negative CD68 staining, originated from epithelial cells (Fig. 2F, inset) . The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.17.995639 doi: bioRxiv preprint SARS-CoV-2 antigen expression was detected in moderate numbers of type I pneumocytes and a few type II pneumocytes in foci of DAD (Fig. 2G, fig. S2 ). The pattern of staining was similar to that in lung tissue from SARS-CoV-infected macaques (positive control). SARS-CoV-2 antigen expression was not observed in any of the syncytia. In the upper respiratory tract, there was focal or locally extensive SARS-CoV-2 antigen expression in epithelial cells of mucous glands in the 5 nasal cavity (septum or concha) of all four macaques, without any associated histological lesions ( fig. 2I ).",
+            "cite_spans": [
+                {
+                    "start": 99,
+                    "end": 101,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 531,
+                    "end": 533,
+                    "text": "25",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 387,
+                    "end": 397,
+                    "text": "(Fig.  1C)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 519,
+                    "end": 528,
+                    "text": "(Fig. 1C)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 693,
+                    "end": 701,
+                    "text": "(Fig. 2B",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 924,
+                    "end": 931,
+                    "text": "Fig. 2C",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1899,
+                    "end": 1908,
+                    "text": "(Fig. 2F)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2019,
+                    "end": 2035,
+                    "text": "(Fig. 2F, inset)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2310,
+                    "end": 2327,
+                    "text": "(Fig. 2G, fig. S2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2758,
+                    "end": 2765,
+                    "text": "fig. 2I",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "In order to assess the severity of infection with SARS-CoV-2 compared to that with the previously emerged MERS-CoV, young adult cynomolgus macaques (3-5 years of age) were inoculated with MERS-CoV via the IN and IT route. All animals remained free of clinical signs. At day 21 p.i., all 10 remaining animals (n=2) seroconverted as revealed by the presence of MERS-CoV specific antibodies in their sera by ELISA.",
+            "cite_spans": [
+                {
+                    "start": 287,
+                    "end": 289,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "MERS-CoV RNA was detected in nasal ( Fig. 3A ) and throat swabs (Fig. 3B ) from days 1 to 11 p.i., with peaks on days 1 and 2 p.i., respectively. Low levels of MERS-CoV RNA were detected in rectal swabs on days 2 and 3 p.i. (data not shown). 15 Upon autopsy of four macaques at day 4 p.i., three out of four macaques had foci of pulmonary consolidation, characterized by slightly depressed areas in the lungs, representing less than 5 % of the lung tissue (Table 1) . Similar to SARS-CoV-2, on day 4 p.i., MERS-CoV RNA was primarily detected in the respiratory tract of inoculated animals (Fig. 3C) . Infectious virus titres were comparable to SARS-CoV-2, but lower compared to SARS-CoV infection of young adult 20 macaques (Table 1 ). In addition, MERS-CoV RNA was detected in the spleen (Table 1) .",
+            "cite_spans": [
+                {
+                    "start": 242,
+                    "end": 244,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 37,
+                    "end": 44,
+                    "text": "Fig. 3A",
+                    "ref_id": null
+                },
+                {
+                    "start": 64,
+                    "end": 72,
+                    "text": "(Fig. 3B",
+                    "ref_id": null
+                },
+                {
+                    "start": 456,
+                    "end": 465,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 589,
+                    "end": 598,
+                    "text": "(Fig. 3C)",
+                    "ref_id": null
+                },
+                {
+                    "start": 724,
+                    "end": 732,
+                    "text": "(Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 789,
+                    "end": 798,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Consistent with the presence of virus in the lower respiratory tract at day 4 p.i., histopathological changes characteristic for DAD were observed in the lungs of inoculated animals (Fig. 3D) . The alveolar septa were thickened due to infiltration of few neutrophils and macrophages, and moderate type II pneumocyte hyperplasia and hypertrophy. In the alveolar lumina, there were 25 increased numbers of alveolar macrophages and occasionally small amounts of oedema fluid with fibrin and few neutrophils (Fig. 3D) . Few syncytial cells were seen in the alveolar lumina. Interestingly, MERS-CoV antigen was not detected in tissues on day 4 p.i. in any part of the respiratory tract. Therefore, four young adult macaques were included at an earlier time point, day 1 p.i. On day 1 p.i. there was multifocal expression of viral antigen predominantly in type II 30 pneumocytes and occasionally in type I pneumocytes, bronchiolar and bronchial epithelial cells and few macrophages (Fig 3D) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 182,
+                    "end": 191,
+                    "text": "(Fig. 3D)",
+                    "ref_id": null
+                },
+                {
+                    "start": 504,
+                    "end": 513,
+                    "text": "(Fig. 3D)",
+                    "ref_id": null
+                },
+                {
+                    "start": 976,
+                    "end": 984,
+                    "text": "(Fig 3D)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "In summary, we inoculated young adult and aged cynomolgus macaques with a low passage clinical isolates of SARS-CoV-2, which resulted in productive infection in the absence of overt clinical signs. Increased age did not affect disease outcome, but there was prolonged viral shedding 35 in the upper respiratory tract of aged animals. Prolonged shedding has been observed in both SARS-CoV-2 and SARS-CoV patients (14, 15) . Interestingly, SARS-CoV-2 in our model, peaked early in the course of infection, similar to what is seen in patients (14) . This earlier peak in virus shedding for SARS-CoV-2 is more similar to influenza virus shedding (16) than SARS-CoV, where shedding peaked around day 10 post onset of symptoms (15) , and may explain why case 40 detection and isolation may not be as effective for SARS-CoV-2 as it was for the control of SARS-CoV (17) . Also, all four macaques expressed SARS-CoV-2 antigen in mucous glands of the nasal . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.17.995639 doi: bioRxiv preprint cavity at day 4 p.i., which was not seen for SARS-CoV (9) (10) (11) or MERS-CoV infections (this manuscript) in this animal model. Viral tropism for the nasal mucosa fits with efficient respiratory transmission, as has been seen for influenza A virus (18) . SARS-CoV-2 was primarily detected in tissues of the respiratory tract, however SARS-CoV-2 RNA was also detectable in other tissues such as intestines, in line with a recent report (19). 5 Two out of four animals had foci of DAD on day 4 p.i. The colocalisation of SARS-CoV-2-antigen expression and DAD provides strong evidence that SARS-CoV-2 infection caused this lesion. The histological character of the DAD, including alveolar and bronchiolar epithelial necrosis, alveolar oedema, hyaline membrane formation, and accumulation of neutrophils, macrophages and lymphocytes, corresponds with the limited pathological analyses of human COVID-19 cases (6, 10 7). In particular, the presence of syncytia in the lung lesions is characteristic of respiratory coronavirus infections. Whereas MERS-CoV primarily infects type II pneumocytes in cynomolgus macaques, both SARS-CoV and SARS-CoV-2 also infect type I pneumocytes. Injury to type I pneumocytes can result in pulmonary oedema, and formation of hyaline membranes (20) , which may explain why hyaline membrane formation is a hallmark for SARS and COVID-19 (7, 10), but The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.17.995639 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.17.995639 doi: bioRxiv preprint Fig. 3 . Virus shedding and virus detection in organs of MERS-CoV inoculated cynomolgus macaques. Viral RNA was detected in nasal (A) and throat (B) swabs and tissues (C) of MERS-CoV infected animals by RT-qPCR. Samples from 4 animals per group were tested. The error bars represent the standard error of the mean. Virus was detected in tissues on day 4 by RT-qPCR. 5 Histopathological changes (D; left picture) with hypertrophic and hyperplastic type II pneumocytes in the alveolar septum and increased numbers of alveolar macrophages in the alveolar lumen and virus antigen expression (right picture) in type II pneumocytes.",
+            "cite_spans": [
+                {
+                    "start": 283,
+                    "end": 285,
+                    "text": "35",
+                    "ref_id": null
+                },
+                {
+                    "start": 412,
+                    "end": 416,
+                    "text": "(14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 417,
+                    "end": 420,
+                    "text": "15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 721,
+                    "end": 725,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 857,
+                    "end": 861,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1227,
+                    "end": 1230,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1231,
+                    "end": 1235,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1236,
+                    "end": 1240,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1424,
+                    "end": 1428,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1617,
+                    "end": 1618,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 2445,
+                    "end": 2449,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 3200,
+                    "end": 3201,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2834,
+                    "end": 2840,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.17.995639 doi: bioRxiv preprint Table 1 . Comparative pathogenesis of SARS-CoV-2, MERS-CoV, and SARS-CoV infections in cynomolgus macaques.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 226,
+                    "end": 233,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "514--523",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coronavirus covid-19 has killed more people than SARS and MERS combined, despite lower case fatality rate",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mahase",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, 10 China: a descriptive study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "507--513",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Pathological findings of COVID-19 associated with acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Pulmonary pathology of early phase 2019 novel coronavirus (COVID-19) pneumonia in two patients with lung cancer",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Thorac Oncol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Lung pathology of fatal severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Nicholls",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "361",
+            "issn": "",
+            "pages": "1773--1778",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Aetiology: Koch's postulates fulfilled for SARS virus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fouchier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "423",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kuiken",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "362",
+            "issn": "",
+            "pages": "263--270",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Exacerbated innate host response to SARS-CoV in aged non-human primates",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Smits",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PLoS Pathog",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Pegylated interferon-alpha protects type 1 pneumocytes against SARS coronavirus infection in macaques",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Haagmans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nat Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "290--293",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Comparative pathogenesis of three human and zoonotic SARS-CoV strains in cynomolgus macaques",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rockx",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS One",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected 30 Patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Clinical progression and viral load in a community outbreak of coronavirus-associated SARS pneumonia: a prospective study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Peiris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "361",
+            "issn": "",
+            "pages": "1767--1772",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Correlation of pandemic (H1N1) 2009 viral load with disease severity and 35 prolonged viral shedding in children",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Emerg Infect Dis",
+            "volume": "16",
+            "issn": "",
+            "pages": "1265--1272",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Evaluation of control measures implemented in the severe acute respiratory syndrome outbreak in Beijing",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Pang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "JAMA",
+            "volume": "290",
+            "issn": "",
+            "pages": "3215--3221",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Influenza A viruses are transmitted via the air from the nasal respiratory epithelium of ferrets",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Richard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Evidence for gastrointestinal infection of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastroenterology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ware",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Matthay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "N Engl J Med",
+            "volume": "342",
+            "issn": "",
+            "pages": "1334--1349",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "15 not frequently reported for MERS (21, 22). These data show that cynomolgus macaques are permissive to SARS-CoV-2 infection, shed virus for a prolonged period of time and display COVID-19-like disease. SARS-CoV-2 infection caused histopathological changes in the lungs that appeared to be intermediate in severity between those from SARS-CoV and MERS-CoV infections established by similar inoculation doses and routes. 20 An in-depth comparison of infection with SARS-CoV, MERS-CoV and SARS-CoV-2 in this model may identify key pathways in the pathogenesis of these emerging viruses. This study provides a novel infection model which will be critical in the evaluation and licensure of preventive and therapeutic strategies against SARS-CoV-2 infection for use in humans, as well as evaluating the efficacy of repurposing species specific existing treatments, such as pegylated interferon (Shieh et al., Immunohistochemical, in situ hybridization, and ultrastructural localization of SARS-associated coronavirus in lung of a fatal case of severe acute respiratory syndrome in Taiwan. Hum Pathol 36, 303-309 (2005). 22. D. L. Ng et al., Clinicopathologic, Immunohistochemical, and Ultrastructural Findings of a Fatal Case of Middle East Respiratory Syndrome Coronavirus Infection in the United 5 Arab Emirates, April 2014. Am J Pathol 186, 652-658 (2016). Acknowledgments: We thank L. de Meulder, A. van der Linden, I. Chestakova and R. Sikkema for technical assistance. Y.Kap, D. Akkermans, V. Vaes,M. Sommers, F. Meijers for assistance with the animal studies. Funding: This research is (partly) financed by the NWO Stevin Prize 10 awarded to M.K. by the Netherlands Organisation for Scientific Research (NWO), H2020 grant agreement 874735 -VEO to M.K., NIH/NIAID contract HHSN272201400008C to R.F., and H2020 grant agreement 101003651 -MANCO to B.H.; Author contributions: Conceptualization, B.R. R.F., M.K., RdS, M.F. B.H.; investigation, B.R., T.K., S.H., T.B., M.L., D.d.M., G.v.A., J.v.d.B., N.O., D.S., P.v.R., L.L.; resources, B.H., C.D. E.V., B.V., J.L. 15 supervision, B.R. and B.H.; writing, original draft, B.R., T.K. and B.H.; writing-review and editing, all authors; funding acquisition: B.H., R.F. and M.K. Competing interests: Authors declare no competing interests. Data and materials availability: All data is available in the main text or the supplementary materials. Virus shedding and virus detection in organs of SARS-CoV-2 inoculated cynomolgus macaques. Viral RNA was detected in nasal (A) and throat (B) swabs and tissues (C) of SARS-CoV-2 infected animals by RT-qPCR. Samples from 4 animals (days 1-4) or 2 animals (days >4) per group were tested. The error bars represent the standard error of the mean. Virus was 5 detected in tissues from 2 young, and 2 aged animals on day 4 by RT-qPCR.* = infectious virus was isolated.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Characteristic pathological changes and virus antigen expression in the lungs of SARS-CoV-2-inoculated cynomolgus macaques. (A) Two foci of pulmonary consolidation in the left lower lung lobe (arrowheads). (B) Area of pneumonia (HE, 2X objective). (C) Oedema fluid in alveolar lumina (HE, 40X objective). (D) Neutrophils, as well as erythrocytes, fibrin, and cell 5 debris, in an alveolar lumen flooded by oedema fluid (HE, 100X objective). (E) Mononuclear cells, either type II pneumocytes or alveolar macrophages, in an alveolar lumen flooded by oedema fluid (HE, 100X objective). (F) Syncytium in an alveolar lumen (HE, 100X objective). Inset: Syncytium expresses keratin, indicating epithelial cell origin (IHC for pankeratin AE1/AE3, 100X objective). (G) SARS-CoV-2 antigen expression is colocalized with areas of 10 diffuse alveolar damage (IHC for SARS-CoV-nucleocapsid, 20X objective). (H) Type I (flat) and type II (cuboidal) pneumocytes in affected lung tissue express SARS-CoV-2 antigen (IHC for SARS-CoV-nucleocapsid, 40X objective). (I) Epithelial cells of mucous glands in nasal cavity expresses SARS-CoV-2 antigen (IHC for SARS-CoV-nucleocapsid, 40X objective).",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

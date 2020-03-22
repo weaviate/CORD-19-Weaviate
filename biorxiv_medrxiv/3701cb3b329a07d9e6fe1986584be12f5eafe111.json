@@ -1,0 +1,2070 @@
+{
+    "paper_id": "3701cb3b329a07d9e6fe1986584be12f5eafe111",
+    "metadata": {
+        "title": "Expected impact of COVID-19 outbreak in a major metropolitan area in Brazil",
+        "authors": [
+            {
+                "first": "Tarc\u00edsio",
+                "middle": [
+                    "M"
+                ],
+                "last": "Rocha Filho",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidade de Bras\u00edlia",
+                    "location": {
+                        "settlement": "Bras\u00edlia",
+                        "region": "DF",
+                        "country": "BRAZIL"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sherine",
+                "middle": [],
+                "last": "Fabiana",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Ganem",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Santos",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Victor",
+                "middle": [
+                    "Bertollo"
+                ],
+                "last": "Gomes",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thiago",
+                "middle": [],
+                "last": "Augusto",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hernandes",
+                "middle": [],
+                "last": "Rocha",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Organiza\u00e7\u00e3o Panamericana de Sa\u00fade (OPAS)",
+                    "location": {
+                        "settlement": "Bras\u00edlia",
+                        "region": "DF",
+                        "country": "BRAZIL"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Julio",
+                "middle": [],
+                "last": "Henrique",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rosa",
+                "middle": [],
+                "last": "Croda",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Walter",
+                "middle": [
+                    "Massa"
+                ],
+                "last": "Ramalho",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidade de Bras\u00edlia",
+                    "location": {
+                        "settlement": "Bras\u00edlia",
+                        "region": "DF",
+                        "country": "BRAZIL"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wildo",
+                "middle": [],
+                "last": "Navegantes De Ara\u00fajo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidade de Bras\u00edlia",
+                    "location": {
+                        "settlement": "Bras\u00edlia",
+                        "region": "DF",
+                        "country": "BRAZIL"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In January 2020 China reported to the World Health Organization an outbreak of pneumonia of 2 undetermined origin in the city of Wuhan, Hubei. Initially 44 cases were reported, having as 3 common exposure contact the Wuhan seafood market. An increasing number of unrelated 4 secondary cases have since been detected across China, and leading to the dissemination of cases 5 into several countries [1] . The etiologic agent was identified as a new coronavirus, of the 6 betacoronavirus family, which has since be named SARS-CoV-2, and the resulting disease 7 COVID-19 [2] . In January 30, 2020, the World Health Organization declared the outbreak of 8 COVID-19 as a Public Health Emergency of International Interest (ESPII) [3, 4] , and in March 9 11 declared it a Pandemic [5] . 10 Previously to 2019, two highly pathogenic coronavirus had been described in the world. The 11 first named SARS-CoV and described in 2003, was responsible for an epidemic of severe acute 12 respiratory syndrome (SARS), initiated in China and with secondary cases in 26 other countries, 13 accounting for a total of 8,096 cases and 774 deaths [case-fatality rate (CFR): 9.6%] [6, 7] . The 14 second virus, named MERS-CoV, was identified in 2012 is a betacoronavirus responsible for the 15 Middle East Respiratory Syndrome (MERS) [8] . Cases of MERS-CoV are reported sporadically 16 ever since, resulting from zoonotic transmission, with a few outbreaks associated with human to 17 human transmission, resulting in 2449 cases and 845 deaths (CFR: 34,5%), with the majority 18 (84%) reported in Saudi Arabia [9] . 19 SARS-CoV-2 has significant differences relative to MERS-CoV and SARS-CoV. In just over 20 a month of the epidemic, more cases of COVID-19 were confirmed than in the entire history of 21 22 linked to epidemic amplification phenomena, with few cases were responsible for a 23 disproportionately high number of secondary cases, the so-called super-spreaders, with a 24 significant number of cases resulting from nosocomial transmission. This characteristic allowed 25 outbreaks to occur even in scenarios with an average basic reproduction number R 0 of less than 26 one [4, [10] [11] [12] [13] [14] . Unlike SARS-CoV and MERS-CoV, over-dispersion events does not seem to be 27 of a major relevance for the COVID-19 epidemic, suggesting a more homogeneous 28 transmissibility in the population [15, 16] . 29 Homogeneous transmissibility and the potential for transmission from asymptomatic 30 sources [17] brings COVID-19's behavior closer to other respiratory transmission viruses, such 31 as measles or influenza [13] . Influenza viruses, despite the differences in relation to viruses of 32 the coronavirus family, have similar modes of transmission, and the associated clinical 33 syndromes. Eventually new influenza viruses originating from genetic recombination in animals 34 infect humans, and subsequently transmitted in the population, having been responsible for 35 pandemics in the past, with the occurrence of hundreds of thousands of cases and thousands of 36 deaths worldwide [18, 19] .",
+            "cite_spans": [
+                {
+                    "start": 273,
+                    "end": 274,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 372,
+                    "end": 373,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 397,
+                    "end": 400,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 467,
+                    "end": 468,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 556,
+                    "end": 557,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 567,
+                    "end": 570,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 649,
+                    "end": 650,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 723,
+                    "end": 726,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 727,
+                    "end": 729,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 745,
+                    "end": 746,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 773,
+                    "end": 776,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 779,
+                    "end": 781,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 873,
+                    "end": 875,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 968,
+                    "end": 970,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1067,
+                    "end": 1069,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1156,
+                    "end": 1159,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1160,
+                    "end": 1162,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1266,
+                    "end": 1268,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1309,
+                    "end": 1312,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1458,
+                    "end": 1460,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1552,
+                    "end": 1554,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1586,
+                    "end": 1589,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1592,
+                    "end": 1594,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1778,
+                    "end": 1780,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1781,
+                    "end": 1783,
+                    "text": "22",
+                    "ref_id": null
+                },
+                {
+                    "start": 2057,
+                    "end": 2059,
+                    "text": "25",
+                    "ref_id": null
+                },
+                {
+                    "start": 2156,
+                    "end": 2158,
+                    "text": "26",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 2163,
+                    "end": 2166,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 2167,
+                    "end": 2171,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 2172,
+                    "end": 2176,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 2177,
+                    "end": 2181,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 2182,
+                    "end": 2186,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2187,
+                    "end": 2191,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2348,
+                    "end": 2350,
+                    "text": "28",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 2386,
+                    "end": 2390,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2391,
+                    "end": 2394,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 2397,
+                    "end": 2399,
+                    "text": "29",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2482,
+                    "end": 2484,
+                    "text": "30",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 2493,
+                    "end": 2497,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 2607,
+                    "end": 2611,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2774,
+                    "end": 2776,
+                    "text": "33",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 3082,
+                    "end": 3086,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 3087,
+                    "end": 3090,
+                    "text": "19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Brazil has one of the largest public health care systems in the world [20] , and understanding 38 how an eventual COVID-19 epidemic in the country could affect this system is central for the 39 preparation of a proper response. In the past, epidemiological models have been used to predict 40 the occurrence of measles cases in order to support decision making in public health 41 emergencies. This paper aims to present tools capable of making projections of the impact of a 42 COVID-19 epidemic in the major metropolitan region of the country. This of particular 43 importance not only for the size of its population, but also for being the main hub of arrival and 44 departure from the country. 45 We analyze the expected time evolution during the onset of the epidemic in the metropolitan 46 area of S\u00e3o Paulo, with a total estimated population of 21.5 million individuals, the fourth largest 47 in the world. We use a generalized age-stratified SEIR model with the addition of hospitalized income countries, with reduced availability of health infrastructure and preparedness to respond 52 to an emergency.",
+            "cite_spans": [
+                {
+                    "start": 70,
+                    "end": 74,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 565,
+                    "end": 567,
+                    "text": "43",
+                    "ref_id": null
+                },
+                {
+                    "start": 698,
+                    "end": 700,
+                    "text": "45",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "37"
+        },
+        {
+            "text": "It has been shown that age-specific contact rates describes with more accuracy the dynamics of 55 transmission of measles when using an age stratified SEIR model [21] , and allows to grasp 56 specifics of social behavior as coded in the contact matrix. Owing to different impacts of the 57 disease across the population according to age, we consider the following age groups: 0-9, Table 1 . The aging rate from age group i to 74 age group i + 1 is denoted by \u03bd i and is given by the inverse of the age span of the group (in the 75 corresponding time unit). We put \u03bd 0 = \u03bd M = 0 in the model equations below. ",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 166,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 381,
+                    "end": 388,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "54"
+        },
+        {
+            "text": "March 14, 2020 3/11",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "76"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "76"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "76"
+        },
+        {
+            "text": "for the i-the age group, with \u03b2 i,j the transmission matrix, which is estimated as follows. We first 79 consider the contact matrix C i,j as given by the average number of physical contacts per time 80 unit of and individual of age group i with any individual of group j. Since the present available 81 information does not allow to determine a probability of contagion for each specific group, we 82 consider the transmission probability per contact P c being the same for all infected individuals. 83 We thus have that \u03b2 i,j = P c C i,j . There are some studies determining the contact matrix for 84 different regions in the world, but none for any Brazilian city. So we considered the study in 85 Ref [29] where the contact matrix was determined from field studies for eight different European 86 countries. Our working hypothesis was that these results can reasonably be transposed for the 87 metropolitan area of S\u00e3o Paulo. Since contact matrices for these different countries do not vary 88 significantly, we take their average for C i,j , and the contact matrix resulting from this procedure 89 is shown as a heat map in Fig 1. The transmission probability is then obtained by adjusting the 90 value of the basic reproduction number from the relation",
+            "cite_spans": [
+                {
+                    "start": 500,
+                    "end": 502,
+                    "text": "83",
+                    "ref_id": null
+                },
+                {
+                    "start": 697,
+                    "end": 699,
+                    "text": "85",
+                    "ref_id": null
+                },
+                {
+                    "start": 704,
+                    "end": 708,
+                    "text": "[29]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1128,
+                    "end": 1134,
+                    "text": "Fig 1.",
+                    "ref_id": null
+                }
+            ],
+            "section": "76"
+        },
+        {
+            "text": "We also suppose that only severe and critical cases are hospitalized. The model schematic is given in Fig 2 and the corresponding system of differential equation 93 is:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 102,
+                    "end": 111,
+                    "text": "Fig 2 and",
+                    "ref_id": null
+                }
+            ],
+            "section": "76"
+        },
+        {
+            "text": "where all variables are taken at time t except where explicitly indicated, and \u03b4 ij is the Kronecker 95 delta (1 if i = j and 0 otherwise). This system is well defined, in the sense that all variables 96 March 14, 2020 4/11",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "76"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "76"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20035873 doi: medRxiv preprint always remain positive and below 1 if there is no population growth. This can be verified 97 straightforwardly simply by noticing that the gradient at the boundaries of the significance 98 region point inward.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "76"
+        },
+        {
+            "text": "The solution of Eq (3) was implemented in C, and additional analysis and scripts in the 100 symbolic language system MAPLE and are available on demand. Table 1 , and force of infection and transmission rate given in Eqs (2) and (1), respectively.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 152,
+                    "end": 159,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "99"
+        },
+        {
+            "text": "With the onset of an outbreak in a geographically delimited region, a behavioral change is propagation. Mathematically, this amounts to judiciously reduce the values of some components 106 of the contact matrix. We consequently restrict ourselves to the first 60 days of the possible 107 outbreak, beyond which results from simulations would not correspond any longer to a realistic 108 setting. Nevertheless, our approach lends itself easily to model specific interventions, as for 109 instance school closure, using the analogous of a school-term forcing in the contact matrix, 110 commonly used to study periodic oscillations in measles [21] .",
+            "cite_spans": [
+                {
+                    "start": 640,
+                    "end": 644,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "102"
+        },
+        {
+            "text": "The time evolution for the total number of cases, hospitalized individuals, and total fatalities, 112 for each age group, from the average or median values for the parameters in Table 1 , are shown 113 in Figs. 3, 4 and 5, respectively. In order to investigate the sensibility of our results with respect 114 to the estimation errors in different parameter used, we performed a Monte Carlo analysis with 115 100 000 simulations by sampling parameter values from an uniform distribution, in the interval 116 defined by the corresponding confidence interval. We considered at time zero 10 cases in the age 117 group of 10 to 39 years. In all that follows the number of cases are discounted from this initial 118 value. Results for the medians and inter-quartile intervals for the total number of cases, fatalities 119 and number of hospitalized individual are shown in Table 2 , for 30 and 60 days of time evolution. 120 The transmission probability P c obtained from the Monte Carlos study is well fitted by a 121 log-normal distribution with median of 0.148 and inter-quartile interval of (0.106, 0.247) (see 122 supporting information).",
+            "cite_spans": [
+                {
+                    "start": 915,
+                    "end": 918,
+                    "text": "120",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 178,
+                    "end": 185,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 867,
+                    "end": 874,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "111"
+        },
+        {
+            "text": "This is a first modeling of COVID-19 dynamics using an age-stratified model, similar to 124 approaches for other respiratory diseases epidemics having a historical and clinical relevance in 125 a number of conditions [30, 31] . This type of approach is relevant for the planning of . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "[30,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 222,
+                    "end": 225,
+                    "text": "31]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "123"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "123"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20035873 doi: medRxiv preprint 6392) 397 (166, 1205) The number of cases and fatalities are cumulative. The number of hospitalized individuals represent the current number of individuals occupying a place in a hospital setting at this time. The inter-quartile interval is given by the numbers between brackets. two cities have different climates, there is no available empirical evidence to assert its effect on 134 the disease propagation, although clear evidence exists for H1N1 and H3N2 viruses [32] .",
+            "cite_spans": [
+                {
+                    "start": 611,
+                    "end": 615,
+                    "text": "[32]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 165,
+                    "text": "6392) 397 (166, 1205)",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "123"
+        },
+        {
+            "text": "Further research is in need to clarify this point. individuals. This was clearly observed during the recent evolution of the China outbreak, since 143 its onset in December 2019, with a gradual decline of R 0 [33] . This is the main reason why in the 144 present study we restricted the time span of our prognosis to 60 days, as we estimate that after a 145 month of the onset of the outbreak, behavioral change is expected to occur, and public authorities 146 interventions are also expected to occur during the first 60 days from the start of the outbreak.",
+            "cite_spans": [
+                {
+                    "start": 209,
+                    "end": 213,
+                    "text": "[33]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "135"
+        },
+        {
+            "text": "The present study simulates the impact of COVID-19 on the local health system by a 148 prediction of the number of hospitalized individuals, and consequently provides a tool for policy 149 decision makers to plan the needs of healthcare services in providing people living in an area that 150 is an international hub for the spread of COVID-19, mainly for other countries in South America. 151 The expected number of hospitalized individuals in the first 30 days of the outbreak should be 152 easily absorbed by the existing infrastructure in the metropolitan area of S\u00e3o Paulo, but increases 153 rapidly as the outbreak unfolds, and one expects a rapid saturation of the health settings, which 154 varies according to age. Our approach is therefore a relevant tool to provide authorities 155 responsible for the preparations for a possible outbreak the possibility to know how much time 156 they have at their disposal to prepare complementary health infrastructures. A more systematic 157 and detailed analysis in this directions is the subject of ongoing research.",
+            "cite_spans": [
+                {
+                    "start": 390,
+                    "end": 393,
+                    "text": "151",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "147"
+        },
+        {
+            "text": "The determination of the value of R 0 is affected by the supposition that both the time from 159 the start of symptoms, and confirmation, and sub-notification proportions, are roughly constant 160 during the outbreak, resulting in a possible overestimation during the initial stage of the epidemic. 161 The raise in the number of confirmed cases may be in great part be due to a better sensitivity of 162 the health system surveillance and a decrease of the time lag for laboratory confirmation. In this section we summarize limitations of our work. We assumed that different age-group have 165 the same transmission probability per physical contact, although no information is available to 166 avoid this assumption. We also considered that that every severe or critic case will be in need for 167 hospitalization and supposed, again due to a lack of more detailed data, that the probability of an 168 infected individual from a given age group is proportional to the reported values of the death rate 169 March 14, 2020 7/11 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 299,
+                    "end": 302,
+                    "text": "161",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "158"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "158"
+        },
+        {
+            "text": "in this same group. Another relevant limitation was to consider that all primary health services 170 will have the same capacity in identifying the severity of clinical conditions, in a region with 171 more than 20 million people living with a GINI index ranging from 0.40 to 0.69 [25] , indicating, 172 among other factors, quite different levels of access to tertiary healthcare services. Furthermore, 173 one must consider the possibility that the health infrastructure available can be precociously 174 collapsed. We also assume that, during the 60 days lapse from the epidemic onset, no significant 175 behavioral changes would occur, neither strong interventions from by policy decision makers.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 285,
+                    "text": "[25]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "158"
+        },
+        {
+            "text": "More recently the percentage of asymptomatic cases was estimated to be as high as 34.6% [17] , 177 while all epidemic parameters previously obtained considered that all cases are symptomatic. On 178 the other hand, the number of asymptomatic cases is expected to have a significant impact on the 179 disease dynamics at later stages, when a substantial proportion was infected. It has nevertheless 180 important consequences in the efficiency of isolation procedures. Although we consider here 181 that hospitalized individuals are no longer able to infect is an oversimplification, and may 182 contribute significantly to the number of reported cases among health professionals. The period 183 that an infected individual transmits the virus, as given in Tab 1, is probably underestimated and 184 was based on the oly available study that explcitly cites it [28] . ",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 92,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 859,
+                    "end": 863,
+                    "text": "[28]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "176"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health -the latest 2019 novel coronavirus outbreak in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Azhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Madani",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ntoumi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kock",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Dar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Infect. Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.01.009"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N. Engl. J. Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Summary of Probable SARS Cases with Onset of Illness from 1",
+            "authors": [],
+            "year": 2002,
+            "venue": "World Health Organization. n. d. Novel Coronavirus (2019-NCoV) Situation Reports",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Consensus Document on the Epidemiology of Severe Acute Respiratory Syndrome (SARS)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "1--47",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "WHO Director-General's opening remarks at the media briefing on COVID-19 -11",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Identification of a Novel Coronavirus in Patients with Severe Acute Respiratory Syndrome",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "G\u00fcnther",
+                    "suffix": ""
+                },
+                {
+                    "first": "Preise",
+                    "middle": [],
+                    "last": "Wr",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Der Werf",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Brodt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Becker",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rabenau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "New England Journal of Medicine",
+            "volume": "348",
+            "issn": "",
+            "pages": "1967--1976",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa030747"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Epidemiology and Cause of Severe Acute Respiratory Syndrome (SARS) in Guangdong, People's Republic of China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Llm",
+                    "middle": [],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "The Lancet",
+            "volume": "362",
+            "issn": "9393",
+            "pages": "1353--1358",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(03)14630-2"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Isolation of a Novel Coronavirus from a Man with Pneumonia in Saudi Arabia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Boheemen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bestebroer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adme",
+                    "middle": [],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ram",
+                    "middle": [],
+                    "last": "Fouchier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "New England Journal of Medicine",
+            "volume": "367",
+            "issn": "",
+            "pages": "1814--1820",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa1211721"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "World Health Organization. WHO MERS Global Summary and Assessment of Risk",
+            "authors": [],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Investigation of a Nosocomial Outbreak of Severe Acute Respiratory Syndrome (SARS) in Toronto",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Varia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sarwal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mcgeer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gournis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Galanis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Henry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Canada. Cmaj",
+            "volume": "169",
+            "issn": "4",
+            "pages": "285--292",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "MERS-CoV Outbreak in Jeddah -A Link to Health Care Facilities",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Oboho",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tomczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Al-Asmari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Banjar",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Al-Mugti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Aloraini",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Alkhaldi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "New England Journal of Medicine",
+            "volume": "372",
+            "issn": "9",
+            "pages": "846--854",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa1408636"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The Daily Computed Weighted Averaging Basic Reproduction Number R n 0,k,\u2126 for MERS-CoV in South Korea",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jeong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Physica A",
+            "volume": "451",
+            "issn": "",
+            "pages": "190--197",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.physa.2016.01.072"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Transmission Characteristics of MERS and SARS in the Healthcare Setting: A Comparative Study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Abdirizak",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jung",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Nishiura",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "BMC Medicine",
+            "volume": "13",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12916-015-0450-0"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Preliminary Epidemiologic Assessment of MERS-CoV Outbreak in South Korea",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Euro Surveill",
+            "volume": "20",
+            "issn": "25",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.es2015.20.25.21163"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Novel Coronavirus Pneumonia Emergency Response Epidemiology Team 2020 ????",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Althaus CL Pattern of Early Human-to-Human Transmission of Wuhan 2019 Novel Coronavirus (2019-NCoV)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Riou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.4.2000058"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Estimating the Asymptomatic Ratio of 2019 Novel Coronavirus onboard the Princess Cruises Ship",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mizumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kagaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zarebski",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.20.20025866"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Influenza Pandemics of the 20th Century",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kilbourne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Emerging Infectious Diseases",
+            "volume": "12",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1201.051254"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "A History of Influenza",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Potter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Journal of Applied Microbiology",
+            "volume": "91",
+            "issn": "4",
+            "pages": "572--79",
+            "other_ids": {
+                "DOI": [
+                    "10.1046/j.1365-2672.2001.01492.x"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Barros FC, the Lancet Brazil Series Working Group. Health conditions and health-policy innovations in Brazil: the way forward The Lancet",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Victora",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Barreto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Leal",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Monteiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Paim",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Bastos",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Almeida",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bahia",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Travassos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Reichenheim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "377",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Age-structure and transient dynamics in epidemiological systems",
+            "authors": [
+                {
+                    "first": "Fmg",
+                    "middle": [],
+                    "last": "Magpantay",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rohani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal of the Royal Society Interface",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1098/rsif.2019.0151"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team. The Epidemiological Characteristics of an Outbreak of 2019 Novel Coronavirus Diseases (COVID-19) -China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "A novel coronavirus outbreak of global health concern",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hornby",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30185--30194",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Linton",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Akhmetzhanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kinoshita",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Medicine",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions imedRxiv 2020.01.23",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Read",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jre",
+                    "middle": [],
+                    "last": "Bridgen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dat",
+                    "middle": [],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jewell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.23.20018549"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Social Contacts and Mixing Patterns Relevant to the Spread of Infectious Diseases",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mossong",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hens",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jit",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Beutels",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Auranen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mikolajczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Massari",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Salmaso",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tomba",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Heijne",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sadkowska-Todys",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rosinska",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "PLOS Medicine",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "The Mathematics of Infectious Diseases",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hethcote",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "SIAM Review",
+            "volume": "42",
+            "issn": "4",
+            "pages": "599--653",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Modeling Infectious Diseases in Humans and Animals",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Keeling",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rohani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Transmission of a 2009 Pandemic Influenza Virus Shows a Sensitivity to Temperature and Humidity Similar to That of an H3N2 Seasonal Strain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lowen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Journal of Virology",
+            "volume": "85",
+            "issn": "3",
+            "pages": "1400--1402",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02186-10"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Time-varying transmission dynamics of Novel Coronavirus Pneumonia in China",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiao",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.25.919787"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "40-49, 50-59, 60-69, \u226570 years. The population in each group is obtained from the 59 2010 Brazilian census, corrected by the estimated population in S\u00e3o Paulo in 2019 (see 60 supporting information), except for ages from 0 to 1 year, where the actual population from birth 61 data was used [22, 23]. The variables in the model for each age class are proportions with respect 62 to the total population at time zero: Susceptibles (S i ), Hospitalized (H i ) due to COVID-19, 63 Exposed (E i ) (in the incubation period and not infectious), Infectious (I i ) and Recovered (R i ) 64 individuals, i = 1, . . . , M , (SEIHR model), with M the number of age groups. They are such 65 that at time zero we have M i=1 n i = 1, with the fraction of the population in a given age group 66 n i = S i + H i + E i + I i + R i and M the number of age groups. The probability of 67 hospitalizations of an infected individual of age-group i is estimated as being 68 \u03b6 i = \u00b5 (0) i \u00d7 0.18/\u00b5 COV with 0.18 being the proportion of severe and critical cases, \u00b5 COV is 69 the overall estimated letality of the disease and \u00b5",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "proportion of fatal cases by the number 70 of cases in age group i [24], which yields \u03b6 1 = 0, \u03b6 2 = 0.0157, \u03b6 3 = 0.0313, \u03b6 4 = 0.102, 71 \u03b6 5 = 0.282 and \u03b6 6 = 0.892 for \u00b5 COV = 2.3%. We assume that fatalities only occurs among 72 hospitalized individuals. The different parameter values required are given in current published 73 data and shown withe the corresponding sources in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Heat map for the contact matrix C ij representing the number of physical contacts per day of an individual of age group i with any individual of group j.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Diagram describing the model equations in Eq (3), constant parameters given in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "expected in the population in a relatively short time span, as well as government and health 104 officials to intervene with drastic measures in order to reduce contacts, and thence disease 105",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "126age-dependent intervention policies, e. g. by school closing or restrictions on public gatherings.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Cumulative Number of hospitalized individual at a given moment corresponding to Fig 3.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Cumulative number of fatalities corresponding to Fig 3.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "also the first study of a possible epidemic of COVID-19 in a large metropolitan region in the 128 South hemisphere.129Parameters used are described in the literature except for hospitalization probability 130 according to age that was estimated. The contact matrix was adapted from a study of European 131 countries, which are expected to display a similar contact structure as the major city in the 132 southern hemisphere, and comparable in population size to the Wuhan region. Although these",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Previous outbreaks of the highly pathogenic coronavirus SARS-CoV and MERS-CoV were 137 related to epidemic amplification with a small number of super-spreader cases causing an 138 elevated number of secondary cases, with a high impact in hospital settings. This explains 139 outbreaks with a basic reproduction number R 0 smaller than one[4,[10][11][12][13][14]. The value of R 0 140 depends not only on the specifics of the disease, but also on a number of environmental factors, 141 being affected by a change of social behavior in the population and by isolation of infected 142",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "having a low case fatality rate, COVID-19 has high transmissibility, with as a 187 consequence a large number of cases when introduced in a naive population, and a large number 188 of hospitalizations and deaths. A COVID-19 epidemic in a major urban area like S\u00e3o Paulo 189 would promote a significant burden in the health care system. Measures to limit the spread of the 190 disease will be necessary in order to slow the epidemic growth and avoid depleting the available 191 hospitals beds and intensive care unit. Mathematical models can contribute in predicting the 192 expected burden of disease. The approach presented here allows a detailed assessment of the 193 impact of the onset of the epidemic in the major metropolitan area in the south hemisphere, 194 despite major limitations in our understanding of the COVID-19 dynamics. For instance, the role 195 of asymptomatic individuals in the progression of the epidemic is still unknown, and no data is 196 available regarding the differences in the transmission rates between different age groups and the 197 impact of the weather in the reproductive number.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "partially financed by CNPq (Brazil) under grant no. 305842/2017-0.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "WNA and JHRC discussed and designed the initial study design. FSGS, VBG and TAHR 202 performed the data gathering and analysis. TMRF wrote and tested all the computer code, run all 203 simulations, and performed the main analysis of corresponding results. Some additional 204 statistical analysis were performed by FSGS and VBG. All authors contributed equally to 205 discussing the final design of the study and participated in the subsequent analysis, discussion 206 and assessment of final results.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Constant parameters in the model. Normal Constant parameters in the model with the average value, Confidence Interval (CI) of 95% if pertinent and statistical distribution of values.We consider that hospitalized individuals are isolated and do not contribute to the force of",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Median for the total cumulative number of cases averaged over 100, 000 Monte Carlo realizations.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

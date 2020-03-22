@@ -1,0 +1,642 @@
+{
+    "paper_id": "33a6aa86bb6fe30251d7f2c1f64c5b7a94c391a0",
+    "metadata": {
+        "title": "Active or latent tuberculosis increases susceptibility to COVID-19 and disease severity",
+        "authors": [
+            {
+                "first": "Yu",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yaguo",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Joy",
+                "middle": [],
+                "last": "Fleming",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": ";",
+                "middle": [],
+                "last": "Yanhong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yu",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ye",
+                "middle": [],
+                "last": "Gu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chang",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lichao",
+                "middle": [],
+                "last": "Fan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": ";",
+                "middle": [
+                    "Xiaodan"
+                ],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Moxin",
+                "middle": [],
+                "last": "Cheng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lijun",
+                "middle": [],
+                "last": "Bi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yongyu",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "(",
+                "middle": [
+                    "X"
+                ],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [],
+                "last": "Cheng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Shenyang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Y",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Fleming",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "L",
+                "middle": [],
+                "last": "Bi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "medRxiv preprint SARS-CoV-2 infection. Patients with active or latent TB were more susceptible to SARS-CoV-2, and COVID-19 symptom development and progression were more rapid and severe.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Meaning: Tuberculosis status should be assessed carefully at patient admission and management and therapeutic strategies adjusted accordingly to prevent rapid development of severe COVID-19 complications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Importance: Risk factors associated with COVID-19, the viral pneumonia originating in Wuhan, China, in Dec 2019, require clarification so that medical resources can be prioritized for those at highest risk of severe COVID-19 complications. Infection with M. tuberculosis (MTB), the pathogen that causes TB and latently infects ~25% of the global population, may be a risk factor for SARS-CoV-2 infection and severe COVID-19 pneumonia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Objective: To determine if latent or active TB increase susceptibility to SARS-COV-19 infection and disease severity, and lead to more rapid development of COVID-19 pneumonia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "COVID-19, the viral pneumonia that emerged in Wuhan, China, in December 2019, has spread throughout China and to 85 other countries. To date (Mar 5, 2020), there have been 95,333 confirmed cases worldwide and 3282 deaths 1 . COVID-19 poses a major threat to global health and was declared a 'public health emergency of international concern' by the WHO on 30 Jan 2020 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033795 doi: medRxiv preprint While most SARS-CoV-2 infections in the general population result in only mild symptoms, individuals with underlying comorbidities, particularly the elderly, are more vulnerable to SARS-CoV-2 infection and require additional care [3] [4] [5] . It is important to gain a clear picture of risk factors associated with this new viral respiratory infection in order to allocate appropriate medical resources to prevent the development of severe or critical forms of COVID-19 in those considered to be at higher risk. Here, we consider the possibility that infection with Mycobacterium tuberculosis, the pathogen that causes tuberculosis (TB), the top cause of death due to an infectious disease, may predispose to SARS-CoV infection and the more rapid development of symptoms and severe COVID-19 pneumonia. CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 367,
+                    "end": 370,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 371,
+                    "end": 374,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 375,
+                    "end": 378,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033795 doi: medRxiv preprint Guidelines of the National Health Commission of China (v5) 9 ) were included in the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "Demographic data are shown in Supplementary Table 1. These studies were approved by the Ethics Committee of Shenyang Chest Hospital, and informed written consent was obtained from each of the study participants.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 30,
+                    "end": 52,
+                    "text": "Supplementary Table 1.",
+                    "ref_id": null
+                }
+            ],
+            "section": "Data"
+        },
+        {
+            "text": "Throat swabs, blood and sputum were collected from suspected COVID-19 patients and sent for SARS-CoV-2 testing using a real-time reverse-transcription polymerase chain reaction assay 6,7 at the Shenyang Disease Control Center.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 testing"
+        },
+        {
+            "text": "IFN-\uf067 IGRA assays IFN-\uf067 IGRA assays were performed using X.DOT-TB kits (TB Healthcare, Foshan, China) according to the manufacturer's instructions 8 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 testing"
+        },
+        {
+            "text": "Analyses were performed using R (version 3.6.1). The normality of data distributions was assessed using the Kolmogorov-Smirnov test. Normally-distributed data are presented as means (SD), while non-normally distributed data are presented as medians (IQR), and categorical variables as frequencies (%). Differences between groups were analysed by Fisher's exact test or Pearson's chisquared test (for categorical data), and Students' t-tests or Mann-Whitney tests (for continuous data).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Among the 36 confirmed COVID-19 patients from Shenyang, Liaoning province, China, included in this study, the most common symptoms at presentation were cough (61.11%), dyspnea (33.33%), . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033795 doi: medRxiv preprint fever (27.78%), lymphopenia (27.78%) and fatigue (25%) ( Table 1 ). The mean age of patients was 47 years (range: 25-79), and 18 were men. Fifteen cases had a connection with Wuhan/Hubei province or neighboring cities, while 21 had become infected via local transmission (3), or from friends/family members in Shenyang already diagnosed with COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 194,
+                    "end": 201,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "To evaluate the implications of MTB infection history on the incidence and progression of COVID-19 disease, we addressed three questions. Does MTB co-infection: 1. increase susceptibility to SARS-COV-19 infection; 2. increase disease severity; and 3. lead to more rapid disease progression? We first assigned cases into two groups based on the severity of their COVID-19 pneumonia according to the Diagnostic and Treatment Guidelines of the National Health Commission of China (v6) 9 . Twenty-seven cases were mild/moderate (75%, Group 1) and nine cases were severe/critical (25%, Group 2) ( Table 2) . We then determined the MTB infection status of each patient by examining their clinical history and by performing X.DOT-TB IGRA assays (Table 1) To determine if MTB infection is a risk factor specific for COVID-19 pneumonia, or for pneumonia in general, we compared the MTB infection rate within these COVID-19 cases with data from a case-series comprised of 115 bacterial pneumonia and 62 viral pneumonia patients obtained from another study conducted in Shenyang (unpublished) ( Figure 1A ); MTB infection rates were considerably higher among COVID-19 patients than among bacterial pneumonia patients (36.11% vs 20%; p = 0.047 Figure 1A ) and viral pneumonia patients (36.11% vs 16.13%; p = 0.024),",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 592,
+                    "end": 600,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 738,
+                    "end": 747,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1084,
+                    "end": 1093,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1232,
+                    "end": 1241,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "suggesting that MTB infection status is a specific risk factor for SARS-COV-2 infection rather than for pneumonia in general. The rate of MTB infection in the bacterial and other viral pneumonia . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033795 doi: medRxiv preprint patients was not significantly different and was approximately the same as that in the general population 10 . The percentage of patients with MTB infection was also considerably higher than the percentage of patients with other co-morbidities (diabetes: 25%; hypertension: 22.2%; coronary heart disease: 8.33%; COPD: 5.56%; Table 1 ), suggesting MTB infection represents a higher risk for SARS-CoV-2 infection.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 432,
+                    "end": 439,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "With respect to disease severity, the percentage of severe/critical cases with MTB coinfection was significantly higher than that in the mild/moderate group (78% vs 22%; p = 0.0049; Figure 1B ). Seven of the 9 severe/critical cases were IGRA+ve indicating MTB co-infection, and of these, 4 of the 5 cases that developed ARDS were IGRA+ve. By comparison, 21 of 27 cases (78%) in Group 1 (mild/moderate cases) were IGRA-ve and had no history of TB disease. This data infers that coinfection of SARS-CoV-2 with MTB tends to lead to the development of more severe or critical COVID-19 symptoms.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 182,
+                    "end": 191,
+                    "text": "Figure 1B",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Our data also show that MTB infection is associated with more rapid development of symptoms ( Figure 1C-D) ; MTB coinfected COVID-19 cases developed symptoms on average 3.3 days earlier than their non-MTB-infected counterparts. Development of critical symptoms is reported to occur on average 9 days after initial symptom onset 4 . The 7 MTB-infected severe/critical COVID-19 cases here, however, were categorized as severe/critical 3.4 days after initial symptom development. While the number of cases here is not sufficient to draw a solid conclusion, it would appear that COVID-19 disease progresses more rapidly in the presence of MTB coinfection.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 94,
+                    "end": 106,
+                    "text": "Figure 1C-D)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "This observational study of the relationship between MTB infection and COVID-19 pneumonia suggests that individuals with latent or active TB may be more susceptible to SARS-CoV-2 infection, and that COVID-19 disease progression may be more rapid and severe. Given that TB causes more deaths than any other infectious disease (1.45 million deaths and 10 million new cases . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033795 doi: medRxiv preprint in 2018 11 ), and that global rates of LTBI are estimated to be as high as 25% 11 , these findings are a cautionary reminder to clinicians that MTB infection status should be considered when treating COVID-19 patients in order to prevent rapid deterioration in patient health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Our data suggest that MTB infection could be a more important risk factor than the comorbidities commonly reported in epidemiological studies such as diabetes and hypertension 12 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "COVID-19 and TB are both respiratory diseases. It is perhaps not surprising that chronic respiratory diseases such as Chronic Obstructive Pulmonary Disease (COPD), and indeed active TB, could predispose susceptibility to SARS-CoV-2. Statistics from other reported studies, however, suggest that the frequency of these co-morbidities is much lower than that of MTB infection in this study (COPD: 1% of 1099 COVID-19 cases 12 , chronic respiratory disease: 2.4% of 72,314 COVID-19 cases 13 ). The strength of this finding, however, is limited by the relatively low number of cases involved in this study and requires further validation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Based on our findings, we make the following recommendations for the management and treatment of patients with a history of MTB infection (LTBI or active TB) and possible SARS-CoV-2 coinfection. First, the medical and wider community should be informed that latent/active TB is a risk factor for SARS-CoV-2 infection, and those at risk should be encouraged to pay special attention to preventive measures. Ideally, this vulnerable group should be monitored regularly at community-based medical centers in situations when resources are available. Second, the MTB infection status (history and IGRA response) of suspected/confirmed COVID-19 cases should be checked routinely on admission to ensure coinfected cases are placed in appropriate isolation wards if active TB is detected. Third, special medical resources (such as ECMO therapy) should be arranged in advance for coinfected patients in view of the increased likelihood of rapid development of severe or critical symptoms. Fourth, therapeutic approaches for cases known to be coinfected both SARS-CoV-2 and MTB should bear their MTB infection history in mind; for example, treatments involving immunosuppressive agents should be reconsidered, as they hold the potential to reactivate latent TB infections. . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033795 doi: medRxiv preprint Comparisons between groups were made using Fisher's exact test (n<40; p\uf0a30.05), or the Mann-Whitney test (n>40; p\uf0a30.05).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint Data: mean \u00b1 SD or n. *Significance of differences between groups.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033795 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Coronavirus disease 2019",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Coronavirus disease 2019",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical characteristics of 140 patients infected with SARS-CoV-2 in Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Allergy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/all.14238"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72314 Cases From the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.2648"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Positive RT-PCR Test Results in Patients Recovered From COVID-19",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.2783"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ". Thirteen of the 36 COVID-19 cases (36.11%) were IGRA+ve, of which 3 had active TB (1 MDR-TB), and 5 were recovered TB patients. Old TB calcifications were found on chest scans of 3 patients who had not previously been diagnosed with TB, and 2 patients had latent TB (LTBI). The percentage of IGRA+ve COVID-19 cases is approximately double the estimate of the percentage of IGRA+ve individuals in the general population (15-18% in rural China 10 ), suggesting that MTB infection likely is an important risk factor for susceptibility to SARS-COV-2 infection.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "TB history affects susceptibility to SARS-CoV-2 and can increase disease severity. 36 COVID-19 patients, 115 bacterial pneumonia patients and 62 viral pneumonia patients were tested for MTB infection using IFN-\uf067 release ELISPOT assays. IFN-\uf067 release indicated MTB infection. A. MTB infection is more common among COVID-19 patients than in those with bacterial or other viral pneumonias. B. Patients with MTB infection developed more severe COVID-19 symptoms. C. COVID-19 symptoms develop more rapidly in patients with MTB coinfection. B. COVID-19 patients with MTB infection develop severe complications more rapidly.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "collection 86 people with COVID-19 symptoms presented at hospitals in Shenyang, China, between Jan 26, 2020 and Feb 15, 2020 and were tested for SARS-CoV-2 infection. COVID-19 infection was confirmed in 36 cases (Shenyang Sixth People's Hospital [32 cases], Shenyang Fourth People's Hospital [4 cases] and Shenyang Chest Hospital [1 case]) and patients were hospitalized and enrolled in the study. Date of admission, gender, age, laboratory test results, and chest radiography results were extracted from patient admission records. The number of days from presumed contact with a suspected/confirmed COVID-19 patient to symptom development, the date on which SARS-CoV-2 infection was confirmed, and disease severity were also recorded. Data on MTB infection status were compared with retrospective data obtained from a caseseries study of 115 bacterial and 62 other viral pneumonia patients conducted in the Pulmonology Department of Shenyang Chest Hospital (unpublished data). All patients diagnosed with bacterial or viral pneumonia from Dec 20, 2019 to Feb 20, 2020 (cases in which SARS-CoV-2 infection/COVID-19 disease was ruled out according to criteria in the Diagnostic and Treatment",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Clinical characteristics and laboratory results for 36 COVID-19 cases BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.(which was not peer-reviewed)The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.Data: mean \u00b1 SD or n (%). *Difference between mild/moderate and severe/critical groups.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": ". https://doi.org/10.1101/2020.03.10.20033795 doi: medRxiv preprint Supplementary Information Supplementary Table 1. Demographic characteristics of COVID-19 and bacterial or other viral pneumonia patients COVID-19 Viral Pneumonia Bacterial Pneumonia p-value*",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,1059 @@
+{
+    "paper_id": "221f592feb12c19df1f3e619021205e247d39b46",
+    "metadata": {
+        "title": "Retrospective Analysis of Clinical Features in 101 Death Cases with COVID-19",
+        "authors": [
+            {
+                "first": "Hua",
+                "middle": [],
+                "last": "Fan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology of China",
+                    "location": {
+                        "postCode": "230036",
+                        "settlement": "Hefei",
+                        "region": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": ";",
+                "middle": [],
+                "last": "Lin Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology of China",
+                    "location": {
+                        "postCode": "230036",
+                        "settlement": "Hefei",
+                        "region": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": ";",
+                "middle": [],
+                "last": "Bin Huang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology of China",
+                    "location": {
+                        "postCode": "230036",
+                        "settlement": "Hefei",
+                        "region": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": ";",
+                "middle": [],
+                "last": "Muxin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Wuhan Jinyintan Hospital",
+                    "location": {
+                        "postCode": "430023",
+                        "settlement": "Wuhan",
+                        "region": "Hubei",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhu",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yong",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Wuhan Jinyintan Hospital",
+                    "location": {
+                        "postCode": "430023",
+                        "settlement": "Wuhan",
+                        "region": "Hubei",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Huan",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology of China",
+                    "location": {
+                        "postCode": "230036",
+                        "settlement": "Hefei",
+                        "region": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": ";",
+                "middle": [
+                    "Xiaogen"
+                ],
+                "last": "Tao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology of China",
+                    "location": {
+                        "postCode": "230036",
+                        "settlement": "Hefei",
+                        "region": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shaohui",
+                "middle": [],
+                "last": "Cheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology of China",
+                    "location": {
+                        "postCode": "230036",
+                        "settlement": "Hefei",
+                        "region": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wenhu",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Xiantao First People ' s Hospital",
+                    "location": {
+                        "addrLine": "29 Mianzhou road",
+                        "postCode": "433000, 230036, 433000",
+                        "settlement": "Xiantao, Hefei, Xiantao",
+                        "region": "Hubei, Anhui, Hubei",
+                        "country": "China;, China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Liping",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Wuhan Jinyintan Hospital",
+                    "location": {
+                        "postCode": "430023",
+                        "settlement": "Wuhan",
+                        "region": "Hubei",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2020;",
+                "middle": [
+                    "Jian"
+                ],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology of China",
+                    "location": {
+                        "postCode": "230036",
+                        "settlement": "Hefei",
+                        "region": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2020",
+                "middle": [],
+                "last": "Affiliations",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lin",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bin",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jian",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology of China",
+                    "location": {
+                        "postCode": "230036",
+                        "settlement": "Hefei",
+                        "region": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "No",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tiane",
+                "middle": [],
+                "last": "Road",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shu",
+                "middle": [
+                    "Shan"
+                ],
+                "last": "District",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "By Feb 16, 2020, 101 cases died of COVID-19 in ICU of Wuhan Jinyintan Hospital, among them 57 (56.44%) patients were confirmed by RT-PCR, and 44 (43.6%) were consistent with clinical diagnostic criteria. In the death cases, 47 went directly to the ICU because of critical condition, and 54 were transferred to ICU with aggravated condition. All cases died in the end. Among them, 1 patient died of acute coronary syndrome, while the rest died of respiratory failure and multiple organ failure caused by COVID-19. The cases included 64 males and 37 females, with the age range of 24-83 and average age of 65.46 years (SD 9.74). The majority had underlying diseases with hypertension(42.57%), diabetes (22.77%), neurological disease (9.90%), malignant tumor (4.95%), and respiratory disease( 4.95%). The cases with more than two underlying diseases reached 25.74%. In detail, 10 patients had contact history in South China Seafood Market, and 10 patients had close contact history with infections. The blood type distribution was significantly different, with type A (44.44%), type B (29.29%), type AB (8.08%) and type O (18.19% ). The median time from onset to hospital was 11.00 days ( IQR8.00- 13.50 ) . The median time from onset to death was 21.00 days ( IQR17.00-27.5)( Table 1) .",
+            "cite_spans": [
+                {
+                    "start": 1119,
+                    "end": 1126,
+                    "text": "(18.19%",
+                    "ref_id": null
+                },
+                {
+                    "start": 1195,
+                    "end": 1200,
+                    "text": "13.50",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1274,
+                    "end": 1282,
+                    "text": "Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Demographics"
+        },
+        {
+            "text": "The relative frequencies of all reported symptoms at the time of admission are All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical Features"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020. 03 ",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 110,
+                    "text": "03",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Clinical Features"
+        },
+        {
+            "text": "Most of patients (99 [98.02%] of 101 patients) had abnormal lung imaging at the time of initial admission, 6(5.94%) patients had single-lung and 93(92.08%) had double-lung abnormalities. The disease initially showed scattered plaque-like ground glass in the lungs. Dynamic imaging showed progressive multi-spot patchy shadows in both lungs. Pneumothorax or subcutaneous emphysema occurred in 3 (2.97%) patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Radiographic Findings"
+        },
+        {
+            "text": "Blood routine, biochemical reports and inflammation of cases during admission to ICU and 48h before deaths were collected. Most patients showed increased numbers of leukocytes and neutrophils, and decreased lymphocytes count at time of consultation.The All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Laboratory Findings"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033068 doi: medRxiv preprint inflammatory indicators such as neutrophils, procalcitonin(PCT),C-reactive protein(CRP), and interleukin-6(IL-6) gradually increased as time went on. It was found that the count of patient's platelets(PLT) decreased, D-dimer and Prothrombin time(PT) increased correspondingly during disease progression by dynamic analysis of coagulation-related indicators. Myocardial enzymes were abnormal in most patients at admission(83 [82.18%] of 101 patients). With the progress of the disease, myocardial damage indicators were significantly increased. It also indicated that there was a high proportion of myocardial damage in the early stage. We also found that liver and kidney damages were not significant at the time of admission and when transferred to ICU, and it significantly turned to be worse 48h before deaths. Experiment data can be seen in Table 3-5 and   Figure1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 989,
+                    "end": 1012,
+                    "text": "Table 3-5 and   Figure1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Laboratory Findings"
+        },
+        {
+            "text": "Ninety seven patients were transferred to the hospital based on laboratory diagnosis or deterioration after treatments in other hospitals. All patients were treated in isolated author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Treatments"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033068 doi: medRxiv preprint All patients received oxygen therapy. 84(83.17%) patients were treated with non-invasive ventilator or high-flow oxygen therapy, and 77(76.24%), invasive mechanical ventilation. The median time from ARDS to invasive mechanical ventilation was 3.00 days(IQR0.00-6.00), of which 21 patients were intubated 2 days before deaths.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Treatments"
+        },
+        {
+            "text": "The duration of invasive mechanical ventilation was 1-31 days (median 5 days [IQR2.00-8.00]). Seven patients were treated with Extracorporeal Membrane Oxygenation(ECMO) and eight with Continuous Renal Replacement Therapy(CRRT).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Treatments"
+        },
+        {
+            "text": "The present analyses revealed the clinical characteristics of 101 deaths caused by COVID-19 in China. Based on our knowledge, this is the largest sample among the reports on the clinical characteristics of dead patients although some studies described a limited number of deaths.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Up to 5 th March, 2020, the cumulative number of infected victims was 95,333, and the number of deaths reached 3,282 in many countries of the world. The mortality was up to 3.4%, which is significantly high compared with that of common pneumonia. Among the 101 deaths, males dominated and the proportion of elderly patients with underlying diseases was relatively high. Importantly, we found that the blood group distribution of the deaths (A-42.57%, B-30.69%, O-17.82%, AB-8.91%) remarkably differred from that of Han population in Wuhan [12] . Type O was relatively low but Type A was relatively high.",
+            "cite_spans": [
+                {
+                    "start": 539,
+                    "end": 543,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "ABO blood group antigen substances are widely distributed in the human respiratory , digestive tract , and reproductive systems [13] . Previous researches have shown that ABO All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 132,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033068 doi: medRxiv preprint blood group are related to the onset and spread of various diseases because the blood group antigens may involve in virus infection as receptor [14] [15] . In the study of various susceptible genes in SARS-CoV, individuals in the blood group O had a lower infection rate [16] . Guillon et al. found that type A antibody can provide protection by inhibiting interaction between the virus and ACE2 receptor [17] . However, the higher proportion of patients with type A blood remains unclear although the lack of antibody A protection might be involved. Further research is needed to explore the mechanism by which the patients of type A is more susceptibe to COVID-19 infection.",
+            "cite_spans": [
+                {
+                    "start": 288,
+                    "end": 292,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 293,
+                    "end": 297,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "[16]",
+                    "ref_id": null
+                },
+                {
+                    "start": 549,
+                    "end": 553,
+                    "text": "[17]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The clinical manifestations of COVID-19 are non-specific, which is consistent with previous studies [10] , the most common symptom is fever. However, not all patients had fever, for instance, no fever was noted in 10(9.90%) patients on the onset of disease.",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 104,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Moreover, 21(20.79%) of the patients had no respiratory symptoms in the begining of the disease, and fever and chest tightness gradually occurred with the disease progressed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Therefore, the delay of fever and respiratory symptoms may affect the early identification of COVID-19 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The mortality of critically ill COVID-19 patients is high, but its mechanism is not clear at present, and it may be related to the virus-induced acute lung injury, inflammatory factor storm, multiple organ damage and secondary nosocomial infections.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "We collected laboratory examination results of patients at admission, at the time of transfer to the ICU, and at 48h before deaths, and found that 71(70.30%) of patients had an elevated level of IL-6 when they were admitted to the hospital, and it gradually increased with the disease progressed and was up to 26.21pg/mL(IQR11.68-205.92) 48h",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033068 doi: medRxiv preprint before deaths, significantly higher than results reported by Chen et al [9] \uff0c indicating a severe inflammatory reaction.We found that 23 ( and angiotensin-converting enzyme 2 (ACE2) has been confirmed as a common pathogenic receptor [19] . Thirty one percent of ICU patients were found to have significant abnormalities in Troponin I(TNI) [8] . We noted that TNI was significantly elevated in the ICU patients or before deaths compared with primary admission to hospital. Further analysis revealed that patients who were hospitalized with elevated troponin underwent a fast progress from onset to ICU and to death. The results suggest that heart is a potential targeted organ by 2019-nCOV in the disease process. Thus monitoring and prediction of heart injury would be needed at early stage as well as in the course of disease.",
+            "cite_spans": [
+                {
+                    "start": 216,
+                    "end": 219,
+                    "text": "[9]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 377,
+                    "end": 381,
+                    "text": "[19]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 483,
+                    "end": 486,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 281,
+                    "end": 282,
+                    "text": "(",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Additionally, we found that with the disease progressed, counts of leukocytes, author/funder, who has granted medRxiv a license to display the preprint in perpetuity. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033068 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 2. Clinical characteristics and treatment of patients with COVID-19"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 2. Clinical characteristics and treatment of patients with COVID-19"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 2. Clinical characteristics and treatment of patients with COVID-19"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 2. Clinical characteristics and treatment of patients with COVID-19"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Values are Medium (IQR) unless stated otherwise. P values indicate differences between increased group of hsTroponin I and normal group patients.P < .05 was considered statistically significant All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 2. Clinical characteristics and treatment of patients with COVID-19"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 2. Clinical characteristics and treatment of patients with COVID-19"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 2. Clinical characteristics and treatment of patients with COVID-19"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033068 doi: medRxiv preprint Admission to ICU group. All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 2. Clinical characteristics and treatment of patients with COVID-19"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033068 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 2. Clinical characteristics and treatment of patients with COVID-19"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Report of clustering pneumonia of unknown etiology in Wuhan City",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Novel coronavirus -China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "First case of 2019 novel coronavirus in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Holshue",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Debolt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lindquist",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001191"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "WHO.Novel coronavirus -Japan (ex-China)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus disease 2019 (COVID-19) Situation Report-45",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "WHO.Novel Coronavirus(2019-nCoV) Situation Report-11.Accessed",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "WHO.Novel Coronavirus(2019-nCoV) Situation Report-22",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Clinical features of patients infected with 2019 novel All rights reserved. No reuse allowed without permission",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.09.20033068"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "507--513",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "National Health Commission of the People , s Republic of China.COVID-19 's diagnosis and treatment Plan",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Distribution of ABO and RhD blood group among healthy Han population in Wuhan",
+            "authors": [
+                {
+                    "first": "Xu",
+                    "middle": [],
+                    "last": "Pu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiong",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cao",
+                    "middle": [],
+                    "last": "Kejie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Clin Hematol(China)",
+            "volume": "28",
+            "issn": "10",
+            "pages": "835--837",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The relationship between blood groups and disease",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Anstee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Blood",
+            "volume": "115",
+            "issn": "23",
+            "pages": "4635--4643",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Common susceptibility alleles are unlikely to contribute as strongly as the FV and ABO loci to VTE risk: results from a GWAS approach",
+            "authors": [
+                {
+                    "first": "D-A",
+                    "middle": [],
+                    "last": "Tre\u00b4goue\u00a8t",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Heath",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Saut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Blood",
+            "volume": "113",
+            "issn": "21",
+            "pages": "5298--5303",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The origin of malignant malaria",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rich",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Leendertz",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "106",
+            "issn": "35",
+            "pages": "14902--14907",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-2600(20)30079-5"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "All rights reserved. No reuse allowed without permission",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.09.20033068"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "wards. Among them, 61(60.40%) received antiviral drugs, including Oseltamivir, Ribavirin, Lopinavir, Ritonavir, Ganciclovir, or Interferon, etc. Glucocorticoids, intravenous immunoglobulins, and thymosin preparations were used in, 59(58.42%), 64(63.37%) , and 45(44.55%) patients, respectively.. All patients received antibiotic treatment, including cephalosporins and quinolones. More than half of patients received restricted antibiotics(63,62.38%), including carbapenems, linezolid, tigecycline, etc., due to repeated fever or fluctuation of inflammation indicators. 23(22.78%) patients received antifungal drugs. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "22.78%) of patients had abnormal coagulation function at admission, which is mainly manifested as increased D-dimer and a sudden deterioration. Under this circumstance, attention should be paid to the presence of pulmonary thromboembolism after micro-thrombosis in the lungs or deep vein thrombosis. For hypercoagulable patients without contraindications, reasonable anticoagulant therapy is a possible choice. It has been reported that 2019 novel coronavirus(2019-nCov) can damage function of organs such as the lungs, kidneys, heart, or liver, etc., but no relevant description was seen of the involvement sequence of other organs except lung. We collected indicators of organ damage when patients were admitted to the hospital and found that most of patients had myocardial damage\uff0camong them 32 patients were exclusively complicated with myocardial damage. Both 2019-nCov and 2003-SARS belong to the genus \u03b2 coronavirus ,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Timeline charts illustrate the laboratory parameters in 101 patients with COVID-19 when their entrance into admission, ICU and 48 h before death. *P < .05 vs. At admission group, #P < .05 vs.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "shown inTable 2. The most common symptom was fever (91,90.10% of 101 patients), but most patients presented normal temperature after 1-3 days of admission , which may be related to hormone use. Cough(69 [68.32%]) and dyspnea (75 [74.26%]) were also common. Additionally, 31(30.69%) patients had white sputum in the early stage , and 3 patients showed yellowish purulent sputum. Fifty(49.50%) patients showed acute respiratory distress syndrome(ARDS) on admission, and the median time from onset to ARDS was 12 days(IQR9.00-14.00). Other common symptoms included myalgia, general weakness, dizziness, headache, nausea and vomiting, among them 86(85.15%) had more than two symptoms. Twenty one (20.79%) patients had no respiratory symptoms, and 7(6.93%) showed nausea and vomiting. Distinctive from Severe acute respiratory syndrome (SARS), only 2 patients with COVID-19 had diarrhea.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Values are numbers (percentages) or Medium (IQR) unless stated otherwise. Percentages do not total up to 100% owing to missing data.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Table3. Dynamic Profile of Laboratory Findings in patients with COVID-19",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Values are numbers (percentages) or Medium (IQR) unless stated otherwise. Percentages do not total 100% owing to missing data.Table4.The course of COVID-19,grouped by serum hsTroponin I at admission to general ward",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": ". https://doi.org/10.1101/2020.03.09.20033068 doi: medRxiv preprintTable5.The course of COVID-19,grouped by serum hsTroponin I at admission to ICUFigure1.Dynamic Profile of Laboratory Parameters in 101 Patients With COVID-19All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

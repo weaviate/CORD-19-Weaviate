@@ -1,0 +1,956 @@
+{
+    "paper_id": "f734d47a423cbe54ec0cc9b2dee39470cf74fd9b",
+    "metadata": {
+        "title": "Novel Coronavirus (COVID-19) Knowledge and Perceptions: A Survey of Healthcare Workers",
+        "authors": [
+            {
+                "first": "Akshaya",
+                "middle": [],
+                "last": "Srikanth Bhagavathula",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Emirates University",
+                    "location": {
+                        "addrLine": "5 Ph.D student",
+                        "settlement": "Al Ain",
+                        "country": "United Arab, UAE"
+                    }
+                },
+                "email": "akshaypharmd@gmail.com"
+            },
+            {
+                "first": "Wafa",
+                "middle": [
+                    "Ali"
+                ],
+                "last": "Aldhaleei",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jamal",
+                "middle": [],
+                "last": "Rahmani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shahid Beheshti University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mohammadjavad",
+                "middle": [
+                    "Ashrafi"
+                ],
+                "last": "Mahabadi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran, Iran"
+                    }
+                },
+                "email": "mjamahabadi@gmail.com"
+            },
+            {
+                "first": "Deepak",
+                "middle": [],
+                "last": "Kumar Bandari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Vagdeevi College of Pharmacy",
+                    "location": {
+                        "settlement": "Warangal",
+                        "region": "Telangana",
+                        "country": "India Authors' email: Akshaya Bhagavathula"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mohmmadjavad",
+                "middle": [],
+                "last": "Mahabadi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Deepak",
+                "middle": [],
+                "last": "Bandari",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Srikanth",
+                "middle": [],
+                "last": "Akshaya",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Bhagavathula",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: During the first week of March, the surge of coronavirus disease 2019 cases reached over 100 countries with more than 100,000 cases. Healthcare authorities have already initiated awareness and preparedness activities beyond borders. A poor understanding of the disease among healthcare workers (HCWs) may result in delayed treatment and the rapid spread of infection. This study aimed to investigate the knowledge and perceptions of HCWs about COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "A cross-sectional, web-based study was conducted among HCWs about COVID-19 during the first week of March 2020. A 23-item survey instrument was developed and distributed randomly to HCWs using social media; it required 5 minutes to complete. A chisquare test was used to investigate the level of association among variables at the significance level of p<0.05.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Of 529 participants, a total of 453 HCWs completed the survey (response rate: 85.6%); 51.6% were males, 32.1% were aged 25-34 years, and most were doctors (30.2%) and medical students (29.6%). Regarding COVID-19, most of the participants used social media to obtain information (61%), and a significant proportion of HCWs had poor knowledge of its transmission (61%) and symptom onset (63.6%) and showed positive perceptions of COVID-19 prevention and control. Factors such as age and profession were associated with inadequate knowledge and poor perception of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "As the global threat of COVID-19 continues to emerge, it is critical to improve the knowledge and perceptions of HCWs. Educational interventions are urgently needed to reach HCWs beyond borders, and further studies are warranted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Coronavirus (CoV) infections are emerging respiratory viruses and are known to cause illness ranging from the common cold to severe acute respiratory syndrome (SARS) [1] . CoV is a zoonotic pathogen that can be transmitted via animal-to-human and human-to-human interaction [2] . Multiple epidemic outbreaks occurred during 2002 (SARS), with ~800 deaths, and 2012 (Middle East Respiratory Syndrome: MERS-CoV), with 860 deaths [2, 3] .",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 169,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 274,
+                    "end": 277,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 426,
+                    "end": 429,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 430,
+                    "end": 432,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Approximately eight years after the MERS-CoV epidemic, the current outbreak of novel coronavirus in Wuhan City, Hubei Province, China, has emerged as a global outbreak and significant public health issue [4] . On 30 January 2020, the World Health Organization (WHO) declared COVID-19 a public health emergency of international concern (PHEIC) [5] . Astonishingly, in the first week of March, a devastating number of new cases were reported globally, and COVID-19 emerged as a pandemic. As of 12 March 2020, more than 125,000 confirmed cases across 118 countries and more than 4600 deaths had been reported [6] .",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 207,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 343,
+                    "end": 346,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 606,
+                    "end": 609,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "COVID-19 is spread by human-to-human transmission through droplet, feco-oral, and direct contact and has an incubation period of 2-14 days [6] . To date, no antiviral treatment or vaccine has been explicitly recommended for COVID-19. Therefore, applying preventive measures to control COVID-19 infection is the most critical intervention. Healthcare workers (HCWs) are the primary sector in contact with patients and are an important source of exposure to infected cases in healthcare settings; thus, HCWs are expected to be at high risk of infection. By the end of January, the WHO and Centers for Disease Control and Prevention (CDC) had published recommendations for the prevention and control of COVID-19 for HCWs [8, 9] . The WHO also initiated several online training sessions and materials on COVID-19 in various languages to strengthen preventive strategies, including raising awareness and training HCWs in preparedness activities [10] . In several instances, . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 142,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 718,
+                    "end": 721,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 722,
+                    "end": 724,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 940,
+                    "end": 944,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033381 doi: medRxiv preprint misunderstandings among HCWs have delayed controlling efforts to provide necessary treatment [11] , led to the rapid spread of infection in hospitals [12, 13] , and put patients' lives at risk. In this regard, the COVID-19 epidemic offers a unique opportunity to investigate the level of knowledge and perceptions of HCWs during this global health crisis. In addition, we aim to explore the role of different information sources in shaping HCWs' knowledge and perceptions of COVID-19 during this peak period.",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 241,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 294,
+                    "end": 298,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 299,
+                    "end": 302,
+                    "text": "13]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A prospective Web-based cross-sectional study was conducted using a survey instrument to obtain responses from HCWs globally during the first week of March 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "A 23-item survey instrument was developed using WHO course materials on emerging respiratory viruses, including COVID-19 [14] . The survey covered the domains of HCW characteristics, awareness, information sources, knowledge and perceptions related to COVID-19. The developed draft survey instrument was distributed to ten randomly selected faculty members to assess its readability and validity before pretesting among 20 randomly selected HCWs for clarity, relevance, and acceptability. Refinements were made as required to facilitate better comprehension and to organize the questions before the final survey was distributed to the study population.",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 125,
+                    "text": "[14]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "The survey instrument comprised 23 closed-ended questions and took approximately 3 minutes to complete. The 23-item questionnaire was divided into three parts, including participant characteristics (3 items), awareness of COVID-19 (2 items), source of information author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Content of the study tool"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033381 doi: medRxiv preprint 1]. Sufficient time was given to participants to read, comprehend, and answer all the questions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Content of the study tool"
+        },
+        {
+            "text": "Confidentiality of the study participants' information was maintained throughout the study by making the participants' information anonymous and asking the participants to provide honest answers. Eligible HCWs' participation in this survey was voluntary and was not compensated. Informed consent was obtained from each participant prior to participation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical considerations"
+        },
+        {
+            "text": "The study was performed following the Helsinki Declaration as revised in 2013. The study was conducted following the Checklist for Reporting Results of Internet E-Surveys ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical considerations"
+        },
+        {
+            "text": "The obtained data were coded, validated, and analyzed using SPSS version 24 (IBM, Armonk, NY, USA). Descriptive analysis was applied to calculate the frequencies and proportions. The chi-square test was used to investigate the level of association among variables. A p-value of less than 0.05 was considered statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "A total of 529 HCWs participated, 453 of whom completed the study questionnaire (85.6% response rate), including 234 (51.6%) men and 219 (48.3%) women; most of the participants were below 44 years of age (82.4%). The majority of participants were doctors (n=137, 30.2%) or medical students (n=134, 29.6%) and were from Asia (68%). Table 1 shows the sociodemographic characteristics of the participants. Almost all participants agreed that they had heard about COVID-19 (97.8%), but only 44.1% of them had the opportunity to attend lectures/discussions about COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 331,
+                    "end": 338,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033381 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "When we asked about the participants' source for reliable information about COVID-19, the primary sources of information about COVID-19 were official government websites and social media ( Figure 1 ). Approximately 30% of the participants reported that they used news media (TV/video, magazines, newspapers, and radio) and social media (Facebook, Twitter, Whatsapp, YouTube, Instagram, Snapchat) to obtain information about COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 189,
+                    "end": 197,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Source of information"
+        },
+        {
+            "text": "Moreover, nearly 40% of the participants sometimes discussed COVID-19-related topics with family and friends. Table 2 shows the knowledge about COVID-19 among HCWs. We identified significant knowledge gaps between doctors and other HCWs. For instance, approximately two-thirds of doctors and half of allied health workers thought that the origin of COVID-19 was bats (65.7% vs. 55.7%, p<0.05). A high majority of the HCWs (85.6%) agreed that maintaining hand hygiene, covering the nose and mouth while coughing, and avoiding sick patients could help to prevent COVID-19 transmission. A majority of the doctors agreed that COVID-19 could lead to pneumonia, respiratory failure, and death (84%, p<0.05) and that supportive care is the only treatment option that is currently available (83.2%, p<0.05). However, the participants' knowledge about questions related to the mode of transmission and incubation period of COVID-19 was poor (p<0.05).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 110,
+                    "end": 117,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Source of information"
+        },
+        {
+            "text": "Over 78% of the HCWs exhibited a positive perception of COVID-19. A high majority of the HCWs knew that sick patients should share their recent travel history (92.7%), that flu vaccination is not sufficient to prevent COVID-19 (90.7%), and that COVID-19 is not fatal (88.5%). In addition, 87% felt that washing hands with soap and water could help to prevent . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Perceptions about COVID-19"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint Table 3 ].",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 76,
+                    "end": 83,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Perceptions about COVID-19"
+        },
+        {
+            "text": "Items related to COVID-19-related perceptions among HCWs in the study were analyzed separately using the chi-square test to examine their association with age and sex and across different categories of people [ Table 4 ].",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 211,
+                    "end": 218,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Perceptions about COVID-19"
+        },
+        {
+            "text": "Nearly 90% of the youngest participants (<25 years) and 92% of the doctors believed that the symptoms of COVID-19 appeared as early as 2 to 14 days; the differences among the respondent groups were statistically significant (p<0.05). Moreover, a significant proportion of the doctors perceived eating well-cooked/handled meat to be safe (83.2%) (p<0.05).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Perceptions about COVID-19"
+        },
+        {
+            "text": "Medical students were found to have the perception that flu vaccination is not sufficient to prevent COVID-19 transmission (88%, p<0.05). A large number of allied health workers incorrectly believed that it is not safe to eat well-processed meat during the COVID-19 outbreak (25.3%, p<0.05), that COVID-19 is fatal (21.5%), that there is a delay in symptoms (19.8%), and that flu vaccination is sufficient (19.8%; p<0.05) compared with other participants in the respective groups. However, a finding of considerable concern is that 60% of HCWs used social media as a source of information. Currently, the vast diversity of information available through the Internet, including unverified malicious information, can spread quickly and can misguide HCWs. In particular, health authorities and scientists have warned that widespread misinformation about COVID-19 is a serious concern causing xenophobia worldwide [4, [16] [17] [18] [19] . In this regard, HCWs should carefully evaluate COVID-19-related information and should use scientific and authentic content as information sources.",
+            "cite_spans": [
+                {
+                    "start": 910,
+                    "end": 913,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 914,
+                    "end": 918,
+                    "text": "[16]",
+                    "ref_id": null
+                },
+                {
+                    "start": 919,
+                    "end": 923,
+                    "text": "[17]",
+                    "ref_id": null
+                },
+                {
+                    "start": 924,
+                    "end": 928,
+                    "text": "[18]",
+                    "ref_id": null
+                },
+                {
+                    "start": 929,
+                    "end": 933,
+                    "text": "[19]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Perceptions about COVID-19"
+        },
+        {
+            "text": "The findings of this study suggest significant knowledge gaps between the amount of information available about COVID-19 and the depth of knowledge among HCWs, particularly about the mode of transmission and incubation period of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Additionally, many allied health workers had inaccurate knowledge that COVID-19 can be treated with antivirals and that there is a vaccine available. This is unfortunate because the surge of COVID-19 is globally devastating, and a large number of resources are provided by healthcare authorities to educate HCWs and improve their knowledge about COVID-19. Therefore, our findings were disappointing. Greater encouragement from health authorities is needed to assimilate COVID-19-related knowledge among HCWs, including doctors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033381 doi: medRxiv preprint Generally, most participants had a positive perception of the prevention and control of COVID-19. However, discrepancies were identified in the perceptions of different categories of HCWs. For instance, only half (52%) of the HCWs aged 45-65 years believed that the symptoms of COVID-19 appeared as early as 2 to 14 days (p<0.05), and more than a quarter of the medical students thought that eating meat during the outbreak was unsafe.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Approximately 20% of allied health workers believed that the flu vaccine is sufficient for COVID-19 prevention. Finally, a vast majority of HCWs strongly agreed that maintaining hygiene activities, reporting recent travel history when individuals are sick, and cleaning the equipment used in wet markets are strongly recommended.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We used WHO training material for the detection, prevention, response, and control of COVID-19 to develop a validated questionnaire. The developed questionnaire was pilot",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "tested, and open-ended questions were limited to reduce information bias.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "However, this study has some limitations that should be considered. This is a cross-sectional study conducted online among HCWs during alarming cases reported globally in the first week of March 2020. In addition, the data presented in this study are self-reported and partly dependent on the participants' honesty and recall ability; thus, they may be subject to recall bias. Finally, due to the four-week closure of higher educational institutions in the UAE during the COVID-19 outbreak [16], the institutional review board was not approached.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "Despite these limitations, our findings provide valuable information about the knowledge and perceptions of HCWs during a peak period of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "We identified a significant gap in the source of information, poor knowledge levels, and discrepancies in perceptions of COVID-19 among our study participants. As the global threat . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "of COVID-19 continues to emerge, greater efforts through educational campaigns that target HCWs and the wider population beyond borders are urgently needed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "We thank all the study participants for their voluntary participation and for providing essential information.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgment:"
+        },
+        {
+            "text": "ASB designed the study, developed the questionnaire, collected the data, analyzed the data, and prepared the manuscript. WAA designed the questionnaire, conducted the pilot test, and conducted the literature review. MMJ and JR distributed the questionnaire and filtered and analyzed the data. All authors read and approved the final manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors' contributions"
+        },
+        {
+            "text": "All materials are attached as supplementary materials, and information related to the study is in the manuscript. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Available data and materials"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Available data and materials"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033381 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Available data and materials"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "SARS and other coronaviruses as causes of pneumonia",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wunderink",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Respirology",
+            "volume": "23",
+            "issn": "2",
+            "pages": "130--137",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New Engl J Medi",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "Doi:10.1056/NEJMoa2001316"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The story of mysterious pneumonia and the response to deadly novel coronavirus (2019-nCoV): So far!",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bhagavathula",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shehab",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emirates Med J",
+            "volume": "1",
+            "issn": "",
+            "pages": "7--10",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and corona virus disease-2019 (COVID-19): the epidemic and the challenges",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shih",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hsueh",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Int J Antimicrob Agent",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "2020:105924.Doi:10.1016/j.ijantimicag.2020.105924"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Note from the editors: World Health Organization declares novel coronavirus (2019-nCoV) sixth public health emergency of international concern",
+            "authors": [],
+            "year": 2020,
+            "venue": "Eurosurveillance Editorial Team",
+            "volume": "25",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Novel coronavirus (COVID-19) situation",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Incubation period of 2019 novel coronavirus (2019-nCoV) infections among travellers from Wuhan, China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Backer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klinkenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Infection prevention and control during health care when novel coronavirus ( nCoV) infection is suspected: interim guidance",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Centers for disease control and prevention. Update and interim guidelines on outbreak of 2019 Novel coronavirus (2019-nCoV). Available online",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Responding to COVID-19: Real-time training for the coronavirus disease outbreak",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Delays in Global Disease Outbreak Responses: Lessons from H1N1, Ebola, and Zika",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hoffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Silverberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Public Health",
+            "volume": "108",
+            "issn": "3",
+            "pages": "329--333",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Infection Rates and Risk Factors for Infection Among Health Workers During Ebola and Marburg Virus Outbreaks: A Systematic Review",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Selvaraj",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Harrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ivanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Allegranzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Infect Dis",
+            "volume": "218",
+            "issn": "suppl_5",
+            "pages": "679--689",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Likert scale), knowledge about symptoms of COVID-19-affected patients (2 items), different modes of transmission (2 items), precautions and risk prevention (3 items) and perceptions of COVID-19 (7 items/true or false questions) [Supplementary file",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "CHERRIES) guidelines [15] [Supplementary file 2].",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Currently, COVID-19 is a global topic of discussion in the media and among the public, especially among HCWs and patients. With the currently mounting COVID-19 transmission raising tensions for everyone, including health officials and health systems, an important question arises regarding how we manage information to help frontline HCWs in times of public health crisis. For this reason, we investigated HCWs' knowledge and perceptions of the prevention and control of COVID-19 during a global epidemic.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "perceptions of COVID-19 varied across different categories of HCWs. Our study revealed that HCWs have insufficient knowledge about COVID-19 but showed positive perceptions of the prevention of COVID-19 transmission. We also found that more than 33% of the HCWs used official government websites as a primary source of information about COVID-19. This indicates that the COVID-19-related updates posted online by official government health authorities had positive implications for improving HCWs' knowledge levels. Relying on authentic sources is a key factor in believing transparent information about the emerging COVID-19 infection and is essential for HCWs' preparedness and response.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "McCloskey B, Heymann DL. SARS to novel coronavirus-old lessons and new lessons. Epidemiol Infect. 2020;148:e22 14. World health organization. Emerging respiratory viruses, including COVID-19//openwho.org/courses/introduction-to-ncov (Accessed on 1 February 2020). 15. Eysenbach G. Improving the quality of Web surveys: the Checklist for Reporting Results of Internet E-Surveys (CHERRIES). J Med Internet Res. 2004 Sep 29;//www.bbc.com/news/technology-51497800 (Accessed 09 March 2020) 17. Shimizu K. 2019-nCoV, fake news, and racism. Lancet. 2020;395(10225):685-6. 18. Mejova Y, Kalimeri K. Advertisers Jump on Coronavirus Bandwagon: Politics, News, and Business. arXiv preprint arXiv 2020:2003.00923. 19. Ministry of Education. Education Ministry announces early 4-week spring vacation, starting Sunday https://www.moe.gov.ae/En/MediaCenter/News/pages/SpringVacation.aspx (Accessed 28 February 2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "COVID-19 transmission; 84.3% knew that symptoms appear in 2-14 days; and 85.6% agreed that all equipment used in wet markets should be cleaned every day. However, approximately 20% of HCWs were not clear about eating well-cooked meat during the outbreak [",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Sociodemographic characteristics of Healthcare workers' (N=453)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Knowledge about Novel coronavirus (COVID-19) among Healthcare workers' (N=453)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Perception of Healthcare workers' towards COVID-19Flu vaccinated is sufficient for preventing COVID-19 42 (9.2%) 411 (90.7%)* During the outbreak, eating well-cooked and safely handled meat is safe",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Association between respondents' characteristics and perceptions of COVID-19During the outbreak, eating well-cooked and safely handled meat is safe Sick patients should share their recent travel history with healthcare providers Disinfect equipment's and working area in wet markets at least once a day Washing hands with soap and water can help in prevention of COVID-19 transmission \u2020Correct answers; Significant at P<0.05 (bolded)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Competing interests: The authors declare that they have no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication: Not applicable."
+        }
+    ]
+}

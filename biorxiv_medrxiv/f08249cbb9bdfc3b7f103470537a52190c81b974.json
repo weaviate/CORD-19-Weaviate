@@ -1,0 +1,1882 @@
+{
+    "paper_id": "f08249cbb9bdfc3b7f103470537a52190c81b974",
+    "metadata": {
+        "title": "Blood single cell immune profiling reveals the interferon-MAPK pathway mediated adaptive immune response for COVID-19",
+        "authors": [
+            {
+                "first": "Lulin",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Unit for Blindness Prevention of Chinese Academy of Medical Sciences (2019RU026)",
+                    "institution": "Sichuan Academy of Medical Sciences",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yi",
+                "middle": [],
+                "last": "Shi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Unit for Blindness Prevention of Chinese Academy of Medical Sciences (2019RU026)",
+                    "institution": "Sichuan Academy of Medical Sciences",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bo",
+                "middle": [],
+                "last": "Gong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Unit for Blindness Prevention of Chinese Academy of Medical Sciences (2019RU026)",
+                    "institution": "Sichuan Academy of Medical Sciences",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Li",
+                "middle": [],
+                "last": "Jiang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Unit for Blindness Prevention of Chinese Academy of Medical Sciences (2019RU026)",
+                    "institution": "Sichuan Academy of Medical Sciences",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaoqi",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Unit for Blindness Prevention of Chinese Academy of Medical Sciences (2019RU026)",
+                    "institution": "Sichuan Academy of Medical Sciences",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jialiang",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Unit for Blindness Prevention of Chinese Academy of Medical Sciences (2019RU026)",
+                    "institution": "Sichuan Academy of Medical Sciences",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Juan",
+                "middle": [],
+                "last": "Tang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zigong First People's Hospital",
+                    "location": {
+                        "settlement": "Zigong",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chunfang",
+                "middle": [],
+                "last": "You",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zigong First People's Hospital",
+                    "location": {
+                        "settlement": "Zigong",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qi",
+                "middle": [],
+                "last": "Jiang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bo",
+                "middle": [],
+                "last": "Long",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tao",
+                "middle": [],
+                "last": "Zeng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Infectious diseases laboratory",
+                    "institution": "Public Health and Clinical Center of Chengdu",
+                    "location": {
+                        "settlement": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mei",
+                "middle": [],
+                "last": "Luo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Infectious diseases laboratory",
+                    "institution": "Public Health and Clinical Center of Chengdu",
+                    "location": {
+                        "settlement": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fanwei",
+                "middle": [],
+                "last": "Zeng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan Dazhou Central Hosptical",
+                    "location": {
+                        "settlement": "Dazhou",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fanxin",
+                "middle": [],
+                "last": "Zeng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan Dazhou Central Hosptical",
+                    "location": {
+                        "settlement": "Dazhou",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shuqiang",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Electronic Science and Technology of China",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xingxiang",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Electronic Science and Technology of China",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhenglin",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Unit for Blindness Prevention of Chinese Academy of Medical Sciences (2019RU026)",
+                    "institution": "Sichuan Academy of Medical Sciences",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The coronavirus disease 2019 outbreak is an ongoing global health emergence, but the pathogenesis remains unclear. We revealed blood cell immune response profiles using 5' mRNA, TCR and BCR V(D)J transcriptome analysis with single-cell resolution. Data from 134,620 PBMCs and 83,387 TCR and 12,601 BCR clones was obtained, and 56 blood cell subtypes and 23 new cell marker genes were identified from 16 participants. The number of specific subtypes of immune cells changed significantly when compared patients with controls. Activation of the interferon-MAPK pathway is the major defense mechanism, but MAPK transcription signaling is inhibited in cured patients. TCR and BCR V(D)J recombination is highly diverse in generating different antibodies against SARS-CoV-2. Therefore, the interferon-MAPK pathway and TCR-and BCR-produced antibodies play important roles in the COVID-19 immune response. Immune deficiency or immune overresponse may result in the condition of patients with COVID-19 becoming critical or severe.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The battles between humans and the pathogenic viruses are never ending. Epidemic diseases, including Zika (1), severe acute respitatory sundrome ( SARS) (2) , and Ebola (3), strike quickly, often killing hundreds of people during a single outbreak.",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 156,
+                    "text": "(2)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "On December 31, 2019, a novel coronavirus (SARS-CoV-2), belonging to the Orthocoronavirinae subfamily and distinct from middle east respiratory syndrome (MERS)-CoV and SARS-CoV, emerged in Wuhan, China (4) (5) (6) . The rapid person-toperson spread of SARS-CoV-2, which causes the coronavirus disease 2019 (COVID- 19) , presents an imminent threat to public health and has caused a global health emergency (7) (8) (9) . The World Health Organization emergency committee declared this outbreak a \"public health emergency of international concern\" because of its 2.1% mortality rate and person-to-person transmission (10) . As of March 7, 2020, over 102,136 people have fallen ill with SARS-CoV-2, leading to 3,492 deaths in 93 countries, and the coronavirus continues to spread quickly all over the world.",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 205,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 206,
+                    "end": 209,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 210,
+                    "end": 213,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 314,
+                    "end": 317,
+                    "text": "19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 406,
+                    "end": 409,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 410,
+                    "end": 413,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 414,
+                    "end": 417,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 615,
+                    "end": 619,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Symptoms of COVID-19 included fever, myalgia, and fatigue, as well as dry cough, shortness of breath, sputum production, headache, hemoptysis, sore throat, and diarrhea. Lymphopenia, prolonged prothrombin time, and elevated lactate dehydrogenase levels have also been observed in the patients with COVID-19 (6) . A computed tomography (CT) can identify bilateral patchy shadows or ground glass opacity in the lungs (6, 8, (11) (12) (13) . Despite the high infection and mortality rates, there is no specific cure for the disease because its pathogenesis remains unclear.",
+            "cite_spans": [
+                {
+                    "start": 307,
+                    "end": 310,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 415,
+                    "end": 418,
+                    "text": "(6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 419,
+                    "end": 421,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 422,
+                    "end": 426,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 427,
+                    "end": 431,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 432,
+                    "end": 436,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The human adaptive immune system plays a critical role in defending against viral infections. Many immune cells (such as leukocytes) and immune molecules (such as specific plasma proteins) are intrinsic components of blood. Therefore, the functions of blood and the immune system are inseparable. T cells and B cells are important in the pathogenesis of many-perhaps all-immune-mediated diseases (14) (15) (16) (17) . A T cell receptor (TCR) mediates recognition of pathogen-associated epitopes through interactions with peptide and major histocompatibility complexes (pMHCs). TCRs and B cell receptors (BCRs) are generated by genomic rearrangement at the germline level, a process termed V(D)J recombination, which has the ability to generate marked diversity among TCRs and BCRs. Parameterizing the elements of antigenspecific immune repertoires across a diverse set of epitopes may generate powerful applications in a variety of research fields for the diagnosis and treatment of infectious diseases. Here, we focus on insights into blood immune responses to COVID-19 using 5' mRNA, TCR, and BCR V(D)J recombination analysis with 4 4 single-cell resolution.",
+            "cite_spans": [
+                {
+                    "start": 396,
+                    "end": 400,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 401,
+                    "end": 405,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 406,
+                    "end": 410,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 411,
+                    "end": 415,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1133,
+                    "end": 1136,
+                    "text": "4 4",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In this study, 16 participants were recruited from the Sichuan Province of China.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The basic information and clinical features of the patients are listed in Table S1 . The lung CT images of these subjects are shown in Fig. S1 . There was one critical case (patient 1, male, 34 years old), one severe case (patient 2, male, 43 years old), and six moderate cases (patients 3-8) comprised of two males and four females aged 25-62 years old (Table S1 ). The two cured patients (patient 9, male, 40 years old and patient 10, female, 20 years old) were on the discharged day from hospital after they tested negative for SARS-CoV-2 and the disease signs disappeared. Three healthy people were included as normal controls (NC 1-3, Table S1 ). In order to differentiate the COVID-19 immune response from other infectious diseases, thereby identifying the unique COVID-19 immune response, we also recruited one case of influenza A (patient 11), one case of acute pharyngitis (patient 12), and one case of cerebral infarction (patient 13) as controls (Table S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 82,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 135,
+                    "end": 142,
+                    "text": "Fig. S1",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 354,
+                    "end": 363,
+                    "text": "(Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 640,
+                    "end": 648,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 957,
+                    "end": 966,
+                    "text": "(Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The peripheral blood mononuclear cells (PBMCs) of each individual were isolated from the whole blood, and the single-cell mRNA sequencing (ScRNA-Seq) analysis of the PBMCs was performed on the 10 X genomics platform with Chromium Next GEM Single Cell V(D)J Reagent Kits v1.1 (Fig. 1A ). After quality control, we obtained 134,620 PBMC cells, 83,387 TCR clones, and 12,601 BCR clones from the 16 samples. In these samples, we identified 17 completely different PBMC cell types, which could be further divided into 56 cell subtypes according to marker genes of the 134,620 cells (Fig. 1B, 1C, 1D and Table S2 ). The 17 cell types included CD4+ T cells identified by LTB and IL7R markers, CD8+ T cells identified by LEF1 and CD8A, CD1C+_B dendritic cells identified by BSET1 and CD1D, CD4+ cytotoxic T cells identified by CST7 and CCL4, CD8 cytotoxic T cells identified by CD3D and CD8A, and other cell types (Fig. 1C, Table S2 ). This suggests that human PBMCs have evolved highly differentiated cell subtypes to resist the invasion of pathogens (18) . There were three main states in the analysis process for reconstructing the developmental trajectories of the 56 cell subtypes, which showed a continuous trajectory of differentiating PBMCs (Fig. 1E, Fig. S2 ). In addition, 23 totally new candidate marker genes linked to 22 cell subtypes were identified (Fig. S3) , suggesting potential roles for these newly discovered cell markers in the identification and functional study of these subtypes.",
+            "cite_spans": [
+                {
+                    "start": 1044,
+                    "end": 1048,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 275,
+                    "end": 283,
+                    "text": "(Fig. 1A",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 577,
+                    "end": 606,
+                    "text": "(Fig. 1B, 1C, 1D and Table S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 906,
+                    "end": 924,
+                    "text": "(Fig. 1C, Table S2",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1241,
+                    "end": 1258,
+                    "text": "(Fig. 1E, Fig. S2",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1356,
+                    "end": 1365,
+                    "text": "(Fig. S3)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To investigate the immune cell behaviors of the 56 cell subtypes in different All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is Then, we analyzed the gene expression differences in each cell subtype of the COVID-19 conditions and controls and identified a number of differentially All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20033472 doi: medRxiv preprint expressed (DE) genes (External Databases S1-S4). To further explore the enriched signal pathways of the DE genes in each cell subtype, we analyzed the enriched pathways of the DE genes in each cell cluster using local string network analysis. In patients with critical, severe, moderate, or cured conditions, we found that 18 In the severe condition (patient 2), 18 signaling pathways were significantly changed in more than half of the cell subtypes compared to the normal controls.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20033472",
+                    "ref_id": null
+                },
+                {
+                    "start": 464,
+                    "end": 466,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Among these pathways, the most important was over-activation of the interferonrelated signaling pathways, including 2'-5'-oligoadenylate synthase and type I interferon signaling pathway(naive CD8+ T cells, CD4+ T cells, and other cells) and interferon alpha/beta/gamma signaling (naive CD8+ T cells, CD4+ T cells, and other cells) (Fig. 2C , Table S3 ). In other COVID-19 conditions, the interferon signal was also over-activated to varying degrees. However, in the cured patients, the interferon signal was just mildly activated compared to the patients with severe and moderate conditions. In the cured condition, the signal pathway related to mRNA translation of the virus was suppressed, while the signal pathway related to MAPK was significantly enriched (Fig. 2C , Table S3-6). To detect whether these signaling pathway changes were specific to COVID-19, we compared the COVID-19 patients with the patients with influenza A (patient 11), acute pharyngitis (patient 12), and cerebral infarction (patient 13) and found that the signaling pathways were still enriched after filtering with these related disease controls (Fig. S14 ). Among these pathways, the interferon-MAPK signaling pathway was the major blood immune response for COVID-19 infection. 7 7 The activation of the MAPK signaling pathway by interferon involves a set of defense mechanisms evolved by human beings to fight against viral infections (19) (20) (21) .",
+            "cite_spans": [
+                {
+                    "start": 1256,
+                    "end": 1259,
+                    "text": "7 7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1414,
+                    "end": 1418,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1419,
+                    "end": 1423,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1424,
+                    "end": 1428,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 331,
+                    "end": 339,
+                    "text": "(Fig. 2C",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 342,
+                    "end": 350,
+                    "text": "Table S3",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 760,
+                    "end": 768,
+                    "text": "(Fig. 2C",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 1123,
+                    "end": 1132,
+                    "text": "(Fig. S14",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To further explore the expression differences of genes involved in different cell types in the various COVID-19 conditions, we analyzed the gene expressions in patients with COVID-19 and compared them to those of the controls (Fig. 2G-J, Fig. S7 ). First, we observed up-regulation expression of the interferon signal genes in the COVID-19",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 226,
+                    "end": 245,
+                    "text": "(Fig. 2G-J, Fig. S7",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "patients. Among them, interferon \u03b1-inducible protein 27 (IFI27), originally known to involve in innate immunity and to intervene in cell proliferation (22) , was increasingly expressed in many cell types, including CD1C+_B dendritic cells, Table S8 ). These genes were previously shown to regulate cell invasion, migration, proliferation and innate immunity by inhibiting pro-inflammatory cytokine production (27, 28) . In three groups of inpatients with different conditions, the up-regulated expression of these genes was observed in CD1C+_B dendritic cell, CD1C-CD141dendritic cell, CD141+CLEC9A+ dendritic cell, CD8 cytotoxic T cells, and plasmacytoid dendritic cells. Interestingly, in contrast to the three groups of inpatients, the expression pattern of these genes in the two cured patients was the opposite. In the cured patients, down-regulated expression was detected, indicating that the MAPK signaling pathway was inhibited in these cells. These results indicate that downregulation of the MAPK signal pathway may be one sign of patient recovery.",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 409,
+                    "end": 413,
+                    "text": "(27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 414,
+                    "end": 417,
+                    "text": "28)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 240,
+                    "end": 248,
+                    "text": "Table S8",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To further explore the antibody clonal proliferation of TCR and BCR in COVID-19, we conducted TCR and BCR V(D)J single cell transcriptome analysis. Using integration analysis, we detected 83,387 TCR cell clones and 12,601 BCR clones in the 16 subjects (Fig. 3A) . This result revealed the antibody repertoire in patients with All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 252,
+                    "end": 261,
+                    "text": "(Fig. 3A)",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In the critical condition (patient 1), the fewest TCR clones (1,232) were detected, while, in the severe condition (patient 2), more TCR clones (7, 161) were detected. In one moderate patient (patient 8), the most TCR clones (20,370) were detected.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 147,
+                    "text": "(7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 148,
+                    "end": 152,
+                    "text": "161)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "According to these findings, the fewer the TCR clones, the more severe the COVID-19 condition. The distribution of all TCR clones and the number of TCR clones of each patient are shown in Fig. 3B and Table S9 . Using evolutionary analysis of the top TCR antibody sequences revealed by TCR sequencing, we found that TCR\u03b1 sequences of CASSEGVGTPFDEQFF (patient 2), CASSLGLAGDLDEQFF and CASNQGLAGGRLYNEQFF (patient 4), CASSQERGVYNEQFF (patient 6) and CASSEVWASDHEQYF (patient 10) were closely related (Fig. S15) , suggesting that these antibody sequences may have a special activity for SARS-CoV-2 (and influenza A). Compared to TCR, the number of BCR clones detected was much lower (Fig. 3C , Table S10 ). However, very strong BCR antibodies were not induced in most of the patients except in two moderate patients (patients 6 and 8).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 188,
+                    "end": 195,
+                    "text": "Fig. 3B",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 200,
+                    "end": 208,
+                    "text": "Table S9",
+                    "ref_id": null
+                },
+                {
+                    "start": 498,
+                    "end": 508,
+                    "text": "(Fig. S15)",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 680,
+                    "end": 688,
+                    "text": "(Fig. 3C",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 691,
+                    "end": 700,
+                    "text": "Table S10",
+                    "ref_id": null
+                }
+            ],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "In one moderate patient (patient 9) (Fig. 3D-G) , we detected 361 clones of CDR3 IGLorK/IGH sequences of CQQYGSSPWTF/CARVAESYYDFWSAKWEGAFDIW and 119 clones of CQQYNSYSF/CARSGPITIFGVVIKGRGGDAFDIW (Fig. 3C , Table S10 ). In another moderate patient (patient 7), four high frequency clones were identified, including CQQYYSIPSLTF/CATHRTYFDWLLPFDYW (179) (Fig. 3C , Table S10 ). These results suggest that the antibodies produced by patients 7 and 9 may have a SARS-CoV-2 specific affinity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 36,
+                    "end": 47,
+                    "text": "(Fig. 3D-G)",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 195,
+                    "end": 203,
+                    "text": "(Fig. 3C",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 206,
+                    "end": 215,
+                    "text": "Table S10",
+                    "ref_id": null
+                },
+                {
+                    "start": 351,
+                    "end": 359,
+                    "text": "(Fig. 3C",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 362,
+                    "end": 371,
+                    "text": "Table S10",
+                    "ref_id": null
+                }
+            ],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "We then analyzed top TCR encoded antibody sequences for known antigens, and some of them were annotated in the VDJdb antigen categories database (Fig. 3H ). In patients with COVID-19, we detected immune responses to known antigens, including Epstein-Barr virus (EBV), HIV-1, influenza A, yellow fever, and other RNA viruses, as well as DNA viruses such as cytomegalovirus (CMV). In addition, autoantigens were detected in the severe condition (patient 2) and the moderate condition (patients 4, 8, and 9). In patient 2, the autoantigen response was obvious activation, which indicated that this severe disease condition may be related to strong autoimmunity. On the contrary, in the critical condition (patient 1), only two antibodies against the Ebola EBV antigen were detected. These results further suggest that the critical condition may be caused by insufficient immunity, while the severe condition may be aggravated by excessive autoimmunity. In the normal condition, no All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 145,
+                    "end": 153,
+                    "text": "(Fig. 3H",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.15.20033472 doi: medRxiv preprint immune response to these antigens was detected for NC 1 and NC 3; for the NC 2, two antigens were detected (HIV-1 and influenza A) (Fig. 3H) . For the patient with influenza A (patient 11), the antigen and autoimmune responses of the yellow fever virus were detected. For the patient with acute pharyngitis (patient 12), EBV, HIV-1, influenza A and yellow fever virus antigens were detected, but there was no autoimmune response. For the patient with cerebral infarction (patient 13), no known antigens were detected. These results indicate that humans might use known immune recognition (mainly known RNA viruses) to fight against SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 271,
+                    "end": 280,
+                    "text": "(Fig. 3H)",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "Type I interferon (IFN-I) is crucial for promoting antiviral defenses through the induction of antiviral effectors (29) . In this study, our single cell transcriptome results showed that IRF27 was up-regulated 8.1 times more in critical patients, 51.7 times in severe patients, 39.9 times in moderate patients, 38.6 times in mild patients, and 29.5 times in cured patients compared to the normal controls (Fig. 4A) . These results suggest that IRF27 is a candidate marker gene for SARS-CoV-2 infection. BST2, which was previously shown to play a role in pre-B-cell growth (31) , also showed upexpression in COVID-19 patients. Consistent with our single cell transcription data, the expression profile of FOS, which is a transcription factor mediating MAPK pathway signaling, showed up-regulation in COVID-19 patients but down-regulation in cured patients. This result suggests that FOS is a candidate marker gene for cured COVID-19 patients. We further performed PBMC immunofluorescence testing to compare the protein expressions of IFI27 between patients with COVID-19 and controls. Immunofluorescence staining showed that IFI27 was highly expressed in the whole lymphocyte of patients with COVID-19, but only partially expressed on the lymphocyte of the controls (Fig. 4B) .",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 119,
+                    "text": "(29)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 572,
+                    "end": 576,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 405,
+                    "end": 414,
+                    "text": "(Fig. 4A)",
+                    "ref_id": "FIGREF11"
+                },
+                {
+                    "start": 1265,
+                    "end": 1274,
+                    "text": "(Fig. 4B)",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20033472 doi: medRxiv preprint In summary, we demonstrated that SARS-CoV-2 can enter the blood through the circulatory system and cause a blood immune response after infection through the respiratory system. Therefore, in patients with COVID-19, the damage is related to multiple organs (32) . The leukocyte immune responses involve many cell subtypes, including CD8+ T cells, CD8 cytotoxic T cells, CD4+ T cells, CD4+ cytotoxic T cells, CD1C+_B dendritic cells and other cell subtypes. After the virus reaches the blood immune cells, it might replicate-mainly in AXL+SIGLEC6+ dendritic cells, CD4+ T cells, and naive CD8+ T cells and might activate multiple cell subtypes of the interferon signal pathway to produce effectors, such as IFI27, IFITM1 and IFITM3, to fight the SARS-CoV-2 virus. The similar process also happened to Influenza and West Nile Virus infection in human (23, 24) . Through downstream activation of MAPK, the expression of downstream effectors is activated by key transcription factors, such as FOS, JUN, and JUNB, which lead to a wide range of antiviral responses in the blood system (Fig. 4C) . These results suggested that the immune response may come back the normal situation when the patients recovery, and the MAPK signal is thus inhibited.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 140,
+                    "text": "15.20033472 doi: medRxiv preprint",
+                    "ref_id": null
+                },
+                {
+                    "start": 397,
+                    "end": 401,
+                    "text": "(32)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 989,
+                    "end": 993,
+                    "text": "(23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 994,
+                    "end": 997,
+                    "text": "24)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1219,
+                    "end": 1228,
+                    "text": "(Fig. 4C)",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "In conclusion, in this study, we revealed the immune response process of SARS-CoV-2 entering the blood circulation system using immune profiling analysis with single-cell resolution. In the critical condition, the number of different cell types, expressed genes, and TCR/BCR responses indicated a relationship between the critical nature of the patient's condition and his immunodeficiency. On the contrary, the severe condition was shown to be related to a strong autoimmune response and over-activated interferon pathway. These results suggested that immune deficiency or immune over-reacts may make patients with COVID-19 go to worse condition because of their imbalance adaptive immune response (33) (34) (35) . Our study also shows that the activation of the interferon-MAPK signaling pathway and TCR-and BCRproduced antibodies play key roles in combating SARS-CoV-2 infection. These results will provide important information for COVID-19 treatment and drug development.",
+            "cite_spans": [
+                {
+                    "start": 699,
+                    "end": 703,
+                    "text": "(33)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 704,
+                    "end": 708,
+                    "text": "(34)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 709,
+                    "end": 713,
+                    "text": "(35)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20033472 doi: medRxiv preprint 14 14 Supplementary Materials: LGL E. IGK Table S1 Clinical and blood routine test information of all participants, analyzed using V(D)J transcriptome analysis Table S2 List of known marker genes, new marker genes, and highly expressed genes of 56 cell (sub) groups, identified by integrated analysis of all sequenced samples the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20033472",
+                    "ref_id": null
+                },
+                {
+                    "start": 141,
+                    "end": 146,
+                    "text": "14 14",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 183,
+                    "end": 191,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 301,
+                    "end": 309,
+                    "text": "Table S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20033472 doi: medRxiv preprint Table S7 The differential expression of interferon-related genes in each cell (sub)type of the COVID-19 patients compared with the normal controls Table S8 The differential expression of MAPK signal genes in each cell (sub)type of the COVID-19 patients compared with the normal controls Table S9 List of the most enriched clone antibodies in each patient using TCR single cell transcriptome analysis Table S10 List of the most enriched clone antibodies in each patient using BCR single cell transcriptome analysis External Database S1 Differential expressed genes in each cell subtype in a COVID-19 critical patient and the normal controls External Database S2 Differential expressed genes in each cell subtype between a COVID-19 severe patient and the normal controls External Database S3 Differential expressed genes in each cell subtype between COVID-19 moderate patients and the normal controls External Database S4 Differential expressed genes in each cell subtype between COVID-19 cured patients and the normal controls All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20033472",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 141,
+                    "end": 149,
+                    "text": "Table S7",
+                    "ref_id": null
+                },
+                {
+                    "start": 288,
+                    "end": 296,
+                    "text": "Table S8",
+                    "ref_id": null
+                },
+                {
+                    "start": 428,
+                    "end": 436,
+                    "text": "Table S9",
+                    "ref_id": null
+                }
+            ],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20033472 doi: medRxiv preprint FOS is up-regulated in hospitalized patients but down-regulated in cured patients. (B) Immunofluorescence staining of IFI27 in PBMCs of patients with COVID-19 and normal controls. (C) Anti-SARS-CoV-2 response of the blood system. After the virus reaches the blood immune cells, it can activate multiple cell subtypes of the interferon signal pathway to produce effectors, such as IFI27, IFITM1, and IFITM3, to fight the virus. Through downstream activation of MAPK, the expression of downstream effectors is activated by key transcription factors, FOS, JUN, and JUNB, which lead to a wide range of antiviral responses in the blood system. All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20033472",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20033472 doi: medRxiv preprint ",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 140,
+                    "text": "15.20033472 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 and showed huge diversities of TCR and BCR clones in each individual."
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Zika virus outbreak on Yap Island, Federated States of Micronesia",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Duffy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "The New England journal of medicine",
+            "volume": "360",
+            "issn": "",
+            "pages": "2536--2543",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Marburg and Ebola--arming ourselves against the deadly filoviruses",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Peters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "The New England journal of medicine",
+            "volume": "352",
+            "issn": "",
+            "pages": "2571--2573",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "The New England journal of medicine",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--733",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Jama",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "First Case of 2019 Novel Coronavirus in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Holshue",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The New England journal of medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The New England journal of medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "514--523",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The Novel Coronavirus Originating in Wuhan, China: Challenges for Global Health Governance",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Phelan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Gostin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Jama",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "507--513",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Analysis of the B cell receptor repertoire in six immunemediated diseases",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J M"
+                    ],
+                    "last": "Bashford-Rogers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature",
+            "volume": "574",
+            "issn": "",
+            "pages": "122--126",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A cell atlas of human thymic development defines T cell repertoire formation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "High frequency of shared clonotypes in human B cell receptor repertoires",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Soto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature",
+            "volume": "566",
+            "issn": "",
+            "pages": "398--402",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Identifying specificity groups in the T cell receptor repertoire",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Glanville",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature",
+            "volume": "547",
+            "issn": "",
+            "pages": "94--98",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Single-cell transcriptomics to explore the immune system in health and disease",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J T"
+                    ],
+                    "last": "Stubbington",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Rozenblatt-Rosen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Regev",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Teichmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Science",
+            "volume": "358",
+            "issn": "",
+            "pages": "58--63",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The expanding role of NLRs in antiviral immunity",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lupfer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kanneganti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Immunological reviews",
+            "volume": "255",
+            "issn": "",
+            "pages": "13--24",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The interferon response to intracellular DNA: why so many receptors?",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Unterholzner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Immunobiology",
+            "volume": "218",
+            "issn": "",
+            "pages": "1312--1321",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Regulation of interferondependent mRNA translation of target genes",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kroczynska",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mehrotra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Arslan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kaur",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Platanias",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Journal of interferon & cytokine research : the official journal of the International Society for Interferon and Cytokine Research",
+            "volume": "34",
+            "issn": "",
+            "pages": "289--296",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Interferon alpha-inducible protein 27 is an oncogene and highly expressed in cholangiocarcinoma patients with poor survival",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cancer management and research",
+            "volume": "11",
+            "issn": "",
+            "pages": "1893--1905",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The IFITM proteins mediate cellular resistance to influenza A H1N1 virus, West Nile virus, and dengue virus",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brass",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Cell",
+            "volume": "139",
+            "issn": "",
+            "pages": "1243--1254",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "IFITM3 restricts the morbidity and mortality associated with influenza",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Everitt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nature",
+            "volume": "484",
+            "issn": "",
+            "pages": "519--523",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Amphotericin B increases influenza A virus infection by preventing IFITM3-mediated restriction",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Cell Rep",
+            "volume": "5",
+            "issn": "",
+            "pages": "895--908",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Differential responses of innate immunity triggered by different subtypes of influenza a viruses in human and avian hosts",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMC Med Genomics",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "MKP-1 is necessary for T cell activation and function",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Biol Chem",
+            "volume": "284",
+            "issn": "",
+            "pages": "30815--30824",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "West Nile Virus-Inclusive Single-Cell RNA Sequencing Reveals Heterogeneity in the Type I Interferon Response within Single Cells",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Virol",
+            "volume": "93",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "West Nile Virus-Inclusive Single-Cell RNA Sequencing Reveals Heterogeneity in the Type I Interferon Response within Single Cells",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "93",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "A novel immune biomarker IFI27 discriminates between influenza and bacteria in patients with suspected respiratory infection",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Eur Respir J",
+            "volume": "49",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Beyond Tethering the Viral Particles: Immunomodulatory Functions of Tetherin (BST-2)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tiwari",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "De La Torre",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mcgavern",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nayak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "DNA Cell Biol",
+            "volume": "38",
+            "issn": "",
+            "pages": "1170--1177",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The balance between persistent virus infection and immune cells determines demyelination",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pavelko",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Njenga",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Logan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wettstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J Immunol",
+            "volume": "157",
+            "issn": "",
+            "pages": "5699--5709",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "ADARs and the Balance Game between Virus Infection and Innate Immune Cell Response",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tomaselli",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Galeano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Locatelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gallo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Curr Issues Mol Biol",
+            "volume": "17",
+            "issn": "",
+            "pages": "37--51",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "The role of porcine reproductive and respiratory syndrome virus infection in immune phenotype and Th1/Th2 balance of dendritic cells",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Dev Comp Immunol",
+            "volume": "65",
+            "issn": "",
+            "pages": "245--252",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "patients with COVID-19, while the B cells (cluster 16) and CD4+ T helper cells (cluster 51)decreased in the COVID-19 patients compared to the normal controls (Fig. 2A), indicating that the number of specific clusters of immune cells adjusts to fight SARS-CoV-2 aggression. To further investigate the immune cell behaviors of each cell subtype in different conditions of COVID-19, we separately compared the critical, severe, moderate, and cured patients with the normal controls (Fig. 2A). For the critical condition (patient 1), the proportion of 40 out of the 56 cell subtypes decreased; some subtypes, including CD8+ T cell (cluster 52), CD4+ T cell (cluster 55,56) and plasmacytoid dendritic cell (cluster 53), disappeared. These changes may suggest immunodeficiency in the patient. This is consistent with the lower number of lymphocytes in the patient (0.75 \u00d7 10 9 /L) compared to the normal range (1.1-3.2 \u00d7 10 9 /L, Table S1). However, some other cell subtypes, including CD8 cytotoxic T cells (cluster 9), CD1C+_B dendritic cells (cluter 7, 13, 19, 30, 39), effector CD8+ memory T (Tem) cells (cluster 14), and CD141+CLEC9A+ dendritic cells (cluster 45), increased, suggesting the limited immune response existed. In the severe condition (patient 2), the proportion of 45 of the 56 cell types increased, which may suggest over-activation of immune cells, including CD8+ T cells (cluster 1, 4, 18, 28 etc.), CD8 cytotoxic T cells (cluster 1 and cluster 25), CD4+ cytotoxic T cells (cluster 8 and cluster 21), Naive CD8+ T cell (cluster 2), plasmacytoid dendritic cell (cluster 53), and others. However, AXL+SIGLEC6+ dendritic cells (cluster 54) decreased in this patient. In the moderate condition (patients 3-8), the proportion of various cell types was between that of the critical and severe conditions. In the cured patients, effector CD8+ memory T (Tem) cells (cluster 14), megakaryocyte progenitor cells (cluster 23), CD1C+_B dendritic cells (cluster 39), and CD141+CLEC9A+ dendritic cells (cluster 45) decreased significantly. These results suggested a wide range of immune responses involved in the blood circulation system after SARS-CoV-2 infection.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "), 18 (in 35 cell subtypes), 24 (in 35 cell subtypes), and 15 (in 21 cell subtypes) signal pathways, respectively, were over-activated or inactivated for each disease condition (Fig. 2B-F, Table S3-6). These significantly enriched signal pathways were mainly involved in viral mRNA translation (high gene expressions in AXL+SIGLEC6+ dendritic cells, CD4+ T cells, and other cells) (Fig. S4-5),interaction alpha/beta signaling(Fig. S6-7), a mitogen-activated protein kinase (MAPK) pathway (Fig. S8-9), immunology interactions between lymphoid and nonlymphoid cells (CD1C+_B dendritic cells and CD4+ cytotoxic T cells)(Fig. S10-11), and major histocompatibility complex (MHC) class II protein complex (B cells and CD1C+_B dendritic cells)(Fig. S12-13), suggesting that antigen presentation for targeting the virus was activated.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "CD1C-CD141-dendritic cells, CD141+CLEC9A+ dendritic cells, CD8 cytotoxic T cells, and plasmacytoid dendritic cells. Second, the expressions of IFITM1, IFITM3, and IFI6, which were shown to be related to interferon-related pathway and associated with Influenza and West Nile Virus(23)(24)(25)(26), were strikingly up-regulated in all of these cells. The expression trends of these genes were similar in the four COVID-19 conditions. The results indicate that interferon signals, especially interferon alfa/beta/gamma and interferon type I, are activated in the blood of patients with COVID-19.Then, in the downstream of the interferon signaling, we found that MAPK signaling pathway transcription factors were activated in hospitalized patients with COVID-19, including high expressions of FOS, JUN, JUNB, and DUSP1 (Fig. 2K-N,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "revealed that a set of genes involved in the interferon-MAPK pathway were upregulated in the COVID-19 patients. To further validate this finding, we performed quantitative real-time reverse transcriptase polymerase chain reaction (RT-PCR) testing to detect the expressions of IRF27, BST2, and FOS in another cohort of three critical, three server, 19 moderate, three mild and 10 cured patients with COVID-19 and five normal controls (Fig. 4A). IIF27, an immune biomarker which was reported to be related to cell proliferation and invasion and could discriminate between influenza and bacteria in patients with suspected respiratory infection (30), showed the most strongest up-regulation in COVID-2019 patients' PBMCs in the interferon signaling pathway in the single cell transcriptome data. The real-time PCR results",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": ". S1 CT images of the lungs of the 10 COVID-19 patients. V(D)J analysis showed varying degrees of ground glass-like changes in the lungs.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Trajectory of differentiating PBMCs of 56 cell subtypes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Violin map and distributed cell (sub)types of 23 newly identified marker genes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Differential expression patterns of viral mRNA translation genes in COVID-19 patients vs controls. A. Critical vs normal B. Severe vs normal C. Moderate vs normal D. Cured vs normal E. SARS-COV-2 vs normal F. SARS-COV-2 vs influenza A G. SARS-COV-2 vs acute pharyngitis H. SARS-COV-2 vs cerebral infarction Fig. S5 viral mRNA gene expression in 56 cell typesFig. S6 Differential expression patterns of interaction alpha/beta signaling genes in COVID-19 patients vs other diseases A. SARS-COV-2 vs influenza A B. SARS-COV-2 vs acute pharyngitis C. SARS-COV-2 vs cerebral infarction Fig. S7 mRNA gene expression in 56 cell types of interaction alpha/beta signaling Fig. S8 Differential expression patterns of MAPK signaling genes in COVID-19 patients vs other diseases A. SARS-COV-2 vs influenza A B. SARS-COV-2 vs acute pharyngitis C. SARS-COV-2 vs cerebral infarction Fig. S9 mRNA gene expression in 56 cell types of MAPK pathways Fig. S10 Differential expression patterns of immunoregulatory interactions between a lymphoid cell and a non-lymphoid cell and cytolysis genes in COVID-19 patients vs controls A. Critical vs normal B. Severe vs normal C. Moderate vs normal D. Cured vs normal E. SARS-COV-2 vs normal F. SARS-COV-2 vs influenza A G. SARS-COV-2 vs acute pharyngitis H. SARS-COV-2 vs cerebral infarction Fig. S11 mRNA gene expression in 56 cell types of immunoregulatory interactions between a lymphoid cell and a non-lymphoid cell and cytolysis genes Fig. S12 Differential expression patterns of MHC class genes in COVID-19 patients vs controls A. Critical vs normal B. Severe vs normal C. Moderate vs normal D. Cured vs normal E. SARS-COV-2 vs normal F. SARS-COV-2 vs influenza A G. SARS-COV-2 vs acute pharyngitis H. SARS-COV-2 vs cerebral infarction Fig. S13 MHC class gene expression in 56 cell types Fig. S14 Enriched pathways in COVID-19 vs other disease conditions A. SARS-COV-2 vs influenza A B. SARS-COV-2 vs acute pharyngitis C. SARS-COV-2 vs cerebral infarction Fig. S15 Evolutionary conservation analysis of top TCR-and BCR-produced antibodies A. TCRA B. TCRB C. IGH D.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Cellular composition of the PBMCs in COVID-19 patients and controls. (A) Schematic of single-cell immune transcriptome profiles of the PBMCs in COVID-19 patients and normal controls. The PBMCs were isolated for constructing single cell 5' mRNA, TCR, and BCR libraries using chromium single cell V(D)J v1.1 reagent kits of 10x genomics chemistry. (B) Integration analysis results of COVID-19 patients and normal controls showing principle component (PC), t-SNE algorithm, and UMAP algorithm visualization. In total, 56 cell subtypes were identified. (C) Seventeen different cell types. From these types, the 56 cell subtypes were derived. (D) Cell subtypes in each main cell type (only cell types with two or more subtypes are displayed). (E) Cell differentiation trajectory analysis, which indicates three states of cells.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "The interferon-MAPK pathway is the key response in PBMCs for SARS-CoV-2 infection. (A) Comparisons of cell type behaviors of patients with COVID-19 and normal controls. (B) Cell subtypes and the number of pathways significantly differed between patients with COVID-19 and the normal controls. (C-F) The enrichment pathways of differential expressed (DE) genes in each cell subtype. (C) The critical patient (patient 1) vs normal controls. (D) The severe patient (patient 2) vs normal controls. (E) The moderate patients (patients 3-6) vs normal controls. (F) The cured patients (patient 9 and 10) vs normal controls. (G-J) Log2 fold changes of interferon pathway genes in critical, severe, moderate, and cured patients with COVID-19 vs normal controls, respectively. Each point represents a different cell subtype. (K-N) Log2 fold changes of MAPK pathway genes in critical, severe, moderate, and cured patients with COVID-19 vs normal controls, respectively. Each point represents a different cell subtype. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "TCR and BCR V(D)J clone expression in patients with COVID-19. (A) The figure on the left shows the number of TCR clones detected by V(D)J in each patient, and the figure on the right shows the number of BCR clones detected by V(D)J in each patient. (B) The distribution of TCR clones in cell clusters of patients with COVID-19. The light blue dots indicate the distribution of all TRAV and TRBV clones, and the dark blue dots indicate the antibody sequence and quantity of the clone with the strongest TCR clone signal of the patient 8 (moderate condition). (C) The distribution of BCR clones in the cell clusters of each patient. Among them, light blue dots indicate the distribution of total IGHV, IGLV, and IGKV in this patient. The dark blue dots indicate the clones with the strongest signals in this patient. Patient 9 has the strongest B cell antibodies among all COVID-19 patients. (D) V-J heatmap of IGH + IGK + IGL in the B cells of patient 9. (E) The left and right graphs represent the isotype frequency of the heavy chain and the light chain detected in the B cells of patient 9, respectively. (F) The distribution of paired isotypes in the B cells of patient 9. Abscissa includes different chains, and the ordinate is frequency. (G) The usage of the V gene in the B cells of patient 9. (H) List of the known antigens and antibodies in patients with COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "The interferon-MAPK pathway in response to SARS-CoV-2 infection. (A) Real-time PCR validation of IFI27 and BST2 in the interferon pathway and FOS in the MAPK pathway. IFI27 and BST2 are up-regulated in patients with COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Significant enriched pathways of each cell (sub)type in a critical patient compared with the normal controlsTable S4 Significant enriched pathways of each cell (sub)type in a severe patient compared with the normal controls Table S5 Significant enriched pathways of each cell (sub)type in moderate patients compared with the normal controls Table S6 Significant enriched pathways of each cell (sub)type in cured patients compared with the normal controls All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": ". https://doi.org/10.1101/2020.03.15.20033472 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": ". https://doi.org/10.1101/2020.03.15.20033472 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": ". https://doi.org/10.1101/2020.03.15.20033472 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank all participants for supporting in this study. Furthermore, we gratefully acknowledge the patients and control subjects for their donation of peripheral blood samples. We thank Genergy Bio for support with V(D)J sample processing and sequencing library preparation. We thank Y.B. Mei for helpful discussions. The authors have no competing interests to declare. Data and material availability:All sequencing data will be deposited in a public database and can be accessed online through a web portal.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments:"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

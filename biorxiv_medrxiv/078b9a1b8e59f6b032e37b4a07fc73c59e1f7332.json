@@ -1,0 +1,1530 @@
+{
+    "paper_id": "078b9a1b8e59f6b032e37b4a07fc73c59e1f7332",
+    "metadata": {
+        "title": "(dry-33 iminli@vip",
+        "authors": [
+            {
+                "first": "Minfeng",
+                "middle": [],
+                "last": "Xiao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaoqing",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Respiratory Disease",
+                    "institution": "Guangzhou Medical University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China. 14"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jingkai",
+                "middle": [],
+                "last": "Ji",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Min",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jiandong",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shenzhen Key Laboratory of Unknown Pathogen Identification",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "addrLine": "Shen-21 zhen",
+                        "postCode": "518083",
+                        "country": "China. 22"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Lin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yang",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wanying",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peidi",
+                "middle": [],
+                "last": "Ren",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Guifang",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jincun",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Respiratory Disease",
+                    "institution": "Guangzhou Medical University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China. 14"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tianzhu",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Liang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Huahui",
+                "middle": [],
+                "last": "Ren",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tian",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Huanzi",
+                "middle": [],
+                "last": "Zhong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wenchen",
+                "middle": [],
+                "last": "Song",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yanqun",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wang",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ziqing",
+                "middle": [],
+                "last": "Deng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yanping",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhihua",
+                "middle": [],
+                "last": "Ou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daxi",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jielun",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Cai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xinyi",
+                "middle": [],
+                "last": "Cheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Taiqing",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Honglong",
+                "middle": [],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI PathoGenesis Pharmaceutical Technology",
+                    "location": {
+                        "settlement": "Shenzhen",
+                        "country": "China. 20"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yanping",
+                "middle": [],
+                "last": "Gong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI PathoGenesis Pharmaceutical Technology",
+                    "location": {
+                        "settlement": "Shenzhen",
+                        "country": "China. 20"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ming",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jian",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xun",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shida",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fang",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yanyan",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhang",
+                "middle": [],
+                "last": "5#",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Weijun",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI PathoGenesis Pharmaceutical Technology",
+                    "location": {
+                        "settlement": "Shenzhen",
+                        "country": "China. 20"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yimin",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Respiratory Disease",
+                    "institution": "Guangzhou Medical University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China. 14"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Junhua",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BGI-Shenzhen",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "COVID-19 has caused a major epidemic worldwide, however, much is yet to be known 39 about the epidemiology and evolution of the virus. One reason is that the challenges 40 underneath sequencing HCoV-19 directly from clinical samples have not been com-41 pletely tackled. Here we illustrate the application of amplicon and hybrid capture (cap-42 ture)-based sequencing, as well as ultra-high-throughput metatranscriptomic (meta) 43 sequencing in retrieving complete genomes, inter-individual and intra-individual var-44 iations of HCoV-19 from clinical samples covering a range of sample types and viral 45",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "load. We also examine and compare the bias, sensitivity, accuracy, and other char-46 acteristics of these approaches in a comprehensive manner. This is, to date, the first 47",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "HCoV-19, as well as the first comparative study across methods. Our work offers 49 practical solutions for genome sequencing and analyses of HCoV-19 and other 50 emerging viruses. 51",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "work systematically implements amplicon and capture approaches in sequencing 48"
+        },
+        {
+            "text": "GZMU0030 and GZMU0031) with Ct between 29-32, resulting in inferior sequencing depth 112 (less than 100X) (Table 1) . Isolating viruses and enriching them in cell culture might improve 113 the situation, but this requires high-standard laboratory settings and expertise apart from 114 being time-consuming. Also, unwanted mutations that are not concordant with original clin-115 ical samples may be introduced during the culturing process. 116",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 106,
+                    "end": 115,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "INTRODUCTION 53"
+        },
+        {
+            "text": "To enrich adequate viral content for whole-genome sequencing in a convenient manner, we 117 pursued two other methods: multiplex PCR amplification (amplicon) and hybrid capture 118 (capture) (Fig. 1) . We designed a systematic study to comprehensively validate the bias, 119 sensitivity, inter-individual (variant) and intra-individual (iSNV) accuracy of multiple ap-120 proaches by sequencing serial dilutions of a cultured isolate (unpublished), as well as the 121 eight clinical samples (Fig. 2) . We performed qRT-PCR of 10-fold serial dilutions (D1-D7) of 122 the cultured isolate, and the Ct was 17.3, 20.8, 24.5 for, 28.7, 31.8, 35, and 39.9, respec-123 tively, indicating the undiluted RNA (D0) of the cultured isolate contained ~1E+08 genome 124 copies per mL. For amplicon sequencing, we utilized two kits comprising of two set of pri-125 mers generating PCR products of 300-400 bp and 100-200 bp, respectively. The ~400 bp 126 amplicon-based sequencing was implemented in all samples and analyzed throughout the 127 study, while the ~200 bp amplicon-based sequencing was only applied in the cultured isolate 128 for coverage analysis. 129 to inadequate depth in amplicon sequencing (Fig. 3a) . Another pitfall is that amplification 142 across the genome can hardly be unbiased, causing difficulties in complete genome assem-143 bly. Indeed, amplicon sequencing exhibited a higher level of bias compared with meta-144 transcriptomic sequencing, in terms of coverage across the viral genomes from the cultural 145",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 191,
+                    "end": 199,
+                    "text": "(Fig. 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 490,
+                    "end": 498,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1193,
+                    "end": 1202,
+                    "text": "(Fig. 3a)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "INTRODUCTION 53"
+        },
+        {
+            "text": "isolate and the clinical samples tested in our study (Fig. 3b, d, Supplementary Fig. 1 ). To 146 our surprise, however, capture sequencing was almost as unbiased as meta sequencing, 147 demonstrating better performance than the previous capture method used to enrich ZIKV 148 despite the HCoV-19 genome is ~3 fold larger than ZIKV 22 (Fig. 3b, c) . Two reasons 149 amongst others were likely to be accountable to this improvement, 1) we utilized 506 pieces 150 of 120 ssDNA probes covering 2x of the HCoV-19 genome to capture the libraries, 2) we 151 employed the DNBSEQ sequencing technology that features PCR-free rolling circle replica-152 tion (RCR) of DNA Nanoballs (DNBs) 23,24 . 153",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 53,
+                    "end": 86,
+                    "text": "(Fig. 3b, d, Supplementary Fig. 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 334,
+                    "end": 346,
+                    "text": "(Fig. 3b, c)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "INTRODUCTION 53"
+        },
+        {
+            "text": "The sequencing results of amplicon and capture approaches revealed dramatic increases 154 in the ratio of HCoV-19 reads out of the total reads compared with meta sequencing, sug-155 gesting the enrichment was highly efficient -5596-fold in capture method and 5710-fold in 156 amplicon method for each sample on average (Supplementary Table 1 -2). To further com-157 pare the sensitivity of different methods, we plotted the number of HCoV-19 reads per million 158 (HCoV-19-RPM) of total sequencing reads against the viral concentration for each sample. 159",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 319,
+                    "end": 341,
+                    "text": "(Supplementary Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "INTRODUCTION 53"
+        },
+        {
+            "text": "The productivity was similar between the two methods when the input RNA of the cultured 160 isolate contained 1E+05 genome copies per mL and above (Fig. 3e) . However, amplicon 161 1E+06 copies of HCoV-19 genome per mL, while capture sequencing requires 24,474 to 9 177 Mb for the same situation (Fig. 3g, Supplementary Table 4) . 178",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 147,
+                    "end": 156,
+                    "text": "(Fig. 3e)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 296,
+                    "end": 328,
+                    "text": "(Fig. 3g, Supplementary Table 4)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "INTRODUCTION 53"
+        },
+        {
+            "text": "To determine the accuracy of dif-179 ferent approaches in discovering inter-individual genetic diversity, we tested each method 180 in calling the single nucleotide variations (SNVs) and verified some of the SNVs with Sanger 181 sequencing ( Supplementary Fig. 2 ). Two to five SNVs were identified within each clinical 182 sample, and in all the seven samples, SNVs identified by the three methods were concord-183 ant except that capture missed one SNV at position 16535 in GZMU0014 (Fig. 4a) . We then 184 investigated the allele frequencies of these sites across methods, and found that alleles 185 identified by capture sequencing displayed lower frequencies than the other two methods, 186 especially for GZMU0014, GZMU0030, and GZMU0042 where the viral load was lower (Ct 187 \u2265 29), which explained why capture sequencing neglected an SNV in our pipeline when the 188 cutoff of SNV calling was set as 80% allele frequency (Fig. 4b) . These data indicate that 189 amplicon sequencing is more accurate than capture sequencing in identifying SNVs, espe-190 cially for challenging samples. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.993584 doi: bioRxiv preprint tected in capture sequencing datasets were generally approximate to meta sequencing, 195 while most allele frequencies in amplicon sequencing datasets deviated with those in meta 196 sequencing (Fig. 4c) A similar pattern was shown for clinical samples, indicating that am-197 plicon sequencing was unreliable of quantifying minor allele frequencies (Fig. 4d) sequencing was 0.74% and 66.67%, while that in capture sequencing was 0.02% and 0%, 205",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 242,
+                    "end": 262,
+                    "text": "Supplementary Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 485,
+                    "end": 494,
+                    "text": "(Fig. 4a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 929,
+                    "end": 938,
+                    "text": "(Fig. 4b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1429,
+                    "end": 1438,
+                    "text": "(Fig. 4c)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1585,
+                    "end": 1594,
+                    "text": "(Fig. 4d)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Investigation of inter-and intra-individual variations."
+        },
+        {
+            "text": "respectively. Together these results suggest amplicon sequencing was not as accurate as 206 capture sequencing in identifying minor alleles, which could be in part due to Matthew effect 207 caused by PCR. 208",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Investigation of inter-and intra-individual variations."
+        },
+        {
+            "text": "sequencing has also allowed us to investigate RNA expression patterns of the overall mi-210 crobiome and host content and thus suitable for discovering new viruses, distinguishing co-211 infections, and dissecting virus-host interactions. To explore the microbiota, we performed 212 further metatranscriptomics analysis of the clinical samples. We were able to identify host 213 nucleic acids in all of the samples, and over 95% of total reads were from the host in sputum, 214 nasal, and throat samples ( Supplementary Fig. 4a ). Virus contributed to less than 5% of 215 reads in anal swab and throat swab while more than 50% of reads in nasal swab (Supple-216 mentary Fig. 4b ). These results suggest nasal swab could be the most ideal sample type for 217 viral detection among the four sample types, which agrees with recent clinical evidence 25 . 218",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 506,
+                    "end": 527,
+                    "text": "Supplementary Fig. 4a",
+                    "ref_id": null
+                },
+                {
+                    "start": 670,
+                    "end": 677,
+                    "text": "Fig. 4b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Microbiome in clinical samples. In addition to target viral genome, metatranscriptomic 209"
+        },
+        {
+            "text": "Among the viral reads, over 90% were Coronaviridae, which is consistent with clinical diag-219 nostics ( Supplementary Fig. 4c ). Reads from other viruses were also identified, indicating The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.993584 doi: bioRxiv preprint HCoV-19 under different situations: 1) if one wants to study other genetic materials than the 228 target viruses, or the viruses become highly diversified via recombinational events, or the 229 viral load within the RNA sample is high (e.g. conc. \u2265 1E+05 viral genome copies per mL, or 230",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 105,
+                    "end": 126,
+                    "text": "Supplementary Fig. 4c",
+                    "ref_id": null
+                }
+            ],
+            "section": "Microbiome in clinical samples. In addition to target viral genome, metatranscriptomic 209"
+        },
+        {
+            "text": "Ct \u2264 24.5), meta sequencing can be prioritized; 2) if one focuses on intra-individual variations 231 for more challenging samples (e.g. conc. < 1E+05 viral genome copies per mL, or Ct > 24.5), 232 capture sequencing seems to be a justified choice; and, 3) if identifying SNVs is the main 233 purpose, the most convenient, economical strategy would be amplicon sequencing that can 234 support high-confidence analyses of samples containing viral content as low as 1E+02 viral 235 genome copies per mL, or Ct as high as 35. 236",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microbiome in clinical samples. In addition to target viral genome, metatranscriptomic 209"
+        },
+        {
+            "text": "Sequencing low-titre viruses directly from clinical samples is challenging, which is further 238 exacerbated by the fact that coronavirus genomes are the largest among RNA viruses (~3 239 fold larger compared with ZIKV). Compared with direct metatranscriptomic sequencing, high 240 sensitivity of hybrid capture and amplicon sequencing methods come at a price of low ac-241 curacy, and neither of the two can be used to sequence highly diverse or recombinant vi-242 ruses because the primers and probes are specific to known viral genomes. Amplicon se-243 quencing compromises its accuracy, while it becomes the most convenient and economical 244 method of all. Either or a combination of the approaches described here can be chosen to 245 cope with various needs of researchers, e.g., metatranscriptomic sequencing data with in-246 sufficient coverage and depth can be pooled with hybrid capture data to generate high qual-247 ity assemblies 22 . Our research, as well as the methods elaborated here, are able to help 248 other researchers to sequence and analyze large viruses from clinical samples and thus 249 benefit investigations on the genomic epidemiology of viruses. 250 Some pros and cons described above might be specific to the experimental workflows and 251 bioinformatics pipelines tailored in this study, e.g., 1) the bias of amplicon sequencing can 252 be improved by reducing the amount of cycles in the 1st PCR or optimize the molar ratios 253 of primers (Fig. 1a) , 2) the amplicon sequencing is particularly convenient compared with 254 previous counterparts since the fragmentation and library construction steps are omitted 255 for 6 min; 2) double-stranded (ds) cDNA was synthesized using random hexamers with frag-291 mented RNA; 3) ds cDNA was subjected to end repair, adaptor ligation, and 18-cycle PCR 292 amplification; 4) PCR products were Unique Dual Indexed (UDI), before going through cir- 100 nt strategy using the same protocol described above, generating 37 Gb sequencing 305 data for each sample on average. 306",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1474,
+                    "end": 1483,
+                    "text": "(Fig. 1a)",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION 237"
+        },
+        {
+            "text": "Total RNA was reverse transcribed to synthesize the first-strand cDNA with random 308 hexamers and Superscript II reverse transcriptase kit (Invitrogen, Carlsbad, USA). ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Amplicon-based enrichment and sequencing 307"
+        },
+        {
+            "text": "For metatranscriptomic and hybrid capture sequencing data, total reads were first processed 332 by Kraken v0.10.5 26 (default parameters) with a self-build database of Coronaviridae ge-333 nomes (including SARS, MERS and HCoV-19 genome sequences downloaded from 334 GISAID, NCBI and CNGB) to efficiently identify candidate viral reads with a loose manner. 335",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Identification of HCoV-19-like reads from Massively Parallel Sequencing data 331"
+        },
+        {
+            "text": "These candidate reads were further qualified with fastp v0.19.5 27 (parameters: -q 20 -u 20 -336 n 1 -l 50) and SOAPnuke v1.5.6 28 (parameters: -l 20 -q 0.2 -E 50 -n 0.02 -5 0 -Q 2 -G -d) to 337 remove low-quality reads, duplications and adaptor contaminations. Low-complexity reads 338 were next filtered by PRINSEQ v0.20.4 29 (parameters: -lc_method dust -lc_threshold 7). 339",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Identification of HCoV-19-like reads from Massively Parallel Sequencing data 331"
+        },
+        {
+            "text": "After the above process, HCoV-19-like reads generated from metatranscriptomics and 340 hybrid capture method were obtained. 341 Amplicon sequencing data were processed as described above, except that duplications 371",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Identification of HCoV-19-like reads from Massively Parallel Sequencing data 331"
+        },
+        {
+            "text": "were not removed. A heatmap was generated to visualize the viral genome coverage for all 372 samples sequenced by the amplicon method with the pheatmap 37 package in R (v3.6.1) 36 . 373",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 179,
+                    "text": "36",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Identification of HCoV-19-like reads from Massively Parallel Sequencing data 331"
+        },
+        {
+            "text": "The depth at each nucleotide position was binarized, and was shown in pink if the depth 374 was 100x and above. 375 376 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.993584 doi: bioRxiv preprint sequencing data 378",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Identification of HCoV-19-like reads from Massively Parallel Sequencing data 331"
+        },
+        {
+            "text": "HCoV-19 reads of metatranscriptomic and hybrid capture sequencing data were identified 379 by aligning the HcoV-19-like reads to the HCoV-19 reference genome (GISAID accession: 380 EPI_ISL_402119) with BWA in a strict manner of coverage \u2265 95% and identity \u2265 90%. For 381 comparisons of the coverage and depth of the viral genome across samples and methods, 382",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Identification of HCoV-19-like reads from Massively Parallel Sequencing data 331"
+        },
+        {
+            "text": "we normalized the viral reads to total sequencing reads with HCoV-19 Reads Per Million 383 (HCoV-19-RPM). HCoV-19-RPM for amplicon sequencing data was calculated by the same 384 pipelines we applied for metatranscriptomic and hybrid capture sequencing data. 385",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Identification of HCoV-19-like reads from Massively Parallel Sequencing data 331"
+        },
+        {
+            "text": "To estimate the minimum data requirements for genome assembling and intra-individual 386 variation analysis, we applied gradient-based sampling to the HCoV-19 genome align-387 ments (referred to BAM files) to each dataset using Samtools (v1.9) 34 For amplicon sequencing data, only base positions covered by \u2265100X reads were used for 417 iSNVs calling. For metatranscriptomic and hybrid capture-based sequencing data, the 418 thresholds of depth were set as 10X and 20X, respectively. The candidate iSNVs were fur-419",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 246,
+                    "text": "34",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Identification of HCoV-19-like reads from Massively Parallel Sequencing data 331"
+        },
+        {
+            "text": "ther filtered for quality as follows: 1) frequency filtering, only minor alleles (frequency \u2265 5% 420 and <50%) and major alleles (frequency \u2265 50% and \u2264 95%) were remained; 2) depth filter-421 ing, iSNVs with fewer than five forward or reverse reads were removed; and 3) strand bias 422 filtering (not applicable to single-end reads of amplicon sequencing), iSNVs were removed 423 if there were more than a 10-fold strand bias or a 5-fold difference between the strand bias 424 of the variant call and that of the reference call. 425",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Identification of HCoV-19-like reads from Massively Parallel Sequencing data 331"
+        },
+        {
+            "text": "For metatranscriptomic sequencing of clinical samples, raw sequencing data of a single se-427 quence lane (approximately 60-75 Gb per sample) was used to simultaneously assess the 428 RNA expression patterns of human, bacteria and viruses in clinical samples from COVID-429 19 patients. We first used software fastp (v0.19.5) 27 to filter low-quality reads and remove 430 adapter with parameters: -5 -3 -q 20 -c -l 30. After QC, we mapped high-quality reads to 431 hg19 and removed human ribosomal RNA (rRNA) reads by SOAP2 v2.21 42 (parameters: -432 m 0 -x 1000 -s 28 -l 32 -v 5 -r 1), and the remaining RNA reads were then aligned to hg19 433 by HISAT2 43 with default settings to identify non-rRNA human transcripts as previously de-434 scribed. Next, we applied Kraken 2 44 (version 2.0.8-beta, parameters: --threads 24 --confi-435 dence 0) to assign microbial taxonomic ranks to non-human RNA reads against the large The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.993584 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Taxonomy of clinical samples by unbiased metatranscriptomic sequencing 426"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat 508 origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "270--273",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "RNA based mNGS approach identifies a novel human coronavirus from two 510 individual pneumonia cases in 2019 Wuhan outbreak",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "",
+            "pages": "313--319",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/22221751.2020.1725399"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Evaluation of advanced reverse transcription-PCR assays and an 515 alternative PCR target region for detection of severe acute respiratory syndrome-516 associated coronavirus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Clin Microbiol",
+            "volume": "42",
+            "issn": "",
+            "pages": "2043--2047",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/jcm.42.5.2043-5172047.2004"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Coronaviruses and the human airway: a universal system 519 for virus-host interaction studies",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jonsdottir",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dijkman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Virol J",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12985-016-0479-5"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel 521 coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "522",
+            "issn": "",
+            "pages": "514--523",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30154-9"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "First Case of 2019 Novel Coronavirus in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Holshue",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J 524 Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "929--936",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001191"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Stochastic processes constrain the within and between host 526 evolution of influenza virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mccrone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Elife",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Intra-host dynamics of Ebola virus during",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nat Microbiol",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nmicrobiol.2016.151"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Ebola Virus Epidemiology, Transmission, and Evolution during Seven 530",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Viral quasispecies evolution",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Domingo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sheldon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Perales",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Microbiol Mol Biol Rev",
+            "volume": "532",
+            "issn": "",
+            "pages": "159--216",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/MMBR.05023-11"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Zika virus evolution and spread in the Americas",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Metsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature",
+            "volume": "546",
+            "issn": "",
+            "pages": "411--415",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature22402"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Reliable multiplex sequencing with rare index mis-assignment on DNB-based 34",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The Sequence Alignment/Map format and SAMtools",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Bioinformatics",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btp352"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "R: A language and environment for statistical computing",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Team",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "ggplot2\" based publication ready plots. R package version 0",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kassambara",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ggpubr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Haplotype-based variant detection from short-read sequencing",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Garrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Marth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "569",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1207.3907"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Snippy: fast bacterial variant calling from NGS reads",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Seemann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "A program for annotating and predicting the effects of single nucleotide 573 polymorphisms, SnpEff: SNPs in the genome of Drosophila melanogaster strain",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cingolani",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "SOAP2: an improved ultrafast tool for short read alignment",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Bioinformatics",
+            "volume": "25",
+            "issn": "",
+            "pages": "1966--1967",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btp336"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Graph-based genome 578 alignment and genotyping with HISAT2 and HISAT-genotype",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Paggi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Salzberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat Biotechnol",
+            "volume": "37",
+            "issn": "",
+            "pages": "907--915",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41587-019-0201-4"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Improved metagenomic analysis with Kraken 2",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Langmead",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Bracken: estimating species 583 abundance in metagenomics data",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Breitwieser",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Thielen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Salzberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PeerJ Computer Science",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Double indexing overcomes inaccuracies in multiplex 619",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kircher",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sawyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Meyer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Sequencing coverage and depth of the cultured isolate and eight clinical 621 samples. a, Amplicon sequencing coverage by sample (row) across the HCoV-19",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Three 628 independent experiments were performed for amplicon sequencing. Pink, ~400 bp 629 amplicon-based sequencing including human and lambda phage nucleic acids 630 background; red, ~200 bp amplicon-based sequencing; orange, ~400 bp amplicon-based 631 sequencing excluding human and lambda phage nucleic acids background (NAB); light 632 blue, capture sequencing. f, HCoV-19-RPM (Reads Per Million) sequenced plotted 633 against qRT-PCR Ct value for the clinical samples",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pink",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Alleles with \u2265 80% frequencies were called. *, SNVs verified 641 by Sanger sequencing. b, Allele frequencies of the identified SNVs. Pink, amplicon; light 642 blue, capture; blue, meta. Minor allele frequencies detected in serial dilutions of the cultured 643 isolate (c) and clinical samples (d) across methods. Pink, amplicon vs meta; light blue, 644 capture vs meta. Minor alleles are defined with \u2265 5% and < 50% frequencies. Besides 645 general quality filter",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "191To further determine the accuracy of different approaches in identifying HCoV-19 iSNVs, we 192 examined minor allele frequencies in serial dilutions of the cultured HCoV-19 isolate and 193",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ". Referring to the iSNV identified in clinical samples by meta sequencing, we then 202 calculated the false positive rate (FPR) and false negative rate (FNR) of minor alleles called 203 by amplicon and capture methods. The FPR and FNR of minor alleles identified in amplicon 204",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "220 further measurements could be taken to confirm if co-infection exists (Supplementary Fig. 221 4). Bacterial composition was also shown, providing support for scientific research, as well 222 as for further confirmation of bacterial infection and antibiotics prescription (Supplementary 223 Fig. 4d-f).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "293 cularization, and rolling circle replication (RCR) to generate DNA nanoballs (DNBs)-based 294 libraries. DNBs preps of clinical samples were sequenced on the ultra-high-throughput DNB-295 SEQ-T7 platform (MGI, Shenzhen, China) with paired-end 100 nt strategy, generating 321 296 Gb sequencing data for each sample on average. 297 Hybrid capture-based enrichment and sequencing 298 A hybrid capture technique was used to enrich HCoV-19-specific content from the meta-299 transcriptomic double-stranded DNA libraries with the 2019-nCoVirus DNA/RNA Capture 300 Panel (BOKE, Jiangsu, China). Manufacturer's instructions were slightly modified to ac-301 commodate the MGISEQ-2000 platform, i.e., blocker oligos and PCR primer oligos were 302 replaced by MGIEasy exon capture assistive kit (MGI, Shenzhen, China). DNBs-based li-303 braries were constructed and sequenced on the MGISEQ-2000 platform with paired-end 304",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "309Sequencing was attempted on all samples regardless of Ct value including negative controls 310 prepared from nuclease-free water and NA12878 human gDNA. A two-step HCoV-19 311 genome amplification was performed with an equimolar mixture of primers using ATOPlex312 SARS-CoV-2 Full Length Genome Panel following the manufacture's protocol (MGI, Shen-313 zhen, China), generating 137X ~400 bp amplicons or 299X ~200 bp amplicons and the ge-314 nome positions of the amplicons are shown in Supplementary Table 5. 20 \u00b5l of first-strand 315 unique dual indexed. After the 2nd PCR, products were purified following the 324 same procedures as the 1st PCR and quantified using the Qubit dsDNA High Sensitivity 325 assay on Qubit 3.0 (Life Technologies). PCR products of samples yielding sufficient material 326 (> 5 ng/\u00b5l) were pooled at equimolar to a total DNA amount of 300 ng before converting to 327 single-stranded circular DNA. DNBs-based libraries were generated from 20 \u03bcl of single-328 stranded circular DNA pools and sequenced on the MGISEQ-2000 platform with single-end 329 400 nt strategy, generating 1.8 Gb sequencing data for each sample on average.330",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "For amplicon sequencing data, SE 400 reads were first processed with fastp v0.19.5 27 (pa-342 rameters: -q 20 -u 20 -n 1 -l 50) to remove low quality-reads and adaptor sequences. Primer343 sequences and the 21 nt upstream and downstream of primers within the reads were then 344 trimmed with BAMClipper v1.1.1 30 (Parameters: -n 4 -u 21 -d 21). Reads with low quality 345 bases, adaptors, primers and adjacent sequences completely removed as described above 346 were considered as clean reads for downstream analyses. reduce the complexity of the assembling process, identified HCoV-19-like 351 reads of metatranscriptomic and hybrid capture sequencing data were subsampled to the 352 data amount greater than 100X sequencing depth for the HCoV-19 genome. For the two 353 metatranscriptomic samples with a sequencing depth lower than 100X for the HCoV-19 354 genome (GZMU0014 and GZMU0030), all HCoV-19-like reads were used for assembling 355 viral genomes. 356 Due to the uneven read coverage in amplicon sequencing of HCoV-19, virus consensus 357 sequences of amplicon samples were generated by Pilon v1.23 32 (parameters: --changes -358 vcf --changes --vcf --mindepth 1 --fix all, amb). Positions with depth less than 100X or lower 359 five times than negative control samples were masked as ambiguous base N. 360 Assessment the coverage depth across the viral genome 361 HCoV-19-like reads of metatranscriptomic and hybrid capture sequencing data were aligned 362 to the HCoV-19 reference genome (GISAID accession: EPI_ISL_402119) with BWA aln 363 .10.10)( http://broadinstitute.github.io/picard) with default settings. For each sample, we 365 calculated the depth of coverage at each nucleotide position of the HCoV-19 reference 366 genome with Samtools (v1.9) 34 and scaled the values to the mean depth. For each 367 nucleotide position, we calculated the median depth, and 20th and 80th percentiles across 368 all samples. Read coverage and depth across the HCoV-19 reference genome were plotted 369 by a 200-nt sliding window with the ggplot2 35 package in R (v3.6.1) 36 . 370",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": ". The effective genome 388 coverage was set as 95% for all three MPS methods. Considering the distinct 389 technologies used in different methods, we set method-dependent thresholds of effective 390 depth as follows: 1) \u2265 10X for metatranscriptomic sequencing; 2) \u2265 20X for hybrid capture 391 sequencing; and 3) \u2265 100X for amplicon sequencing. We next calculated the coverage and 392 depth within each subsampled BAM file per sample to determine the minimal BAM file that 393 could meet the above thresholds of both coverage and sequencing depth. The method-394 dependent minimum amount of sequencing data of each sample were estimated accord-395 ingly. We assessed the correlations between the HCoV-19 genome copies per mL in diluted 396 samples of cultured isolates and the minimum amount of sequencing data for amplicon-397 and capture-based methods using Pearson correlation coefficient (R) with the function 398 scatter from the R package ggpubr (v3.6.1)38  . 399Consistency in variants calling performance among methods 400Except for amplicon sequencing samples, variants calling in metatranscriptomic and hybrid 401capture sequencing samples was performed in the previous BAM files of identified HCoV-402 19 reads after removing duplications from alignment output by Picard Markduplicates 403 (http://broadinstitute.github.io/picard). To accurately identify SNVs from viral sequencing 404 data of all three methods, we first called SNVs with freebayes (v1.3.1) 39 (parameters: -p 1 -405 q 20 -m 60 --min-coverage 10 -V) and then filtered the low-confidence SNVs with snippy-406 vcf_filter 40 (parameters: --minqual 100 --mincov 10 --minfrac 0.8). Remaining SNVs post 407 number of matches, mismatches, deletions and insertions at each base, estimate 414 nucleotide percentage and determine allele frequencies of SNVs at reference genome po-415 sitions based on the HCoV-19 alignments from BAM files. 416",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "436 reference database MiniKraken2 (April 2019, 8GB) built from the Refseq bacteria, archaea, 437 quality control and preprocessing of high-throughput sequencing data. Gigascience 7, , R. & Edwards, R. Quality control and preprocessing of metagenomic datasets.549 Bioinformatics 27, 863-864, doi:10.1093/bioinformatics/btr026 (2011).550 30 Au, C. H., Ho, D. N., Kwong, A., Chan, T. L. & Ma, E. S. K. BAMClipper: removing primers 551 from alignments to minimize false-negative mutations in amplicon next-generation 552 sequencing. Sci Rep 7, 1567, doi:10.1038/s41598-017-01703-6 (2017). 553 31 Bankevich, A. et al. SPAdes: a new genome assembly algorithm and its applications to 554 single-cell sequencing. J Comput Biol 19, 455-477, doi:10.1089/cmb.2012.0021 (2012). 555 32 Walker, B. J. et al. Pilon: an integrated tool for comprehensive microbial variant detection 556 and genome assembly improvement. PLoS One 9, e112963, 557 doi:10.1371/journal.pone.0112963 (2014). 558 33 Li, H. & Durbin, R. Fast and accurate short read alignment with Burrows-Wheeler 559 transform. Bioinformatics 25, 1754-1760, doi:10.1093/bioinformatics/btp324 (2009).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "560 sequencing on the Illumina platform. Nucleic Acids Res 40, e3, doi:10.1093/nar/gkr771 586 (2012).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". Plotting 198 allele frequencies against HCoV-19 concentrations supported the above finding, and further 199 revealed that amplicon sequencing was unreliable of allele frequencies at all concentrations 200 while capture sequencing was reliable at > 1E+03 genome copies per mL (Supplementary 201",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

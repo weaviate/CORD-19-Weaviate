@@ -1,0 +1,599 @@
+{
+    "paper_id": "d1696944ff45daaa2f305405c54ba45b16f3c86c",
+    "metadata": {
+        "title": "Reinfection could not occur in SARS-CoV-2 infected rhesus macaques 2 3",
+        "authors": [
+            {
+                "first": "Bao",
+                "middle": [
+                    "\u2020"
+                ],
+                "last": "Linlin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Deng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hong",
+                "middle": [],
+                "last": "Gao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chong",
+                "middle": [],
+                "last": "Xiao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jiayi",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Capital Medical University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Jing",
+                "middle": [],
+                "last": "Xue",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Qi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lv",
+                "middle": [
+                    "\u2020"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jiangning",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Pin",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yanfeng",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Feifei",
+                "middle": [],
+                "last": "Qi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yajin",
+                "middle": [],
+                "last": "Qu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fengdi",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Zhiguang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Xiang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Haisheng",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shuran",
+                "middle": [],
+                "last": "Gong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mingya",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Guanpeng",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shunyi",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhiqi",
+                "middle": [],
+                "last": "Song",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wenjie",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yunlin",
+                "middle": [],
+                "last": "Han",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Linna",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xing",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Qiang",
+                "middle": [],
+                "last": "Wei",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Chuan",
+                "suffix": "",
+                "affiliation": {},
+                "email": "qinchuan@pumc.edu.cn."
+            },
+            {
+                "first": "Qin",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "testing positive after recovering. However, it remains unclear whether the convalescing 23 patients have a risk of \"relapse\" or \"reinfection\". The longitudinal tracking of re-24 exposure after the disappeared symptoms of the SARS-CoV-2-infected monkeys was 25 performed in this study. We found that weight loss in some monkeys, viral replication 26 mainly in nose, pharynx, lung and gut, as well as moderate interstitial pneumonia at 7 27 days post-infection (dpi) were clearly observed in rhesus monkeys after the primary 28 infection. After the symptoms were alleviated and the specific antibody tested positively, 29 the half of infected monkeys were rechallenged with the same dose of SARS-CoV-2 30 strain. Notably, neither viral loads in nasopharyngeal and anal swabs along timeline nor 31 viral replication in all primary tissue compartments at 5 days post-reinfection (dpr) was 32 found in re-exposed monkeys. Combined with the follow-up virologic, radiological and 33 pathological findings, the monkeys with re-exposure showed no recurrence of 19, similarly to the infected monkey without rechallenge. Taken together, our results were testing positive after their release from the hospital and had to return to the hospital 45 for observation 3, 4 . Doubts about whether patients have a risk of \"relapse\" or 46 \"reinfection\" after recovery from initial infection have aroused the worldwide concern. 47 Therefore, in this study, we used the nonhuman primate models with SARS-CoV-2 48 infection followed by the same virus rechallenge to ascertain the possibility of 49 reinfection.",
+            "cite_spans": [
+                {
+                    "start": 617,
+                    "end": 619,
+                    "text": "29",
+                    "ref_id": null
+                },
+                {
+                    "start": 1251,
+                    "end": 1253,
+                    "text": "3,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1254,
+                    "end": 1255,
+                    "text": "4",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Four adult Chinese rhesus macaques (No M1-M4, 3-5 kg, 3-5-year-old) were 51 intratracheally challenged with SARS-CoV-2 at 1\u00d710 6 50% tissue-culture infectious 52 doses (TCID50), and the body weight, body temperature, X-ray, sampling of sera, 53 nasal/throat/anal swabs and all primary tissues were carried out on schedule ( Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 324,
+                    "end": 332,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "50"
+        },
+        {
+            "text": "Following the initial infection, three of the four monkeys showed the weight loss 55 ranging from 200 g to 400 g ( Figure 2a ), but the changes of rectal temperature in all the 56 animals were not observed ( Figure 2b ). Other clinical signs such as reduced appetite, 57 increased respiration rate and hunched posture were transient after the initial challenge. 58 We next determined their viral loads in respiratory and anal swabs along the timeline 59 after the infection. As shown in Figure 2c and 2d, the viral loads in nasal swabs and 60 pharyngeal swabs reached the highest levels (average, approximately 6.5 log10 RNA 61 copies/mL) at 3 days post-infection (dpi) and then declined naturally. Similarly, viral 62 loads from anal swabs reached the peak about 4.5 log10 RNA copies/mL at 3 dpi and 63 then declined to undetectable level at 14 dpi ( Figure 2e ). To identify the virus 64 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 362,
+                    "end": 364,
+                    "text": "58",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 115,
+                    "end": 124,
+                    "text": "Figure 2a",
+                    "ref_id": null
+                },
+                {
+                    "start": 208,
+                    "end": 217,
+                    "text": "Figure 2b",
+                    "ref_id": null
+                },
+                {
+                    "start": 487,
+                    "end": 496,
+                    "text": "Figure 2c",
+                    "ref_id": null
+                },
+                {
+                    "start": 852,
+                    "end": 861,
+                    "text": "Figure 2e",
+                    "ref_id": null
+                }
+            ],
+            "section": "54"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990226 doi: bioRxiv preprint distribution and histopathological changes in SARS-CoV-2 infected monkeys, M1 65 monkey was euthanized and necropsied at 7 dpi. As shown in Figure 2f (left panel), 66 viral replication was found in nose (10 7 to 10 8 copies/mL), pharynx (10 5 to 10 6 67 copies/mL), lung (10 4 to 10 7 copies/mL), gut (10 4 to 10 6 copies/mL), spinal cord 68 (approximately 10 4 copies/mL), heart (approximately 10 4 copies/mL), skeletal muscle 69 (approximately 10 4 copies/mL) and bladder (approximately 10 4 copies/mL). The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990226 doi: bioRxiv preprint Subsequently, two infected monkeys (M3 and M4) were intratracheally re-90 challenged at 28 dpi with the same dose (1\u00d710 6 TCID50) of SARS-CoV-2 to ascertain 91 the possibility of reinfection, whereas M2 monkey without any re-treatment was 92 continuously monitored as the control (Figure 1) . None of the monkeys showed the Figure 3b , chest X-ray showed that there was no abnormal 102 in M4 monkey at 5 dpr, similarly prior to the re-exposure (28 dpi). Therefore, our results 103 suggested that the monkeys with SARS-CoV-2 infection after recovery could not be re-104 infected with the same strain. Longitudinally, the monkey undergone single infection 105 in this study did not appear the recurrence after the recovery either.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 282,
+                    "end": 291,
+                    "text": "Figure 2f",
+                    "ref_id": null
+                },
+                {
+                    "start": 1070,
+                    "end": 1080,
+                    "text": "(Figure 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1114,
+                    "end": 1123,
+                    "text": "Figure 3b",
+                    "ref_id": null
+                }
+            ],
+            "section": "54"
+        },
+        {
+            "text": "It has been reported that the high levels of neutralizing antibodies have a protective 107 effect on SARS-CoV infection, but the low neutralizing antibody are more susceptible 108 to enhance the SARS-CoV infection and trigger antibody-dependent enhancement 109 (ADE) effect 6 . As shown in Table 1 , the titers of 1:16 (M2, M4) and 1:8 (M3) exhibited 110 the neutralizing effect at 21 dpi and 28 dpi. After the re-exposure, the titers for M4 111 elevated 1:40 at 5 dpr and 14 dpr, while M3 maintained the same titer as 1:8 at 5 dpr.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 290,
+                    "end": 297,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "106"
+        },
+        {
+            "text": "In this study, ADE were not found in infected monkeys that were subsequently exposed 113 to SARS-CoV-2. Because the neutralization antibody from our animal test is 114 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "112"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990226 doi: bioRxiv preprint 6 comparable to that from recovered patients, this finding will have important 115 implications to evaluate vaccine development. that the re-positivity from discharged patients could not be due to reinfection. It needs 131 to consider more complicated issues to find out the causes. 132 133 author/funder. All rights reserved. No reuse allowed without permission. examination of Chest X-ray in M4 monkey. M4 monkey were tested by chest X-ray 202 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "112"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990226 doi: bioRxiv preprint 13 prior to the challenge, as well as 7 dpi, 28 dpi and 5 dpr. Front chest X-ray (upper panel), 203 Lateral chest X-ray (lower panel). 229 The nasal/throat/anal swab samples and mainly tissue compartments collected from 230 infected monkeys were tested for SARS-CoV-2 RNA by quantitative real-time reverse 231 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 238,
+                    "end": 241,
+                    "text": "203",
+                    "ref_id": null
+                },
+                {
+                    "start": 277,
+                    "end": 280,
+                    "text": "229",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "112"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990226 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quantification of SARS-CoV-2 RNA"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Diseases (2017ZX10304402) and National Key Research and Development Project of 282 China (Grant No",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Writing -288 Original Draft",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J.X.; Writing -Review and Editing: C.Q.; Funding Acquisition: C.Q. 289 and L.B",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "35 indicated that the primary SARS-CoV-2 infection could protect from subsequent 36 exposures, which have the reference of prognosis of the disease and vital implications 37 for vaccine design.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": ", the lesions occurred mainly in the lung confirmed by the HE staining and 71 anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial 72 pneumonia characterized by thickened alveolar septa, accumulation of alveolar 73 macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of 74 inflammatory cells (Figure 3a). In addition, the chest X-ray at 7 dpi showed that the 75 upper lobe of the right lung had varying degrees of the localized infiltration and 76 interstitial markings, showing the mild to bilateral ground-glass opacification 77 (Represented by M4, Figure 3b). For the longitudinal tracking of the characteristics 78 each monkey, the specific antibody against SARS-CoV-2 of M2, M3 and M4 monkey 79was significantly elevated at 14 dpi or 21 dpi and 28 dpi compared to that at 3 dpi and 80 7dpi (*P<0.05, **P<0.01,Figure 2g). In the three infected monkeys alive, body weight 81 and rectal temperature remained relatively stable before rechallenge(Figure 2a and 2b), 82 viral loads of nasopharyngeal and anal swabs were not detectable along the timeline 83 before 28 dpi(Figure 2c to 2e), and no common abnormalities were found on a chest 84 X-ray test at 28 dpi prior to the rechallenge (Represented by M4,Figure 3b). Altogether, 85 these data suggested that the three animals were considered as recovering from SARS-86 CoV-2 infection, similarly meeting the clinical discharge evaluation criteria (absence 87 of clinical symptoms and radiological abnormalities and 2 negative RT-PCR test 88 results 5 ).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "93weight loss after the re-exposure(Figure 2a), but the transient elevation of body 94 temperature was observed in both re-exposed monkeys(Figure 2b). Viral loads in95 nasopharyngeal and anal swabs tested negative after the re-exposure of SARS-CoV-2 96 along the timeline (Figure 2c to 2e). Correspondingly, M3 monkey was euthanized and 97 necropsied at 5 days post-reinfection (dpr) to confirm the viral replication and 98 histopathological changes caused by re-exposure. Compared to M1 monkey at 7 dpi, 99 no viral replication in all tissues (Figure 2f, right panel), as well as no pathological 100 damage and viral antigen in lung tissues (Figure 3a, lower panel), were found in M3 101 monkey at 5 dpr. As shown in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "our current longitudinal study of monkeys, the reinfection could not occur if 117 the monkeys produced the neutralizing antibody at an early stage after the primary 118 infection. Correspondingly, the convalescing patients won't be contagious when they 119 build up the enough specific antibody to develop immunity to SARS-CoV-2. On the 120 other hand, no viral replication in all primary tissues was detectable in re-exposed 121 monkeys, implying that the coronavirus might not be hidden for a long time. For the 122 phenomenon on the discharged patients tested positively, it may be attributed to the 123 \"false negative\" RT-PCR test results before their discharge or the patients without fully 124 recovery albeit they met the discharge criteria. Therefore, further refinement of the 125 diagnostic techniques, antibody monitoring and samples testing from the lower 126 respiratory tract is essential for the cure of SARS-CoV-2 infection. In this study, our 127 results indicated that the primary SARS-CoV-2 infection could protect from subsequent 128 exposures, which have the reference of prognosis of the disease and vital implications 129 for vaccine design. Importantly, the unsuccessful rechallenge in NHP models suggested 130",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Experimental design and sample collection. Four monkeys were initially 162 challenged with 1\u00d710 6 TCID50 SARS-CoV-2 with the intratracheal route. To investigate 163 the influence of reinfection, M3 and M4 after recovery were intratracheally 164 rechallenged with the same dose of SARS-CoV-2 at 28 days post-infection (dpi). Two 165 animals (M1 and M3) were sacrificed at 7 dpi and 5 days post-rechallenge (dpr), 166 respectively. M2 with single infection and M4 with primary infection followed by 167 secondary challenge were longitudinally monitored during the entire observation. Body 168 weight, body temperature and nasal/throat/anal swabs were measured along the 169 timeline at a short interval. Two measurements of virus distribution and histopathology 170 (HE/IHC stain) were carried out at 7d dpi (M1) and 5 dpr (M3). The specific antibodies 171 against SARS-CoV-2 were detected seven times and X-ray was examined three times. Longitudinally tracking in clinical signs, viral replication and immune 176 response. (a and b) Clinical signs in each monkey. Monkeys were recorded daily for 177 the changes in body weight and rectal temperature along the timeline after the initial by the virus rechallenge. Weights were expressed as percentage of 179 body weight prior to primary infection. (c, d and e) Detection of viral RNA in nasal 180 swabs, throat swabs and anal swabs. SARS-CoV-2 RNA was detected by qRT-PCR in 181 the swabs from four monkeys at the indicated time points. Two monkeys were 182 rechallenged at 28 dpi (the dotted line). (f) Detection of viral RNA in the mainly organs, 183 such as brain, eye, nose, pharynx, lung and gut. Compared to M1 with primary infection 184 at 7 dpi, viral replication tested negatively in the indicated tissues from M3 (at 5 dpr) 185 with the virus rechallenge. (g) Levels of specific IgG against spike protein in each 186 monkey. The levels of anti-viral antigen specific IgG from each monkey were detected 187 at 3, 7, 14, 21, 28 dpi. The level of specific IgG at 14 dpi, 21 dpi or 28 dpi was 188 significantly higher than that at 3 dpi or 7 dpi. The grey lines or bars represented the 189 average of all animals at the indicated time points. (One-way ANOVA, *P<0.Longitudinally tracking in histopathology and chest X-ray. (a) 195 Histopathology and immunohistochemical examination of lung in M1 monkey (7 dpi) 196 and M3 monkey (5 dpr). Histopathological examination exhibited that moderate 197 interstitial pneumonia with infiltration of lymphocytes (green arrow) and swollen 198 aveolar macrophages (red arrow) in the alveolar cavities at 7 dpi. The antigen of SARS-199 CoV-2 were detected with anti-Spike antibody using immunohistochemical 200 examination. Black scale bar=100 \u00b5m, red scale bar=50 \u00b5m (b) Longitudinal 201",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "old rhesus macaques, named as M1 to M4, were housed and cared in 209 an Association for the Assessment and Accreditation of Laboratory Animal Care 210 (AAALAC)-accredited facility. All animal procedures and experiments were carried 211 out in accordance with the protocols approved by the Institutional Animal Care and Use 212 Committee (IACUC) of the Institute of Laboratory Animal Science, Chinese Academy 213 of Medical Sciences (BLL20001). All animals were anesthetized with ketamine 214 hydrochloride (10 mg/kg) prior to sample collection, and the experiments were 215 performed in the animal biosafety level 3 (ABSL3) laboratory. infection, all animals were inoculated intratracheally with SARS-CoV-2 219 (SARS-CoV-2/WH-09/human/2020/CHN isolated in our laboratory) stock virus at a 220 dosage of 10 6 TCID50/1 mL inoculum volume. After the recovery, M3 M4 were 221 rechallenged intratracheally with the same dose (10 6 TCID50/1 mL inoculum volume) 222 SARS-CoV-2 at 28 dpi. To confirm the virus distribution and pathological changes, M1 223 at 7 dpi and M3 at 33 dpi (5 dpr) were euthanasia and autopsied respectively. All 224 animals were monitored along the timeline to record body weights, body temperature, 225 clinical signs, nasal/throat/anal swab, X-ray and specific antibody. The animal 226 experiment and longitudinal sampling schedule are shown in Figure 1.227 228",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "The Corona Virus Disease 2019 caused by severe acute respiratory syndrome CoV-2 (SARS-CoV-2), emerged in Wuhan China, has continued to sweep through South Korea, Japan, Italy and Iran. More than 90,000 people have been infected worldwide, with nearly 3000 deaths in about 40 countries 1,2 . Since February, it was estimated that about 14% of discharged patients in Guangdong province and elsewhere",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Zhu N, Zhang D, Wang W, et al. A Novel Coronavirus from Patients with Pneumonia in China, 2019. N Engl J Med 2020:10.1056/NEJMoa2001017. Ye G, et al. Positive RT-PCR Test Results in Patients Recovered From COVID-19. Table 1 Neutralizing antibody titers to protect of SARS-CoV-2-infected Monkeys from Notes: a M1 was euthanized and necropsied at 7 dpi. NE, not examined. b M2 was continuously monitored without rechallenge. NE, not examined. c M3 was euthanized and necropsied at 5 dpr. NE, not examined.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "transcription-PCR (qRT-PCR). Total RNA was extracted and reverse transcription was 232 performed as previously described 7 . qRT-PCR reactions were carried out on an ABI 233 9700 Real-time PCR system (Applied Biosystems Instrument), the cycling protocol and 234 the primers as follows: 50\u00b0C for 2 min, 95\u00b0C for 2 min, followed by 40 cycles at 95\u00b0C 235 for 15 s and 60\u00b0C for 30 s, and then 95\u00b0C for 15 s, 60\u00b0C for 1 min, 95\u00b0C for 45 s. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990226 doi: bioRxiv preprint 16 antigen retrieval kit (Boster, AR0022) for 1 min at 37\u2103 and quenched for endogenous 257 peroxidases in 3% H2O2 in methanol for 10 min. After blocking in 1% normal goat 258 serum for 1 hour at roomtemperature, the slices were stained with 7D2 monoclonal 259 antibody (laboratory preparation 7 ) at 4\u2103 overnight, following with the incubation of The copyright holder for this preprint (which was not peer-reviewed) is the . https: //doi.org/10.1101 //doi.org/10. /2020 ",
+            "cite_spans": [
+                {
+                    "start": 1009,
+                    "end": 1026,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 1027,
+                    "end": 1046,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "The authors have no competing interests to declare. 293 294 295 author/funder. All rights reserved. No reuse allowed without permission.The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990226 doi: bioRxiv preprint author/funder. All rights reserved. No reuse allowed without permission.The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990226 doi: bioRxiv preprint a M1 (7 dpi) M3 (5 dpr) b M4 0 7 dpi 28 dpi 33 dpi (5 dpr) 100 X 400 X 400X author/funder. All rights reserved. No reuse allowed without permission.The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990226 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "292"
+        }
+    ]
+}

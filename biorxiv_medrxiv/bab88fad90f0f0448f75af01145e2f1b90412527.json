@@ -1,0 +1,1089 @@
+{
+    "paper_id": "bab88fad90f0f0448f75af01145e2f1b90412527",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Since late December 2019, the outbreak of the 2019 novel coronavirus disease in Wuhan, China, has been endemic in China and more than 100 countries and regions in the world. 1-7 By March 1, 2020, China had reported a total of 80,026 confirmed cases of novel coronavirus disease, with 2,912 deaths. In Hubei province which is still the core area of the COVID-19 epidemic in China there were 67,103 cases, accounting for 83.9% of total Chinese cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The number of confirmed cases in South Korea, Iran, Italy, France, Japan and other countries continues to rise.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Some studies have suggest that cancer patients are more susceptible to infection with SARS-CoV-2 than healthy people and have a worse prognosis because their immune systems are suppressed by the effects of the tumors and anti-cancer treatment 8 . But this view is controversial 9, 10 .",
+            "cite_spans": [
+                {
+                    "start": 243,
+                    "end": 244,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 278,
+                    "end": 280,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 281,
+                    "end": 283,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Chronic myelogenous leukemia (CML) is a neoplastic disease of hematopoietic stem cells that has an annual incidence of 0.4-1.75/100,000 [11] [12] [13] [14] [15] and accounts for 15% of adult leukemia. Since imatinib and subsequent generations of newer tyrosine kinase inhibitors ( 18 . Laboratory confirmation of SARS-CoV-2 infection was performed by the local health authority. Identification . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 140,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 141,
+                    "end": 145,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 146,
+                    "end": 150,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 279,
+                    "end": 280,
+                    "text": "(",
+                    "ref_id": null
+                },
+                {
+                    "start": 281,
+                    "end": 283,
+                    "text": "18",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 12.20034876 doi: medRxiv preprint of COVID-19 patients was achieved by reviewing and analysing admission logs and histories from all available electronic medical records and patient care resources. Efficacy of CML was assessed according to the 2020 ELN guidelines 19 . The investigation was approved by the ethics committee of Union hospital, Tongji Medical college, Huazhong University of science and Technology.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 115,
+                    "text": "12.20034876",
+                    "ref_id": null
+                },
+                {
+                    "start": 368,
+                    "end": 370,
+                    "text": "19",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "From February 15, 2020 to February 21, 2020, the clinical data of CML patients with COVID-19 in each center were collected. Simultaneously, an online survey was conducted for information about the CML patients under the management at each center by asking the CML patients to complete a questionnaire. A total of 413 questionnaires were collected, of which 392 were valid, but 21 of these were excluded because the respondents did not live in Hubei province during the outbreak. The questionnaire asked about general demographic characteristics, place of residence, smoking status, CML diagnosis and treatment, comorbidities, combined medications, epidemiological history, and symptoms of fever, cough, shortness of breath, etc. during the epidemic. Additional clinical data was collected on respondents suspected or confirmed to have COVID-19. Any missing or uncertain records were collected and clarified through direct communication with involved health-care providers and their families.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "The primary outcome was prevalence of COVID-19 in CML patients, as of Feb 21, 2020. Secondary outcomes included the history of epidemiology of CML patients, the clinical characteristics and outcomes of CML patients with COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcomes"
+        },
+        {
+            "text": "The aim of this study is to report prevalence of COVID-19 in CML patients. COVID-19 infection in CML patients with different efficacy was compared. We also report the clinical courses and clinical outcomes of the COVID-19 patients. There were, therefore, no formal hypotheses being implemented to drive the sample size calculation and we included the maximum number of patients who met the inclusion criteria.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "A total of 413 questionnaires were collected, of which 392 were valid. Among them, 21 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "While the 392 CML respondents required regular referrals to hospitals, they did not have much contact with COVID-19 patients during the outbreak, mainly due to the government policy of prevention and control. The survey found that 12 respondents had fever, cough or shortness of breath during the epidemic period, and 9 of them did not go to the hospital because their symptoms were mild or remitted with oral medication. Three people went to the hospital for treatment. After chest CT scan and SARS-CoV-2 quantitative RT-PCR testing, one of these three patients was confirmed to have of COVID-19 infection and was treated and cured. COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "infection was excluded in a second patient. The third patient was clinically diagnosed based on the 5th version of the novel coronavirus infection pneumonia diagnosis and treatment (National Health Commission of the People's Republic of China) that was used at the time. This patient, who was clinically diagnosed and treated as a confirmed case, was an 89-year-old female with coronary heart disease and long-term ACEI treatment. She had been treated with imatinib, but . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034876 doi: medRxiv preprint the response was evaluated as failure. After initially having a cough, the patient quickly developed dyspnea that was not relieved with oxygen therapy at home. She was admitted to the emergency department where she was found to have extreme lymphocytopenia, respiratory failure, renal insufficiency, and myocardial damage. Her condition rapidly deteriorated and she succumbed after three days of hospitalization. This is consistent with previous reports that elderly patients with comorbidities have a poor prognosis and high mortality [20] [21] [22] , and the degree of lymphopenia is related to the severity of the disease.",
+            "cite_spans": [
+                {
+                    "start": 643,
+                    "end": 647,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 648,
+                    "end": 652,
+                    "text": "[21]",
+                    "ref_id": null
+                },
+                {
+                    "start": 653,
+                    "end": 657,
+                    "text": "[22]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Another CML patient with a confirmed COVID-19 infection was a 47-year-old male who had failed CML treatment, had the T315I mutation and was participating in an ongoing clinical trial of an alternative CML treatment (HQP1351). Although he obtained an optimal MMR response, he was not taking TKIs during the outbreak due to side effects. He presented with cough and fever and was found to be infected with SARS-CoV-2, but a chest CT scan did not show pneumonia and he was cured and discharged after treatment. The specific data of the clinical diagnosis and confirmed patients are shown in table 4.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "We then analyzed SARS-CoV-2 infections in patients based on their response to anti-CML therapy (see Table 5 In summary, through the Hubei Anti-Cancer Association Chronic Myeloid Leukemia Standardized Management Collaboration Group, we conducted online consultations, online smart hospitals and online courses to provide information, diagnosis and treatment to patients during the epidemic, and organized volunteers to deliver drugs to CML patients at their homes.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 100,
+                    "end": 107,
+                    "text": "Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The sample size of the study was relatively small and should be expanded to more accurately compare the prevalence of the infection in the different groups. Nevertheless, our findings suggest that standardized management to obtain the best clinical response reduces the risk of SARS-CoV-2 infection and improves the prognosis of those who are infected. CML is a chronic hematologic tumor, and comprehensive measures should be taken to delay and reduce the risk of infection by restricting patient exposure to situations with possible transmission. During the epidemic, special attention should be focused on those CML patients who are older, have co-morbidities and whose response to CML treatment is non-optimal.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Optimal response(299 persons) Warnings or failure(50 persons)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Forgotten to take medicine in the past 2 weeks 63 6",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Contact with infected person 4 0",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Have Comorbidities 82 13",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Diagnosed COVID-19 1 1 Table 5 ( Data were compared between the CML patients with optimal response and those with non-optimal response)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 23,
+                    "end": 30,
+                    "text": "Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "2019-nCoV acute respiratory disease",
+            "authors": [],
+            "year": null,
+            "venue": "Australia: Epidemiology Report",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The first 2019 novel coronavirus case in Nepal",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bastola",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sah",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rodriguez-Morales",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Importation and Human-to-Human Transmission of a Novel Coronavirus in Vietnam",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lt Phan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Luong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "The New England journal",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Epidemiologic characteristics of early cases with 2019 novel coronavirus (2019-nCoV) disease in Republic of Korea",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ki",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tff -Ncov",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Epidemiology and health",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "First Case of 2019 Novel Coronavirus in the United States",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ml Holshue",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Debolt",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lindquist",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "The New England journal",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "First imported case of 2019 novel coronavirus in Canada, presenting as mild pneumonia",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wk Silverstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Stroud",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ge Cleghorn",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Leis",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Cancer patients in SARS-CoV-2 infection: a nationwide analysis in China. The Lancet Oncology",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Risk of COVID-19 for patients with cancer. The Lancet Oncology",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Risk of COVID-19 for cancer patients. The Lancet Oncology",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Trends in chronic myeloid leukemia incidence and survival in the United States from",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kantarjian",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cortes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "Leukemia & lymphoma",
+            "volume": "54",
+            "issn": "7",
+            "pages": "1411--1418",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The Scotland Leukaemia Registry audit of incidence, diagnosis and clinical management of new patients with chronic myeloid leukaemia in 1999 and",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sj Harrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Holyoake",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Scottish medical journal",
+            "volume": "49",
+            "issn": "3",
+            "pages": "87--90",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Estimation of CML incidence: disagreement between national cancer registry and health claims data system in Taiwan",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cs Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hsu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Leukemia research",
+            "volume": "35",
+            "issn": "5",
+            "pages": "53--57",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Tyrosine kinase inhibitor usage, treatment outcome, and prognostic scores in CML: report from the population-based Swedish CML registry",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "H\u00f6glund",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sandin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hellstr\u00f6m",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Blood",
+            "volume": "122",
+            "issn": "7",
+            "pages": "1284--92",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Epidemiology of chronic myeloid leukaemia: an update",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "H\u00f6glund",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sandin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Simonsson",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Annals of hematology",
+            "volume": "2015",
+            "issn": "",
+            "pages": "241--248",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The rising prevalence of chronic myeloid leukemia in France",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Delord",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Foulon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cayuela",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rousselot",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bonastre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Leukemia research",
+            "volume": "69",
+            "issn": "",
+            "pages": "94--103",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Clinical management of severe acute respiratory infection when novel coronavirus (nCoV) infection is suspected",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "of severe-acute-respiratory-inf ection-when-novel-coronavirus-(ncov)-infection-is-suspected",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "National Health Commission of the People's Republic of China. The 5th version of the novel coronavirus infection pneumonia diagnosis and treatment",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "European LeukemiaNet 2020 recommendations for treating chronic myeloid leukemia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hochhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Baccarani",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Silver",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Leukemia",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) in China",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Tyrosine kinase inhibitor imatinib augments tumor immunity by depleting effector regulatory T cells",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Nishikawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Noguchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Journal of experimental medicine",
+            "volume": "217",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Role of cancer immunology in chronic myelogenous leukemia",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ureshino",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Shindo",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kimura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Leukemia research",
+            "volume": "88",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Immunomodulatory Activity of Tyrosine Kinase Inhibitors to Elicit Cytotoxicity Against Cancer and Viral Infection",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Climent",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Plana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Frontiers in pharmacology",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Abelson Kinase Inhibitors Are Potent Inhibitors of Severe Acute Respiratory Syndrome Coronavirus and Middle East Respiratory Syndrome Coronavirus Fusion",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cm Coleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sisk",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mingo",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mb Frieman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of virology",
+            "volume": "90",
+            "issn": "",
+            "pages": "8924--8957",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Repurposing of clinically developed drugs for treatment of Middle East respiratory syndrome coronavirus infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dyall",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Coleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Antimicrobial agents and chemotherapy",
+            "volume": "58",
+            "issn": "8",
+            "pages": "4885--93",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Coronavirus S protein-induced fusion is blocked prior to hemifusion by Abl kinase inhibitors",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sisk",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mb Frieman",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Machamer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "The Journal of general virology",
+            "volume": "99",
+            "issn": "5",
+            "pages": "619--649",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The Rate of Underascertainment of Novel Coronavirus (2019-nCoV) Infection: Estimation Using Japanese Passengers Data on Evacuation Flights",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of clinical medicine",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "TKIs) have been used with CML, the prognosis of CML patients has improved significantly. In fact, CML patients are currently approaching normal life expectancy. However, as the survival rates of CML patients improves, the prevalence of CML is increasing. The prevalence of CML in France is estimated to epidemic, and what their prognosis has been. Standardized management of this large number of patients has become a new challenge for our hematologists. In order to optimize the care of CML patients as the pandemic spreads, it is therefore essential to understand the characteristics of SARS-CoV-2 infections in CML patients and the experience of their management in Hubei province. When the outbreak started, the 29 centers of the Hubei Anti-Cancer Association Chronic Myeloid Leukemia Standardized Management Collaboration Group adopted comprehensive management measures for CML patients. Various kinds of online consultation, online smart hospitals and online courses were made available to provide patients with information while they remained at home. Individualized treatment schemes were proposed according to the clinical situation of each patient. It was recommended that all patients, especially those with stable conditions, refrain from leaving their homes, and even avoid going to hospitals. Volunteers were organized to",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ". https://doi.org/10.1101/2020.03.12.20034876 doi: medRxiv preprint questionnaires were excluded because the respondents did not live in Hubei province during the outbreak. The following is the general situation of the respondents. There were 223 males, accounting for 56.9%, and 61.2% of the respondents were 50 years or younger. The age distribution chart is shown in Table 1. The other details are shown in Table 2. The epidemiological history is shown inTable 3. Specific data of clinical diagnosis and confirmed patients are shown inTable 1(the age distribution chart)is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "general demographic characteristics)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "clinical data of the cases)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "treatment or had a poor response, 1 patient (2%) had a clinical diagnosis of COVID-19. Thus patients who failed to achieved an optimal response to CML therapy appear more likely to have a symptomatic infection with SARS-CoV-2. This tendency requires further study, but there are two possibilities that might explain it. First, an optimal response to TKI treatment may beassociated with immune recovery. CML patients exhibit selective depletion of effector T reg cells (eT reg cells) 23,24 , while TKIs increase the number of natural killer cells (NK), NK-LGL and T-LGLs cells 25 , which play a role in regulating immunity. Second, previous studies have reported that imatinib and other TKI drugs have antiviral activity in vitro against Middle East respiratory syndrome coronavirus (MERS-COV) and severe acute respiratory syndrome coronavirus (SARS-COV) 26-28 . It will be interesting to see if TKIs also have activity against anti-SARS-CoV-2.We analyzed the 82 respondents living in Wuhan and found that there was 1 clinicallydiagnosed case (1.2%). Of the Japanese citizens evacuated from Wuhan, 8/565 (1.4%) had a confirmed infection with COVID-19 29 . Among 310 CML living patients in Hubei province outside of Wuhan, 1 case of infection (0.32%) was diagnosed.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,1711 @@
+{
+    "paper_id": "179df1e769292dd113cef1b54b0b43213e6b5c97",
+    "metadata": {
+        "title": "Title Systematic review and meta-analysis of predictive symptoms and comorbidities for severe COVID-19 infection",
+        "authors": [
+            {
+                "first": "V",
+                "middle": [],
+                "last": "Jain",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University College London (UCL)",
+                    "location": {
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "J-M",
+                "middle": [],
+                "last": "Yuan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London Borough of Hackney",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Affiliations",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "COVID-19, a novel coronavirus outbreak starting in China, is now a rapidly developing public health emergency of international concern. The clinical spectrum of COVID-19 disease is varied, and identifying factors associated with severe disease has been described as an urgent research priority. It has been noted that elderly patients with pre-existing comorbidities are more vulnerable to more severe disease. However, the specific symptoms and comorbidities that most strongly predict disease severity are unclear. We performed a systematic review and meta-analysis to identify the symptoms and comorbidities predictive of COVID-19 severity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "This study was prospectively registered on PROSPERO. A literature search was performed in three databases (MEDLINE, EMBASE and Global Health) for studies indexed up to 5 th March 2020. Two reviewers independently screened the literature and both also completed data extraction. Quality appraisal of studies was performed using the STROBE checklist. Random effects meta-analysis was performed for selected symptoms and comorbidities to identify those most associated with severe COVID-19 infection or ICU admission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Of the 2259 studies identified, 42 were selected after title and abstract analysis, and 7 studies (including 1813 COVID-19 patients) were chosen for inclusion. The ICU group were older (62.4 years) compared to the non-ICU group (46 years), with a significantly higher proportion of males (67.2% vs. 57.1%, p=0.04).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Dyspnoea was the only significant symptom predictive for both severe disease (pOR 3.70, 95% CI 1.83 -7.46) and ICU admission (pOR 6.55, 95% CI 4.28-10.0). Notwithstanding the low prevalence of COPD in severe disease and ICUadmitted groups (4.5% and 9.7%, respectively), COPD was the most strongly predictive comorbidity for both severe disease (pOR 6.42, 95% CI 2. 44 -16.9) and ICU admission (pOR 17.8, 95% CI 6.56 -48.2). Cardiovascular disease and All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10. 1101 3 hypertension were also strongly predictive for both severe disease and ICU admission. Those with CVD and hypertension were 4.4 (95% CI 2.64 -7.47) and 3.7 (95% CI 2.22 -5.99) times more likely to have an ICU admission respectively, compared to patients without the comorbidity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Dyspnoea was the only symptom strongly predictive for both severe disease and ICU admission, and could be useful in guiding clinical management decisions early in the course of illness. When looking at ICU-admitted patients, who represent the more severe end of the spectrum of clinical severity, COPD patients are particularly vulnerable, and those with cardiovascular disease and hypertension are also at a high-risk of severe illness. To aid clinical assessment, risk stratification, efficient resource allocation, and targeted public health interventions, future research must aim to further define those at high-risk of severe illness with COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The ongoing novel coronavirus outbreak is a public health emergency of international concern (PHEIC), involving a novel type of coronavirus originally identified in Wuhan, China. At the time of writing, there have been 105,586 confirmed cases around the world with 3,584 deaths (1) .",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 281,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Defining the spectrum of clinical manifestations and the risk factors for severe COVID-19 infections has been identified as an urgent research priority (2, 3) .",
+            "cite_spans": [
+                {
+                    "start": 152,
+                    "end": 155,
+                    "text": "(2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 156,
+                    "end": 158,
+                    "text": "3)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "As the virus spreads globally it is likely that government strategies will shift from containment and delay towards mitigation (4) . This will involve rapidly scaling up healthcare resources including staff, equipment, facilities, and training, to effectively identify and treat patients. To maximise the use of these limited resources it will be imperative that clinicians are able to triage COVID-19 patients likely to recover after a mild illness from those who are not. In order to do this, a better understanding of the symptoms and comorbidities (which are the first and most routinely collected components of patient data) related to COVID-19 severity is required. This can improve patient outcomes through three chief mechanisms: early clinical intervention in high-risk patients, designing appropriate clinical pathways and risk prediction tools, and the efficient allocation of scarce resources and expensive treatments. Further still, the early identification of individuals more likely to deteriorate can help direct appropriate public health actions to protect the vulnerable and prevent further spread of infection.",
+            "cite_spans": [
+                {
+                    "start": 127,
+                    "end": 130,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A recent meta-analysis of symptoms in 50,466 COVID-19 patients from 10 studies found that fever and cough were the most common symptoms, with 89.1% and 72.2% experiencing these, respectively (5) . It also found that the case fatality rate (CFR) was 4.3%, but the association between individual patient factors and severe infection was not investigated. Most reported cases have occurred in adults (median age 59 years) (6) . According to most recent US Centers for Disease Control and Prevention (CDC) guidance, risk factors for severe illness are not yet clear, although older patients and those with chronic medical conditions may be at higher risk. (7) The primary aim of this study is therefore to conduct a systematic review and meta-analysis, aggregating all currently available data from published studies, of symptoms and comorbidities predictive for severe illness with COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 194,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 419,
+                    "end": 422,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 652,
+                    "end": 655,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This study was prospectively registered on PROSPERO. Identification of relevant or 'characteristic*' or 'co-morbidit*' or 'comorbidit*' or 'condition*'. Two reviewers (VG, JMY) independently screened the list of titles and abstracts, and the full text of chosen manuscripts. Disagreements on which manuscripts to include during both title and abstract screen, and the subsequent full-text analysis, were discussed until a conclusion was reached. In addition to the MEDLINE/EMBASE/Global Health search, citation tracking was used to identify any remaining relevant published studies, though none were identified.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Retrieval of studies"
+        },
+        {
+            "text": "Unpublished studies were not retrieved due to uncertain data quality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Retrieval of studies"
+        },
+        {
+            "text": "All studies evaluating individual symptoms and comorbidities in predicting severe infection (as measured by disease severity criteria, or ICU admission) were included. All studies of any design, from any time since the outbreak started (in December 2019) were eligible, except case reports of individual patients or literature reviews. To avoid selection bias, no subjective quality criteria were applied to the studies for inclusion. Exclusion criteria included: [1] studies of exclusively paediatric or pregnant patients, due to the varying presentation of COVID-19 in these groups, [2] insufficient data on symptoms/comorbidities on admission in either severe or non-severe disease groups (or ICU and non-ICU 6 groups), [3] coronavirus strains other than COVID-19 and [4] studies not written in English, because of practical limitations with translation.",
+            "cite_spans": [
+                {
+                    "start": 464,
+                    "end": 467,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 585,
+                    "end": 588,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 723,
+                    "end": 726,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 771,
+                    "end": 774,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Inclusion and exclusion criteria"
+        },
+        {
+            "text": "Two reviewers independently extracted data from the included studies for both narrative synthesis and statistical analysis. From each study, various details including the study population, investigated predictive symptoms or comorbidities, and the definitions used to measure outcomes, were extracted into Microsoft excel. These details are presented by study in Table 1 . The number of patients in each study, both with and without each symptom or comorbidity, was extracted for statistical analysis (described below).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 363,
+                    "end": 370,
+                    "text": "Table 1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Data Extraction"
+        },
+        {
+            "text": "The symptoms or comorbidities presented were investigated in at least three included studies. Where studies measured symptoms ambiguously (including abdominal pain/diarrhea (8) , myalgia/fatigue (9) , and nausea/vomiting (10)), this data was excluded. Some studies reported heart disease and stroke separately (10) (11) (12) . To allow comparability between studies for meta-analysis, these were grouped into a single predictor (cardiovascular disease). One study was excluded from the analysis of dyspnoea as a predictor of severity, as dyspnoea was part of the definition for severity used by the authors (13) .",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 176,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 195,
+                    "end": 198,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 310,
+                    "end": 314,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 315,
+                    "end": 319,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 320,
+                    "end": 324,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 607,
+                    "end": 611,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Predictors and Outcomes"
+        },
+        {
+            "text": "For disease severity, the included studies varied in their differentiation of patients' disease status, with classifications of 'mild, moderate, severe and critical' (14) , 'ordinary and severe/critical' (8), 'common and severe' (13) , and 'non-severe and severe', disease (10, 12) . The first outcome measure used was severe (including both severe and critical cases) vs. non-severe disease. For ICU admission, the included studies varied in their definition of ICU admission, with classifications of 'ICU, mechanical ventilation or death and non-ICU' (10) , and 'ICU and non-ICU' (9, 11) . The second outcome measure used was ICU admission All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 170,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 273,
+                    "end": 277,
+                    "text": "(10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 278,
+                    "end": 281,
+                    "text": "12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 553,
+                    "end": 557,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 582,
+                    "end": 585,
+                    "text": "(9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 586,
+                    "end": 589,
+                    "text": "11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Predictors and Outcomes"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint (including ICU, mechanical ventilation or death, where data was grouped together) vs. non-ICU admission.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20035360",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Predictors and Outcomes"
+        },
+        {
+            "text": "Patient numbers were aggregated across all included studies for each group included in the meta-analysis. Gender was compared between groups using the Chi2 test in STATA (15). This was not possible for age due to a lack of individuallevel data. The predictive value of symptoms and comorbidities for each of severe disease and ICU admission was estimated with random effects meta-analysis in STATA. Random effects models were used to account for between study heterogeneity (16) , which was estimated with Tau-squared. This provided a pooled odds ratio (pOR), 95% confidence intervals, and a p-value, for each symptom or comorbidity. A p-value of <0.05 was used as a marker for evidence of significant association. Detailed forest plots of the predictive symptoms and comorbidities common to both disease severity and ICU admission are illustrated in the supplementary information file",
+            "cite_spans": [
+                {
+                    "start": 474,
+                    "end": 478,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "The PRISMA flow diagram ( Figure 1 ) illustrates the process for selection of papers in this study.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 26,
+                    "end": 34,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The initial search on MEDLINE, EMBASE and Global Health produced 2259 results. After removing duplicates and applying exclusion criteria, there were 42 papers meeting our criteria from title and abstract analysis. On further review, the majority of these studies did not compare proportions of patients with symptoms or comorbidities between severe (or ICU admitted) and non-severe disease (or non-ICU admitted) groups. The reasons for all study exclusions are outlined in Figure 1 . A total of seven studies were selected for inclusion. All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 473,
+                    "end": 481,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Literature search"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint Table 1 shows details of all included studies including reported findings pertaining to symptoms and comorbidities related to disease severity or ICU admission. These 7 studies reported on a total of 1813 patients. All included studies were retrospective cohort studies in design, conducted between December 2019 and February 2020 in China, during the novel coronavirus (SARS-2-CoV) outbreak. Guan et al (10) conducted the largest study with 1099 COVID-19 patients, whilst Huang et al (9) included 40 patients in their study. The number of symptoms investigated varied from 5 in one study (13) to 14 in others (10, 11) . The range of comorbidities investigated varied greatly with two studies not including any (13, 14) and one including 22 comorbidities (12) . ",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20035360",
+                    "ref_id": null
+                },
+                {
+                    "start": 545,
+                    "end": 549,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 626,
+                    "end": 629,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 730,
+                    "end": 734,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 751,
+                    "end": 755,
+                    "text": "(10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 756,
+                    "end": 759,
+                    "text": "11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 852,
+                    "end": 856,
+                    "text": "(13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 857,
+                    "end": 860,
+                    "text": "14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 896,
+                    "end": 900,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 141,
+                    "end": 148,
+                    "text": "Table 1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Literature search"
+        },
+        {
+            "text": "All 7 included studies were retrospective cohort studies, and were critically appraised using the STROBE checklist (17) . The 22 items on the STROBE checklist were formulated into 47 individual indicators, against which each study was marked. Figure 2 illustrates the proportion of included studies which met each individual appraisal indicator. Each paper was assigned an overall quality score based on the percentage of STROBE checklist criteria met (<55% = -, 55-65% = +, >65% = ++), as outlined in Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 119,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 243,
+                    "end": 251,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 502,
+                    "end": 509,
+                    "text": "Table 1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Quality of Included Studies"
+        },
+        {
+            "text": "Appraising with the STROBE checklist highlighted several major weaknesses in the included studies. Firstly, there was no consistent definition on what constituted severe disease. The WHO-China Joint Mission on COVID-19 (18) defined a severe case as tachypnoea (\u226530 breaths/min) or oxygen saturation \u226493% at rest, or PaO2/FiO2<300mmHg. Critical cases were defined as All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 219,
+                    "end": 223,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Quality of Included Studies"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint respiratory failure requiring mechanical ventilation, shock, or other organ failure that requires intensive care. Although the above criteria were used in some included studies, many defined only one out of severe and critical, with one (8) using a definition for a single severe/critical cohort. One study reported both severity and critical cases (10), using criteria set by the American Thoracic Society to judge severity. Secondly, the time at which severity of disease was determined was not always clear. Severity was assessed on admission in two studies (10, 12) , whilst three studies did not specify when severity was assessed (8, 13, 14) . It is possible, therefore, that the non-severe group included patients who went on to later develop severe disease. Thirdly, the time point at which symptoms were measured varied from illness onset (via recall) (9, (11) (12) (13) to clinical presentation (10, 14) . In the study by Li et al, it was not clear when symptoms were measured (8) . Finally, no study specified how each individual symptom or comorbidity was measured. For instance, it was unclear whether fever was objectively measured, and if so, how or by whom. Studies may therefore have been susceptible to measurement and reporting bias.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20035360",
+                    "ref_id": null
+                },
+                {
+                    "start": 702,
+                    "end": 706,
+                    "text": "(10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 707,
+                    "end": 710,
+                    "text": "12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 777,
+                    "end": 780,
+                    "text": "(8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 781,
+                    "end": 784,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 785,
+                    "end": 788,
+                    "text": "14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1002,
+                    "end": 1005,
+                    "text": "(9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1006,
+                    "end": 1010,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1011,
+                    "end": 1015,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1016,
+                    "end": 1020,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1046,
+                    "end": 1050,
+                    "text": "(10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1051,
+                    "end": 1054,
+                    "text": "14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1128,
+                    "end": 1131,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Quality of Included Studies"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quality of Included Studies"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quality of Included Studies"
+        },
+        {
+            "text": "the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quality of Included Studies"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint Tables 3 and 4 show the odds ratios, 95% confidence intervals and p-values for the individual symptoms and comorbidities that were investigated in at least three of the included studies, for both severe disease and ICU admission, respectively. A total of seven symptoms were included in the model for severe disease and six for ICU admission, as well as four comorbidities in both. The most prevalent symptoms in the severe group were cough (70.5%), fever (64.1%) and fatigue (44.5%); in the ICU group these were cough (67.2%), fever (62.9%) and dyspnoea (61.2%). The most prevalent comorbidities in the severe group were hypertension (25.4%) and diabetes (16.8%) and in the ICU group were hypertension (40.5%) and CVD (24.1%).",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20035360",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 141,
+                    "end": 155,
+                    "text": "Tables 3 and 4",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Quality of Included Studies"
+        },
+        {
+            "text": "Although no more likely to be in the severe group, men were 1.55 times more likely than women to be admitted to ICU (95% CI 1.02 -2.36). Dyspnoea was the only symptom significantly associated with both severe disease (pOR 3.70, 95% CI 1.83 -7.46) and ICU admission (pOR 6.55, 95% CI 4.28-10.0), being more strongly associated with the latter. Cough was associated with severe disease (pOR 1.63, 95% respectively. In contrast, diabetes was not significantly associated with ICU admission, although the Tau-squared value here was unusually high implying a high level of heterogeneity between studies in this particular case.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Meta-analysis"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Meta-analysis"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is were the most common symptoms found in our analysis. The prevalence of dyspnoea was not investigated in Sun's meta-analysis, but we found it to be All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Meta-analysis"
+        },
+        {
+            "text": "the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Meta-analysis"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint relatively low, particularly in non-severe and non-ICU groups. The prevalence of dyspnoea in the ICU group, however, was 67.2%, compared with 10.2% in the non-ICU group. Whilst dyspnoea is not a particularly common symptom in COVID-19 patients, its significant association with both severe disease and ICU admission may help discriminate between severe and non-severe COVID-19",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20035360",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Meta-analysis"
+        },
+        {
+            "text": "cases, when present.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Meta-analysis"
+        },
+        {
+            "text": "The findings reported here are in keeping with current knowledge that the elderly and those with comorbidities are more susceptible to severe infection. those with: cardiovascular disease (10.5%), diabetes (7.3%), chronic respiratory disease (6.3%) and hypertension (6.0%) (19) . Unlike the China CDC study (19) that presented case fatality rates for different groups, our findings compare those with particular comorbidities to those without, allowing us to estimate the effect of a particular comorbidity on COVID-19 severity. Although we did not investigate death (and included COPD rather than chronic respiratory disease), our analysis similarly suggests that comorbidities are not uniform in terms of the risk of severe COVID-19 disease. Despite being uncommon in our study population, COPD was by far the strongest risk factor for COVID-19 severity, followed by CVD and hypertension.",
+            "cite_spans": [
+                {
+                    "start": 273,
+                    "end": 277,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 307,
+                    "end": 311,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Meta-analysis"
+        },
+        {
+            "text": "The foremost limitation of this study was an inability to carry out a multivariable analysis to account for the presence of several symptoms, comorbidities and All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint potential confounders. Although this outbreak has seen the evolution of linked data and large datasets (19) which would be suitable for multivariable analysis, these currently lack the quality of published data: there are large amounts of missing data, a narrow range of collected variables, and uncertainty about data collection methods and consistency. Our univariable analysis is therefore valuable in evaluating specific individual symptoms and comorbidities predictive for COVID-19 severity using high-quality evidence in the form of peer-reviewed studies.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20035360",
+                    "ref_id": null
+                },
+                {
+                    "start": 244,
+                    "end": 248,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "Secondly, the studies included here were all from China, so the generalisability of findings to other countries and populations is not clear. The Chinese may differ to other populations in terms of their health-seeking behaviour, symptom reporting, prevalence of different comorbidities, as well as their access to high quality health services. Nonetheless, given the current dearth of contextually specific evidence available, our findings will help to inform future research and actions in other countries as the outbreak develops. Finally, it was not possible to account for the timing of presentation in the statistical analysis. If a patient presented after many days of being symptomatic, this may have affected disease severity, compared with an earlier clinical presentation. However, this limitation does not apply to comorbidities, and Table   2 shows information from individual studies on median duration of symptoms before admission, which appears similar between severe (or ICU) and nonsevere (or non-ICU) cases. It is therefore unlikely that this will have biased the overall results.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 846,
+                    "end": 855,
+                    "text": "Table   2",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Limitations"
+        },
+        {
+            "text": "By identifying the symptoms and comorbidities predictive for more severe disease, clinicians can better stratify the risk of individual patients, as early as their initial contact with health services. This can lead to practical changes in management, which can improve allocative efficiency as well as clinical outcomes, through the consideration of more intensive environments of care All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications for clinical practice/public health"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint (e.g. high dependency unit), earlier on, for patients at highest risk of severe infection. These can also be formalised within risk stratification tools to aid clinical decision-making, such as the CURB65 tool for community-acquired pneumonia (20) . As the number of hospitalised COVID-19 cases continues to increase, hospitals will increasingly need to ration limited resources and improve clinical pathways to effectively prioritise patients with greatest clinical need. This is important, as COVID-19 is already placing increased pressure on ICUs, and anticipation of future demand, based on local population characteristics, may enable more timely planning and resource mobilisation (21) . Identifying those at the highest risk will also facilitate better-informed discussions between clinicians, patients and patients' families about the anticipated clinical trajectory, allowing more accurate and timely advance care discussions to occur.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20035360",
+                    "ref_id": null
+                },
+                {
+                    "start": 384,
+                    "end": 388,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 828,
+                    "end": 832,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Implications for clinical practice/public health"
+        },
+        {
+            "text": "Identifying those at high-risk will aid the public health response in controlling the spread of disease. Given the ubiquity of comorbidities in the elderly population, and their increased susceptibility to severe COVID-19 infection (18), knowledge on the differing prevalence and risk of various conditions may help to focus and tailor public health efforts such as the screening of asymptomatic individuals, risk communication, contact tracing, self-isolation and social distancing. For instance, for COPD, which is less common in the general population and very strongly associated with ICU admission, a more targeted and intensive health protection strategy may be warranted, compared to other conditions (such as hypertension) that are more difficult to target due to their higher prevalence in the general population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications for clinical practice/public health"
+        },
+        {
+            "text": "Furthermore, if it is found that severity of illness is related to infectivity, as is the case in the closely related SARS-CoV, then identifying patients who may develop severe illness can help guide precautions to prevent the spread of SARS-CoV2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications for clinical practice/public health"
+        },
+        {
+            "text": "These include infection control decisions regarding the limited availability of isolation rooms and personal protective equipment (PPE), particularly in more resource-constrained settings. This will be of particular importance as the outbreak develops, if the prevalence of hospitalised COVID-19 patients increases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications for clinical practice/public health"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications for clinical practice/public health"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20035360",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Implications for clinical practice/public health"
+        },
+        {
+            "text": "Measurement tools used in studies should aim to objectively measure symptoms where possible, and details on how and when symptoms were ascertained should be made clear in all studies. There was also heterogeneity in the range of symptoms and comorbidities recorded by different studies, and some studies grouped various symptoms (8) (9) (10) , limiting the utility of such data.",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 332,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 333,
+                    "end": 336,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 337,
+                    "end": 341,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Implications for future research"
+        },
+        {
+            "text": "Studies investigating COVID-19 severity should avoid using subjective or selfreported criteria (such as dyspnoea) in the definition of severity, as in one study included here (13) . To ensure consistency between studies and comparability, the WHO-China Joint Mission on COVID-19 definition of severe and critical cases should be used. Furthermore, the distinction between cases that are severe and critical should be clearly made in studies, to enable more accurate risk stratification of the most unwell patients.",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 179,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Implications for future research"
+        },
+        {
+            "text": "For future research on predictors of severity, research should aim to include greater detail on specific conditions, including how well controlled chronic conditions were before and during admission. If the severity of COVID-19 varies according to the severity of underlying comorbidities, there may be a case for optimising routine treatment for healthy, uninfected individuals, as a potential public health action to mitigate risk. Multivariable analysis to identify which groups of symptoms or comorbidities are most associated with severe or critical disease will also be valuable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications for future research"
+        },
+        {
+            "text": "The existing literature on COVID-19 fails to elucidate the specific symptoms and comorbidities most predictive for severe COVID-19 cases. Our analysis finds that dyspnoea is the only symptom strongly predictive for both severe disease and ICU admission, and could be a useful symptom to help guide clinical management decisions early in the course of illness. The association between comorbidities All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint and severe disease is not homogenous. Whilst COPD, cardiovascular disease, and hypertension were all associated with severity, COPD was the most strongly predictive. When looking at ICU-admitted patients, who represent the more severe end of the spectrum of clinical severity, the difference in effect sizes for COPD and the other included comorbidities was large, suggesting COPD patients are particularly vulnerable to critically severe disease. As the outbreak develops, future research must aim to substantiate these findings by investigating factors related to disease severity. This will aid clinical assessment, risk stratification, and resource allocation, and allow public health interventions to be targeted at the most vulnerable.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 140,
+                    "text": "15.20035360 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint Not in English (n=6)",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20035360",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Not on COVID-19 (1) Literature review/letter/case report (n=6)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Data not available for severe and non-severe (n=17)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Data not available for relevant predictive factors (1) Meta-analysis (1) not yet reported (n = 1) All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "15.20035360",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 15.20035360 doi: medRxiv preprint ",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 140,
+                    "text": "15.20035360 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization. Coronavirus disease (COVID-19) Situation Report -48",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Epidemiological research priorities for public health control of the ongoing global novel coronavirus (2019-nCoV) outbreak",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Defining the Epidemiology of Covid-19-Studies Needed",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Swerdlow",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Finelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Coronavirus action plan: a guide to what you can expect across the UK. 2020",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Uk Government",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical characteristics of 50466 hospitalized patients with 2019-nCoV infection",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Interim Clinical Guidance for Management of Patients with Confirmed Coronavirus Disease",
+            "authors": [],
+            "year": 2019,
+            "venue": "Centers for Disease Control and Prevention (CDC)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The Clinical and Chest CT Features Associated with Severe and Critical COVID-19 Pneumonia",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Invest Radiol",
+            "volume": "",
+            "issn": "",
+            "pages": "29--31",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Clinical characteristics of 140 patients infected by SARS-CoV-2 in Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Allergy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Characteristics of COVID-19 infection in Beijing",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Clinical and computed tomographic imaging features of Novel Coronavirus Pneumonia caused by SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "An",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "StataCorp. Stata Statistical Software: Release 14",
+            "authors": [],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Fixed-and random-effects models in meta-analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Hedges",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Vevea",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Psychol Methods",
+            "volume": "3",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies",
+            "authors": [
+                {
+                    "first": "Von",
+                    "middle": [],
+                    "last": "Elm",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Altman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Egger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pocock",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "G\u00f8tzsche",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Vandenbroucke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Ann Intern Med",
+            "volume": "147",
+            "issn": "8",
+            "pages": "573--577",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72 314 Cases From the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Defining community acquired pneumonia severity on presentation to hospital: an international derivation and validation study",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Der Eerden",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Laing",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Boersma",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Karalus",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Town",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Thorax",
+            "volume": "58",
+            "issn": "5",
+            "pages": "377--382",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study. The Lancet Respiratory Medicine",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "existing literature was performed by an online search in three databases: MEDLINE, EMBASE and Global Health, for studies published from 1 st January 2019 to 5 th March 2020. The MESH headings (keywords) searched were 'nCoV*' or 'coronavirus' or 'SARS-2-CoV' or 'COVID*' and 'symptom*' or 'clinical' or 'predict*'",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "03 -2.60), but not ICU admission. The remaining symptoms analysed were not associated with either outcome. Chronic obstructive pulmonary disease (COPD), cardiovascular disease (CVD), and hypertension were the comorbidities significantly predictive for both severe disease and ICU admission. The pORs for severe disease were as follows: COPD (6.42, 95% CI 2.44-16.9), CVD (2.70, 95% CI 1.52 -4.80) and hypertension (1.97, 95% CI 1.40 -2.77). COPD, CVD and hypertension were more strongly associated with ICU admission, compared with severe disease, with pORs of 17.8 (95% CI 6.56 -48.2), 4.44 (95% CI 2.64 -7.47), and 3.65 (95% CI 2.22 -5.99),",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "According to the Report of the WHO-China Joint Mission on COVID-19 (18), individuals at highest risk for severe disease and death include people with underlying conditions such as hypertension, diabetes, cardiovascular disease, chronic respiratory disease and cancer. We demonstrate that various factors are more strongly associated with ICU admission (representing the very severe end of the disease severity spectrum) compared with less severe disease. This emphasises the extent of the risk COVID-19 poses for patients with comorbidities. The China Centre for Disease Control and Prevention (CDC) found differing case fatality rates (CFRs) in their cohort of 72,314 COVID-19 cases for",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figures Figure 1 -PRISMA Flow Diagram -Included Studies",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Critical",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "displays the median age and gender of severe and non-severe disease, and ICU and non-ICU admitted, patients, after aggregating all studies. The median age was 62.4 years for ICU admitted patients compared to 46 years for non-ICU patients, and 49.4 years for severe compared to 41.7 years for nonsevere disease patients.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Studies investigating the predictive value of symptoms for disease severity or ICU admission",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Total Population from Included Studies",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Estimated pOR from meta-analysis for symptoms/comorbidities and severe disease",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,832 @@
+{
+    "paper_id": "2757708c4f72260abefb9d74302d868165cbc1a4",
+    "metadata": {
+        "title": "Recapitulation of SARS-CoV-2 Infection and Cholangiocyte Damage with Human Liver Organoids 2 3",
+        "authors": [
+            {
+                "first": "Bing",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Genetic Engineering",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Zhongshan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chao",
+                "middle": [],
+                "last": "Ni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Genetic Engineering",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Zhongshan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ran",
+                "middle": [],
+                "last": "Gao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Medical 9 Molecular Biology",
+                    "institution": "Chinese Academy of Medical",
+                    "location": {
+                        "addrLine": "10 Sciences"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuyan",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory",
+                    "institution": "Fudan University",
+                    "location": {
+                        "postCode": "200032",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Li",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Genetic Engineering",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Zhongshan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jinsong",
+                "middle": [],
+                "last": "Wei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Genetic Engineering",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Zhongshan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ting",
+                "middle": [],
+                "last": "Lv",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "postCode": "200040",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jianqing",
+                "middle": [],
+                "last": "Liang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Genetic Engineering",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Zhongshan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qisheng",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Organoid Lifesciences Ltd",
+                    "location": {
+                        "postCode": "201900",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory",
+                    "institution": "Fudan University",
+                    "location": {
+                        "postCode": "200032",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Youhua",
+                "middle": [],
+                "last": "Xie",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory",
+                    "institution": "Fudan University",
+                    "location": {
+                        "postCode": "200032",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaoyue",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Medical 9 Molecular Biology",
+                    "institution": "Chinese Academy of Medical",
+                    "location": {
+                        "addrLine": "10 Sciences"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuan",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Junbo",
+                "middle": [],
+                "last": "Liang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Medical 9 Molecular Biology",
+                    "institution": "Chinese Academy of Medical",
+                    "location": {
+                        "addrLine": "10 Sciences"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rong",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory",
+                    "institution": "Fudan University",
+                    "location": {
+                        "postCode": "200032",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": "rong_zhang@fudan.edu.cn"
+            },
+            {
+                "first": "Xinhua",
+                "middle": [],
+                "last": "Lin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Genetic Engineering",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Zhongshan"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "bioRxiv preprint 42 findings also provide an application of human organoids in investigating the 43 tropism and pathogenesis of SARS-CoV-2, which would facilitate novel drug 44 discovery.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Wuhan (China) has caused emergent and significant threats to global public health 1 . 48 The dominant symptoms of coronavirus disease 2019 (COVID-19) are fever and 49 cough 2,3 . However, a proportion of patients showed multi-organ damage and 50 dysfunction 2-4 . Of note, liver damage is emerging as a co-existed symptom reported 51 in patients with COVID-19. A recent epidemiologic study in Shanghai (China) 52 reported that 75 out of 148 (50.7%) COVID-19 patients had liver function 53 abnormality, indicated by key liver function parameters above the normal range, 54 including alanine aminotransferase (ALT), aspartate aminotransferase (AST), alkaline 55 phosphatase (ALP) or total bilirubin (TBIL) 5 The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.990317 doi: bioRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 88,
+                    "text": "48",
+                    "ref_id": null
+                },
+                {
+                    "start": 331,
+                    "end": 333,
+                    "text": "51",
+                    "ref_id": null
+                },
+                {
+                    "start": 410,
+                    "end": 412,
+                    "text": "52",
+                    "ref_id": null
+                },
+                {
+                    "start": 569,
+                    "end": 571,
+                    "text": "54",
+                    "ref_id": null
+                },
+                {
+                    "start": 704,
+                    "end": 705,
+                    "text": "5",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "ACE2+ cholangiocytes are preserved in human liver ductal organoid cultures. 88 To establish the SARS-CoV-2 infection model with human liver ductal organoids, 89 we first determined whether the long-term organoid culture could preserve the 90 ACE2+ cholangiocytes ex vivo. We processed single-cell RNA sequencing (scRNA-seq) 91 to interrogate the transcriptome of cholangiocytes in human liver ductal organoids. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.990317 doi: bioRxiv preprint 109 We next examined the susceptibility of human liver ductal organoids to 110 SARS-CoV-2. We isolated and plaque-purified the SARS-CoV-2 from a COVID-19 111 patient in Shanghai. The liver ductal organoids from two individuals were inoculated 112 with SARS-CoV-2 for 1 hour then re-embedded in Matrigel and maintained in culture Statistical analysis. 249 We employed Student's t-test or ANOVA test to analyze the parametric 250 experimental results. Significant differences were noted with asterisks. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.990317 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.990317 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.990317 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.990317 doi: bioRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 76,
+                    "end": 78,
+                    "text": "88",
+                    "ref_id": null
+                },
+                {
+                    "start": 158,
+                    "end": 160,
+                    "text": "89",
+                    "ref_id": null
+                },
+                {
+                    "start": 324,
+                    "end": 326,
+                    "text": "91",
+                    "ref_id": null
+                },
+                {
+                    "start": 553,
+                    "end": 556,
+                    "text": "109",
+                    "ref_id": null
+                },
+                {
+                    "start": 904,
+                    "end": 907,
+                    "text": "249",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "87"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel 278 coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30211-7"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical Features of COVID-19 Related Liver Damage. medRxiv",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat 284 origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Receptor recognition by novel coronavirus 286 from Wuhan: An analysis based on decade-long structural studies of SARS",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00127-20"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Structure analysis of the receptor binding of 2019-nCoV",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Angiotensin-converting enzyme 2: a functional 291 receptor for SARS coronavirus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kuhn",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Choe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Cell Mol Life Sci",
+            "volume": "61",
+            "issn": "",
+            "pages": "2738--2743",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00018-004-4242-5"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by 294 a Clinically Proven Protease Inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.052"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 296 2019-nCov. bioRxiv",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.26.919985"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The digestive system is a potential route of 2019-nCov infection: a 298 bioinformatics analysis based on single-cell transcriptomes",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "bioRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Single cell RNA sequencing of 13 human tissues identify 300 cell types and receptors of human coronaviruses",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Specific ACE2 Expression in Cholangiocytes May Cause Liver Damage After 302 2019-nCoV Infection",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.03.931766"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Pathological findings of COVID-19 associated with acute respiratory distress 304 syndrome",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-2600(20)30076-X"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Organoid culture systems to study host-pathogen interactions",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dutta",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Clevers",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Curr",
+            "volume": "306",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Long-term culture of genome-stable bipotent stem cells from adult human 308 liver",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Cell",
+            "volume": "160",
+            "issn": "",
+            "pages": "299--312",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2014.11.050"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.16.990317"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "The newly emerged pandemic coronavirus, SARS-CoV-2, has posed a significant 28 public health threat worldwide. However, the mode of virus transmission and 29 tissue tropism is not well established yet. Recent findings of substantial liver 30 damage in patients and ACE2+ cholangiocytes in healthy liver tissues prompted us 31 to hypothesize that human liver ductal organoids could serve as a model to 32 determine the susceptibility and mechanisms underlining the liver damage upon 33 SARS-CoV-2 infection. By single-cell RNA sequencing, we found that long-term liver 34 ductal organoid culture preserved the human specific ACE2+ population of 35 cholangiocytes. Moreover, human liver ductal organoids were permissive to 36 SARS-CoV-2 infection and support robust replication. Notably, virus infection 37 impaired the barrier and bile acid transporting functions of cholangiocytes through 38 dysregulation of genes involved in tight junction formation and bile acid 39 transportation, which could explain the bile acid accumulation and consequent 40 liver damage in patients. These results indicate that control of liver damage caused 41 directly by viral infection should be valued in treating COVID-19 patients.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "78 organoids were susceptible to SARS-CoV-2 infection and support robust viral 79 replication. Notably, virus infection impaired the barrier and bile acid transporting 80 functions of cholangiocytes in human liver ductal organoids. These results suggest 81 that the dysfunction of cholangiocytes induced by SARS-CoV-2 infection could 82 contribute to the bile acid accumulation and consequent liver damage in patients, 83 and control of liver damage should be valued in treating COVID-19 patients. Our 84 findings also provide a useful model of SARS-CoV-2 infection for pathogenesis study 85 and novel drug discovery.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Fig. 1A). The common cholangiocyte markers EPCAM and KRT19 were95    uniformly highly expressed in all the 7 clusters, indicating the heterogeneity of 96 cholangiocytes in these organoids was relatively low(Fig. 1B). Notably, we identified97 the SARS-CoV-2 receptor gene ACE2 expressed sparsely among cluster 0-5 in 98 unbiased preferences and was detectable in 2.92% cells (233 out of 7,978) (Fig. 1C, 99 D). Anti-ACE2 immunostaining further verified the presence of ACE2+ cholangiocytes 100in human liver ductal organoids(Fig. 1E). Interestingly, we found that the 101 cholangiocytes in mouse primary liver ductal organoids had comparable Epcam 102 expression but no Ace2 (mouse Ace2) expression(Fig. 1F). Taken together, our data 103 demonstrate that long-term human liver ductal organoid culture preserves the 104 human specific ACE2+ population of cholangiocytes and the human liver ductal 105 organoids could serve as a model to study the SARS-CoV-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "post infection. The expression of SARS-CoV-2 nucleocapsid protein was 115 readily detected in patchy areas of human liver ductal organoids whereas no signal 116 was found in uninfected control (Figure 2A). In addition, the infected cholangiocytes 117 underwent membrane fusion and formed syncytia (Figure 2A, enlarge). Although the 118 number of infected cholangiocytes was limited, qRT-PCR analysis of the SARS-CoV-2 119 genomic RNAs revealed a dramatic increase of viral load in organoids at 24 hours 120 post infection (Figure 2B). These data demonstrate that human liver ductal organoids 121 are susceptible to SARS-CoV-2 and support robust viral replication. The 122 recapitulation of SARS-CoV-2 infection in human organoids suggests that this model 123 could be employed to dissect the viral pathogenesis and to test antivirals. 2B), probably due to virus-induced death of host cholangiocytes or activation 129 of anti-viral response. This promoted us to detect whether SARS-CoVfunction of cholangiocytes in homeostasis is to transport bile acid 132 secreted by hepatocytes into bile ducts. The tight junction between cholangiocytes 133 maintains the barrier function of bile ductal epithelium, which is essential for bile 134 acid collection and excretion. We found that SARS-CoV-2 infection ablated the 135 expression of Claudin1 (Figure 3), suggesting that the barrier function of 136 cholangiocytes was disrupted. More importantly, the expression of two major bile 137 acid transporters, apical sodium-dependent bile acid transporter (ASBT) and cystic 138 fibrosis transmembrane conductance regulator (CFTR), was significantly reduced 139 following SARS-CoV-2 infection (Figure 3). These data indicate that SARS-CoV-2 140 infection impairs the barrier and bile acid transporting functions of cholangiocytes 141 through modulating the expression of genes involved in tight junction formation and 142 bile acid transportation. Our study therefore supports the idea that the liver damage 143 in COVID-19 patients might be resulted from direct cholangiocyte injury and 144 consequent bile acid accumulation induced by viral infection. host-microbe interaction 16 . Here we demonstrated that long-term human 148 liver ductal organoid culture preserves the human specific ACE2+ population of 149 cholangiocytes. The SARS-CoV-2 exposure experiments revealed that the virus infects 150 and replicates efficiently in these organoids. To our knowledge, this is the first 151 SARS-CoV-2-human organoid infection model reported. Given that the culture 152 conditions for various organoids (lung, intestine and kidney) have been established, it 153 would be intriguing to study the tropism, replication, and innate immune response of 154 SARS-CoV-2 infection in other organs that are targeted by this virus. 155 It appears that liver dysfunction or damage in severe patients with COVID-19 is a 156 common but unignored phenomena. The improper use of anti-viral drugs may be 157 hepatotoxic and cause liver damage. On the other hand, SARS-CoV-2 infection may 158 trigger overwhelming inflammatory response and lead to tissue injury at multi-organ 159 levels including the liver 2 . In this study, by using the human liver ductal organoids as 160 model, we have clearly shown that SARS-CoV-2 can infect the cholangiocytes and 161 impair their barrier and bile acid transporting functions. This could be due to the 162 direct viral cytopathogenic effect on target cells that express the ACE2 as entry 163 receptor. The viral infection may also down-regulate the expression of host genes 164 involved in the formation of tight junction and transportation of bile acid. Thus, it is 165 noteworthy to take into account the fact that the liver damage in COVID-19 patients 166 might be in part the result of direct cholangiocyte injury and consequent bile human liver ductal organoids, we have investigated the infection and 170 liver tissue damage of SARS-CoV-2 ex vivo. Besides the dissection of viral 171 pathogenesis, this platform could also be applied to evaluate the efficacy of novel 172 anti-viral drugs, especially when ideal animal models are lackingSARS-CoV-2/SH01/human/2020/CHN, GenBank accession no. MT121215). Virus was 183 plaque-purified, propagated in Vero-E6 cells, and stored at -80\u00b0C for use. All 184 experiments involving virus infections were done in biosafety level 3 ductal organoid culture and SARS-CoV-2 infection. 188 The human ductal organoids were generated from primary bile ducts isolated 189 from human liver biopsies as described by Huch et al 17 . The organoids embedded in 190 Matrigel (Corning, 356231) were scrambled off the plate and collected in tubes, then 191 washed with cold PBS by pipetting the material up and down for 10 times. After 192 centrifugation (2 min at 250 g), the organoid pellet was suspended with medium 193 containing 5 \u03bcM Y-27632 (Sigma-Aldrich, Y0503). Around 200-300 organoids were 194 infected with 1.2\u00d710 5 PFU of SARS-CoV-2 in 24 well plate containing 500uL medium 195 and incubated at 37 \u00b0C for 1 hour. After incubation, organoids were collected Sigma-Aldrich, X100) in PBS for 30 min. The organoids were then 204 washed with PBST (PBS containing 0.1% Tween 20) and blocked by 5% BSA in PBST 205 for 1 hour at room temperature. Organoids were incubated with the primary 206 antibodies at 4 \u00b0C overnight, washed with PBST 3 times, and incubated with the 207 secondary antibodies and DAPI for 1 hour at room temperature. Organoids imaging 208 was performed on confocal microscope (OLYMPUS, FV3000). The following 209 antibodies were used: rabbit anti-ACE2 (Sino Biological Inc, 10108-RP01, was isolated from organoids by RNeasy Mini kit (QIAGEN,74106) and 217 reverse-transcribed into cDNA with M-MLV Reverse Transcriptase (Invitrogen, to obtain single cell suspension. A total of around 8,000 cells per sample 229 were captured on a 10\u00d7Chromium device and library preparation was carried out 230 using Single Cell 3' Reagent Kits v2 according to the manufacturer's instructions (10\u00d7 231 Genomics). Libraries were sequenced on an Illumina NovaSeq 6000 platform. 232 Cell Ranger (version 3.1) with default parameters was used to process sequencing 233 data to generate feature-barcode matrices. The human dataset was analyzed using 234 the standard workflow on the Seurat R Package (version 3.1.3) (Butler et al., 2018). 235 For the feature-barcode matrix of 8,094 cells from the human dataset, we removed 236 cells with less than 500 genes and more than 6,000 genes as well as cells with high 237 fraction of mitochondrial UMIs (> 20%). 7,978 high quality cells and 17,447 238 expressed genes were remained for downstream analysis. The cell populations were 239 clustered using the 'FindClusters' function and visualized in 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Z., C.N. and R.Z. conceived the study; B.Z., C.N., R.G., Y.W., L.Y., J.W., T.L., J.L., 264 W.X.,. and R.Z. performed the experiments; B.Z., J.L., R.Z. and X.L. supervised the 265 work; Y.X X.W. and Z.Y. contributed to the discussion of the results; and B.Z., C.N.declare that they have no conflict of interest.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "1|ACE2+ cholangiocytes are preserved in human liver ductal organoid 316 cultures. (A) Cell-type clusters. t-SNE visualization of the cell populations 317 (color-coded for clusters) from human liver ductal organoids by t-SNE. (B) t-SNE 318 plots indicating the expression of representative marker genes. (C) t-SNE plots 319 indicating the expression of ACE2 gene. (D) Violin plots showing the expression of 320 representative marker genes. (E) Immunofluorescence staining for ACE2 and 321 E-cadherin in human liver ductal organoids. Results were representative of three 322 independent experiments. (F) t-SNE visualization of single cells isolated from human 323 and mouse liver ductal organoids; Violin plots showing the expression of EPCAM and 324 ACE2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Recapitulation of SARS-CoV-2 infection in human Liver ductal 330 organoids. (A) Immunofluorescence staining for SARS-CoV-2 N protein and 331 E-cadherin in human liver ductal organoids. (B) Two cases of human liver ductal 332 organoids were harvested at indicated time points following SARS-CoV-2 infection to 333 examine the virus load using qRT-PCR. RNP was used as an internal control. Data 334 were presented as mean\u00b1s.d. *** indicates p\uff1c0.001.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "CoV-2 infection impairs the barrier and bile acid transporting339 functions of cholangiocytes. Two cases of human liver ductal organoids after 340 SARS-CoV-2 infection were harvested to examine the expression of indicated genes 341 using qRT-PCR. GAPDH was used as an internal control. Data were presented as 342 mean\u00b1s.d. * indicates p<0.05; ** indicates p<0.01; *** indicates p<0.001.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". A national wide clinical study collecting 56 1,099 COVID-19 patients revealed that around 20% of patients had elevated ALT and AST and around 10% of patients had elevated TBIL. Especially, the percentage of 58 patients with liver damage is much higher in severe patients than that in non-severe 59 ones 2 . Although the clinical correlation has been implicated, it is still unclear whether 60 the liver damage is caused by direct virus infection in the liver or by systematic 61 reasons such as cytokine storm. Viruses bind to host receptors to initiate the infection. Recent studies have 63 demonstrated that both SARS-CoV-2 and SARS-CoV use the same 64 angiotensin-converting enzyme 2 (ACE2) protein to enter the cells 6-10 . It has been 65 shown that ACE2 expression is widely distributed across human tissues, including 66 lung, liver, kidney and multiple digestive tract organs 11-13 . A significant enrichment of ACE2+ population in cholangiocytes compared to hepatocytes in human healthy liver 68 was reported recently 14 , implying that SARS-CoV-2 might directly target ACE2+ 69 cholangiocytes in patients. However, whether the virus indeed infects human 70 cholangiocytes thus causes local damage has not been addressed yet. At present, due to the lack of suitable research models, studies on mechanisms of SARS-CoV-2 pathogenesis mainly depend on bioinformatics analysis, clinical 73 characteristics and rare autopsy reports 15 . Here we report the use of human 74 organoids as a tool to investigate the SARS-CoV-2 infection and induced tissue 75damage ex vivo at the cellular and molecular levels. By single-cell RNA sequencing,76    we found that long-term human liver ductal organoid culture preserved the human 77 specific ACE2+ population of cholangiocytes. Moreover, human liver ductal",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "GCGATGCCTACACCAAAGT TGATCTTCTGCATGTTCCCA The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.990317 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Muc2"
+        }
+    ]
+}

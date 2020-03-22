@@ -1,0 +1,1132 @@
+{
+    "paper_id": "0d4432c32daefa6f0d711ca35eca81188e0bccdf",
+    "metadata": {
+        "title": "Structural and functional conservation of the programmed -1 ribosomal frameshift signal of SARS-CoV-2",
+        "authors": [
+            {
+                "first": "Jamie",
+                "middle": [
+                    "A"
+                ],
+                "last": "Kelly",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Maryland",
+                    "location": {
+                        "postCode": "20742",
+                        "settlement": "College Park",
+                        "region": "MD"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jonathan",
+                "middle": [
+                    "D"
+                ],
+                "last": "Dinman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Maryland",
+                    "location": {
+                        "postCode": "20742",
+                        "settlement": "College Park",
+                        "region": "MD"
+                    }
+                },
+                "email": "dinman@umd.edu"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "17 years after the SARS-CoV epidemic, the world is facing the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "COVID-19 is caused by a coronavirus named SARS-CoV-2. Given the most optimistic projections estimating that it will take more than a year to develop a vaccine, our best short term strategy may lie in identifying virus-specific targets for small molecule interventions. All coronaviruses utilize a molecular mechanism called -1 PRF to control the relative expression of their proteins. Prior analyses of SARS-CoV revealed that it utilizes a structurally unique three-stemmed mRNA pseudoknot to stimulate high rates of -1 PRF, that it also harbors a -1 PRF attenuation element. Altering -1 PRF activity negatively impacts virus replication, suggesting that this molecular mechanism may be therapeutically targeted. Here we present a comparative analysis of the original SARS-CoV and SARS-CoV-2 frameshift signals. Structural analyses reveal that the core -1 PRF signal, composed of the U UUA AAC slippery site and three-stemmed mRNA pseudoknot is highly conserved. In contrast, the upstream attenuator hairpin is less well conserved. Functional assays revealed that both elements promote similar rates of -1 PRF and that silent coding mutations in the slippery site strongly ablate -1 PRF activity. We suggest that molecules that were previously identified as inhibiting SARS-CoV mediated -1 PRF may serve as lead compounds to counter the current pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Abstract. 17 years after the SARS-CoV epidemic, the world is facing the COVID-19 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 10,
+                    "end": 12,
+                    "text": "17",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2"
+        },
+        {
+            "text": "COVID-19 is caused by a coronavirus named SARS-CoV-2. Given the most optimistic projections estimating that it will take more than a year to develop a vaccine, our best short term strategy may lie in identifying virus-specific targets for small molecule interventions. All coronaviruses utilize a molecular mechanism called -1 PRF to control the relative expression of their proteins. Prior analyses of SARS-CoV revealed that it utilizes a structurally unique three-stemmed mRNA pseudoknot to stimulate high rates of -1 PRF, that it also harbors a -1 PRF attenuation element. Altering -1 PRF activity negatively impacts virus replication, suggesting that this molecular mechanism may be therapeutically targeted. Here we present a comparative analysis of the original SARS-CoV and SARS-CoV-2 frameshift signals. Structural analyses reveal that the core -1 PRF signal, composed of the U UUA AAC slippery site and three-stemmed mRNA pseudoknot is highly conserved. In contrast, the upstream attenuator hairpin is less well conserved. Functional assays revealed that both elements promote similar rates of -1 PRF and that silent coding mutations in the slippery site strongly ablate -1 PRF activity. We suggest that molecules that were previously identified as inhibiting SARS-CoV mediated -1 PRF may serve as lead compounds to counter the current pandemic. (7, 8) .",
+            "cite_spans": [
+                {
+                    "start": 1355,
+                    "end": 1358,
+                    "text": "(7,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1359,
+                    "end": 1361,
+                    "text": "8)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "2"
+        },
+        {
+            "text": "The -1 PRF signal can be broken down into three discrete parts: the \"slippery site\", a linker region, and a downstream stimulatory region of mRNA secondary structure, typically an mRNA suggesting that it may present a target for small molecule therapeutics (7, 8) . In addition, the presence of a hairpin located immediately 5' of the slippery site has been reported to regulate -1 PRF by attenuating its activity (14) . Here, we report on the -1 PRF signal from SARS-CoV2.",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 260,
+                    "text": "(7,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 261,
+                    "end": 263,
+                    "text": "8)",
+                    "ref_id": null
+                },
+                {
+                    "start": 414,
+                    "end": 418,
+                    "text": "(14)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS"
+        },
+        {
+            "text": "The core -1 PRF signal is nearly identical to the SARS-CoV -1 PRF signal, containing only a single nucleotide difference, a C to A. This change maps to a loop region in the molecule that is not predicted to impact on the structure of the three-stemmed pseudoknot. The attenuator hairpin appears to be less-well conserved.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SARS"
+        },
+        {
+            "text": "However, functional analyses reveal that both elements promote nearly identical rates of -1 PRF, suggesting that this element has been structurally and functionally conserved.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SARS"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991083 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SARS"
+        },
+        {
+            "text": "Comparative structural analyses of the two -1 PRF signals. The core of the SARS-CoV -1 PRF signal begins with the U UUA AAC slippery site. This is followed by a 6 nt spacer region, which is then followed by the three- revealed that the sequence of the attenuator hairpin was less well conserved than the frameshift-stimulating pseudoknot (Fig. 1B) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 338,
+                    "end": 347,
+                    "text": "(Fig. 1B)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "The structure of the SARS-CoV -1 PRF signal was previously determined to include a threestemmed mRNA pseudoknot (11) . Using this as a guide, the single C to A base difference between the core SARS-CoV and SARS-CoV-2 -1 PRF signals maps to a loop that is not predicted to alter the structure of the -1 PRF stimulating element (7) (Fig. 1C) . In contrast, the attenuator hairpin contains six differences in the nucleotide sequence between the two viruses, and the SARS-CoV-2 element is predicted to be less stable than its SARS-CoV counterpart (Fig. 1D) . This suggests that the attenuation activity of this element is not as important as the ability to direct -1 PRF per se.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 116,
+                    "text": "(11)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 330,
+                    "end": 339,
+                    "text": "(Fig. 1C)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 543,
+                    "end": 552,
+                    "text": "(Fig. 1D)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "Comparative functional analyses of the two -1 PRF signals. Standard dual-luciferase assays were used to monitor -1 PRF activities of the two -1 PRF signals (15, 16) in HEK and HeLa cells. For both of the elements, -1 PRF activity was ~20% in HEK ( Fig. 2A) and ~30% in HeLa (Fig. 2B) . Amino acid sequence silent coding mutation of the U UUA AAC slippery sites to C CUC AAC (the incoming 0-frame codons are indicated by spaces) ablated -1 PRF activity in both cases, to less than 1% (Fig. 2) . These findings support the hypothesis that structure and function of the -1 PRF signals has been conserved between the two viruses.",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "(15,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 161,
+                    "end": 164,
+                    "text": "16)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 248,
+                    "end": 256,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 274,
+                    "end": 283,
+                    "text": "(Fig. 2B)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 483,
+                    "end": 491,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "Unfortunately, the dual luciferase reporter pJD2359 which was used to generate the other reporters used in this study does not contain the attenuator sequence. Thus, differences in this element were not able to be assayed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "Mutations that alter rates of - AAC) -1 PRF signals were assayed in HEK cells using dual-luciferase assays as previously described (15, 16) . Assays were performed as three technical replicates, and were repeated a minimum three times apiece (biological replicates). A. Assays performed in HEK cells. B. Assays performed in HeLa cells.",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 135,
+                    "text": "(15,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 136,
+                    "end": 139,
+                    "text": "16)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A potential target for antiviral interventions."
+        },
+        {
+            "text": "Error bars denote S.E.M.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A potential target for antiviral interventions."
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991083 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A potential target for antiviral interventions."
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2 (2020) Nat. Microbiol",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    ".10.1038/s41564-020-0695-z"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Mechanisms and implications of programmed translational frameshifting",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dinman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Wiley Interdiscip.Rev.RNA",
+            "volume": "3",
+            "issn": "",
+            "pages": "661--673",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Ribosomal frameshifting and transcriptional slippage: From genetic steganography and cryptography to adventitious use",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res",
+            "volume": "44",
+            "issn": "",
+            "pages": "7007--7078",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Expression of the Rous Sarcoma Virus pol gene by ribosomal frameshifting",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jacks",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Varmus",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Science",
+            "volume": "230",
+            "issn": "",
+            "pages": "1237--1242",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "An efficient ribosomal frame-shifting signal in the polymerase-encoding region of the coronavirus IBV",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Brierley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Boursnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Binns",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bilimoria",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Blok",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Inglis",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "EMBO J",
+            "volume": "6",
+            "issn": "",
+            "pages": "3779--3785",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Achieving a golden mean: mechanisms by which coronaviruses ensure synthesis of the correct stoichiometric ratios of viral proteins",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "P P"
+                    ],
+                    "last": "Plant",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rakauskaite",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R R"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D D"
+                    ],
+                    "last": "Dinman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J.Virol",
+            "volume": "84",
+            "issn": "",
+            "pages": "4330--4340",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Altering SARS coronavirus frameshift efficiency affects genomic and subgenomic RNA production",
+            "authors": [],
+            "year": null,
+            "venue": "Viruses",
+            "volume": "5",
+            "issn": "",
+            "pages": "279--94",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Translational recoding: canonical translation mechanisms reinterpreted",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Rodnina",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Korniy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Klimova",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Karki",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.-Z",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Senyushkina",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Belardinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Maracci",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Wohlgemuth",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Samatova",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Peske",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nucleic Acids Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkz783"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "A pseudoknotted RNA oligonucleotide",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Puglisi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wyatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tinoco",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Nature",
+            "volume": "331",
+            "issn": "",
+            "pages": "283--286",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A Three-Stemmed mRNA Pseudoknot in the SARS Coronavirus Frameshift Signal",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Plant",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Perez-Alvarado",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mukhopadhyay",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hennig",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dinman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "PLoS.Biol",
+            "volume": "3",
+            "issn": "",
+            "pages": "1012--1023",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "ribosomal frameshifting in the SARS coronavirus",
+            "authors": [],
+            "year": null,
+            "venue": "Biochem.Soc.Trans",
+            "volume": "32",
+            "issn": "",
+            "pages": "1081--1083",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Baranov",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Henderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gesteland",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Atkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Howard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Virology",
+            "volume": "332",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.13.991083"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Regulation of programmed ribosomal frameshifting by co-translational refolding RNA hairpins",
+            "authors": [
+                {
+                    "first": "C.-P",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.-C",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-Y",
+                    "middle": [],
+                    "last": "Chou",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-T",
+                    "middle": [],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chang",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "An in vivo dual-luciferase assay system for studying translational recoding in the yeast Saccharomyces cerevisiae",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Harger",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dinman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "RNA",
+            "volume": "9",
+            "issn": "",
+            "pages": "1019--1024",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Systematic analysis of bicistronic reporter assay data",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dinman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res",
+            "volume": "32",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Interference of ribosomal frameshifting by antisense peptide nucleic acids suppresses SARS coronavirus replication",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Plant",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Almazan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Enjuanes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Oh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Antivir. Res",
+            "volume": "91",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "RNA dimerization plays a role in ribosomal frameshifting of the SARS coronavirus",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ishimaru",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Plant",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sims",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yount",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Roth",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Eldho",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "P\u00e9rez-Alvarado",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Armbruster",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dinman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hennig",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hennig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nucleic Acids Res",
+            "volume": "41",
+            "issn": "",
+            "pages": "2594--608",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Identification of RNA pseudoknotbinding ligand that inhibits the -1 ribosomal frameshifting of SARS-coronavirus by structure-based virtual screening",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Antiframeshifting Ligand Reduces the Conformational Plasticity of the SARS Virus Pseudoknot",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ritchie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Soong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "K A"
+                    ],
+                    "last": "Sikkema",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Woodside",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Am. Chem. Soc",
+            "volume": "136",
+            "issn": "",
+            "pages": "2196--2199",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cc-By-Nc-Nd",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.13.991083"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "the slippery site and its placement in relation to the incoming translational reading frame is critical: it must be N NNW WWZ (codons are shown in the incoming or 0-frame),where N is a stretch of three identical nucleotides, W is either AAA or UUU, and Z \u2260 G. The linker region is less well-defined, but typically is short (1 -12 nt long) and is thought to be important for determining the extent of -1 PRF in a virus-specific manner. The function of the downstream secondary structure is to induce elongating ribosomes to pause, a critical step for efficient -1 PRF to occur [reviewed in(9)]. The generally accepted mechanism of -1 PRF is that the mRNA secondary structure directs elongating ribosomes to pause with its A-and P-site bound aminoacyl-(aa-) and peptidyl-tRNAs are positioned over the slippery site. The sequence of the slippery site allows for repairing of the tRNAs to the -1 frame codons after they \"simultaneously slip\" by one base in the 5' direction along the mRNA. The subsequent resolution of the downstream mRNA secondary structure allows the ribosome to continue elongation of the nascent polypeptide in the new translational reading frame. The downstream stimulatory elements are most commonly H-type mRNA pseudoknots, so called because they are composed of two coaxially stacked stem-loops where the second stem is formed by base pairing between sequence in the loop of the first-stem loop, and additional downstream sequence (10). The SARS-CoV pseudoknot is more complex because it contains a third, internal stem-loop element(11)(12)(13).Mutations affecting this structure decreased rates of -1 PRF, and had deleterious effects on virus propagation, thus",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "the SARS-CoV2 -1 PRF signal and computational methods. The SARS-CoV-2 -1 PRF signal was identified from the complete genome sequence (NCBI Ref Seq NC_045512.2). The EMBOSS Water pairwise alignment tool was used to identify sequences in the SARS-CoV-2 genome most similar to the SARS-CoV -1 PRF sequence. One hit was reported between bases 13461 and 13547 of SARS-CoV-2 that was 98.9% identical to the original SARS sequence. The SARS-CoV-2 sequence contains a single point mutation from C to A at base 13533. EMBOSS Water was used to generate pairwise alignments between sequences derived from SARS-CoV (GenBank entry NC_004718.3 begin nt 13361, end nt 13478) and SARS-CoV-2 (Genbank entry NC_045512.2, begin nt 13431, end nt 13547). Plasmid construction and bacterial transformation. Reporter plasmids for SARS-CoV-2 were generated by oligonucleotide site directed mutagenesis using the NEB Q5 Site directed mutagenesis kit (cat. #E0554S). A single C to A point mutation was introduced into pJD2359 (SARS-CoV pSGDluc reporter plasmid) (8) at base 1873 corresponding to the point mutation in the SARS-CoV-2 genome.Site directed mutagenesis primers were synthesized and purified by IDT.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Structural comparison of the SARS-CoV and SARS-CoV-2 -1 PRF signals. A. CarB. Pairwise analysis of the two -1 PRF signals. The attenuator elements and three-stemmed pseudoknot sequences are boxed as indicated. The U UUA AAC slippery site is underlined. C. Structure of the SARS-CoV -1 PRF signal (11) is composed of the 5' slippery site, a 6 nt spacer, and the three-stemmed pseudoknot stimulatory element. The single base difference in SARS-CoV-2 (red) maps to the short loop linking Stems 2 and 3. D. Comparison of the SARS-CoV and SARS-CoV-2 -1 PRF attenuator elements. SARS-CoV-2 specific bases are indicated in red.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Functional characterization of the SARS-CoV and SARS-CoV-2 -1 PRF signals. The efficiencies of -1 PRF promoted by the wild-type (U UUA AAC) and silent slippery site mutant (C CUC",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "-CoV2, the etiological agent of COVID-19, is a member of the coronavirus family (1). Coronaviruses have (+) ssRNA genomes that harbor two long open reading frames (ORF) which occupy the 5' ~ two-thirds of the genomic RNA (ORF1 and ORF2), followed by several ORFs that are expressed late in the viral replication cycle from subgenomic RNAs (sgRNAs) (Fig. 1A) (2). In general the immediate early proteins encoded by ORF1 are involved in ablating the host cellular innate immune response, while the early proteins encoded in ORF2 are involved in genome replication and RNA synthesis. These functions include generation the minus-strand replicative intermediate, new plus-strand genomic RNAs, and subgenomic RNAs which mostly encode structural, late proteins. ORF2 is out of frame with respect to ORF1, and all coronaviruses utilize a molecular mechanism called programmed -1 ribosomal frameshifting (-1 PRF) as a means to synthesize the ORF2 encoded proteins (3, 4). -1 PRF is a mechanism in which cis-acting elements in the mRNA direct elongating ribosomes to shift reading frame by 1",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Renilla luciferase technical replicate reads per sample then forming a ratio of firefly to Renilla luminescence per sample. Each sample luminescence ratio was compared to a readthrough control set to 100%. The ratio of ratios for each sample is the percent frameshift for the sample. A minimum of three biological replicates were assayed for each sample, each of which were assayed in triplicate. Data Availability. Full datasets of -1 PRF assays are available upon request. We wish to thank Kevin Tu for his help with reagent preparation.Funding: This work was supported by Defense Threat Reduction Agency Grant HDTRA1-13-1-0005; NIGMS, National Institutes of Health (NIH) Grant R01 GM117177 (to J.D.D.), and 2T32AI051967-06A1 (to J. A. K.). \"The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. of interest. The authors declare that they have no conflicts of interest with the contents of this article. . CC-BY-NC-ND 4.0 International license author/funder. It is made available under aThe copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991083 doi: bioRxiv preprint",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991083 doi: bioRxiv preprint . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991083 doi: bioRxiv preprint . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.991083 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}
