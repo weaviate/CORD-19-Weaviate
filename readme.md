@@ -8,7 +8,7 @@ The COVID-19 Open Research Dataset Challenge (CORD-19) is published by Kaggle: h
 ## How to get started
 
 ### Download the papers
-Download all `biorxiv_medxriv` json files from https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge into the folder with the same name.
+Download all `biorxiv_medxriv` json files from https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge into a folder with the same name.
 
 ### Execute the import
 
