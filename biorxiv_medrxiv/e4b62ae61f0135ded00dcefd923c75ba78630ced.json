@@ -1,0 +1,1490 @@
+{
+    "paper_id": "e4b62ae61f0135ded00dcefd923c75ba78630ced",
+    "metadata": {
+        "title": "Spread of SARS-CoV-2 Coronavirus likely to be constrained by climate",
+        "authors": [
+            {
+                "first": "Miguel",
+                "middle": [
+                    "B"
+                ],
+                "last": "Ara\u00fajo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Calle Jose Gutierrez Abascal",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Babak",
+                "middle": [],
+                "last": "Naimi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Helsinki",
+                    "location": {
+                        "postBox": "PO Box 64",
+                        "postCode": "00014",
+                        "settlement": "Helsinki",
+                        "country": "Finland"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "CoV-2 (aka 2019-nCoV) Coronavirus are confirmed throughout the world and millions of people are being put into quarantine, few doubt the virus will reach pandemic state. Some worry it could badly hit the developing world, such as sub-Saharan Africa, potentially leading to a global human calamity. It is still early days, but using existing data we develop a large ensemble of ecological niche models that project monthly variation in climate suitability of SARS-CoV-2 Coronavirus throughout a typical climatological year. The current spread suggests a degree of climate determination with Coronavirus displaying preference for cool and dry conditions. The predecessor SARS-CoV was linked to similar climate conditions. Should the spread of SARS CoV-2 continue to follow current trends, a worst-case scenario of synchronous global pandemic is improbable. More probable is the emergence of asynchronous seasonal global outbreaks much like other respiratory diseases. People in temperate warm and cold climates are more vulnerable. Those in arid climates follow next in vulnerability, while the disease will likely marginally affect the tropics. Our projections minimize uncertainties related with spread of SARS CoV-2, providing critical information for anticipating the adequate social, economic and political responses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Biogeography studies the patterns and processes underlying the distribution of Life on earth. One generalization emerging from hundreds of years of natural history observations is that all organisms have a degree of environmental specialization. That is, while biomes in the planet have a range of different types of organisms 1 , individual types of organisms cannot occur in every biome even when, distant apart as they might be, they converge into playing the same ecological roles within ecosystems 2 . Biogeographers and ecologists alike resort to the concept of ecological niche [3] [4] [5] to examine the relationship between the distributions of organisms and other biotic or abiotic factors controlling them.",
+            "cite_spans": [
+                {
+                    "start": 585,
+                    "end": 588,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 589,
+                    "end": 592,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 593,
+                    "end": 596,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "An organism is said to be within its ecological niche if death rates of the organism are lower that birth rates 6, 7 . That is, an organism cannot persist beyond its ecological niche, in a sink, unless there is a regular influx of individuals from source populations. Even if organisms are regularly reaching a sink area, as one might expect with an easily dispersed pathogen, the spread and establishment of the organism will be limited by ecological constraints. Although biogeographic concepts, such as the species ecological niches, are commonly used and applied to multicellular organisms (eukaryotes), there is an increased number of studies utilizing the ecological niche concepts and associated analytical tools to investigate relationships between the distributions of unicellular organisms (prokaryotic), or viruses, and a range of environmental factors 8 .",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 114,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 115,
+                    "end": 116,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Building on the concept of ecological niche, we develop projections of monthly changes in the likelihood of SARS-CoV-2 Coronavirus outbreaks. Projections are obtained from an ensemble of 10 familiar machine learning and statistical ecological niche models 9 , each with 20 copies generated with bootstrapping to account for and enable the quantification of intra-model variability to the initial conditions 10, 11 . Models were trained using the distribution of all recorded SARS-CoV-2 Coronavirus cases by the 10/03/2020 with data compiled and made available to the John Hopkins University Mapping 2019-nCoV portal 12 . Regions with fewer than 5 positive cases were not included in the models. Exclusion of such sites was based on the working assumption that sites with small numbers of positive cases are likely imported from infected regions, thus failing to provide evidence that the SARS-CoV-2 Coronavirus is being transmitted locally within its ecological niche. Predictors were temperature and precipitation values expected between January and March using 1979-2013 as reference, and with data downloaded from the high-resolution climatology database for the earth's land surface 13 . Models were then projected monthly for the rest of the year.",
+            "cite_spans": [
+                {
+                    "start": 407,
+                    "end": 410,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 411,
+                    "end": 413,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 616,
+                    "end": 618,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1187,
+                    "end": 1189,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Analysis of all positive cases of SARS-CoV-2 Coronavirus plotted against monthly temperature and precipitation values reveals that the interquartile range of average environmental temperatures associated with positive cases so far is between -4,01\u00baC to 15,58\u00baC (99% range) and -2,04\u00baC to 9,49\u00baC (95% range). For precipitation, the interquartile range ranges from 4,68 mm to 116,06 mm (99% range) and 19,75 mm to 94,43 mm (95% range). These values are estimated taking into account total numbers of positive cases, which are obviously strongly determined by contingent factors linked with the origin of the SARS-CoV-2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Coronavirus outbreak (the city of Wuhan in China) and subsequent pattern of spread. While the pattern of spread is, as it seems based on our analysis, constrained by climate, the actual numbers of positive cases are affected by nonclimatic factors 14 , some of which might be stochastic. Less sensitive measurements can be obtained by using presence absence of positive cases. With such an approach, the estimated interquartile ranges for temperature is -18,10\u00baC to 28,64\u00baC (99% range) and -8,81\u00baC to 25,65\u00baC (95% range). For precipitation it is 1,00 mm to 345,55 mm range (99% range) and 2,16 mm to 151,31 mm (95% range). Regardless of the approach used to quantify the climate envelope of the SARS-CoV-2 Coronavirus, we are not characterizing the exact local temperature and precipitation conditions constraining the virus spread but rather determining the type of macro-climate conditions in the places where spreading is occurring. Nevertheless, regardless of whether we calculate environmental preferences of the SARS-CoV-2 Coronavirus using the total numbers of incidences or their presence and absence, it appears the virus favors cool and dry conditions being largely absent under extremely cold and very hot and wet conditions ( Figure 1 ). We summarized projections by ensembles of ecological niche models by climate zones 15 . The analysis reveals that SARS-CoV-2 strives in warm temperate climates between October to May and cold temperate climates between April and September ( Figure 2 ). Arid environments follow the temperate warm trend of seasonal probability of contracting the SARS-CoV-2 Coronavirus but with generally more moderate levels. Much of the tropics have low levels of climate suitability for spread of SARS-CoV-2 Coronavirus owing to their high temperatures and precipitation (used here as a surrogate for humidity), followed by polar climates, where conditions of extreme cold temperatures seem to be beyond the virus critical minimum tolerance values. In most of such low climate suitability areas, human populations will likely be spared from outbreaks arising from local transmissions ( Figure 2 ).",
+            "cite_spans": [
+                {
+                    "start": 248,
+                    "end": 250,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1333,
+                    "end": 1335,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1238,
+                    "end": 1246,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1491,
+                    "end": 1499,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 2122,
+                    "end": 2130,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The analysis of risk provided at the climate zone level (Figure 2 ), masks the sharp seasonality and the fine-grained regional variation in risk that emerges when analyzing the patterns in geographical space ( Figure 3 ). From June to September, much of higher latitude regions of the southern hemisphere, like Argentina, Australia, Brazil, Chile, New Zealand, and Southern Africa will likely be become exposed to new outbreaks of SARS-CoV-2. Models also project highest latitude regions of the northern hemisphere to be badly hit by the Coronavirus during this period, including Canada and Russia, but also the Scandinavian countries. High elevation areas in the Andes and the Himalayas share the same prospects. Concurrently, areas that, as we speak, are of extreme concern in the northern hemisphere (chiefly Italy, Spain, France, Germany, UK, and USA) should witness a reduction in the incidence of new positive cases SARS-CoV-2",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 56,
+                    "end": 65,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 210,
+                    "end": 218,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Coronavirus. Beyond September and until the end of May, conditions will be suitable for renewed outbreaks in much of warmer temperate regions of Asia, Europe and North America.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034728 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Not all viruses are climate determined. HIV/AIDS, for example, is not affected by external environmental factors. The virus is transmitted by sexual intercourse, blood transfusions, or from mother to child during pregnancy, delivery or breastfeeding, so it never leaves the host's internal environmental conditions. In contrast, SARS-CoV-2, like other respiratory viruses, namely its predecessor SARS-CoV, involves aerial transmissions of respiratory droplets or fomites, exposing the virus to external environmental conditions. SARS-CoV-2 Coronavirus has already set foot in most parts of the world, but virulent outbreaks with large numbers of local infections are still not global.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Instead, outbreaks concentrate in the northern hemisphere, chiefly Asia, the Middle East, Central, Southern and Western Europe, and the USA. Our models support the view that the incidence of the virus will follow a seasonal pattern with outbreaks being favored by cool and dry weather, while being slowed down by extreme conditions of cold and heat as well as moist. Prevalence of respiratory disease outbreaks, such as influenza, during wintering conditions is common 16, 17 . But the similarity of climate determination of SARS-CoV-2 with its predecessor SARS-CoV is noteworthy given hope that fundamental traits shared by the two Coronavirus might be conserved.",
+            "cite_spans": [
+                {
+                    "start": 469,
+                    "end": 472,
+                    "text": "16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 473,
+                    "end": 475,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Analyses of SARS-CoV outbreaks in relation to meteorology reveal significant correlations between the incidence of positive cases and aspects of weather. For example, an initial investigation linking SARS outbreaks and temperature in Hong Kong, Guangzhou, Beijing, and Taiyuan 18 , revealed significant correlations between SARS-CoV incidences and temperature seven days (the known period of incubation of SARS-CoV) before the outbreak, with environmental temperatures associated with positive cases of SARS-CoV ranging between 16\u00baC to 28\u00baC. They also found that incidence of the Coronavirus was inversely related to humidity. showed that SARS-CoV incidences sharply decreased as temperature increased from 15\u00baC to 29\u00baC, after which it practically disappeared. In this study, . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034728 doi: medRxiv preprint incidences under the cooler end of the gradient were 18-fold higher than under the opposite warmer end of the gradient.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The mechanism underlying these patterns climate determination is likely linked with the ability of the virus to survive external environmental conditions prior to reaching a host. For example, a recent study examined survival of dried SARS-CoV Coronavirus on smooth surfaces and found that it would be viable for over 5 days at temperatures ranging between 11-25\u00baC and relative humidity of 40-50%, drastically loosing viability as temperatures and humidity increased 20 . Heat intolerance of the Corona viruses is probably related to their being covered by a lipid bilayer 21, 22 , which could breakdown easily as temperatures increase.",
+            "cite_spans": [
+                {
+                    "start": 467,
+                    "end": 469,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 573,
+                    "end": 576,
+                    "text": "21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 577,
+                    "end": 579,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Humidity in the air is also expected to affect the transmissibility of respiratory viruses. Once the pathogens have been expelled from the respiratory tract by sneezing, they literally float in the air and they do so for a longer period when the humidity is greater.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "More detailed examination of SARS-CoV-2 outbreak relationships with weather events will only be possible once the spread of the virus has stabilized. The the outbreaks is such that is seems unlikely to be a consequence of random . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint 23, 24 , which, if true, would have contributed to significantly reduce the unaccounted for data biases and uncertainties entering our ecological niche models 25 .",
+            "cite_spans": [
+                {
+                    "start": 39,
+                    "end": 42,
+                    "text": "23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 43,
+                    "end": 45,
+                    "text": "24",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 198,
+                    "end": 200,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Understanding the underlying factors involved in the successful spread of SARS-CoV-2 Coronavirus is critical to manage the timing and scale of the social, economic, and political reactions to it. While the Coronavirus is likely to spread much more widely than at present, owing to the seasonal changes of climate suitability, it is unlikely to do so with the same intensity, simultaneously. Our results will allow anticipate the timing and the magnitude of the likely public interventions to mitigate the adverse consequences of the Coronavirus on public health. Only with adequate planning will unnecessary collateral damages be imposed on individuals and the global economy. is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 12.20034728 doi: medRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 85,
+                    "text": "12.20034728",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "We downloaded the geo-referenced coordinates of SAR-CoV-2 Coronavirus cases from the data repository (https://github.com/CSSEGISandData/COVID-19/blob/master/README.md) operated by the Johns Hopkins University Center for Systems Science and Engineering with support from ESRI Living Atlas Team and the Johns Hopkins University Applied Physics Lab. The data was downloaded on 08/03/2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SAR-CoV-2 Coronavirus data"
+        },
+        {
+            "text": "We downloaded temperature (mean, maximum, minimum) and precipitation (accumulated) from CHELSA (Climatologies at high resolution for the earth's land surface areas; http://chelsa-climate.org) 13 . This is a high-resolution (30 arc sec) climate data set for the earth land surface hosted by the Swiss Federal Institute for Forest, Snow and Landscape Research WSL. It provides monthly summaries covering the period starting in January 1979 until December 2013. The time series data were then aggregated monthly though averaging so to provide expected values for a typical climatological month in the recent past.",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 194,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Climate data"
+        },
+        {
+            "text": "Ecological niche models The spatial distribution of incidence SAR-CoV-2 Coronavirus records were linked to the corresponding monthly climate data. We used SDM-R platform 9 for ensemble ecological niche modeling 10 (or species distributions modeling 25 ), to characterize climate conditions associated with outbreaks of SARS-CoV-2 between January and March 2020. We used 10 commonly used machine learning methods including generalized linear model (GLM) 26 , generalized additive model (GAM) 27 , classification and regression trees (CART) 28 , boosted regression trees (BRT) 29 , random forests (RF) 30 , multiple discriminant analysis (MDA) 31 , support vector machine (SVM) 32 , multi-layer perceptron neural networks (MLP) 33 , maximum entropy (Maxent) 34 , and multivariate adaptive regression splines (MARS) 35 . We used a bootstrapping resampling procedure 36 , with 20 replications, to generate the training and test datasets. We then fitted the ecological niche models for each replication using the training dataset and evaluated them for their performance using the test dataset. We used the area under curve (AUC) of receiver operating characteristic (ROC) plot and the true skill statistic (TSS) to measure the predictive performance of models 37 . A ROC curve plots sensitivity values (true positive fraction) on the y-axis against '1specificity' values (false positive fraction) for all thresholds on the x-axis. AUC is a threshold-independent metric that varies from 0 to 1 and provides a single measure of model performance. AUC values under 0.5 indicate discrimination worse than chance; a score of 0.5 implies random predictive discrimination; and a score of 1 indicates perfect discrimination. TSS is calculated as \"sensitivity + specificity -1\" and ranges from -1 to +1, where +1 indicates perfect agreement, a value of 0 implies agreement expected by chance, and a value of less than 0 indicates agreement worse than chance. We then used the ensemble of 200 models to calculate and project a consensus distribution of spreading risk for each month across the globe. Consensus was achieved through AUC-weighted mean across all models 38 . . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 453,
+                    "end": 455,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 491,
+                    "end": 493,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 539,
+                    "end": 541,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 575,
+                    "end": 577,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 600,
+                    "end": 602,
+                    "text": "30",
+                    "ref_id": null
+                },
+                {
+                    "start": 642,
+                    "end": 644,
+                    "text": "31",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 726,
+                    "end": 728,
+                    "text": "33",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 756,
+                    "end": 758,
+                    "text": "34",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 813,
+                    "end": 815,
+                    "text": "35",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 863,
+                    "end": 865,
+                    "text": "36",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1256,
+                    "end": 1258,
+                    "text": "37",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 2154,
+                    "end": 2156,
+                    "text": "38",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Climate data"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034728 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Climate data"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034728 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Climate data"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "An Update of Wallace's Zoogeographic Regions of the World",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Holt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Science",
+            "volume": "339",
+            "issn": "",
+            "pages": "74--78",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Climate shapes mammal community trophic structures and humans simplify them",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mendoza",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ara\u00fajo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature Communications",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Ecological Niches and Geographical Distributions",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Peterson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Niches and distributional areas: concepts, methods, and assumptions",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sober\u00f3n",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nakamura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proceedings of the National Academy of Sciences USA",
+            "volume": "106",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Ecological niches -Linking classical and contemporary approaches",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chase",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Leibold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Concluding remarks",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hutchinson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1957,
+            "venue": "Cold Spring Harbor Symposia on Quantitative Biology",
+            "volume": "22",
+            "issn": "",
+            "pages": "145--159",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "On the relationship between niche and distribution",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pulliam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Ecology Letters",
+            "volume": "3",
+            "issn": "",
+            "pages": "349--361",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Pathogeography: leveraging the biogeography of human infectious diseases for global health management",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Murray",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Olivero",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Roche",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tiedt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-F",
+                    "middle": [],
+                    "last": "Gu\u00e9gan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ecography",
+            "volume": "41",
+            "issn": "",
+            "pages": "1411--1427",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "sdm: a reproducible and extensible R platform for species distribution modelling",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Naimi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ara\u00fajo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Ecography",
+            "volume": "39",
+            "issn": "",
+            "pages": "368--375",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Ensemble forecasting of species distributions",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ara\u00fajo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "New",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Trends in Ecology and Evolution",
+            "volume": "22",
+            "issn": "",
+            "pages": "42--47",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Standards for distribution models in biodiversity assessments",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ara\u00fajo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Science Advances",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "An interactive web-based dashboard to track COVID-19 in real time",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gardner",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "The Lancet Infectious Diseases",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Climatologies at high resolution for the earth's land surface areas",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Karger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The effect of travel restrictions on the spread of the 2019 novel coronavirus (COVID-19) outbreak. Science, eaba9757",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chinazzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Updated world map of the K\u00f6ppen-Geiger climate classification",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Peel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Finlayson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mcmahon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Hydrol. Earth Syst. Sci",
+            "volume": "11",
+            "issn": "",
+            "pages": "1633--1644",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Influenza Virus Transmission Is Dependent on Relative Humidity and Temperature",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lowen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mubareka",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "PLOS Pathogens",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Environmental Predictors of Seasonal Influenza Epidemics across Temperate and Tropical Climates",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Tamerius",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLOS Pathogens",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "An initial investigation of the association between the SARS outbreak and weather: with the view of the environmental temperature and its variation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Epidemiology and Community Health",
+            "volume": "59",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Environmental factors on the SARS epidemic: air temperature, passage of time and multiplicative effect of hospital infection",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yee-Tak",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Karlberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Epidemiol Infect",
+            "volume": "134",
+            "issn": "",
+            "pages": "223--230",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The Effects of Temperature and Relative Humidity on the Viability of the SARS Coronavirus",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Advances in Virology",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Characterization of the Coronavirus Mouse Hepatitis Virus Strain A59 Small Membrane Protein E",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J B"
+                    ],
+                    "last": "Raamsman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Journal of Virology",
+            "volume": "74",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Coronavirus envelope protein: current knowledge",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schoeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fielding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Virology Journal",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Limited filling of the potential range in European tree species",
+            "authors": [
+                {
+                    "first": "J.-C",
+                    "middle": [],
+                    "last": "Svenning",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Skov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Ecology Letters",
+            "volume": "7",
+            "issn": "",
+            "pages": "565--573",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Equilibrium of species' distributions with climate",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ara\u00fajo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pearson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Ecography",
+            "volume": "28",
+            "issn": "",
+            "pages": "693--695",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Uses and misuses of bioclimatic envelope modeling",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ara\u00fajo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Peterson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Ecology",
+            "volume": "93",
+            "issn": "",
+            "pages": "1527--1539",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Generalized Linear Models",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mccullagh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Nelder",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Generalized additive models",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hastie",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tibshirani",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Classification and regression trees",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Breiman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Olshen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stone",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Greedy Function Approximation: A Gradient Boosting Machine",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "The Annals of Statistics",
+            "volume": "29",
+            "issn": "",
+            "pages": "1189--1232",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Discriminant Analysis by Gaussian Mixtures",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hastie",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tibshirani",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Journal of the Royal Statistical Society. Series B (Methodological)",
+            "volume": "58",
+            "issn": "",
+            "pages": "155--176",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Support vector machines for predicting distribution of Sudden Oak Death in California",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Ecological Modelling",
+            "volume": "182",
+            "issn": "",
+            "pages": "75--90",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The perceptron: A probabilistic model for information storage and organization in the brain",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rosenblatt",
+                    "suffix": ""
+                }
+            ],
+            "year": 1958,
+            "venue": "Psychological Review",
+            "volume": "65",
+            "issn": "",
+            "pages": "386--408",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Maximum entropy modeling of species geographic distributions",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Schapire",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Ecological Modelling",
+            "volume": "190",
+            "issn": "",
+            "pages": "231--259",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Multivariate Adaptive Regression Splines",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Annals of Statistics",
+            "volume": "19",
+            "issn": "",
+            "pages": "1--67",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hastie",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tibshirani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "A review of methods for the assessment of prediction errors in conservation presence/absence models",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Fielding",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Environmental Conservation",
+            "volume": "24",
+            "issn": "",
+            "pages": "38--49",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Exploring consensus in 21st century projections of climatically suitable areas for African vertebrates",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Burgess",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cabeza",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rahbek",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ara\u00fajo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Global Change Biology",
+            "volume": "18",
+            "issn": "",
+            "pages": "1253--1269",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Another study conducted between 11 March and 22 May 2003 in Hong Kong19",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "current macroecological-level analysis enables inferences that would otherwise not be possible with high-resolution data for specific case studies. That is, substitute the familiar analysis of meteorological variation at site levels matched with specific SARS-CoV-2 cases by examination of all known positive cases worldwide against an analysis of large-scale climatological variation. It is, obviously, possible that, as the virus spreads and additional climate regions witness outbreaks of positive cases, inferences made herein are altered. We are skeptical this will happen for two reasons. Firstly, there is little reason to suspect that out-of-China contaminations would have occurred only, or mainly, with trade partners in the northern hemisphere 14 . China is a big world player, having key commercial partnerships with Africa and Latin America. Yet there is not indication that meaningful local infections have taken place in these areas despite the global reporting of Coronavirus cases generally attributed to travellers coming from infected regions. Secondly, the climatic discrimination of",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Frequency distribution of SARS-CoV-2 positive cases plotted against the world gradient of mean temperature (A) and precipitation (B) in a typical climatological series between January and March.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Projected relative climate suitability for SARS-CoV-2 Coronavirus outbreaks across the 5 K\u00f6ppen-Geiger climate zones of the world 15 . (A) Distribution of coarse K\u00f6ppen-Geiger climate zones. (B) Monthly changes in relative climate suitability for the Coronavirus per climate zone.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Projected climate suitability for SARS-CoV-2 Coronavirus outbreaks in a typical January-March (A), April-June (B), July-September (C), and October-December (D). A gif with the monthly projections is available at http://www.maraujolab.com/wp-content/uploads/2020/03/corona_risk.gif",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Figures",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Figure 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Figure 3",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "chance, trade preferences with China, or just the outcome of poorly developed public policies. On the contrary, the SARS-CoV-2 Coronavirus, although being still expanding, seems to have followed closely the expected (given what we know of SARS-CoV) pattern of climate suitability. This suggests the Coronavirus might have reached equilibrium with climate",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank and congratulate the John Hopkins University for real-time compilation and release of incidence data for SAR-CoV-2 Coronavirus, without which this investigation would not have been possible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "MBA conceived the study and wrote the manuscript. BN conducted the analysis and prepared graphical material.Author's information \u2022 Reprints and permissions information is available at www.nature.com/reprints \u2022 Competing interests: None to declare.\u2022 Correspondence and requests for materials should be addressed to maraujo@mncn.csic.es",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        }
+    ]
+}

@@ -1,0 +1,1186 @@
+{
+    "paper_id": "a8852f0f854746663fd96d09629d8b0db0d55a4a",
+    "metadata": {
+        "title": "Characterization of the SARS-CoV-2 Spike in an Early Prefusion Conformation Running title: SARS-CoV-2 spike in an early prefusion conformation",
+        "authors": [
+            {
+                "first": "Tingting",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qingbing",
+                "middle": [],
+                "last": "Zheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hai",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dinghui",
+                "middle": [],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wenhui",
+                "middle": [],
+                "last": "Xue",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuyun",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaofen",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lizhi",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhigang",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhenghui",
+                "middle": [],
+                "last": "Zha",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tingting",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhiping",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jie",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hui",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tingting",
+                "middle": [],
+                "last": "Deng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yingbin",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wang",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yixin",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qinjian",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jun",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ying",
+                "middle": [],
+                "last": "Gu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shaowei",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": "shaowei@xmu.edu.cn"
+            },
+            {
+                "first": "Ningshao",
+                "middle": [],
+                "last": "Xia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics",
+                    "institution": "Xiamen University",
+                    "location": {
+                        "postCode": "361102",
+                        "settlement": "Xiamen",
+                        "country": "School, China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Pandemic coronavirus disease 2019 is caused by the emerging severe 24 acute respiratory syndrome coronavirus 2 (SARS-CoV-2), for which there are no 25 efficacious vaccines or therapeutics that are urgently needed. We expressed three 26 versions of spike (S) proteins-receptor binding domain (RBD), S1 subunit and S 27 ectodomain-in insect cells. RBD appears monomer in solutions, whereas S1 and S 28 associate into homotrimer with substantial glycosylation. The three proteins confer 29 excellent antigenicity with six convalescent COVID-19 patient sera. Cryo-electron 30 microscopy (cryo-EM) analyses indicate that the SARS-CoV-2 S trimer dominate in a 31 unique conformation distinguished from the classic prefusion conformation of 32 coronaviruses by the upper S1 region at lower position ~15 \u00c5 proximal to viral 33 membrane. Such conformation is proposed as an early prefusion state for the SARS-34 CoV-2 spike that may broaden the knowledge of coronavirus and facilitate vaccine 35 development.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "36",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The novel coronavirus grouped in betacoronavirus genus has become the third serious 41 virus intruder to human in the coronaviridae, after sever acute respiratory syndrome Organization (WHO) has declared the SARS-CoV-2 epidemic as a pandemic of 53 international concern and updates the COVID-19 situation every day. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint vaccine design. S is consisted of S1 and S2 subunits and the cleavage on S1/S2 62 boundary by protease during biosynthesis is prerequisite for coronaviruses cellular The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint subjected to clinical trials 12 . Here, we cloned S ectodomain and its fragments RBD and 84 S1 into recombinant baculovirus and expressed the proteins in insect cells. We found 85 that S and S1 formed homotrimer in solutions and the three proteins reacted well with 96 To screen a potent immunogen for COVID-19 vaccine development, we designed three 97 constructs-S ectodomain, S1 and RBD-for the SARS-CoV-2 Spike (S) protein 98 expression by aligning the SARS-CoV-2 S gene (Genbank accession no. NC_045512.2) 99 to a SARS-CoV strain (Genbank accession no. NC_004718) S gene sequence in terms 100 of structure-defined domain profile of the SARS-CoV S protein (Fig. 1A) . The gene of 101 SARS-CoV-2 S ectodomain encoding amino acids (aa) 15-1,213 with removal of its 102 original signal sequence was cloned to the downstream of the gp67 signal sequence in 103 pAcgp67B plasmid vector (Fig.1B) . and with its C-terminal addition of a thrombin 104 cleavage site, a T4 trimerization foldon motif and his tag. The segments S1 (aa 15-105 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint 680) and RBD (aa 319-541) were cloned similar to S ectodomain, keeping gp67 signal 106 peptide and his tag to facilitate secretory outside cell and affinity purification, 107 respectively, but without the thrombin site and T4 foldon (Fig. 1A) . The three 108 constructed plasmids were respectively co-transfected into Sf9 insect cells with v-109 cath/chiA gene deficient baculovirus DNA for the generation and amplification of 110 recombinant baculovirus, which were then harnessed to infect Hive Five insect cells to 111 eventually produce recombinant proteins, named S, S1 and RBD respectively.",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 86,
+                    "text": "41",
+                    "ref_id": null
+                },
+                {
+                    "start": 1032,
+                    "end": 1034,
+                    "text": "96",
+                    "ref_id": null
+                },
+                {
+                    "start": 2195,
+                    "end": 2198,
+                    "text": "107",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1425,
+                    "end": 1434,
+                    "text": "(Fig. 1A)",
+                    "ref_id": "FIGREF35"
+                },
+                {
+                    "start": 1649,
+                    "end": 1657,
+                    "text": "(Fig.1B)",
+                    "ref_id": "FIGREF35"
+                },
+                {
+                    "start": 2257,
+                    "end": 2266,
+                    "text": "(Fig. 1A)",
+                    "ref_id": "FIGREF35"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "The recombinant proteins were mostly soluble expressed and secreted into the 113 culture medium. The centrifugation supernatants of cell culture went through metal 114 affinity chromatography using Ni-NTA resin. S, S1 and RBD proteins were mainly as detection antibody (Fig. 1C) . Interestingly, about one half S proteins were cleaved 119 into S1 (identical migration site to S1 lane in Fig. 1C ) and S2 (about 80kDa developed 120 in anti-His WB) possibly by innate furin of insect cell that was also found in other cases (Fig. 1D ). These peaks fractionated at retention volume 28mL, 36mL, 48mL, 124 and 65mL, were further harvested and subjected to SDS-PAGE analysis. The results 125 indicated that S proteins together with cleaved S1/S2 were resolved at peak 1 in size-126 exclusion chromatography (Fig. 1D ) and showed a high purity of over 95% total 127 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint S/S1/S2 in gel (Fig. 1E ). Overall, one-step Ni-NTA affinity chromatography produced 128 RBD with 95% purity and a yield of 30 mg per L cell culture, S1 with about 90% purity 129 and 10 mg per L yield, while further purification through a size-exclusion 130 chromatography (SEC), the resultant S sample had over 95% purity regarding intact S 131 and cleaved S1/S2, and was harvested in a yield of 1 mg per L cell culture. These data The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint molecular weight of intact S trimer. The three proteins were further analyzed by 150 differential scanning calorimetry (DSC) that was usually used to investigate the inner 151 thermostability of macromolecules or their complexes 14 . RBD and S1 showed one 152 major peak at comparable thermal denaturation midpoints (Tm) of 46.0 \u00b0C and 45.5 \u00b0C, 153 respectively ( Fig. 3G and 3H ), whereas S sample showed two major peaks at Tm of 154 45.5\u00b0C (identical to Tm of S1) and 64.5\u00b0C (Fig. 3I) , which might reflect the coexistence 155 of intact S and cleaved S1/S2.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 269,
+                    "end": 278,
+                    "text": "(Fig. 1C)",
+                    "ref_id": "FIGREF35"
+                },
+                {
+                    "start": 387,
+                    "end": 394,
+                    "text": "Fig. 1C",
+                    "ref_id": "FIGREF35"
+                },
+                {
+                    "start": 522,
+                    "end": 530,
+                    "text": "(Fig. 1D",
+                    "ref_id": "FIGREF35"
+                },
+                {
+                    "start": 801,
+                    "end": 809,
+                    "text": "(Fig. 1D",
+                    "ref_id": "FIGREF35"
+                },
+                {
+                    "start": 1100,
+                    "end": 1108,
+                    "text": "(Fig. 1E",
+                    "ref_id": "FIGREF35"
+                },
+                {
+                    "start": 2024,
+                    "end": 2038,
+                    "text": "Fig. 3G and 3H",
+                    "ref_id": null
+                },
+                {
+                    "start": 2137,
+                    "end": 2146,
+                    "text": "(Fig. 3I)",
+                    "ref_id": null
+                }
+            ],
+            "section": "112"
+        },
+        {
+            "text": "On the other hand, we investigated the glycosylation extent of the three protein by The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint Reactivity of SARS-CoV-2 RBD, S1 and S proteins against convalescent COVID-173 19 human sera 174 We next evaluated the antigenicity of the three versions of S proteins by WB and ELISA 175 using a panel of six COVID-19 convalescent human sera, which was collected from Taken together, RBD, S1 and S proteins from insect cells maintain the native-like The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint phase of SARS-CoV-2 infection. Among these epitopes, most RBD epitopes are strictly 194 tertiary conformation-dependent sites that are damaged upon the mild denatured 195 condition of reductant and SDS treatment, NTD within S1 bears some linear epitopes, 196 whereas S2 part essentially has linear epitopes that are immunogenic in all COVID-19 197 patients (n=6). The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint worthy noted that the compared prefusion SARS-CoV-2 S trimer was engineered with 216 site-directed mutations to stabilize prefusion conformation and expressed in 239F cells.",
+            "cite_spans": [
+                {
+                    "start": 319,
+                    "end": 322,
+                    "text": "174",
+                    "ref_id": null
+                },
+                {
+                    "start": 973,
+                    "end": 976,
+                    "text": "196",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "156"
+        },
+        {
+            "text": "The mutant included two stabilizing proline mutations at residues 986, 987 and a 218 \"GSAS\" substitution at the furin cleavage site 7 . Surprisingly, the alignment 219 demonstrated that the two cryo-EM structures share similar mushroom-shaped 220 architecture in particular nearly identical at stalk moiety (S2 region), but our S-pre 221 shows the cap part (S1 region) at ~15\u00c5 lower position than the reported S trimer in 222 RBD-down prefusion conformation (Fig. 4D ). Regarding to substantial mismatch at the 223 density of 3 S1 subunits, we respectively fitted 5 individual domains (NTD, RBD, SD1, 224 SD2 and S2) of the SARS-CoV-2 S structure (PDB code 6VSB) to our S-pre map. In 225 the fitting map, NTD, RBD, SD2 and S2 could be well placed in the S-pre map, 226 especially for the latter two, which reflects the aforementioned good match at the stalk 227 of the mushroom-shape ( Supplementary Fig. 2) . However, there is no observable 228 density between RBD and SD2 to accommodate an SD1 model ( Supplementary Fig. 2 CoV-2 spike may retain at more precedent state than the classic prefusion conformation 294 that has been determined for other coronaviruses. This early prefusion conformation 295 features that the cap of the mushroom-shaped spike constituted by three S1 subunits is 296 more proximal to viral membrane by 15 \u00c5 than in the classic prefusion conformation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 458,
+                    "end": 466,
+                    "text": "(Fig. 4D",
+                    "ref_id": "FIGREF41"
+                },
+                {
+                    "start": 886,
+                    "end": 907,
+                    "text": "Supplementary Fig. 2)",
+                    "ref_id": "FIGREF36"
+                },
+                {
+                    "start": 1004,
+                    "end": 1024,
+                    "text": "Supplementary Fig. 2",
+                    "ref_id": "FIGREF36"
+                }
+            ],
+            "section": "217"
+        },
+        {
+            "text": "The SARS-CoV-2 spike expressed in insect cells predominantly retains a unique 298 early prefusion conformation, which was repeatable in at least three batches of samples 299 and is ascribed to two possible reasons -native aa sequence used in the S ectodomain The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint first Ni-NAT and the second SEC purification (Fig. 1C and 1E ). Further analyses 303 suggest the split between S1 and S2 likely takes no effect on the trimerization of S Various versions of S proteins are the major targets for vaccine immunogen candidate.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 446,
+                    "end": 461,
+                    "text": "(Fig. 1C and 1E",
+                    "ref_id": "FIGREF35"
+                }
+            ],
+            "section": "297"
+        },
+        {
+            "text": "In addition to potent neutralizing antibody elicitation upon immunization, potential 315 antibody-dependent disease enhancement (ADE) is the major concern for an efficacious The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint 582 Figure 3 . Antigenicity of RBD, S1 and S proteins against convalescent sera. (A-F) 583 The reactivity of the RBD, S1 and S proteins against six COVID-19 convalescent The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint diagram shows conformational diversities between NTD and RBD of S-pre (NTD: red, RBD: 598 orange) and reported prefusion S (NTD: light green, RBD: light purple). 599 600 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 403,
+                    "end": 406,
+                    "text": "583",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 320,
+                    "end": 328,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "314"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The bright and the dark side of human 537 antibody responses to flaviviruses: lessons for vaccine design",
+            "authors": [
+                {
+                    "first": "Faa",
+                    "middle": [],
+                    "last": "Rey",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Stiasny",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-Cc",
+                    "middle": [],
+                    "last": "Vaney",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dellarole",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Heinz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "EMBO reports",
+            "volume": "19",
+            "issn": "",
+            "pages": "206--224",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Prefusion F-specific antibodies determine the 539 magnitude of RSV neutralizing activity in human sera",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Ngwuta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Modjarrad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Science translational medicine",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A proof of concept for structure-based vaccine design 541 targeting RSV in humans",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Crank",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ruckwardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Science",
+            "volume": "365",
+            "issn": "",
+            "pages": "505--509",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Structure-based design of a fusion glycoprotein vaccine 543 for respiratory syncytial virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Joyce",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Science",
+            "volume": "342",
+            "issn": "",
+            "pages": "592--598",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Characterization of native-like HIV-1 gp140 glycoprotein 545 expressed in insect cells",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Vaccine",
+            "volume": "37",
+            "issn": "",
+            "pages": "1418--1427",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Crystal Structures of Two Immune Complexes Identify Determinants 547 for Viral Infectivity and Type-Specific Neutralization of Human Papillomavirus",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "MotionCor2: anisotropic 549 correction of beam-induced motion for improved cryo-electron microscopy",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Palovcak",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-P",
+                    "middle": [],
+                    "last": "Armache",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Verba",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Agard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature methods",
+            "volume": "550",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Real-time CTF determination and correction",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gctf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of structural biology",
+            "volume": "552",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "cryoSPARC: algorithms for rapid unsupervised 554 cryo-EM structure determination",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Punjani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rubinstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fleet",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brubaker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat Methods",
+            "volume": "14",
+            "issn": "",
+            "pages": "290--296",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Quantifying the local resolution of cryo-EM density maps. 556",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kucukelbir",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sigworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Tagare",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nature methods",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "UCSF Chimera-a visualization system for 558 exploratory research and analysis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Pettersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Goddard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Journal of computational chemistry",
+            "volume": "25",
+            "issn": "",
+            "pages": "1605--1612",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "doi: bioRxiv preprint Figure 5. SARS-CoV-2 S spike at early pre-, pre-and post-fusion states and the 602 proposed timeline for conformation change",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.16.994152"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "For clarity, only one monomer at early prefusion, RBD down prefusion and 604 RBD up prefusion conformation is shown in ribbon mode. The model fitted in our S-605 pre map is a combined model comprised of individually fitted NTD, RBD, SD2 and S2 606 domain, which were evicted from the model of prefusion S trimer (PDB no. 6VSB). A 607 deposited postfusion core of SARS-CoV-2 S2 subunit",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Domains are designated by different colors, red: NTD, orange: RBD, 609 yellow: SD1, green: SD2 and cyan: S2. (B) Simplified schematic diagram of the S 610 monomer interpreting the conformation change across different states",
+            "authors": [
+                {
+                    "first": "S-Post",
+                    "middle": [],
+                    "last": "Map",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.16.994152"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "42 coronaviruses (SARS-CoV) and middle east respiratory syndrome coronavirus 43 (MERS-CoV), recently named SARS-CoV-2. In the phylogenic tree of the 44 coronaviruses, SARS-CoV-2 is genetically close to some bat coronavirus and SARS-45 CoV, however, with its origin undefined 1 . SARS-CoV-2 causative disease 46 \"Coronavirus disease 2019\" (abbreviated \"COVID-19\") is characterized by high fever, 47 dry cough, difficulty breathing and sever atypical pneumonia, which usually be 48 confirmed by virus RNA positive or pulmonary computed tomography (CT) in clinical 49 practice 2, 3 . In terms of higher human-to-human transmissibility, SARS-CoV-2 has 50 spread over 118 countries and areas, and led to over 125,288 confirmed cases 51 worldwide and at least 4,614 deaths, as of March 12 th 2020. The World Health 52",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "54 SARS-CoV-2 is an enveloped, single and positive-stranded RNA virus 55 encapsulated with a genome of ~30 kb. At least three membrane proteins including the 56 surface spike protein (S), an integral membrane protein (M), a membrane protein (E). 57 Like other coronaviruses, S is responsible for initiating the engagement to a specific 58 cellular receptor angiotensin-converting enzyme 2 (ACE2) and mediating the cell-virus 59 membrane fusion by the class I fusion mechanism 4, 5 . Thus, S is the main target for 60 neutralizing antibodies against viral infection and the core immunogen constituent of",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "RRAR) as potential furin cleavage site rather than SARS-CoV and other bat 65 coronaviruses, which may contribute to the higher transmissibility of this novel 66 coronavirus 6, 7 . Previous studies suggested the infection process of MERS-CoV 8 and 67 SARS 9 viruses, where S trimer undergoes conformational transition from a prefusion 68 conformation ready for ACE2 binding to a postfusion conformation for eventual virus-69 cell membrane fusion. Structure determination of SARS-CoV and MERS-CoV spike 70 trimers captured a variety of scenarios in the prefusion conformation showing partial 71 (one or two) receptor-binding domain (RBD) in the \"up\" conformation and the rest in 72 the \"down\", and all in either \"up\" or \"down\". The conformation transition from \"down\" 73 to \"up\" could expose the receptor binding site, and the subsequent receptor engagement 74 would lead to a substantial conformation rearrangement of S trimer from prefusion 75 conformation to postfusion. Two recent studies 7, 10 reported cryo-electron microscope 76 (cryo-EM) structures of SARS-CoV-2 spike trimers in the prefusion conformation with 77 2 RBDs down and 1 RBD up. In the case of SARS-CoV, this conformational change 78 during RBDs \"down\" to \"up\" was associated with the binding of receptor ACE2 as well 79 as the recognition of neutralizing monoclonal antibodies 11 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "safe and efficacious vaccine is urgently needed to control and eliminate the 81 SARS-CoV-2 infection. Various forms of vaccine candidates, mostly aiming to elicit 82 neutralizing antibodies against S proteins, are under preclinical research or even",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "86 COVID-19 convalescent human sera. Cryo-EM analysis demonstrated the S trimer 87 unexpectedly retains a unique conformation distinguished from the classic prefusion 88 conformation of coronavirus spikes, that may represent an early state rather than the 89 known prefusion conformation of S spike. These results might broaden the knowledge 90 on coronavirus virology and provide another protective conformation of S trimer for 91 structure-based vaccine design against SARS-CoV-2 infection and its causative 92 COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "115 eluted in a separation fractions under 250 mM imidazole elution, and resolved as 116 molecular weight (m.w.) of ~180 kDa, 110 kDa and 35 kDa, respectively, in SDS-117 PAGE as indicated by a corresponding western blotting (WB) using anti-His antibody 118",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "121 of enzymatic cleave while protein expression in insect cell, such as Flu HA 13 . The 122 eluted S fraction was further polished by Superdex 200 to remove contaminative 123 proteins",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "132 set up a start point for further optimization on expression and purification process of 133 SARS-CoV-2 S immunogen candidates through insect baculovirus expression vector 134 system (BEVS).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "of SARS-CoV-2 S-RBD, S1 and S proteins137    We next investigated the physiochemical properties of the recombinant S protein and 138 its fragments purified from insect cells, including association potential, thermal 139 stability and glycosylation situation. Firstly, high pressure size-exclusion 140 chromatography (HPSEC) and sedimentation velocity analytical ultracentrifugation 141 (SV-AUC) analyses were carried out to measure the oligomerization potential of the 142 three proteins in solution. RBD, S1 and S all showed single major peak in HPSEC 143 profiles at elution volume of 9.0 mL, 5.5 and 5.3 mL, respectively (Fig. 2A and Fig. 1442B). RBD, S1 and S were further verified by SV-AUC, where RBD sedimented as 145 single species of 3.1S in c(s) profile, corresponding to apparent molecular weight 22 146 kDa(Fig. 2D); S1 existed as a dominant species of 11.3 S (estimated as 277 kDa 147 corresponding to S1 trimer) and a minor aggregate form of 20 S(Fig. 2E); S and cleaved 148 S1/S2 resolved as 15.2 S, equivalent to 577 kDa, approximately as the theoretical",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "157 enzymatic deglycosylation analysis. Endo H could unleash the chithobiose core of high 158 mannose and some hybrid oligosaccharides from N-liked glycoproteins, therefore 159 remove the extended branches of glycans and leave the one N acetylglucosamine 160 (GlcNAc) on N-linked glycoproteins. While PNGase F would release N-linked glycan 161 moieties between GlcNAc and ASN residues within a glycoprotein. It should be noted 162 that glycosylation in insect cells is featured as terminal mannose glycans, unlike 163 complex sialylated glycans in mammalian cells, and glycosylation is known to correlate 164 the immunogenicity and broad-coverage protection of a glycoprotein immunogen 15, 16 . 165 After the treatment of either Endo H or PNGase F, RBD showed no discernible decrease 166 of molecular weight in SDS-PAGE/anti-His WB, S1 and S2 both demonstrated nearly 167 ~10 kDa decrease, and the intact S exhibited substantial shrinkage in molecular weight 168of about ~20 kDa decrease(Fig. 2J). The analyses conclude that the glycosylation 169 extent within S glycoprotein is RBD < S1 ~ S2, consistent to the predicted glycosylation 170 profile of S polypeptide(Fig. 1A).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "176COVID-19 patients after they recovered from the disease in the First Affiliated Hospital177 of Xiamen University. Eight reducing SDS gel duplicates of the one depicted in Fig. 178 1C were prepared for WB analysis using these six convalescent sera and two control 179 sera from health human (Fig. 3A-3H, left panel). As expected, intact S protein bands 180 reacted well with all the six convalescent sera (Fig. 3A-3H, left panel). Unexpectedly, 181 five of six sera showed no or very weak reactivities against RBD, only Serum #6 182 possessed RBD's activity. Among the five sera with lower RBD-reactivity, Serum #2, 183#3 and #5 well recognized S1 and the cleaved S1 in lane S, suggesting these sera may 184 specifically react with NTD of S1. S2 demonstrated reaction activity against all the six 185 sera, like the intact S. No detectable reaction was observed in the control sera(Fig. 3G 186and 3H). Inconsistent to the WB results, RBD, S1 and S shared comparable reactivities 187 against the convalescent sera in ELISA, although the sera per se presented varied 188 reaction titers (represented as ET50) following the reaction sequence: Serum #5 > #2 > 189 #3> #1 > # 6 > #4(Fig. 3A-3H, right panel).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "191SARS-CoV-2 epitopes. These epitopes in native virion should be immunogenic in 192 COVID-19 patients and capable of eliciting high antibody titer in the convalescent",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "EM structures of SARS-CoV-2 S proteins 200 To examine the structure of the trimeric S ectodomain with native sequence, we 201 prepared cryo-EM grids using the Ni-NTA purified S proteins and collected 1,513 202 electron micrograph movies. Most of motion-corrected micrographs demonstrated 203 plenty of well-dispersed particles with an approximate size as the canonical coronavirus 204 S trimer (Fig. 4A). A total of 162,645 particles were picked out for multiple rounds of 205 2D classification, consequently, 37,147 particles grouped into top 10 classes, rendering 206 typical feature of S trimer in prefusion conformation as recently reported 7, 10 , were 207 selected for further analysis (Fig. 4B). 3D reconstruction (applying 3-fold symmetry) 208 yielded the density map of prefusion spike (S-pre) at resolution of 5.43 \u00c5 (Fig. 3D and 209Supplementary Fig. 1A).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Structurally, three S monomers intertwine around each other and associate to 211 homotrimers with 145 \u00c5 height seen from side-view and 160 \u00c5 diameter in top-view 212 (Fig. 4C and 4D). We then recruited the recently reported cryo-EM map of S prefusion 213 trimer (EMD-21374, at resolution of 3.17 \u00c5, low pass to 5.43 \u00c5 prior to structural 214 comparison) and compared our cryo-EM map at same resolution(Fig. 4D). It was",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "SD1 region is dramatically flexible in our S-pre structure (Fig. 4E and 230 4F). When the combined model of fitted NTD-RBD-SD2-S2 was superimposed to the 231 original S protomer structure (PDB code 6VSB, Chain A, RBD in down conformation), 232 both NTD and RBD in the original S obviously move and rotate up against our 233 combined model (Fig. 4G). The structural comparison demonstrated that the S-pre 234 trimer retains a unique conformation different from the prefusion conformation of the 235 two reported SARS-CoV-2 spike structures (PDB codes 6VSB and 6VXX).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "\u03b1-, \u03b2-, \u03b3-and \u03b4-genus) in coronaviridae are respectively fitted to the S-pre map 239 (Supplementary Fig. 3). Five S trimer structures of other coronaviruses share similar 240 prefusion conformation with the reported SARS-CoV-2 S structure but substantially 241 distinct with the unique conformation of our S-pre. 242 Apart from most particles classified as S-pre in our sample, 2D classifications also 243 showed five classes of few particles (2,951) assuming an elongated rosette-shape 244 assembly. These particles were further reconstructed and yielded a structure at lower 245 resolution of 8.40 \u00c5 (Supplementary Fig. 1B) that could be considered as post-fusion 246 spike (S-post), as the structure has similar shape but shorter length (~170 \u00c5) as 247 compared to the postfusion spike of SARS-CoV 21 and the presumed one observed in 248 native SARS-CoV-2 virion (BioRxiv, https://doi.org/10.1101/2020.03.02.972927) 249 (Supplementary Fig. 4) . Fitting the S-post map with the core region structure of SAR-250 CoV-2 S2 subunit in post-fusion conformation (PDB code 6LXT) indicated that our S-251 post exhibits roughly rod shape similar with the post-fusion structure (Supplementary 252 Fig. 4).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "of SARS-CoV-2 spike from early prefusion to 255 postfusion 256Briefly, we've obtained two conformations of SARS-CoV-2 spike from insect cells.257    The dominant one maintains the similar mushroom-shaped trimer as the previous while the S1 region substantially diverges. The other conformation essentially 259 resembles the postfusion state. However, we could not find the classic prefusion260 conformation in our sample. We next tried to figure out at which stage the unique 261 conformation occurs during the spike conformation change. The space relationship of 262 NTD or RBD to S2 domain in the unique, RBD-down and RBD-up prefusion 263 conformations (Fig. 5A) was measured by a reference plant approximately parallel to 264 the viral membrane. The plane is defined by the positions of three equivalent C\u03b1 atoms 265 (residue 694 be used) from three S2 subunits of the trimer structures. Numerical data 266 shows that (1) the NTD and RBD in the unique conformation retain the lowest position 267 in the three prefusion conformations; (2) the NTD and RBD of RBD-down prefusion 268 stretch upward 16.6\u00b0 rotation/16 \u00c5 elevation, and 13.1\u00b0/18 \u00c5, respectively, with respect 269 to the unique conformation; (3) from RBD-down to RBD-up prefusion state, the RBD 270 elevates 9 \u00c5 with an additional rotation whereas the NTD remaining nearly stationary 271 (Supplementary Movie S1). The resultant \"up\" RBD is ready for ACE2 binding and 272 the spike eventually is rearranged to postfusion state upon RBD-ACE2 interaction 11, 22 273 (Fig. 5B). The motion trend of NTD and RBD from prefusion to postfusion state in 274 conformational transition is away from the viral membrane, suggesting the unique 275 conformation may occur earlier than RBD-down prefusion conformation, named as 276 \"early prefusion conformation\" (Fig. 5). This early prefusion conformation might exist 277 in other coronaviruses as well.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "crossed the species barrier and sweep over the planet by person-to-282 person transmission in an R0 ~2.56 rate 23 , first wave in China and the second wave 283 booming outside China. WHO has declared the event as another pandemic infectious 284 disease in human history, and the epidemiology of SARS-CoV-2 infection is still in 285 data accumulation. Although the biology and virology of SARS-CoV-2 remain elusive, 286 in terms of knowledge on other coronaviruses, the spikes decorating the SARS-CoV-2 287 virion play a critical role in viral attachment and entry to host cells. Cryo-EM structures 288 of spikes in the prefusion conformation, and RBD-bound receptor ACE2 have indicated 289 the engagement of SARS-CoV-2 to cellular membrane requires a serial of 290 conformational change of RBDs. The change is presumed from the start point of 3 291RBDs down in the prefusion conformation, then RBD(s) up for ACE2 binding, and 292 eventually spike is rearranged to postfusion. In this study, we suggest that the SARS-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "300construct and over-expression in insect cells. There is about a half of S proteins 301 undergoing cleavage on the S1/S2 boundary site in the purified samples both after the",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "304 trimer. It is known that the insect cells can confer post-translation glycosylation for 305 protein over-expression as mammalian cells despite the latter can produce more 306 complex sialyation 24 , and thus provide an alternative way to generate glycoprotein in 307 native conformation. Our results indicate that RBD, NTD and S2 domains of SARS-308 CoV-2 demonstrated different glycosylation extent in insect cells, however, RBD, S1 309 and S proteins comparably react well with six convalescent COVID-19 human sera 310 albeit they differ in domain composition, polypeptide length and oligomerization. 311 There are numbers of SARS-CoV-2 vaccine candidates, including inactivated, 312 vectored, recombinant and nucleotide vaccine forms, under preclinical research.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF25": {
+            "text": "316 SARS-CoV-2 vaccine. ADE has been found in the development of numbers of virus 317 vaccine candidates, including respiratory syndrome virus (RSV), dengue fever 25, 26 , 318 human immunodeficient virus (HIV), SARS-CoV, MERS-CoV 25-27 and so on. It is 319 believed that ADE is associated with non-neutralization epitope attribute and / or 320 specific antibody isotype 28, 29 , in which virus-bound antibody would promote the viral 321 infection to immune cells through Fc fragment targeting \u03b3Fc receptors on the cellular 322 surface and enhance the disease severity. Therefore, the strategy of vaccine design 323 against SARS-CoV-2 should include the consideration of antigen region selection, needed to be maintained is exemplified by the case of RSV 326 vaccine candidate in which F trimer in prefusion is much potent than postfusion 30-32 . 327 Hence the early prefusion conformation proposed for SARS-CoV-2 spike should be 328 drawn an attention for immunogen design as well as the prefusion one. 329 In conclusion, we obtain three kinds of S proteins showing excellent antigenicity 330 and find an early prefusion conformation for SARS-CoV-2 spike. Nevertheless, the 331 molecular level detail for such conformation and the underlying immunogenicity 332 should be further investigated, and whether this conformation recapitulates the exact 333 state of spike in native SARS-CoV-2 virion remains to be determined.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF26": {
+            "text": ", protein expression and purification 337 The SARS-CoV-2 S gene (Genbank accession no. NC_045512.2) was synthesized and 338 cloned into a baculovirus shuttle vector pAcgp67B (BD Biosciences, CA, USA) using 339 Gibson assembly. The S construct encoding aa 15-1,213 (numbered as original 340 sequence), contains a thrombin site, a T4 foldon domain to assist in trimerization and a 341 C-terminal 10-His tag for purification. For S1 construct contains gene encoding aa 15-342 680 followed by a 10-His tag. The RBD construct (aa 319-541) also contains 10-his tag 343 to facilitate purification. In all three constructs, the natural signal peptide (aa 1-14 344 analyzed by SignalP tool) was replaced with a gp67 secretion signal peptide at N-345 terminus.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF27": {
+            "text": "chiAgenes) (Expression Systems, CA, USA) into Sf9 insect cells (Thermo Fisher 349 Scientific, MA, USA), according to the protocol provided by the manufacturer 350 (Expression Systems). The transfection supernatant was harvested and amplified 2 351 times to obtain a high titer of the recombinant viruses. Hive Five cells (BTI-TN-5B1-352 4) (Thermo Fisher Scientific) were cultured in ESF921 medium (Expression Systems) 353 and infected with recombinant virus at an multiplicity of infection (MOI) of 5 in the 354 exponential growth phase (2\u00d7 106 cells/ml, 95% viability) at 28\u00b0C for 72 h. The culture 355 media was centrifugated at 8,000 rpm for 20 min. Then the supernatant was dialyzed 356 against phosphate-buffered saline (PBS), pH 7.4, and purified with Ni-sepharose fast 357 flow 6 resin (GE Healthcare, Boston, USA) by the elution with 250 mM imidazole. The 358 protein concentrations of the final purified samples were measured with Pierce\u2122BCA 359 Protein Assay Kit (Thermo Fisher Scientific).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF28": {
+            "text": "were mixed with loading buffer and boiled for 10 min, and subjected 363 to sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE). Equal 364 amounts of proteins for each sample were loaded onto two SDS-PAGE gels, one for 365 western blotting and one for Coomassie staining. The proteins were electrophoresed for 366 70 min at 80 V in a BioRad MINI-PROTEAN Tetra system (BioRad Laboratories, CA, 367 USA), and the gel was stained with Coomassie Brilliant Blue R-250 (Bio-Rad) (Bio-Rad). The membrane was blocked and then incubated for 1 h with 371 an His-tag-specific mouse mAb antibody (Proteintech, Rosemont, USA) or human sera 372 (1:500 dilution). Unbound antibody was removed by five 5-min washes and the 373 membrane was incubated with alkaline phosphatase-conjugated goat anti-mouse 374 secondary antibody or goat anti-human IgG secondary antibody (Abcam, Cambridge, 375 UK). Membranes were washed again and then developed using SuperSignal ELISA 376 Pico Chemiluminescent Substrate Kit (Thermo Fisher Scientific).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF29": {
+            "text": "were coated onto 96-well microtiter plates at 100 ng/well in PBS at 380 37\u00b0C for 4 h. The background was blocked with 1 \u00d7 Enzyme dilution buffer (PBS + 381 0.25% casein + 1% gelatin + 0.05% proclin-300) at 37\u00b0C for 2 h. Sera were diluted 382 started at 1:100 followed with three-fold serially dilution, and added to the wells (100 \u00b5l)383 and incubated at 37\u00b0C for 1 h. Horseradish peroxidase (HRP)-labeled mouse anti-384 human antibody (Abcam) was used as secondary antibody at 1:5,000 for 30 min. Wells 385 were washed again and the reaction catalyzed using o-phenylenediamine (OPD) 386 substrate at 37\u00b0C for 10 min. The OD450nm (reference, OD620nm) was measured on 387 a microplate reader (TECAN, M\u00e4nnedorf, Switzerland), with a cut-off value 0.1. The 388Half effective titers (ET50) was calculated by sigmoid trend fitting using GraphPad 389 Prism software.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF30": {
+            "text": "harvested and analyzed by SDS-PAGE. All high-purity RBD, S1 and S 393 proteins were subjected to HPLC (Waters; Milford, MA) analysis using a TSK Gel 394 G5000PWXL7.8 \u00d7 300 mm column (TOSOH, Tokyo, Japan) equilibrated in PBS, pH 395 7.4. The system flow rate was maintained at 0.5 mL/min and eluted proteins were 396 detected at 280 nm.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF31": {
+            "text": "assay was performed using a Beckman XL-Analytical ultracentrifuge 400 (Beckman Coulter, Fullerton, CA), as described elsewhere 34 . The sedimentation 401 velocity (SV) was carried out at 20\u00b0C with diluted proteins in PBS. The AN-60 Ti rotor 402 speed was set to 20,000-30,000 rpm according to the molecular weight of the control 403 proteins. Data was collected using SEDFIT computer software, kindly provided by Dr. 404 P. C. Shuck (NIH, Bethesda, MA, USA). Multiple curves were fit to calculate the 405 sedimentation coefficient (S) using continuous sedimentation coefficient distribution 406 model [c(s)], and then the c(s) used to estimate protein molar mass.407 408 Differential scanning calorimetry (DSC) 409 Differential scanning calorimetry (DSC) was carried out on the S proteins using a 410 MicroCal VP-DSC instrument (GE Healthcare, MicroCal Products Group, 411 Northampton, MA) as described previously 14 . In brief, all samples with a concentration -H (NEB) and PNGase-F (NEB) digestions were performed according to the 419 protocol offered by instruction. In brief, the deglycosylation reactions were carried out 420 using 10ug S proteins with 5uL of Endo H or PNGase F and incubated at 37\u00b0C 421 overnights. The reactions were loaded in to SDS-PAGE and analyzed by Western 422 blotting using anti-His as detecting anybody.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF32": {
+            "text": "EM sample preparation and data collection.425    Aliquots (3 \u00b5L) of 0.5 mg/mL purified SARS-CoV-2 S protein were loaded onto glow-426 discharged (60 s at 20 mA) holey carbon Quantifoil grids (R1.2/1.3, 200 mesh, 427 Quantifoil Micro Tools) using a Vitrobot Mark IV (ThermoFisher Scientific) at 100% 428 humidity and 4\u00b0C. Data were acquired using the EPU software to control a FEI Tecnai 429 F30 transmission electron microscope (ThermoFisher Scientific) operated at 300 kV. 430 and equipped with a ThermoFisher Falcon-3 direct detector. Images were recorded in 431 the 58-frame movie mode at a nominal magnification of 93,000X with a pixel size of 432 1.12 \u00c5. The total electron dose was set to 46 e \u2212 \u00c5 \u22122 and the exposure time was 1.5 s.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF33": {
+            "text": "frame alignment and contrast transfer function estimation of each aligned 438 micrograph were carried out with the programs Motioncor 35 and Gctf 36 . Particles were 439 picked by the 'Templete picker' session of cryoSPARC v2 37 . Two rounds of reference-440 free 2D classification were performed and well-defined particle images were selected 441 and non-uniform 3D refinement, 3D reconstruction with C3 symmetry were performed 442 using cryoSPARC v2. The resolutions of the final maps were estimated on the basis of 443 the gold-standard FSC curve with a cutoff at 0.143 38 . Density-map-based visualization 444 and segmentation were performed with Chimera 39 . was supported by grants from the National Natural Science Foundation 448 (grant no. U1705283, 31670935, 81971932, 81991491, 31730029), and the Major 449 Project of Fujian Provincial Science Foundation for COVID-19 Research (Grants 450 2020YZ014001).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF34": {
+            "text": "funders had no role in study design, data collection and analysis, decision to publish, 454 or preparation of the manuscript.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF35": {
+            "text": "Schematic map of the SARS-CoV-2 S protein constructs. (A) Linear 562 representations of the S protein primary structure and construct design. NTD, N-563 terminal domain; RBD, receptor binding domain; SD1, subdomain 1; SD2, subdomain 564 2; HR1, heptad repeat 1; CH, central helix; CD, connector domain; HR2, heptad repeat 565 2; TM, transmembrane domain; CT, cytoplasmic tail; FD, T4 foldon motif. The 566 predicted glycosylation sites are indicated above the domain bars. (B) Map of the 567 cloning vector pAcgp67B. The interest genes were cloned to plasmid pAcgp67B at 568 BamH I/Not I site to generate transfer vectors. (C) SDS-PAGE and western blotting of 569 the Ni-NTA purified proteins. RBS, S1 and S were eluted by 250 mM imidazole. Anti-570 His antibody was used as detection antibody in western blotting. (D) Size-exclusion 571 chromatogram of the second-step purification of the S protein. (E) SDS-PAGE of the 572 four fractions harvested from the chromatography purification as shown in (D).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF36": {
+            "text": "Characterization of the purified RBD, S1 and S proteins. (A-C) HPSEC 576 profiles of the purified RBD, S1 and S proteins; (D-F) AUC profiles of RBD, S1 and 577 S proteins; (G-I) DSC profiles of RBD, S1 and S proteins. (J) Western blotting of 578 three purified proteins treated with Endo H and PNGase F or untreated as control.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF37": {
+            "text": "antibody was used as detection antibody in western blotting.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF39": {
+            "text": "584 human sera (#1-#6) by western blotting (left panel) and ELISA (Right panel). (G, H) 585Results of two control sera. The gels used for western blotting were duplicates of the 586 reducing SDS gels same asFig. 1C.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF41": {
+            "text": "Cryo-EM structure of the SARS-CoV-2 S trimer. (A) Representative 590 micrograph of frozen-hydrated SARS-CoV-2 S particles, Scale bar 50nm. (B, C) Ten and five 591 selected class averages showing the particles along different orientations belonging to prefusion (B) 592 and postfusion (C) S protein, respectively. (D) 5.43 \u00c5 density map of prefusion S trimer (S-pre) that 593 is colored by protomer. (E) Structural comparison to the reported prefusion SARS-CoV-2 S trimer 594 (EMD-21374, C3 symmetry, low-pass to 5.43\u00c5) show a different conformation of S-pre (~15\u00c5 595 shorter in height). (F, G) Each domain of the model of prefusion SARS-CoV-2 S monomer (F) or 596 trimer (G) (PDB no. 6VSB) were separately fitted in the density map of S-pre. (H",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors have declared that no competing interests exist. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994152 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "457"
+        }
+    ]
+}

@@ -1,0 +1,2870 @@
+{
+    "paper_id": "2f6efc4edc0c9fffd3acc810efd8616e7772b28a",
+    "metadata": {
+        "title": "Differential Antibody Recognition by Novel SARS-CoV-2 and SARS-CoV Spike Protein Receptor Binding Domains: Mechanistic Insights and Implications for the Design of Diagnostics and",
+        "authors": [
+            {
+                "first": "Therapeutics",
+                "middle": [],
+                "last": "Ilda D&apos;annessa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "SCITEC-CNR",
+                    "location": {
+                        "addrLine": "via Mario Bianco 9",
+                        "postCode": "20131",
+                        "settlement": "Milano",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Filippo",
+                "middle": [],
+                "last": "Marchetti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pavia",
+                    "location": {
+                        "addrLine": "viale Taramelli 12",
+                        "postCode": "27100",
+                        "settlement": "Pavia",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Giorgio",
+                "middle": [],
+                "last": "Colombo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pavia",
+                    "location": {
+                        "addrLine": "viale Taramelli 12",
+                        "postCode": "27100",
+                        "settlement": "Pavia",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The appearance of the novel betacoronavirus SARS-CoV-2 represents a major threat to human health, and its diffusion around the world is causing dramatic consequences. The knowledge of the 3D structures of SARS-CoV-2 proteins can facilitate the development of therapeutic and diagnostic molecules. Specifically, comparative analyses of the structures of SARS-CoV-2 proteins and homologous proteins from previously characterized viruses, such as SARS-CoV, can reveal the common and/or distinctive traits that underlie the mechanisms of recognition of cell receptors and of molecules of the immune system.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Herein, we apply our recently developed energy-based methods for the prediction of antibodybinding epitopes and protein-protein interaction regions to the Receptor Binding Domain (RBD) of the Spike proteins from SARS-CoV-2 and SARS-CoV. Our analysis focusses only on the study of the structure of RBDs in isolation, without making use of any previous knowledge of binding properties. Importantly, our results highlight structural and sequence differences among the regions that are predicted to be immunoreactive and bind/elicit antibodies. These results provide a rational basis to the observation that several SARS-CoV RDB-specific monoclonal antibodies fail to appreciably bind the SARS-CoV-2 counterpart. Furthermore, we correctly identify the region of SARS-CoV-2 RBD that is engaged by the cell receptor ACE2 during viral entry into host cells.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The data, sequences and structures we present here can be useful for the development of novel therapeutic and diagnostic interventions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The outbreak of the new betacoronavirus 2019-nCoV, formally named SARS-CoV-2, represents a world-wide epidemic threat that has been causing major disruptions in societies and economies 1-2 . For these reasons the new virus has been internationally declared a public health emergency.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 190,
+                    "text": "1-2 .",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this context, structural knowledge of the proteins of the virus can provide important information to develop strategies against the infection, ranging from diagnosis to therapy. In general, coronaviruses use this protein localized on the envelope to bind their cell receptors. After binding, a series of molecular events lead to the fusion of the viral membrane with that of the host cell, eventually leading to virus entry and invasion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "One of the necessary steps in this mechanism is the binding of the spike protein Receptor Binding Domain (RBD) to the cell receptor Angiotensin-Converting Enzyme 2 (ACE2). Indeed, knock out of ACE2 in HeLa cells was shown to prevent infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "For these reasons the development of antibodies that target the spike RBD of coronaviruses and block their interaction with ACE2, disrupting a fundamental infection mechanism, represent attractive therapeutic solutions. Monoclonal antibodies with high affinities had been previously developed against the spike RBD of SARS-CoV. However, despite the correlations between the two viruses, no RBD-targeted SARS-CoV monoclonal antibodies have shown the ability to bind and neutralize 2019-nCoV.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The recent publication of the Cryo-EM structure of the 2019-nCoV spike trimer at 3.5 \u00c5 resolution can provide a useful basis to link these observations to molecular causes, guide the design of SARS-CoV-2 specific antibodies, and possibly suggest the basis for molecules able to block cell viral entry.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Here, we carry out a comparative analysis of the spike protein RBDs from SARS-CoV-2 and SARS-CoV to reveal the key properties of their surfaces that can be reconnected to observed differences in antibody (Ab) and receptor binding. Starting from the atomic resolution information available from the solved structures of the two proteins, the MLCE (Matrix of Low Coupling Energies) method is applied to identify the subsets of surface residues that can be defined as \"interacting\". MLCE analysis of protein energetics accounts for the interactions that each residue establishes with all other residues of the protein it belongs to. The correlation of this parameter with the structural properties of the protein thus highlights which substructures are (pre)organized to interact with a potential partner (a cell receptor or an antibody). MLCE analyzes the interaction energies of all of the amino acids in a protein. In particular, it computes the nonbonded part of the potential (van der Waals, electrostatic interactions, solvent effects) via an MM/GBSA calculation, obtaining, for a protein composed by N residues, an N \u00d7 N symmetric interaction matrix Mij. Eigenvalue decomposition of the matrix highlights the regions of strongest and weakest couplings: the fragments that are on the surface, contiguous in space and weakly coupled to the protein core, define the potential interaction regions. In other words, the putative interacting patches are assumed to be characterized by frustrated intramolecular interactions. The actual interaction with a partner will actually occur if favorable interactions determine a lower free energy for the bound than the unbound state [3] [4] . Indeed, Minimal energetic coupling with the rest of the protein allows these substructures to undergo conformational changes, to be recognized by a binding partner (Antibodies, Receptors). All these properties are hallmarks of Antibody binding epitopes and PPI substructures.",
+            "cite_spans": [
+                {
+                    "start": 1673,
+                    "end": 1676,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1677,
+                    "end": 1680,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The MLCE method for the prediction of Protein-Protein Interaction regions and Antibody binding epitopes has been validated in several previous studies [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] .",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 154,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 155,
+                    "end": 158,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 163,
+                    "end": 166,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 167,
+                    "end": 170,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 171,
+                    "end": 174,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 175,
+                    "end": 178,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 179,
+                    "end": 183,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 184,
+                    "end": 188,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 189,
+                    "end": 193,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 199,
+                    "end": 203,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Here, we took advantage of the recent publication of the structures of SARS-CoV-2 spike protein in its pre-fusion state (doi.org/10.1126/science.abb2507) and of known structure of the SARS-CoV spike protein to comparatively apply our interaction epitope prediction method MLCE.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "The application of MLCE to the Receptor Binding Domain (RBD, aa 319-591) of the SARS-CoV-2 spike protein (pdb code 6vsb; doi: 10.2210/pdb6vsb/pdb) 15 and of the SARS-CoV spike protein (pdb code 5x58; doi: 10.2210/pdb5X58/pdb) ( Figure 1 ) shows that the two protein regions that contain potential interaction regions/Ab-binding epitopes share the same topological localization at the two opposite ends of the 3D structures ( Figure 1 ). However, this trait appears to be the only common one. The linear sequences that correspond to the predicted interacting epitope regions are reported in Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 149,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 228,
+                    "end": 236,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 425,
+                    "end": 433,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 590,
+                    "end": 597,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "Importantly, the predicted epitopes for SARS-CoV spike RBD show a good degree of overlap with the epitopes mapped for neutralizing Ab 80R 16 , S230 17 and m396 18 , providing a relevant validation of our approach. However, in spite of the high degree of structural similarity between the two spike proteins, these mAbs failed to bind SARS-CoV-2 RBD, probably due to the low degree of sequence conservation in the regions contacted by these antibodies. The fact that most of the SARS-CoVdirected mAbs are not reactive against the novel betacoronavirus once more highlights the need to discover specific epitopes in SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 140,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 160,
+                    "end": 162,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "Actually, except for the common topological localization, the predicted Ab-binding epitopes differ between the two proteins, both in their sequence and 3D structural organization (Table 1 , 2 and Figure 1 ). In some cases, linear sequences spanning distant segments of the primary structure come together in the three-dimensional structure to form extended substructures potentially (pre)organized for binding. This is particularly true for the conformational epitope at the N-and Cterminal region of SARS-CoV-2 RBD: the interacting region spans a large part of a well-defined betasheet subdomain (Table 1 , 2 and Figure 2 ). It is tempting to suggest that the expression of such subdomain in isolation could give rise to a highly immunoreactive molecule [19] [20] [21] .",
+            "cite_spans": [
+                {
+                    "start": 755,
+                    "end": 759,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 760,
+                    "end": 764,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 765,
+                    "end": 769,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 179,
+                    "end": 187,
+                    "text": "(Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 196,
+                    "end": 204,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 597,
+                    "end": 605,
+                    "text": "(Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 614,
+                    "end": 622,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "In SARS-CoV-2 RBD, the knowledge of substructures representing potential conformational epitopes may be helpful in guiding the development of peptide-based immunogens able to elicit antibodies that specifically target the cognate protein to which the predicted epitopes belong (Figure 2 ). Simply speaking, the termini of the linear segments making up the conformational epitopes could be aptly bridged with a number of Gly residues sufficient to approximate the distance in the experimental structure (Table 3 ). Antibodies raised against these molecules, which recapitulate the main determinants of immunoreactivity of the full protein, could have useful applications in a therapeutic setting [19] [20] [21] . Furthermore, information on potentially specific SARS-CoV-2 spike RBD-specific epitopes The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990267 doi: bioRxiv preprint function both as antigen-mimicking baits to target virus-specific antibodies in patients' fluids, and as immunogens to generate new Abs able to detect relevant antigens [22] [23] .",
+            "cite_spans": [
+                {
+                    "start": 695,
+                    "end": 699,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 700,
+                    "end": 704,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 705,
+                    "end": 709,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1111,
+                    "end": 1115,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1116,
+                    "end": 1120,
+                    "text": "[23]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 277,
+                    "end": 286,
+                    "text": "(Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 502,
+                    "end": 510,
+                    "text": "(Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "Importantly, after we ran our predictions on the SARS-CoV-2 RBD, crystal structures of this domain in complex with the cellular receptor protein ACE2 was reported by 24 and by Yan et al. 25 . Of note, one predicted interaction region almost completely overlaps with the substructure of spike protein RDB engaged in binding with ACE2 (478 TPCNGVEGF 486). Synthetic mimicry of this sequence could aptly generate high priority candidates aimed at disrupting PPIs between SARS-CoV-2 RBD and its cell receptor ACE2. Such molecules could be used to block viral entry into cells.",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 168,
+                    "text": "24",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 187,
+                    "end": 189,
+                    "text": "25",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "Similarly, our approach also predicts a patch on SARS-CoV spike RBD, which is partly involved in binding ACE2 (see 26 ).",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 117,
+                    "text": "26",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "Overall, while the two RBD proteins likely evolved from a common ancestor and share a common fold, they are characterized by different sequences. The physico-chemical properties determined by such sequence differences, efficaciously unveiled by MLCE, reverberate in the modulation of the networks of intraprotein interactions that underlie the (pre)organization of regions for potential recognition of binding partners (cell receptors or antibodies).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "These results represent, to the best of our knowledge, one of the first molecular physical-chemistry based rationalization of the reasons why some of the tested SARS-CoV RBD monoclonal Abs do not have appreciable cross-reactivity to SARS-CoV-2 RBD 15 , despite the fact that the two domains were recently reported to display the same affinity for the ACE2, with KD values of 15.2 nM and 15 nM for SARS-CoV-2 and SARS-CoV, respectively 27 .",
+            "cite_spans": [
+                {
+                    "start": 435,
+                    "end": 437,
+                    "text": "27",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "In this complex scenario, our predictions can help disentangle some of the issues related to betacoronavirues infectivity and immunological response. Acknowledgement We acknowledge funding by Regione Lombardia, project READY (Regional Network for developing diagnostic methods in rapid response to emerging epidemics and bio-emergencies) Missing residues belonging to highly flexible loops not solved in the structure of the Spike protein were modeled by homology using the SwissModel web server (https://swissmodel.expasy.org/), that retrieved the structure of the SARS-CoV 5x58 as the best template.",
+            "cite_spans": [
+                {
+                    "start": 150,
+                    "end": 165,
+                    "text": "Acknowledgement",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "The structures were used as input for epitope prediction using the Matrix of Local Coupling Energies method (MLCE), which combines the analysis of structural determinants of a given protein with its energetic properties [3] [4] . This approach allows to identify nonoptimized, low-intensity energetic interaction-networks, corresponding to those substructures that can be more prone to establish interactions with Antibodies, and be suitably recognized by binding partners. Briefly, the contiguous where * is the a-th eigenvalue and % * is the i-th component of the corresponding eigenvector. The eigenvector with the most negative correspondent eigenvalue contains most of the interaction information for the stabilizing interaction of the system. An approximated interaction matrix / %& is thus given by",
+            "cite_spans": [
+                {
+                    "start": 220,
+                    "end": 223,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 224,
+                    "end": 227,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "If the structure of the protein is known, one can estimate a contact matrix %& by assuming two amino acids in contact if the distance between two of their heavy atoms is smaller than a threshold. The",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "Hadamard product of the two matrices gives us the matrix of the local coupling energies %& = / %& \u2022 %& We will select as possible interacting zones sets of close by residues that show weak or frustrated interactions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "The analysis of the energetic properties of the surface residues is based on the MLCE method.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "Basically, we perform a MM/GBSA analysis of the structure in a force field, obtaining a symmetric per-residue interaction matrix %& keeping only non-bonded interaction (i.e. electrostatic, van der Waals and solvation contributions). We diagonalize the matrix, obtaining a set of eigenvectors (%) sorted following the increasing value of their eigenvectors % where is the number of amino acids in the sequence. We thus can write the original matrix %& as ij = ( 7 , k=. The copyright holder for this preprint (which was not peer-reviewed) is the . Table 3 . Proposed sequences for the mimics of the conformational epitopes predicted for the Receptor Binding Domain (RBD, aa 319-591) of the SARS-CoV-2 spike protein (pdb code 6vsb). Boldface G's indicate glycines inserted to bridge two parts of a conformational epitope; Bold-face, underlined S's or T's indicate serines inserted to substitute for original cysteines or methionines, respectively. Tables 1 and 2 are highlighted  with colors. . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990267 doi: bioRxiv preprint Figure 2 . The space filling regions indicate possible conformational epitopes for SARS-CoV-2 formed by the juxtapositions of the sequences reports in Table 1 . The region binding to ACE2 and correctly predicted is also highlighted.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 547,
+                    "end": 554,
+                    "text": "Table 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 946,
+                    "end": 990,
+                    "text": "Tables 1 and 2 are highlighted  with colors.",
+                    "ref_id": null
+                },
+                {
+                    "start": 1217,
+                    "end": 1225,
+                    "text": "Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1368,
+                    "end": 1375,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.13.990267 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-W",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-H",
+                    "middle": [],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-W",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yip",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-Y",
+                    "middle": [],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-S",
+                    "middle": [],
+                    "last": "Tsoi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-W",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-F",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-H",
+                    "middle": [],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-M",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.-M",
+                    "middle": [],
+                    "last": "Ip",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-P",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-M",
+                    "middle": [],
+                    "last": "Yuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "The Lancet",
+            "volume": "2020",
+            "issn": "10223",
+            "pages": "514--523",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. The Lancet",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Predicting interaction sited from the energetics of isolated proteins: a new approach to epitope mapping",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Scarabelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Morra",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Biophys. J",
+            "volume": "98",
+            "issn": "9",
+            "pages": "1966--1975",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The Subtle Trade-Off between Evolutionary and Energetic Constraints in Protein-Protein Interactions",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Marchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Capelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rizzato",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Laio",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Phys. Chem. Lett",
+            "volume": "",
+            "issn": "7",
+            "pages": "1489--1497",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Exploiting antigenic diversity for vaccine design: the chlamydia ArtJ paradigm",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Soriani",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Petit",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Grifantini",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Petracca",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gancitano",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Frigimelica",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Nardelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Spinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Scarabelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fiorucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Affentranger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ferrer-Navarro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zacharias",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vuillard",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Daura",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Grandi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Biol. Chem",
+            "volume": "",
+            "issn": "39",
+            "pages": "30126--30138",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Exploiting the Burkholderia pseudomallei Acute Phase Antigen BPSL2765 for Structure-Based Epitope Discovery/Design in Structural Vaccinology",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gourlay",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ferrer-Navarro",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Conchillo-Sol\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gori",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rinchai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Champion",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Michell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kewcharoenwong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nithichanon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lassaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Perletti",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Longhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lertmemongkolchai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Titball",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Daura",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bolognesi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Chem. Biol",
+            "volume": "20",
+            "issn": "",
+            "pages": "1147--1156",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A structure-based strategy for epitope discovery in Burkholderia pseudomallei OppA antigen",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lassaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ferrer-Navarro",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gourlay",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gori",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Conchillo-Sol\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rinchai",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lertmemongkolchai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Longhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Daura",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bolognesi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Structure",
+            "volume": "21",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Flagellar subunits as targets for structure-based epitope discovery approaches and melioidosis vaccine development",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gourlay",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lassaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peri",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Conchillo-Sole",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nithichanon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ferrer-Navarro",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vila",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Daura",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lertmemongkolchai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Titball",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bolognesi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Febs Journal",
+            "volume": "282",
+            "issn": "",
+            "pages": "338--338",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "From crystal structure to in silico epitope discovery in the Burkholderia pseudomallei flagellar hook-associated protein FlgK",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gourlay",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peri",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Conchillo-Sole",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ferrer-Navarro",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nithichanon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vila",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Daura",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lertmemongkolchai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Titball",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bolognesi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Febs Journal",
+            "volume": "282",
+            "issn": "7",
+            "pages": "1319--1333",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Sequence-and Structure-Based Immunoreactive Epitope Discovery for Burkholderia pseudomallei Flagellin",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nithichanon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rinchai",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gori",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lassaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peri",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Conchillio-Sole",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ferrer-Navarro",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gourlay",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nardini",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vila",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Daura",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bolognesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lertmemonkolchai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Flexible vs Rigid Epitope Conformations for Diagnostic-and Vaccine-Oriented Applications: Novel Insights from the Burkholderia pseudomallei BPSL2765 Pa13 Epitope. Acs Infectious Diseases",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gori",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peri",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Quilici",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nithichanon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gaudesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Longhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gourlay",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bolognesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lertmemongkolchai",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Musco",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "221--230",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Screening Complex Biological Samples with Peptide Microarrays: The Favorable Impact of Probe Orientation via Chemoselective Immobilization Strategies on Clickable Polymeric Coatings",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gori",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sola",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gagni",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bruni",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liprino",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peri",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cretich",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chiari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Bioconjugate Chemistry",
+            "volume": "27",
+            "issn": "11",
+            "pages": "2669--2677",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Enhancing Antibody Serodiagnosis Using a Controlled Peptide Coimmobilization Strategy",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sola",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gagni",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "D&apos;annessa",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Capelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bertino",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Romanato",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Damin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bergamaschi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Marchisio",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cuzzocrea",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bombaci",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Grifantini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chiari",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gori",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cretich",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "ACS Infectious Diseases",
+            "volume": "2018",
+            "issn": "6",
+            "pages": "998--1006",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Computational Analysis of Dengue Virus Envelope Protein (E) Reveals an Epitope with Flavivirus Immunodiagnostic Potential in Peptide Microarrays",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bergamaschi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M A"
+                    ],
+                    "last": "Fassi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Romanato",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "D&apos;annessa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Odinolfi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Brambilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Damin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chiari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gori",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cretich",
+                    "suffix": ""
+                }
+            ],
+            "year": 1921,
+            "venue": "International journal of molecular sciences",
+            "volume": "2019",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Corbett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-L",
+                    "middle": [],
+                    "last": "Hsieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Abiona",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Structural Basis of Neutralization by a Human Anti-severe Acute Respiratory Syndrome Spike Protein Antibody, 80R",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hwang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Santelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sui",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jaroszewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Stec",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Marasco",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liddington",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Journal of Biological Chemistry",
+            "volume": "281",
+            "issn": "45",
+            "pages": "34610--34616",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Structural Basis for Potent Cross-Neutralizing Human Monoclonal Antibody Protection Against Lethal Human and Zoonotic SARS-CoV Challenge",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rockx",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Corti",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Donaldson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sheahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Stadler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lanzavecchia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Baric",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Journal of Virology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Potent crossreactive neutralization of SARS coronavirus isolates by human monoclonal antibodies",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chakraborti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sheahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hensley",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Prabakaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rockx",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sidorov",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Corti",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vogel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-O",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.-F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lanzavecchia",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Curtis",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Nabel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Subbarao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dimitrov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "104",
+            "issn": "29",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Structural vaccinology starts to deliver",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dormitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Grandi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rappuoli",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat Rev Microbiol",
+            "volume": "2012",
+            "issn": "12",
+            "pages": "807--820",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "From empiricism to rational design: a personal perspective of the evolution of vaccine development",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Gregorio",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rappuoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nat. Rev. Immunol",
+            "volume": "14",
+            "issn": "7",
+            "pages": "505--514",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Future Challenges for Vaccinologists",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dilbarova",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rappuoli",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Methods Mol Biol",
+            "volume": "",
+            "issn": "",
+            "pages": "41--55",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Peptides for Infectious Diseases: From Probe Design to Diagnostic Microarrays",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peri",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gagni",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Combi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gori",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chiari",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Longhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cretich",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cretich",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gori",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "D&apos;annessa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chiari",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "ACS Chemical Biology",
+            "volume": "8",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Crystal structure of the 2019-nCoV spike receptor-binding domain bound with the ACE2 receptor",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Structural basis for the recognition of the SARS-CoV-2 by full-length human ACE2",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Science",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Structure of SARS Coronavirus Spike Receptor-Binding Domain Complexed with Receptor",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Science",
+            "volume": "309",
+            "issn": "5742",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ying",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Emerging Microbes & Infections",
+            "volume": "2020",
+            "issn": "1",
+            "pages": "382--385",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Relationship between energy distribution and fold stability: Insights from molecular dynamics simulations of native and mutant proteins",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Morra",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Proteins: Struct. Funct. and Bioinf",
+            "volume": "72",
+            "issn": "2",
+            "pages": "660--672",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Identification of Domains in Protein Structures from the Analysis of Intramolecular Interactions",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Genoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Morra",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Phys. Chem. B",
+            "volume": "116",
+            "issn": "10",
+            "pages": "3331--3343",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Mechanisms of Differential Allosteric Modulation in Homologous Proteins: Insights from the Analysis of Internal Dynamics and Energetics of PDZ Domains",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Morra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Genoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Chem Theory Comput",
+            "volume": "10",
+            "issn": "12",
+            "pages": "5677--5689",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Structural Stability and Flexibility Direct the Selection of Activating Mutations in Epidermal Growth Factor Receptor Kinase",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Paladino",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Morra",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Chem Inf Model",
+            "volume": "55",
+            "issn": "7",
+            "pages": "1377--87",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cc-By-Nc-Nd",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.13.990267"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "can guide the synthesis of mimics of the epitope sequences in the form of peptides for use in diagnostic settings. Serological approaches aimed at revealing antibodies elicited in the host in response to the infection or/and at using specifically selected antibodies to detect relevant 2019-nCoV antigens could indeed be used for the screening of people who may have come into contact with the virus as well as for epidemiological surveillance, a relevant issue considering the number of asymptomatic patients which caused a fast and widespread diffusion of SARS-CoV-2. In general, serological approaches of this kind can be simple and quick to perform and could aptly represent a valid complement to swabs followed by molecular nucleic acid-based methods, currently used as the front-line response to detect the virus in the window period in which host B-cell responses have not yet been elicited.The specific SARS-CoV-2 RBD epitope sequences and structures identified here can thus be used to design new molecular probes (immunoprobes) with facile synthetic accessibility and the potential to",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "of the proteins analyzed through the text were downloaded from the pdb with the following codes: 2019-nCoV spike glycoprotein Receptor Binding Domain: PDB ID 6vsb SARS-nCoV spike glycoprotein Receptor Binding Domain: PDB ID 5x58",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "regions on the protein surface that are deemed to have minimal coupling energies with the rest of the structure are selected on the basis of the eigenvalue decomposition of the matrix reporting the non-bonded interaction of all residue-pairs. The eigenvector associated to the most negative eigenvalue permits to reconstruct a simplified matrix which reports the maximal and minimal stabilizing residue-pairs in the protein structure. Filtering of the simplified matrix with the contact matrix allows to identify contiguous residue-pairs characterized by their essential degree of coupling to the rest of the protein. Selection of proximal pairs showing minimal coupling with the rest of the protein defines putative epitopes. Selection is carried out on the basis of a threshold value (called softness), which defines the percentage of the set of putative interaction sites by including increasing residue-residue coupling values until the number of couplings that correspond to the lowest contactfiltered pairs under the threshold was reached. Detailed Prediction of protein interaction surfaces: MLCE MLCE is a technique based on the analysis of the interaction energies of all the amino acids in a protein 3, 28-31 . In particular, it computes the non-bonded part of the potential (van der Waals, electrostatic interactions, solvent effects) via a MM/GBSA calculation, obtaining, for a protein",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "It has been shown that the first eigenvector alone can be used to build an approximate interaction matrix : ij =\u03bb .(.) ( ) (.) ( ), which recapitulates the interactions most relevant for the stabilization of a certain conformation of a defined protein or protein substructure.The MM/GBSA is made with Amber 14 software with the ff14SB forcefield.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "CONFORMATIONAL EPITOPES for SARS-CoV-2 320-VQPTES -325-GGG-529-KSTNLVKNKSVN-541-GG-548-GTGVLTE-553 555-SNKKFLPFQQFGRDIADTTDA-575-GG-I-GG-587-ITPSS-591 566-GRDIADTTDA-575-GG-I-GG-587-ITPSS-591 (Cterm) Comparison of the Receptor Binding Domains of the SARS-CoV-2 and SARS-CoV spike proteins. The predicted epitopes, whose sequences are reported in",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Epitope sequences for the Receptor Binding Domain (RBD, aa 319-591) of the SARS-CoV-2 spike protein (pdb code 6vsb). Epitope sequences for the Receptor Binding Domain (RBD, aa 319-591) of the SARS-CoV spike protein (pdb code 5x58). SARS-CoV LINEAR EPITOPES 315-RFPNITNLCPFG-326 370-SATKLNDLCFS-380 458-VPFSPDGKPCTPPALNCYWPLN-479 Binding to ACE2",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

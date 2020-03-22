@@ -1,0 +1,2130 @@
+{
+    "paper_id": "c91b581d38243c502118d93fc6f71ee02ec395e4",
+    "metadata": {
+        "title": "Quantifying dynamics of SARS-CoV-2 transmission suggests that epidemic control and avoidance is feasible through instantaneous digital contact tracing",
+        "authors": [
+            {
+                "first": "Luca",
+                "middle": [],
+                "last": "Ferretti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing Centre for Health Information and Discovery",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "settlement": "Oxford",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chris",
+                "middle": [],
+                "last": "Wymant",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing Centre for Health Information and Discovery",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "settlement": "Oxford",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michelle",
+                "middle": [],
+                "last": "Kendall",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing Centre for Health Information and Discovery",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "settlement": "Oxford",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lele",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing Centre for Health Information and Discovery",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "settlement": "Oxford",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anel",
+                "middle": [],
+                "last": "Nurtay",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing Centre for Health Information and Discovery",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "settlement": "Oxford",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [],
+                "last": "Bonsall",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing Centre for Health Information and Discovery",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "settlement": "Oxford",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Christophe",
+                "middle": [],
+                "last": "Fraser",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Li Ka Shing Centre for Health Information and Discovery",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "settlement": "Oxford",
+                        "country": "UK"
+                    }
+                },
+                "email": "christophe.fraser@bdi.ox.ac.uk"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Mobile phone apps implementing algorithmic contact tracing can speed up the process of tracing newly diagnosed individuals, spreading information instantaneously back through a past contact network to inform them that they are at risk of being infected, and thus allow them to take appropriate social distancing and testing measures. The aim of non-pharmaceutical infection prevention is to move a population towards herd protection, a state where a population maintains R 0 <1, thus making it impossible for a pathogen to cause an epidemic. Here, we address epidemiological issues that affect the feasibility of an algorithmic approach to instantaneous contact tracing; ethical and implementation issues are addressed separately. First we quantify the parameters of COVID-19 in a framework that is consistent with the renewal equation formulation of epidemic spread. Second, we use an analytical solution to application of first-degree contact tracing in the renewal equation model to explore combinations of efficacy that can induce herd protection (R 0 <1). With the emergence of the novel viral pathogen SARS-CoV-2, of clear potential for a global pandemic with high fatality rates and incapacitated health systems, the question of prevention has critical priority. We come to the conclusion that isolating symptomatic cases and tracing their contacts in a classical manner is not sufficiently fast to stop the spread of the epidemic and needs to be accompanied by measures of social distancing that are disruptive to a wide number of people. We show that first-degree instantaneous contact tracing, informing users when they can move safely or when to seek medical help and avoid vulnerable individuals, has the potential to stop the spread of the epidemic if used by a sufficiently large number of people with reasonable fidelity. All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The new viral pathogen SARS-CoV-2 emerged in late 2019, leading to exponential rise of new cases and causing tens of thousands of documented cases of COVID-19 disease to date. Human-to-human transmission was initially focused in the Hubei province of China, but has now seeded growing epidemics around the world. The virus is likely of bat origin, with a possible intermediate animal host, and most of the first documented cases were linked to environmental exposure in the Huanan Seafood Wholesale Market in early December 2019. The virus is sufficiently genetically similar to the 2003 SARS-CoV-1 virus that it is reasonable to expect some aspects of epidemiology to be similar, and then update these views as new data emerge. So far, new analyses indicate that SARS-CoV-2 is more infectious and less virulent than SARS-CoV-1, and could have greater epidemic potential due to greater difficulties in tracing mild or asymptomatic infections. No treatment is currently available, and while the development of a vaccine is proceeding as fast as possible, the need to test any candidates for safety in humans means that vaccines will not be available for several months at the earliest. The only tools that we currently have to stop the epidemic are those of classical epidemic control, like contact tracing, social distancing and quarantine. The aim of this paper is to explore the feasibility of achieving herd protection (R 0 <1) using isolation coupled to classical contact tracing by questionnaires and people versus algorithmic instantaneous contact tracing assisted by a phone app.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The biomechanics of transmission of betacoronaviruses are well understood in general terms: the virus can pass from one individual to another through exhaled droplets ( 1 ) , aerosol ( 2 ) , contamination of surfaces ( 3 ) , and possibly through fecal-oral contamination ( 4 ) . Rather than comparing transmission through these different physical routes, here we compare different transmission routes that are more closely aligned to their implications for prevention. Specifically we propose four categories. 1. Symptomatic transmission: direct transmission from a symptomatic individual, through a contact that can be readily recalled by the recipient. 2. Pre-symptomatic transmission: direct transmission from an individual that occurs before the source individual experiences noticeable symptoms. (Note that this definition may be context specific, for example based on whether it is the source or the recipient who is asked whether the symptoms were noticeable.) 3. Asymptomatic transmission: direct transmission from individuals who never experience noticeable symptoms. This can only be established by follow-up, as single time-point observation cannot fully distinguish asymptomatic from pre-symptomatic individuals. 4. Environmental transmission: transmission via contamination, and specifically in a way that would not typically be attributable to contact with the source in a contact survey (i.e. we exclude from this transmission pairs who were in extended close contact, but for whom in reality the infectious dose passed via the environment instead of more directly). These could be identified in an analysis of spatial movements. We acknowledge that boundaries between these categories may be blurred, but these broadly have different implications for prevention. These will be spelled out in future work on modelling different prevention approaches, and may be mapped to other modelling studies, some old and general ( 5 ) ( 6 ) and one more specific to COVID-19 ( 7 ) .",
+            "cite_spans": [
+                {
+                    "start": 183,
+                    "end": 188,
+                    "text": "( 2 )",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 217,
+                    "end": 222,
+                    "text": "( 3 )",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 271,
+                    "end": 276,
+                    "text": "( 4 )",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1979,
+                    "end": 1984,
+                    "text": "( 7 )",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Evidence exists that each of these routes of transmission is possible: symptomatic ( 8 ) , pre-symptomatic ( 9 ) ; asymptomatic ( 10 ) ; and environmental ( 8 ) . For prevention, the crucial information is the relative frequency of different routes of transmission: finite resources must be divided between different intervention strategies.",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 160,
+                    "text": "( 8 )",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Li et al ( 8 ) presented self-reported data on exposure for the first 425 cases in Wuhan. Some of these reported visiting the Huanan Seafood Wholesale Market; the generalisability of transmission in that setting to other settings is highly uncertain, as this large-scale event seeded the epidemic in the absence of any knowledge about the disease. After closure of the Huanan Seafood Wholesale Market on January 1st, of 240 cases with no exposure to any wet market, 200 individuals (83%) reported no exposure to an individual with respiratory symptoms. Inaccurate recall may explain some responses, but unlikely as much as 83% of them.",
+            "cite_spans": [
+                {
+                    "start": 9,
+                    "end": 14,
+                    "text": "( 8 )",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The situation in Singapore at first glance appears quite different. As of March 5th, 2020, there have been 117 cases, of which 25 were imported. By devoting considerable resources including police investigation, 75 of the 92 cases of local transmission have been traced back to their presumed exposure, either to a known case or to a location linked to spread (https://infographics.channelnewsasia.com/covid-19/coronavirus-singapore-clusters.html?cid=FBcna). However, linking two cases generally includes the possibility that one infected the other pre-symptomatically and only later became symptomatic; furthermore, linking cases via a location generally includes the possibility of environmentally mediated transmission. Therefore the large fraction of traceable transmission here does not contradict the large fraction without symptomatic exposure in Wuhan. A conservative reading of the Singapore data serves only as evidence against a large role of asymptomatic transmission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The most accurate and robust quantification of the relative frequency of routes of transmission would be a well-designed prospective cohort study with detailed journal and phylogenetic investigations. However, the current global emergency requires timely estimates using imperfect data sources. We performed a detailed analysis of the timing of events in defined transmission pairs, derived the generation time distribution, and attributed a probability for each pair that transmission was pre-symptomatic. We also fit a mathematical model of infectiousness, through the four routes discussed above, over the course of infection. This allowed us to calculate the R 0 , estimate the proportion of transmission from different routes, and make predictions about whether contact tracing and isolation of known cases is sufficient to prevent a large-scale spread of the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Exponential doubling time, T 2 . We calculated the exponential growth rate of the epidemic, r , from the early stages of the epidemic in China, such that the effect of control measures discussed later will be relative to the early stages of an outbreak, exemplified by baseline contact patterns and environmental conditions in Hubei during that period. We note that this assumption is implicit in many estimates of R 0 . The epidemic doubling time T 2 , equal to log e (2) / r , was previously estimated as 7.4 days (95% confidence interval (CI) 4.2 to 14) from data on the first 425 cases in Wuhan ( 8 ) , and independently as 7.2 days (95% credible interval 4.7 to 16.3) by phylodynamic analysis of 86 whole SARS-CoV-2 genomes ( http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020/356 ). We analysed the former data source together with the China Centre for Disease Control counts of daily confirmed cases (http://2019ncov.chinacdc.cn/2019-nCoV/), visually identified two periods of consistent early exponential growth, and obtained a more precise combined estimate of T 2 = 5.0 days (95% CI 4.3 to 6.2). See Figure  1 .",
+            "cite_spans": [
+                {
+                    "start": 599,
+                    "end": 604,
+                    "text": "( 8 )",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1130,
+                    "end": 1139,
+                    "text": "Figure  1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . Figure 1 : daily counts from two sources. Numbers of people later reporting symptoms beginning that day, from the first 425 cases analysed by ( 8 ) , are shown for those reporting exposure to a wet market (red circles) and those reporting no exposure to any wet market (blue triangles). Also shown are numbers of people confirmed as cases each day (green squares) and number of deaths each day (purple plus signs) from China Centre for Disease Control data. Five visually identified periods of exponential growth have the best-fit linear model shown with a coloured line and 95% confidence intervals in grey shading. Two of these fits (blue and first green) were merged into a single best estimate of the epidemic exponential growth rate r (grey box). Counts of zero are shown on the x axis (log(0) being undefined).",
+            "cite_spans": [
+                {
+                    "start": 220,
+                    "end": 225,
+                    "text": "( 8 )",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 78,
+                    "end": 86,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The incubation period is defined as the time between infection and onset of symptoms. It is estimated as the time between exposure and report of noticeable symptoms. We used the incubation period distribution calculated by ( 11 ) . The distribution is lognormal with mean 5.5 days, median 5.2 days and standard deviation 2.1 days, and is included with our results in Figure 2 .",
+            "cite_spans": [
+                {
+                    "start": 223,
+                    "end": 229,
+                    "text": "( 11 )",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 367,
+                    "end": 375,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Incubation period distribution."
+        },
+        {
+            "text": "Generation time distribution. The generation time is defined for source-recipient transmission pairs as the time between the infection of the source and the infection of the recipient. Because time of infection is generally not known, the generation time is often approximated by the (clinical onset) serial interval, which is defined as the time between the onset of symptoms of the source and the onset of symptoms of the recipient. We did not take that approach here: we directly estimated the generation time distribution from 40 source-recipient pairs for whom direct transmission is suspected, and where time of onset of symptoms is known for both source and recipient. We combined dates of symptom onset with intervals of exposure for both source and recipient (when available) and the above distribution of incubation times, and inferred the distribution of generation times. The distribution is best described by a Weibull distribution with mean and median equal to 5.0 days and standard deviation of 1.9 days, shown in Figure  2 . We also show the results of sensitivity analysis to different functional forms, and compare to two previously published serial interval distributions -those of ( 12 ) and ( 8 ) . Our distribution is robust with respect to the choice of transmission events (Supplementary Figure 5) . The distribution of serial intervals for these pairs is shown in Supplementary Figure 3 . author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 1212,
+                    "end": 1217,
+                    "text": "( 8 )",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1029,
+                    "end": 1038,
+                    "text": "Figure  2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1312,
+                    "end": 1321,
+                    "text": "Figure 5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1389,
+                    "end": 1411,
+                    "text": "Supplementary Figure 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Incubation period distribution."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.08.20032946 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Incubation period distribution."
+        },
+        {
+            "text": "The proportion of transmissions from before symptoms develop. For each of the 40 transmission pairs we estimated the posterior probability that transmission was pre-symptomatic, i.e. occurred before the onset of symptoms in the infector. We used a Bayesian approach with an uninformative prior (transmission before or after symptoms equally likely). The 40 probabilities inferred are shown in Figure  3 ; the mean probability is 37% (95% CI: 27.5% -45%), which can be interpreted as the fraction of pre-symptomatic transmission events out of pre-symptomatic plus symptomatic transmission events. This value does not depend significantly on the choice for the functional form of the distribution of generation times ( Supplementary Figures 6-7) , or on the choice of transmission events (Supplementary Figure 8) . A general deterministic mathematical model of infectiousness. We use a mathematical formalism ( 13 ) that describes how infectiousness varies as a function of time since infection, , for a representative cohort of infected individuals. This includes heterogeneity between individuals, and averages over those individuals who infect few others and those who infect many. This average defines the function ( ). Infectiousness may change with due to both changing disease biology (notably viral shedding) and changing contact with others. The area under the curve is the reproduction number R 0 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 393,
+                    "end": 402,
+                    "text": "Figure  3",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 717,
+                    "end": 743,
+                    "text": "Supplementary Figures 6-7)",
+                    "ref_id": null
+                },
+                {
+                    "start": 801,
+                    "end": 810,
+                    "text": "Figure 8)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Incubation period distribution."
+        },
+        {
+            "text": "We decompose ( ) into four contributions that reflect our categorisation above, namely asymptomatic transmission, pre-symptomatic transmission, symptomatic transmission, and environmental transmission. The area under the curve of one of these contributions gives the mean total number of transmissions over All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Incubation period distribution."
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Incubation period distribution."
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.08.20032946 doi: medRxiv preprint one full infection, via that route -asymptomatic, pre-symptomatic, symptomatic or environmental -which we define to be R A , R P , R S and R E respectively. The sum of these is R 0 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Incubation period distribution."
+        },
+        {
+            "text": "s ( ) is the infectiousness of an individual currently either symptomatic or pre-symptomatic, at age-of-infection . All of the parameters feeding into the infectiousness model are listed in Table 1 . The infectiousness model result using central values of all parameters is shown in Figure 4 . author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Values are rounded to one decimal place. The total area from all colours is the basic reproduction number R 0 . Stopping disease spread requires reduction of R 0 to less than 1: blocking transmission, from whatever combination of colours and values of we can achieve, such that the total area is halved.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 190,
+                    "end": 197,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 283,
+                    "end": 291,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "Uncertainty analysis for the mathematical model of infectiousness. By drawing input parameter sets from the uncertainties shown in Table 1 , we quantified our uncertainty in R 0 and its four contributions.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 138,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "The resulting values are shown in Table 2 and their underlying distributions are shown in Figure 5 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 34,
+                    "end": 41,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 90,
+                    "end": 98,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.08.20032946 doi: medRxiv preprint Figure 5 : the probability density for output parameters of the infectiousness model, from sampling the uncertainty distributions of the input parameters. The top panels show absolute reproduction numbers: the four contributors to R 0 (from pre-symptomatic, symptomatic, asymptomatic and environmental transmission respectively, with the bin at 1.8 containing overflow) and R 0 itself. The bottom panels show the fractions of R 0 that each contribution represents.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 152,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "For comparison with our analysis of pre-symptomatic transmission just within the 40 transmission pairs, the estimate of R P /(R P +R S ) obtained by this method is 0.55 (0.36 -0.72).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "We define as the fraction of all transmissions that do not come from direct contact with a symptomatic individual:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": ". This corresponds to the of ( 5 ) in the case where there is only pre-symptomatic or /R 1 \u2212 R S 0 symptomatic transmission. From Table 2 this is 0.62 (0.50 -0.92). The value of observed during an exponentially growing epidemic will be distorted when the timing of the different contributions to transmission occur at different stages of the infection, due to over-representation of recently infected individuals. This effect can be calculated through use of the renewal equation, as was recently done to calculate the distribution of time from onset of COVID-19 symptoms to recovery or death ( 15 ) (see Supplementary Information) . We calculated the that would be observed with the early exponential growth seen in China as 0.68 (0.56 -0.93). The correction due to the epidemic dynamics is small compared to parameter uncertainties.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 130,
+                    "end": 137,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 605,
+                    "end": 631,
+                    "text": "Supplementary Information)",
+                    "ref_id": null
+                }
+            ],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "We developed our mathematical model of infectiousness into a web application where users can test the effect of alternative parameter combinations: https://bdi-pathogens.shinyapps.io/covid-19-transmission-routes",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "Interventions. Finally, we determined the combined impact of two interventions: (i) isolation of symptomatic individuals, and (ii) tracing the contacts of symptomatic cases and quarantining them. These interventions aim to stop the spread of the virus by reducing the number of transmissions from symptomatic individuals and from their contacts, while minimising the impact on the larger population. In practice, both these interventions are successful or possible only for a fraction of cases. The success rate of these interventions determines the long-term evolution of the epidemic. If the success rates are high enough, the combination of isolation and contact tracing/quarantining could bring R 0 below 1 and therefore effectively control the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "For classical contact tracing, results previously derived in ( 5 ) show that with any realistic implementation of contact tracing, epidemic control is not feasible. An algorithmic approach, embedded in a phone App or operating system, can make the contact tracing and notification instantaneous, and enables information to be spread to contacts whether recalled or not. This approach is mathematically solved analytically in Supplement Information for the case of algorithmic instantaneous contact tracing of first-degree (i.e. tracing and quarantining only contacts, not contacts of contacts).",
+            "cite_spans": [
+                {
+                    "start": 61,
+                    "end": 66,
+                    "text": "( 5 )",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "The success rates of this isolation and instantaneous contact tracing in achieving herd protection from SARS-CoV-2 epidemic is shown in Figure 6 for different values of R 0 . The red line corresponds to a central estimate of R 0 =2; any successful intervention requires success rates above the red line. These values depend on the incubation period and generation time. We also estimated the growth rate of the epidemic as a function of the success rates of the interventions and of the value of R 0 prior to the interventions ( Supplementary Figures 9 -15 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 136,
+                    "end": 144,
+                    "text": "Figure 6",
+                    "ref_id": null
+                },
+                {
+                    "start": 529,
+                    "end": 556,
+                    "text": "Supplementary Figures 9 -15",
+                    "ref_id": null
+                }
+            ],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "The calculation shown in Figure 6 used our inference of the generation time interval, which is limited so far by the early availability of data on known transmission pairs with known timings. However the position of the epidemic control threshold (red line) should prove relatively robust to future data on the generation time interval, assuming that the estimates on the growth rate of the epidemic, r , do not increase. For example, shifts to shorter generation times would mean earlier intervention is required in each individual's infection, but for fixed r this would also imply a smaller value of R 0 and therefore a smaller fractional reduction would be needed.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 25,
+                    "end": 33,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": "Inevitable delays in isolating individuals after they show symptoms reduce the effectiveness of the intervention, moving the boundary for epidemic control (the red line in Figure 6 ) out to larger values. The same is true of delays in quarantining contacts, however delays from confirming a case to finding their contacts are not inevitable. Specifically, this delay can be reduced to zero through the use of spatial information coupled to case detection, in the form of a simple app: see Discussion.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 172,
+                    "end": 180,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "The mathematical form for ( ) is:"
+        },
+        {
+            "text": ": heat map plot showing the maximum possible R 0 that could be contained (by reduction to less than 1) for a pathogen with the same generation time distribution that we have inferred for SARS-CoV-2, as a function of the success rate of instant isolation of symptomatic cases (x axis) and the success rate of instant contact tracing (y axis). Contours of constant R 0 on this plot show the different combinations of the two success rates that would be able to control the epidemic for an R 0 of that value. The solid red line is such a contour for our central estimate of R 0 for SARS-CoV-2, with the associated CIs in dashed red lines; these therefore show our best estimate of the required efficacy of case isolation and contact tracing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 6"
+        },
+        {
+            "text": "In this study, we estimate key parameters of the epidemic and use an analytically solvable model of the exponential phase of SARS-CoV-2. Our results suggest that a large fraction of all transmissions occur before individuals develop symptoms. Isolating symptomatic cases and tracking their contacts through classical epidemiological methods is therefore likely to be too slow and resource-intensive to achieve All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.08.20032946 doi: medRxiv preprint epidemic control. We suggest that a simple algorithm for first degree instantaneous contact tracing in the form of a mobile phone app could dramatically reduce onwards transmission from contacts, to a level that is sufficient to reach herd protection and so stop the virus from spreading in a population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our estimate of R 0 is lower than most previous published estimates, for example ( 16 ) ( 17 ) ( 8 ) , which have assumed SARS-like generation times; emerging evidence for shorter generation times for COVID-19 results in a smaller R 0 . This means a smaller fraction of transmissions need to be blocked for herd protection, but there is a smaller window of time for each infected individual to prevent their onward transmission.",
+            "cite_spans": [
+                {
+                    "start": 81,
+                    "end": 87,
+                    "text": "( 16 )",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 88,
+                    "end": 100,
+                    "text": "( 17 ) ( 8 )",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "We provide estimates of key quantities intended to help inform intervention strategies. We provide two approaches suggesting that between a third and a half of transmissions occur from pre-symptomatic individuals. Our infectiousness model suggests that the total contribution to R0 from pre-symptomatics is 0.9 (0.2 -1.1). For SARS, the corresponding estimate was almost zero ( 5 ) , immediately telling us that different containment strategies will be needed for COVID-19. While preparing this manuscript, results supporting a large role for pre-symptomatic submission were shared: Tindale et al. found that serial intervals in Tianjin and Singapore were on average 2-3 days shorter than incubation periods ( https://github.com/carolinecolijn/ClustersCOVID19/blob/master/COVID_19_Singapore_Tianjin_analysi sSUPP-joined.pdf ), consistent with our estimate of a shorter generation time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Cleaning and decontamination are being deployed to varying levels in different settings, and improved estimates would help inform this as a priority. For SARS, there were seemingly almost no asymptomatic infections ( 18 ) , whereas asymptomatic infection has been widely reported for COVID-19, e.g. ( 10 ) . We argue that the reports from Singapore imply that even if asymptomatic infections are common, onward transmission from this state is probably uncommon, since forensic reconstruction of the transmission networks has closed down most missing links. There is an important caveat to this: the Singapore outbreak to date is small, and has not implicated children. There is widespread speculation that children could be frequent asymptomatic carriers and potential sources of SARS-CoV-2 ( 19 ) , a finding that is being urgently explored.",
+            "cite_spans": [
+                {
+                    "start": 215,
+                    "end": 221,
+                    "text": "( 18 )",
+                    "ref_id": null
+                },
+                {
+                    "start": 299,
+                    "end": 305,
+                    "text": "( 10 )",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 791,
+                    "end": 797,
+                    "text": "( 19 )",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our model shows that the epidemic is highly unlikely to be contained by solely isolating symptomatic individuals. Published models ( 5 ) ( 20 ) ( 6 ) ( 7 ) suggest that in practice manual contact tracing can only improve on this to a limited extent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We have developed a web interface to explore the uncertainty in our modelling assumptions https://bdi-pathogens.shinyapps.io/covid-19-transmission-routes . This will also serve as an ongoing resource as new data becomes available and as the epidemic evolves.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "To control SARS-CoV-2 we need to reduce R 0 below 1; we do not need to stop all transmissions. Figure  4 , and its interactive web-interface, show the preventative potential of targeting different routes of transmission and different stages of the infection. Blocking transmission from individuals at early stages of their infection is generally more challenging. Contact tracing is made more effective by responding rapidly to an individual's first signs of symptoms, by instantaneously tracking down contacts of confirmed cases, and by general preventative population measures such as enhanced hand and respiratory hygiene, decontamination, and social distancing.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 95,
+                    "end": 104,
+                    "text": "Figure  4",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Digital contact tracing and quarantining could play a critical role both in reducing these delays and increasing success rates. Further modelling is required to compare the number of people disrupted under different scenarios consistent with herd protection. We do not agree with the assessment that a pandemic is inevitable, and recommend urgent exploration of means to reverse the current phase of exponential spread. ( 12 ) ; some we identified from other reports (see Supplementary Table) . The best fit among tested two-parameter distributions (lognormal, gamma, Weibull) was selected using the Akaike Information Criterion.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 472,
+                    "end": 492,
+                    "text": "Supplementary Table)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Probability of pre-symptomatic infection. The probability that infection occurred before onset of symptoms for the infector was estimated for each transmission pair using a Bayesian approach based on the best fit for the generation time distribution (see Supplementary Information) . This estimate assumes independence between generation time and incubation period, but takes into account the available information on period of exposure and onset of symptoms for each case.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 255,
+                    "end": 281,
+                    "text": "Supplementary Information)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "Exponential growth rate. We identified the dates following consistent early exponential growth as December 28th -January 8th inclusive for Li et al.'s dates of symptom onset for cases not linked with any wet market, and January 18th -26th inclusive for the Chinese CDC dates of case confirmation, as illustrated with the blue and earliest green line in Figure 1 . We fit a single linear model to log(case counts) from both of these periods, constraining both sets of counts to have the same gradient (but different intercept, due to the delay between onset of symptoms and case confirmation).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 353,
+                    "end": 361,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "Infectiousness model. Our model for infectiousness ( ) was solved first by fitting the shape of the pre-symptomatic + symptomatic contributions to our inferred generation time interval: these functions are proportional to each other when the transmission pairs analysed for the generation time distribution represent pre-symptomatic and symptomatic exposure in the proportion representative of overall epidemic spread. We make that assumption here. This assumption would be violated by biased selection of transmission pairs for sampling. For example if the infector being in a later, symptomatic stage of infection makes identification of the pair more likely, then a data set of identified pairs will be undersampled for pre-symptomatic exposure and will overestimate the typical generation time. The next step in solving the model was calculating the relative scaling constant of the environmental contribution to ( ) to give the required R E /R 0 , and finally the overall scaling constant of ( ) is determined to reproduce the observed exponential growth rate (see Supplementary Information) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1070,
+                    "end": 1096,
+                    "text": "Supplementary Information)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "We drew 10,000 input parameter sets from the uncertainties shown in Table 2 . For the data-driven parameters, these uncertainties are likelihoods, which can be interpreted as posteriors if one's prior is an improper uniform distribution; we fit lognormal distributions to the 95% CIs and central estimates in order to obtain the full distribution. For the other parameters, the uncertainty distributions are pure priors.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 68,
+                    "end": 75,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Infectiousness model uncertainty."
+        },
+        {
+            "text": "To calculate the impact of contact tracing and isolation, we followed the mathematical treatment of ( 5 ) , explained in detail in the Supplementary Information. Specifically, we solved for the epidemic dynamics of the quantity Y(t, , '): the number of individuals at time t who were infected at a time t -by individuals who were in turn infected at time t -', subject to case isolation and contact tracing interventions. Both interventions are assumed to be immediate upon individuals showing symptoms, but both have efficacies that can vary continuously between 0 and 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of interventions."
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The epidemiology of the outbreak of severe acute respiratory syndrome (SARS) in Hong Kong -what we do know and what we don't",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "T S"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J Y"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Epidemiology and Infection",
+            "volume": "132",
+            "issn": "",
+            "pages": "781--786",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Role of air distribution in SARS transmission during the largest nosocomial outbreak in Hong Kong",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "T S"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Indoor Air",
+            "volume": "15",
+            "issn": "",
+            "pages": "83--95",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Transmission of SARS and MERS coronaviruses and influenza virus in healthcare settings: the possible role of dry surface contamination",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Otter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Donskey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yezli",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Douthwaite",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Goldenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Weber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Hosp. Infect",
+            "volume": "92",
+            "issn": "",
+            "pages": "235--250",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Air, Surface Environmental, and Personal Protective Equipment Contamination by Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) From a Symptomatic Patient",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "W X"
+                    ],
+                    "last": "Ong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chia",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Marimuthu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.3227"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Factors that make an infectious disease outbreak controllable",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "101",
+            "issn": "",
+            "pages": "6146--6151",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Comparing nonpharmaceutical interventions for containing emerging epidemics",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Peak",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Childs",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Grad",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Buckee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "114",
+            "issn": "",
+            "pages": "4023--4028",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Centre for the Mathematical Modelling of Infectious Diseases COVID-19 Working Group",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hellewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gimma",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Bosse",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Jarvis",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Munday",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                },
+                {
+                    "first": ";",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Eggo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2214-109X(20)30074-7"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Potential Presymptomatic Transmission of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "Z.-D",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-P",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-B",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg. Infect. Dis",
+            "volume": "26",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid2605.200198"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Presumed Asymptomatic Carrier Transmission of COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.-Y",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.2565"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The incubation period of 2019-nCoV from publicly reported confirmed cases: estimation and application",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Grantz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Meredith",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Azman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Reich",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lessler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "medRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.02.20020016"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Serial interval of novel coronavirus (2019-nCoV) infections",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Linton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Akhmetzhanov",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.03.20019497"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Mathematical models of infectious disease transmission",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Grassly",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Nature Reviews Microbiology",
+            "volume": "6",
+            "issn": "",
+            "pages": "477--487",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Persistence of coronaviruses on inanimate surfaces and their inactivation with biocidal agents",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kampf",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Todt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pfaender",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Steinmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Hospital Infection",
+            "volume": "104",
+            "issn": "",
+            "pages": "246--251",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Severity of 2019-novel coronavirus (nCoV). online report",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Dorigatti",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Okell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cori",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baguelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhatia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Boonyasiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cucunub\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cuomo-Dannenburg",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fitzjohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gaythorpe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hamlet",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hinsley",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kwun",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Laydon",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Nedjati-Gilani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Elsland",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Volz",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Walters",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Donnelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ghani",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ran",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Musa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Infect. Dis",
+            "volume": "92",
+            "issn": "",
+            "pages": "214--217",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Preliminary prediction of the basic reproduction number of the Wuhan novel coronavirus 2019-nCoV",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Evid. Based Med",
+            "volume": "13",
+            "issn": "",
+            "pages": "3--7",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "SARS-CoV antibody prevalence in all Hong Kong patient contacts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.-H",
+                    "middle": [],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hedley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Emerg. Infect. Dis",
+            "volume": "10",
+            "issn": "",
+            "pages": "1653--1656",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A Well Infant with Coronavirus Disease 2019 (COVID-19) with High Viral Load",
+            "authors": [
+                {
+                    "first": "K.-Q",
+                    "middle": [],
+                    "last": "Kam",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Yung",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lin Tzer Pin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mak",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Maiwald",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nadua",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "W H"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Thoon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin. Infect. Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa201"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The Effectiveness of Contact Tracing in Emerging Epidemics",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klinkenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "PLoS ONE",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Importation and Human-to-Human Transmission of a Novel Coronavirus in Vietnam",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Phan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Luong",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Le",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "872--874",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Epidemiologic characteristics of early cases with 2019 novel coronavirus (2019-nCoV) disease in Republic of Korea",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Task Force for 2019-nCoV",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4178/epih.e2020007"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rothe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schunk",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sothmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bretzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Froeschl",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wallrauch",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zimmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Thiel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Janke",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guggemos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Seilmaier",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vollmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zwirglmaier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zange",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "W\u00f6lfel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoelscher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/nejmc2001468"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "our inferred generation time distributions, in black. Thicker lines denote higher support for the corresponding functional form, with the Weibull distribution being the best fit. For comparison we also include the serial interval distributions previously reported by ( 8 ) (in light blue) and ( 12 ) (in grey), and the incubation period distribution we used here from ( 11 ) . All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "distribution of the posterior probability of pre-symptomatic transmission among all 40 transmission pairs studied here. The red line indicates the mean probability of transmission occurring before the onset of symptoms in the infector.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "the average infectiousness (rate of infecting others), , as a function of the amount of time one has been infected, . The contributions of four routes of transmission are shown in colours, stacked on top of one another, so that the total area of one colour is the average number of transmissions via that route over the whole course of infection.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Generation time distribution. The distribution of generation times was inferred by Maximum Composite Likelihood (see Supplementary Information) from serial intervals and exposure periods of 40 transmission pairs with known dates of onset of symptoms. Some of the 40 transmission pairs were taken from references ( 21 ) , ( 22 ) , ( 23 ) , ( 8 ) ; some taken from a previous estimate of serial intervals",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Parameters of the infectiousness model",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "R 0 and its components.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Will Probert, Lucie Abeler-D\u00f6rner, Andrei Akhmetzhanov, Alice Ledda, Ben Cowling and Gabriel Leung for helpful comments. This work was funded by the Li Ka Shing Foundation. The funder played no role in study conception or execution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

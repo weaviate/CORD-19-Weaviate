@@ -1,0 +1,2477 @@
+{
+    "paper_id": "ddc40ffc47069f3714c8da65843f36f41ed0f8bb",
+    "metadata": {
+        "title": "A Cryptic Site of Vulnerability on the Receptor Binding Domain of the SARS-CoV-2 Spike Glycoprotein",
+        "authors": [
+            {
+                "first": "M",
+                "middle": [],
+                "last": "Gordon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Joyce",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": "gjoyce@eidresearch.orgm.g.j"
+            },
+            {
+                "first": "Rajeshwer",
+                "middle": [
+                    "S"
+                ],
+                "last": "Sankhala",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wei-Hung",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Misook",
+                "middle": [],
+                "last": "Choe",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hongjun",
+                "middle": [],
+                "last": "Bai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Agnes",
+                "middle": [],
+                "last": "Hajduczki",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lianying",
+                "middle": [],
+                "last": "Yan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University",
+                    "location": {
+                        "settlement": "Bethesda, Bethesda",
+                        "region": "MD, MD",
+                        "country": "USA, USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Spencer",
+                "middle": [
+                    "L"
+                ],
+                "last": "Sterling",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University",
+                    "location": {
+                        "settlement": "Bethesda, Bethesda",
+                        "region": "MD, MD",
+                        "country": "USA, USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Caroline",
+                "middle": [
+                    "E"
+                ],
+                "last": "Peterson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ethan",
+                "middle": [
+                    "C"
+                ],
+                "last": "Green",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University",
+                    "location": {
+                        "settlement": "Bethesda, Bethesda",
+                        "region": "MD, MD",
+                        "country": "USA, USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Clayton",
+                "middle": [],
+                "last": "Smith",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Frederick",
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Natalia",
+                "middle": [],
+                "last": "De Val",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Frederick",
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mihret",
+                "middle": [],
+                "last": "Amare",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Paul",
+                "middle": [],
+                "last": "Scott",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Eric",
+                "middle": [
+                    "D"
+                ],
+                "last": "Laing",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University",
+                    "location": {
+                        "settlement": "Bethesda, Bethesda",
+                        "region": "MD, MD",
+                        "country": "USA, USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Christopher",
+                "middle": [
+                    "C"
+                ],
+                "last": "Broder",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University",
+                    "location": {
+                        "settlement": "Bethesda, Bethesda",
+                        "region": "MD, MD",
+                        "country": "USA, USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Morgane",
+                "middle": [],
+                "last": "Rolland",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nelson",
+                "middle": [
+                    "L"
+                ],
+                "last": "Michael",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kayvon",
+                "middle": [],
+                "last": "Modjarrad",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Silver Spring",
+                    "location": {
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": "kayvon.modjarrad.civ@mail.milk.m."
+            },
+            {
+                "first": "Henry",
+                "middle": [
+                    "M"
+                ],
+                "last": "Jackson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "SARS-CoV-2 is a zoonotic virus that has caused a pandemic of severe respiratory disease-COVID-19within several months of its initial identification. Comparable to the first SARS-CoV, this novel coronavirus's surface Spike (S) glycoprotein mediates cell entry via the human ACE-2 receptor, and, thus, is the principal target for the development of vaccines and immunotherapeutics. Molecular information on the SARS-CoV-2 S glycoprotein remains limited. Here we report the crystal structure of the SARS-CoV-2 S receptor-binding-domain (RBD) at a the highest resolution to date, of 1.95 \u00c5. We identified a set of SARS-reactive monoclonal antibodies with cross-reactivity to SARS-CoV-2 RBD and other betacoronavirus S glycoproteins. One of these antibodies, CR3022, was previously shown to synergize with antibodies that target the ACE-2 binding site on the SARS-CoV RBD and reduce viral escape capacity. We determined the structure of CR3022, in complex with the SARS-CoV-2 RBD, and defined a broadly reactive epitope that is highly conserved across betacoronaviruses. This epitope is inaccessible in the \"closed\" prefusion S structure, but is accessible in \"open\" conformations. This first-ever resolution of a human antibody in complex with SARS-CoV-2 and the broad reactivity of this set of antibodies to a conserved betacoronavirus epitope will allow antigenic assessment of vaccine candidates, and provide a framework for accelerated vaccine, immunotherapeutic and diagnostic strategies against SARS-CoV-2 and related betacoronaviruses. : bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "High resolution structure of the SARS-CoV-2 Receptor-Binding-Domain (RBD).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Structure of the SARS-COV-2 RBD in complex with antibody CR3022.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Identification of a cryptic site of vulnerability on the SARS-CoV-2 Spike. : bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Recently, the molecular structure of recombinant full-length SARS-CoV-2 Spike protein was solved in a stabilized pre-fusion state, by single particle cryo-Electron Microscopy (cryo-EM), at a resolution of 3.8 \u00c5 (Wrapp et al., 2020) . Despite the comprehensive structural characterization of the spike protein as a whole, movement of the RBD between \"up\" and \"down\" conformational states prevented complete modeling of the RBD domains. Subsequent cryo-EM investigations of SARS-CoV-2 provided more detail of RBD, particularly at sites that contact the human ACE-2 receptor (Yan et al., 2020a) . Here, we report the first high resolution-less than 2 \u00c5-SARS-CoV-2 RBD. Additionally, we present the antigenicity of this recombinant RBD, particularly of interest, given the equipoise in the literature regarding the binding affinities of SARS-CoV antibodies for SARS-CoV-2 RBD. Early reports, have described that the human SARS-CoV antibody, CR3022, is able to bind to the SARS-CoV-2 RBD. In the present study, we verify binding, and subsequently solved the structure of SARS-CoV-2 RBD in complex with CR3022 with a novel \"cryptic\" epitope.",
+            "cite_spans": [
+                {
+                    "start": 211,
+                    "end": 231,
+                    "text": "(Wrapp et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 572,
+                    "end": 591,
+                    "text": "(Yan et al., 2020a)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "RESULTS",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The SARS-CoV-2 RBD (residues 313-532), with a C-terminal His-tag, was expressed in 293F cells, and purified by NiNTA affinity, and size-exclusion chromatography. Crystallization condition screening identified 20% Jeffamine D2000, 10% Jeffamine M2005, 0.2 M NaCl, 0.1M MES pH 5.5 for diffraction quality crystal growth. Crystals diffracted to <1.8 \u00c5 in group P 41 21 2 and to a complete dataset to 1.95 \u00c5 that could be scaled and processed ( Table 1) . The structure was refined to an Rfree of 20% and Rwork of 22% with no Ramachandran outliers. S residues 313-532 were clearly interpretable from the electron density map, with a dual conformation of a loop containing residues 484 to 487 clearly visible in the electron density map (Figure 1) . Structure comparison of the unliganded RBD structure presented here, with the stabilized prefusion SARS-CoV-2 Spike (S-2P) molecule structure determined by Cryo-EM (PDB ID: 6VSB) (Wrapp et al., 2020) shows high structural similarity, with an RMSD of 0.68, 0.68, and 0.71 for each of the spike protomers. In the structure of the S-2P molecule (S-2P) (Wrapp et al., 2020) 25, 29 or 49",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 441,
+                    "end": 449,
+                    "text": "Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 732,
+                    "end": 742,
+                    "text": "(Figure 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The emergence of SARS-CoV-2 marks the seventh coronavirus to be isolated from humans, and the third to cause a severe disease-named COVID-19-after severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) . The rapid spread of SARS-CoV-2, and the grave risk it poses to global health, prompted the World Health Organization to declare, on 30 January 2020, the COVID-19 outbreak to be a public health emergency of international concern and on 11",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 187,
+                    "text": "(SARS)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "March 2020 to be a pandemic Zhou et al., 2020) . As of 13 March 2020, there have been nearly 140000 SARS-CoV-2 infections and more than 5000 associated deaths reported across at least 100 countries. The rapidly evolving epidemiology of the pandemic and absence of licensed prophylactics or therapeutics for the disease have accelerated the need to elucidate the molecular biology of this novel coronavirus.",
+            "cite_spans": [
+                {
+                    "start": 28,
+                    "end": 46,
+                    "text": "Zhou et al., 2020)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Although SARS-CoV-2 is a newly identified virus, it shares genetic and morphologic features with others in the Coronaviridae family, particularly those from the Betacoronavirus genus. The genome of the recently isolated SARS-CoV-2 shares 82% nucleotide identity with human SARS-CoV and 89% with bat SARS-like-CoVZXC21 . The spike (S) glycoprotein, in particular, bears significant structural homology with SARS-CoV compared to other coronaviruses such as MERS-CoV. Like SARS-CoV, the surface Spike (S) glycoprotein of SARS-CoV-2 binds the same host receptor, ACE-2, to mediate cell entry (Letko et al., 2020; Yan et al., 2020a) . S-a class I fusion protein-is also a critical determinant of viral host range and tissue tropism and the primary target of the host immune response (Li, 2016) . As such, most coronavirus vaccine candidates are based on S or one of its sub-components. Coronavirus S glycoproteins contain three segments: a large ectodomain, a single-pass transmembrane anchor and a short intracellular tail. The ectodomain consists of a receptor-binding subunit, S1, which contains two subdomains: one at the N-terminus and the other at the C-terminus. The latter comprises the receptor-binding domain (RBD), which serves the vital function of attaching the virus to the host receptor and triggering a conformational change in the protein that results in fusion with the host cell membrane through the S2 subunit. a CC0 license. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi. org/10.1101 org/10. /2020 amino acids (aa) within each protomer RBD are not modeled, including 40% of the ACE-2 receptor binding site as measured by buried surface area (BSA) (Yan et al., 2020b) . The SARS-CoV RBD-2 compared to liganded (PDB ID: 2AJF) and unliganded (PDB ID: 2GHV) SARS-CoV RBD structures shows high structural similarity, except for residues 473-488 (Figure 1) . A chimeric SARS-CoV-2 RBD structure (PDB ID: 6VW1) with 23 aa differences compared to SARS-CoV-2, in complex with human ACE-2 was recently released in the PDB. Comparisons with previously published structures with the SARS-CoV-2 RBD highlight residues 473-488 as an area with significant structural plasticity. In the RBD structure from this study, we observe electron density for two conformations of the 482-486 loop. One of these conformations is highly similar to the ligand bound form of the RBD, while the second conformation would clash with the ACE2 receptor. Both this structural detail of the unliganded RBD and comparison to previously described RBD structures indicates that this area of the RBD is structurally malleable with implications for antibody or small molecule therapeutics design.",
+            "cite_spans": [
+                {
+                    "start": 588,
+                    "end": 608,
+                    "text": "(Letko et al., 2020;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 609,
+                    "end": 627,
+                    "text": "Yan et al., 2020a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 778,
+                    "end": 788,
+                    "text": "(Li, 2016)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1674,
+                    "end": 1685,
+                    "text": "org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 1686,
+                    "end": 1699,
+                    "text": "org/10. /2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 1849,
+                    "end": 1868,
+                    "text": "(Yan et al., 2020b)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2042,
+                    "end": 2052,
+                    "text": "(Figure 1)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In an effort to identify antibodies that could bind to SARS-CoV-2, we screened a set of SARS-CoV, (Tripp et al., 2005) and MERS CoV (Wang et al., 2018; Wang et al., 2015) RBD-reactive antibodies for binding to the SARS-CoV-2 RBD. We demonstrated that the SARS-CoV mouse antibody 240CD (Tripp et al., 2005) had nanomolar (nM) affinity for the SARS-CoV-2 RBD and did not significantly block ACE-2 receptor binding (Figure 2 ). CR3022-a SARS-CoV neutralizing antibody (Tian et al., 2020) identified from a human phage-display library (ter Meulen et al., 2006) -also bound to SARS-CoV-2 RBD with nM affinity ( Figure 2B) . We assessed competition binding between 240CD and CR3022, and show that these antibodies cross-compete with each other for binding to the SARS-CoV-2 RBD (Figure 2C, 2D) .",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 118,
+                    "text": "(Tripp et al., 2005)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 132,
+                    "end": 151,
+                    "text": "(Wang et al., 2018;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 152,
+                    "end": 170,
+                    "text": "Wang et al., 2015)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 285,
+                    "end": 305,
+                    "text": "(Tripp et al., 2005)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 531,
+                    "end": 556,
+                    "text": "(ter Meulen et al., 2006)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 412,
+                    "end": 421,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 606,
+                    "end": 616,
+                    "text": "Figure 2B)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 772,
+                    "end": 787,
+                    "text": "(Figure 2C, 2D)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Identification of a set of cross-reactive SARS-CoV-2 antibodies"
+        },
+        {
+            "text": "SARS-CoV-2 has a likely zoonotic origin and horseshoe bats have been implicated as natural reservoirs of both SARS-CoV and SARS-CoV-2 (Menachery et al., 2015; Zhou et al., 2020) . As such, we next explored antibody cross-reactivity with the S glycoproteins of two bat SARS-related CoVs: SARSr-CoV Rs4874 (Ge et al., 2013; Yang et al., 2015) and Rs4231 (Hu et al., 2017) , which are closely related to a CC0 license. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https: //doi.org/10.1101 //doi.org/10. /2020 the progenitor of SARS-CoV and retain the ability to utilize human ACE-2. CR3022 was able to recognize a recombinant Spike glycoproteins generated from bat SARSr-CoV Rs4874, while 240CD, and other mouse generated monoclonal antibodies have a mixed recognition phenotype ( Figure 2F ).",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 158,
+                    "text": "(Menachery et al., 2015;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 159,
+                    "end": 177,
+                    "text": "Zhou et al., 2020)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 304,
+                    "end": 321,
+                    "text": "(Ge et al., 2013;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 322,
+                    "end": 340,
+                    "text": "Yang et al., 2015)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 352,
+                    "end": 369,
+                    "text": "(Hu et al., 2017)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 643,
+                    "end": 660,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 661,
+                    "end": 680,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 953,
+                    "end": 962,
+                    "text": "Figure 2F",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Identification of a set of cross-reactive SARS-CoV-2 antibodies"
+        },
+        {
+            "text": "The antigenic cross-reactivity of this set of antibodies precipitated an investigation into their molecular recognition determinants. The potential relevance of a human antibody motivated the investigation to prioritize studies of CR3022, for which a sequence was available (ter Meulen et al., 2006) .",
+            "cite_spans": [
+                {
+                    "start": 274,
+                    "end": 299,
+                    "text": "(ter Meulen et al., 2006)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Crystal structure of antibody CR3022 in complex with SARS-CoV-2 RBD"
+        },
+        {
+            "text": "The CR3022 heavy chain is encoded by IGHV5-51*03, contains a 12-aa CDR H3 with 8 V gene-encoded residues altered by somatic hypermutation. CR3022 light chain is encoded by IGKV4-1*01 with 1 V geneencoded residue, altered by somatic hypermutation, and a 9-aa CDR L3 (Extended Data Figure 2A ). To provide an atomic-level understanding of the structure of the CR3022 antibody, we crystallized the antigenbinding fragment (Fab) of CR3022. Crystals diffracted to 3.2 \u00c5 resolution in space group P 21 (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 280,
+                    "end": 289,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 496,
+                    "end": 505,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Crystal structure of antibody CR3022 in complex with SARS-CoV-2 RBD"
+        },
+        {
+            "text": "Overall the structure of the CR3022 Fab revealed a relatively flat antigen-combining site, with the exception of an extended protruding 12-aa CDR L1 loop ( Figure S2A ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 156,
+                    "end": 166,
+                    "text": "Figure S2A",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Crystal structure of antibody CR3022 in complex with SARS-CoV-2 RBD"
+        },
+        {
+            "text": "To determine the structure of CR3022 in complex with the SARS-CoV-2 RBD, we carried out crystallization conditions screening, with crystals of the CR3022-RBD complex forming in 1M Succinic acid, 0.1M Hepes pH 7, 2% PEG MME2000 and determined the crystal structure by X-ray diffraction to 4.25 \u00c5 ( Table 1 ). The complex structure was solved by molecular replacement using the refined CR3022 and SARS-CoV-2 RBD structures as search models and was refined to an Rwork/Rfree of 0.242/0.292 (Table   1) . CR3022 bound to the RBD at an epitope centered on S glycoprotein residues 377-386 with a total buried surface area of 871 \u00c5 (Figure 3, Figure S2 , and Table S1 ). This region is highly conserved between SARS-CoV and SARS-CoV-2 ( Figure S3) . Comparison of the CR3022 epitope site with previously described antibody-complex structures for SARS-CoV, and MERS-CoV indicates that CR3022 describes a novel recognition site (Figure 3 and Figs. S3, S4) . Further sequence analysis of the epitope indicates that this epitope is conserved in betacoronavirus clade 2b, with also some similarity in clade 2d (Fig. S3) . To confirm a CC0 license. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . that this site was also shared with 240CD, we produced an RBD knockout mutant by introducing a glycan sequon at position 384, and by biolayer interferometry show that both CR3022 and 240CD binding to the RBD can be eliminated by the introduction of a glycan at this site (Fig. S2D ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 297,
+                    "end": 304,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 487,
+                    "end": 498,
+                    "text": "(Table   1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 625,
+                    "end": 645,
+                    "text": "(Figure 3, Figure S2",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 652,
+                    "end": 660,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 730,
+                    "end": 740,
+                    "text": "Figure S3)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 919,
+                    "end": 946,
+                    "text": "(Figure 3 and Figs. S3, S4)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1098,
+                    "end": 1107,
+                    "text": "(Fig. S3)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1627,
+                    "end": 1636,
+                    "text": "(Fig. S2D",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Crystal structure of antibody CR3022 in complex with SARS-CoV-2 RBD"
+        },
+        {
+            "text": "The epitope conservation within the clade explains the antigenic cross-reactivity with both human SARS-CoV and bat SARS related CoV. To date, there has been extensive structural characterization of the SARS-CoV, and MERS-CoV spike molecule and domains, which provides a framework for understanding the novel SARS-CoV-2 spike molecule (Table S2 ). In the context of the coronavirus trimeric S glycoproteins, the RBD displays two prototypical conformations either in an \"up\" or \"down\" position, with implications for receptor binding and cell entry ( Table S1 ). To further analyze these conformations, we modeled the CR3022 binding to the trimeric structures of SARS-CoV-2, SARS-CoV and MERS-CoV. The CR3022 epitope is occluded by adjacent spike protomers when the RBD is in the \"down\" conformation, but becomes more accessible when the spike is in a more open conformation here multiple RBD molecules are in the \"up\" conformation ( Figure 4) . There is still a clash of the antibody Fc1 region with the NTD from the same protomer, or an RBD from an adjacent protomer when modeled using the static structure.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 334,
+                    "end": 343,
+                    "text": "(Table S2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 549,
+                    "end": 557,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 932,
+                    "end": 941,
+                    "text": "Figure 4)",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Identification of a cryptic site of vulnerability recognized by CR3022"
+        },
+        {
+            "text": "To understand whether CR3022 could bind to SARS-CoV S glycoproteins, we measured binding to stabilized S-2P or non-stabilized versions of S (Figure 4) . We observed robust binding to the nonstabilized S glycoprotein, while binding to SARS S-2P Trimer was low. We then treated the SARS S-2P trimer with trypsin and/or incubation with the ACE2 receptor to assess whether minimal proteolytic action or receptor binding could increase the availability of the \"cryptic\" CR3022 epitope. Incubation of the stabilized S-2P trimer with human ACE2 did not dramatically affect CR3022 binding, while in contrast, the trypsin treatment of the S-2P protein resulted in increased binding akin to the unstabilized S glycoprotein binding, and the level of binding was titratable, with increasing amounts of S-2P resulting in higher CR3022 binding. Given the prior neutralization and protection studies utilizing CR3022, and its ability to complement potent neutralizing antibodies, it is likely that the CR3022 epitope represents a \"cryptic\" epitope that becomes exposed during the processes of viral cell entry.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 140,
+                    "end": 150,
+                    "text": "(Figure 4)",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Identification of a cryptic site of vulnerability recognized by CR3022"
+        },
+        {
+            "text": "In summary, our data represents the most detailed structural information for the SARS-CoV-2 RBD to date and the first structure of the SARS-CoV-2 in complex with a human antibody. The presence of \"cryptic\" but protective epitopes for influenza (Bangaru et al., 2019) , and Ebola viruses (West et al., 2018) , have been previously described. The identification of a novel \"cryptic\" epitope for betacoronaviruses including SARS-CoV, and SARS-CoV-2 highlight a novel viral vulnerability that can be harnessed in combination with ACE2 receptor site targeting monoclonal antibodies for vaccine and therapeutic countermeasure development.",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 266,
+                    "text": "(Bangaru et al., 2019)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 287,
+                    "end": 306,
+                    "text": "(West et al., 2018)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Identification of a cryptic site of vulnerability recognized by CR3022"
+        },
+        {
+            "text": "This work was supported by funding from the Defense Health Agency, as well as a cooperative agreement (Similar to 540C), NR-618. We thank the authors who made their SARS-CoV-2 genome sequences available through GISAID or GenBank. The opinions or assertions contained herein are the private views of the authors, and are not to be construed as official, or as reflecting true views of the Department of the Army or the Department of Defense. a CC0 license. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGEMENTS"
+        },
+        {
+            "text": "CR3022 to SARS-CoV-2 RBD measured by biolayer interferometry. Kinetic constants were determined were calculated using a minimum of four dilutions of the RBD and fitted using a 1:1 binding model. C,D, Competition binding of antibodies CR3022 and 240CD to SARS-CoV-2 RBD. CR3022 or control antibody was allowed to bind to SARS-COV-2 prior to binding to 240CD or vice-versa. E SARS-CoV-2 RBD was sequentially bound by antibodies CR3022 or 240CD followed by soluble human ACE2 receptor. F SARS-CoV reactive antibodies were assessed for binding to bat SARS-related CoV Rs4784 and Rs4231 S glycoproteins. Residues which differ between SARS-CoV-2 and SARS-CoV are colored red. The CR3022 epitope is outlined in blue, and Thr-430 and Phe-384 located within the epitope are labeled. C The location of antibody CR3022, 230S, 80R, m396 and F26G19 epitopes and ACE-2 binding site on the RBD are outlined on the surface of the SARS-CoV-2 RBD. a CC0 license.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 2. Antigenic characterization of SARS-CoV-2 RBD. A,B, Binding kinetics of 240CD and"
+        },
+        {
+            "text": "author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint Figure 4 . Identification of CR3022 epitope as a \"cryptic\" epitope. Structural alignment of the SARS-CoV-2 RBD-CR3022 complex with the SARS-CoV S-2P structure. A The RBD-CR3022 structure is aligned to the SARS-CoV trimer structure (surface representation; PDB ID: 6CS1), where two RBD molecules are located in the \"up\" conformation. In this static structure, the Fc1 region of CR3022 (ribbon representation) clashes with the NTD of the same protomer. However, the epitope is fully accessible when more than one RBD is in the \"up\" representation. B Biolayer interferometry measurement of CR3022 binding to SARS S proteins with trypsin treatment or ACE2 receptor binding. C CR3022 binding to a serial dilution of SARS S-2P protein following trypsin treatment. a CC0 license.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 284,
+                    "end": 292,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Figure 2. Antigenic characterization of SARS-CoV-2 RBD. A,B, Binding kinetics of 240CD and"
+        },
+        {
+            "text": "author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 2. Antigenic characterization of SARS-CoV-2 RBD. A,B, Binding kinetics of 240CD and"
+        },
+        {
+            "text": "The Shanghai Public Health Clinical Center & School of Public Health, in collaboration with the Central Hospital of Wuhan, Huazhong University of Science and Technology, the Wuhan Center for Disease Control and Prevention, the National Institute for Communicable Disease Control and Prevention, Chinese",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Production of recombinant proteins"
+        },
+        {
+            "text": "Center for Disease Control, and the University of Sydney, Sydney, Australia released the sequence of a coronavirus genome from a case of a respiratory disease from Wuhan on January 10 th available at recombinomics.co/topic/4351-wuhan-coronavirus-2019-ncov-sequences/. The sequence was also deposited in GenBank (accession MN908947) and GISAID (>EPI_ISL_402125). DNA encoding the SARS-Cov-2 RBD (residues 331-527) was synthesized (Genscript) with a C-terminal His6 purification tag and cloned into a CMVR plasmid, and protein was expressed by transient transfection in 293F cells for six days. The SARS-CoV-2 RBD-His protein was purified from cell culture supernatant using a Ni-NTA (Qiagen) affinity column. DNA encoding the S protein ectodomains (residues 1-1194) from bat SARSrelated CoV isolates Rs4231 and Rs4874 (ref. (Hu et al., 2017) ) were synthesized (Genscript) with a Cterminal T4-Foldon domain or C-terminal GCN domain, respectively, followed by factor xA cleavage sites and Strep-Tactin purification tags. Bat SARSr-CoV S genes were cloned into a modified pcDNA3.1 expression plasmid (Chan et al., 2009) . Protein was initially expressed by transient transfection in 293F cells for six days, then serial cloned to select stably expressing cell lines (Yan L., in submission) . The Rs4231-T4 and Rs4874-GCN S proteins were purified from cell culture supernatant using a Strep-Tactin affinity column. The oligomeric structure of these S proteins was selected by size exclusion chromatography (GE/AKTA) and trimeric S proteins were confirmed by Native-PAGE. SARS S-2P was produced as previously described, with Strep-Tactin affinity chromatography followed by gel filtration using a 16/60 Superdex-200 purification column. Purification purity for all S glycoproteins was assessed by SDS-PAGE.",
+            "cite_spans": [
+                {
+                    "start": 823,
+                    "end": 840,
+                    "text": "(Hu et al., 2017)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1097,
+                    "end": 1116,
+                    "text": "(Chan et al., 2009)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1263,
+                    "end": 1286,
+                    "text": "(Yan L., in submission)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Production of recombinant proteins"
+        },
+        {
+            "text": "The sequences of the CR3022 variable regions of the heavy and light chains are available in GenBank under accession numbers DQ168569 and DQ168570, respectively (ter Meulen et al., 2006) . These a CC0 license.",
+            "cite_spans": [
+                {
+                    "start": 160,
+                    "end": 185,
+                    "text": "(ter Meulen et al., 2006)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Production of recombinant proteins"
+        },
+        {
+            "text": "author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint sequences were synthesized (Genscript) and cloned into CMVR expression vectors (NIH AIDS reagent program) between a murine Ig leader (GenBank DQ407610) and the constant regions of human IgG1 (GenBank AAA02914), Ig\u03ba (GenBank AKL91145). Plasmids encoding heavy and light chains were cotransfected into Expi293F cells (ThermoFisher) according to the manufacturer's instructions. After 5 days, antibodies were purified from cleared culture supernatants with Protein A agarose (ThermoFisher) using standard procedures, buffer exchanged into Phosphate-Buffered Saline (PBS), and quantified using calculated E and A280 measurements.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Production of recombinant proteins"
+        },
+        {
+            "text": "The Fab fragment of antibody CR3022 was prepared by digestion of the full-length IgG using enzyme Lys-C (Roche). The digestion reaction was allowed to proceed for 2.5 hours at 37\u00b0C. Digestion was assessed by SDS-PAGE and upon completion, the reaction mixture was passed through protein-G beads (0.5-1 ml beads), 3 times and the final flow through was assessed by SDS-PAGE for purity. The Fab fragment was mixed with purified SARS-CoV-2 RBD, and the complex was allowed to form for 1 hour at room temperature. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Production of recombinant proteins"
+        },
+        {
+            "text": "Expi293F (ThermoFisher Scientific #A14527), and 293F cell lines were utilized in this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cell lines"
+        },
+        {
+            "text": "Crystallization SARS-CoV-2 RBD at 10 mg/ml and 5 mg/ml in PBS buffer was screened for crystallization conditions using an Art Robbins Gryphon crystallization robot, 0.2 ul drops, and a set of 1200 crystallization conditions. Crystal drops were observed using a Jan Scientific UVEX-PS with automated UV and brightfield drop imaging robot. Crystals of the SARS-CoV-2 RBD grew after 24 hours in multiple conditions from the Molecular Dimensions MIDAS crystal screen, with diffraction-quality crystals seen in conditions B1, G1, F6, and H10. CR3022 Fab was screened for crystallization at 10.0 mg/ml and 5.0 mg/ml concentrations in PBS. Diffraction quality crystals grew after 48 hours in 0.1M Imidazole pH 6.5, 40% 2propanol and 15% PEG 8,000. For the complex, CR3022 Fab and SARS-CoV-2 RBD were mixed in 1:1 molar ratio and crystallization drops were set-up at 8.0 and 4.0 mg/ml concentrations in PBS buffer as described above. Crystals grew in a crystallization condition containing 1M Succinic acid, 0.1M HEPES pH 7.0 and 2% PEG MME2000. Both, RBD alone and CR3022 Fab-RBD complex, crystals were harvested and cryo-cooled in their respective crystallization conditions plus 25% glycerol.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "X-ray Crystallography"
+        },
+        {
+            "text": "Single crystals were transferred to mother liquor containing 22% glycerol, and cryo-cooled in liquid nitrogen prior to data collection. Diffraction data for SARS-CoV-2 RBD were collected at Advanced Photon Source (APS), Argonne National Laboratory, NE-CAT ID24-C beamline, and measured using a Dectris Eiger 16M PIXEL detector. Crystals grown in MIDAS condition B1 (20% Jeffamine D2000, 10% Jeffamine M2005, 0.2 M NaCl, 0.1M MES pH 5.5) provided the highest resolution diffraction with spots visible to 1.8 \u00c5. A complete dataset could be processed to 1.95 \u00c5 in space group P41212. CR3022 Fab crystals diffracted to 3.3 \u00c5 on NE-CAT ID24-C beamline. Diffraction data could be scaled in P21 space a CC0 license.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Diffraction data collection and processing"
+        },
+        {
+            "text": "author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint group with 99.9% completeness. Diffraction data for CR3022 and SARS-CoV-2 RBD complex were collected on NE-CAT ID24-C beamline at Advanced Photon Source (APS), and measured using a Dectris Eiger 16M PIXEL detector. Diffraction data from multiple crystals were merged and scaled together to achieve a final resolution of 4.2 \u00c5 with overall completeness of 82.2%. Data collection statistics are reported in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 689,
+                    "end": 696,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Diffraction data collection and processing"
+        },
+        {
+            "text": "Phenix xtriage was used to analyze the scaled diffraction data produced from HKL2000 and XDS. Data was analyzed for completeness, Matthew's coefficient, twinning or pseudo-translational pathology. The structure of the SARS-CoV-2 RBD was determined by molecular replacement using Phaser and a search model of the SARS RBD (PDB ID: 2AJF, molecule C). CR3022 Fab crystal structure was determined by molecular replacement using Coxsackievirus A6 neutralizing antibody 1D5 (PDB ID: 5XS7) as a search model. The CR3022-RBD complex structure was determined by molecular replacement using the refined CR3022 and SARS-CoV-2 RBD structures as search models. Refinement was carried out using Phenix refine with positional, global isotropic B factor refinement, and defined TLS groups, with iterative cycles of manual model building using COOT. Structure quality was assessed with MolProbity. The final refinement statistics for all the structures are reported in Table 1 . All structure figures were generated using PyMOL (The PyMOL Molecular Graphics System [DeLano Scientific]).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 952,
+                    "end": 959,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Structure solution and refinement"
+        },
+        {
+            "text": "Epitope sites correspond to antigen sites that are in contact with the antibody in the antigen-antibody complex (i.e. all sites that have non-hydrogen atoms within 4 \u00c5 of the antibody). For a given epitope site, the weight, which characterizes the interaction between the epitope site and the antibody (improved based on (Bai et al., 2019) ), was defined as:",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 339,
+                    "text": "(Bai et al., 2019)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Weighing epitope sites based on antigen-antibody interactions"
+        },
+        {
+            "text": "author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Weighing epitope sites based on antigen-antibody interactions"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10. 1101 in which, nc is the number of contacts with the antibody (i.e. the number of non-hydrogen antibody atoms within 4 \u00c5 of the site) ; nnb is the number of neighboring antibody residues; \u2329 \u232a is the mean number of contacts nc and \u2329 \u232a is the mean number of neighboring antibody residues nnb across all epitope sites. A weight of 1.0 is attributed to the average interaction across all epitope sites. Neighboring residue pairs were identified by Delaunay tetrahedralization of side-chain centers of residues (C\uf061 is counted as a side chain atom, pairs further than 8.5 \u00c5 were excluded). Quickhull (Barber, 1996) was used for the tetrahedralization and Biopython PDB (Hamelryck and Manderick, 2003) to handle the protein structure.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 692,
+                    "end": 706,
+                    "text": "(Barber, 1996)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 761,
+                    "end": 792,
+                    "text": "(Hamelryck and Manderick, 2003)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Weighing epitope sites based on antigen-antibody interactions"
+        },
+        {
+            "text": "In the SARS-CoV-2 and SARS-CoV-1 RBD comparison, residues were considered similar for the following residues pairs: RK, RQ, KQ, QE, QN, ED, DN, TS, SA, VI, IL, LM and FY.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Weighing epitope sites based on antigen-antibody interactions"
+        },
+        {
+            "text": "Octet RED96 instrument (Fort\u00e9Bio). After reference subtraction, binding kinetic constants were determined, from at least 4 concentrations of Fab, by fitting the curves to a 1:1 Langmuir binding model using the Data analysis software 9.0 (Fort\u00e9Bio). Antibodies were loaded at 30 ug/ml onto a AHC probe for 120 s followed by baseline incubation for 30-60 s.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Affinity kinetic interactions between SARS-CoV-2 RBD proteins and antibodies were monitored on an"
+        },
+        {
+            "text": "To assess antibody competition, either 240CD or CR3022 or a non-specific control antibody CR1-07 was incubated with the SARS-CoV-2 RBD prior to assessment of binding to CR3022 or 240CD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Affinity kinetic interactions between SARS-CoV-2 RBD proteins and antibodies were monitored on an"
+        },
+        {
+            "text": "Antibody concentration was 30 ug/ml. To assess binding of human ACE-2 receptor in the presence or absence of antibodies CR3022, or 240CD, RBD was loaded onto a HIS probe. The RBD was then sequentially incubated with either CR3022, 240CD or control antibody CR1-07 prior to incubation with human ACE-2 receptor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Affinity kinetic interactions between SARS-CoV-2 RBD proteins and antibodies were monitored on an"
+        },
+        {
+            "text": "CR3022 was loaded onto an AHC probe for 120s prior to incubation with SARS-CoV S glycoproteins (15 ug/ml) alone or pre-incubated with ACE2 protein. SARS S-2P protein was treated with 0.1% bovine pancreas trypsin for 10 minutes prior to binding to binding measurements. SARS Spike protein a CC0 license.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Affinity kinetic interactions between SARS-CoV-2 RBD proteins and antibodies were monitored on an"
+        },
+        {
+            "text": "author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Affinity kinetic interactions between SARS-CoV-2 RBD proteins and antibodies were monitored on an"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint was provided by BEI resources, Lot 768P152. Binding of CR3022 was also carried out against a series of concentrations of SARS S-2P which had been treated with 0.1% w/w bovine pancreatic trypsin.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Affinity kinetic interactions between SARS-CoV-2 RBD proteins and antibodies were monitored on an"
+        },
+        {
+            "text": "The associated accession numbers for the coordinates and structure factors reported in this paper are being deposited to the PDB.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY"
+        },
+        {
+            "text": "No potential conflict of interest was reported by the authors. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DECLARATION OF INTERESTS"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https: //doi.org/10.1101 //doi.org/10. /2020 author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 102,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 122,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DECLARATION OF INTERESTS"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https: //doi.org/10.1101 //doi.org/10. /2020 to SARS-CoV-2 RBD measured by biolayer interferometry. Kinetic constants were determined were calculated using a minimum of four dilutions of the RBD and fitted using a 1:1 binding model. C,D, Competition binding of antibodies CR3022 and 240CD to SARS-CoV-2 RBD. CR3022 or control antibody was allowed to bind to SARS-COV-2 prior to binding to 240CD or vice-versa. E SARS-CoV-2 RBD was sequentially bound by antibodies CR3022 or 240CD followed by soluble human ACE2 receptor. F SARS-CoV reactive antibodies were assessed for binding to bat SARS-related CoV Rs4784 and Rs4231 S glycoproteins. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 102,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 122,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DECLARATION OF INTERESTS"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint . Identification of CR3022 epitope as a \"cryptic\" epitope. Structural alignment of the SARS-CoV-2 RBD-CR3022 complex with the SARS-CoV S-2P structure. A The RBD-CR3022 structure is aligned to the SARS-CoV trimer structure (surface representation; PDB ID: 6CS1), where two RBD molecules are located in the \"up\" conformation. In this static structure, the Fc1 region of CR3022 (ribbon representation) clashes with the NTD of the same protomer. However, the epitope is fully accessible when more than one RBD is in the \"up\" representation. B Biolayer interferometry measurement of CR3022 binding to SARS S proteins with trypsin treatment or ACE2 receptor binding. C CR3022 binding to a serial dilution of SARS S-2P protein following trypsin treatment. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DECLARATION OF INTERESTS"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DECLARATION OF INTERESTS"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint Fig. S3 . Structural and sequence analysis of the CR3022 epitope. Analysis of the CR3022 footprint across betacoronaviruses. The CR3022 epitope on SARS-CoV-2 (China.Wuhan.30Dec19.402132) RBD is compared across betacoronaviruses. The epitope is numbered according to the Wuhan reference; the strength of the interaction between the Ab and the spike protein is indicated by the height and color of the histogram bars above the sequence alignment. Sequences are ordered based on their phylogenetic relationships based on a maximum likelihood phylogenetic tree derived from amino acid RBD sequences. The RBD structure is shown in surface representation and depicts mutations between SARS-CoV-1 and SARS-CoV-2 in red; the CR3022 epitope is outlined in white, with contact residues shown in stick representation. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.992883 doi: bioRxiv preprint Fig. S4 . SARS-CoV-2 and SARS-CoV antibody epitope analysis. A Sequence alignment of SARS-CoV-2 and SARS-CoV RBD. Antibody and ACE2 receptor interacting residues are highlighted on the sequence. B Antibody epitopes and receptor binding sites are outlined on the surface of the SARS-CoV RBD structures. The Sequence differences between SARS-COV-2 and SARS-CoV are indicated by red coloring on the RBD surface. C Antibody epitopes are shown on the SARS-CoV RBD molecule depicted in ribbon representation. The CR3022 epitope is shown on the SARS-CoV-2 RBD molecule. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10. 1101 ",
+            "cite_spans": [
+                {
+                    "start": 2320,
+                    "end": 2324,
+                    "text": "1101",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 426,
+                    "end": 433,
+                    "text": "Fig. S3",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1517,
+                    "end": 1524,
+                    "text": "Fig. S4",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "DECLARATION OF INTERESTS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The breadth of HIV-1 neutralizing antibodies depends on the conservation of key sites in their epitopes",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Michael",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Robb",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rolland",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bangaru",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schotsaert",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vanderven",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Kose",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bombardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Finn",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kent",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gilchuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLoS Comput Biol",
+            "volume": "15",
+            "issn": "",
+            "pages": "1136--1152",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The quickhull algorithm for convex hulls",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Barber",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Dobkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Huhdanpaa",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "ACM Transactions on Mathematical Software",
+            "volume": "22",
+            "issn": "",
+            "pages": "469--483",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Preparation of recombinant viral glycoproteins for novel and therapeutic antibody discovery",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Broder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Methods in molecular biology",
+            "volume": "525",
+            "issn": "",
+            "pages": "31--58",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chmura",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mazet",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature",
+            "volume": "503",
+            "issn": "",
+            "pages": "535--538",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "PDB file parser and structure class implemented in Python",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hamelryck",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Manderick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Bioinformatics",
+            "volume": "19",
+            "issn": "",
+            "pages": "2308--2310",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS pathogens",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Functional assessment of cell entry and receptor usage for SARS-CoV-2 and other lineage B betacoronaviruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Letko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature microbiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Structure, Function, and Evolution of Coronavirus Spike Proteins",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Annual review of virology",
+            "volume": "3",
+            "issn": "",
+            "pages": "237--261",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--574",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Menachery",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yount",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jr",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Debbink",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Agnihothram",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gralinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Plante",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Scobey",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Donaldson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nature medicine",
+            "volume": "21",
+            "issn": "",
+            "pages": "1508--1513",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "A Novel Coronavirus Emerging in China -Key Questions for Impact Assessment",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Munster",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Koopmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Van Doremalen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Van Riel",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Wit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The New England journal of medicine",
+            "volume": "382",
+            "issn": "",
+            "pages": "692--694",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ter Meulen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Van Den Brink",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Marissen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Bakker",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bogaards",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Deventer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Emerging microbes & infections 9",
+            "volume": "3",
+            "issn": "",
+            "pages": "382--385",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Identification of neutralizing and antibodies reactive to S, N, M and E viral proteins",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tripp",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Haynes",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tamin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Harcourt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Babcock",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Greenough",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Importance of Neutralizing Monoclonal Antibodies Targeting Multiple Antigenic Sites on the Middle East Respiratory Syndrome Coronavirus Spike Glycoprotein To Avoid Neutralization Escape",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Chappell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Joyce",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kanekiyo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Becker",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Van Doremalen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of virology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Evaluation of candidate vaccine approaches for MERS-CoV",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Joyce",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Modjarrad",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lees",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yassine",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kanekiyo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nature communications",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Structural Basis of Pan-Ebolavirus Neutralization by a Human Antibody against a Conserved, yet Cryptic Epitope",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "West",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Moyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fusco",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Milligan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Saphire",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Pei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Structural basis for the recognition of the SARS-CoV-2 by full-length human ACE2",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Isolation and Characterization of a Novel Bat Coronavirus Closely Related to the Direct Progenitor of Severe Acute Respiratory Syndrome Coronavirus",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Daszak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of virology",
+            "volume": "90",
+            "issn": "",
+            "pages": "3253--3256",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Si",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "W81XWH-07-2-0067) between the Henry M. Jackson Foundation for the Advancement of Military Medicine, Inc., and the U.S. Department of Defense (DoD). Funding from Biological Defense Research Directorate of the Naval Medical Research Center (HT9404-13-1-0021; Component Project: Soluble Trimeric Filovirus Envelope Glycoproteins) and Defense Threat Reduction Agency (HDTRA1-17-C-0019; Chulalongkorn Luminex Training and Research Preparedness) to CCB. X-ray diffraction data were collected at beamlines ID-24-C and ID-24-E at the Advanced Photon Source, Argonne National Laboratory. The Northeastern Collaborative Access Team (NE-CAT) beamlines are funded by the National Institute of General Medical Sciences from the National Institutes of Health (P41 GM103403) at the Advanced Photon Source, Argonne National Laboratory. Reagents were obtained through BEI Resources, NIAID, NIH: Monoclonal Anti-SARS-CoV S glycoprotein (Similar to 240C), NR-616; (Similar to 341C), NR-617;",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Crystal structure of the SARS-CoV-2 Receptor Binding Domain (RBD). A The SARS-CoV-2 RBD is shown in ribbon representation, glycan N343 is shown in stick representation, with the N-and Ctermini shown as spheres. The Receptor-binding motif (residues 437-507) is colored forest green. B The SARS-CoV-2 RBD structure is overlaid with related structures including the incomplete RBD structure taken from the S-2P trimer structure (PDB ID: 6VSB), SARS-CoV RBD (PDB ID: 2AJF), and a chimeric SARS-CoV-2 RBD structure (PDB ID: 6VW1). C Close-up view of the membrane distal region of the RBD (residues 471-491). D Sequence alignment of SARS-CoV-2 and SARS-CoV RBDs. The RBD secondary structure is displayed above the sequence alignment Residues with significant structural difference > 2 \u00c5 are highlighted in purple.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Crystal structure of CR3022 in complex with SARS-CoV-2 RBD. A, RBD and CR3022 are shown in cartoon representation. B Structure of the SARS-CoV-2 RBD shown in surface representation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Crystal structure of the SARS-CoV-2 Receptor Binding Domain (RBD). A The SARS-CoV-2 RBD is shown in ribbon representation, glycan N343 is shown in stick representation, with the N-and C-termini shown as spheres. The Receptor-binding motif (residues 437-507) is colored forest green. B The SARS-CoV-2 RBD structure is overlaid with related structures including the incomplete RBD structure taken from the S-2P trimer structure (PDB ID: 6VSB), SARS-CoV RBD (PDB ID: 2AJF), and a chimeric SARS-CoV-2 RBD structure (PDB ID: 6VW1). C Close-up view of the membrane distal region of the RBD (residues 471-491). D Sequence alignment of SARS-CoV-2 and SARS-CoV RBDs. The RBD secondary structure is displayed above the sequence alignment Residues with significant structural difference > 2 \u00c5 are highlighted in purple. a CC0 license.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Antigenic characterization of SARS-CoV-2 RBD. A,B, Binding kinetics of 240CD and CR3022",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Figure 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Crystal structure of CR3022 in complex with SARS-CoV-2 RBD. A, RBD and CR3022 are shown in cartoon representation. B Structure of the SARS-CoV-2 RBD shown in surface representation. Residues which differ between SARS-CoV-2 and SARS-CoV are colored red. The CR3022 epitope is outlined in blue, and Thr-430 and Phe-384 located within the epitope are labeled. C The location of antibody CR3022, 230S, 80R, m396 and F26G19 epitopes and ACE-2 binding site on the RBD are outlined on the surface of the SARS-CoV-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Figure 4",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Figure 4. Identification of CR3022 epitope as a \"cryptic\" epitope. Structural alignment of the SARS-CoV-2 RBD-CR3022 complex with the SARS-CoV S-2P structure. A The RBD-CR3022 structure is aligned to the SARS-CoV trimer structure (surface representation; PDB ID: 6CS1), where two RBD molecules are located in the \"up\" conformation. In this static structure, the Fc1 region of CR3022 (ribbon representation) clashes with the NTD of the same protomer. However, the epitope is fully accessible when more than one RBD is in the \"up\" representation. B Biolayer interferometry measurement of CR3022 binding to SARS S proteins with trypsin treatment or ACE2 receptor binding. C CR3022 binding to a serial dilution of SARS S-2P protein following trypsin treatment.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Fig. S1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Sequence alignment of the receptor binding domain of SARS-CoV and related betacoronaviruses measured by Biolayer Interferometry for reactivity to SARS-CoV antibodies.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": ". S2. CR3022 Fab crystal structure and epitope analysis. A CR3022 is shown in ribbon representation, with CDR loops indicated. Residues which have undergone somatic hypermutation are indicated with green spheres. B Heavy and light chain CDR loops paratope buried surface area. C Buried surface area analysis of the CR3022 epitope on the SARS-CoV-2 RBD. D Antibody binding to SARS-CoV-2 RBD and RBD with a glycan at position 384. RBD is initially loaded onto the HIS probe, followed by incubation with RBD variants.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Fig. S3",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Crystallographic Data Collection and Refinement Statistics Values in parentheses are for highest-resolution shells. * Rfree was calculated using ~5% randomly selected reflections. author/funder. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Protein DataBank files of SARS-CoV, MERS-CoV, and SARS-CoV-2 S structures SARS Spike Glycoprotein, Trypsin-cleaved, Stabilized variant, two S1 CTDs in an",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "ITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMG **************:*.*****.**:**************: ********** ********:********::**:********** ************ * 7  8  9  10  H  11  12  340   360  380  400  420  |  |  |  |  |  CR3022  ITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTG  ACE2  ITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMG  80R  ITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMG  230S  ITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMG  F26G19  ITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMG  M396 ITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMG **************:*.*****.**:**************: ********** ********:********::**:********** ************ * 440 460 480 500 520CVLAWNTRNIDATSTGNYNYKYRYLRHGKLRPFERDISNVPFSPDGKPCTP-PALNCYWPLNDYGFYTTTGIGYQPYRVVVLSFELLNAPATVCGPKLST **:***:.*:*:. ***** ** :*:.:*:*******. :. ...**. .:***:**:.*** *.*:*************** ********* **",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 202,
+                    "end": 814,
+                    "text": "7  8  9  10  H  11  12  340   360  380  400  420  |  |  |  |  |  CR3022  ITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTG  ACE2  ITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMG  80R  ITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMG  230S  ITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMG  F26G19  ITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMG  M396",
+                    "ref_id": null
+                }
+            ],
+            "section": "annex"
+        }
+    ]
+}

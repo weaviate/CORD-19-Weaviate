@@ -1,0 +1,1477 @@
+{
+    "paper_id": "67a2ae408efcb6686a22ae27435c7e4fa10c4a21",
+    "metadata": {
+        "title": "Title: First 12 patients with coronavirus disease",
+        "authors": [
+            {
+                "first": "Zhang",
+                "middle": [
+                    "Y"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chen",
+                "middle": [
+                    "C"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhu",
+                "middle": [
+                    "S"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shu",
+                "middle": [
+                    "C"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wang",
+                "middle": [
+                    "D"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Song",
+                "middle": [
+                    "J"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Introduction: More than 93,000 cases of coronavirus disease have been reported worldwide. We describe the epidemiology, clinical course, and virologic characteristics of the first 12 U.S. patients with COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We collected demographic, exposure, and clinical information from 12 patients confirmed by CDC during January 20-February 5, 2020 to have COVID-19. Respiratory, stool, serum, and urine specimens were submitted for SARS-CoV-2 rRT-PCR testing, virus culture, and whole genome sequencing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: Among the 12 patients, median age was 53 years (range: 21-68); 8 were male, 10 had traveled to China, and two were contacts of patients in this series. Commonly reported signs and symptoms at illness onset were fever (n=7) and cough (n=8). Seven patients were hospitalized with radiographic evidence of pneumonia and demonstrated clinical or laboratory signs of worsening during the second week of illness. Three were treated with the investigational antiviral remdesivir. All patients had SARS-CoV-2 RNA detected in respiratory specimens, typically for 2-3 weeks after illness onset, with lowest rRT-PCR Ct values often detected in the first week. SARS-CoV-2 RNA was detected after reported symptom resolution in seven patients. SARS-CoV-2 was cultured from respiratory specimens, and SARS-CoV-2 RNA was detected in stool from 7/10 patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In 12 patients with mild to moderately severe illness, SARS-CoV-2 RNA and viable virus were detected early, and prolonged RNA detection suggests the window for diagnosis is long. Hospitalized patients showed signs of worsening in the second week after illness onset.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "for use under a CC0 license.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In December 2019, an outbreak of the novel disease COVID-19 caused by the newly identified severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) was reported in Wuhan City, Hubei province, China. As of March 4, 2020, more than 93,000 COVID-19 cases have been reported in 73 countries, 1 and 80 confirmed and presumptive patients with COVID-19 have been identified in the United States; 2 one has been previously described in detail. 3 SARS-CoV-2 RNA detection, virus culture, and the relationship to the clinical course of COVID-19 are not fully understood. We report the epidemiology, clinical course, clinical management, and virologic characteristics of the first 12 patients with COVID-19 diagnosed in the United States.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 293,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 440,
+                    "end": 441,
+                    "text": "3",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Local health departments in consultation with clinicians identified patients under investigation (PUI) for COVID-19 beginning January 17, 2020. PUI testing criteria changed during this period but included the presence of fever and/or lower respiratory symptoms (e.g., cough or shortness of breath) and at least one epidemiologic risk factor in the two weeks before symptom onset. During January 17-31, epidemiologic risk factors were history of travel from Wuhan City, close contact with an ill PUI, or close contact with a patient with laboratory-confirmed COVID-19. 4, 5 Beginning February 1, epidemiologic risk factors changed to close contact with a patient with confirmed COVID-19 or history of travel from mainland China. 6 During both time periods, close contact was defined as being within 6 feet for a prolonged period of time 7 or contact with respiratory secretions. 8 Specimens from PUIs were tested for SARS-CoV-2 at the Centers for Disease Control and Prevention (CDC).",
+            "cite_spans": [
+                {
+                    "start": 568,
+                    "end": 570,
+                    "text": "4,",
+                    "ref_id": null
+                },
+                {
+                    "start": 571,
+                    "end": 572,
+                    "text": "5",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 728,
+                    "end": 729,
+                    "text": "6",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Case identification and confirmation"
+        },
+        {
+            "text": "Upper respiratory tract specimens (nasopharyngeal [NP] , oropharyngeal [OP] ) and available lower respiratory tract specimens (sputum) were collected and tested for SARS-CoV-2 RNA by real-time reverse-transcription polymerase chain reaction (rRT-PCR). 3 A case of COVID-19 was defined as identification of laboratory-confirmed SARS-CoV-2 in \u22651 specimen from a patient. We included patients with COVID-19 who were confirmed by CDC during January 20-February 5, 2020.",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 54,
+                    "text": "[NP]",
+                    "ref_id": null
+                },
+                {
+                    "start": 71,
+                    "end": 75,
+                    "text": "[OP]",
+                    "ref_id": null
+                },
+                {
+                    "start": 252,
+                    "end": 253,
+                    "text": "3",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Case identification and confirmation"
+        },
+        {
+            "text": "Patients with COVID-19 were interviewed by public health officials to collect information on demographics, exposures, travel history, and symptoms, including signs or symptoms before presentation. For all twelve patients, available medical records were reviewed. For hospitalized patients, clinicians systematically abstracted clinical data from the medical record.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and follow-up specimen collection"
+        },
+        {
+            "text": "Illness day 1 was defined as the first day of reported COVID-19 signs and symptoms; collection date of the first SARS-CoV-2-positive specimen was used for one patient with no clear symptom onset date. When symptoms at onset or onset dates in the medical record differed from those reported from the public health interview, the latter were used. Results for virologic tests were reported relative to illness day 1. Duration of potential exposure to SARS-CoV-2 was defined as dates of travel to China or dates of first to last exposure to a U.S. patient with COVID-19. Fever was defined as subjective fever or temperature \u2265100.4 \u00b0F.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and follow-up specimen collection"
+        },
+        {
+            "text": "We requested collection of NP swabs, OP swabs, sputum (if available), serum, urine, and stool from each patient initially for every 2-3 days for the first 17 days of illness for SARS-CoV-2 virologic testing. 9",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and follow-up specimen collection"
+        },
+        {
+            "text": "for use under a CC0 license. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and follow-up specimen collection"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20032896 doi: medRxiv preprint Further specimens were collected for testing if the patient continued to test positive for SARS-CoV-2 beyond day 17.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and follow-up specimen collection"
+        },
+        {
+            "text": "CDC's Human Research Protection Office determined this work was exempt from human subjects' research regulations as it involved identification, control, or prevention of disease in response to an immediate public health threat. Forms used in this response were approved under OMB, number 0920-1011. Data were analyzed and visualized using Excel, SAS 9.4, R 3.6.2, and Python 3.7.3. 10-13 Laboratory Methods Specimens were evaluated using SARS-CoV-2 RNA detection, virus culture, whole genome sequencing, and phylogenetic analysis. Virus culture was attempted from early SARS-CoV-2-positive respiratory specimens (NP swabs, OP swabs, and sputum) from 9 patients. Further virus culture is ongoing. Detailed methods are included in the Appendix.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and follow-up specimen collection"
+        },
+        {
+            "text": "Twelve patients with confirmed COVID-19 were identified in six states. Five patients received only outpatient care and were isolated at home (Patients 1-5), and seven were hospitalized (Patients 6-12) ( Figure 1 ). Median patient age was 53 years (range: 21-68); eight patients were male ( Table 1) . Four of five patients with \u22651 underlying medical conditions were hospitalized (Tables 1 and 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 203,
+                    "end": 211,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 290,
+                    "end": 298,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 379,
+                    "end": 395,
+                    "text": "(Tables 1 and 2)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Epidemiologic and clinical characteristics"
+        },
+        {
+            "text": "Dates of illness onset ranged from January 14 through 29. Ten patients traveled to mainland China in the two weeks before illness onset, including nine to Wuhan City. Two patients' only reported exposure was close contact with a previously identified U.S. patient with COVID-19. Among all patients, the duration of potential exposure ranged from 5 days to over 1 month; the time between last date of possible exposure and illness onset ranged from 0-5 days.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Epidemiologic and clinical characteristics"
+        },
+        {
+            "text": "The most commonly reported signs or symptoms at illness onset were cough (n=8) and subjective or measured fever (n=7) ( Table 1) . Two patients reported neither fever nor cough at onset, though they did develop them subsequently: one reported diarrhea as the initial symptom (one day before fever and cough), and the other reported sore throat.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 120,
+                    "end": 128,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Epidemiologic and clinical characteristics"
+        },
+        {
+            "text": "Over the course of illness, patients reported cough (n=12), subjective or measured fever (n=9), diarrhea (n=3), and vomiting (n=2). Three patients who did not report fever were never hospitalized and remained on home isolation. Of these, one patient reported only cough and rhinorrhea; one patient reported only cough which began before travel to China and did not change from the initial onset until resolution; and one patient reported cough, chills, fatigue, headache, and nausea.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Epidemiologic and clinical characteristics"
+        },
+        {
+            "text": "The clinical course for each hospitalized patient is described in the Appendix. The median duration of fever was 9 days (range: 2-11). Peak body temperature during hospitalization occurred at a median of illness day 9 (range: 4-10) ( Figure 2 ). All hospitalized patients had oxygen saturation <94% on room air at some point during their illness, with the oxygen saturation nadir (range: 86-93%) occurring at a median of illness day 12 (range: 4-23) (Figure 2 ). Five patients reported difficulty breathing, and four received supplemental oxygen (Table 2; Figure 1 ). Patient 9 required high-flow nasal cannula oxygen supplementation and intensive care monitoring.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 234,
+                    "end": 242,
+                    "text": "Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 450,
+                    "end": 459,
+                    "text": "(Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 556,
+                    "end": 564,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Clinical course of hospitalized patients"
+        },
+        {
+            "text": "for use under a CC0 license. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical course of hospitalized patients"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20032896 doi: medRxiv preprint Two patients received a short course (\u22643 days) of corticosteroids. Three, including one who also received corticosteroids, received the investigational antiviral remdesivir (Gilead Sciences, Foster City, California) under expanded access (compassionate use) for a duration of 4-10 days. Following remdesivir initiation, all had transient gastrointestinal symptoms, including nausea, vomiting, gastroparesis, or rectal bleeding. No other post-remdesivir symptoms were observed. Patient 9 reported loose stool and rectal bleeding and had traveled in Mexico before illness onset; stool later tested positive for Giardia and Clostridiodes difficile. Remdesivir was discontinued after improvement in each patient's respiratory symptoms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical course of hospitalized patients"
+        },
+        {
+            "text": "Blood cultures were negative in 6/6 hospitalized patients tested, including those obtained from four patients treated empirically for bacterial pneumonia. Molecular testing for influenza A and B on respiratory specimens was negative, and multi-pathogen respiratory PCR panels were negative for all targets in all hospitalized patients (Table 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 335,
+                    "end": 344,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Clinical course of hospitalized patients"
+        },
+        {
+            "text": "Six of seven hospitalized patients had leukopenia (<4000 cells/\u00b5l), and the white blood cell count nadir occurred at a median of illness day 9 (range: 4-15) ( Figure 1 ). Procalcitonin levels were <0.15 ng/ml in five of six patients who had levels checked. Aminotransferase levels were elevated in all hospitalized patients: AST levels peaked (median peak value 129 U/L, range 46-190 U/L) at a median of illness day 13 (range 7-19) and ALT levels peaked (median peak value 136 U/L, range 66-389 U/L) at a median of illness day 14 (range: 6-23). Three of seven hospitalized patients had mild elevations in alkaline phosphatase levels >115 U/L (maximum value 163 U/L). Elevated lactate dehydrogenase levels >600 U/L, coinciding with clinical deterioration, were observed in two patients tested. No major elevations in serum total bilirubin (7 patients tested) or prolongations in prothrombin time (4 patients tested) were identified. Among the three remdesivir recipients, aminotransferase elevation developed in Patient 6 one day after starting remdesivir and in Patient 8 four days after starting remdesivir. Patient 9 had aminotransferase elevation at illness days 6-7 before starting remdesivir; aminotransferase levels started to decrease but increased again five days after starting remdesivir.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 159,
+                    "end": 167,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Laboratory and radiographic findings among hospitalized patients"
+        },
+        {
+            "text": "Unilateral or bilateral pulmonary opacities were seen on chest imaging at some point for all seven hospitalized patients (Table 2) . Four hospitalized patients did not have any abnormalities identified on initial chest radiograph (illness day range: 4-9). Patient 7 had an abnormal chest computed tomography scan on the day of the normal chest radiograph (day 7).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 121,
+                    "end": 130,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Laboratory and radiographic findings among hospitalized patients"
+        },
+        {
+            "text": "Initial SARS-CoV-2 testing All 12 patients had respiratory specimens collected between illness days 1-9 (median, day 4), and all tested positive in \u22652 specimen types ( Figure 3 ). Among initial diagnostic specimens, SARS-CoV-2 RNA was detected in OP (11/11 patients), NP (10/12 patients), and sputum (4/4 patients). Viable SARS-CoV-2 virus was cultured from 5/6 initial NP specimens, 4/7 initial OP specimens, 3/3 initial sputum specimens, and 1/1 additional sputum specimen collected 3 days after the initial specimens ( Figure 3 ). Virus was cultured from two patients who were not hospitalized ( Figure 3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 168,
+                    "end": 176,
+                    "text": "Figure 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 522,
+                    "end": 530,
+                    "text": "Figure 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 599,
+                    "end": 607,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Virologic testing"
+        },
+        {
+            "text": "As of February 22, 398 specimens were collected and tested from the 12 patients throughout the course of illness. All 12 patients had SARS-CoV-2 RNA detected in at least one NP swab, 11/12 in an OP swab, 6/6 in sputum, 1/12 in serum, 7/10 in stool, and 0/10 in urine ( Figure 3 ). Among 98 pairs of simultaneous NP and OP specimens, 58 (59%) had concordant results. Among 27 discordant pairs with one positive for use under a CC0 license.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 269,
+                    "end": 277,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Serial SARS-CoV-2 testing"
+        },
+        {
+            "text": "This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Serial SARS-CoV-2 testing"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20032896 doi: medRxiv preprint specimen, the NP specimen was positive in 70%; the remaining 13 discordant pairs had one negative and one inconclusive specimen. Two patients provided sputum specimens when NP and/or OP specimens tested negative, and sputum continued to be positive in both patients. In Patient 7, viral RNA was detected in sputum 17 days after the last positive OP specimen and \u22652 weeks after reported symptom resolution. In seven patients who had SARS-CoV-2 RNA detected in stool, most detections occurred when viral RNA was still detectable in the respiratory tract. Among three patients who reported diarrhea, all had viral RNA detected in stool.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Serial SARS-CoV-2 testing"
+        },
+        {
+            "text": "Mean Ct values in positive specimens were 17.0-39.0 for NP, 22.1-39.7 for OP, and 24.1-39.4 for stool. Ct values were lower in the first week of illness than the second in most patients ( Figure S1 ); in some patients, low Ct values continued into the 2 nd and 3 rd week of illness. There was no apparent relationship between Ct values in the upper respiratory tract and disease progression. SARS-CoV-2 rRT-PCR results turned positive in serum of Patient 9 in the second week of illness at the time of rapid clinical deterioration.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 188,
+                    "end": 197,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Serial SARS-CoV-2 testing"
+        },
+        {
+            "text": "Serial testing to determine duration of RNA detection and viral shedding is ongoing. As of February 22, SARS-CoV-2 RNA has been detected at a maximum of day 26 in NP specimens, day 26 in OP, day 29 in sputum, and day 25 in stool ( Figure 3 ). The duration of viral RNA detection did not differ by hospitalization status or supplemental oxygen requirement.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 231,
+                    "end": 239,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Serial SARS-CoV-2 testing"
+        },
+        {
+            "text": "As of February 22, all patients reported symptom resolution (Figure 1 ). Eleven patients reported cough, (often intermittent) as the last symptom. Median symptom duration was 14 days (range: 6-20). SARS-CoV-2 RNA was detected after reported symptom resolution in 7/11 patients, including in NP (n=6), OP (n=2), sputum (n=1), and stool (n=3) specimens. As of February 22, one patient remained hospitalized, and five patients remained on home isolation. Home isolation was discontinued for 6 patients per CDC criteria; 14 the last respiratory specimens with a positive or inconclusive test result were collected from these patients on days 12-29.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 60,
+                    "end": 69,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Outcomes"
+        },
+        {
+            "text": "Complete genome sequences were generated from respiratory specimens from all 12 patients. The sequences had >99% nucleotide identity to 85 reference sequences of SARS-CoV-2 genomes; phylogenetic tree analysis identified a few distinct subgroups ( Figure S2 ) which were not divergent from each other, indicating that the outbreak may still be in an early stage.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 247,
+                    "end": 256,
+                    "text": "Figure S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Genome sequencing and phylogenetic analysis"
+        },
+        {
+            "text": "We describe the first 12 patients with confirmed COVID-19 in the United States, including clinical course of the first 7 hospitalized patients. Nine patients had traveled to Wuhan City, the epicenter of the outbreak, one had traveled to China but not to Hubei Province, and two had close contact with a patient with confirmed COVID-19 in the United States, representing domestic human-to-human transmission. Illness ranged from mild to moderately severe, and hospitalized patients showed signs of clinical worsening in the second week. All patients recovered or are improving, and three patients tolerated treatment with the investigational antiviral remdesivir. SARS-CoV-2 RNA was detected in upper and lower respiratory specimens, stool, and serum. The highest viral RNA levels were detected in upper respiratory tract specimens, typically during the first week of illness. SARS-CoV-2 was cultured from the initial respiratory specimens of mild and moderately ill patients. Viral RNA was still detected after reported symptom resolution for seven patients. SARS-CoV-2 genome sequencing and phylogenetic for use under a CC0 license.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20032896 doi: medRxiv preprint analysis from these 12 patients' respiratory tract specimens support a single recent zoonotic transmission event in Wuhan City and subsequent human-to-human transmission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Overall, these patients had milder disease than those in initial reports from China describing higher rates of complications and death. [15] [16] [17] [18] Initial case identification in China focused on hospitalized patients with pneumonia, but recent reports have described a milder clinical course, consistent with our findings. [19] [20] [21] [22] [23] Among hospitalized patients in this report, the second week of illness was characterized by clinical or laboratory signs of worsening such as hypoxemia, increase in fever, or elevation of aminotransferases. Although some patients received empiric antibiotic treatment for possible secondary bacterial pneumonia, no definitive evidence of bacterial co-infection was found. Worsening in the second week of illness is consistent with previous reports 15, 17 and highlights the importance of close monitoring beyond the first week of illness, even in patients with mild illness or no initial radiographic abnormalities.",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 140,
+                    "text": "[15]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 141,
+                    "end": 145,
+                    "text": "[16]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 146,
+                    "end": 150,
+                    "text": "[17]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[18]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 332,
+                    "end": 336,
+                    "text": "[19]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 337,
+                    "end": 341,
+                    "text": "[20]",
+                    "ref_id": null
+                },
+                {
+                    "start": 342,
+                    "end": 346,
+                    "text": "[21]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 347,
+                    "end": 351,
+                    "text": "[22]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 352,
+                    "end": 356,
+                    "text": "[23]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 805,
+                    "end": 808,
+                    "text": "15,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 809,
+                    "end": 811,
+                    "text": "17",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Patient 9, the most severely ill among this series, experienced sudden clinical deterioration late in the second week of illness. This was the only patient with SARS-CoV-2 RNA detected in serum, and detection in serum was temporally related to clinical deterioration. Similar observations have been described previously. 24, 25 Increased proinflammatory cytokines have been observed in patients with COVID-19, 17 and it is possible that cytokine dysregulation and endothelial dysfunction contribute to both clinical worsening and SARS-CoV-2 RNA detection in serum.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 324,
+                    "text": "24,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 325,
+                    "end": 327,
+                    "text": "25",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 410,
+                    "end": 412,
+                    "text": "17",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Characterizing SARS-CoV-2 shedding is important to understand transmission and guide prevention strategies. We detected viral RNA and cultured virus from upper respiratory specimens, even from patients with lower respiratory tract illness. In general, Ct values in upper respiratory tract specimens were lowest during the first week of illness (suggesting high RNA counts), consistent with previous reports. 25-27 SARS-CoV-2 RNA was detected in respiratory tract specimens for 2-3 weeks in most patients and for up to 29 days as of February 22. In two patients with a productive cough, viral RNA was detected in sputum after RNA was no longer detectable in NP or OP specimens. SARS-CoV-2 RNA levels and duration of RNA detection did not appear to vary by illness severity, and several patients had viral RNA detected in respiratory specimens after reported symptom resolution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "We detected SARS-CoV-2 RNA in stool of multiple patients; testing continues to assess if this represents viable virus. SARS-CoV-2 was cultured from one patient's stool in China 28 but the implications for transmission are unclear. We detected SARS-CoV-2 RNA in the serum of one hospitalized patient but did not detect RNA in urine. More data are needed to better understand how duration of RNA detection, RNA levels, and viable virus are related to symptom progression, illness severity, and transmission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Three hospitalized patients received the investigational antiviral remdesivir under expanded access (compassionate use) at the time of clinical worsening based upon a decision by each patient's clinician. Remdesivir inhibits viral replication through premature termination of RNA transcription. 29, 30 In vitro studies have demonstrated that remdesivir inhibits SARS-CoV-2 replication in non-human cells. 31 Because remdesivir use was not given as part of a randomized controlled trial, we are unable to assess its effectiveness or safety. Randomized controlled trials of remdesivir are underway. [32] [33] [34] Two hospitalized patients received corticosteroids. WHO interim guidance for clinical management of severe acute respiratory infection with suspected COVID-19 advises against use of corticosteroids unless indicated for another reason. 35 Several limitations should be considered when interpreting our findings. Our sample of patients is small. Information collected from patient interviews may have been subject to response bias. The threshold for admitting patients and for monitoring in the hospital was likely lower than for other respiratory infections because of uncertainty about the clinical course of COVID-19. Dates of illness resolution may be for use under a CC0 license. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 295,
+                    "end": 298,
+                    "text": "29,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 299,
+                    "end": 301,
+                    "text": "30",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 405,
+                    "end": 407,
+                    "text": "31",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[32]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 602,
+                    "end": 606,
+                    "text": "[33]",
+                    "ref_id": null
+                },
+                {
+                    "start": 607,
+                    "end": 611,
+                    "text": "[34]",
+                    "ref_id": null
+                },
+                {
+                    "start": 847,
+                    "end": 849,
+                    "text": "35",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20032896 doi: medRxiv preprint imprecise due to non-specific lingering symptoms or symptoms from chronic or unrelated conditions. Clinical laboratory tests and radiographic studies were ordered as a part of routine patient care and were not collected systematically. SARS-CoV-2 RNA detection does not necessarily reflect the presence of infectious virus, and rRT-PCR Ct values may have varied due to specimen collection or handling. Specimen collection is ongoing to inform both clinical management and infection prevention and control practices, and findings will be updated as more information becomes available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Characterization of the first 12 patients with COVID-19 identified in the United States, including 7 hospitalized patients, provides key insight into the epidemiology, clinical characteristics, and natural history of SARS-CoV-2 infection. These patients experienced mild to moderately severe illness. Clinicians should anticipate that some patients may worsen in the second week of illness. Early and prolonged detection of SARS-CoV-2 RNA suggest the window for diagnosis of COVID-19 is long. Although duration of infectiousness is unclear, our early data show viable virus can be cultured readily from upper respiratory tract specimens soon after illness onset. Further investigations are needed to understand clinical course, immunologic response, SARS-CoV-2 RNA detection, virus culture, and transmission, to inform clinical management and public health strategies to prevent disease spread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The findings and conclusions in this report are those of the author(s) and do not necessarily represent the official position of the Centers for Disease Control and Prevention.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclaimer:"
+        },
+        {
+            "text": "for use under a CC0 license. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclaimer:"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20032896 doi: medRxiv preprint This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclaimer:"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20032896 doi: medRxiv preprint c Initial symptoms were obtained through patient interview, and may have differed from symptoms at the time of identification d One patient reported a cough with initial onset in mid-December before the patient traveled to China. The patient reported no change in the cough from the initial onset until resolution 2 weeks after SARS-CoV-2 was first detected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclaimer:"
+        },
+        {
+            "text": "for use under a CC0 license.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclaimer:"
+        },
+        {
+            "text": "This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclaimer:"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20032896 doi: medRxiv preprint Legend: Specimen types tested include nasopharyngeal (NP) swab, oropharyngeal (OP) swab, sputum, serum, stool, and urine. Day of illness is the number of days from the date of symptom onset (day 1) until the date of specimen collection. Virus culture was attempted on selected respiratory specimens collected early in the course of illness. rRT-PCR results were reported as positive (all three targets positive), negative (all three targets negative), or inconclusive (only one or two positive targets). Red squares surrounding black-filled circles indicate rRT-PCR-positive specimens from which virus culture was successful. Gray squares surrounding black-filled circles indicate rRT-PCR-positive specimens from which virus culture was unsuccessful. Black-filled circles indicate rRT-PCR-positive specimens. Black-outlined circles indicate rRT-PCRnegative specimens. Gray-filled circles indicate specimens with inconclusive rRT-PCR results. The gray vertical bar indicates the date home isolation was discontinued. An asterisk indicates patients who required supplemental oxygen.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclaimer:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": 2019,
+            "venue": "Coronavirus disease 2019",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "First Case of 2019 Novel Coronavirus in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Holshue",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Debolt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lindquist",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001191"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "CDC Health Alert Network. Update and Interim Guidance on Outbreak of 2019 Novel Coronavirus (2019-nCoV",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Persons Evaluated for 2019 Novel Coronavirus -United States",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bajema",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Oster",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mcgovern",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep [Internet]",
+            "volume": "69",
+            "issn": "6",
+            "pages": "166--70",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "CDC Health Alert Network. Update and Interim Guidance on Outbreak of 2019 Novel Coronavirus (2019-nCoV)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Guidance for Risk Assessment and Public Health Management of Healthcare Personnel with Potential Exposure in a Healthcare Setting to Patients with Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Febr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Centers for Disease Control and Prevention. Interim U.S",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Evaluating and Reporting Persons Under Investigation (PUI)",
+            "authors": [],
+            "year": 1995,
+            "venue": "Centers for Disease Control and Prevention. Interim Guidelines for Collecting, Handling, and Testing Clinical Specimens from Persons Under Investigation (PUIs) for Coronavirus Disease",
+            "volume": "9",
+            "issn": "",
+            "pages": "90--95",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "R: A Language and Environment for Statistical Computing",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "R Core Team ; Waskom",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Botvinnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ostblom",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "507--520",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Clinical findings in a group of patients infected with the 2019 novel coronavirus (SARS-Cov-2) outside of Wuhan, China: retrospective case series",
+            "authors": [
+                {
+                    "first": "X-W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-G",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ [Internet]",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m60620"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Epidemiologic and Clinical Characteristics of Novel Coronavirus Infections Involving 13 Patients Outside Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Detectable 2019-nCoV viral RNA in blood is a strong indicator for the further clinical severity",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "",
+            "pages": "469--73",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/22221751.2020.1732837"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Viral Load Kinetics of SARS-CoV-2 Infection in First Two Patients in Korea",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-H",
+                    "middle": [],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3346/jkms.2020.35.e86"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Viral load of SARS-CoV-2 in clinical samples",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Llm",
+                    "middle": [],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "of a Laboratory-Confirmed Case of the Coronavirus Disease 2019 (COVID-19). China CDC Wkly",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Nejmc2001737",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Internet]",
+            "volume": "2",
+            "issn": "8",
+            "pages": "123--127",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMc200173728"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Controlled Trial of Ebola Virus Disease Therapeutics",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mulangu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dodd",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Davey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "381",
+            "issn": "24",
+            "pages": "2293--303",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa1910993"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Therapeutic efficacy of the small molecule GS-5734 against Ebola virus in rhesus monkeys",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Warren",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nature [Internet]",
+            "volume": "531",
+            "issn": "7594",
+            "pages": "381--386",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Cell Res",
+            "volume": "1",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Severe 2019-nCoV Remdesivir RCT",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Clinicaltrials",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gov",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Adaptive COVID-19 Treatment Trial",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Mild/Moderate 2019-nCoV Remdesivir RCT",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Clinical management of severe acute respiratory infection when novel coronavirus (2019-nCoV) infection is suspected: Interim guidance",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "28",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "severeacute-respiratory-infection-when-novel-coronavirus-(ncov)-infection-is-suspected from the initial onset until reported resolution on day 18. Because onset date was difficult to determine for this patient, we have used date of detection as Day 1 to assess viral RNA detection",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Timeline of illness onset, SARS-CoV-2 RNA detection, hospitalization, oxygen requirement, and reported symptom resolution among the first 12 patients with COVID-19 in the United States, January-February 2020 Figure 1 legend: Patients 1 -5 were not hospitalized and Patients 6 -12 were hospitalized. Days are sequential from day of symptom onset (Day 1). Light blue bars indicate time patients were under home isolation. Yellow bars indicate duration of hospitalization. Dark blue bars indicate duration of supplemental oxygen administration in hospital. The orange dashed bar indicates duration of intensive care-level monitoring for Patient 9. The black \"+\" indicates collection date of the earliest sample that tested positive for SARS-CoV-2 by rRT-PCR. The black asterisk indicates collection date of the latest sample to test positive for SARS-CoV-2 by rRT-PCR. The orange diamond indicates date of last report of COVID-19-related symptoms. The black square indicates the last day of isolation precautions; patients with no black square were still under isolation precautions as of February 22. The last date of specimen collection was February 21, and the last date of testing was February 22. Patient 1 reported a cough with initial onset in mid-December before the patient traveled to China. The patient reported no change in the cough",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Clinical and laboratory values by illness day for the first seven patients hospitalized with COVID-19 in the United States, January-February 2020Abbreviations: SpO2, oxygen saturation; O2 req, supplemental oxygen requirement; Tmax, maximum body temperature; AST, aspartate aminotransferase; ALT, alanine aminotransferase; WBC, white blood cell count.Pink shading: remdesivir administration. Dotted lines: 100.4 F (Tmax), 40 U/L (AST/ALT), 4000 cells/\u00b5l (WBC), 150 and 250 10 3 /mm 3 (platelets) SARS-CoV-2 rRT-PCR results by specimen type and day among the first 12 patients with COVID-19 in the United States, January-February",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Demographic characteristics, exposure history, and clinical characteristics of the first 12 patients with COVID-19 in the United States, January-February 2020",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Clinical characteristics of the first seven patients hospitalized with COVID-19 in the United States, January-February 2020*Abbreviations: n/a, not applicable; CXR, chest radiograph; Tmax, maximum daily temperature; SpO2, minimum daily oxygen saturation; HFNC, high-flow nasal cannula; AST, aspartate aminotransferase; ALT, alanine aminotransferase; WBC, white blood cell count; PRN, as needed * All reported days are illness day. ** Patient 9 reported diarrhea one day before development of fever and cough. *** Chest computed tomography scan; findings for other patients are reported from chest radiographs. **** Remdesivir dose: 200mg IV once on day 1, then 100mg IV daily",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "102.9 (7, 9, 11) 100.8 (10) 99.2 (4, 5) 102.7 (9) 99.1 (9) 102.6 (10) 102. 4 ",
+            "cite_spans": [
+                {
+                    "start": 6,
+                    "end": 9,
+                    "text": "(7,",
+                    "ref_id": null
+                },
+                {
+                    "start": 10,
+                    "end": 12,
+                    "text": "9,",
+                    "ref_id": null
+                },
+                {
+                    "start": 13,
+                    "end": 16,
+                    "text": "11)",
+                    "ref_id": null
+                },
+                {
+                    "start": 33,
+                    "end": 36,
+                    "text": "(4,",
+                    "ref_id": null
+                },
+                {
+                    "start": 37,
+                    "end": 39,
+                    "text": "5)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 75,
+                    "end": 76,
+                    "text": "4",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

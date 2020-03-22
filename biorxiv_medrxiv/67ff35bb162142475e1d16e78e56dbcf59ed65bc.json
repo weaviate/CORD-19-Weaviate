@@ -1,0 +1,1024 @@
+{
+    "paper_id": "67ff35bb162142475e1d16e78e56dbcf59ed65bc",
+    "metadata": {
+        "title": "Impact of self-imposed prevention measures and short-term government intervention on mitigating and delaying a COVID-19 epidemic",
+        "authors": [
+            {
+                "first": "Alexandra",
+                "middle": [],
+                "last": "Teslya",
+                "suffix": "",
+                "affiliation": {},
+                "email": "a.i.teslya@umcutrecht.nl"
+            },
+            {
+                "first": "Thi",
+                "middle": [
+                    "Mui"
+                ],
+                "last": "\u20201",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "settlement": "Utrecht",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Pham",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "settlement": "Utrecht",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Noortje",
+                "middle": [
+                    "G"
+                ],
+                "last": "Godijk",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "settlement": "Utrecht",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mirjam",
+                "middle": [
+                    "E"
+                ],
+                "last": "Kretzschmar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "settlement": "Utrecht",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Martin",
+                "middle": [
+                    "C J"
+                ],
+                "last": "Bootsma",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "settlement": "Utrecht",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ganna",
+                "middle": [],
+                "last": "Rozhnova",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "settlement": "Utrecht",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Background: With new cases of COVID-19 surging around the world, some countries may have to prepare 2 for moving beyond the containment phase. Prediction of the effectiveness of non-case-based interventions for 3 mitigating, delaying or preventing the epidemic is urgent, especially for countries affected by the increased 4 seasonal influenza activity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: We developed a transmission model to evaluate the impact of self-imposed prevention measures 6 (handwashing, mask-wearing, and social distancing) due to COVID-19 awareness and of short-term government-7 imposed social distancing on the peak number of diagnoses, attack rate and time until the peak number of 8 diagnoses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Findings: For fast awareness spread in the population, self-imposed measures can significantly reduce the attack 10 rate, diminish and postpone the peak number of diagnoses. A large epidemic can be prevented if the efficacy 11 of these measures exceeds 50%. For slow awareness spread, self-imposed measures reduce the peak number 12 of diagnoses and attack rate but do not affect the timing of the peak. Early implementation of short-term 13 government interventions can only delay the peak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "14 Interpretation: Handwashing, mask-wearing and social distancing as a reaction to information dissemination 15 about COVID-19 can be effective strategies to mitigate and delay the epidemic. We stress the importance of 16 a rapid spread of awareness on the use of self-imposed prevention measures in the population. Early-initiated 17 short-term government-imposed social distancing can buy time for healthcare systems to prepare for an increasing 18 COVID-19 burden.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Evidence to date suggests that containment of SARS-CoV-2 using quarantine, travel restrictions, isolation of symp-26 tomatic cases, and contact tracing may need to be supplemented by other interventions. Given its rapid spread 27 across the world and huge implications for public health, it is urgent to understand whether non-case-based inter-28 ventions can mitigate, delay or even prevent a COVID-19 epidemic. One strategy is a broader-scale contact rate 29 reduction enforced by governments which was used during previous outbreaks, e.g., the 1918 influenza pandemic and 30 the 2009 influenza A/H1N1 pandemic in Mexico. Alternatively, governments and media may stimulate self-imposed 31 prevention measures (handwashing, mask-wearing, and social distancing) by generating awareness about COVID-32 19, especially when economic and societal consequences are taken into account. Both of these strategies may have 33 a significant impact on the outbreak dynamics. Currently, there are no comparative studies that investigate their 34 viability for controlling a COVID-19 epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Added value of this study 36 Using a transmission model parameterized with current best estimates of epidemiological parameters, we evaluated 37 the impact of handwashing, mask-wearing, and social distancing due to COVID-19 awareness and of government-38 imposed social distancing on the peak number of diagnoses, attack rate, and time until the peak number of diagnoses. 39 We show that a short-term (1-3 months) government intervention initiated early into the outbreak can only delay 40 the peak number of diagnoses but neither alters its magnitude nor the attack rate. Our analyses also highlight 41 the importance of spreading awareness about COVID-19 in the population, as the impact of self-imposed measures 42 is strongly dependent on it. When awareness spreads fast, simple self-imposed measures such as handwashing are 43 more effective than short-term government intervention. Self-imposed measures do not only diminish and postpone 44 the peak number of diagnoses, but they can prevent a large epidemic altogether when their efficacy is sufficiently 45 high (about 50%). Qualitatively, these results will allow public health professionals to compare interventions for 46 designing effective outbreak control policies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Implications of all available evidence 48 Our results highlight that dissemination of evidence-based information on effective prevention measures (hand-49 washing, mask-wearing, and self-imposed social distancing) can be a key strategy for mitigating and postponing a 50 COVID-19 epidemic. Government interventions (e.g., closing schools and prohibiting mass gatherings) implemented 51 early into the epidemic and lasting for a short-time can only buy time for healthcare systems to prepare for the 52",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Introduction attempt to stop its spread. 22 Moreover, if a COVID-19 epidemic cannot be prevented, it is important to know 88 how the epidemic peak can be diminished and postponed to give healthcare professionals more time to prepare 89 and react effectively to the increasing health care burden. For affected areas like Europe, where the outbreak runs 90 concurrently with the influenza season, the importance to identify such interventions is profound.",
+            "cite_spans": [
+                {
+                    "start": 41,
+                    "end": 43,
+                    "text": "22",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Using a transmission model we evaluate the impact of self-imposed measures (handwashing, mask-wearing, and 93 social distancing) due to awareness about COVID-19 and of a short-term government-imposed social distancing 94 intervention on the peak number of diagnoses, attack rate, and time until the peak number of diagnoses since 95 the first case. We provide a head-to-head comparison of these interventions and assess for which efficacy of these 96 interventions a large COVID-19 outbreak can be prevented. 5 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "92"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034827 doi: medRxiv preprint . Individuals leave the E compartment at rate \u03b1. A proportion p of the latently infected individuals (E) will go to the I M compartment, and the proportion (1 \u2212 p) of E individuals will go to the I S compartment. Infectious individuals with mild symptoms (I M ) recover undiagnosed (R M ) at rate \u03b3 M . Individuals with severe symptoms (I S ) are diagnosed and kept in isolation (I D ) at rate \u03bd until they recover (R S ) at rate \u03b3 S or die at rate \u03b7. Individuals who are diagnosed (I D ) will be isolated and individuals recovered from a severe infection (R S ) know 125 that they cannot contract the disease again. Hence we assume their behaviour in the contact process is identical 126 to disease-unaware individuals. is slower for infectious individuals with severe symptoms (I S ) than for the remaining disease-aware population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "92"
+        },
+        {
+            "text": "Estimates of epidemiological parameters were obtained from most recent literature (Table 1) . We used contact 136 rates for the Netherlands, but the model is appropriate for other Western countries with similar contact rates. A 137 6 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 82,
+                    "end": 91,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "135"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034827 doi: medRxiv preprint detailed mathematical description of the model with and without awareness can be found in the Appendix. Infectious individuals with severe symptoms who are disease-aware (I a S ) get diagnosed and are kept in isolation (I a D ) at rate \u03bd a , recover at rate \u03b3 a S and die from disease at rate \u03b7 a . (B) shows awareness dynamics. Infectious individuals with severe symptoms (I S ) acquire disease-awareness (I a S ) at rate \u03bb aware proportional to the rate of awareness spread and to the current number of diagnosed individuals (I D and I a D ) in the population. As awareness fades, these individuals return to the unaware state at rate \u00b5 S . The acquisition rate of awareness (k\u03bb aware ) and the rate of awareness fading (\u00b5) rates are the same for individuals of type S, E, I M , and R M , where k is the reduction in susceptibility to the awareness acquisition compared to I S individuals. Table 1 provides the description and values of all parameters.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1036,
+                    "end": 1043,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "135"
+        },
+        {
+            "text": "We considered short-term government intervention aimed at fostering social distancing in the population and a 140 suite of measures self-imposed by disease-aware individuals, i.e., mask-wearing, hand washing, and self-imposed 141 social distancing. Since infectious individuals may transmit the virus to others without direct physical contact, we assume that hand-150 washing only reduces one's susceptibility. The efficacy of handwashing is described by the reduction in susceptibility 151 (i.e., probability of transmission per single contact) of susceptible disease-aware individuals (S a ) which ranges from 152 0% (zero efficacy) to 100% (full efficacy).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "139"
+        },
+        {
+            "text": "Self-imposed social distancing 154 Disease-aware individuals may also practice social distancing, i.e., maintaining distance to others and avoid con-155 gregate settings. 27 As a consequence, this measure leads to a change in mixing patterns in the population. The 156 efficacy of social distancing of disease-aware individuals is described by the reduction in their contact rate which is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "153"
+        },
+        {
+            "text": "Governments may decide to promote social distancing policies through interventions such as school and workplace 160 closures or by issuing a ban on large gatherings. Such policies will cause a community-wide contact rate reduction, 161 regardless of the awareness status. Here, government intervention is initiated if the number of diagnosed individuals 162 exceeds a certain threshold (10-1000 persons) and terminates after a fixed period of time (1-3 months). As such, 163",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "153"
+        },
+        {
+            "text": "we assume that the intervention is implemented early in the epidemic. The efficacy of government-imposed social 164 distancing is described by the reduction of the average contact rate in the population which ranges from 0% (no 165 distancing) to 100% (complete quarantine of the population). (government-imposed social distancing). We refer to these quantities as the efficacy of a prevention measure and 174 vary it from 0% (zero efficacy) to 100% (full efficacy) ( Table 1 ). The main analyses were performed for two values of 175 the rate of awareness spread that corresponded to scenarios of slow and fast spread of awareness in the population 176 (Table 1) . For these scenarios, the proportion of the aware population at the peak of the epidemic was 40% and 177 90%, respectively. In the main analyses, government-imposed social distancing was initiated when 10 individuals 178 got diagnosed and was lifted after 3 months. Sensitivity analyses for parameters indicated in Table 1 are given in 179 the Appendix. The funders of the study had no role in study design, data collection, data analysis, data interpretation, writing of 183 the manuscript, or the decision to submit for publication. All authors had full access to all the data in the study 184 and were responsible for the decision to submit the manuscript for publication.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 468,
+                    "end": 475,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 653,
+                    "end": 662,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 979,
+                    "end": 986,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "153"
+        },
+        {
+            "text": "Our analyses show that disease awareness has a significant effect on the model predictions. We first consider the 187 epidemic dynamics in a disease-aware population where handwashing is promoted, as an example of self-imposed 188 9 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity. be significant, namely we predict a 65% reduction in the peak number of diagnoses, a 29% decrease in the attack 203 rate, and a delay in peak timing of 2.7 months (Figure 3 A and B) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 553,
+                    "end": 571,
+                    "text": "(Figure 3 A and B)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "186"
+        },
+        {
+            "text": "CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "186"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034827 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "186"
+        },
+        {
+            "text": "The effect of awareness on the disease dynamics can also be observed in the probability of infection during the 206 course of the epidemic. In the model with awareness and no measures, the probability of infection is reduced by 207 4% for all individuals. Handwashing with an efficacy of 30% reduces the respective probability by 14% for unaware 208 individuals and by 29% for aware individuals. Note that the probability of infection is highly dependent on the 209 type of prevention measure. The detailed analysis is given in the Appendix. show the relative reduction in the peak number of diagnoses, the attack rate (proportion of the population that recovered or died after severe infection) and the time until the peak number of diagnoses. The efficacy of prevention measures was varied between 0% and 100%. In the context of this study, the efficacy of social distancing denotes the reduction in the contact rate. The efficacy of handwashing and mask-wearing are given by the reduction in susceptibility and infectivity, respectively. The simulations were started with one case. Government-imposed social distancing was initiated after 10 diagnoses and lifted after 3 months. For parameter values, see Table 1. 11 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1208,
+                    "end": 1216,
+                    "text": "Table 1.",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "186"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034827 doi: medRxiv preprint Figure 5 . Impact of prevention measures on the epidemic for a fast rate of awareness spread. Same description as in Figure 4 but for a fast rate of awareness spread. For parameter values, see Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 152,
+                    "text": "Figure 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 261,
+                    "end": 269,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 337,
+                    "end": 344,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "186"
+        },
+        {
+            "text": "A comparison of prevention measures 211 Figure 4 shows the impact of all considered self-imposed measures as well as of the government-imposed social 212 distancing on the peak number of diagnoses, attack rate, and the time to the peak for slow rate of awareness 213 spread. In this scenario, the model predicts progressively larger reductions in the peak number of diagnoses and in 214 the attack rate as the efficacy of the self-imposed measures increases. In the limit of 100% efficacy, the reduction 215 in the peak number of diagnoses is 23% to 30% (Figure 4 A) and the attack rate decreases from 16% to 12-13% 216 (Figure 4 B ). The efficacy of the self-imposed measures has very little impact on the peak timing when compared 217 to the baseline, i.e., no awareness in the population (Figure 4 C) . Since the proportion of aware individuals who 218 change their behavior is too small to make a significant impact on transmission, self-imposed measures can only 219 12 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 40,
+                    "end": 48,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 554,
+                    "end": 563,
+                    "text": "(Figure 4",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 620,
+                    "end": 631,
+                    "text": "(Figure 4 B",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 791,
+                    "end": 803,
+                    "text": "(Figure 4 C)",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "186"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034827 doi: medRxiv preprint mitigate but not prevent an epidemic. When awareness spreads at a slow rate, a 3-month government intervention 220 has a contrasting impact. The time to the peak number of diagnoses is longer for more stringent contact rate 221 reductions. For example, at 100% efficacy (full quarantine) the government can postpone the peak by almost 7 222 months but its magnitude and attack rate are unaffected. Similar predictions are expected, as long as government-223 imposed social distancing starts early (e.g, after tens to hundreds cases) and is lifted few weeks to few months 224 later (Appendix). This type of intervention halts the epidemic for the duration of intervention, but, because of a 225 large pool of susceptible individuals, epidemic resurgence is expected as soon as social distancing measures are lifted. 226",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "186"
+        },
+        {
+            "text": "Since the government intervention reduces the contact rate of all individuals irrespective of their awareness status, 228 it has a comparable impact on transmission for scenarios with fast and slow rate of awareness spread (compare 229 Figure 4 and Figure 5 ). However, the impact of self-imposed measures is drastically different. When awareness 230 spreads fast, all self-imposed measures are more effective than short-term government intervention. These measures 231 not only reduce the attack rate (Figure 5 B) , diminish and postpone the peak number of diagnoses ( Figure 5 A 232 and C), but they can also prevent a large epidemic altogether when their efficacy is sufficiently high (about 50%). 233",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 236,
+                    "end": 244,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 249,
+                    "end": 257,
+                    "text": "Figure 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 502,
+                    "end": 514,
+                    "text": "(Figure 5 B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 570,
+                    "end": 578,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "227"
+        },
+        {
+            "text": "Note that when the rate of awareness is fast, as the number of diagnoses grows, the population becomes almost 234 homogeneous, with most individuals being disease-aware. It can be shown that in such populations prevention 235 measures yield comparable results if they have the same efficacy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "227"
+        },
+        {
+            "text": "For many countries around the world, the focus of public health officers on the COVID-19 epidemic has shifted 238 from containment to mitigation and delay. Our study provides new evidence for designing effective outbreak control 239 strategies. We show that hand-washing, mask-wearing, and social distancing adopted by disease-aware individuals 240 are all viable strategies for delaying the epidemic peak, flattening the epidemic curve and reducing the attack rate. 241 We show that the rate at which disease awareness spreads has a strong impact on how self-imposed measures affect 242 the epidemic. For a slow rate of awareness spread, self-imposed measures have little impact on transmission, as not 243 many individuals adopt them. However, for a fast rate of awareness spread, their impact on the magnitude and 244 timing of the peak increases with increasing efficacy of the respective measure. For all measures, a large epidemic 245 can be prevented when the efficacy exceeds 50%. In practical terms, it means that SARS-CoV-2 will not cause a 246 large outbreak in a country where 90% of the population adopt handwashing that is 50% efficacious (i.e., reduces 247 susceptibility by 50%). CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 467,
+                    "end": 470,
+                    "text": "241",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "237"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034827 doi: medRxiv preprint soap or using alcohol-based sanitizers may remove the virus completely leading to 100% efficacy. 28, 15 For surgical 252 masks, their filtration efficiency has a wide range (0%-84%) and thus their actual efficacy is difficult to quantify. 17 253 For this reason, the promotion of handwashing might become preferable. Thus, for a fair comparison between 254 measures, realistic efficacy values of a specific measure should be taken into consideration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "237"
+        },
+        {
+            "text": "We contrast self-imposed measures stimulated by disease awareness with mandated social distancing. Our analyses 257 show that short-term government-imposed social distancing that is implemented early into the epidemic, can delay 258 the epidemic peak but does not affect its magnitude nor the attack rate. For example, a 3-month government 259 intervention imposing community-wide contact rate reduction that starts after tens to hundreds diagnoses in the 260 country can postpone the peak by about 7 months. Such an intervention is desirable, when a vaccine is being 261 developed or when healthcare systems require more time to treat cases or increase capacity.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 115,
+                    "text": "257",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "256"
+        },
+        {
+            "text": "Since the COVID-19 epidemic is still in its early stages, government-imposed social distancing was modeled We show that spreading disease awareness such that highly efficacious preventive measures are quickly adopted by Our model has several limitations. It does not account for stochasticity, demographics, heterogeneities in contact 281 patterns, spatial effects, inhomogeneous mixing and imperfect isolation. Our conclusions can, therefore, be 282 drawn on a qualitative level. Detailed models will have to be developed to design and tailor effective strategies 283 in particular settings. To take into account the uncertainty in SARS-CoV-19 epidemiological parameters, we 284 performed sensitivity analyses to test the robustness of the model predictions. As more data become available, 285 14 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "262"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034827 doi: medRxiv preprint our model can be easily updated. In addition, our study assumes that individuals become disease-aware with a 286 rate of awareness acquisition proportional to the number of currently diagnosed individuals. Other forms for the 287 awareness acquisition rate that incorporate, e.g., the saturation of awareness, may be more realistic and would be 288 interesting to explore in future studies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "262"
+        },
+        {
+            "text": "In conclusion, we provide the first empirical basis of how stimulating the uptake of effective prevention measures, 291 such as handwashing, can be pivotal to achieve control over a COVID-19 epidemic. While information on the rising 292 number of COVID-19 diagnoses reported by the media may fuel anxiety in the population, wide and intensive 293 promotion of self-imposed measures with proven efficacy by governments or public health institutions may be a key 294 ingredient to tackle COVID-19. Declaration of interests 302 We declare that we have no conflicts of interest.",
+            "cite_spans": [
+                {
+                    "start": 521,
+                    "end": 524,
+                    "text": "302",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "290"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "303"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034827 doi: medRxiv preprint 27 Centers for Disease Control and Prevention. Interim US guidance for risk assessment and public health man- 18 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "303"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034827 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "303"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization. Coronavirus disease 2019 (COVID-19) Situation Report 51",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Effectiveness of traveller screening for emerging pathogens is shaped 308 by epidemiology and natural history of infection. eLife",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gostic",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lloyd-Smith",
+                    "middle": [],
+                    "last": "Jo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Isolation, quarantine, social distancing and community containment: pivotal role 311 for old-style public health measures in the novel coronavirus (2019-nCoV) outbreak",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilder-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Freedman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Journal of Travel Medicine",
+            "volume": "312",
+            "issn": "2020",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/jtm/taaa020"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Early Transmission Dynamics in Wuhan, China, of 314 medicine & international health",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Preventing transmission of pandemic influenza and other viral respiratory diseases: personal 348 protective equipment for healthcare Personnel",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Institute Of Medicine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Update",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Face masks to prevent transmission of influenza virus: a 350 systematic review",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dkm",
+                    "middle": [],
+                    "last": "Ip",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Aiello",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Epidemiology & infection",
+            "volume": "138",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The spread of awareness and its impact on epidemic outbreaks",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gilad",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Watkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "Vaa",
+                    "middle": [],
+                    "last": "Jansen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Towards a characterization of behavior-disease models. PLOS 355 ONE",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Perra",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Balcan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gon\u00e7alves",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "6",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0023084"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Inferring the causes of the three waves of the 1918 influenza",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dushoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Day",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Djd",
+                    "middle": [],
+                    "last": "Earn",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Situation update worldwide; 2020 [up-360 dated",
+            "authors": [],
+            "year": 2020,
+            "venue": "European Center for Disease Prevention and Control",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "geographical-distribution-2019-ncov-cases",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Incubation period of 2019 novel coronavirus (2019-nCoV) infections 363 among travellers from Wuhan, China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Backer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klinkenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eurosurveillance",
+            "volume": "25",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.5.2000062"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Social contacts and mixing patterns 366 relevant to the spread of infectious diseases",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mossong",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hens",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jit",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Beutels",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Auranen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mikolajczyk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "PLOS Medicine",
+            "volume": "5",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.0050074"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "who-director-general-s-opening-remarks-at-the-media-briefing-on-covid",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Adjusted age-specific case fatality ratio during the COVID-19 372 epidemic in Hubei, China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Riou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Counotte",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hauser",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Althaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/www.medrxiv.org/content/10.1101/2020.03.04.20031104v1.full.pdf"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "developed a deterministic compartmental model describing SARS-CoV-2 transmission in a population stratified 100 by disease status (Figure 1). In the baseline model, individuals are classified as susceptible (S), latently infected (E), 101 infectious with mild or no symptoms (I M ), infectious with severe symptoms (I S ), diagnosed and isolated (I D ), and 102 recovered (R M and R S after an infection with mild and severe symptoms, respectively). Susceptible individuals (S) 103 can become latently infected (E) through contact with infectious individuals (I M and I S ) with the force of infection 104 dependent on the fractions of the population in I M and I S . A proportion of the latently infected individuals (E) 105 will go to the I M compartment, and the remaining E individuals will go to the I S compartment. We assume that 106 infectious individuals with mild symptoms (I M ) do not require medical attention, recover undiagnosed and are not 107 conscious of having contracted the infection (R M ). Individuals with severe symptoms (I S ) are diagnosed and know 108 their disease status when they are detected. After detection, they are kept in isolation (I D ) until recovery (R S ). 109 Diagnosed individuals are assumed to be perfectly isolated, and, hence, neither contribute to transmission nor to 110 the contact process. Recovered individuals (R M and R S ) cannot be reinfected. The infectivity of individuals with 111 mild symptoms is lower than the infectivity of individuals with severe symptoms. Natural birth and death processes 112 are neglected as the time scale of the epidemic is short compared to the mean life span of individuals. However, 113 severely symptomatic patients in isolation may be removed from the population due to disease-associated mortality. 114 Transmission model with disease-awareness 115 In the extended model with disease-awareness, the population is stratified not only by the disease status but also by 116 the awareness status into disease-aware (S a , E a , I a M , I a S , I a D , and R a M ) and disease-unaware (S, E, I M , I S , and R M ) 117 (Figure 2 A). Disease-aware individuals are distinguished from unaware individuals in two essential ways. First, 118",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Schematic of the transmission model without disease-awareness. Shown are epidemiological transitions in the baseline transmission model (black arrows). The red dashed arrows indicate the compartments contributing to the force of infection. Susceptible persons (S) become latently infected (E) with the force of infection \u03bb inf via contact with infectious individuals in two infectious classes (I M and I S )",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "unaware individuals acquire disease-awareness at a rate proportional to the rate of awareness spread and 129 to the current number of diagnosed individuals (I D and I a D ) in the population (Figure 2 B). We assume that 130 awareness fades and individuals return to the unaware state at a constant rate. The latter means that they no 131 longer use self-imposed measures. For simplicity, we assume that awareness acquisition and fading rates are the 132 same for individuals of type S, E, I M , and R M . Also, the rate of awareness acquisition is faster and the fading rate133",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Schematic of the transmission model with disease-awareness. (A) shows epidemiological transitions in the transmission model with awareness (black arrows). The orange dashed lines indicate the compartments that participate in the awareness dynamics. The red dashed arrows indicate the compartments contributing to the force of infection. Disease-aware susceptible individuals (S a ) become latently infected (E a ) through contact with infectious individuals (I M , I S , I a M , and I a S ) with the force of infection \u03bb a inf .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "outputs are the peak number of diagnoses, attack rate (a proportion of the population that recovered 169 or died after severe infection) and the time to the peak number of diagnoses. We compared the impact of 170 different prevention measures on these outputs by varying the reduction in infectivity of disease-aware infectious 171 individuals (mask-wearing), the reduction in susceptibility of disease-aware susceptible individuals (handwashing), 172 the reduction in contact rate of disease-aware individuals only (self-imposed social distancing) and of all individuals 173",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Illustrative simulations of the transmission model. (A) and (B) show the number of diagnoses and the attack rate during the first 12 months after the first case under three model scenarios. The red lines correspond to the baseline model without disease awareness. The orange lines correspond to the model with a fast rate of awareness spread and no interventions. The blue lines correspond to the latter model where disease awareness induces the uptake of handwashing with an efficacy of 30%. Epidemic dynamics 191 All self-imposed measures and government-imposed social distancing have an effect on the COVID-19 epidemic 192 dynamics. The qualitative and quantitative impact, however, depends strongly on the prevention measure and 193 the rate of awareness spread. The baseline model predicts 46 diagnoses per 1000 individuals at the peak of the 194 epidemic, an attack rate of about 16% and the time to the peak of about 5.2 months (red line, Figure 3 A and 195 B). In the absence of prevention measures, the spread of disease awareness reduces the peak number of diagnoses 196 by 20% but has only a minor effect on the attack rate and peak timing (orange line, Figure 3 A and B). This is 197 expected, as disease-aware individuals with severe symptoms seek health care sooner and therefore get diagnosed 198 faster causing fewer new infections as compared to the baseline model. Awareness dynamics coupled with the use 199 of self-imposed prevention measures has an even larger impact on the epidemic. The blue line in Figure 3 A shows 200 the epidemic curve for the scenario when disease-aware individuals use handwashing as self-imposed prevention 201 measure. Even if the efficacy of handwashing is modest (i.e., 30% as in Figure 3 A) the impact on the epidemic can 202",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Impact of prevention measures on the epidemic for a slow rate of awareness spread. (A), (B) and (C)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "effects of self-imposed measures on mitigating and delaying the epidemic are similar (see Figure 4 250 and Figure 5), not all explored efficacy values may be achieved for each measure. For instance, handwashing with 251 13 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "264 as a short-term intervention initiated when the number of diagnosed individuals was relatively low. Previous 265 studies suggested that the timing of mandated social distancing is crucial for its viability in controlling a large 266 disease outbreak. 9, 10, 12 As discussed by Anderson et al 14 and Hollingsworth et al, 12 a late introduction of such 267 interventions may have a significant impact on the epidemic peak and attack rate. However, the authors also show 268 that the optimal strategy is highly dependent on the desired outcome. A detailed analysis of a combination of 269 self-imposed measures and different government interventions that take into account the economic and societal 270 damage, and the cost of SARS-CoV-2 transmission is a subject for future work.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "provides the first comparative analysis of a suite of self-imposed measures and of short-term government-273 imposed social distancing as strategies for mitigating and delaying a COVID-19 epidemic. In our analyses, we 274 explored the full efficacy range for all prevention measures and different durations of early-initiated government 275 intervention. Our results allow to draw conclusions on which prevention measure can be most effective in dimin-276 ishing and postponing the epidemic peak when realistic values for the measure's efficacy are taken into account.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "278individuals can be crucial in reducing SARS-CoV-2 transmission and preventing large outbreaks of COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "TMP, NGG, MK, MCJB and GR developed the conceptual framework of the study. AT, TMP, NGG and 297 GR developed the model. AT and GR performed the model analyses. GR produced the results for the main text 298 and conducted sensitivity analyses. NGG conducted the literature search. NGG, AT, TMP and GR wrote the 299 manuscript. AT wrote the appendix. MCJB and MK contributed to interpretation of the results and provided 300 critical review of the manuscript. All authors approved its final version.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Eggers M, M E, Terletskaia-Ladwig E. How effective is hand washing against influenza virus? Hyg Med. 379 2009;34:492498.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "provides the description and values of all parameters. infectious individuals with severe symptoms who are disease-aware (I a S ) get diagnosed faster (I a D ), stay shorter in 119 isolation and have lower disease-associated mortality than unaware individuals. Disease-aware individuals recognize 120 the symptoms on average faster than disease-unaware individuals and receive treatment earlier which leads to a",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Parameter values for the transmission model with and without awareness Delay from onset of infectiousness to diagnosis for I S Relative susceptibility to awareness acquisition for S, E, I M , and R M Duration of awareness for S a , E a , I a M , and R a Delay from onset of infectiousness to diagnosis for I a Threshold for initiation of government intervention 10 (10-1000) diagnoses Assumed \u2021 * Mean or median values were used from literature; range was used in the sensitivity analyses. \u2020 Expert at China's National Health Commission \u2021 Sensitivity analyses an efficacy ranging from 0% (zero efficacy) to 100% (full efficacy). 18",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

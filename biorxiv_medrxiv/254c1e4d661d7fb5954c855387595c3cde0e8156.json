@@ -1,0 +1,737 @@
+{
+    "paper_id": "254c1e4d661d7fb5954c855387595c3cde0e8156",
+    "metadata": {
+        "title": "Environmental contamination of the SARS-CoV-2 in healthcare premises: An urgent call for protection for healthcare workers",
+        "authors": [
+            {
+                "first": "Guangming",
+                "middle": [],
+                "last": "Ye",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hualiang",
+                "middle": [],
+                "last": "Lin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sun Yat-sen University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Liangjun",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shichan",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhikun",
+                "middle": [],
+                "last": "Zeng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shiyu",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Terri",
+                "middle": [],
+                "last": "Rebmann",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saint Louis University",
+                    "location": {
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yirong",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhenyu",
+                "middle": [],
+                "last": "Pan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhonghua",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ying",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fubing",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhengmin",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": "zhengmin.qian@slu.edu"
+            },
+            {
+                "first": "Min",
+                "middle": [],
+                "last": "Qian",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saint Louis University",
+                    "location": {
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xinghuan",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": "wangxinghuan@whu.edu.cn"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "An outbreak of COVID-19 began in Wuhan, China in early December 2019 and is ongoing. There have been 80,955 confirmed COVID-19 cases, and 3,162 deaths in China as of March 11, 2020. 1 Early on during the COVID-19 outbreak, healthcare workers (HCW) were found to beat high risk of developing COVID-19, even when infection prevention measures were in place, including usage of personal protective equipment (PPE: eye protection/face shield, respiratory protection, isolation gowns, and gloves), hand hygiene, and patient placement in negative-pressure isolation rooms. Thus far, 1,688 HCWs have become infected with SARS-CoV-2 in China, including 1,080 HCW cases in Wuhan where the outbreak started. 2, 3 However, the World Health Organization (WHO) indicates that many of the newer cases of HCW infection have stemmed from household exposures. 4 The COVID-19 outbreak caused a sudden, significant increase in hospital visits from infected and suspected individuals over the course of two months. 5, 6 The large patient surge overwhelmed hospitals, despite continuous efforts to expand hospital capacity. Hospital waiting times were extended, which increased the time before infected individuals were identified and placed into isolation.",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 183,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 698,
+                    "end": 700,
+                    "text": "2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 701,
+                    "end": 702,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 843,
+                    "end": 844,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 995,
+                    "end": 997,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 998,
+                    "end": 999,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "It is believed that the primary transmission mode of COVID-19 is through large respiratory droplets and close contact, although there is limited data that indicates that it may also spread through indirect contact with contaminated environments and aerosols. 4 Only one study has examined possible environmental contamination of SARS-CoV-2 in a hospital outside of the epicenter of Wuhan and it consisted of a small sample size. 7 Characterizing hospital contamination of SARS-CoV-2 is critical because hospitals have experienced massive patient surges during the outbreak and environmental contamination may contribute to disease spread. 8 Data regarding the hospital function zones with highest levels of contamination can inform hospital cleaning and disinfection protocols to reduce the risk of healthcare-associated disease.",
+            "cite_spans": [
+                {
+                    "start": 259,
+                    "end": 260,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 429,
+                    "end": 430,
+                    "text": "7",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The purposes of this study were to: (1) determine the extent to which the hospital environment becomes . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034546 doi: medRxiv preprint contaminated during outbreaks of COVID-19, (2)identify the highest areas of contamination within hospitals, and (3) identify the most frequently contaminated objects, medical supplies, and used PPE in a typical hospital in Wuhan, China during the ongoing outbreak of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The study was conducted in Zhongnan Medical Center of Wuhan University, located in Wuhan, China.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study location"
+        },
+        {
+            "text": "Wuhan is the largest city in Central China and the capital city of Hubei Province in China. 9 It has approximately 12 million people and has a subtropical, humid monsoon climate. Historically, Wuhan has been the biggest hub in China for land, water, and air transportation, and it is also one of the most industralized cities in China. 10 The Zhongnan Medical Center possesses a Grade-III rating, the highest level according to a 3-tier system in China that recognizes a hospital's capacity and ability to provide healthcare, conduct research, and deliver education. It has over 3,300 beds and a medical team that includes over 500 senior physicians. It includes 46 clinical departments and multiple research and clinical laboratories.",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 93,
+                    "text": "9",
+                    "ref_id": null
+                },
+                {
+                    "start": 336,
+                    "end": 338,
+                    "text": "10",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study location"
+        },
+        {
+            "text": "Samples were collected between February 7 -February 27, 2020, while the outbreak was ongoing. Three sets of surface samples were collected using dacron swabs across major hospital function zones, hospital equipment/objects and medical supplies, and HCW's used PPE. Swab samples were also collected from control areas (i.e., spaces that did not house COVID-19 patients, consisting of administrative areas and the parking lot). Dacron swabs were premoistened with cell preservation solution. Samples were shipped with ice packs and refrigerated upon arrival at the laboratory. Blank controls were also used in swab sampling. Medical equipment assessed consisted of finger clips of pulse oximetry, electrocardiogram monitors, oxygen cylinders, oxygen regulators, oxygen masks, CT scanning machine, centrifuge, . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sampling"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034546 doi: medRxiv preprint biosafety cabinet, and ventilator. Objects in non-medical areas (i.e., public facilities) assessed consisted of elevator buttons, microwave ovens, faucets, handrails, and hair drier. HCW's' used PPE assessed included gloves, eye protection or face shield and hand sanitizer dispensers; samples were collected after the HCW performed their duties with a COVID-19 patient. Hospital areas were classified into contamination zones, based on the percentage of swabs that were positive in that area/object.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sampling"
+        },
+        {
+            "text": "Reverse transcription-PCR (RT-PCR) were conducted, using procedures recommended by the Chinese ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reverse Transcription-PCR (RT-PCR)"
+        },
+        {
+            "text": "The R software (version 3.5.1) was used for all analyses. First, descriptive statistics were conducted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Differences in the positive detection rates of SARS-CoV-2 RNA in the surface swabs between hospital areas, hospital objects and medical supplies, and HCW's used PPE were assessed using Chi-Square tests and/or the Fisher's exact test where appropriate based on cell size. Two-tailed tests were used, and Pvalues smaller than 0.05 were considered statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "In total, 626 hospital environmental surface swab samples were collected; 13.6% were found to be positive for SARS-CoV-2 (Table 1 ). There were significant differences in the percentage of positive samples found across different hospital areas (P < .01). The most contaminated zones were the intensive care unit (ICU) that specialized in caring for NCP patients (31.9%), the Obstetric Isolation Ward focusing . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 121,
+                    "end": 129,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034546 doi: medRxiv preprint their care on pregnant women with NCP (28.1%), and the Isolation Ward for NCP patients (19.6%); these were classified as Contamination Zone III (CZ III). CZ II included the Outpatient Lobby (16.7% positive samples), Emergency Department (12.5%), Office and Preparation Area of the Isolation Ward for NCP patients (12.2%), Obstetric Ward (12.1%), and Clinical Laboratories (11.5%). CZ I included the Fever Clinics (6.5% positive samples), CT Examination Room (5.6%), and General Ward (5.5%). Both the Administrative Area and Parking Lot were classified as CZ 0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Among all examined commonly used hospital objects and medical equipment, 13.9% were found to be positive for SARS-CoV-2 ( Table 2 ). This included positive samples from self-service printers (20%, it is a machine commonly used in China by patients themselves to print out their examination or test reports in a hospital), desktops (16.8%), doorknobs (16.0%), and telephones (12.5%), medical equipment (12.5%), and public facilities (8%). Only 5.6% of samples collected from walls and floors were positive. The most contaminated objects were self-service printers (20%), desktops/keyboards (16.8%), and doorknobs (16%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 122,
+                    "end": 129,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Of the samples collected from HCWs' used PPE (hand sanitizer dispensers, gloves, and eye protector/face shield), 12.9% were positive for SARS-CoV-2 (Table 3 ). Significant differences were found in the percentage of positive samples across the PPE types (P < .01). The highest positive detection rate found was from the hand sanitizer dispensers 20.3%; 15.4% and 1.7% of gloves and eye protection or face shields tested positive, respectively (Table 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 148,
+                    "end": 156,
+                    "text": "(Table 3",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 443,
+                    "end": 452,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "This investigation showed that the hospital environment frequently becomes contaminated when providing care to COVID-19 patients. Contaminated areas/items included patient care areas housing COVID-19 patients, common hospital objects/items, such as self-service printers, desktops, doorknobs, and keyboards, medical equipment, and HCWs' PPE, such as gloves, eye protection, and face shields.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034546 doi: medRxiv preprint 1 0",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "These findings suggest that the hospital environment could potentially be a source of virus spread, including among HCWs, patients, and visitors. It is noteworthy that the hospital surface samples were collected from February 7 to February 27, 2020, which was after human-to-human spread of SARS-CoV-2 was identified. It is plausible to assume that the hospital surface contamination would have been more severe before the sampling period, when environmental cleaning protocols were not as extensive and isolation practices that should be implemented rapidly. In addition, pregnant women and neonates are highly susceptible populations. They are more sensitive to the chemicals released by the internal infection control processes. It is, therefore, a standardize procedure to lessen the intensity and to reduce frequency of the internal infection control processes in the department, which may have led to the high positive detection rates discovered from our study. It was not surprising that the Fever Clinic had a low positive detection rate for SARS-CoV-2 (6.5%). Early on, the Fever Clinic was relocated to a semi-open area, . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034546 doi: medRxiv preprint which was well-ventilated. In addition, unlike the obstetric isolation ward, strict infection prevention measures were instituted in the Fever Clinic. These practices likely led to the low positive detection rate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "It is notable that both hand sanitizer dispensers and HCWs' used gloves possessed the highest positive detection rate of SARS-CoV-2 compared to eye protection or face shields. Gloves would become contaminated by touching infected patients and/or contaminated surfaces in the hospital. Eye protection and face shields would likely become contaminated by infected patients' respiratory droplets or infectious aerosols (if produced by COVID-19) , or by the HCWs' own hands during donning or doffing. This study's data supports the idea that contaminated gloves or hands may be a possible exposure route for SARS-CoV-2. Patients and visitors usually do not wear gloves in hospital settings. Contaminated hands and surfaces could potentially lead to SARS-CoV-2 exposure. Hospitals should emphasize the critical role of hand hygiene as a way to prevent SARS-CoV-2 infection.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 429,
+                    "end": 441,
+                    "text": "by COVID-19)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study has several limitations. SARS-CoV-2 culture samples were not collected; thus, exact bioburden levels were unable to be determined. No air samples were collected during the investigation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "This study focused on hospital surface contamination of SARS-CoV-2 RNAs as a surrogate of exposure to SARS-CoV-2. We were limited in our ability to characterize other exposure factors, such as other exposure routes, frequencies, and duration. A lack of resources also meant that we were unable to conduct 1 3 These findings emphasize the need to ensure adequate environmental cleaning, strengthen infection prevention training, and improve infection prevention precautions among HCWs during the outbreak of COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 305,
+                    "end": 308,
+                    "text": "1 3",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034546 doi: medRxiv preprint 1 5 We wanted to express our highest appreciation to our staff who risked their lives collecting the large number of samples needed to conduct this study. We also thank the nurses and doctors in Zhongnan Medical Center for their support and assistance for collecting the samples.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 147,
+                    "text": "1 5",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "The investigation was supported by the Emergency Science and Technology Project of 2019, Novel Coronavirus Pneumonia from Science and Technology Department of Hubei Province (2020FCA008)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding/Support"
+        },
+        {
+            "text": "The Science and Technology Department of Hubei Province had no role in each part of the investigation, including the study design; collection, management, analysis, and interpretation of the data; development of the manuscript; and decision to submit the manuscript for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the Funder/Sponsor"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the Funder/Sponsor"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the Funder/Sponsor"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034546 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the Funder/Sponsor"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034546 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the Funder/Sponsor"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034546 doi: medRxiv preprint 2 0 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the Funder/Sponsor"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.11.20034546 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the Funder/Sponsor"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The Novel Coronaries Pneumonia Emergency Response Epidemiology Team. The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) -China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China CDC Weekly",
+            "volume": "2",
+            "issn": "8",
+            "pages": "113--122",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Special Expert Group for Control of the Epidemic of Novel Coronavirus Pneumonia of the Chinese Preventive Medicine Association. An update on the epidemiological characteristics of novel coronavirus pneumonia (COVID-19). Zhonghua liu xing bing xue za zhi = Zhonghua liuxingbingxue zazhi",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "41",
+            "issn": "",
+            "pages": "139--144",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. The Lancet",
+            "volume": "",
+            "issn": "20",
+            "pages": "30183--30188",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "Coronavirus disease 2019 (COVID-19) Situation Report -37. Access on",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001316"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical Characteristics of Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Center for Disease Control and Prevention. Briefly, we used the SARS-CoV-2 nucleic acid detection kits (DAAN Gene Co., Ltd, China) to extract viral RNAs. 11 Two different targets on the SARS-CoV-2 genome were used: the ORF1ab and N genes. The Ct value of the amplification curve was defined as positive if less than 40 and negative if greater than 40. Both positive controls and negative controls were routinely included in each test.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "HCWs were not aware of the potential risk of indirect contact spread. HCWs may have unwittingly spread the virus throughout the hospital via contaminated hands, PPE, and equipment. Direct or indirect contact with these potentially highly contaminated surfaces may account for the first wave of patients into the hospital and the early cases of healthcare associated transmission among HCWs and visitors.The WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19) Report stated that HCW occupational exposure to SARS-CoV-2 may not play a significant role in transmission, based on the limited cases investigated. 12 However, the data in this study suggests that hospital environmental 1 1 outbreak, HCWs did not always follow standard infection prevention measures due to a lack of medical supplies, especially in areas not designated as infection-specific units. For example, critical infection prevention measures, such as wearing respiratory and eye protection, gowns, and gloves, were not instituted for HCWs in non-infection units. Furthermore, the study hospital experienced a sudden transition from a comprehensive medical center to a focused care center for COVID-I9 infected and confirmed patients in order to respond to the patient surge. This transition occurred in a matter of days. The majority of HCWs in the hospital had no direct experience with this type of outbreak, and a significant proportion HCWs in non-infection units did not receive infection prevention training during the outbreak. These sudden changes may have led to higher exposure to SARS-CoV-2 for HCWs as well as causing massive hospital surface contamination fromSARS-CoV-2. In this study, the most contaminated hospital zones included the ICU that specialized in caring for COVID-I9 patients, the Obstetric Isolation Ward only taking care of pregnant women with COVID-I9 infection, and the Isolation Ward for COVID-I9 patients. It was surprising to observe the highest positive detection rate of SARS-CoV-2 in the isolation ward for pregnant women diagnosed with COVID-I9. In China, it is a custom for multiple family members and friends to visit pregnant women around the time of delivery and the average hospitalization for pregnant women giving birth usually lasts more than five days. Isolation of pregnant women and new mothers during hospitalization has been challenging and often impossible. Family members and friends infected with or carrying SARS-CoV-2 could have contaminated the obstetric isolation ward during their visits. This finding emphasizes the need for strict",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "(SARS-CoV-2) From a Symptomatic Patient. JAMA. 2020;doi:10.1001/jama.2020.3227.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Percentage of Positive Hospital Environmental Samples for SARS-CoV-2 RNAs Hospital Function Zone Total Number, No. Positive Number, No. (%) The intensive care unit for NCP only. b The ward for the pregnant women who were diagnosed novel coronavirus pneumonia (NCP). c The isolation ward specialized in caring for NCP patients.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Percentage of Positive Hospital Object Samples for SARS-CoV-2 RNAs A machine commonly used in China by patients themselves to print out their examination or test reports in a hospital. b Medical equipment including: finger clips of pulse oximetry, electrocardiogram monitors, oxygen cylinders, oxygen regulators, oxygen masks, CT scanning machine, centrifuge, biosafety cabinet, and ventilator. c Public facilities including: elevator buttons, microwave ovens, faucets, handrails, and hair drier. d Others including: out-patient clinic triage stations and wards.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Percentage of Positive Samples of SARS-CoV-2 RNAs for Health Care Workers' Used Personal Protection Equipment Personal Protection Equipment (PPE) Total Number, No.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

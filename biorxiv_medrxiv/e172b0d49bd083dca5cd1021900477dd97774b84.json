@@ -1,0 +1,899 @@
+{
+    "paper_id": "e172b0d49bd083dca5cd1021900477dd97774b84",
+    "metadata": {
+        "title": "If containment is not possible, how do we minimize mortality for COVID-19 and other emerging infectious disease outbreaks?",
+        "authors": [
+            {
+                "first": "Andreas",
+                "middle": [],
+                "last": "Handel^^",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Georgia",
+                    "location": {
+                        "settlement": "Athens",
+                        "region": "GA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Joel",
+                "middle": [
+                    "C"
+                ],
+                "last": "Miller",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "La Trobe University",
+                    "location": {
+                        "addrLine": "Bundoora, VIC",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yang",
+                "middle": [],
+                "last": "Ge",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Georgia",
+                    "location": {
+                        "addrLine": "Jiann-Ping Hsu",
+                        "settlement": "Athens",
+                        "region": "GA",
+                        "country": "USA, Georgia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Isaac",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern University",
+                    "location": {
+                        "settlement": "Statesboro",
+                        "region": "GA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chun-Hai",
+                "middle": [],
+                "last": "Fung",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern University",
+                    "location": {
+                        "settlement": "Statesboro",
+                        "region": "GA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "local elimination might be possible). If rapid containment and pathogen eradication is not achievable, the next best goal is to try to delay the spread and minimize cases and burden on the health care system until suitable drugs or vaccines are available. This approach also calls for interventions that are applied as strongly as possible. However, sustaining strong interventions for a potentially long period of time is not always feasible (3) .",
+            "cite_spans": [
+                {
+                    "start": 443,
+                    "end": 446,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In the worst case, social distancing interventions are unable to interrupt sustained transmission and drive the epidemic to extinction, and strong interventions cannot be maintained long enough for new vaccines or therapeutics become available. In such a circumstance, if infection induces immunity in individuals -which seems to be the case for coronavirus infections in humans, such as for SARS and MERS (4-7) and likely also COVID-19 (8) -the best option is to apply interventions in a targeted manner. The goal is to slow down the spread of the disease such that new infections accrue slowly and do not overly strain the health care system, while allowing the number of susceptibles to drop until population (herd) immunity is achieved. The interventions can be slowly relaxed once susceptibles are close to the population immunity threshold, without risking a resurgent epidemic. The goal is to prevent any excess infections that would deplete susceptibles beyond the population level threshold, i.e., one wants to minimize the overshoot that typically occurs after an epidemic peak (9) . We discussed previously how to minimize the attack rate for a single population (9) and later extended it to multiple populations (10, 11 ).",
+            "cite_spans": [
+                {
+                    "start": 1088,
+                    "end": 1091,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1174,
+                    "end": 1177,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1224,
+                    "end": 1228,
+                    "text": "(10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1229,
+                    "end": 1231,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "An important aspect that was not addressed previously is to focus on averted deaths instead of averted infections. For a scenario such as the current COVID-19 outbreak, there is unfortunately significant morbidity and mortality, and it is heterogeneously distributed between age groups (12) . Evidence so far suggests that children suffer very little morbidity and mortality, while elderly are much more likely to have adverse outcomes. If an intervention mainly protects specific groups in a population, infections required to achieve population immunity will happen disproportionately in the other groups. For COVID-19, this suggests that if the goal is to reduce overall mortality, we should implement interventions that preferentially protect elderly, while allowing the minimum number of infections required to reach population immunity to occur in the least vulnerable groups.",
+            "cite_spans": [
+                {
+                    "start": 286,
+                    "end": 290,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We illustrate how hypothetical interventions applied to different target groups affect overall mortality for COVID-19, using a simple simulation model (see Supplement for details). Three age groups, children, adults, and elderly are considered, and interventions that reduce the risk of infection for each age group are implemented. Note that this is not meant to represent any set of specific interventions, but instead illustrates our conceptual ideas. More detailed models need to be implemented and analyzed for any particular setting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Scenario 1 in figure 1 shows a situation without interventions; the maximum number of people get infected. Scenario 2 shows a situation where strong interventions are applied to protect all age groups. It is enough to drive down the outbreak, thus initially reducing mortality the most. However, once the interventions are stopped, a consecutive outbreak occurs, leading to a drop in susceptibles similar to the first scenario, and the overall number of averted deaths at the end of the outbreak is low. Scenarios 3-5 show interventions that preferentially target children, adults, and elderly, respectively. Each . CC-BY-NC 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 22,
+                    "text": "figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . scenario leads to a higher level of averted deaths than scenario 2, owing to the reduction in overshoot occurring after interventions are lifted (9) (10) (11) . Importantly, the intervention targeting the elderly saves most lives. Figure 1 : Susceptible, Infected, and percent deaths averted for different intervention scenarios. Scenario S1 shows a situation without any interventions. In S2, strong interventions are applied to all groups. In S3, the intervention predominantly prevents children from getting infected, in S4 and S5, the intervention predominantly protects adults and elderly, respectively. Note that for S3 and S5, there is always some intervention applied to the adult group to ensure the effective reproductive numbers of the 3 scenarios are the same and results thus comparable. Also note that the only purpose of the model is to illustrate our conceptual idea, it is not detailed enough to reflect any realistic intervention scenario. See SM for details on the model and intervention implementation.",
+            "cite_spans": [
+                {
+                    "start": 223,
+                    "end": 226,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 227,
+                    "end": 231,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 232,
+                    "end": 236,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 309,
+                    "end": 317,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "This illustrates the importance of factoring in mortality among specific groups when deciding on the type of interventions to implement. Of course, it is worth emphasizing that there is still large uncertainty about the combined impact of our available interventions on the spread of COVID-19. The speed with which COVID-19 initially overwhelmed health systems in many countries, as well as the ability of several countries, to drive cases down successfully, suggests that the current best approach is to implement all feasible interventions against COVID-19. As the situation is monitored, it will become clear if we can accomplish containment. If this is unlikely, and we are in a situation where interventions cannot be sustained long enough to prevent a resurgent epidemic, some interventions should be relaxed. Mitigation should then focus on allowing 'controlled spread' toward herd immunity in such a way that the most vulnerable populations are protected most. This . CC-BY-NC 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "might mean re-opening schools before re-starting other activities mainly frequented by adults or the elderly.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "While school closures have proven to be an important means for delaying or reducing outbreaks (13, 14) , they come with large economic and societal costs, with generally an outsized impact on disadvantaged and vulnerable populations (15) .",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 98,
+                    "text": "(13,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 99,
+                    "end": 102,
+                    "text": "14)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 233,
+                    "end": 237,
+                    "text": "(15)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "As we discussed here, an additional consideration for COVID-19 is the fact that school closures might preferentially reduce infections in low risk groups (13, 16) , thus possibly shifting the burden of new infections that occur on the way to population immunity towards higher risk groups. It is however important to point out that school closures have secondary effects on contact patterns, e.g. requiring adults to stay home and thus changing their infection risk, or having grandparents care for their grand-children so that the parents can go to work. Thus, the exact implications of school closure in redistributing the risk of COVID-19 morbidity and mortality among community members of different age groups remain uncertain. It is important to analyze the impact of different interventions using detailed models and empirical epidemiological studies, so that decision-makers can be adequately informed as they balance the need to slow transmission and to reduce mortality in the community.",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 158,
+                    "text": "(13,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "16)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In conclusion, we suggest that in a scenario where containment is not possible and it is necessary to allow some infections to occur to achieve population immunity, interventions that protect vulnerable populations from getting infected should be given the highest priority, followed by interventions targeting the general population, and finally those targeting the least vulnerable, which for COVID-19 seem to be children.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Model parameters and outbreak control for SARS. Emerging infectious diseases",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Castillo-Chavez",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fenimore",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kribs-Zaleta",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Arriola",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hyman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "10",
+            "issn": "",
+            "pages": "1258--63",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Covid-19: UK records first death, as world's cases exceed 100 000",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mahase",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Public health interventions and epidemic intensity during the 1918 influenza pandemic",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hatchett",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mecher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "volume": "104",
+            "issn": "",
+            "pages": "7582--7589",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Duration of Antibody Responses after Severe Acute Respiratory Syndrome. Emerging Infectious Diseases [Internet",
+            "authors": [
+                {
+                    "first": "L-P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N-C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-H",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-Y",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Na D-Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L-Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "1562--1566",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Persistence of Antibodies against Middle East Respiratory Syndrome Coronavirus. Emerging Infectious Diseases",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Payne",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Iblan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rha",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alqasrawi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Haddadin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al",
+                    "middle": [],
+                    "last": "Nsour",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "22",
+            "issn": "",
+            "pages": "1824--1830",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Two-Year Prospective Study of the Humoral Immune Response of Patients with Severe Acute Respiratory Syndrome. The Journal of Infectious Diseases",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fontanet",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Baril",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "193",
+            "issn": "",
+            "pages": "792--797",
+            "other_ids": {
+                "DOI": [
+                    "https:/academic.oup.com/jid/article-lookup/doi/10.1086/500469"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Antibody responses to SARS-CoV-2 in patients of novel coronavirus disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "What is the best control strategy for multiple infectious disease outbreaks?",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Handel",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Longini",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Antia",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Proceedings of the Royal Society B: Biological Sciences",
+            "volume": "274",
+            "issn": "",
+            "pages": "833--840",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "How to Minimize the Attack Rate during Multiple Influenza Outbreaks in a Heterogeneous Population",
+            "authors": [
+                {
+                    "first": "Ic-H",
+                    "middle": [],
+                    "last": "Fung",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Antia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Handel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLOS ONE",
+            "volume": "7",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/journals.plos.org/plosone/article?id=10.1371/journal.pone.0036573"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The timing of one-shot interventions for epidemic control. medRxiv",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lauro",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Kiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/www.medrxiv.org/content/10.1101/2020.03.02.20030007v1"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The epidemiological characteristics of an outbreak of",
+            "authors": [
+                {
+                    "first": "Ncpere",
+                    "middle": [],
+                    "last": "Team",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "School closures and influenza: Systematic review of epidemiological studies",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vynnycky",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hawker",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Olowokure",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mangtani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "BMJ open",
+            "volume": "3",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Modeling the Effect of School Closures in a Pandemic Scenario: Exploring Two Different Contact Matrices. Clinical Infectious Diseases",
+            "authors": [
+                {
+                    "first": "Ic-H",
+                    "middle": [],
+                    "last": "Fung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gambhir",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Glasser",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Washington",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Uzicanin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "60",
+            "issn": "",
+            "pages": "58--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/civ086"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "A tale of many cities: A contemporary historical study of the implementation of school closures during the 2009 pA (H1N1) influenza pandemic",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Navarro",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kohl",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cetron",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Markel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of health politics",
+            "volume": "41",
+            "issn": "3",
+            "pages": "393--421",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Effect of winter school breaks on influenza-like illness",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Garza",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Basurto-D\u00e1vila",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ortega-Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Carlino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Meltzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Albalak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Emerging infectious diseases",
+            "volume": "19",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

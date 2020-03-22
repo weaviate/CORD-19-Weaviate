@@ -1,0 +1,1048 @@
+{
+    "paper_id": "97e0efc17b5a10c75f7c83b08423d27585a31df5",
+    "metadata": {
+        "title": "Immune phenotyping based on neutrophil-to-lymphocyte ratio and IgG predicts disease severity and outcome for patients with COVID-19",
+        "authors": [
+            {
+                "first": "Bicheng",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xiaoyang",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chengliang",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fan",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yanru",
+                "middle": [],
+                "last": "Qiu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jia",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Qingzhu",
+                "middle": [],
+                "last": "Jia",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Qibin",
+                "middle": [],
+                "last": "Song",
+                "suffix": "",
+                "affiliation": {},
+                "email": "qibinsong@163.com"
+            },
+            {
+                "first": "Bo",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {},
+                "email": "bo.zhu@tmmu.edu.cnor"
+            },
+            {
+                "first": "Jun",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Y",
+                "middle": [],
+                "last": "Qiu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "F",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "(",
+                "middle": [
+                    "Q"
+                ],
+                "last": "Jia",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Since December 2019, coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) has quickly spread across the world. 1 Approximately 20-30% of cases would develop severe illness, and some need further intervention in intensive care unit. Organ dysfunction including acute respiratory distress syndrome, shock, acute cardiac injury, and acute renal injury, could occur in severe cases with COVID-19, which lead to poor clinical outcome. 2, 3 Following SARS-CoV-2 infection, a high viral load and overexuberant host immune response involving innate and acquired immunity, simultaneously contributes to the pathogenesis of COVID-19 and organ injury. [2] [3] [4] The activated host immunity is characterized as lymphopenia, cytokine release storm (CRS), and dysfunctional immune responses to virus-specific antigen. Increasing clinical data indicated that the neutrophil-to-lymphocyte ratio (NLR) was identified as a powerful predictive and prognostic indicator for severe COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 166,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 484,
+                    "end": 486,
+                    "text": "2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 487,
+                    "end": 488,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 695,
+                    "end": 698,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 699,
+                    "end": 702,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 703,
+                    "end": 706,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "However, the dynamic of anti-SARS-CoV-2 antibody upon virus infection and their relation to disease status and outcome remains to be determined. 5 Here, we evaluated antibody response within 35 days after symptom onset in laboratory-confirmed case with COVID-19 as one component of an overall exaggerated immune activation in severe SARS-CoV-2 infection, and developed an immune phenotyping based on late IgG response and NLR that could help determine disease severity and clinical outcome of COVID-19 patients.",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 146,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "All included patients with COVID-19 had been admitted to the Renmin Hospital of Wuhan University, from January 13, 2020 to March 1, 2020. A total of 222 laboratory-confirmed COVID-19 patients were included in this study. The confirmed diagnosis of COVID-19 was defined as a positive result by using real-time reverse-transcriptase polymerase-chain-reaction (RT-PCR) detection for routine nasal and pharyngeal swab specimens or anti-SARS-CoV-2 antibody assay. Serum samples were collected at admission or convalescent-phase and were dated from the day of initial symptom onset. We retrospectively evaluated their anti-SARS-CoV-2 antibody response, clinical disease severity, and clinical outcome. This study received approval from the Research Ethics Committee of the Renmin Hospital of Wuhan University, Wuhan, China (approval number: WDRY2020-K094). The Research Ethics Committee waived the requirement informed consent before the study started because of the urgent need to collect epidemiological and clinical data. We analyzed all the data anonymously.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "The clinical features, including clinical symptoms, signs, laboratory analyses, treatment, and outcome, were obtained from the hospital's electronic medical records according to previously designed standardized data collection forms. The date of symptom onset, initial diagnosis of COVID-19, and death were recorded accurately. To increase the accuracy of collected data, two researchers independently reviewed the data collection forms. We also directly communicated with patients or their family members to ascertain the epidemiological and symptom data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Anti-IgG and anti-IgM antibodies were detected using Human SARS-CoV-2 IgG and IgM Chemiluminescence Analysis (CLIA) Assays panel (Shenzhen YHLO Biotech Co.,Ltd., Shenzhen, China) and the high-speed CLIA system iFlash 3000 (Shenzhen All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Antibody and cytokine assay"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.12.20035048 doi: medRxiv preprint YHLO Biotech Co.,Ltd., Shenzhen, China). Proinflammatory cytokines including interleukin (IL)-2, IL-4, IL-6, IL-10, interferon\u03b3 (IFN-\u03b3), and tumor necrosis factor-\u03b1 (TNF-\u03b1) were detected using Human Cytokine Standard Assays panel (ET Healthcare, Inc., Shanghai, China) and the Bio-Plex 200 system (Bio-Rad, Hercules, CA, USA) according to the manufacturer's instructions. NLR was calculated by dividing the absolute neutrophil count by the lymphocyte count.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Antibody and cytokine assay"
+        },
+        {
+            "text": "Descriptive analyses were used to determine the patients' epidemiological and clinical features. Continuous variables were presented as median and interquartile range (IQR), and categorical variables were expressed as the percentages in different categories. Means for continuous variables were compared using independent group t tests when the data were normally distributed; otherwise, the Mann-Whitney test was used. The Chi-squared test or Fisher's exact test was adopted for category variables.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Statistical analyses in this study were performed with use of STATA 15.0 software (Stata Corporation, College Station, TX, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "A two-sided P value less than 0.05 was considered statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "A total of 222 patients with a diagnosis of laboratory-confirmed COVID-19 recorded in the Renmin Hospital of Wuhan University were analyzed. Median age was 62 years (IQR; range from 52 to 69 years), and 48.2% of patients were male. 39.2% of patients were severe at the time of sampling. As of March 12, 2020, 5 patients (2.3%) died. A total of 121 patients (54.5%) required supplemental oxygen at some stage of illness. A total of 111 patients were administrated with high-dose corticosteroid. The number of patients receiving mechanical ventilation and administration of intravenous immunoglobin were 31 (14.0%) and 123 (55.4%), respectively. 194 patients recovered from this infected disease, and 59 severe patients recovered by anti-viral and supported therapy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "All patients had convalescent-phase sera for analysis. Of these, 98.6% of patients had anti-SARS-CoV-2-IgG detected in sera, and 82.0% had anti-SARS-CoV-2-IgM detected in sera. As shown in figure 1A , IgG was first detected on day 4 of illness, and its peak levels occurred in the fourth week, whereas IgM was first detected on day 3 of illness, and its peak levels occurred in the second week. Median IgG and IgM levels in convalescent-phase sera (within 35 days) for all included patients were compared among severe and nonsevere patients. Higher IgM levels were detected in patients with severe disease compared to those with nonsevere disease at early stage (<14 days), whereas higher IgG levels were detected at late stage (\u226521 days) (figure 1B and 1C). We used median as cut-off value to stratify high and levels of IgM and IgG. Interestingly, severe cases were more frequently occurred in patients with low IgM levels (<34.1 AU/mL) than those with high IgM levels (\u22653.04 AU/mL) (81.3% versus 40%; p=0.024) ( figure   1D ). Severe cases were more frequently found in patients with high IgG levels (\u2265116.9 AU/mL), compared to those who with low IgG levels (<116.9 AU/mL) (51.8% versus 32.3%; p=0.008) (figure 1E).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 189,
+                    "end": 198,
+                    "text": "figure 1A",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1015,
+                    "end": 1026,
+                    "text": "figure   1D",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Considering NLR is linked to innate immunity, and anti-IgG response is an indicator of acquired immunity, we stratified patients at late stage into four different immune response phenotypes: high NLR and high IgG levels (NLR hi IgG hi ), high NLR and low IgG levels (NLR hi IgG lo ), low NLR and high IgG levels (NLR lo IgG hi ), and low NLR and high IgG levels (NLR lo IgG lo ), according to NLR (cutoff: 3.04) and detected IgG levels (cutoff: 116.9 AU/mL). Severity rates for patients with NLR hi IgG hi , NLR hi IgG lo , NLR lo IgG hi , and NLR lo IgG lo phenotype were 72.3% (34/47), 48.5% (16/33), 33.3% (12/36), and 15.6% (5/32), respectively (p<0.0001) (figure 2A).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.12.20035048 doi: medRxiv preprint We next asked whether proinflammatory cytokines levels and T cell count were consistent with the above immune phenotyping.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "As shown in table 1, severe patients had higher proinflammatory cytokines levels including IL-2, IL-6 and IL-10 than nonsevere patients, especially in the NLR hi IgG hi or NLR hi IgG lo phenotype (p<0.05). Furthermore, severe patients with the NLR hi IgG hi or NLR hi IgG lo phenotype had higher proinflammatory cytokines levels including IL-2, IL-6 and IL-10, and decreased CD4+ T cell count, compared to those with the NLR lo IgG lo phenotype (p<0.05). In particular, only IgG and IgM were higher in severe patients with the NLR lo IgG hi phenotype than those in the NLR lo IgG lo phenotype (p<0.05).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "We also analyzed the treatment and clinical outcome for patients with different combined immune response phenotypes. 2B ). Dead cases only found in population with the NLR hi IgG hi or the NLR hi IgG lo phenotypes ( figure   2C ). However, too few severe cases at early stage had convalescent sera collected to allow separate analysis of anti-IgM response.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 117,
+                    "end": 119,
+                    "text": "2B",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 216,
+                    "end": 227,
+                    "text": "figure   2C",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In this study, we found enhanced IgM levels at early stage, and high levels were more frequently found in patients with severe disease. IgG levels increased at late stage, whereas high levels of IgG were frequently found in patients with severe disease. These results indicated that beside the antiviral efficacy, the antibody response might be associated with secondary antibody-mediated organ damage. Using NLR and IgG levels detected in sera at late stage, we develop a combined immune response phenotype, which could predict disease severity and the outcome of COVID-19 patient. To our knowledge, this is the first in the literatures to combine indicators from innate and acquired immunity to predict disease severity and outcome.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Anti-SARS-CoV-2-IgG can be detected at day 4 after onset, and it has peak levels at the fourth week, which is similar to the Anti-SARS-CoV-IgG response profile. 6 Previous data showed severe SARS was associated more robust serological responses including early seroconversion (<day 16) and higher IgG levels. 7 Low antibody titres were observed in patients with mild SARS or diseases with other viral infection. [8] [9] [10] Be consistent with findings, present study supported that a robust humoral response to SARS-CoV-2 correlated with disease severity. Furthermore, we believe that this robust acquired anti-IgG response not only contributes to viral clearance, but also leads to robust immune-mediated tissue damage.",
+            "cite_spans": [
+                {
+                    "start": 161,
+                    "end": 162,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 309,
+                    "end": 310,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 412,
+                    "end": 415,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 416,
+                    "end": 419,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 420,
+                    "end": 424,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Lymphopenia, neutrophilia, and high NLR are commonly presented and associated with more severe viral infection. 3, 11, 12 Recent data indicated that the NLR was identified as a powerful predictive and prognostic factor for severe COVID-19. 5 Thus, we develop simple combined immune response phenotypes using NLR, an indicator of innate immunity, and IgG, an indicator of acquired immunity. These four immune response phenotypes could be useful to distinguish the severe from the nonsevere cases and predict clinical outcome. We observed more severe cases occurred in NLR hi IgG hi or NLR hi IgG lo phenotypes, with only three dead cases.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 114,
+                    "text": "3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 115,
+                    "end": 118,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 119,
+                    "end": 121,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 240,
+                    "end": 241,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Patients with NLR hi IgG hi or NLR hi IgG lo appeared to be difficult to recover from severe SARS-CoV-2 infection, compared to All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.12.20035048 doi: medRxiv preprint NLR lo IgG hi or NLR lo IgG lo phenotype. A third of patients with NLR lo IgG hi had critical illness, suggesting that IgG response alone could lead to disease deterioration. Furthermore, high Th1 cytokine IFN-\u03b3, proinflammatory cytokines IL-6, TNF-\u03b1, and IL-10 were noted in NLR hi IgG hi or NLR hi IgG lo phenotypes. Accordingly, we speculated that anti-IgG humoral response directly contributed to tissue damage. In SARS-CoV/macaque models, Liu et al. found anti-spike IgG, the presence of high anti-spike IgG prior to viral clearance, abrogated wound-healing responses and promoted proinflammatory cytokines monocyte chemotactic protein 1 and IL-8 production and monocyte/macrophage recruitment and accumulation, eventually cause fatal acute lung injury during SARS-CoV infection. 13 Thus, we proposed potential mechanisms associated with different immune response phenotypes and presented specific treatment recommendations which would be helpful in guiding clinical decision ( figure 3 ). For example, in the NLR hi IgG lo group, both virus directly mediated tissue damage and CRS are responsible for disease development. In this scenario, anti-virus, tocilizumab, and serum from convalescent should be considered. However, serum from convalescent should only be used in patients with low IgG levels and should not be used in the patients with high IgG level since its use might aggravate the disease especially in the patients with NLR hi IgG hi phenotype. 14 Tocilizumab treatment might not be beneficial for patients with low NLR, because these patients are in the immunosuppression stage rather than in CRS stage. 15 Our retrospective investigation had some limitations. Firstly, virus titers were not monitored during SARS-CoV-2 infection and patient recovery. Higher IgG levels, however, were previously detected in patients who had negative pre-discharge fecal RT-PCR results and SARS-CoV-infected rhesus macaques that had markedly reducing virus titers. 7 Secondly, it is unknown whether the change or increase of IgM or IgA is related to disease severity. The mechanism responsible for the immunopathologic reaction of IgG remains elusive. Finally, the IgG response and its correlation to the severity of COVID-19 in patients without high-dose corticosteroid intervention have not been addressed. Nevertheless, our findings indicate that severe COVID-19 was associated with a more robust IgG response that can be developed as an acquired immunity-related marker to predictive disease severity, along with other innate immunity-relate makers such as NLR. Further study on the immunopathogenesis of SARS-CoV-2 infection is warranted.",
+            "cite_spans": [
+                {
+                    "start": 925,
+                    "end": 927,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1764,
+                    "end": 1766,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1123,
+                    "end": 1131,
+                    "text": "figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "JW, BZ and QS had the idea for and designed the study and had full access to all data in the study and take responsibility for the integrity of the data and the accuracy of the data analysis. BiZh, XZ and CZ contributed to writing of the report. BZ contributed to critical revision of the report. JW and BiZh contributed to the statistical analysis. All authors contributed to data acquisition, data analysis, or data interpretation, and reviewed and approved the final version.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contributors"
+        },
+        {
+            "text": "All authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "The data that support the findings of this study are available from the corresponding author on reasonable request. Participant data without names and identifiers will be made available after approval from the corresponding author and National Health All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sharing"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.12.20035048 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sharing"
+        },
+        {
+            "text": "Commission. After publication of study findings, the data will be available for others to request. The research team will provide an email address for communication once the data are approved to be shared with others. The proposal with detailed description of study objectives and statistical analysis plan will be needed for evaluation of the reasonability to request for our data. The corresponding author will make a decision based on these materials. Additional materials may also be required during the process.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sharing"
+        },
+        {
+            "text": "We acknowledge all health-care workers involved in the diagnosis and treatment of patients in Eastern Campus, Renmin Hospital of Wuhan University; we thank Prof Hong Zhou and Jiang Zheng for guidance in manuscript preparation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.12.20035048 doi: medRxiv preprint nonseverity between patients with low IgM levels (<34.1 AU/mL) or high IgM levels (\u22653.04 AU/mL). (E) Comparing the frequency of severity and nonseverity between patients with low IgG levels (<116.9 AU/mL) or high IgG levels (\u2265116.9 AU/mL).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "CLIA: chemiluminescence analysis. All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure legends"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.12.20035048 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure legends"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Pathological findings of COVID-19 associated with acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Neutrophil-to-lymphocyte ratio predicts severe illness patients with 2019 novel coronavirus in the early stage",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.10.20021584"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Immunofluorescence assay for serologic diagnosis of SARS",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Emerg Infect Dis",
+            "volume": "10",
+            "issn": "",
+            "pages": "530--532",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1003.030493"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Anti-SARS-CoV IgG response in relation to disease severity of severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ip",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Clin Virol",
+            "volume": "35",
+            "issn": "",
+            "pages": "179--84",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcv.2005.07.005"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Antibody responses against SARS coronavirus are correlated with disease outcome of infected individuals",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Med Virol",
+            "volume": "78",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.20499"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "High titer and avidity of nonneutralizing antibodies against influenza vaccine antigen are associated with severe influenza",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Clin Vaccine Immunol",
+            "volume": "19",
+            "issn": "",
+            "pages": "1012--1020",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/CVI.00081-12"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Severe pandemic 2009 H1N1 influenza disease due to pathogenic immune complexes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Monsalvo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Batalle",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lopez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Nat Med",
+            "volume": "17",
+            "issn": "",
+            "pages": "195--199",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nm.2262"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Longitudinal characteristics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2 infected patients",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.16.20023671"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "SARS immunity and vaccination",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Cell Mol Immunol",
+            "volume": "1",
+            "issn": "",
+            "pages": "193--201",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Anti-spike IgG scauses severe acute lung injury by skewing macrophage responses during acute SARS-CoV infection",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "JCI Insight",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/jci.insight.123158"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Development and characterization of a severe acute respiratory syndromeassociated coronavirus-neutralizing human monoclonal antibody that provides effective immunoprophylaxis in mice",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Greenough",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Babcock",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Roberts",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Infect Dis",
+            "volume": "191",
+            "issn": "",
+            "pages": "507--521",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/427242"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The third international consensus definitions for Sepsis and Septic Shock (Sepsis-3)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Singer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Deutschman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Seymour",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "JAMA",
+            "volume": "315",
+            "issn": "",
+            "pages": "801--811",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2016.0287"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "where N represents the total number of specific patients with available data. * p<0.05 versus nonsevere within individual immune response phenotype; # p<0.05 versus severe in NLR low IgG low phenotype. NLR: neutrophil-to-lymphocyte ratio; WBC: white blood cell; NEU: neutrophil; LYM: lymphocyte; IL-2: interleukin-2",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "TNF-\u03b1: tumor necrosis factor-\u03b1",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "IFN-\u03b3: interferon-\u03b3",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Median anti-SARS-CoV-2 IgG and IgM levels in patients with severe or nonsevere illness within 35 days after symptom onset. (A) Median IgG and IgM levels in all patients. (B) Comparing median IgG levels between severe and nonsevere patients. (C) Comparing median IgM levels between severe and nonsevere patients. (D) Comparing the frequency of severity and",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Immune response phenotyping with diverse disease severity according to NLR and IgG levels.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Immune response phenotyping with different immunological mechanisms associated with organ damage, and potential therapeutic strategies against severe COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Follow up the patients so far, 44.1% of patients with NLR hi IgG hi phenotype, 43.8% of patients NLR hi IgG lo phenotype, 16.7% of patients with NLR lo IgG hi phenotype received mechanical ventilation, but no patients with NLR lo IgG lo phenotype were treated with mechanical ventilation. All nonsevere patients did not develop severe disease. Recovery rate for severe patients with NLR hi IgG hi , NLR hi IgG lo , NLR lo IgG hi , and NLR lo IgG lo phenotype was 58.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.12.20035048 doi: medRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "actions": {
+        "classes": [],
+        "type": "action"
+    },
+    "things": {
+        "classes": [
+            {
+                "class": "Paper",
+                "description": "A scolarly article about coronaviruses",
+                "keywords": [
+                    {
+                        "keyword": "article",
+                        "weight": 1
+                    },
+                    {
+                        "keyword": "publication",
+                        "weight": 1
+                    }
+                ],
+                "properties": [
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Title of the paper",
+                        "name": "title"
+                    },
+                    {
+                        "dataType": [
+                            "text"
+                        ],
+                        "description": "Abstract text describing the summary of the paper",
+                        "name": "abstract",
+                        "keywords": [
+                            {
+                                "keyword": "summary",
+                                "weight": 0.8
+                            }
+                        ]
+                    },
+                    {
+                        "dataType": [
+                            "text"
+                        ],
+                        "description": "Full body text of the paper",
+                        "name": "body",
+                        "keywords": [
+                            {
+                                "keyword": "text",
+                                "weight": 0.8
+                            }
+                        ]
+                    },
+                    {
+                        "dataType": [
+                            "Paper"
+                        ],
+                        "description": "Other papers that this paper refers to",
+                        "name": "hasReferences",
+                        "cardinality": "many"
+                    },
+                    {
+                        "dataType": [
+                            "Publisher"
+                        ],
+                        "description": "Source of the paper",
+                        "name": "source"
+                    },
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Digital Object Identifier of the paper",
+                        "name": "doi"
+                    },
+                    {
+                        "dataType": [
+                            "date"
+                        ],
+                        "description": "Date the paper was published",
+                        "name": "publishTime"
+                    },
+                    {
+                        "dataType": [
+                            "Journal"
+                        ],
+                        "description": "Journal the paper was published in",
+                        "name": "journal"
+                    },
+                    {
+                        "dataType": [
+                            "boolean"
+                        ],
+                        "description": "Whether the full text of the paper is available",
+                        "name": "hasFullText"
+                    },
+                    {
+                        "cardinality": "atMostOne",
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "paper id given by the original dataset",
+                        "index": false,
+                        "name": "paperId"
+                    }
+                ]
+            },
+            {
+                "class": "Author",
+                "description": "Researcher and writer of a paper",
+                "keywords": [
+                    {
+                        "keyword": "writer",
+                        "weight": 1
+                    },
+                    {
+                        "keyword": "researcher",
+                        "weight": 0.8
+                    }
+                ],
+                "properties": [
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "First name of the author",
+                        "name": "firstName",
+                        "vectorizePropertyName": false
+                    },
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Middle names of the author",
+                        "name": "middleName",
+                        "vectorizePropertyName": false
+                    },
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Lase name of the author",
+                        "name": "lastName",
+                        "vectorizePropertyName": false
+                    },
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Name suffix of the author",
+                        "name": "suffix",
+                        "vectorizePropertyName": false
+                    },
+                    {
+                        "dataType": [
+                            "Institute"
+                        ],
+                        "description": "Research center the author is affiliated with",
+                        "name": "affiliation"
+                    },
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Email of the author",
+                        "name": "email",
+                        "vectorizePropertyName": false
+                    },
+                    {
+                        "cardinality": "many",
+                        "dataType": [
+                            "Paper"
+                        ],
+                        "description": "Papers this author wrote",
+                        "name": "wrotePapers"
+                    }
+                ]
+            },
+            {
+                "class": "Institute",
+                "description": "Research center, research institute or university",
+                "keywords": [
+                    {
+                        "keyword": "university",
+                        "weight": 0.8
+                    }
+                ],
+                "properties": [
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Name of the institution",
+                        "name": "name",
+                        "vectorizePropertyName": false
+                    },
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Post code of the institution",
+                        "name": "postCode",
+                        "vectorizePropertyName": false
+                    },
+                    {
+                        "dataType": [
+                            "Settlement"
+                        ],
+                        "description": "City or area the institution is settled in",
+                        "name": "settlement",
+                        "vectorizePropertyName": false
+                    },
+                    {
+                        "dataType": [
+                            "Region"
+                        ],
+                        "description": "Region the institution is settled in",
+                        "name": "region"
+                    },
+                    {
+                        "dataType": [
+                            "Country"
+                        ],
+                        "description": "Country the institution is settled in",
+                        "name": "country"
+                    }
+                ]
+            },
+            {
+                "class": "Settlement",
+                "description": "City or area in a region in a country",
+                "keywords": [
+                    {
+                        "keyword": "city",
+                        "weight": 0.8
+                    }
+                ],
+                "properties": [
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Name of the settlement",
+                        "name": "name",
+                        "vectorizePropertyName": false
+                    },
+                    {
+                        "dataType": [
+                            "Region"
+                        ],
+                        "description": "Region of the settlement",
+                        "name": "region"
+                    },
+                    {
+                        "dataType": [
+                            "Country"
+                        ],
+                        "description": "Country of the settlement",
+                        "name": "country"
+                    }
+                ]
+            },
+            {
+                "class": "Region",
+                "description": "Region in a country",
+                "properties": [
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Name of the region",
+                        "name": "name",
+                        "vectorizePropertyName": false
+                    },
+                    {
+                        "dataType": [
+                            "Country"
+                        ],
+                        "description": "Country of the region",
+                        "name": "country"
+                    }
+                ]
+            },
+            {
+                "class": "Country",
+                "description": "Country",
+                "properties": [
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Name of the country",
+                        "name": "name",
+                        "vectorizePropertyName": false
+                    }
+                ]
+            },
+            {
+                "class": "Publisher",
+                "description": "Organization that collects and publishes scientific papers",
+                "properties": [
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Name of the publisher",
+                        "name": "name",
+                        "vectorizePropertyName": false
+                    }
+                ]
+            },
+            {
+                "class": "Journal",
+                "description": "A scientific magazine that presents papers",
+                "keywords": [
+                    {
+                        "keyword": "magazine",
+                        "weight": 0.8
+                    }
+                ],
+                "properties": [
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Name of the journal",
+                        "name": "name",
+                        "vectorizePropertyName": false
+                    }
+                ]
+            }
+        ],
+        "type": "thing"
+    }
+}

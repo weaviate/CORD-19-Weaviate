@@ -1,0 +1,742 @@
+{
+    "paper_id": "2365df72b5a011f1a1a38b615f6cd87a126d311e",
+    "metadata": {
+        "title": "Evaluating the effect of public health intervention on the global-wide spread trajectory of Covid-19",
+        "authors": [
+            {
+                "first": "Zixin",
+                "middle": [],
+                "last": "Hu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qiyang",
+                "middle": [],
+                "last": "Ge",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shudi",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Texas Health Science Center at Houston",
+                    "location": {
+                        "postCode": "77030",
+                        "settlement": "Houston",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jin",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Momiao",
+                "middle": [],
+                "last": "Xiong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Texas Health Science Center at Houston",
+                    "location": {
+                        "postCode": "77030",
+                        "settlement": "Houston",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": "momiao.xiong@uth.tmc.edu."
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "fully comprehensive intervention and assigned 1 to the intervention variable. We assigned 0 to the intervention variable if there was no intervention. The weights between 0 and 1 were assigned to the intervention variable for the different degrees of interventions. The values that were assigned to the intervention variable was called weight. Taking time for intervention into account, we considered four comprehensive intervention scenarios. The first intervention scenario was to start intervention on March 9, 2020 and the weight was 1. The second intervention scenario was to start limited intervention on March 9 (the weight was 0.5) and one week later to start complete intervention (the weight was 1). The third intervention scenario was that in the first week (starting on March 9) no intervention was taken (the weight was 0); in the second week, take limited intervention (the weight was 0.5); and after the third week, take full intervention (the weight was 1). The fourth intervention scenario was that in the first one week, no intervention was taken (the weight was 0), in the next three weeks, limited intervention was taken (the weight was 0.5), and after the fourth week, full intervention was taken (the weight was 1). We investigate how the degree of intervention and starting intervention time determine the peak time and case ending time, the peak number and maximum number of cases and forecasting the peak and maximum number of new and cumulative cases in more than 100 countries across the world. The analysis is based on the surveillance data of confirmed and new Covid-19 cases in the world up to March 8, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Data on the number of confirmed, new and death cases of Covid-19 from January 20, 2020 to March 8 were from WHO (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports). Data included the total numbers of the accumulated, newly confirmed and death cases in the world and across 102 countries. All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Later intervention makes it difficult to stop the spread of COVID-19"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020. 03.11.20033639 doi: medRxiv preprint To demonstrate that the modified auto-encoder (MAE) is a reasonable forecasting method, the MAE was applied to the confirmed accumulated cases of Covid-19 across 102 countries in the world. The intervention indicator for China and other countries was set to 1 and 0, respectively. Table S1 presented the one-step to five-step errors for forecasting the accumulated cases, starting from March 3, 2020. Table S1 showed that in any cases the forecasting accuracies of the MAE were less than 5%.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 144,
+                    "text": "03.11.20033639 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 426,
+                    "end": 434,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 546,
+                    "end": 554,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Later intervention makes it difficult to stop the spread of COVID-19"
+        },
+        {
+            "text": "We consider comprehensive interventions. Comprehensive intervention included strict travel restriction, cancel conferences, mandatory quarantine, restrict public transportation, school closing and shut down all non-essential companies. Using real data to evaluate the consequences of specific intervention is infeasible. We considered three intervention scenarios: (1) China type intervention where 1 was assigned to the intervention variable, (2) no major interventions where 0 was assigned to the intervention variable and (3) between the China type intervention and no major interventions where 0.5 was assigned to the intervention variable. Table 1 presented the forecasting results of COVID-19 in 30 countries and worldwide under limited and later intervention (scenario 4). Table 1 showed that the total peak number of confirmed cases and new cases in the world with limited intervention could reach 1,516,300 and 178,090, respectively. Table 1 also showed that if every country in the world took later intervention, finally, the total number of cases in the world could reach as high as 4 million, a frightening number (3, 929, 641) and miserable transmission of COVID-19 continuing until late Aug 2020. Table 1 author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 1126,
+                    "end": 1129,
+                    "text": "(3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1130,
+                    "end": 1134,
+                    "text": "929,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1135,
+                    "end": 1139,
+                    "text": "641)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 645,
+                    "end": 652,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 780,
+                    "end": 787,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 943,
+                    "end": 950,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1211,
+                    "end": 1218,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Later intervention makes it difficult to stop the spread of COVID-19"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033639 doi: medRxiv preprint USA, France and all other countries under scenario 4. We observed that numbers of new cases in all countries except for China would peak in early April. Both sides of the peak of the new cases will be steep, which implies that the new cases will increase rapidly and put great pressure on the health care workers and facilities when the curve approaches the peak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Later intervention makes it difficult to stop the spread of COVID-19"
+        },
+        {
+            "text": "When we are past the point of containing coronavirus, there is urgent need to develop new strategies to curb the spread of COVID-19 (1). In this section, we investigate whether comprehensive interventions can control the spread of COVID-19 and how interventions will reduce the peak time and the number, and the final total number of cases across the world. Table 2 showed the forecasted results of COVID-19 in 30 countries and world wide under immediate active intervention such as restrict social interaction, community mitigation measures and quarantine (Scenario 1). We can observe dramatic reduction of the cases of COVID-19. It is highly unlikely to completely shut down cities. However, it is possible to use precision quarantine to slow down and keep people from transmitting the disease. To simulate the All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 358,
+                    "end": 365,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "New strategies are needed to curb the spread of COVID-19"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "New strategies are needed to curb the spread of COVID-19"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033639 doi: medRxiv preprint intervention measures between China with complete control and without any control, we presented Tables S2 and S3 which showed the results under scenarios 2 and 3. Figure author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 307,
+                    "end": 313,
+                    "text": "Figure",
+                    "ref_id": null
+                }
+            ],
+            "section": "New strategies are needed to curb the spread of COVID-19"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033639 doi: medRxiv preprint maximum number of cumulative cases under the later intervention scenario would increase at least 240 times more than that of early intervention. We also observed that the intervention strategy to control the spread of the coronavirus of the two countries: South Korea and Singapore were similar to that of China.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "New strategies are needed to curb the spread of COVID-19"
+        },
+        {
+            "text": "To explore the shape of time-case curves of the top seven infected countries: China, Iran, Italy, Germany, South Korea, USA, France and all other countries, we presented Figure S3 . We observed two remarkable features. First, the time-case curve under the later intervention scenario was shifted for more than one month to the right, which implied that both peak time and end time lasted longer. Second, the time-case curve under later intervention was much steeper than that of under the early intervention. In other words, later intervention will substantially increase the number of cumulative cases of COVID-19. Figure S4 showed the case-fatality rate curve as a function of the Date where the case-fatality rate was defined as the ratio of the number of deaths over the number of cumulative cases in the world. The average case-fatality rate was 3.4%.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 170,
+                    "end": 179,
+                    "text": "Figure S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 616,
+                    "end": 625,
+                    "text": "Figure S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "New strategies are needed to curb the spread of COVID-19"
+        },
+        {
+            "text": "As an alternative to the epidemiologic transmission model, we used MAE to forecast the realtime trajectory of the transmission dynamics and generate the real-time forecasts of Covid-19 across the world. The results showed that the accuracies of prediction and subsequently multiplestep forecasting were high. This approach allows us to address two important questions. The first question is whether comprehensive non-drug public health intervention is required or not. The second question is how important is the intervention time. Since interventions are complicated and are difficult to quantify, we designed four intervention scenarios to represent the degrees of All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033639 doi: medRxiv preprint interventions and delay of interventions. The proposed methods combine the real data and some assumptions. This allowed us to evaluate the consequences of intervention, while keeping the analysis as close to the real data as possible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The MAE models allow inputting the interventions information, investigating the impact of interventions on the size, duration and time of the virus outbreak and recommending the intervention time. Using this approach, we also can assess the degree of intervention and group the countries by intervention similarity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our analysis demonstrated that public health intervention was extremely important. We observed that delaying intervention for one month caused the maximum number of cumulative cases increase from 211,000 to 3,929,641 and increased 18.62 times. Using 3.4% as the average case fatality rate, the number of deaths increased from 7,174 to 133,608. We analyzed 102 countries and identified 44 countries for which delaying intervention for one month led to serious consequences. For example, delaying intervention for one month in Italy, Iran, USA and Germany increased the maximum number of cumulative cases from 29,475 to 1,493,498, from 37,428 to 729,274, from 5,278 to 293,797, and from 8,795 to 144,542, respectively. We also simulated the impact of delaying intervention for one week or two weeks on controlling the spread of coronavirus (scenarios 2 and 3). The impact of delaying one or two weeks on the spread of the coronavirus was between the immediate intervention and delaying intervention for one month. Intervention will provide the greatest benefit to mitigate the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Figs. S1 and S2 Table S1 , S2 and S3",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 16,
+                    "end": 24,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "References (13-16) All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033639 doi: medRxiv preprint author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.20033639 doi: medRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Time to use the p-word? Coronavirus enters dangerous new phase",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Callaway",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/d41586-020-00551-1"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Estimating the Unreported Number of Novel Coronavirus (2019-nCoV) Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Musa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ran",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med. Feb",
+            "volume": "1",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Analysis and projections of transmission dynamics of nCoV in Wuhan",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Diamond",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Edmunds",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Eggo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Reporting, epidemic growth, and reproduction numbers for the 2019 novel coronavirus (2019-nCoV) epidemic",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tuite",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Fisman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Centre for the Mathematical Modelling of Infectious Diseases COVID-19 Working Group, Funk S1, Eggo RM2. Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hellewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gimma",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Bosse",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Jarvis",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Munday",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Real-time forecasting of infectious disease dynamics with a stochastic semi-mechanistic model",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Camacho",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Eggo",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Epidemics",
+            "volume": "22",
+            "issn": "",
+            "pages": "56--61",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "An open challenge to advance probabilistic forecasting for dengue epidemics",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Johansson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Apfeldorf",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dobson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "116",
+            "issn": "48",
+            "pages": "24268--24274",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "also showed that the top 10 countries with a high average increasing rate of the cases were Italy, Iran, Germany, USA, South Korea, Netherlands, France, China and Switzerland. To show the dynamics of COVID-19, Figure 1(G) and (H) presented plotted the curves of the confirmed cases and new cases of seven major infected countries: China, Iran, Italy, Germany, South Korea, All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "After taking active intervention, the forecasted final total number of cases (when the spread of COVID-19 is over) in the world was reduced from 3,929,641 to 211,000, i.e, 94.6% of the potential cases would be eliminated by active intervention, duration time was reduced from 215 days to 157 days, and the end time would change from Aug 22 to Jun 25. To show transmission changes of COVID-19, we presented Figure 1(A) and (B) that plotted the curves of the confirmed cases and new cases in seven major infected countries: China, Iran, Italy, Germany, South Korea, USA, France and all other countries under scenario 1. Figures showed that both new and cumulated cases of coronavirus outside China were much lower than that of China.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "transmission dynamics of COVID-19 with plotted curves of the confirmed cases and new cases in the seven major infected countries: China, Iran, Italy, Germany, South Korea, USA, France and all other countries under scenarios 2 and 3, respectively. Scenarios 2 and 3 may be more realistic. Comparisons among several strategies To further illustrate the impact of interventions on the spread of COVID-19, we comprehensively compare the effects of the four intervention scenarios on the transmission dynamics of COVID-19 across the world. Figure 2 plotted the world reported and forecasted time curves of the cumulative and newly confirmed cases of Covid-19 under four intervention scenarios. The ratios of the world number of final cases in the four scenarios were 1:1.5:3.3:18.6 and ratios of case duration under the four intervention scenarios were 1:1:1.2:1.4. These results showed that intervention time delays had serious consequences. Later intervention may increase almost 20 fold (18.6) the number of cases when Covid-19 would be over and will delay the ending time by almost two months. The ratio of the average increase index of new cases under the four intervention scenarios were respectively 1:2.88:5.88:30. Delaying intervention will substantially speed the spread of coronavirus.Figure S2presented the forecasted duration, cumulative cases of outbreak end, and risk of the top 44 outbreak countries in the world where the risk index was defined as the ratio of the number of cumulative cases under intervention scenario , = 2,3,4 over the number of cumulative cases under intervention scenario 1. We observed that risks of later intervention among the top the 43 countries(China excluded) varied from 7 (Finland) to 241 (Ecuador). In other words, among these countries, the All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Spread of COVID-19 in 30 countries and whole world under limited intervention.All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Spread of COVID-19 in 30 countries and whole world under active intervention.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

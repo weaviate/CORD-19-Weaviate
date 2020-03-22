@@ -1,0 +1,1276 @@
+{
+    "paper_id": "3cacba057a5c55bfd6d0e821ced60cfe42e57ab6",
+    "metadata": {
+        "title": "of a densely sampled COVID19 2 outbreak in China",
+        "authors": [
+            {
+                "first": "Erik",
+                "middle": [
+                    "M"
+                ],
+                "last": "Volz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Imperial College London",
+                    "location": {
+                        "postCode": "W2 1PG",
+                        "settlement": "Norfolk Place",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Han",
+                "middle": [],
+                "last": "Fu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Imperial College London",
+                    "location": {
+                        "postCode": "W2 1PG",
+                        "settlement": "Norfolk Place",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Haowei",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Imperial College London",
+                    "location": {
+                        "postCode": "W2 1PG",
+                        "settlement": "Norfolk Place",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaoyue",
+                "middle": [],
+                "last": "Xi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Imperial College London",
+                    "location": {
+                        "postCode": "SW7 2AZ",
+                        "settlement": "London",
+                        "country": "United 9 Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dehui",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yingying",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mengmeng",
+                "middle": [],
+                "last": "Tian",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Tan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Junjie",
+                "middle": [],
+                "last": "Zai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Immunology Innovation Team",
+                    "institution": "Ningbo University",
+                    "location": {
+                        "postCode": "315211",
+                        "settlement": "Ningbo",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wanying",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shenzhen Key Laboratory of 13 Unknown Pathogen Identification, BGI-Shenzhen",
+                    "institution": "",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jiandong",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Li",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Junhua",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Immunology Innovation Team",
+                    "institution": "Ningbo University",
+                    "location": {
+                        "postCode": "315211",
+                        "settlement": "Ningbo",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xingguang",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shenzhen Key Laboratory of 13 Unknown Pathogen Identification, BGI-Shenzhen",
+                    "institution": "",
+                    "location": {
+                        "postCode": "518083",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": "xingguanglee@hotmail.com"
+            },
+            {
+                "first": "Qing",
+                "middle": [],
+                "last": "Nie",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u2020",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Analysis of genetic sequence data from the pandemic SARS Coronavirus 2 can provide 18 insights into epidemic origins, worldwide dispersal, and epidemiological history. With few 19 exceptions, genomic epidemiological analysis has focused on geographically distributed data sets 20 with few isolates in any given location. Here we report an analysis of 20 whole SARS-CoV 2 21 genomes from a single relatively small and geographically constrained outbreak in Weifang, 22 People's Republic of China. Using Bayesian model-based phylodynamic methods, we estimate the 23 reproduction number for the outbreak to be 2.6 (95% CI:1.5-5). We further estimate the number of 24 infections through time and compare these estimates to confirmed diagnoses by the Weifang 25 Centers for Disease Control. We find that these estimates are consistent with reported cases and 26 there is unlikely to be a large undiagnosed burden of infection over the period we studied. 27 28 194",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We gratefully acknowledge China National GeneBank at Shenzhen, China for the sequencing strategy 195 and capacity support. We also gratefully acknowledge the laboratories that have contributed",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "We report a genomic epidemiological analysis of one of the first geographically concentrated 30 community transmission samples of SARS-CoV 2 genetic sequences collected outside of the initial 31 1 of 9 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https: //doi.org/10.1101 //doi.org/10. /2020 Submitted manuscript. Not peer reviewed. outbreak in Wuhan, China. These data comprise 20 whole genome sequences from confirmed 32 COVID19 infections in Weifang, Shandong Province, People's Republic of China. The data were 33 collected over the course of several weeks up to February 10, 2020 and overlap with a period 34 of intensifying public health and social distancing measures. Phylodynamic analysis allows us to 35 evaluate epidemiological trends after seeding events which took place in mid to late January, 2020. 36 The objective of our analysis is to evaluate epidemiological trends based on national surveillance 37 and response efforts by Weifang Centers for Disease Control (CDC). This analysis provides an 38 estimate of the initial rate of spread and reproduction number in Weifang City. In contrast to the 39 early spread of COVID19 in Hubei Province of China, most community transmissions within Weifang 40 took place after public health interventions and social distancing measures were put in place. We 41 therefore hypothesize that genetic data should reflect a lower growth rate and reproduction number 42 than was observed in Wuhan. A secondary aim is to estimate the total numbers infected and to 43 evaluate the possibility that there is a large unmeasured burden of infection due to imperfect case 44 ascertainment and a large proportion of infections with mild or asymptomatic illness. 45 To analyze the Weifang sequences, we have adapted model-based phylodynamic methods 46 which were previously used to estimate growth rates and reproduction numbers using sequence 47 data from Wuhan and exported international cases (Volz et al., 2020) . This analysis has several 48 constraints and requirements: 49 50 Importation of lineages from Wuhan. The outbreak in Weifang was seeded by multiple lineages 51 imported at various times from the rest of China. We use a phylodynamic model that accounts for 52 location of sampling. Migration is modeled as a bi-directional process with rates proportional to 53 epidemic size in Weifang. The larger international reservoir of COVID19 cases serves as a source of 54 new infections and is assumed to be growing exponentially over this period of time. 55 Nonlinear epidemiological dynamics in Weifang. The maximum number of daily confirmed COVID19 56 cases occurred on February 5, but it is unknown when the maximum prevalence of infection oc-57 curred. We use a susceptible-exposed-infectious-recovered (SEIR) model (Keeling and Rohani, 2011) 58 for epidemic dynamics in Weifang. The model accounts for a realistic distribution of generation 59 times and can potentially capture a nonlinear decrease in cases following epidemic peak. 60 Variance in transmission rates (Lloyd-Smith et al., 2005) .To estimate total numbers infected, the 61 phylodynamic model must account for epidemiological variables which are known to significantly 62 influence genetic diversity. Foremost among these is the variance in offspring distribution (number 63 of transmissions per primary case). We draw on previous evidence based on the previous SARS 64 epidemic which indicates that the offspring distribution is highly over-dispersed. High variance of 65 transmission rates will reduce genetic diversity of a sample and failure to account for this factor 66 will lead to highly biased estimates of epidemic size (Li et al., 2017) . Recent analyses of sequence 67 data drawn primarily from Wuhan has found that high over-dispersion was required for estimated 68 cases to be consistent with the epidemiological record (Volz et al., 2020) . Models assuming low 69 variance in transmission rates between people would generate estimates of cases that are lower . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 102,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 122,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 346,
+                    "end": 348,
+                    "text": "33",
+                    "ref_id": null
+                },
+                {
+                    "start": 542,
+                    "end": 544,
+                    "text": "35",
+                    "ref_id": null
+                },
+                {
+                    "start": 645,
+                    "end": 647,
+                    "text": "36",
+                    "ref_id": null
+                },
+                {
+                    "start": 1343,
+                    "end": 1345,
+                    "text": "43",
+                    "ref_id": null
+                },
+                {
+                    "start": 1535,
+                    "end": 1537,
+                    "text": "45",
+                    "ref_id": null
+                },
+                {
+                    "start": 1768,
+                    "end": 1787,
+                    "text": "(Volz et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2337,
+                    "end": 2339,
+                    "text": "55",
+                    "ref_id": null
+                },
+                {
+                    "start": 2602,
+                    "end": 2631,
+                    "text": "(Keeling and Rohani, 2011) 58",
+                    "ref_id": null
+                },
+                {
+                    "start": 2820,
+                    "end": 2822,
+                    "text": "60",
+                    "ref_id": null
+                },
+                {
+                    "start": 2854,
+                    "end": 2880,
+                    "text": "(Lloyd-Smith et al., 2005)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 3481,
+                    "end": 3498,
+                    "text": "(Li et al., 2017)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 3685,
+                    "end": 3704,
+                    "text": "(Volz et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033365 doi: medRxiv preprint Submitted manuscript. Not peer reviewed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "found that high over-dispersion is required to reconcile estimated reproduction numbers with 72 the observed frequency of international outbreaks. In this study, we elaborate the SEIR model to 73 include a compartment( ) with higher transmission rates. The variance of the implied offspring 74 distribution is calibrated to give similar overdispersion from the SARS epidemic.",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 195,
+                    "text": "73",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Despite an initial rapid increase in confirmed cases in Weifang in late January and early February, the 77 number of confirmed cases by Weifang CDC show that outbreak peaked quite early and maximum 78 number of cases ocurred on February 5. Phylodynamic analysis supports the interpretation that 79 control efforts reduced epidemic growth rates and contributed to eventual control. Figure 1A 80 illustrates the phylodynamic model which was co-estimated with the phylogeny which provides 81 estimates of epidemiological parameters summarized in Table 1 . Figure We do not have sufficient data to detect a large decrease in epidemic growth rates as the 93 epidemic progressed. We estimate 0 = 2.6 (95% HPD:1.5-5). The growth rate in estimated 94 infections remained positive but decreased substantially over the sampling period. These estimates 95 correspond to growth during a period when Weifang was implementing a variety of public health 96 interventions and contact tracing to limit epidemic spread. These interventions included public 97 3 of 9",
+            "cite_spans": [
+                {
+                    "start": 740,
+                    "end": 742,
+                    "text": "94",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 381,
+                    "end": 390,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 543,
+                    "end": 550,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 553,
+                    "end": 559,
+                    "text": "Figure",
+                    "ref_id": null
+                }
+            ],
+            "section": "76"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "76"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033365 doi: medRxiv preprint Submitted manuscript. Not peer reviewed. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "76"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033365 doi: medRxiv preprint Submitted manuscript. Not peer reviewed. health messaging, establishing phone hotlines, encouraging home isolation for recent vitors from 98 Wuhan (January 23-26), optimizing triage of suspected cases in hospitals (January 24), travel 99 restrictions(January 26), extending school closures, and establishing 'fever clinics' for consulatation 100 and diagnosis(January 27) (Mao, 2020) . 101 As well as providing novel epidemiological estimates, our results point to the significance of 102 realistic modeling for fidelity of phylogenetic inference. The use of a model-based structured coa-103 lescent prior had large influence over estimated molecular clock rates and inferred TMRCAs. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 282,
+                    "end": 284,
+                    "text": "98",
+                    "ref_id": null
+                },
+                {
+                    "start": 486,
+                    "end": 489,
+                    "text": "100",
+                    "ref_id": null
+                },
+                {
+                    "start": 516,
+                    "end": 527,
+                    "text": "(Mao, 2020)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 530,
+                    "end": 533,
+                    "text": "101",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "76"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https: //doi.org/10.1101 //doi.org/10. /2020 Submitted manuscript. Not peer reviewed. size estimates. The model of epidemic dynamics within Weifang is based on a susceptible-exposedinfectious-recovered (SEIR) model. We elaborate the model with with an additional compartment which has a higher transmission rate ( -fold higher) than the compartment. Upon leaving the incubation period individuals progress to the compartment with probability \u210e , or otherwise to . 6 of 9 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 102,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 122,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "76"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https: //doi.org/10.1101 //doi.org/10. /2020 Submitted manuscript. Not peer reviewed.",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 102,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 122,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods and Materials"
+        },
+        {
+            "text": "The model is implemented as a system of ordinary differential equations:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods and Materials"
+        },
+        {
+            "text": "We also model an exponentially growing reservoir ( ) for imported lineages in to Weifang. The equation governing this population is\u0307 substitution model and a time-scaled tree was estimated using treedater 0.5.0 (Volz and Frost, 2017) . 176 Two outliers according to the molecular clock model were identified and removed using 'treedater' 177 which was also used to compute the root to tip regression. 178 Bayesian phylogenetic analysis was carried out using BEAST 2.6.1 (Bouckaert et al., 2019) . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 211,
+                    "end": 233,
+                    "text": "(Volz and Frost, 2017)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 236,
+                    "end": 239,
+                    "text": "176",
+                    "ref_id": null
+                },
+                {
+                    "start": 401,
+                    "end": 404,
+                    "text": "178",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 470,
+                    "end": 494,
+                    "text": "(Bouckaert et al., 2019)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Methods and Materials"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint in study design, data analysis, data interpretation, or writing of the report.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods and Materials"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "193"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033365 doi: medRxiv preprint Submitted manuscript. Not peer reviewed. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "193"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20033365 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "193"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10. 1101 ",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "1101",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "193"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Cryptic transmission of novel coronavirus revealed by genomic epidemiology",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bedford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2023",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. PLoS 219 computational biology",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Maio",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "MERS-CoV spillover at the camel-human interface",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dudas",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Carvalho",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bedford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Elife",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "disease and diplomacy: GISAID's innovative contribution to global health",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Elbe",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Buckland-Merrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Data",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Genomic surveillance elucidates Ebola virus origin and transmission during the 2014 outbreak",
+            "authors": [],
+            "year": 2014,
+            "venue": "Science",
+            "volume": "345",
+            "issn": "6202",
+            "pages": "1369--1372",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "doi: medRxiv preprint Submitted manuscript. Not peer reviewed",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.09.20033365"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Dispersion vs",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Grantz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Metcalf",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lessler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "MAFFT multiple sequence alignment software version 7: improvements in performance 233 and usability. Molecular biology and evolution",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Katoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Standley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "30",
+            "issn": "",
+            "pages": "772--780",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Modeling Infectious Diseases in Humans and Animals",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Keeling",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rohani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Quantifying Transmission Heterogeneity Using Both Pathogen Phylogenies and 236 Incidence Time Series",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Grassly",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Mol Biol Evol",
+            "volume": "34",
+            "issn": "11",
+            "pages": "2982--2995",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Superspreading and the effect of individual variation on 238 disease emergence",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Lloyd-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schreiber",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kopp",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Getz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "438",
+            "issn": "7066",
+            "pages": "355--359",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Weifang City announces fever clinics. Weifang News Network",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "IQ-TREE 2: New 241 models and efficient methods for phylogenetic inference in the genomic era",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Minh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Chernomor",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schrempf",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Woodhams",
+                    "suffix": ""
+                },
+                {
+                    "first": "Von",
+                    "middle": [],
+                    "last": "Haeseler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lanfear",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Phylodynamic Analyses based on 11 genomes from the Italian outbreak",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Stadler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2023",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Phylodynamic analysis of SARS-CoV-2 | Update 2020-03-06",
+            "authors": [
+                {
+                    "first": "Verity",
+                    "middle": [],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2023",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Scalable relaxed clock phylogenetic dating",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Volz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sdw",
+                    "middle": [],
+                    "last": "Frost",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Virus Evol",
+            "volume": "3",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Phylogenetic analysis of SARS-CoV",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fitzjohn",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gaythorpe",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ghani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hamlet",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hinsley",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Laydon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nedjati-Gilani",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gemma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Riley",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Okell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Elsland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Bayesian phylodynamic inference with complex models",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Volz",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Siveroni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLoS Comput Biol",
+            "volume": "14",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "ggtree : an R package for visualization and annotation of phylogenetic 253 trees with their covariates and other associated data",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tty",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Methods Ecol Evol",
+            "volume": "8",
+            "issn": "1",
+            "pages": "28--36",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A pneumonia outbreak associated with a new 256 coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "70than the known number of confirmed cases. Separately, Grantz et al.(Grantz et al., ????)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "1B shows the estimated 82 time scaled phylogeny (maximum clade credibility) including 20 lineages sampled from distinct 83 patients in Weifang and 33 genomes sampled from Wuhan and internationally. 84 The estimated number of infections is shown Figure 1C. The time series of confirmed cases 85 should lag the estimated number of infected because of delays from infection to appearance of 86 symptoms and delays from symptoms to diagnosis. We also expect that an unknown proportion of 87 infections will be missed by the surveillance system due very mild, subclinical, or asymptomatic 88 infection. Our estimates do not support the hypothesis that there was a very large hidden burden 89 of infection in Weifang over the period that the sequence data were sampled. Indeed, our central 90 estimate for the number infected on 10th February is only 142 and the credible intervals cover the 91 44 cumulative confirmed cases at the end of February.92",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Phylodynamic estimates and epidemiological model. A. Diagram representing the structure of the epidemiological SEIR model which was fitted in tandem with the time scaled phylogeny. Colours correspond to the state of individuals sampled and represented in the tree (B). Note that infected and infectious individuals may occupy a low transmission state (I) or a high transmission rate state (J) to account for high dispersion of the reproduction number. B. A time scaled phylogeny co-estimated with epidemiological parameters. The colour of tips corresponds to location sampling. Red tips were sampled from Weifang, China. The credible interval of TMRCA is shown as a blue bar for all nodes with more than 50% posterior support. C. Cumulative estimated infections through time produced by fitting the SEIR model and the cumulative confirmed cases",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "points) reported by Weifan CDC. The shaded region shows the 95% HPD and the line shows the posterior median. D. A root to tip regression showing approximately linear increase in diversity with time of sampling.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure supplement 1. Maximum likelihood time tree.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Figure supplement 2. Tree posterior density plot.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Figure supplement 3. Tree posterior density plot. 4 of 9",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "shows that maximum likelihood inference of time-scaled phylogenies produces a 105 distribution of TMRCAs which are substantially different than the Bayesian model-based analysis.106    Choice of population genetic prior will have a large influence on phylogenetic inference based on 107 sparse or poorly informative genetic sequence data. Among the 20 Weifang sequences included in 108 this analysis, there is mean pairwise difference of only three single nucleotide polymorphisms and 109 only approximately twice as much diversity observed among the remainder of the sequences we 110 studied. There is correspondingly low confidence in tree topology(Figure Supplement 2), and only 111 three clades had greater than 50% posterior support including one clade which had a monophyletic 112 compoisition of 13 Weifang lineages. The earliest Weifang sequence was sampled on January 25 113 from a patient who showed first symptoms on January 16. These dates cover a similar range as the 114 posterior TMRCA of all Weifang sequences (Figure Supplement 3). 115 Discussion 116 Our analysis of 20 SARS-CoV 2 genomes from Weifang, China has confirmed independent observa-117 tions regarding the rate of spread and burden of infection in the city. Surveillance of COVID19 is 118 rendered difficult by high proportions of illness with mild severity and an unknown proportion of 119 asymptomatic infection(Guan et al., 2020). The extent of under-reporting and case ascertainment 120 rates has been widely debated. Analysis of genetic sequence data provides an alternative source of 121 information about epidemic size which can be more robust to imperfect case ascertainment. We 122 do not find evidence for a very large hidden burden of infection within Weifang. The relatively low 123 estimate of 0 is consistent with a slower rate of spread outside of Wuhan and effective control 124 strategies implemented in late January. 125 While the value of pathogen genomic analyses is widely recognized for estimating dates of 126 emergence(Verity Hill, 2020; Gire et al., 2014) and identifying animal reservoirs(Zhou et al., 2020; 127 Dudas et al., 2018), analysis of pathogen sequences also has potential to inform epidemic surveil-128 lance and intervention efforts. With few exceptions(Stadler, 2020;Bedford, 2020), this potential 129 is currently not being realized for the international response to COVID19. It is worth noting that 130 the analysis described in this report was accomplished in approximately 48 hours and drew on 131 previously developed models and packages for BEAST2(Bouckaert et al., 2019; Volz and Siveroni,   132    2018). It is therefore feasible for phylodynamic analysis to provide a rapid supplement to epidemio-133 logical surveillance, however this requires rapid sequencing and timely sharing of data as well as 134 randomized concentrated sampling of the epidemic within localities such as individual cities.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Mini Kit (QIAGEN 74104) by column method. RT-qPCR was carried out using 2019 141 novel coronavirus nucleic acid detection kit (BioGerm, Shanghai, China) to confirm the presence 142 of SARS-CoV-2 viral RNA with cycle threshold (Ct) values range from 17 to 37, targeting the high 143 conservative region (ORF1ab/N gene) in SARS-CoV-2 genome. Metagenomic sequencing: The 144 concentration of RNA samples was measurement by Qubit RNA HS Assay Kit (Thermo Fisher 145 Scientific, Waltham, MA, USA). DNase was used to remove host DNA. The remaining RNA was used 146 to construct the single-stranded circular DNA library with MGIEasy RNA Library preparation reagent 147 set (MGI, Shenzhen, China). Purified RNA was then fragmented. Using these short fragments as 148 templates, random hexamers were used to synthesize the first-strand cDNA, followed by the second 149 strand synthesis. Using the short double-strand DNA, a DNA library was constructed through end 150 repair, adaptor ligation, and PCR amplification. PCR products were transformed into a single strand 151 circular DNA library through DNA-denaturation and circularization. DNA nanoballs (DNBs) were 152 generated with the single-stranded circular DNA library by rolling circle replication (RCR). The DNBs 153 were loaded into the flow cell and pair-end 100bp sequencing on the DNBSEQ-T7 platform 8 (MGI, 154 Shenzhen, China). 20 genomes were assembled with length from 26,840 to 29,882 nucleotides. 155 The median age of patients was 36 (range:6-75). Two of twenty patients suffered severe or critical 156 illness. Weifang sequences were combined with a diverse selection of sequences from China 157 outside of Weifang and other countries provided by GISAIDElbe and Buckland-Merrett (2017)model. The phylodynamic model is designed to account for nonlinear epidemic dynamics in Weifang, a realistic course of infection (incubation and infectious periods), migration of lineages in and out of Weifang, and variance in transmission rates which can influence epidemic",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Migration is modeled as a bidirectional process which only depends on the size of variables in 163 the Weifang compartment and thus migration does not influence epidemic dynamics; it will only 164 influence the inferred probability that a lineage resides within Weifang. For a compartment(E,I,   165    or J), is the per lineage rate of migration out of Weifang and the total rate of migration in and model fitting and are estimated. Additionally, we estimate initial sizes168 of , , and . Other parameters are fixed based on prior information. We fix 1\u2215 0 = 4.1days and 169 1\u2215 1 = 3.8 days. We set \u210e = 0.20 and = 74 which yields a dispersion of the reproduction number 170 that matches a negative binomial distribution with = 0.22 if 0 = 2, similar to values estimated for 171 the 2003 SARS epidemic (Lloyd-Smith et al., 2005). 172 Phylogenetic analysis. We aligned the 20 Weifang sequences using MAFFT(Katoh and Standley, 173 2013) with a previous aligment of 35 SARS-CoV 2 sequences from outside of Weifang(Volz et al., 174 2020). Maximum likelihood analysis was carried using IQTree(Minh et al., 2019) with a HKY+G4 175",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Figure supplement 1. A time scaled phylogeny estimated using IQTree and treedater and using the same data as used for the Bayesian analysis.258",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Figure supplement 2. A tree density plot based on the posterior distribution of Figure supplement 3. The estimated posterior TMRCA among all Weifang lineages.260",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Summary of primary epidemiological and evolutionary parameters, including Bayesian prior distributions and estimated posteriors. Posterior uncertainty is summerized using a 95% highest posterior density interval.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "using a HKY+G4 substitution model and a strict molecular clock. The phylodynamic model was implemented 180 using the PhyDyn package(Volz and Siveroni, 2018) using the QL likelihood approximation and the 181 RK ODE solver. The model was fitted by running 8 MCMC chains in parallel and combining chains 182 after removing 50% burn-in.The ggtree package was used for all phylogeny visualizations(Yu et al., 2017).Code to replicate this analysis and and BEAST XML files can be found at https://github.com/ This work was supported by Centre funding from the UK Medical Research Council under a con-188 cordat with the UK Department for International Development. NIHR. J-IDEA. This work was also",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": ". https://doi.org/10.1101/2020.03.09.20033365 doi: medRxiv preprint Submitted manuscript. Not peer reviewed. supported by a grant from the Special Project for Prevention and Control of Pneumonia of New 190 Coronavirus Infection in Weifang Science and Technology Development Plan in 2020 (2020YQFK015) 191 to Associate Senior Technologist Qing Nie. Role of the Funders: All funders of the study had no role",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

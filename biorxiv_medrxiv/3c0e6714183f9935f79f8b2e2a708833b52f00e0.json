@@ -1,0 +1,516 @@
+{
+    "paper_id": "3c0e6714183f9935f79f8b2e2a708833b52f00e0",
+    "metadata": {
+        "title": "Impact of the contact and exclusion rates on the spread of COVID-19 pandemic",
+        "authors": [
+            {
+                "first": "Marek",
+                "middle": [],
+                "last": "Kocha\u0144czyk",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Frederic",
+                "middle": [],
+                "last": "Grabowski",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tomasz",
+                "middle": [],
+                "last": "Lipniacki",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In March 2020, Coronavirus Disease 2019 originating from Wuhan, China, has become pandemic. Based on epidemic data from China we constructed and constrained a simple Susceptible-Infected-Infectious-Excluded (SIIE) model. The model is characterized by only three parameters: average incubation period, contact rate r C , and exclusion rate r E . These two rates control the daily multiplication coefficient \u03b2 describing epidemic growth in its early exponential phase, during which the number of excluded (confirmed) individuals grows as E = E0 exp(\u03b1 t) with \u03b1 = ln \u03b2. The rates can be modified by non-therapeutic interventions: r C can be reduced by quarantine, while r E can be increased by efficient testing, enabling isolation of infectious individuals. In order to contain exponential epidemic growth, quotient r C /r E has to be reduced to 1. Based on the model, we estimate that the quarantine imposed in China on January 23, 2020 resulted in about 50-fold reduction of this quotient, allowing to terminate the exponential growth phase and enter the phase of exponential regression of daily new cases. In contrast, quarantine imposed in northern, most affected, Italian provinces on February 21 resulted in about 3-fold reduction of r C /r E and corresponding decrease of \u03b2 from about 1.5 to about 1.2; further 5-fold reduction is necessary to terminate exponential growth. Even higher reduction should take place in France, Germany and Spain for which \u03b2 > 1.3 (as of March 10, 2020). Considering longer-term dynamics in the case when the initial exponential growth is not contained by quarantine, we analyzed a scenario in which r E decreases in response to the surge of daily new cases which convinces people to isolate themselves. In such case, initial abrupt epidemic growth is followed by a slow decrease over years. This scenario, although economically and socially devastating, grants time to develop, produce, and distribute vaccine.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "On March 11, 2020 the World Health Organization (WHO) declared Coronavirus Disease 2019 (COVID-19) a pandemic. The disease is caused by a novel coronavirus, SARS-CoV-2, that is transmitted between people via respiratory droplets. Typical symptoms are fever, cough, and shortness of breath. In severe cases, infection leads to pneumonia and acute respiratory distress syndrome. There is currently no vaccine or specific antiviral treatment. The virus was first reported in Wuhan, Hubei, China, in December 2019. The disease had spread widely over the province of Hubei, but was contained as a result of a strict quarantine imposed on January 23, 2020. The peak of daily confirmed cases of about 4000 was reached on March 3, 2020, ten days after the quarantine had been * tlipnia@ippt.pan.pl imposed, and then it decreased below 100 daily new cases as observed in the beginning of March, 2020. Currently (March 12, 2020), despite some efforts, nearly exponential growth is observed in European countries, including Italy (with more than 15 000 cumulative cases), France, Germany, and Spain, recording more than 2000 cumulative cases each, and in the US with more than 1000 cases. In contrast, South Korea, having nearly 8000 cumulative cases, appears to be exiting the exponential phase due to the effective contact tracing and extensive testing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In order to interpret data from China, Korea, Europe, and the US, we developed a simple Susceptible-Infected-Infectious-Excluded model. The model has only 3 parameters: average incubation period (known to be approximately 5 days [1, 2] ) and two parameters that can be modified by applied protective measures: the contact rate and the exclusion rate. The quarantine reduces the contact rate, while testing increases the exclusion rate at which infectious individuals are put under treatment or Figure 1 . Scheme of the model with notation guide and default parameter values. The incubation period, resulting from inclusion of k = 5 five intermediate infected states follows the \u0393 distribution with average \u03c4 = 5 days, in agreement with data [1, 2] . The model is fully characterized by three parameters: r C , r E , and \u03c4 .",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 232,
+                    "text": "[1,",
+                    "ref_id": null
+                },
+                {
+                    "start": 233,
+                    "end": 235,
+                    "text": "2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 741,
+                    "end": 744,
+                    "text": "[1,",
+                    "ref_id": null
+                },
+                {
+                    "start": 745,
+                    "end": 747,
+                    "text": "2]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 494,
+                    "end": 502,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "isolated. The model is then applied to estimate the fold change of ratio of the contact rate to the exclusion rate required to contain the epidemic. The proposed model allows also to put forward longer-term scenarios, assuming either constant or varied contact rate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We consider the Susceptible-Infected-Infectious-Excluded (SIIE) model shown in Fig. 1 , that is similar to a commonly used SIR model [3] . Our model assumes that an individual can be in one of the following states: susceptible (S), infected (i 1 , . . . , i 5 ), infectious (I), or excluded (E). Susceptible individuals get infected by contact with infectious individuals with the rate proportional to the contact rate, r C . Multiple infected states are introduced to account for the average incubation period, \u03c4 . With k = 5 infected states such representation is equivalent to the assumption that the incubation period is distributed according to \u0393(t; k = 5, \u03b8 = \u03c4 /k). Infectious individuals may become excluded with the exclusion rate r E . Excluded individuals include the confirmed cases currently handled by the healthcare system, those recovered with acquired resistance, and the deceased. Excluded individuals cannot infect. As we are interested in relatively short-term dynamics, we assume that excluded individuals maintain resistance to the disease. The dynamics is governed by the system of 8 differential equations provided and analyzed in Methods.",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 136,
+                    "text": "[3]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 79,
+                    "end": 85,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model"
+        },
+        {
+            "text": "The exponential phase of the epidemic growth, in which the number of excluded (confirmed) individuals grows as E = E(t = 0) \u00d7 exp(\u03b1t), can be analyzed based on an implicit formula following from Eq. (6) (derived in Methods):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model"
+        },
+        {
+            "text": "which with the number of intermediate steps k \u2192 \u221e can be replaced by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model"
+        },
+        {
+            "text": "We use Eq. (1) to calculate the dependence of daily multiplication coefficient \u03b2 = exp(\u03b1) on r C , r E , and \u03c4 (Fig. 2) . Either a decrease of the contact rate r C or increase of the exclusion rate r E may result in reduction of \u03b2 below 1 and containment of the epidemic. Practically, the contact rate is reduced by quarantine or by isolation of individuals, that both lower the potential number of contacts per individual per day, while the exclusion rate is increased by performing more diagnostic tests, that reduces the expected time for which an infected individual may infect others. Figure 2C shows also that \u03b2 decreases with increasing the average incubation time, but this parameter is not controllable by protective measures.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 111,
+                    "end": 119,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 590,
+                    "end": 599,
+                    "text": "Figure 2C",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Dynamics of infection spread with respect to the contact rate and the exclusion rate"
+        },
+        {
+            "text": "Although the daily multiplication coefficient \u03b2 is not solely a function of quotient r C /r E , reduction of this quotient to 1 is equivalent to reducing \u03b2 to 1, and thus containment of the epidemic. In Fig. 3A we show \u03b2(r C /r E ) . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 203,
+                    "end": 210,
+                    "text": "Fig. 3A",
+                    "ref_id": null
+                }
+            ],
+            "section": "Equations (1) and (2) imply that"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20035485 doi: medRxiv preprint Dependence of the daily multiplication coefficient, \u03b2, on the ratio of contact vs. exclusion rate, r C /r E . Dotted lines guide the eye to relate r C /r E quotient with \u03b2 coming from data for China before and after quarantine (marked with 'Q') and for Italy in the last week.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Equations (1) and (2) imply that"
+        },
+        {
+            "text": "(B) Epidemic dynamics in selected countries with high number of cumulative cases of COVID-19 based on data from Johns Hopkins University [4] . Value of \u03b2init for China is estimated based on 7 or 14 days of early exponential phase; current \u03b2 is estimated for countries being in the exponential phase based on last-week data (7 days from March 4 to March 10, 2020).",
+            "cite_spans": [
+                {
+                    "start": 137,
+                    "end": 140,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Equations (1) and (2) imply that"
+        },
+        {
+            "text": "for three values of r E : 1/3, 1/5, and 1/7. Based on the plot for the default value of r E = 1/5, the epidemic data from China ( Fig. 3B ) can be interpreted as follows. Initially, the ratio r C /r E = 11.5, which corresponds to \u03b2 init (r C /r E ) = 1.4 estimated for the exponential phase ( Fig. 3B) . Thus, to stabilize the epidemic, China had to reduce r C /r E to 1, i.e., by a factor 11.5. However as indicated by the regression of daily cases, China reduced \u03b2 to approximately 0.88 = \u03b2 R , which implies r C /r E = 0.22. It should be noticed that as long as the epidemic progresses exponentially, coefficient \u03b2 calculated from the increase of cumulative cases E(t), and coefficient \u03b2 calculated based on daily cases, E(t) \u2212 E(t \u2212 1 day), should be equal (which can be obscured by unavoidable fluctuations in daily data). However, when the epidemic ceases, \u03b2 calculated based on E(t) reaches 1, while \u03b2 R based on E(t) \u2212 E(t \u2212 1 day) becomes smaller than 1, reflecting the exponential regression of the daily as well as the active cases. Reduction of \u03b2 from the initial value \u03b2 init = 1.4 to \u03b2 R = 0.88 implies reduction of quotient r C /r E form 11.5 to 0.22, i.e., about 50 times. We expect that in the case of China the decrease of coefficient r C /r E resulted mainly from very strict quarantine, in which more than 50 million people in the most affected province of Hubei were forced to remain at home, with one person per household allowed to leave every few days. The 10-day time lag between . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 130,
+                    "end": 137,
+                    "text": "Fig. 3B",
+                    "ref_id": null
+                },
+                {
+                    "start": 293,
+                    "end": 301,
+                    "text": "Fig. 3B)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Equations (1) and (2) imply that"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20035485 doi: medRxiv preprint introduction of the quarantine and the time of the peak number of daily new cases can be attributed to: (1) the incubation period that causes that infected individuals are registered about 5 days after infection and (2) the fact that the quarantine does not prevent mixing of infectious and susceptible individuals in households, adding next 5 days to the onset of the disease among family members. Unfortunately, this implies that even if strict quarantine is applied immediately, in European countries it will have a delayed effect.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Equations (1) and (2) imply that"
+        },
+        {
+            "text": "In the case of Italy, the soft quarantine imposed on Feb 21, 2020 in the most affected Italian province, Lombardy, allowed to reduce \u03b2 from the initial value \u03b2 init = 1.5 (calculated based on the week February 23-29, 2020) to the current value calculated based on the last week (March 4-10, 2020) \u03b2 last week = 1.22. This implies reduction of r C /r E from about 17 to 5, i.e., only about 3.5 times. To just contain the epidemic, that is, reduce \u03b2 to 1 and stabilize the number of daily cases, Italy should further reduce the contact rate 5-fold. Figure 3A indicates that 3 other European countries (Germany, France, and Spain) having more than 2000 cases and \u03b2 last week > 1.3, to contain the epidemic, should reduce the contact rate by a factor of at least 7. According to available data, a more severe situation appears to be in the US, where the value of \u03b2 last week = 1.5, which requires at least 17-fold reduction of the contact rate in order to achieve epidemic containment.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 547,
+                    "end": 556,
+                    "text": "Figure 3A",
+                    "ref_id": null
+                }
+            ],
+            "section": "Equations (1) and (2) imply that"
+        },
+        {
+            "text": "A much different dynamics can be observed in South Korea, which is exiting from the exponential phase (Fig. 3B) . Among many preventive countermeasures, until March 10 South Korea performed 3.5 times more tests than Italy (210 000 vs 60 000) [5] , likely substantially increasing the exclusion rate. The example of Korea is promising as it suggests that development of easily accessible, fast, and accurate tests may help to contain the spread of the disease.",
+            "cite_spans": [
+                {
+                    "start": 242,
+                    "end": 245,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 102,
+                    "end": 111,
+                    "text": "(Fig. 3B)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Equations (1) and (2) imply that"
+        },
+        {
+            "text": "The epidemiological situation in Europe and the US may suggest that the epidemic will not be contained soon. In the long term, the cumulative number of excluded cases, E, becomes comparable to population size, N , substantially decreasing the susceptible fraction, f S , over time. As a result, the initial exponential growth ceases and the number of daily new cases reaches its maximum (Fig. 4A) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 387,
+                    "end": 396,
+                    "text": "(Fig. 4A)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Hypothetical long-term scenarios"
+        },
+        {
+            "text": "The maximum number of new daily cases is higher for higher initial \u03b2, exceeding 0.3 million daily new cases for \u03b2 = 1.05 and 1 million cases for \u03b2 = 1.1 in the population of N = 50 million people. It is clear that even this smaller number exceeds the healthcare capacity of a country of tens of millions inhabitants such as Italy (\u223c60 million) or Poland (\u223c40 million). This, in turn, implies higher case fatality rate, which may approach the rate of severe cases (10-15% [6] ). Correspondingly, with \u03b2 changing from 1.05 to 1.1, time to reach the maximum daily new cases shortens twice: from 6 to 3 months, assuming the initial number of excluded (confirmed) cases, E(t = 0), equal 5000. We should notice that \u03b2 = 1.05 as well as \u03b2 = 1.1 require quarantine; in non-quarantined countries, such as currently France, German, Spain, and the US, parameter \u03b2 exceeds 1.3 (Fig. 3B) .",
+            "cite_spans": [
+                {
+                    "start": 471,
+                    "end": 474,
+                    "text": "[6]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 865,
+                    "end": 874,
+                    "text": "(Fig. 3B)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hypothetical long-term scenarios"
+        },
+        {
+            "text": "In Fig. 4B , we simultaneously show the number of the maximum weekly and monthly new cases and the time . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 10,
+                    "text": "Fig. 4B",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Hypothetical long-term scenarios"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20035485 doi: medRxiv preprint to reach the maximum. Parameter \u03b2 > 1.1 implies that within one (worst) month more than half of population will be infected, whereas \u03b2 < 1.1 require long-term quarantine.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hypothetical long-term scenarios"
+        },
+        {
+            "text": "Heretofore, we assumed that both the contact and exclusion rates, r C and r E , remain constant during the epidemic spread. Initially, when the number of cases is relatively low, the only way to reduce the contact rate is the administratively-imposed quarantine. However, one could expect that when the number of daily new cases exceeds a threshold, people will begin reducing their contacts voluntarily. To account for this behavioral aspect, we assume that the contact rate is a decreasing function of daily new cases. We propose to assume that r C = r C0 \u00d7 H/ (H + (daily new cases)). This simple formula implies, in particular, that when the number of daily new cases equals H, people reduce their contacts twice. It is hard to predict the value of H, as it can be possibly culture-dependent. In Fig. 5 we show long-term epidemic dynamics assuming H = 10 000. In the considered scenario, the number of daily new cases relatively quickly approaches 40 000 and then decreases slowly over years with decreasing susceptible fraction f S . Higher H would imply higher peak followed by faster decrease. The scenario depicted in Fig. 5 results in a manageable number of new cases and grants time to develop, produce, and distribute vaccine.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 800,
+                    "end": 806,
+                    "text": "Fig. 5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1126,
+                    "end": 1132,
+                    "text": "Fig. 5",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Hypothetical long-term scenarios"
+        },
+        {
+            "text": "In this study, we proposed a Susceptible--Infected--Infectious-Excluded model to analyze how the dynamics of the COVID-19 spread depends on the contact rate, r C , and the exclusion rate, r E -two model parameters that can be modulated by non-therapeutic interventions. The remaining model parameter is the average incubation period, assumed equal 5 days [1, 2] . A decrease of the contact rate, which can be achieved by imposing quarantine, results in a decreases of the multiplication coefficient \u03b2 that describes growth of the cumulative as well as the daily new cases in the exponential phase. Coefficient \u03b2 can be decreases also by an increase of the exclusion rate, which in turn depends on efficiency of the health systems. Large exclusion rate is achieved by fast identification and isolation of infectious individuals. The critical importance has the quotient r C /r E that has to be reduced to 1 in order to contain the spread of the epidemic (increase of the number of daily new cases), and reduced further below 1 in order to eliminate the disease.",
+            "cite_spans": [
+                {
+                    "start": 355,
+                    "end": 358,
+                    "text": "[1,",
+                    "ref_id": null
+                },
+                {
+                    "start": 359,
+                    "end": 361,
+                    "text": "2]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "We used the developed model to analyze data from China, and found that due to very strict quarantine and other preventive efforts [7] imposed in the most affected China province, Hubei, the quotient r C /r E was reduced about 50 fold (on par with the estimated reduction of transmissibility of 97-100% [8] ). This allowed to reduce coefficient \u03b2 from about 1.4 in the exponential growth phase to about \u03b2 R = 0.9 in the regression phase, for which \u03b2 R was estimated by the decrease of daily cases in the month following the peak of epidemic. In Italy, however, in response to the mild quarantine, \u03b2 was reduced from about 1.5 in the early phase (February 23-29, 2020) to 1.22 observed in the last-week period (March 4-10, 2020), which corresponds to the reduction of the quotient r C /r E from about 17 to 5; thus, further 5-fold reduction is necessary to contain the exponential spread. The 3 other European countries with the number of cases exceeding 2000-France, Germany and Spain-have coefficients \u03b2 exceeding 1.3 (March 4-10, 2020), which requires at least 7-fold reduction of their r C /r E quotients. Even higher \u03b2 = 1.5 is suggested by data in the US (March 4-10, 2020), which requires about 17-fold reduction of r C /r E ; reduction by 70 times would bring the epidemic to the regression phase with \u03b2 R = 0.9, as was done in Hubei. Higher \u03b2 R \u2208 (0.9, 1.0) may also allow to eliminate the disease, but the required quarantine time would be much longer. Data from South Korea suggest that this country is exiting from the exponential phase. This is possibly the consequence of effective contact tracing and extensive testing: as of March 10, the number of tests exceeds 200 000, which is 3 times more than in Italy [5] .",
+            "cite_spans": [
+                {
+                    "start": 130,
+                    "end": 133,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 302,
+                    "end": 305,
+                    "text": "[8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1722,
+                    "end": 1725,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Since the current data in Europe, US, and Iran may suggest that the epidemic will not be contained in its early phase, we have analyzed longer-term scenarios. The model with the constant contact and exclusion rates pre-. CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20035485 doi: medRxiv preprint dicts that even for a relatively small exponential growth phase coefficient \u03b2 = 1.05, the number of daily new cases (in a 50-million population) will exceed 0.3 million, well above the capacity of the healthcare system. Additionally, keeping the coefficient \u03b2 at this low level requires rigorous limitation of personal contacts, while the time to the peak of the epidemic would be about 6 months. One of potential consequences of exceeding capacity of healthcare system is the increase of case fatality rate due to the lack of necessary medical equipment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "At this point it is worth to comment about the WHO definition of the case fatality rate, which is the ratio of deaths to confirmed cases. This definition works well in the steady state when the number of active cases remains constant or when historical data of previous epidemics are analyzed. However, in the exponential growth phase, case fatality rate understates the real rate. When, for example, the average time between the onset of symptoms or positive test and death is just four days and \u03b2 = 1.2, which implies doubling of cases within four days, the number of deaths should be divided by the number of cases recorded four days before, not by the current number. This would imply doubling of the growth rate, and this suggests that the actual case fatality rate in Italy is higher than 6.6% ( 827 /12 465, based on WHO definition and data from March 12, 2020).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Possibly, the more realistic scenario (assuming that the epidemic is not contained in the early phase) is the one in which the contact rate varies over time. As in early cases, the contact rate may be reduced only by forcing people to remain at home; in the latter phase, when the number of daily cases exceeds a threshold, people will isolate themselves in order to reduce the risk. It is intuitive to assume that contact rate is a decreasing function of daily cases in the form r C = r C0 \u00d7 H/ (H + (daily new cases)), where H is the number of daily new cases for which people decide to reduce their contacts twice. In such case the number of daily new cases reaches the value roughly proportional to H and then slowly decreases due to the decreasing fraction of susceptible individuals. Such scenario seems the most realistic and, although devastating for economy and social life, grants time to develop and administer vaccine. Obviously, the more plausible is termination of exponential growth by organized quarantine and efficient testing. Based on termination of epidemic progression in China as well as in South Korea, such scenario seems to be within reach of developed countries but requires political uneasy decision.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The dynamics of the system depicted in Fig. 1 is governed by the following system of 8 ordinary differential equations:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 39,
+                    "end": 45,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model equations"
+        },
+        {
+            "text": "where",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model equations"
+        },
+        {
+            "text": "and k = 5 is the assumed number of intermediate infected states.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model equations"
+        },
+        {
+            "text": "In the early phase, as long as E < N , where N = const. is the population size (with included dead cases), the susceptible fraction f S = (N \u2212 E)/N \u2248 1. Under the assumption that f S = 1, the systems has the exponential solution:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model equations"
+        },
+        {
+            "text": "i n (t) = i n0 exp(\u03b1 t) for 1 < n \u2264 k, (5a)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model equations"
+        },
+        {
+            "text": "with \u03b1 satisfying",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model equations"
+        },
+        {
+            "text": "When E N is not satisfied, the system becomes nonlinear, has no analytical solutions, and is solved numerically using Wolfram Mathematica (notebook is available online [9]). All numerical simulations start from an initial condition in which S(t = 0) = S 0 = N \u2212 E 0 , i n (t = 0) = i n0 , I(t = 0) = I 0 , E(t = 0) = E 0 , where E 0 is the initial cumulative number of known cases and i n0 (E), I 0 (E), are such that the initial condition lies on the exponential trajectory.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model equations"
+        },
+        {
+            "text": "In the model variant with varied contact rate, r C = r C0 \u00d7H/ (H + (daily new cases)), daily new cases as computed as r E I(t).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model equations"
+        },
+        {
+            "text": "It is worth noting that in the growth phase, the considered model is equivalent to the following 3-compartment . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model equations"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20035485 doi: medRxiv preprint model with delay \u03c4 :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model equations"
+        },
+        {
+            "text": "Parameter \u03b2 for the initial exponential growth case is estimated based on JHU data [4] of cumulative cases as: \u03b2 = cumulative number of cases in day d 1 cumulative number of cases in day d 0 Parameter \u03b2 in the epidemic regression phase in China has been estimated as the decay rate of the daily new cases in the time span from February 2 to March 2, 2020.",
+            "cite_spans": [
+                {
+                    "start": 83,
+                    "end": 86,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation of \u03b2"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Novel coronavirus (COVID-19) cases, provided by JHU CSSE",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2023",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus testing: Criteria and numbers by country",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2023",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Dependence of the daily multiplication coefficient, \u03b2, on all model parameters: (A) contact rate, r C , (B) exclusion rate, r E , and (C) average incubation period, \u03c4 . Default parameter vales are marked with dotted rectangles.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "\u03b2last week = 1.22 France \u03b2last week = 1.36 Germany \u03b2last week = 1.33 Spain \u03b2last week = 1.40 USA \u03b2last week = 1.Daily multiplication coefficient predicted by model and estimated from data. (A)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Long-term epidemic dynamics. (A) Daily new cases for two values of the initial daily multiplication coefficient, \u03b2. (B) New cases in the worst week and month and time to the worst day for three initial numbers of confirmed cases. In both panels, population size N = 50 million.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Long-term epidemic dynamics with the contact rate reduced in response to the surge in the daily number of cases. Population size N = 50 million, initial \u03b2 = 1.22.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "where for China day d 0 is Jan 20 and day d 1 is Jan 26 or Feb 02, 2020, with \u2206t = d 1 \u2212d 0 \u22121 = 6 or 13, respectively. For other countries, last-week data are used: d 0 is March 4 and d 1 is March 10, 2020; \u2206t = 6.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

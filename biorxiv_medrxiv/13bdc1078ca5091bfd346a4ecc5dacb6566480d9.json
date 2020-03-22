@@ -1,0 +1,955 @@
+{
+    "paper_id": "13bdc1078ca5091bfd346a4ecc5dacb6566480d9",
+    "metadata": {
+        "title": "Rigidity, normal modes and flexible motion of a SARS-CoV-2 (COVID- 19) protease structure",
+        "authors": [
+            {
+                "first": "Stephen",
+                "middle": [
+                    "A"
+                ],
+                "last": "Wells",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Bath",
+                    "location": {
+                        "postCode": "BA2 7AY",
+                        "country": "UK"
+                    }
+                },
+                "email": "saw42@bath.ac.uk"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The rigidity and flexibility of two recently reported crystal structures (PDB entries 6Y2E and 6LU7) of a protease from the SARS-CoV-2 virus, the infectious agent of the COVID-19 respiratory disease, has been investigated using pebble-game rigidity analysis, elastic network model normal mode analysis, and all-atom geometric simulations. This computational investigation of the viral protease follows protocols that have been effective in studying other homodimeric enzymes. The protease is predicted to display flexible motions in vivo which directly affect the geometry of a known inhibitor binding site and which open new potential binding sites elsewhere in the structure. A database of generated PDB files representing natural flexible variations on the crystal structures has been produced and made available for download from an institutional data archive. This information may inform structure-based drug design and fragment screening efforts aimed at identifying specific antiviral therapies for the treatment of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Recent studies has established that the motions explored by geometric simulation correspond well to the essential dynamics extracted from MD trajectories [4] ; that global flexible motions can couple to .",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 157,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "As of late 2019, there has been global concern over a novel respiratory disease (designated COVID-19 by the World Health Organisation (WHO)) which originated in the Wuhan region of China and has subsequently spread to multiple other countries worldwide. The virus causing COVID-19 is a coronavirus with the taxonomic identifier SARS-CoV-2 [1] . Thanks to the diligent efforts of structural biologists, several crystal structures of proteins from SARS-CoV-2 have already been obtained and made available through the Protein Data Bank (PDB) even in advance of journal publication.",
+            "cite_spans": [
+                {
+                    "start": 339,
+                    "end": 342,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Crystal structures provide us with detailed structural knowledge of the arrangement of atoms making up a protein or protein complex. A crystal structure is a static snapshot of the protein \"frozen\" into one of its many possible conformations. This static snapshot is rich in implicit information on the natural dynamics which the protein will explore in vivo. These natural dynamics, described by Kern [2] as a protein's \"dynamic personality\", can be critical to a protein's function, and can directly affect the geometry of, for example, an enzyme active site.",
+            "cite_spans": [
+                {
+                    "start": 402,
+                    "end": 405,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A judicious combination of simplified methodologiesrigidity analysis, elastic network modelling, and geometric simulation of flexible motioncan work together to extract valuable information on the large-amplitude, low-frequency motions of a protein structure, at a fraction of the computational cost (in resources and time) of molecular dynamics (MD) approaches [3] . These simplified methods are strongly complementary to both computational MD investigations and experimental biophysical/biochemical studies of protein behaviour. enzyme active site geometry [5] [6] [7] [8] ; and, crucially, that a structure generated from geometric simulation of a large amplitude motion can be used as input for further MD investigation [9] , as the geometric simulation retains the local bonding geometry and constraint network of the input crystal structure and forbids major bonding distortions and steric clashes.",
+            "cite_spans": [
+                {
+                    "start": 362,
+                    "end": 365,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 559,
+                    "end": 562,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 563,
+                    "end": 566,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 567,
+                    "end": 570,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 571,
+                    "end": 574,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 724,
+                    "end": 727,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The information obtained here regarding the flexibility of the enzyme should be of use and interest in structure-based drug design and computational screening of drugs and drug-like molecules capable of binding to and inhibiting the action of the viral protease, such as the pioneering work of Walsh et al. reported online within the past few days [10] . The simulations reported here suggest that the protease structure is capable of substantial flexible motions which alter domain orientations, open and close clefts, and affect the geometry of an inhibitor-binding site. The entirety of the computational work described here was carried out in less than one working day on a laptop computer. The inputs and outputs of the simulations, principally consisting of PDB files representing flexible variations on the protease crystal structures, are available for download from the University of Bath research data archive at https://researchdata.bath.ac.uk/772/ [11] with DOI https://doi.org/10.15125/BATH-00772",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 352,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 960,
+                    "end": 964,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Methods, software and data Input data: crystal structures of a viral protease were downloaded from PDB entries 6Y2E (free protease) and 6LU7 (inhibitor bound).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Visualisations: visualisation and some minor structural editing, viz. generation of symmetry copies, removal of water and other heterogroups, removal of alternate sidechain conformations, and renumbering of entries after addition of hydrogens, were carried out with the PyMOL viewer, version 0.99 [12] . All structures were aligned to the 6Y2E crystal structure for consistency of view.",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 301,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Addition of hydrogens, sidechain flipping: the MolProbity [13] web server hosted at Duke University provides online tools carrying out these functions.",
+            "cite_spans": [
+                {
+                    "start": 58,
+                    "end": 62,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Rigidity analysis: carried out using the pebble-game constraint counting algorithm implemented in the software FIRST [14] . FIRST should be available from Arizona State University via flexweb.asu.edu; academic readers should contact the present author if there is difficulty in obtaining the software, as the site appears currently to be down. Recent research has shown that the assignment of energies to polar interactions in FIRST suffers from a bug that leads to some salt-bridge interactions with short donoracceptor distances being treated as weak rather than strong. Therefore, interactions were identified and energies assigned using a recently developed corrected function, SBFIRST [15] . A copy of the SBFIRST software for constraint identification is included with the deposited dataset for this study.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 121,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 690,
+                    "end": 694,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Normal mode analysis: carried out using the Elnemo elastic network modelling software [16] . This method builds an elastic network model of the protein with one site per residue (using the alpha carbon _CA_ atom coordinates as the node positions), placing springs of uniform strength between each pair of residues lying less than 10 \u00c5 apart, and diagonalising the resulting Hessian matrix to identify eigenvectors.",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 90,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Geometric simulations of flexible motion: carried out using the FRODA geometric simulation engine [17] incorporated into FIRST. The FRODA engine iteratively projects an all-atom model of the protein structure along a normal mode direction [3] while constraining the local geometry to match that of the original protein structure. Frames along each such trajectory are written out as numbered PDB files.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 239,
+                    "end": 242,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Workflow and protocol: for each protein structure, the complete workflow for this study is as follows. Download structure in PDB or mmCIF format. In this case, the downloaded structure contains coordinates for a single protein chain, and symmetry operations to generate copies making up the crystal structure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Visualise structure in PyMOL. Generate symmetry mates. Select the appropriate symmetry mate to make up the homodimer indicated in the PDB entry (under Global Stoichiometry) as the biological entity of interest. Delete other symmetry copies. Alter chain ID(s) in the symmetry copy to give each chain a unique chain ID.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Process structure through the MolProbity website, adding hydrogens at electron-cloud positions, accepting all recommendations for side chain flips. Download the hydrogenated structure (in which all hydrogens have a serial number of 0).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Visualise structure in PyMOL for final cleaning and preparation. Remove alternate conformations (i.e. those with an altloc entry which is not a blank or an A). Remove water molecules and extraneous heterogroups such as glycerol, acetyl etc. Save the cleaned structure; in this step, PyMOL renumbers the atoms sequentially, so hydrogens now have appropriate serial numbers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Identify covalent and noncovalent interactions from the atomic geometry of the protein structure using SBFIRST. This generates lists of covalent bonds, tagged as being either rotatable or non-rotatable (such as the C-N bond in the peptide main chain); hydrophobic tether interactions, wherever two nonpolar sidechains are closely adjacent; and polar interactions, including salt bridges and hydrogen bonds. Polar interactions are assigned energies between 0 and -10 kcal/mol based on the donor-hydrogen-acceptor geometry.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Analyse rigidity with FIRST as a function of hydrogen-bond energy cutoff. This analysis groups atoms into rigid clusters by matching degrees of freedom against constraints. FIRST can carry out a dilution, gradually lowering the cutoff to exclude polar interactions one by one from weakest to strongest. It is also possible to simply carry out \"snapshots\" of the rigidity at a series of cutoff values, which in this study were -0.0, -0.5, -1.0 \u2026 -3.5, -4.0 kcal/mol.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Review constraints based on rigidity information. At this stage, a small number of noncovalent constraints (one in 6Y2E, three in 6LU7) were identifiable as artefacts of crystal packing, and were excluded from the network when carrying out the geometric simulations. Based on the rigidity analysis, a cutoff of -3.0 kcal/mol appeared appropriate for the geometric simulations, in line with previous studies [4, 5] .",
+            "cite_spans": [
+                {
+                    "start": 407,
+                    "end": 410,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 411,
+                    "end": 413,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Normal mode analysis. Extract only the alpha carbon positions and run Elnemo pdbmat (generation of matrix) and diagstd (diagonalise matrix) functions. The result is a series of normal modes of motion, reported as eigenvector/eigenvalue pairs. When these are sorted by eigenvalue from lowest to highest, the first six modes are trivial rigid-body motions with near-zero eigenvalues (frequencies), while the low-frequency modes from 7 upwards represent flexible motions of the protein itself. This study examines modes 7 to 16, that is, the ten lowest-frequency nontrivial modes, with modes 7 to 12 being shown in the figures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Geometric simulation of flexible motion. For each normal mode of interest (7 to 16), run FIRST with a chosen energy cutoff (-3.0 kcal/mol) and the previously identified lists of covalent and noncovalent bonding constraints, providing the normal mode eigenvector and a direction of motion (parallel or antiparallel to the vector) along with a directed step size (in this case 0.01\u00c5), and invoking the FRODA engine implemented in FIRST. FRODA carries out a series of steps. In each step, all atom positions are moved along the normal mode direction. Then, the local atomic geometry defined by the bonding constraints and steric exclusion is restored by a few cycles of iterative relaxation. After a userdefined number of steps (in this case 100), a numbered \"frame\" is written out as a PDB file. A series of such frames describes the trajectory of flexible motion. FRODA continues each run until a user-defined maximum number of steps (in this case 1500) or until \"jamming\" occurs where the constraints can no longer be satisfied, typically when the motion has led to severe steric clashes through the collision of two domains.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Output data: the inputs, scripts and outputs of the rigidity analysis, normal mode analysis, and geometric simulations for each protein have been deposited in the University of Bath's data repository and are accessible from https://researchdata.bath.ac.uk/772/ [11] Results and discussion",
+            "cite_spans": [
+                {
+                    "start": 261,
+                    "end": 265,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The 6Y2E and 6LU7 crystal structures each contain explicit coordinates for one chain (A) of the protease, and in the case of 6LU7, a chain (C) representing a bound inhibitor. The input structures for analysis and simulation consist of chain A and a symmetry copy (B), making up the biological homodimer. Chain C is likewise duplicated to chain D. The X-ray structure does not contain explicit hydrogens, which are added using MolProbity [13] . With hydrogens added, it is then possible to detect the covalent bonds, polar noncovalent interactions (hydrogen bonds and salt bridges) and hydrophobictether interactions using SBFIRST [15] (see Methods). The polar interactions are rated with an effective energy between 0 and -10 kcal/mol based on the donor-hydrogen-acceptor geometry.",
+            "cite_spans": [
+                {
+                    "start": 437,
+                    "end": 441,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 630,
+                    "end": 634,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Pebble-game rigidity analysis [14, 18] divides the structure into rigid clusters and flexible regions based on the distribution of degrees of freedom and constraints. This rigid cluster decomposition (RCD) depends on the set of polar interactions that are included, based on an energy cutoff that excludes weaker interactions. Information on the relative stability of different portions of the structure is typically obtained at cutoffs around a \"room temperature\" value of -1 kcal/mol. RCDs are shown in Figure 1 . With the inclusion of weaker polar constraints, a single large rigid cluster extends across both chains of the protease dimer. As weaker constraints are eliminated, the large cluster extends across the N-terminal domains (roughly residues 1-200) of both chains, which consist largely of beta-sheet structure, while the largely alpha-helical C-terminal domain breaks up into several smaller rigid clusters, each one a single helix. With further elimination of constraints, the beta-sheet regions become fully flexible. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986190 doi: bioRxiv preprint Flexible motion of a protein structure is best carried out at with a rigidity cutoff such that the structure is fully flexible. The mobility studies that follow are carried out with a cutoff of -3.0 kcal/mol, similar to previous studies on enzymes [4, 5] . It is important to appreciate that even at this lower cutoff the structure is still thoroughly constrained by noncovalent interactions, as illustrated in Figure 2 . The core of each folded domain is rich in hydrophobic interactions, as is the interface region between the two beta-sheet domains as the two chains form the homodimer, and arrays of strong polar interactions constrain secondary structure (for example, the backbone hydrogen bonds within alpha helices and beta sheets).",
+            "cite_spans": [
+                {
+                    "start": 30,
+                    "end": 34,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 35,
+                    "end": 38,
+                    "text": "18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1424,
+                    "end": 1427,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1428,
+                    "end": 1430,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 505,
+                    "end": 513,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1587,
+                    "end": 1595,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "Noncovalent constraints in the 6LU7 structure, shown as green (hydrophobic) and red (polar) lines. The protein mainchain is shown in cartoon representation. The circled area highlights a small set of interdomain hydrophobic constraints, one between the ALA 285 residues of the two chains, and one each between residue THR 280 of one chain and LEU 286 of the other. In the 6Y2E structure only the ALA 285 interaction is present. These interactions may be considered an artefact of crystal packing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FIGURE 2:"
+        },
+        {
+            "text": "Also highlighted in Figure 2 are a small set of hydrophobic interactions assigned between the N-terminal domains of chains A and B. In the 6Y2E structure, a single tether connects the sidechains of the ALA 285 residues of both chains. In the 6LU7 structure illustrated, there are two additional tethers nearby, each connecting the sidechains of the THR 280 residue of one chain and the LEU 286 of the other. Since the two N-terminal domains are otherwise not connected by noncovalent interactions, and these tethers are not involved in forming a rigid cluster, it seems reasonable to consider these tethers an artefact of crystal packing, and eliminate them from further consideration. Their deletion does not affect the rigid cluster decompositions of the structures. If these tethers were retained, they would somewhat limit (but not entirely prevent) the central cleft-opening motion discussed below.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 20,
+                    "end": 28,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "FIGURE 2:"
+        },
+        {
+            "text": "Normal modes, representing directions of motion intrinsic to the structure, are easily obtained from an elastic network model [16] (see Methods) in which the protein is represented as one site per residue and springs of uniform strength are placed between every pair of sites with a separation less than 10 \u00c5. In the 6LU7 structure, the amino acid residues of the bound inhibitor are included in the elastic network. Of the 3N normal modes of a structure with N residues, six modes of near-zero frequency represent the trivial rigid body motions of the structure, while the low-frequency modes from 7 upwards represent modes of flexible motion. When the structure moves along a low-frequency mode direction, the global geometry changes with minimal change in the local geometry, making these directions of \"easy\" motion for the protein. The sign of a normal mode eigenvector is arbitrary; motions parallel and antiparallel to each bias direction must be investigated equally.",
+            "cite_spans": [
+                {
+                    "start": 126,
+                    "end": 130,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FIGURE 2:"
+        },
+        {
+            "text": "Linear projection of a protein structure along a normal mode direction would rapidly introduce unphysical distortions into the structure. The geometric simulation approach implemented in FRODA [3, 17] instead applies a bias, moving the structure along a normal mode direction, while maintaining steric exclusion and the bonding geometry and noncovalent constraints of the input structure. This approach rapidly generates physically realistic flexible variations on the input structure which retain all-atom steric and bonding detail.",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 196,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 197,
+                    "end": 200,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FIGURE 2:"
+        },
+        {
+            "text": "Geometric simulations of the lowest-frequency nontrivial modes of motion (7 upwards) show that the protease structure is capable of substantial amplitudes of easy motion covering several \u00c5ngstroms distance in global root-mean-square displacement (RMSD). In particular, the orientations of the alphahelical domains relative to the beta-sheet domains can change through flexing and rotation about the interdomain \"hinges\", and the beta-sheet domains themselves are large enough to display bending and twisting motions within themselves. These variations are illustrated for the 6Y2E structure in Figure 3 and for 6LU7 in Figure 4 . , shown in cartoon representation and coloured from blue to red along each chain. Each flexible variation is the 1000 th frame of a geometric simulation, lying at an all-atom RMSD of 3 to 4 \u00c5ngstroms from the starting crystal structure. Note the substantial variations of domain orientation achieved. Each variation is labelled with the normal mode used to bias the geometric simulation, from 7 to 12, and with the direction of bias, parallel (+) or antiparallel (-) to the mode eigenvector, whose sign is arbitrary.",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 84,
+                    "text": "(7 upwards)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 594,
+                    "end": 602,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 619,
+                    "end": 627,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "FIGURE 2:"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986190 doi: bioRxiv preprint : Flexible variations (outer circle) of the 6LU7 structure (centre), shown in cartoon representation and coloured from blue to red along each chain. The bound inhibitor is shown as spheres. Each flexible variation is the 1000 th frame of a geometric simulation, lying at an all-atom RMSD of 3 to 4 \u00c5ngstroms from the starting crystal structure. Note the substantial variations of domain orientation achieved. Each variation is labelled with the normal mode used to bias the geometric simulation, from 7 to 12, and with the direction of bias, parallel (+) or antiparallel (-) to the mode eigenvector, whose sign is arbitrary.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FIGURE 2:"
+        },
+        {
+            "text": "Flexible variations on a protein crystal structure are potentially relevant to structure-based drug design in at least two ways. Firstly, flexible motion can open or expose clefts and potential binding sites not directly visible in the static crystal structure. Since the protein in vivo will be exploring its flexible motion thanks to the Brownian-motion driving force of its solvent (e.g. cytosol), such latent sites may constitute valid target areas for inhibitors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FIGURE 2:"
+        },
+        {
+            "text": "Secondly, the global low-frequency motion couples to variations in the binding site/active site geometry [5, 6] . Knowledge of the range of flexible variation here is potentially useful for structurebased drug design and/or fragment screening, since attention can be focussed on candidate molecules that interact robustly with the binding site and tolerate its flexibility, in preference to molecules that interact well only with the crystal structure and not with its flexible variations. 6Y2E crystal structure (a) and cleft opening motion along modes 9-(b) and 11+(c). Bottom row: 6LU7 crystal structure (d) and cleft opening motion along modes 8+ (e) and 11+ (f). Protein structure is shown as spheres and coloured by amino acid type. Green, aliphatic or aromatic residues; yellow, cysteine or methionine; red, hydroxyl (serine and threonine); magenta, acidic; purple, amidic; blue, basic.",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 108,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 109,
+                    "end": 111,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FIGURE 2:"
+        },
+        {
+            "text": "A more detailed view of this opening cleft is shown in Figure 6 . The residues are coloured to bring out the chemical character of the amino acid side chains. The portions of the alpha-helical domain surfaces that move aside to open the cleft display largely hydrophobic residues (aliphatic or aromatic side chains). Intriguingly, the exposed surface area within the cleft is richly lined with a series of basic residues (lysine and arginine), and is flanked by acidic (aspartic and glutamic acids) and polar (threonine) residues. In the crystal structures the basic and acidic residues appear to be involved in a network of inter-and intra-domain salt bridge interactions which stabilise the core of the homodimer. An antagonist capable of targeting this zone of strongly polar surface geometry exposed by flexible motion could potentially disrupt the dynamics of the enzyme and interfere with its function.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 55,
+                    "end": 63,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "FIGURE 2:"
+        },
+        {
+            "text": "Detail view of interdomain cleft opening (structure 6LU7, mode 11+, 1000 th frame of geometric simulation). Protein structure is shown as spheres and coloured by amino acid type. Green, aliphatic or aromatic residues; yellow, cysteine or methionine; red, hydroxyl (serine and threonine); magenta, acidic; purple, amidic; blue, basic. One end of the bound inhibitor is visible as grey spheres in the lower left. The exposed cleft is rich in basic, acidic and polar residues.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FIGURE 6:"
+        },
+        {
+            "text": "In the 6LU7 structure, a binding site on the flank of each beta-sheet domain is occupied by the inhibitor N-((5-methylisoxazol-3-yl)carbonyl)alanyl-L-valyl-N~1~-((1R,2Z)-4-(benzyloxy)-4-oxo-1-(((3R)-2oxopyrrolidin-3-yl)methyl)but-2-enyl)-L-leucinamide (chain C of the structure), hereinafter \"N3\". This inhibitor is listed in the PDB as PRD_002214; it is a peptide-like inhibitor, with a central core of amino acids modified at either end with heterogroups, and was previously known to inhibit a protease of a feline coronavirus [19] (see PDB entry 5EU8). In the 6Y2E structure the same binding cleft is empty, which means that its geometry is likely to change in the course of flexible motion of the beta-sheet domain. Figure 7 shows the N3 binding site of the 6LU7 structure and the corresponding region of the 6Y2E structure. As noted, all structures have been aligned to the 6Y2E crystal structure for ease of viewing and comparison. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986190 doi: bioRxiv preprint particular the effect of motion along the lowest-frequency nontrivial mode direction, mode 7. Motion biased antiparallel to the mode eigenvector (7-) includes an opening of the cleft, while motion biased parallel to it (7+) closes it. Since the N3 inhibitor is quite deeply embedded in the binding site of the 6LU7 structure, opening and closing of this cleft in the course of the protein's natural motion may be necessary for molecules to access the cleft. On visual inspection, the site in the 6Y2E structure is clearly slightly more closed that in 6LU7, consistent with the proposition that such opening/closing motions are intrinsic to the protein. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986190 doi: bioRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 529,
+                    "end": 533,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 720,
+                    "end": 728,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "FIGURE 6:"
+        },
+        {
+            "text": "The rigidity and flexibility of two recently reported crystal structures (PDB entries 6Y2E and 6LU7) of a protease from the SARS-CoV-2 virus, the infectious agent of the COVID-19 respiratory disease, has been investigated using pebble-game rigidity analysis, elastic network model normal mode analysis, and all-atom geometric simulations. This computational investigation of the viral protease follows protocols that have been effective in studying other homodimeric enzymes. The protease is predicted to display flexible motions in vivo which directly affect the geometry of a known inhibitor binding site, e.g. through an opening/closing motion, and which open new potential binding sites elsewhere in the structure. A database of generated PDB files representing natural flexible variations on the crystal structures has been produced and made available for download from an institutional data archive. This information may inform structure-based drug design and fragment screening efforts aimed at identifying specific antiviral therapies for the treatment of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Naming the coronavirus disease (COVID-19) and the virus that causes it",
+            "authors": [],
+            "year": 2020,
+            "venue": "WHO",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Dynamic personalities of proteins",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Henzler-Wildman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kern",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Nature",
+            "volume": "450",
+            "issn": "7172",
+            "pages": "964--72",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Rapid simulation of protein motion: merging flexibility, rigidity and normal mode analyses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jimenez-Roldan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Physical Biology",
+            "volume": "9",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Structure and Function in Homodimeric Enzymes: Simulations of Cooperative and Independent Functional Motions",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Plos One",
+            "volume": "",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A complete thermodynamic analysis of enzyme turnover links the free energy landscape to enzyme catalysis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "B L"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Febs Journal",
+            "volume": "284",
+            "issn": "17",
+            "pages": "2829--2842",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Exposing the Interplay Between Enzyme Turnover, Protein Dynamics, and the Membrane Environment in Monoamine Oxidase B. Biochemistry",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "B L"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "58",
+            "issn": "",
+            "pages": "2362--2372",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Protein flexibility is key to cisplatin crosslinking in calmodulin",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Protein Science",
+            "volume": "21",
+            "issn": "9",
+            "pages": "1269--1279",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Structure and function of l-threonine-3-dehydrogenase from the parasitic protozoan Trypanosoma brucei revealed by X-ray crystallography and geometric simulations",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Adjogatse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Acta Crystallographica Section D-Structural Biology",
+            "volume": "74",
+            "issn": "",
+            "pages": "861--876",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The flexibility and dynamics of protein disulfide isomerase",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Romer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Proteins-Structure Function and Bioinformatics",
+            "volume": "84",
+            "issn": "12",
+            "pages": "1776--1785",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Main protease structure and XChem fragment screen",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Walsh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Dataset for \"Rigidity, normal modes and flexible motion of a SARS-CoV-2 (COVID19) protease structure",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The Pymol molecular graphics system",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Llc",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "MolProbity: More and better reference data for improved all-atom structure validation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Protein Science",
+            "volume": "27",
+            "issn": "1",
+            "pages": "293--315",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Protein flexibility predictions using graph theory. Proteins-Structure Function and Genetics",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jacobs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "",
+            "volume": "44",
+            "issn": "",
+            "pages": "150--165",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Salt bridge impact on global rigidity and thermostability in thermophilic citrate synthase",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcmanus",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Physical Biology",
+            "volume": "17",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "ElNemo: a normal mode web server for protein movement analysis and the generation of templates for molecular replacement",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Suhre",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sanejouand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Research",
+            "volume": "32",
+            "issn": "",
+            "pages": "610--614",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Constrained geometric simulation of diffusive motion in proteins",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Physical Biology",
+            "volume": "2",
+            "issn": "4",
+            "pages": "127--136",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Comparative analysis of rigidity across protein families",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jimenez-Roldan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Romer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Physical Biology",
+            "volume": "",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Crystal Structure of Feline Infectious Peritonitis Virus Main Protease in Complex with Synergetic Dual Inhibitors",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Virol",
+            "volume": "90",
+            "issn": "4",
+            "pages": "1910--1917",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Rigid Cluster Decompositions as a function of hydrogen bond energy cutoff for the empty 6Y2E and inhibitor-bound 6LU7 structures. The twenty largest rigid clusters in each case are shown as spheres and colour-coded from red (largest) to blue; the flexible regions are shown as cartoon.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Flexible variations (outer circle) of the 6Y2E structure (centre)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "FIGURE 4: Flexible variations (outer circle) of the 6LU7 structure (centre), shown in cartoon representation and coloured from blue to red along each chain. The bound inhibitor is shown as spheres. Each flexible variation is the 1000 th frame of a geometric simulation, lying at an all-atom RMSD of 3 to 4 \u00c5ngstroms from the starting crystal structure. Note the substantial variations of domain orientation achieved. Each variation is labelled with the normal mode used to bias the geometric simulation, from 7 to 12, and with the direction of bias, parallel (+) or antiparallel (-) to the mode eigenvector, whose sign is arbitrary.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "illustrates a case of cleft opening. In both the 6Y2E and 6LU7 structures, some of the modes of motion (9-and 11+ in 6Y2E; 8+ and 11+ in 6LU7) have the two alpha-helical domains moving apart from each other, exposing a cleft at the centre of the protein that is a largely covered, narrow tunnel in the crystal structures. If the hydrophobic tethers eliminated previously were retained, the amplitude of this opening motion would be limited, but the cleft opening could still occur in the form of a widening of the tunnel. The protein structures are in this case shown in a space-filling (sphere) representation, since it is the exposure of new surface that is of interest. Opening of a cleft between the N-terminal domains during flexible motion. Top row:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "also shows flexible variations of the 6Y2E site in the course of flexible motion. A set of residues forming a rough square around the binding site (GLU 166, GLN 189, ASN 142 and THR 25) are highlighted in white as a guide to the eye. It is immediately visible that openings, closings and flexible distortions of the site are an intrinsic feature of the flexible motion of the protease. Note in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Top row: the N3 inhibitor binding site of the 6LU7 structure, and the corresponding empty site of the 6Y2E structure. Rows below: flexible variations of the 6Y2E site from geometric simulations along normal modes as indicated. Residues 1-200 of a single chain of the protease are shown as spheres and coloured by amino acid type. Green, aliphatic or aromatic residues; yellow, cysteine or methionine; red, hydroxyl (serine and threonine); magenta, acidic; purple, amidic; blue, basic. To highlight the binding site, residues GLU 166, GLN 189, ASN 142 and THR 25 are coloured white. Substantial opening and closing of the binding site cleft occurs during the flexible motion.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

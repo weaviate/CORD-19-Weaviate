@@ -1,0 +1,1499 @@
+{
+    "paper_id": "f4fecacaff35a0498dee4231408c6b9aa049c51b",
+    "metadata": {
+        "title": "Modelling the situation of COVID-19 and effects of different containment strategies in China with dynamic differential equations and parameters estimation",
+        "authors": [
+            {
+                "first": "Xiuli",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "addrLine": "Zhongguancun East Road No. 55",
+                        "postCode": "100190",
+                        "settlement": "Beijing",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Geoffrey",
+                "middle": [],
+                "last": "Hewings",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Regional Economics Applications Laboratory",
+                    "institution": "University of Illinois",
+                    "location": {
+                        "addrLine": "1301 W Gregory #236",
+                        "postCode": "61801",
+                        "settlement": "Urbana",
+                        "region": "IL",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shouyang",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "addrLine": "Zhongguancun East Road No. 55",
+                        "postCode": "100190",
+                        "settlement": "Beijing",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Minghui",
+                "middle": [],
+                "last": "Qin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "addrLine": "Zhongguancun East Road No. 55",
+                        "postCode": "100190",
+                        "settlement": "Beijing",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xin",
+                "middle": [],
+                "last": "Xiang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "addrLine": "Zhongguancun East Road No. 55",
+                        "postCode": "100190",
+                        "settlement": "Beijing",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shan",
+                "middle": [],
+                "last": "Zheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "addrLine": "Zhongguancun East Road No. 55",
+                        "postCode": "100190",
+                        "settlement": "Beijing",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xuefeng",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "addrLine": "Zhongguancun East Road No. 55",
+                        "postCode": "100190",
+                        "settlement": "Beijing",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "This paper proposed a quarantine-susceptible-exposed-infectious-resistant (QSEIR) model which considers the unprecedented strict quarantine measures in almost the whole of China to resist the epidemic. We estimated model parameters from published information with the statistical method and stochastic simulation, we found the parameters that achieved the best simulation test result. The next stage involved quantitative predictions of future epidemic developments based on different containment strategies with the QSEIR model, focused on the sensitivity of the outcomes to different parameter choices in mainland China. The main results are as follows. If the strict quarantine measures are being retained, the peak value of confirmed cases would be in the range of [52438, 64090] and the peak date would be expected in the range February 7 to February 19, 2020. During March18-30, 2020, the epidemic would be controlled. The end date would be in the period from August 20 to September 1, 2020. With 80% probability, our prediction on the peak date was 4 days ahead of the real date, the prediction error of the peak value is 0.43%, both estimates are much closer to the observed values compared with published studies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The sensitive analysis indicated that the quarantine measures (or with vaccination) are the most All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity. : medRxiv preprint 2 effective containment strategy to control the epidemic, followed by measures to increase the cured rate (like finding special medicine). The long-term simulation result and sensitive analysis in mainland China showed that the QSEIR model is stable and can be empirically validated. It is suggested that the QSEIR model can be applied to predict the development trend of the epidemic in other regions or countries in the world. In mainland China, the quarantine measures can't be relaxed before the end of March 2020. China can fully resume production with appropriate antiepidemic measures beginning in early April 2020. The results of this study also implied that other countries now facing the epidemic outbreaks should act more decisively and take in time quarantine measures though it may have negative short-term public and economic consequences.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In late December, 2019, an atypical pneumonia case, caused by a virus called COVID-19, was first reported and confirmed in Wuhan, China. Although the initial cases were considered to be associated with the Huanan Seafood Market, the source of the COVID-19 is still unknown. The confirmed cases increased with exponential speed, from 41 on January 10, 2020 to 5,974 on January 28, 2020 in mainland China, far exceeding those of the SARS epidemic in 2003 (see figure 3 (346), Japan (105) and Singapore (86) ranked as the top 3 (figure 2), while 35 cases were reported in United States of America 1 .",
+            "cite_spans": [
+                {
+                    "start": 465,
+                    "end": 466,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The transmissibility of COVID-19or at least its geographical distribution (figure 2)seems to be higher and broader than initially expected (Horton, 2020). Compared to SARS-CoV (9.56% mortality) and MERS-CoV (34.4% mortality), the COVID-19 appears to be less virulent at this point except for the elderly and those with underlying health conditions (table 1). COVID-19 was confirmed as subject to human-to-human transmission and it is very contagious. The basic reproduction number R0 for COVID-19 was estimated by WHO and some research institutes in the range of 1.4-6.6 (table 2). This value is slightly higher than that of the 2003 SARS epidemic, and much higher than that of influenza and Ebola. The incubation days of COVID-19 in Wuhan city is 5-10 days with a mean of 7 days (Fan et al., 2020). On average, the duration from confirmed stage to cure or death is 10 days in nation-wide reporting according to Guan et al. (2020) . A long incubation period and an associated large number of patients with mild symptoms increase the difficulty of prevention and control of the epidemic. The likelihood of travel-related risks of the disease spreading has been noted by Bogoch et al. (2020) and Cao et al. (2020a) wherein they indicated the potentials for further regional and global spread (Leung et al., 2020).",
+            "cite_spans": [
+                {
+                    "start": 912,
+                    "end": 930,
+                    "text": "Guan et al. (2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1169,
+                    "end": 1189,
+                    "text": "Bogoch et al. (2020)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1194,
+                    "end": 1212,
+                    "text": "Cao et al. (2020a)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "As the epidemic broke out on the eve of the Spring Festival, large-scale population movements and gatherings of people aggravated the epidemic. After the outbreak, local governments have adopted a series of unprecedented mitigation policies in place to contain the spread of the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The major local public emergency started with a category Class I response to health incidents, with positively diagnosed cases either quarantine or put under a form of self-quarantine at home (Gan 1 https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/ 5 Lipsitch et al., 2003; Pastor-Satorras, 2015) . SEIR models the flows of people between four states: susceptible (S), exposed (E), infected (I), and resistant (R). Each of those variables represents the number of people in those groups. Assume that the average number of exposed cases that are generated by one infected person of COVID-19 is \u03b2. The parameter \u03b2 is similar to the basic reproduction number which can be thought of as the expected number of cases directly generated by one case in a population where all individuals are susceptible to infection. Considering the protective measures were taken, \u03b2 should be smaller than the basic reproduction number in table",
+            "cite_spans": [
+                {
+                    "start": 282,
+                    "end": 283,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 296,
+                    "end": 306,
+                    "text": "al., 2003;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 307,
+                    "end": 329,
+                    "text": "Pastor-Satorras, 2015)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "2. An individual in the exposed state (type E) will have the probability \u03b4 changes to individuals in the infected state (type I), and an individual in the infected state (type I) will change to the cure state (type R) with a probability of \u03b3 or to death state (type F) with a probability of \u03b7 per unit time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In contrast to the traditional SEIR model, we propose a quarantine-susceptible-exposed-infectiousresistant (QSEIR) model that considers the unprecedented strict quarantine measures in mainland China to resist the epidemic. The parameter, \u03b1(t), was designed to represent the ratio of people who was not restricted to a specific area and had chances to contact with COVID-19 virus during special period. The \u03b1(t) and \u03b2(t) vary according to the strength of the prevention and control measures for the epidemic. To make the model accord with reality, contrast with the standard SEIR model, we added two parameters \u0394(t) and \u03b8(t). The \u0394(t) is the ratio of people with vaccination at time t. \u03b8(t) is the natural mortality of the population in a region at time t (figure 3). The value of \u03b4(t) is closely related with the virus incubation and infectious periods and \u03b3(t) is dependent on the treatment level and patients' health status. It is assumed that the virus incubation period is 7 days and the duration from confirmed stage to cure or death is 10 days based on nation-wide information (Guan et al., 2020; Fan et al., 2020) . The model is an ordinary differential equation model, described by the following equation.",
+            "cite_spans": [
+                {
+                    "start": 1083,
+                    "end": 1102,
+                    "text": "(Guan et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1103,
+                    "end": 1120,
+                    "text": "Fan et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "dF(t)/dt=\u03b7(t)*I(t-10) (5)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Equation (6) Razum and Becher, 2003) . After the isolation of Wuhan on January 23, 2020 with the stricter requirements of data statistics and the provision of detection levels, the data are more and more reliable.",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 36,
+                    "text": "Razum and Becher, 2003)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We estimated model parameters reversely with QSEIR model by equations (8)-(12). \u03b2(t), \u03b3(t), \u03b7(t)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Parameters Estimation"
+        },
+        {
+            "text": "and \u03b4(t) can be calculated (see table 4 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 32,
+                    "end": 39,
+                    "text": "table 4",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Parameters Estimation"
+        },
+        {
+            "text": "From equations (1)-(6), we obtain:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Parameters Estimation"
+        },
+        {
+            "text": "Note that we found some \u03b4(t) in table 4 was>1, which is obviously incorrect, the reason was mainly because biases in the data during the early stages (Cao et al., 2020b) . We deleted these data and calculated the average, median and variance of the rest value of the four parameters in first step. In step 2, we deleted values>1.5 times of the column average. In step 3, we calculated the average, median and variance of the rest value of the four parameters (see author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Set errck= (mean (abs(E0(i)-E(i))) +mean (abs(I0(i)-I(i))) + mean (abs (R0(i)-R(i))) + mean (abs (F0(i)-F(i))))/4 (13)",
+            "cite_spans": [
+                {
+                    "start": 150,
+                    "end": 169,
+                    "text": "(Cao et al., 2020b)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Parameters Estimation"
+        },
+        {
+            "text": "In equation (13), we first calculated the average of the absolute differences between the real data of E0, I0, R0 and F0 and their simulated value of E, I, R and F of kth simulation, then we added the four-average value. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Parameters Estimation"
+        },
+        {
+            "text": "We set January 23, 2020 as the beginning date of the simulation; the initial values of variables were set as of this date (table 6 ). If we set the simulation period D as 300 days, input the best parameters we found, with the MATLAB program of QSEIR model, we can present the results shown in figure 5 . The results showed that with 80% probability, the peak value of I was 58,264",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 122,
+                    "end": 130,
+                    "text": "(table 6",
+                    "ref_id": null
+                },
+                {
+                    "start": 293,
+                    "end": 301,
+                    "text": "figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "on February 13, 2020. After June 19, 2020, the value of I would be < 50 and from July 29, 2020, the number would be smaller than 5. By August 26, 2020, I would be smaller than 1, implying that the COVID-19 would essentially end. From March 17, 2020, E would be < 5 and, a week later on",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "March 24, the number of E would be < 1, which means the epidemic would be totally controlled since this day, no new infected people would appear. The cumulative confirmed cases of COVID-19 in mainland China was estimated to be 97,653, and the cumulative number of deaths was All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033498 doi: medRxiv preprint 9 estimated to be 8,754.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Considering there have 20% estimation error of errc, the peak value of I would be in the range of [52,438, 64,090] and the peak date would be expected in the range February 7 to February 19, 2020. The end date would be in range from August 20, 2020 to September 1, 2020. During the period between March18-30, 2020 the epidemic would be totally controlled. Furthermore, the existing studies seldom provided estimates of the duration of the epidemic and effects of different containment strategies in mainland China. At the regional level, Wu et al.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "(2020b) concluded that in Guangdong province, the epidemic would be totally controlled by mid to late March, 2020. The cumulative confirmed cases in Guangdong was ranked second among All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "How would E, I, R, F change if the value of parameters (\u03b1(t), \u03b2(t), \u03b7(t), \u03b4(t), \u03b3(t)) varied or if the beginning date January 23, 2020 of the simulation changed? We conducted sensitivity analyses of them in terms of their impacts on the I index one by one.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "Figures 6-7 and tables 7-8 showed that the larger the value of \u03b2(t) or \u03b4(t), the higher the peak value of the I index and the earlier the peak time. With the increase of \u03b2(t) or \u03b4(t), their sensitive coefficient to I index decreased progressively. The sensitivity coefficient of \u03b1(t) to I index was the biggest. When \u03b1(t) increased 0.001%, 8,596 more confirmed cases will be observed (figure 10 and table 11). These results indicated that quarantine measures (or with vaccination that is not yet available) are the most effective containment strategy to control the epidemic. Figures 8-9 and tables 9-10 showed that the greater the value of \u03b3(t) or \u03b7(t), the smaller the peak value of the I index. The peak date of I was not very sensitive to the change of \u03b3(t). When \u03b3(t) increased 1%, confirmed cases will be decrease between 4,395 and 7,432. When \u03b7(t) decreased 1%, 4,138 to 4,640 additional confirmed cases could be expected. The average absolute sensitive coefficient of All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 576,
+                    "end": 587,
+                    "text": "Figures 8-9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033498 doi: medRxiv preprint \u03b3(t) and \u03b7(t) to I ranked the second and third in those of five parameters (tables 7-11). This showed that to improve the rate of cure, the development of special medicine should be the second most effective measure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "If the beginning date of the simulation changed from January 23 to January 30 or February 6 in2020 with the value of variables in table 12, together with the same estimated value of parameters in table 5 and, QSEIR program, we can show the main results that started from January 30 in figure   11 . Compared with the baseline, the peak value of the I index increased 0.9% or 1.5%. The peak date of I or the ended date of COVID-19 would be 3 days or 1 day ahead ( figure 12 and table 12 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 285,
+                    "end": 296,
+                    "text": "figure   11",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 463,
+                    "end": 485,
+                    "text": "figure 12 and table 12",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "Results mean that the simulating results were not sensitive to the initial start date. The QSEIR model system is stable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "Due to the downward pressure on the economy, some enterprises resumed work one after another in compliance with the requirements of epidemic prevention and control. Because newly confirm ed cases are decreasing day by day since February 17,2020, the outbreak was gradually brought u nder control, some people began to relax their vigilance. Some began to travel; some went out wi ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The paper proposed a QSEIR model that considers the unprecedented strict quarantine measures which are more fit for the epidemic situation in mainland China. Parameter estimation is the most critical part when using this kind of SEIR model to predict the trend of epidemic (Cao et al., 2020b) . We estimated the model parameters reversely for the QSEIR model from published information with statistical methods and stochastic simulations; from these experiments, we found the parameters that achieved the best simulation test results. The application verified that the method is effective. The paper not only predicted the peak number and peak date of confirmed cases, but also provided estimates of the sensitivity of parameters of QSEIR, the duration of the epidemic and effects of different containment strategies at the same time. The long-term simulation result and sensitive analysis in mainland China showed that the QSEIR model is stable and can be empirically validated. It is suggested that the QSEIR model can be applied to predict the development trend of the epidemic in other regions or countries in the world.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 273,
+                    "end": 292,
+                    "text": "(Cao et al., 2020b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "12"
+        },
+        {
+            "text": "In QSEIR model, the parameters are dynamically changing for each day. Parameters estimation is the most important part in the kind of SEIR model (Cao et al., 2020b) . The paper illustrated the method to generate the parameter estimations. Given data limitation, we estimated a constant value to each of them with 20% errors in simulation tests, which was the best result in 50000 times stochastic simulation within their statistical ranges. We applied these values in prediction and obtained better results than existed researches. With the improvement of data quality and more data, variable parameters can be estimated and the forecasting accuracy of the model could be enhanced.",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 164,
+                    "text": "(Cao et al., 2020b)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussions"
+        },
+        {
+            "text": "The vaccine research and development cycle are relatively long, from researching products to large-scale production and promotion, it takes about 6-18 months. It seems that the COVID-19 All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussions"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033498 doi: medRxiv preprint 13 vaccination cannot be applied in large-scale quantities before the end of August, 2020 3 .However, the COVID-19 is now spreading more seriously in other countries and regions in the world and there is also the possibility of its returning to China. As of March 7, 2020, 21, 110 confirmed cases of COVID-19 have been reported in 93 countries/territories/ areas. Hence, it is imperative that the development of vaccines and specific drugs for COVID-19 should be promoted by many countries with the technical resources to conduct the necessary high-level research. Until they appear, it is the most important that appropriate quarantine measures are retained. In mainland China, the quarantine measures should not be relaxed before the end of March, 2020. China can fully resume production with appropriate anti-epidemic measures beginning in early April, 2020. The results of this study also implied that other countries now facing the epidemic outbreaks should act more decisively and take in time quarantine measures though it may have negative short-term public and economic consequences (Editorial, 2020).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussions"
+        },
+        {
+            "text": "Liu X L designed the QSEIR model, gave method to estimate parameters, compiled MATLAB program, got results and wrote the draft of the manuscript. Hewings G suggested to make sensitive analysis of parameters and estimate effects of different containment strategies. He edited the manuscript. Wang S Y explained some results and provided policy implications. Qin M H, Xiang X, Zheng S and Li X F collected data, some references and analyzed some data, the four of them made equal contributions to the paper. author/funder, who has granted medRxiv a license to display the preprint in perpetuity. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contributors"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Table 7 . The peak value and peak date of I index when \u03b2(t) was changed and the sensitive coefficient of \u03b2(t) to I All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 164,
+                    "end": 171,
+                    "text": "Table 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity. author/funder, who has granted medRxiv a license to display the preprint in perpetuity. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033498 doi: medRxiv preprint author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033498 doi: medRxiv preprint author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033498 doi: medRxiv preprint author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033498 doi: medRxiv preprint author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033498 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Estimating the reproduction number of Ebola virus (EBOV) during the 2014 outbreak in west Africa",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Althaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "ecurrents. outbreaks.91afb5e0f279e7f29e7056095255b288",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/currents.outbreaks.91afb5e0f279e7f29e7056095255b288"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Data-based analysis, modelling and forecasting of the novel Coronavirus (2019-nCoV) outbreak",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Anastassopoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Russo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tsakris",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.11.20022186"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Economic impacts of Wuhan 2019-nCoV on China and the world",
+            "authors": [
+                {
+                    "first": "F K",
+                    "middle": [],
+                    "last": "Ayittey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M K",
+                    "middle": [],
+                    "last": "Ayittey",
+                    "suffix": ""
+                },
+                {
+                    "first": "N B",
+                    "middle": [],
+                    "last": "Chiwero",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Medical Virology",
+            "volume": "1",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25706"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Estimation of the final size of the coronavirus epidemic by the logistic model",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Batista",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.16.20023606"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Pneumonia of unknown etiology in Wuhan, China: potential for international spread via commercial air travel",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Bogoch",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Watts",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Thomas-Bachli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Travel Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/jtm/taaa1008"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Estimating the effective reproduction number of the 2019-nCoV in China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.27.20018952"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Incorporating human movement data to improve epidemiological estimates for 2019-nCoV",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Assessing the tendency of 2019-nCoV (COVID-19) outbreak in China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.09.20021444"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Transmission dynamics of 2019 novel coronavirus (2019-nCoV). bioRxiv 2020(b)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "doi",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.25.919787"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The reproductive number of COVID-19 is higher compared to SARS coronavirus",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A A",
+                    "middle": [],
+                    "last": "Gayle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilder-Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Journal of Travel Medicine",
+            "volume": "",
+            "issn": "c",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/jtm/taaa021"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Transmissibility of 1918 pandemic influenza",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mills",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Robins",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nature",
+            "volume": "432",
+            "issn": "",
+            "pages": "904--906",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature03063"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Epidemic processes in complex networks",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pastor-Satorras",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Castellano",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Mieghem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Review of Modern Physis",
+            "volume": "87",
+            "issn": "3",
+            "pages": "925--979",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Insights from early mathematical models of 2019-nCoV acute respiratory disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rabajante",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2002.05296"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "SARS, lay epidemiology, and fear",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Razum",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Becher",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kapaun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "The Lancet",
+            "volume": "361",
+            "issn": "",
+            "pages": "1739--1740",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions",
+            "authors": [
+                {
+                    "first": "J M",
+                    "middle": [],
+                    "last": "Read",
+                    "suffix": ""
+                },
+                {
+                    "first": "J R E",
+                    "middle": [],
+                    "last": "Bridgen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D A T",
+                    "middle": [],
+                    "last": "Cummings",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.23.20018549"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Offline: 2019-nCoV outbreak-early lessons",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Richard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Pattern of early human-to-human transmission of Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Riou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Althaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Eurosurveillance",
+            "volume": "2020",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The novel coronavirus, 2019-nCoV, is highly contagious and more infectious than initially estimated",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sanche",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y T",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2002.032682020"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.23.916726"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Transmission dynamics model of 2019 nCoV coronavirus with considering the weak infectious ability and changes in latency duration",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Seir",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.16.20023655"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Advances in research on SARS-CoV-2[J/OL] (in Chinese)",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "X C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Journal of Xi'an Jiaotong University (Medical Sciences)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Estimation of the transmission risk of the 2019-nCoV and its implication for public health interventions",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Medicine",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/jcm9020462"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Understanding the present status and forecasting of COVID-19 in Wuhan",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tomie",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.13.20022251"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "epidemic growth, and reproduction numbers for the 2019 Novel Coronavirus (2019-nCoV) epidemic",
+            "authors": [
+                {
+                    "first": "A R",
+                    "middle": [],
+                    "last": "Tuite",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Fisman",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Reporting",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Annals of Internal Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Teunis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "American Journal of Epidemiology",
+            "volume": "160",
+            "issn": "",
+            "pages": "509--516",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Phase-adjusted estimation of the number of Coronavirus Disease 2019 cases in Wuhan",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "China. Cell Discovery",
+            "volume": "6",
+            "issn": "1",
+            "pages": "1--8",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41421-020-0148-0"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The comparison of I index when the simulation started from different dates Figure13. The comparison of I index when strict quarantine measures would be relaxed (alpha increased from 0.00006975 to 0.00007975) beginning on March10",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Figure12",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": ",0000 times simulation were made (figure 4), the result is convergence. The minimum value of errck is 20.42% (figure 4), and the estimated values of the five parameters in this case were listed in the last row of",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Yan et al. (2020) predicted that the peak value of confirmed cased in mainland China would be > 40,000, Hermanowicz (2020) predicted it to be 65,000, while Li and Feng (2020) estimated 51,600. There have been a number of studies estimating the peak number and date of confirmed cases in mainland China in the early stage of the epidemic (Batista, 2020; Gamero et al., 2020; Hermanowicz, 2020; Liu et al., 2020(a); Shi et al., 2020; Xiong and Yan, 2020). However, due to the limited emerging understanding of the new virus and its transmission mechanisms, their results were in the range from January 14, 2020 (Yan et al., 2020) to the beginning of March, 2020 (Geng et al., 2020) (see table 3). Most of them are in the mid of February, 2020, which are approximate to the real date February 17, 2020. The results of Wang et al. (2020b), Gamero et al. (2020) Xiong and Yan (2020), Li et al. (2020c), Hermanowicz (2020) and Shi et al. (2020) were in correspondence with our results, which are closer to the observed data. With 80% probability, our prediction of the peak date is 4 days ahead of the real date, the prediction error of the peak value is 0.43%, both estimates are much closer to the observed values compared with other published studies.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "thout masks. If the control measures are slightly relaxed from March 10, \u03b1(t) increased 0.00001 f rom 0.00006975, which means the number of S increased to 14,000, the end date would be exten ded from August 26, 2020 to September 14, 2020. And the date that the epidemic can be controll ed would be extended 70 days, which would be on June 2 nd , 2020. The cumulative confirmed cas es would increase from 97,653 to 111,619, up 14.3% (figure 13). Evidence suggests that the colo ssal public health efforts of the Chinese Government have saved thousands of lives (Editorial, 20 20). It indicated that the quarantine measures should not be relaxed before the end of March, 202 0 in mainland China.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Zhao S, Lin Q, Ran J, et al. Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. International Journal of Infectious Diseases 2020; doi: https://doi.org/10.1016/j.ijid.2020.01.050. 55. Zhou T, Liu Q, Yang Z, et al. Preliminary prediction of the basic reproduction number of the novel coronavirus 2019-nCoV[J/OL] (in Chinese). Journal of Evidence-based Medicine 2020. http://kns.cnki.net/kcms/detail/51.1656.r.20200204.1640.002.html.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "2); Rabajante (2020)(2.0); Su et al. (2020)(2.24-3.58); Li et al., (2020c)( 2.2-3.1); Geng et al. et al. (2020) (2.8-3.9); Su et al. (2020) (2.24-3.58); Geng et al. (2020) (2.38-2.72); Xiong and Yan (2020) (2.7); Li et al., (2020c) (2.2-3.1); Wu et al. (2020a) (2.68) 3.0-3.5 Zhou et al. (2020) (2.8-3.9); Su et al. (2020) (2.24-3.58); Li et al., (2020c) (2.2-3.1); Liu et al. (2020c) (3.28); Cao et al. (2020b) (3.24); Read et al. (2020) (3.11); Cao et al. (2020a) (3.24) 3.5-4.0 Zhou et al. (2020) (2.8-3.9); Su et al. (2020) (2.24-3.58); Zhang et al. (2020) (3.6) 4.0-7.0 Shen et al. (2002) (4.71); Sanche et al. et al. (2004)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Timeline comparison between SARS and COVID-19",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Countries, territories or areas with reported confirmed cases of COVID-19, 22 February 2020 (sourced from WHO) *The situation report includes information provided by national authorities as of 10 The changes of people among different status when one epidemic",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Part of simulation results when parameters were set with random values in their statistical ranges The main results of QSEIR model with the assigned values of parameters",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "When \u03b2 (t)=1.2 increase 0.5 each time and other parameters unchanged, the trend of I index When \u03b4 (t)=0.2370 decrease 20% each time and other parameters unchanged, the trend of I All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "When \u03b3 (t)=0.0521 decrease 20% each time and other parameters unchanged, the trend of I index When \u03b7 (t)=0.0054 decrease 20% each time and other parameters unchanged, the trend of I All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "When \u03b1 (t)=0.00008131 decrease 20% each time and other parameters unchanged, the trend of I index The main results of QSEIR model when the simulation began on January 30, 2020All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "is specially designed to fit for China's actual epidemic prevention measures. In actual and \u03b7(t) are not easy to determine, since the virus incubation period, infectious period, and case statistics that have close relationships with these parameters have varying (unknown) degrees of accuracy. The choice of estimation techniques for the key epidemiological parameters in the QSEIR model of COVID-19 has become a research priority (Cao et al., 2020b). We obtained the number of COVID-19 cases time series data from January 10 to February 22, 2020 for mainland China released by the National Health Commission of China and health commissions at the provincial level in China 2 . Due to limited testing and treatment resources while facing a major outbreak with a sudden onset, there was under-screening and under-reporting in the early stages of the epidemic in its epicenter, Wuhan, and this generated biases in the data during",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "February 13 to February 22 in 2020 to test the accuracy of the simulation by errck with equation (13).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "They were applied in the long-term simulation. The minimum value of errck is 20.42%, with the current published data that was available, we can use these parameters that can make QSEIR model results with about 80% simulation accuracy.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the. https://doi.org/10.1101/2020.03.09.20033498 doi: medRxiv preprint provinces in China. The number was 1,342 on February 22, 2020, which accounted for 1.74% of the cumulative confirmed cases in mainland China. The date on which no new exposed cases should be similar with that of mainland China. The result of Wu et al. (2020b) is correspondence with our result. Yang et al. (2020) provided that in Chongqing the end date would be about May 11, 2020. The peak value of confirmed cases in Chongqing was 41 on January 30, 2020. The cumulative confirmed cases in Chongqing was 573 on February 22, 2020, accounting for 0.74% of the total in China. Therefore, its end date should be much earlier than that of mainland China. The end date of August 26, 2020 in mainland China in our research can be partly explained by Yang et al. (2020).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "We declare no competing interests.http://kns.cnki.net/kcms/detail/51.1207.T.20200221.1041.002.html. 12. Gamero J, Tamayo J A, Martinez-Roman J A. Forecast of the evolution of the contagious 13. Geng H, Xu A D, Wang X Y, et al. Analysis of the role of current prevention and control measures in the epidemic of new coronavirus based on SEIR model (in Chinese). Journal of",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "16. Huang Y P. Impact of new coronary pneumonia and policy responses (In Chinese). Business Observer 2020. 17. IHS Markit. Impacts of coronavirus containment effort ripple through global economy. Accessed February 9, 2020. http://news.ihsmarkit.com/prviewer/release_only/slug/. 18. IMF News. Statement by international monetary fund president Kristalina Georgyeva on the 20. Leung K, Wu J T, Leung G M. Nowcasting and forecasting the Wuhan 2019-nCoV outbreak.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Several major outbreaks in the world over the past 20 years",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "The summary table of the estimated basic reproduction number R0 of four epidemics",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF10": {
+            "text": "The predicted peak date of the confirmed cases in 2020 in mainland China from",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF11": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF12": {
+            "text": "Table 6. Variables and their initial values in the baseline of QSEIR model",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF13": {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.Table 8. The peak value and peak date of I index when \u03b4(t) was changed and the sensitive coefficient of \u03b4(t) to ITable 9. The peak value and peak date of I index when \u03b3(t) was changed and the sensitive coefficient of \u03b3(t) to I",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF14": {
+            "text": "The peak value and date of I when \u03b7(t) was changed and the sensitive coefficient of \u03b7(t) to I index All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF15": {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.09.20033498 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF16": {
+            "text": "The peak value and date of I when \u03b1(t) was changed and the sensitive coefficient of\u03b1(t) to I index",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF17": {
+            "text": "The initial values of variables when the simulation began from different dates and the",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

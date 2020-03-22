@@ -1,0 +1,971 @@
+{
+    "paper_id": "48f486ccea11b4ba01186e287124316c962857f7",
+    "metadata": {
+        "title": "Protocol for a randomized controlled trial testing inhaled nitric oxide therapy in spontaneously breathing patients with COVID-19",
+        "authors": [
+            {
+                "first": "Chong",
+                "middle": [],
+                "last": "Lei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "the Fourth Military Medical University. Xi'an",
+                    "location": {
+                        "settlement": "Shaanxi",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Binxiao",
+                "middle": [],
+                "last": "Su",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "the Fourth Military Medical University. Xi'an",
+                    "location": {
+                        "settlement": "Shaanxi",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hailong",
+                "middle": [],
+                "last": "Dong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "the Fourth Military Medical University. Xi'an",
+                    "location": {
+                        "settlement": "Shaanxi",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bijan",
+                "middle": [
+                    "Safaee"
+                ],
+                "last": "Fakhr",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Massachusetts General Hospital",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Luigi",
+                "middle": [
+                    "Giuseppe"
+                ],
+                "last": "Grassi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Massachusetts General Hospital",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Raffaele",
+                "middle": [
+                    "Di"
+                ],
+                "last": "Fenza",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Massachusetts General Hospital",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Stefano",
+                "middle": [],
+                "last": "Gianni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Massachusetts General Hospital",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Riccardo",
+                "middle": [],
+                "last": "Pinciroli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Massachusetts General Hospital",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Emanuele",
+                "middle": [],
+                "last": "Vassena",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Massachusetts General Hospital",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Caio",
+                "middle": [],
+                "last": "Cesar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Araujo",
+                "middle": [],
+                "last": "Morais",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Massachusetts General Hospital",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andrea",
+                "middle": [],
+                "last": "Bellavia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard T.H. Chan School of Public Health",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Stefano",
+                "middle": [],
+                "last": "Spina",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Massachusetts General Hospital",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Robert",
+                "middle": [],
+                "last": "Kacmarek",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Massachusetts General Hospital",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lorenzo",
+                "middle": [],
+                "last": "Berra",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Massachusetts General Hospital",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "Massachusetts",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Introduction: the current worldwide outbreak of Coronavirus disease 2019 due to a novel coronavirus (SARS-CoV-2) is seriously threatening the public health. The number of infected patients is continuously increasing and the need for Intensive Care Unit admission ranges from 5 to 26%. The mortality is reported to be around 3.4% with higher values for the elderly and in patients with comorbidities. Moreover, this condition is challenging the healthcare system where the outbreak reached its highest value. To date there is still no available treatment for SARS-CoV-2. Clinical and preclinical evidence suggests that nitric oxide (NO) has a beneficial effect on the coronavirusmediated acute respiratory syndrome, and this can be related to its viricidal effect. The time from the symptoms' onset to the development of severe respiratory distress is relatively long. We hypothesize that high concentrations of inhaled NO administered during early phases of COVID-19 infection can prevent the progression of the disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The novel Coronavirus 2019 (SARS-CoV-2) has been first identified in China in December 2019 [1] . As of today, more than 110,000 cases have been reported (with more than 4,000 deaths) and, while the majority of them is still concentrated in China, the infection has spread across the country's border to many Asian countries, as well as to Europe and to the USA [2]. SARS-CoV-2 is a positive single-stranded RNA virus belonging to the family Coronaviridae. The current outbreak would result from the acquired ability of the virus to undergo human to human transmission [3] , after the jump from the original animal reservoir (most likely a bat).",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 95,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 569,
+                    "end": 572,
+                    "text": "[3]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In the human host, SARS-CoV-2 causes a respiratory syndrome (named which can range from a mild involvement of the upper airways to a severe pneumonia with Acute Respiratory Syndrome (ARS) and the need of mechanical ventilation in an intensive care unit (ICU). In early case series, the risk of critical care admission ranges between 5 and 26%, with higher values for the elderly and in patients with comorbidities or chronic diseases [4, 5] . The time from symptoms onset to development of severe respiratory distress is relatively long, with a median time of 8 days in which the patient remains in a state of mild disease characterized by dry cough, fever and mild hypoxia requiring oxygen supplementation. Once severe disease with the necessity of ICU develops, the outcome worsens decisively, with mortality raising from 3.4% to 61% [4, 6] . Moreover, ICU staying poses a serious strain on resource-limited hospitals. Thus, preventing disease progression during the mild phase would be highly desirable both in terms of morbidity and mortality improvement and healthcare resource-sparing. At the present time, there are no proven etiological treatments for COVID-19 but some ongoing clinical trials are testing the effects of anti-viral drugs (NCT04252664 on ClinicalTrials.gov).",
+            "cite_spans": [
+                {
+                    "start": 434,
+                    "end": 437,
+                    "text": "[4,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 438,
+                    "end": 440,
+                    "text": "5]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 836,
+                    "end": 839,
+                    "text": "[4,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 840,
+                    "end": 842,
+                    "text": "6]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In 2004, a pilot study showed that low dose inhaled Nitric Oxide (NO) was able to shorten the time of ventilatory support during the SARS epidemic, sustained by another coronavirus, SARS-CoV [7] . In an in vitro study, the NO donor compound S-nitroso-Nacteylpenicillamine increased the survival rate in an in vitro model of SARS-CoV . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 194,
+                    "text": "[7]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033522 doi: medRxiv preprint infected Monkey's epithelial cells [8] , suggesting a possible viricidal effect of the gas.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "10.20033522",
+                    "ref_id": null
+                },
+                {
+                    "start": 180,
+                    "end": 183,
+                    "text": "[8]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Inhaled NO at high doses can be administered safely and is known for potential microbicidal effects [9] [10] [11] [12] . While further in-vitro testing for this specific virus is recommended, we propose a randomized clinical trial to test the effectiveness of inhaled NO in preventing progression of COVID-19 disease, when administered at an early stage.",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 103,
+                    "text": "[9]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 104,
+                    "end": 108,
+                    "text": "[10]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 109,
+                    "end": 113,
+                    "text": "[11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 114,
+                    "end": 118,
+                    "text": "[12]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Multicenter randomized clinical trial. Symptoms of COVID-19 must include presence of fever of at least 36.6 \u00b0C from the axillary site or 37.2 \u00b0C from the oral site or 37.6 \u00b0C from the rectal / tympanic site.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "In addition, patient must be spontaneously breathing with a respiratory rate of at least 24 breaths per minute and/or an objective persistent cough consistent with COVID-19 symptoms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033522 doi: medRxiv preprint The patients with or without hypoxia will be included. Gas exchange and ventilation may be assisted by means of any continuous positive airway pressure (CPAP) system, or any system of non-invasive ventilation (NIV) with positive end-expiratory pressure (PEEP) \u2264 10 cmH2O.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "10.20033522 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "Criteria of exclusion are pregnancy (all women in fertile age should be tested for pregnancy before being enrolled); presence of an open tracheostomy; therapy with high-flow nasal cannula; clinical contraindication to NO gas delivery, as judged by the attending physician; hospitalized and confirmed diagnosis of COVID-19 for more than 72 hours. Table 1 author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 346,
+                    "end": 353,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Study design"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033522 doi: medRxiv preprint or recovery from the symptoms, defined as normalization of fever, respiratory rate, and alleviation of cough, sustained for at least 72 hours (endpoint 4). A flowchart of the study is presented in Figure 2 .",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "10.20033522 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 342,
+                    "end": 350,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Study design"
+        },
+        {
+            "text": "The evaluation of the patients will continue for 28 day after the enrollment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "Since treatment with inhaled NO can lead to increase in plasmatic methemoglobin, the blood levels of methemoglobin will be monitored via non-invasive CO-oximeter or methemoglobin levels in blood. If methemoglobin levels rise above 5% at any point of the study, inhaled NO concentration will be immediately stopped until the subsequent dose. For safety reason we will also evaluate NO2 level in order to keep it below 5 ppm.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "If we observe an increase above this value, we will immediately interrupt the administration of NO until the subsequent dose.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "Patients assigned to the control group will not receive any gas therapy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "The primary outcome will be the proportion of patients who progress to a severe form of the disease, defined as the indication given by the attending physician to intubation and mechanical ventilation in the first 28 days after enrollment in the study. Patients in severe respiratory failure and/or ventilatory distress with indication to intubation but concomitant DNI (Do Not Intubate) will meet criteria for primary endpoint. The proportion of intubation will be calculated at 28 days from study enrollment. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcomes"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033522 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcomes"
+        },
+        {
+            "text": "Clinical information including medical history and laboratory exams will be obtained from the medical charts and prospectively recorded until discharge or death. Collection of study variables will be managed by the outcome assessors by using a dedicated patient's file on Studytrax. The 28 days follow up, if the patient is discharged from the hospital, will be performed by a phone call.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Outcome assessors, treatment providers and the principal investigator will obtain unique usernames and password to transfer all data to a Studytrax page dedicated to the study. Data access is restricted only to authorized member of the team which will be responsible for strict confidentiality all times. The signed informed consent will be kept in a secure place for at least 5 years after study completion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Based on previously published data on COVID 19 [4] , we predict an incidence of intubation and mechanical ventilation of 12.3%. However, because of the novel nature of this study, we do not have enough data to predict the effect of inhaled NO on the primary outcome. The dynamic trend of this ongoing outbreak also prevents us to determine the rate of enrollment that we can achieve. As such, in Table 2 we are displaying the sample size calculation for our primary outcome, for an alpha level of 0.05 and a power level of 0.8, under different scenario. We will perform a first analysis based on 240 patients, evaluating the actual incidence of the primary outcome, effect of the treatment and the actual rate of enrollment. The PI will decide, together with the DSMB, whether to continue enrollment to 340 patients, if a sufficient rate of enrollment and power had not been achieved with the original sample size. Based on results reported in Table 2 , the same step could then be repeated increasing sample size from 340 to 500 patients, from 500 patients to 760 and from 760 patients to 1260.",
+            "cite_spans": [
+                {
+                    "start": 47,
+                    "end": 50,
+                    "text": "[4]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 396,
+                    "end": 403,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 944,
+                    "end": 951,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Sample size calculation"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size calculation"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033522 doi: medRxiv preprint Statistical analysis Data will be analyzed following the intention to treat analysis principle. Demographic and clinical data will be presented as proportions for categorical outcomes and mean plus standard deviation or median plus interquartile range for continuous outcomes.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "10.20033522 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sample size calculation"
+        },
+        {
+            "text": "Comparison between groups will be made with the X 2 test or the Fisher exact test for categorical variables and with the t-test or Wilcoxon rank-sum test for continuous variables. For the t-test the normality distribution will be evaluated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size calculation"
+        },
+        {
+            "text": "Time to event outcomes will be analyzed by estimating survival curves over treated and non-treated using the Kaplan-Meier method.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size calculation"
+        },
+        {
+            "text": "A subgroup analysis will be performed with multiple linear regression, as well as logistic and cox regression models to adjust for age, pulmonary comorbidities and coadministration of other experimental treatment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size calculation"
+        },
+        {
+            "text": "Data monitoring Data will be monitored by the principal investigator (PI) in collaboration with an independent Data and Safety Monitoring Board (DSMB). PI, and DSMB will monitor adverse events and quality of the data and provide recommendations. The PI will monitor compliance to safety rules every 20 patients. Every violation will be reported to the DSMB. Peripheral centers will be provided with a data sheet providing safety rules and will be instructed to report every violation to the coordinating hospital. Before the beginning of the study, the DSMB will meet to decide safety rules and stopping guidelines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size calculation"
+        },
+        {
+            "text": "We will not perform any interim analysis, but the DSMB will be granted the authority to stop the trial at any point due to safety concerns.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size calculation"
+        },
+        {
+            "text": "The aim of this trial is to evaluate whether high dose of NO administered at an early stage can safely reduce or prevent the progression of COVID-19 disease. This study is . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033522 doi: medRxiv preprint open to every center that wants to participate. If interested in participating in the study, please contact the Principal Investigator. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "10.20033522 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contacts"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033522 doi: medRxiv preprint ",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "10.20033522 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Contacts"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med Published Online First",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine Published Online First",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/nejmoa2001316"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Published Online First",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W-J",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-Y",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med Published Online First",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study. The Lancet Respiratory Medicine",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "0",
+            "issn": "",
+            "pages": "30079--30084",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-2600"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Inhalation of nitric oxide in the treatment of severe acute respiratory syndrome: a rescue trial in Beijing",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Clin Infect Dis",
+            "volume": "39",
+            "issn": "",
+            "pages": "1531--1536",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/425357"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Inhibition of SARS-coronavirus infection in vitro by S-nitroso-N-acetylpenicillamine, a nitric oxide donor compound",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Keyaerts",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vijgen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Int J Infect Dis",
+            "volume": "8",
+            "issn": "",
+            "pages": "223--229",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2004.04.012"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Gaseous nitric oxide reduces influenza infectivity in vitro",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Regev-Shoshani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vimalanathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mcmullin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nitric Oxide",
+            "volume": "31",
+            "issn": "",
+            "pages": "48--53",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.niox.2013.03.007"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Gaseous nitric oxide to treat antibiotic resistant bacterial and fungal lung infections in patients with cystic fibrosis: a phase I clinical study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Deppisch",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Herrmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Graepler-Mainka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Infection",
+            "volume": "44",
+            "issn": "",
+            "pages": "513--533",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s15010-016-0879-x11"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A phase I clinical study of inhaled nitric oxide in healthy adults",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mcmullin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Cyst Fibros",
+            "volume": "11",
+            "issn": "",
+            "pages": "324--355",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcf.2012.01.003"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "center for China of this study is Xijing Hospital, the Fourth Military Medical University in Xi'an, Shaanxi, China. The coordinating center for other centers is the Massachusetts General Hospital in Boston, Massachusetts, USA. This study is open to other centers willing to participate. For more information see section \"Contacts\". Eligibility criteria Adults in-hospital patients (>18 years old) will be recruited within 72 hours after confirmation of COVID-19 by real-time Reverse Transcriptase Polymerase Chain Reaction (RT-PCR) on oropharyngeal or nasopharyngeal swabs or stool samples.Diagnosis can also be obtained by detection of COVID-19 IgM/IgG antibodies in serum, plasma or whole blood sample.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "summarize inclusion and exclusion criteria. Interventions This is a randomized (1:1) controlled, parallel arm clinical trial to verify that brief periods of inhaled NO at high doses can improve clinical course reducing the number of patients who undergo endotracheal intubation for COVID-19 in the first 28 days after enrollment in the study (primary endpoint). Once admitted to the hospital with a confirmed diagnosis of COVID-19 (obtained by RT-PCR for SARS-COVID-2 virus, or positive in COVID-19 IgM/IgG antibodies) the patients will be screened. Eligible patients randomized to the treatment group will receive iNO to target an average inspiratory concentration between 140 to 180 ppm. The administration of iNO will be performed through a non-invasive ventilation circuit with a range between 2 and 10 cmH2O of positive end expiratory pressure (PEEP) or a nonrebreathing mask without positive end expiratory pressure depending on the clinical needs of the patient and availability of respiratory equipment. The patients will undergo 2 sessions per day with the duration between 20 and 30 minutes. A representation of the administration setting in shown in Figure 1. The NO gas therapy will continue for 14 days or until the primary outcome event is reached (i.e., clinical deterioration with indication for intubation and mechanical ventilation). Other criteria for the interruption of the therapy are: negative result on RT-PCR for the presence of the coronavirus (SARS-CoV-2, endpoint 3); hospital discharge",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Mortality from any cause at 28 days (endpoint 2) -Proportion of negative conversion of SARS-CoV-2 from upper respiratory tract specimens at 7 days (endpoint 3) -Time to clinical recovery, defined as: normalization of fever (\u2264 36.6 C from the axillary site; or \u2264 37.2 C from the oral site; or \u2264 37.8 C from the rectal/tympanic site) plus normalization of respiratory rate < 24 breaths/min and alleviation of cough (defined as mild or absent in a patient-reported scale of severe>>moderate>>mild>>absent) or discharge home (endpoint 4).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Berra, MD, lberra@mgh.harvard.edu Bijan Safaee Fakhr, MD, bsafaeefakhr@mgh.harvard.edu Chong LEI, MD and PhD, crystalleichong@126.com Authors' contributions Authorship for this trial will be given to key personnel involved in trial design, personnel training, recruitment, data collection, statistical plan and data analysis. There are no publication restrictions. CL, BS, HD, LB, RP were responsible for conceptualizing trial design. CL and LB managed patient safety protocol. CL, BS, HD, LB, BSF, RDF are responsible for recruitment, enrolment and data collection. AB, BSF, LG are responsible for power calculation, statistical plan and data analysis. CL, BS, HD, LB, EV, BSF, RDF, SG and CCAM trained personnel for the clinical trial and built systems for nitric oxide delivery and monitoring. All authors have critically revised the study protocol and approved the final version. All authors agree to be accountable for the accuracy and integrity of all aspects of this trial. are partially supported by NIH/NHLBI 1 K23 HL128882-01A1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Study Flowchart",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". https://doi.org/10.1101/2020.03.10.20033522 doi: medRxiv preprint Miller C, McMullin B, Ghaffari A, et al. Gaseous nitric oxide bactericidal activity retained during intermittent high-dose short duration exposure. Nitric Oxide 2009;20:16-23. doi:10.1016/j.niox.2008.08.002. CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033522   doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033522   doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033522   doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.is the (which was not peer-reviewed) The copyright holder for this preprint. https://doi.org/10.1101/2020.03.10.20033522 doi: medRxiv preprint INCLUSION CRITERIA \u2022 Age \u2265 18 years \u2022 confirmed SARS-CoV-2 infection. \u2022 Hospitalized with at least one among: o Fever o Tachipnea o Cough \u2022 Spontaneous breathing with or without any kind of NIV \u2022 \u2264 8 days since illness onset Daily clinical data recording for 28 days or until discharge TREATMENT GROUP 20-30 min, 2/day: \u2022 PEEP 2-10 cmH2O \u2022 Inhaled NO 140-180 ppm CONTROL GROUP",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,2718 @@
+{
+    "paper_id": "f9a5880da2dbac60b06c520c9af75985d5d6c24c",
+    "metadata": {
+        "title": "The biomechanical role of extra-axonemal structures in shaping the flagellar beat of Euglena",
+        "authors": [
+            {
+                "first": "Giancarlo",
+                "middle": [],
+                "last": "Cicconofri",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Giovanni",
+                "middle": [],
+                "last": "Noselli",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Antonio",
+                "middle": [],
+                "last": "Desimone",
+                "suffix": "",
+                "affiliation": {},
+                "email": "*desimone@sissa.it"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We propose and discuss a model for flagellar mechanics in Euglena gracilis. We show that the peculiar non-planar shapes of its beating flagellum, dubbed \"spinning lasso\", arise from the mechanical interactions between two of its inner components, namely, the axoneme and the paraflagellar rod. The spontaneous shape of the axoneme and the resting shape of the paraflagellar rod are incompatible. The complex non-planar configurations of the coupled system emerge as the energetically optimal compromise between the two antagonistic components. The model is able to reproduce the experimentally observed flagellar beats and their characteristic spinning lasso geometric signature, namely, travelling waves of torsion with alternating sing along the length of the flagellum.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Flagella and cilia propel swimming eukaryotic cells and drive fluids on epithelial tissues of higher organisms [1] . The inner structure of the eukaryotic flagellum is an arrangement of microtubules (MTs) and accessory proteins called the axoneme (Ax). A highly conserved structure in evolution, the Ax typically consists of nine cylindrically arranged MT doublets cross-bridged by motor proteins of the dynein family. An internal central pair of MTs is connected by radial spokes to the nine peripheral doublets, determining the typical \"9+2\" axonemal structure. Motor proteins hydrolyze ATP to generate forces that induce doublet sliding. Due to mechanical constraints exerted by linking proteins (nexins) and the basal body, dynein-induced sliding of MTs translates into bending movements of the whole structure. Motor proteins are thought to self regulate their activity via mechanical feedback, generating the periodic beats of flagella, see e.g. [6] and [19] .",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 114,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 952,
+                    "end": 955,
+                    "text": "[6]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 960,
+                    "end": 964,
+                    "text": "[19]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Despite a general consensus on the existence of a self-regulatory mechanism, the inner working of the Ax is still not fully understood and it is still a subject of active research [33] . While bending-through-sliding is the accepted fundamental mechanism of flagellar motility, how specific flagellar shapes are determined is not yet clear. For the most studied swimming microorganisms, such as animal sperm cells and the biflagellate alga Chlamydomonas reinhardtii, the flagellar beat is, to a good approximation, planar. For these organisms, beat planarity is thought to be induced by the inter-doublet links between one pair of MTs, typically those numbered 5 and 6 [18] . These links inhibit the relative sliding of the 5-6 MTs pair, thus selecting a beating plane that passes through the center of the Ax and the midpoint between the inhibited MTs. Figure 1 . a) A specimen of freely swimming Euglena gracilis, and b) a sketch of the cross section of its flagellum seen from the distal end. The flagellar inner structure is composed by the paraflagellar rod (PFR, textured), and the axoneme (Ax). The PFR is connected via bonding links to the axonemal doublets 1, 2, and 9 (our numbering convention). The inner structure of the flagellum is enclosed by the flagellar membrane (dotted line). By inhibiting MTs' sliding the PFR selects the spontaneous bending plane of the Ax (dashed line). The solid line that joins the Ax center r a and the PFR center r p cross at an angle \u03c6 p the spontaneous bending plane.",
+            "cite_spans": [
+                {
+                    "start": 180,
+                    "end": 184,
+                    "text": "[33]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 669,
+                    "end": 673,
+                    "text": "[18]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 854,
+                    "end": 862,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "A remarkable deviation from the flagellar structure of the aforementioned organisms is found in euglenids and kinetoplastids. These flagellated protists have a whole extra element attached alongside the Ax [7] , a slender structure made of a lattice-like arrangement of proteins called \"paraxial\" or \"paraflagellar\" rod (PFR), see Figure 1 . The latter name is more common, but the former is possibly more accurate [24] . PFRs are attached via bonding links to up to four axonemal MTs, depending on the species [32] . PFRs are thought to be passive but, at least in the case of Euglena, some degree of activity is not completely ruled out [21] .",
+            "cite_spans": [
+                {
+                    "start": 206,
+                    "end": 209,
+                    "text": "[7]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "[24]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 511,
+                    "end": 515,
+                    "text": "[32]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 639,
+                    "end": 643,
+                    "text": "[21]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 331,
+                    "end": 339,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this paper, we put forward and test the hypothesis that the distinctive beating style of Euglena Gracilis, sometimes dubbed \"spinning lasso\" [5] , arises due to PFR-Ax mechanical interaction.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 147,
+                    "text": "[5]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In order to put our hypothesis into context, we observe that the flagellar beat of PFR-bearing kinetoplastid organisms, such as Leishmania and Crithidia, is planar [9] . An apparent exception to beat planarity in kinetoplastids is found in the pathogenic parasite Trypanosoma brucei, which shows a characteristic non-planar \"drill-like\" motion [17] . However, Trypanosoma's flagellum is not free, like that of Leishmania and Crithidia, but it is attached to the organism for most of its length, wrapped helically around the cell body. According to [2] the flagellum-body mechanical interaction could alone explain Trypanosomes' distinctive motion. Confirming this conclusion, [34] showed that Trypanosoma mutants with body-detached flagellum generate fairly planar beating. It is conjectured that the PFR-Ax bonds operate as the 5-6 interdoublet links in Chlamydomonas and sperm cells, inhibiting MTs sliding and selecting a plane of beat [36] .",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 167,
+                    "text": "[9]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 344,
+                    "end": 348,
+                    "text": "[17]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 548,
+                    "end": 551,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 676,
+                    "end": 680,
+                    "text": "[34]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 939,
+                    "end": 943,
+                    "text": "[36]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Euglena's spinning lasso beat does not conform to this scenario. Indeed, the beating style of Euglena is characterized by high asymmetry and non-planarity. The full 3d flagellar kinematics of freely swimming cells has recently been revealed [25] thanks to a mixed approach based on hydrodynamic theory and image analysis. As we report in the first part of this paper, the geometry of the spinning lasso is characterized by travelling waves of torsion with alternating sign along the flagellum length.",
+            "cite_spans": [
+                {
+                    "start": 241,
+                    "end": 245,
+                    "text": "[25]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We argue that the key to the emergence of non-planarity lies in a prominent asymmetry in the structure of PFR-Ax attachment in euglenid flagella. Figure 1 shows a sketch of the cross section of the euglenid flagellum redrawn from [20] , see also [4] . The PFR is attached to three MTs, which we number 1, 2, and 9. We consider two lines. One line (dashed) passes through the center of the Ax and MT 1, in the middle of the bonding complex. The other line (solid) connects the center of the Ax and the center of the PFR. The two lines cross each other. This is the structural feature on which we build our model.",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 234,
+                    "text": "[20]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 246,
+                    "end": 249,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 146,
+                    "end": 154,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "In the model we assume that the bonding links to the PFR select the local spontaneous beating plane of the Ax, from the same principle of MTs' sliding inhibition discussed above. The local spontaneous beating plane so generated passes through the dashed line in Figure 1 . We follow closely [14] and [27] in our modeling of the Ax, while we use a simple elastic spring model for the PFR. We show that, under generic actuation, the two flagellar components cannot be simultaneously in their respective states of minimal energy, and this crucially depends on the offset between the spontaneous beating plane of the Ax (dashed line in Figure 1 ) and the line joining the PFR-Ax centers (solid line in Figure 1 ). Instead, the typical outcome is an elastically frustrated configuration of the system, in which the two competing components drive each other out of plane. Under dyneins activation patterns that, in absence of extra-axonemal structures, would produce an asymmetric beat similar to those of Chlamydomonas [23] , or Volvox [26] , the model specifically predicts the torsional signature of the spinning lasso, which we discuss in the following Section.",
+            "cite_spans": [
+                {
+                    "start": 291,
+                    "end": 295,
+                    "text": "[14]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 300,
+                    "end": 304,
+                    "text": "[27]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1014,
+                    "end": 1018,
+                    "text": "[23]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1031,
+                    "end": 1035,
+                    "text": "[26]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 262,
+                    "end": 270,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 632,
+                    "end": 640,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 698,
+                    "end": 706,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "Interestingly, the lack of symmetry of the spinning lasso beat produces swimming trajectories with rotations coupled with translations [25] . In turn, cell body rotations have a role in phototaxis (see Discussion and Outlook Section and [12] ). In the light of these observations, our analysis shows that the beat of the euglenid flagellum can be seen as an example of a biological function arising from the competition between antagonistic structural components. It is not dissimilar from the body-flagellum interaction in Trypanosoma, which generates 3d motility. But the principle is much more general in biology and many other examples can be found across kingdoms and species and at widely different scales. For instance in plants, a mechanism of seed dispersal arises from the mechanical competition between the two valves of the seed pods, see, e.g., [3] for Bauhinia variegata and [15] for Cardamine hirsuta. Contraction by antagonistic muscles is key for animal movement and, in particular, for the functioning of hydrostatic skeletons (used from wormlike invertebrates to arms and tentacles of cephalopods, to the trunk of elephants, see [16] ). A similar principle of antagonistic contraction along perpendicularly oriented families of fibers is at work at the sub-cellualr level, for example in the antagonistic motor protein dynamics in contractile ring structures important in cell division and development (see, e.g., [8] ). At the same sub-cellular scale, competing elastic forces arising from lipid-protein interactions are often crucial in determining the stability of complex shapes of the cellular membrane [31] , and in the case of the overall structure of the coronavirus envelope [29] .",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 139,
+                    "text": "[25]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 237,
+                    "end": 241,
+                    "text": "[12]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 858,
+                    "end": 861,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 889,
+                    "end": 893,
+                    "text": "[15]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1148,
+                    "end": 1152,
+                    "text": "[16]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1433,
+                    "end": 1436,
+                    "text": "[8]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1627,
+                    "end": 1631,
+                    "text": "[31]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1703,
+                    "end": 1707,
+                    "text": "[29]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991331 doi: bioRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3/24"
+        },
+        {
+            "text": "We first analyze the experimental data from the 3d reconstruction of the beating euglenid flagellum obtained in [25] for freely swimming organisms. Swimming Euglenas follow generalized helical trajectories coupled with rotation around the major axis of the cell body. It is precisely this rotation that allows for a 3d reconstruction of flagellar shapes from 2d videomicroscopy images. Euglenas take many beats to close one complete turn around their major body axis. So, while rotating, Euglenas show their flagellar beat to the observer from many different sides. Stereomatching techniques can then be employed to reconstruct the flagellar beat in full (assuming periodicity and regularity of the beat). Figure 2 shows N = 10 different curves in space describing the euglenid flagellum in different instants within a beat taken from [25] . The reconstruction fits well experimental data from multiple specimens. The figure also illustrates the calculated torsion of the flagellar curve at each instant (not previously published). Torsion, the rate of change of the binormal vector, is the geometric quantity that measures the deviation of a curve from a planar path (see the Results Section below for the formal definition). The spinning lasso shows here a distinct torsional signature characterized by torsion peaks of alternate sign, traveling from the proximal to the distal end of the flagellum.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 116,
+                    "text": "[25]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 835,
+                    "end": 839,
+                    "text": "[25]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 706,
+                    "end": 714,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Observations"
+        },
+        {
+            "text": "To further investigate Euglena's flagellar beat we observed stationary cells trapped at the tip of a capillary. In this setting the flagellum is not perturbed by the hydrodynamic forces associated with Euglena's rototranslating swimming motion. The beat can then manifest itself in its most \"pristine\" form. We recorded trapped Euglenas during periodic beating. Then, we rotated the capillary and recorded the same beating cell from different viewpoints. Videomicroscopy images from one specimen are shown in 4/24 . While with fixed specimens we cannot reconstruct reliably the 3d flagellar shapes, Figure 3 shows that there is a high stereographical consistency with the flagellar shapes obtained from swimming organisms. Flagellar non-planarity is thus not intrinsically associated with swimming, which reinforce the idea that the mechanism that generates non-planar flagellar shapes might be structural in origin. Moreover, these observations justify the choice we made in our study to focus on a model of flagellar mechanics for stationary organisms, allowing for substantial simplifications. As a final remark we observe how, from a simple geometric construction, we can show that the torsional pattern in Figure 2 is consistent with Euglena's flagellar shapes as seen from common 2d microscopy, for either swimming or trapped organisms. Typically, the 2d outline (i.e. the projection on the optic plane) of a beating euglenid flagellum is that of a looping curve, see e.g. [30] for independent observations. Consider now an idealized 3d model of the spinning lasso geometry: a curve with two singular points of concentrated torsion with opposite sign, such as the one shown in Figure 3 . If we move along the curve, from proximal end to distal end, we first remain on a fixed plane (blue). Then the plane of the curve abruptly rotates by 90 degrees (red plane) first, and then back by 90 degrees in the opposite direction (yellow plane). These abrupt changes correspond to concentrated torsional peaks of opposite sign. When seen in a two dimensional projection, this torsion dipole generates a looping curve that closely matches euglenid flagella's outlines during a spinning lasso beat.",
+            "cite_spans": [
+                {
+                    "start": 1479,
+                    "end": 1483,
+                    "text": "[30]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 599,
+                    "end": 607,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1211,
+                    "end": 1219,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1683,
+                    "end": 1691,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Observations"
+        },
+        {
+            "text": "We model Ax and PFR as cylindrical structures with deformable centerlines, see Figure 4 . The euglenid flagellum is the composite structure consisting of Ax and PFR attached together. We suppose that the Ax is the only active component of the flagellum, whereas the PFR is purely passive. Our mechanical model builds on the definition of the total internal energy of the flagellum",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 79,
+                    "end": 87,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "which is given by the sum of three terms: the passive (elastic) internal energy W a pas of the Ax, the active internal energy W a act of the Ax (generated by dynein action), and the (passive, elastic) internal energy W p of the PFR. The passive internal energy of the Ax is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "which is formally identical to the classical expression for the energy of elastic (inextensible) rods. We denoted with U 1 and U 2 the bending strains, U 3 is the twist, while B a and C a are the bending and twist moduli, respectively. L is the total length of the Ax centerline r a . Bending strains and twist depend on the arc length s of the centerline, and they are defined as follows. We associate to the curve r a an orthonormal frame d i (s), with i = 1, 2, 3, which determines the orientation of the orthogonal sections of the Ax (enclosed by light blue circles in Figure 4 ). The unit vectors d 1 (s) and d 2 (s) define the plane of the orthogonal section at s. The unit vector d 3 (s) = \u2202 s r a (s) lies perpendicular to the section. Bending strains and twist are then given by",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 573,
+                    "end": 581,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "Thus, U 1 and U 2 measure the bending of the Ax on the local planes d 1 -d 3 and d 2 -d 3 , respectively, while the twist U 3 is given by the rotation rate of the orthonormal frame around the centerline's tangent d 3 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "We remark here that we do not consider the Ax as a \"filled\" beam but as a hollow tubular structure; its elasticity comes from the individual MTs lying on its outer surface. The derivation of (2) from a detailed model of the Ax is given in Appendix A.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "The active internal energy of the Ax is defined as minus the total mechanical work of the dyneins",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "where \u03b3 1 and \u03b3 2 are the two variables that quantifies the shear (i.e. collective sliding) of MTs, while H 1 and H 2 are the corresponding shear forces exerted by molecular motors. Following [28] we also allow for singular shear forces, H 1 and H 2 , concentrated at the distal end of the Ax. This forces arise naturally, as we remark after (22) in the Results Section. The shear variables are related to the MTs' kinematics by the following formulas. The MTs' centerlines r j , for j = 1, 2 . . . 9 , are given by r j (s) = C(s, \u03c6 j ), where \u03c6 j = 2\u03c0(j \u2212 1)/9, and",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 196,
+                    "text": "[28]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "is the parametrization of the cylindrical surface of the Ax (\u03c1 a is the Ax radius) in terms of the centerline arc length s and the angle \u03c6. In Appendix A we show how the shear variables are related to the individual sliding of MTs with respect to their neighbours 6/24 (35) , and we compute the relations between the dynein forces acting on each pair of adjacent MTs and the shear forces H 1 and H 2 (36) . A special axonemal deformation with \u03b3 2 = 0 is shown in Figure 4 . The Ax is in this case bent into a circular arc, and the centerline r a lies on the plane generated by the unit vectors d 1 and d 3 . The shear variable \u03b3 1 (s) = 0 has here a simple geometrical interpretation. For each fixed s the curve \u03c6 \u2192 C(s, \u03c6) describes what we call the \"material\" section of the Ax at s (red curves in Figure 4 ). The material section is a planar ellipse centered in r a (s) which connects points of neighbouring MTs' corresponding to the same arc length. Formula (5) says that \u03b3 1 (s) is the tangent of the angle at which the material sections at s intersect the orthogonal sections at s. Shear variables and bending strains are coupled",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 273,
+                    "text": "(35)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 400,
+                    "end": 404,
+                    "text": "(36)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 463,
+                    "end": 471,
+                    "text": "Figure 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 800,
+                    "end": 808,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "The above formulas, which result from the constrained kinematics of the axonemal structure (as explained further in Appendix A), underlie the essential mechanism of axonemal motility: collective sliding of MTs generates bending of the whole Ax. We point out here that there is no coupling between the shear variables \u03b3 1 , \u03b3 2 and the twist U 3 , a fact that will have consequences in the remainder. The special axonemal deformation in Figure 4 shows the case in which U 1 (s) = 0 and U 2 (s) = K, so the Ax is bent into a circular arc of radius 1/K. While \u03b3 2 (s) = 0, the shear variable \u03b3 1 (s) = Ks increases linearly with s. Material and orthogonal sections coincide at the base (the basal body impose no shear at s = 0) and the angle between them grows as we move along the centerline towards the distal end of the Ax. In order for the Ax to bend, MTs from one side of the Ax must be driven driven towards the distal end while the others must be driven toward the proximal end.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 436,
+                    "end": 444,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "We remark here that (4) defines the most general active internal energy generated by molecular motors, and we do not assume at this stage any specific (spatial) organization of dynein forces. We will introduce specific shear forces later in the Results Section.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "The PFR is modeled as an elastic cylinder with circular cross sections of radius \u03c1 p and rest length L. We assume that the PFR can stretch and shear. The total internal energy of the PFR is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "where V 1 and V 2 are the shear strains, V 3 is the stretch, D p and E p are the shear and stretching moduli, respectively. We are neglecting here the PFR's bending and twisting resistance. Classical estimations on homogeneous elastic rods, see e.g. [13] , show that bending and twist moduli scale with the forth power of the cross section radius, whereas shear and stretching moduli scale with the second power and hence they are dominant for small radii. We assume that dynein forces are strong enough to induce shear in the PFR, thus PFR's bending and twist contributions to the energy of the flagellum become negligible. We are also neglecting Poisson effects by treating the PFR cross sections as rigid.",
+            "cite_spans": [
+                {
+                    "start": 250,
+                    "end": 254,
+                    "text": "[13]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "The PFR shear strains and stretch are defined as follows. The cross sections centers of the PFR lie on the curve r d , and their orientations are given by the orthonormal frame g i (s), with i = 1, 2, 3. The unit vectors g 1 (s) and g 2 (s) determine the cross section plane centered at r p (s), while the unit vector g 3 (s) is orthogonal to it. The curve r p is not parametrized by arc length and g 3 is not in general aligned with the tangent to r p . Shear strains and stretch are given by the formulas Figure 4 . a) Geometry of the Ax. MTs lie on a tubular surface C(s, \u03c6) parametrized by generalized polar coordinates s and \u03c6, where s is the arc length of the axonemal centerline r a . The unit vectors d 1 (s) and d 2 (s) lie on the orthogonal cross sections of the Ax (light blue circles). The material sections of the Ax are given by the curves \u03c6 \u2192 C(s, \u03c6) (red), which connect points of neighbouring axonemal MTs corresponding to the same arc length s. Bend deformations of the axoneme are generated by the shear (collective sliding) of MTs. The shear is quantified by the angle between the orthogonal sections and the material sections of the Ax. b) Geometry of the euglenid flagellum, detail of the Ax-PFR attachment. The unit vectors g 1 (s) and g 2 (s) generate the plane of the PFR's cross sections. The vector g 1 (s) is parallel to the outer unit normal to the axonemal surface N(s, \u03c6 p ), while g 2 (s) is parallel to the tangent vector to the material section \u2202 \u03c6 C(s, \u03c6 p ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 507,
+                    "end": 515,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "The shear strains thus depend on the orientation of the cross sections with respect to the centerline (tangent), while the stretch measures the elongation of the centerline.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "The PFR-Ax attachment couples the kinematics of the two substructures, see Figure 4 . In the remainder we formalize the attachment constraint and we show how the PFR's shear strains and stretch (8) , and thus the flagellar energy (1), are completely determined by the Ax kinematic variables.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 197,
+                    "text": "(8)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 75,
+                    "end": 83,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "For each s, the PFR cross section centered at r p (s) is in contact with the Ax surface at the point C(s, \u03c6 p ) for for a fixed angle coordinate \u03c6 p , see Figure 1 . The PFR centerline is given by",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 155,
+                    "end": 163,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "where N(s, \u03c6 p ) \u2248 d 1 (s) cos \u03c6 p + d 2 (s) sin \u03c6 p is the outer unit normal to the axonemal surface at C(s, \u03c6 p ). The normal vector N(s, \u03c6 p ) lies on the plane of the PFR cross section centered at r p (s). Indeed, we have g 1 (s) = N(s, \u03c6 p ) for the first unit vector of the PFR orthonormal frame. Only one more degree of freedom remains, namely g 2 (s), which must be orthogonal to N(s, \u03c6 p ), to fully characterize the orientations of the PFR cross sections. Here is where the bonding links attachments are introduced in the model. The bonding links of the PFR cross section centered at r p (s) are attached to three adjacent MTs at the same MTs' arc length s. The individual attachments are therefore located on the material section of the Ax at s. Given this, g 2 (s) is imposed to be parallel to \u2202 \u03c6 C(s, \u03c6 p ), the tangent vector to the material section of the Ax at the point of contact C(s, \u03c6 p ), see Figure 4 . This condition critically couples MTs' shear to the orientations of the PFR cross sections, as further demonstrated below.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 915,
+                    "end": 923,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "To summarize, we have the following formulas for the PFR orthonormal frame vectors",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "By replacing the expression (9)- (10) in (8), we obtain formulas for the shear strains and 8/24",
+            "cite_spans": [
+                {
+                    "start": 33,
+                    "end": 37,
+                    "text": "(10)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . stretch of the PFR in terms of the Ax kinematic parameters. We have that the shear strain V 1 and the stretch V 3 are of order \u03c1 p \u223c \u03c1 a (see Appendix A for detailed calculations). Since \u03c1 p is small compared to the length scale L of both PFR and Ax we can neglect these quantities. The only non-negligible contribution to the PFR energy is thus given by the shear strain V 2 . After linearization, we have V 2 \u2248 \u2212 sin \u03c6 p \u03b3 1 + cos \u03c6 p \u03b3 2 . The PFR energy in terms of Ax kinematic parameters is then given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "The shear of axonemal MTs determines the orientation of the PFR cross sections. In Figure 5 (middle pictures) we show an example of this kinematic interplay. The Ax is again bent in an arc of a circle on the plane d 1 \u2212 d 3 , with U 1 (s) = 0, U 2 (s) = K, \u03b3 1 (s) = Ks, and \u03b3 2 (s) = 0. PFR and Ax centerlines run parallel to each other, indeed from (9) we have that \u2202 s r a \u2248 \u2202 s r p for every deformation. The linking bonds impose a rotation of the cross sections of the PFR as we progress from the proximal to the distal end of the flagellum, generating shear strain V 2 (s) = \u2212 sin \u03c6 p \u03b3 1 (s) = \u2212 sin \u03c6 p Ks on the PFR. This mechanical interplay leads to non-planarity of the euglenid flagellar beat. This mechanism is controlled by the offset between the PFR-Ax joining line and the local spontaneous bending plane of the Ax, as further discussed in the Results Section.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 83,
+                    "end": 91,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mechanical model"
+        },
+        {
+            "text": "Under generic (steady) dynein actuation, i.e. given H 1 and H 2 (not time-dependent), and in the absence of external forces, the flagellum deforms to its equilibrium configuration \u03b4W = 0. Bending strains and twist at equilibrium solve the equations",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Equilibria"
+        },
+        {
+            "text": "where U = (U 1 , U 2 ) is the bending vector, e p = (cos \u03c6 p , sin \u03c6 p ), and H \u22a5 = (\u2212H 2 , H 1 ). We use the symbol a \u2297 b to denote the matrix with components (a \u2297 b) ij = a i b j . The field equations (12) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Equilibria"
+        },
+        {
+            "text": "where H \u22a5 = (\u2212 H 2 , H 1 ). Equations (12)-(13) can be interpreted as the torque balance equations of the Ax. The derivative of the (elastic) bending moment and the internal shear stresses balance the torque per unit length exerted by the PFR on the Ax, which is given by the D p -dependent term appearing in the first equation. The torque depends on the integral of the bending vector, making the balance equations non-standard (integrodifferental instead of differential). This dependency is due to the fact that the torque arises from the shear deformations of the PFR, which are induced by the shear of axonemal MTs, which is, in turn, related to axonemal bending strains via the integral relations (6) . The torque exerted by the PFR on the Ax is sensitive to the direction given by the unit vector e p , hence it depends on the angle \u03c6 p between the Ax-PFR joining line and the unit vector d 1 .",
+            "cite_spans": [
+                {
+                    "start": 703,
+                    "end": 706,
+                    "text": "(6)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Equilibria"
+        },
+        {
+            "text": "We derive here the dynamic equations for a flagellum beating in a viscous fluid. We consider the extended functional where \u039b is the Lagrange multiplier vector enforcing the constraint \u2202 s r a = d 3 . We treat the fluid-flagellum interaction in the local drag approximation of Resistive Force Theory, see e.g. [35] . In this approximation, viscous forces and torques depend locally on the translational and rotational velocity of the flagellum, represented here for simplicity by the translational and rotational velocity of the Ax. The external viscous forces F and torques G (per unit length) acting on the flagellum are given by",
+            "cite_spans": [
+                {
+                    "start": 309,
+                    "end": 313,
+                    "text": "[35]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hydrodynamics"
+        },
+        {
+            "text": "where \u00b5 \u22a5 , \u00b5 || , and \u00b5 r are the normal, parallel, and rotational drag coefficient (respectively), and Id is the identity tensor. The principle of virtual work imposes",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hydrodynamics"
+        },
+        {
+            "text": "for every variation \u03b4r a and \u03b4\u03b8 = \u03b4\u03b8",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hydrodynamics"
+        },
+        {
+            "text": ", \u03b4\u03b8 2 = (\u03b4d 3 \u00b7 d 1 ), and \u03b4\u03b8 3 = (\u03b4d 1 \u00b7 d 2 ). Linearizing the force balance equations derived from (16) we obtain the following equations for bending strains and twist",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hydrodynamics"
+        },
+        {
+            "text": "and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hydrodynamics"
+        },
+        {
+            "text": "which are decoupled from the extra unknown \u039b. Equations (17) and (18) are complemented by the boundary conditions",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hydrodynamics"
+        },
+        {
+            "text": "The details of the derivation of (17)- (19) are provided in Appendix B. Once we solve for U 1 , U 2 , and U 3 either the equilibrium equations (12)- (13) or the dynamic equations (17)- (19) , the shape of the flagellum can be recovered. In particular, we obtain the orthonormal frame d i with i = 1, 2, 3 by solving while the centerline of the Ax is recovered by integrating \u2202 s r a = d 3 .",
+            "cite_spans": [
+                {
+                    "start": 39,
+                    "end": 43,
+                    "text": "(19)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 149,
+                    "end": 153,
+                    "text": "(13)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 185,
+                    "end": 189,
+                    "text": "(19)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hydrodynamics"
+        },
+        {
+            "text": "We analyze the geometry of the centerline r a which, due to the slenderness of the flagellar structure, is a close proxy for the shape of the flagellum.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In general, the shape of a curve is determined by its curvature \u03ba and torsion \u03c4 . Since r a is parametrized by arc length, the two quantities are given by the formulas \u2202 s t = \u03ban and \u2202 s b = \u2212\u03c4 n, where t = \u2202 s r a , n = \u2202 s t/|\u2202 s t|, and b = t \u00d7 n are the tangent, normal, and binormal vector to the curve r a , respectively. Given \u03ba and \u03c4 , r a is uniquely determined up to rigid motions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "From the previous definitions and from (3) we obtain the relations between curvature, torsion, bending, and twist. In compact form these relations are given by",
+            "cite_spans": [
+                {
+                    "start": 39,
+                    "end": 42,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "which hold for U = 0. In (20) we introduced the angle \u03c8 that the bending vector U = (U 1 , U 2 ) forms with the line U 2 = 0, see Figure 6 . Now, at equilibrium (12) we have",
+            "cite_spans": [
+                {
+                    "start": 25,
+                    "end": 29,
+                    "text": "(20)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 130,
+                    "end": 138,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "under any dynein actuation. In other words, axonemal deformations are twistless. This is, fundamentally, a consequence of the fact that shear of axonemal MTs and twist are uncoupled (6) . The torsion of the centerline r a is our main focus, since we are interested in emergent non-planarity. Combining (20) and (21) we have that torsion can arise only from the rotation rate \u2202 s \u03c8 of the bending vector U along the length of the flagellum. This last observation will be important in the following.",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 185,
+                    "text": "(6)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 302,
+                    "end": 306,
+                    "text": "(20)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Under the assumptions (21) and (23), the flagellar energy (1) can be rewritten as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dynein actuation induced by sliding inhibition"
+        },
+        {
+            "text": "are the target bending strains generated by the dynein forces. The use of this terminology is clear from (22). The effect of dynein actuation at equilibrium (when the energy is minimized) is to bring the bending strains U 1 and U 2 as close as possible to U * 1 and U * 2 , respectively. The emerging bending strains and the target bending strains might not match due to the interference by the PFR component of the energy (D p = 0). From the formulas for the target bending strains in (22) we can infer the importance of the concentrated shear forces H 1 and H 2 . Without these forces, admissible spontaneous configurations of the Ax would be ruled out. If the concentrated shear forces are null, for example, the Ax cannot spontaneously bend into a circular arc. Indeed, for a circular arc of radius 1/K on the plane d 1 -d 3 we must have U * 2 = 0 and U * 2 = K. In this case, from (22) we have that \u2212H 1 /B a = \u2202 s U * 2 = 0, which implies H 1 = 0 and H 1 = \u2212B a K, so the concentrated forces must be non zero.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dynein actuation induced by sliding inhibition"
+        },
+        {
+            "text": "As per our main hypothesis, we suppose that the sliding inhibition exerted by the bonding links let dyneins organize so that the Ax locally bends spontaneously on the plane d 1 (s)-d 3 (s), as shown in Figure 1 . This is equivalent to require that U * 1 = 0, which leads to the following condition on the shear forces",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 202,
+                    "end": 210,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Dynein actuation induced by sliding inhibition"
+        },
+        {
+            "text": "We consider here the equilibrium equations (12) under the hypothesis (23) . We look at the equilibrium configurations for every possible value of the angle \u03c6 p between the Ax-PFR joining line and the spontaneous bending plane of the Ax, even though the value of actual interest for Euglena is \u03c6 p \u2248 \u22122\u03c0/9. We can prove analytically the following statement: if the Ax-PFR joining line is neither parallel nor orthogonal to the spontaneous bending plane of the Ax, then the emergent flagellar shapes are non-planar. Indeed, suppose H 1 = 0. From (20) and (21) it follows that the shape of the flagellum is planar \u03c4 = 0 if (and only if) the angle \u03c8 of the bending vector U(s) = (U 1 (s), U 2 (s)) is constant. The bending vector must therefore be confined on a line for every s. In this case there must be two constants c 1 and c 2 such that U 1 (s) = c 1 U (s) and U 2 (s) = c 2 U (s) for some scalar function U . Now, if a planar U is a 11/24 Figure 5 . Flagellar non-planarity arising from structural incompatibility. The Ax-PFR mechanical interplay is explained in a three-steps argument (left to right). Consider first the two separated structures in their spontaneous configurations (left). The Ax is bent into a planar arc while the PFR is straight. Then, the PFR is forced to match to the Ax, while the latter is kept in its spontaneous configuration (middle). The attachment constraint induces shear strains in the PFR. The composite system cannot then be in mechanical equilibrium without external forcing. When the composite system is released (right), it reaches equilibrium by the relaxation of the PFR shear, which induce additional distortion of the Ax. At equilibrium, an optimal energy compromise is reached, which is characterized by an emergent non-planarity.",
+            "cite_spans": [
+                {
+                    "start": 69,
+                    "end": 73,
+                    "text": "(23)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 544,
+                    "end": 548,
+                    "text": "(20)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 942,
+                    "end": 950,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Emergence of non-planarity"
+        },
+        {
+            "text": "solution of (12) then we must have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Emergence of non-planarity"
+        },
+        {
+            "text": "with c 1 U (L) = 0 and c 2 U (L) = \u2212 H 1 /B a . If \u03c6 p = 0, \u03c0/2, \u03c0, 3\u03c0/2 the system of equations (24)-(25) admits no solution. Indeed, suppose first that H 1 = 0. Since H 1 = 0 we must have (c 1 , c 2 ) = (0, 0). However, in this case, (24) admits the unique solution U = 0, which is incompatible with (25) . If H 1 = 0 then the boundary conditions impose c 1 = 0, but in this case (24) has again U = 0 as a unique solution, which is incompatible with both the boundary conditions and with (25) . Our statement is thus proved. For \u03c6 p \u2248 \u22122\u03c0/9, the characteristic value for Euglena, the non-planarity of flagellar shapes is not just possible. It is the only possible outcome under any non-trivial dynein actuation.",
+            "cite_spans": [
+                {
+                    "start": 302,
+                    "end": 306,
+                    "text": "(25)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 382,
+                    "end": 386,
+                    "text": "(24)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 490,
+                    "end": 494,
+                    "text": "(25)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Emergence of non-planarity"
+        },
+        {
+            "text": "Alongside the previous analysis there is a less technical way to infer the emergence of non-planarity from our model. We look here more closely to the flagellum energy, and we think in terms of structural incompatibility between Ax and PFR, seen as antagonistic elements of the flagellum assembly, see Figure 5 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 302,
+                    "end": 310,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Structural incompatibility and torsion with alternating sign"
+        },
+        {
+            "text": "Under the assumptions (21) and (23), the flagellar energy is given by with U * 2 as in (22). The energy has two components, W a that depends on the Ax bending modulus B a , and W p that depends on the PFR shear modulus D p . We can vary these material parameters and explore what the resulting minima of W, i.e. the equilibrium configurations (12)-(13), must look like. We consider the nondimensional parameter \u03bd = D p /(B a L \u22122 ). When \u03bd 1 the Ax component W a of the energy dominates. In this case, at equilibrium, the bending vector has to be close to the target bending vector U \u2248 (0, U * 2 ). In particular, then, U(s) will be confined near the line U 1 = 0 for every s. In the case \u03bd 1 the PFR component W p dominates, and the energy is minimized when U(s) lies close to the line generated by the vector e \u22a5 p = (\u2212 sin \u03c6 p , cos \u03c6 p ). Clearly, if the latter line is different from U 1 = 0, the two extreme regimes \u03bd 1 and \u03bd 1, each of which favours one of the two individual components, aim at two different equilibrium configurations. In other words, Ax and PFR are structurally incompatible.",
+            "cite_spans": [
+                {
+                    "start": 22,
+                    "end": 26,
+                    "text": "(21)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Structural incompatibility and torsion with alternating sign"
+        },
+        {
+            "text": "When neither of the two energy components dominates, the emergence of non-planarity can be intuitively predicted with the following reasoning. In the intermediate case \u03bd \u223c 1 we expect the equilibrium configurations to be a compromise among the two extreme cases, with the bending vector U(s) being \"spread out\" in the region between the two extreme equilibrium lines. The spreading of the bending vector is aided by the concentrated shear force at the tip, which imposes U(L) = (0, U * 2 (L)) irrespectively of the PFR stiffness. The bending vector is then \"pinned\" at s = L on the U 1 = 0 line while it gets dragged toward the line generated by e \u22a5 p for large values of \u03bd. Hence the spreading. The bending vector will then span an area and, consequently, undergo rotations. Since torsion is determined by the rotation rate of the bending vector \u03c4 = \u2202 s \u03c8, the resulting flagellar shapes will be non-planar. Figure 6 illustrates a critical example in which the previous intuitive reasoning effectively plays out. We consider a target bending of the kind U * 2 (s) = A 0 + A 1 sin(2\u03c0s/L)), a fair idealization of the asymmetric shapes of a Chlamydomonas-like flagellar beat [10] . We take \u03c6 p = \u2212\u03c0/4 (larger than the Euglena value, to obtain clearer graphs). For \u03bd = 0 the bending vector lies inside the U 1 = 0 line, and its amplitude oscillates. For positive values of \u03bd, when the PFR stiffness is \"turned on\", the oscillating bending vector is extruded from the U 1 = 0 line. For large values of \u03bd it gets closer and closer to the line generated by e \u22a5 p . The bending vector spans an area and, following the oscillations, it rotates clock-wise and anti-clock-wise generating an alternation in the torsion sign. This is the geometric signature of the spinning lasso.",
+            "cite_spans": [
+                {
+                    "start": 1174,
+                    "end": 1178,
+                    "text": "[10]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 909,
+                    "end": 917,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Structural incompatibility and torsion with alternating sign"
+        },
+        {
+            "text": "Our model is able to predict the torsional characteristic of the euglenid flagellum in the static case, and in absence of external forces. We test here the model in the more realistic setting of time-dependent dynein actuation in the presence of hydrodynamic interactions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hydrodynamic simulations and comparison with observations"
+        },
+        {
+            "text": "We first observe that, as in the static case, the dynamic equations for U and U 3 are decoupled (17)- (18) , and that dynein forces do not affect twist. We have then twistless kinematics under any actuation also in the dynamic case, at least after a time transient. We can simply assume (21) for all times, so the torsion of r a is still completely determined by the bending vector.",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 106,
+                    "text": "(18)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 287,
+                    "end": 291,
+                    "text": "(21)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hydrodynamic simulations and comparison with observations"
+        },
+        {
+            "text": "We consider a dynein actuation that generates Chlamydomonas-like shapes in a flagellum with no extra-axonemal structures. The shear forces H 1 and H 1 employed in our simulation are shown in Figure 7 . The same figure also shows the emergent bending strains of a PFR-free flagellum actuated by said forces, beating in a viscous fluid. The dynamic equations for this system are simply (17)-(18) with D p = 0. The resulting bending strains, which generate a planar beat, resembles the experimentally observed Chlamydomonas flagellar curvatures reported in [23] .",
+            "cite_spans": [
+                {
+                    "start": 554,
+                    "end": 558,
+                    "text": "[23]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 191,
+                    "end": 199,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Hydrodynamic simulations and comparison with observations"
+        },
+        {
+            "text": "Finally, Figure 7 presents the emergent bending strains of the beating euglenid (PFR-bearing) flagellum, together with the corresponding flagellar torsion. The spinning lasso torsional signature is clearly present. Indeed, the fluid-structure interaction does not disrupt the Ax-PFR structural incompatibility, which still generates non-planar shapes with travelling waves of torsional peaks with alternating sign and the typical looping-curve outlines, cfr. Figure 2 . All the details on the methods and parameters employed in the simulations are given in Appendix C and Appendix D.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 9,
+                    "end": 17,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 459,
+                    "end": 467,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Hydrodynamic simulations and comparison with observations"
+        },
+        {
+            "text": "We have shown how the origin of the peculiar shapes of the euglenid flagellum can be explained by the mechanical interplay of two antagonistic flagellar components, the Ax and the PFR. Our conclusions are based mainly on the hypothesis that sliding inhibition by the PFR organizes dynein activity, and localizes the spontaneous bending plane of the Ax as the one that passes from the Ax center through the MTs bonded to the PFR. This is in agreement with the current understanding of the mechanism that generates beat planarity in other PFR-bearing flagellar systems. Non-planarity in Euglena can arise because of a marked asymmetry in the Ax-bonding links-PFR",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and Outlook"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991331 doi: bioRxiv preprint complex in the Euglenid flagellum, which is not found in kinetoplastic organisms such as Leishmania [11] or Trypanosoma [22] . In the absence of a precise knowledge of the dynein actuation pattern we tested our mechanical model under shear forces that would, in the absence of extra-axonemal structures, realize a beat similar to those found in model systems like Chlamydomonas. We appreciate that the emergent distortion of the Ax, generated by the Ax-PFR interplay, could in principle lead to different actuation patterns, consistently with the hypothesis of dynein actuation via mechanical feedback. This question will require further studies.",
+            "cite_spans": [
+                {
+                    "start": 323,
+                    "end": 327,
+                    "text": "[11]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 343,
+                    "end": 347,
+                    "text": "[22]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "14/24"
+        },
+        {
+            "text": "Along with the mechanism that let the euglenid flagellar shapes emerge, it is worth considering how this characteristic flagellar beat is integrated in the overall behaviour of the organism. As shown in [25] , the spinning lasso beat produces the typical roto-translational trajectories of swimming euglenas. Cell body rotation is in turn associated with phototaxis. Indeed, rotation allows cells to \"scan\" the environment, and veer to the light source direction when stimulated (or escape in the opposite direction, when the signal is too strong). Here, the key biochemical mechanism could be the one often found in nature, by which periodic signals generated by lighting and shading associated with body rotations are used for navigation, in the sense that the existence of periodicity implies a lack of proper alignment [12] . It is known that the PFR is directly connected with the light-sensing apparatus [24] , and might even be active [21] . Further study on euglenid flagellar motility and phototaxis could lead to a more comprehensive understanding on the role of the PFR.",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 207,
+                    "text": "[25]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 823,
+                    "end": 827,
+                    "text": "[12]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 910,
+                    "end": 914,
+                    "text": "[24]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 942,
+                    "end": 946,
+                    "text": "[21]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "14/24"
+        },
+        {
+            "text": "Strain SAG 1224-5/27 of Euglena gracilis obtained from the SAG Culture Collection of Algae at the University of G\u00f6ttingen was maintained axenic in liquid culture medium Eg. Cultures were transferred weekly. Cells were kept in incubator at 15 \u2022 C at a light:dark cycle of 12:12 h under a cold white LED illumination with an irradiance of about 50 \u00b5mol \u00b7 m \u22122 \u00b7 s \u22121 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "An Olympus IX 81 inverted microscope with motorized stage was employed in all the experiments. Experiments were performed at the Sensing and Moving Bioinspired Artifacts Laboratory of SISSA. The microscope was equipped with a LCAch 20X Phc objective (NA 0.40) for the imaging of cells trapped at the tip of a glass capillary using transmitted brightfield illumination. The intermediate magnification changer (1.6 X) of the microscope was exploited to achieve higher magnification. Micrographs were recorded at a frame rate of 1, 000 fps with a Photron FASTCAM Mini UX100 high-speed digital camera.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Tapered capillaries of circular cross section were obtained from borosilicate glass tubes by employing a micropipette puller and subsequently fire polished. At each trial observation a glass capillary was filled with a diluted solution of cells and fixed to the microscope stage by means of a custom made, 3d-printed holder. The holder allowed for keeping the capillary in place and rotating it about its axis, so as to image a cell specimen from distinct viewpoints. Cells were immobilized at the tip of the capillary by applying a gentle suction pressure via a syringe connected to the capillary by plastic tubing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "The Ax consists of a bundle of inextensible filaments of length L (MTs) lying on a cylindrical surface of radius \u03c1 a . For simplicity, the model ignores the mechanical effects of radial spokes and the central pair. The axonemal surface is parametrized by the generalized cylindrical coordinates z and \u03c6 via the map",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model details"
+        },
+        {
+            "text": "with r a , d 1 , and d 2 defined as in the main text. Following [14] , we suppose that the axonemal constraints confine MTs on the Ax surface at a fixed angular distance \u2206\u03c6 = 2\u03c0/9 between each other. More formally, for j = 1, . . . , 9, we define the centerline r j of the j-th MT as r j (s) = C(s, \u03c6 j ), where",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 68,
+                    "text": "[14]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Model details"
+        },
+        {
+            "text": "The function Z(s, \u03c6) in (28) is defined (implicitly) via the equality",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model details"
+        },
+        {
+            "text": "From the definitions above follows \u2202 s r j = 1, so MTs are indeed inextensible and s is their arc length. Moreover, the Taylor expansion of C at the first order in \u03c1 a gives the approximated formula (5), with \u03b3 1 and \u03b3 2 given by (6) . We associate to the j-th MT an orthonormal frame along r j given by the unit vectors",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 233,
+                    "text": "(6)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Model details"
+        },
+        {
+            "text": "where N = cos \u03c6 d 1 (Z) + sin \u03c6 d 2 (Z) is the (outer) unit normal to the cylindrical surface. The unit vectors (30) determine MTs' cross section orientations. The unit vectors e j 1 (s) and e j 2 (s) lie on the cross-section centered at r j (s), while e j 3 (s) = \u2202 s r j (s) is orthogonal to it. The (passive) elastic energy of the Ax is given by the sum of the MTs' elastic energies",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model details"
+        },
+        {
+            "text": "are the strains associated to the j-th MT, while B m and C m are the MTs' bending and twisting moduli (respectively). At the leading order approximation in \u03c1 a we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model details"
+        },
+        {
+            "text": "From (32) and (3) follows that W a pas , as defined in (31), can indeed be approximated by the right hand side of (2), with B a = 9B m and C a = 9C m .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model details"
+        },
+        {
+            "text": "We consider now MT sliding. Fixed a point r j\u22121 (s) on the (j \u2212 1)-th MT's centerline we look for the nearest point to r j\u22121 (s) on the centerline r j of the j-th MT. Such a point r j (s * ) (we can think of it as a projection) lies at some arc length s * , which depends on s. We write s * = \u03a0 j (s). We then define the sliding \u03c3 j (s) as the difference of the two arc lengths s and \u03a0 j (s). More formally, Figure A1 illustrates the geometric idea of definition (33).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 408,
+                    "end": 417,
+                    "text": "Figure A1",
+                    "ref_id": null
+                }
+            ],
+            "section": "A Model details"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991331 doi: bioRxiv preprint Figure A1 . Sketch of two MTs' centerlines during deformation. The sliding \u03c3 j (s) is defined as the difference between the arc lengths s and \u03a0 j (s). The latter is the arc length corresponding to the projection of r j\u22121 (s) on the curve r j . We have positive sliding when dyneins push the j-th MT towards the distal end of the flagellum and the (j \u2212 1)-th MT toward the proximal end.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 223,
+                    "end": 232,
+                    "text": "Figure A1",
+                    "ref_id": null
+                }
+            ],
+            "section": "19/24"
+        },
+        {
+            "text": "The active internal energy of the Ax is defined as minus the total mechanical work of the dyneins",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "19/24"
+        },
+        {
+            "text": "where F j (s) are the sliding forces on the j-th MT exerted by the dyneins on the (j \u2212 1)-th MT, and F j are the singular sliding forces (on the j-th MT exerted by the dyneins on the (j \u2212 1)-th MT) concentrated at the distal end of the Ax. Taylor expanding (33) in \u03c1 a we have, at the leading order,",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 261,
+                    "text": "(33)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "19/24"
+        },
+        {
+            "text": "with \u03b3 1 and \u03b3 2 given by (6) . From (35) we have that W a act , as defined in (34), is approximated by the right hand side of (4), with",
+            "cite_spans": [
+                {
+                    "start": 26,
+                    "end": 29,
+                    "text": "(6)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 37,
+                    "end": 41,
+                    "text": "(35)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "19/24"
+        },
+        {
+            "text": "(cos \u03c6 j \u2212 cos \u03c6 j\u22121 )F j (s) , H 2 (s) = \u03c1 a 9 j=1 (sin \u03c6 j \u2212 sin \u03c6 j\u22121 )F j (s) ,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "19/24"
+        },
+        {
+            "text": "In the remainder we give some details of the derivation of (11) from (7). Expanding (10) at the leading order in \u03c1 p gives",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "19/24"
+        },
+        {
+            "text": "with \u03b3 p\u22a5 (s) = \u2212 sin \u03c6 p \u03b3 1 (s) + cos \u03c6 p \u03b3 2 (s). From (8) and (37), leading order calculations give V 1 , V 3 \u223c \u03c1 p , whereas V 2 \u2248 \u03b3 p\u22a5 / 1 + \u03b3 2 p\u22a5 . Linearizing in \u03b3 p\u22a5 we have V 2 \u2248 \u03b3 p , from which follows (11) .",
+            "cite_spans": [
+                {
+                    "start": 58,
+                    "end": 61,
+                    "text": "(8)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 215,
+                    "end": 219,
+                    "text": "(11)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "19/24"
+        },
+        {
+            "text": "To derive equations (17)- (19) it is convenient to introduce the quantities M 1 , M 2 , and M 3 defined via the following variational equality",
+            "cite_spans": [
+                {
+                    "start": 26,
+                    "end": 30,
+                    "text": "(19)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B Dynamical equations"
+        },
+        {
+            "text": "These quantities can be interpreted as the local components of the flagellar moment",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B Dynamical equations"
+        },
+        {
+            "text": "A direct calculation gives",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B Dynamical equations"
+        },
+        {
+            "text": "where \u03b3 p\u22a5 (s) = \u2212 sin \u03c6 p \u03b3 1 (s) + cos \u03c6 p \u03b3 2 (s), as in the previous section. We then write the variations \u03b4U i in terms of \u03b4\u03b8 i (defined in the main text) obtaining",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B Dynamical equations"
+        },
+        {
+            "text": "Combining (38) In the calculations above we took variations with \u03b4r a (0) = \u03b4\u03b8(0) = 0, since we consider a flagellum with a clamped end at s = 0. The principle of virtual work (16) gives us then the following force and torque balance equations ",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 180,
+                    "text": "(16)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B Dynamical equations"
+        },
+        {
+            "text": "Equations (17)- (19) are derived from (42) and (43), after some extra formal manipulations that we explain in the reminder. We first introduce the local angular velocities",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 20,
+                    "text": "(19)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B Dynamical equations"
+        },
+        {
+            "text": "which are related to the strains via the following compatibility equations \uf8f1 \uf8f2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B Dynamical equations"
+        },
+        {
+            "text": "Equations (45) follow from the identities \u2202 s \u2202 t d i = \u2202 t \u2202 s d i , with i = 1, 2, 3. We then rewrite the external forces and torques (15) in compact form as",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 140,
+                    "text": "(15)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B Dynamical equations"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991331 doi: bioRxiv preprint Scalar multiplying the torque balance equation by d 1 and d 2 we obtain the expressions for the first two local components \u039b 1 = \u2212\u2202 s M \u00b7 d 2 and \u039b 2 = \u2202 s M \u00b7 d 1 (47) of the Lagrange multiplier vector \u039b = \u039b 1 d 1 + \u039b 2 d 2 + \u039b 3 d 3 . Scalar multiplying the torque balance equation by d 3 gives",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "21/24"
+        },
+        {
+            "text": "We rewrite the force balance equation as \u2202 t r a = V [d 3 ] \u22121 \u2202 s \u039b and, after differentiating both sides with respect to s and then scalar multiplying by d 1 , d 2 , and d 3 , we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "21/24"
+        },
+        {
+            "text": "From (40), (45), and (48) we obtain (18) by first differentiating with respect to s both sides of (48), and then by linearizing the resulting equation. Similarly, exploiting also equations (47) this time, we differentiate with respect to s and then linearize (49) to obtain (17) . Boundary conditions (19) follow from (43) and",
+            "cite_spans": [
+                {
+                    "start": 274,
+                    "end": 278,
+                    "text": "(17)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "(19)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "21/24"
+        },
+        {
+            "text": "which follows from the fixed end condition r a (0, t) = 0. Given U 1 , U 2 , and U 3 the orthonormal frame d 1 , d 2 , and d 3 can be recovered by integrating the system of equations",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "21/24"
+        },
+        {
+            "text": "which is derived from (3). We can then recover the centerline r a by integrating \u2202 s r a = d 3 . The PFR centerline r p and the orthonormal frame g 1 , g 2 , and g 3 follow from (9) and (10).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "21/24"
+        },
+        {
+            "text": "We define the nondimensional variables for arc length x, time y, strains u i , shear forces h i , and concentrated shear forces\u0125 i as follows x = s/L , y = t/T , u i = U i /L \u22121 , h i = H i /B a L \u22122 , and\u0125 i = H i /B a L \u22121 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C Numerics"
+        },
+        {
+            "text": "The equilibrium equations (12) , with (21) and (23), are solved by seeking for a minimizer of the energy (26) in the adimensional form",
+            "cite_spans": [
+                {
+                    "start": 26,
+                    "end": 30,
+                    "text": "(12)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "(26)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "C Numerics"
+        },
+        {
+            "text": "In the formula above u = (u 1 , u 2 ) is the adimensional bending vector and u * 2 = U * 2 /L \u22121 is the adimensional target bending. We find the minimizer using the gradient descend method u n+1 = u n \u2212 \u03b1 \u03b4w \u03b4u ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C Numerics"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991331 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "22/24"
+        },
+        {
+            "text": "The previous formulas give us the expressions for the ghost points' values \u03b3 n+1 \u22121 , \u03b3 n+1 M +1 , and \u03b3 n+1 M +2 in terms of\u0125 n+1 , \u03b3 n+1 k , \u03b3 n k , and h n k with 0 \u2264 k \u2264 M . These expressions are then plugged in (61). In turn, the iterative scheme (58) allows to calculate \u03b3 n+1 k from \u03b3 n k with 0 \u2264 k \u2264 M , while incorporating the boundary conditions (59) in the numerical solution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "22/24"
+        },
+        {
+            "text": "The scheme is iterated for several time periods until a periodic solution is reached.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "22/24"
+        },
+        {
+            "text": "We obtain the history of shear forces presented in Figure 7 by solving the following inverse dynamical problem. We assign first a history of normalized bending strains (0, u 2 (x, y)), periodic in time, that imitates the experimentally observed Chlamydomonas flagellar curvatures reported in [23] . We use the following model u 2 (x, y) = a 0 \u2212 a 1 cos(\u03bb(x) \u2212 \u03c9(y)) with \u03bb(x) = 2\u03c0\u03bb 0 (x + \u03bb 1 sin(\u03c0x)) and \u03c9(y) = 2\u03c0(y + \u03c9 1 sin(\u03c0y)) .",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "[23]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 51,
+                    "end": 59,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "D Estimation of dynein forces and mechanical parameters"
+        },
+        {
+            "text": "Then, we calculate the shear forces that generate said history of bending strains for an Ax beating in a viscous fluid (without extra-axonemal structures attached to it). Equation (56) with \u03bd = 0 and h 2 = h 2 = 0 defines exactly the dynamics of this system. We can solve for h 1 and h 1 explicitly, obtaining h 1 (y) = \u2212u 2 (1, y) and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "D Estimation of dynein forces and mechanical parameters"
+        },
+        {
+            "text": "In the dynamic simulation in Figure 7 we used the following numeric values for the physical parameters of the system. The bending modulus of the Ax is B a = 840 pN \u00b7 \u00b5m 2 , taken from [37] . We set L = 28 \u00b5m, T = 25 ms, and \u00b5 \u22a5 = 3.1 fN \u00b7 s \u00b7 \u00b5m \u22122 , which are all values estimated in [25] . The angle between spontaneous bending plane and the Ax-PFR joining line \u03c6 p = \u22122\u03c0/9 is estimated from micrographs in [20] and [4] . Without direct measurements for D p , we set \u03bd = 20 as the value giving the most balanced mechanical interplay between Ax and PFR (the value of \u03bd with the most evenly spread-out bending vector's solutions in Figure 6 ). For the bending strains parameters in (63) we took a 0 = 7.8, a 1 = 7.5, \u03bb 0 = 1.85, \u03bb 1 = 0.1, and \u03c9 1 = \u22120.1.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 188,
+                    "text": "[37]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 285,
+                    "end": 289,
+                    "text": "[25]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 409,
+                    "end": 413,
+                    "text": "[20]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 418,
+                    "end": 421,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 29,
+                    "end": 37,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 632,
+                    "end": 640,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "D Estimation of dynein forces and mechanical parameters"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991331 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "24/24"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Simulating the complex cell design of trypanosoma brucei and its motility",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Alizadehrad",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kr\u00fcger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Engstler",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Stark",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PLoS computational biology",
+            "volume": "11",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Geometry and mechanics in the opening of chiral seed pods",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Armon",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Efrati",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kupferman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sharon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Science",
+            "volume": "333",
+            "issn": "6050",
+            "pages": "1726--1730",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Euglena gracilis a model for flagellar surface assembly, with reference to other cells that bear flagellar mastigonemes and scales",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bouck",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rosiere",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Levasseur",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Ciliary and Flagellar Membranes",
+            "volume": "",
+            "issn": "",
+            "pages": "65--90",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Thinking about flagellar oscillation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brokaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Cell motility and the cytoskeleton",
+            "volume": "66",
+            "issn": "8",
+            "pages": "425--436",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The paraflagellar rod: a structure in search of a function",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cachon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cachon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-P",
+                    "middle": [],
+                    "last": "Cosson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cosson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Biology of the Cell",
+            "volume": "63",
+            "issn": "2",
+            "pages": "169--181",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Antagonistic behaviors of nmy-1 and nmy-2 maintain ring channels in the c. elegans gonad",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Coffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kachur",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Pilgrim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Dawes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Biophysical journal",
+            "volume": "111",
+            "issn": "10",
+            "pages": "2202--2213",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Flagellar and ciliary beating in trypanosome motility",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gadelha",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wickstead",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gull",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Cell motility and the cytoskeleton",
+            "volume": "64",
+            "issn": "8",
+            "pages": "629--643",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Independent control of the static and dynamic components of the chlamydomonas flagellar beat",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Geyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sartori",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Friedrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "J\u00fclicher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Howard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Current Biology",
+            "volume": "26",
+            "issn": "8",
+            "pages": "1098--1103",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Flagellum assembly and function during the leishmania life cycle",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gluenz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ginger",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mckean",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Current opinion in microbiology",
+            "volume": "13",
+            "issn": "4",
+            "pages": "473--479",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Green algae as model organisms for biological fluid dynamics",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Goldstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Annual review of fluid mechanics",
+            "volume": "47",
+            "issn": "",
+            "pages": "343--375",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The mathematics and mechanics of biological growth",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Goriely",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "45",
+            "issn": "",
+            "pages": "111--113",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The chirality of ciliary beats",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hilfinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "J\u00fclicher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Physical biology",
+            "volume": "5",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Morphomechanical innovation drives explosive seed dispersal",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hofhuis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lessinnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.-L",
+                    "middle": [],
+                    "last": "Routier-Kierzkowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bomphrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mosca",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Reinhardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sarchet",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tsiantis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Cell",
+            "volume": "166",
+            "issn": "1",
+            "pages": "222--233",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The diversity of hydrostatic skeletons",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Journal of Experimental Biology",
+            "volume": "215",
+            "issn": "8",
+            "pages": "1247--1257",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Motility and more: the flagellum of trypanosoma brucei",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Langousis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nature Reviews Microbiology",
+            "volume": "12",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "One of the nine doublet microtubules of eukaryotic flagella exhibits unique and partially conserved structures",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Heuser",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nicastro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Flagellar and ciliary beating: the proven and the possible",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Lindemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lesich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Journal of Cell Science",
+            "volume": "123",
+            "issn": "4",
+            "pages": "519--528",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Flagellar membrane specializations and their relationship to mastigonemes and microtubules in euglena gracilis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Melkonian",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Robenek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rassat",
+                    "suffix": ""
+                }
+            ],
+            "year": 1982,
+            "venue": "Journal of cell science",
+            "volume": "55",
+            "issn": "1",
+            "pages": "115--135",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Atpase activity in flagella from euglena gracilis. localization of the enzyme and effects of detergents",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Piccinni",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Albergoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Coppellotti",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "The Journal of protozoology",
+            "volume": "22",
+            "issn": "3",
+            "pages": "331--335",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Flagellar kinematics and swimming of algal cells in viscoelastic fluids",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gopinath",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gollub",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Arratia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Scientific reports",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Ultrastructure of the apical zone of euglena gracilis: photoreceptors and motor apparatus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rosati",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Verni",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Barsanti",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Passarelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gualtieri",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Electron microscopy reviews",
+            "volume": "4",
+            "issn": "2",
+            "pages": "319--342",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Kinematics of flagellar swimming in euglena gracilis: Helical trajectories and flagellar shapes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cicconofri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Beran",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Noselli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Desimone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "114",
+            "issn": "50",
+            "pages": "13085--13090",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Swimming like algae: biomimetic soft artificial cilia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sareh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rossiter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Conn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Drescher",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Goldstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of the Royal Society Interface",
+            "volume": "10",
+            "issn": "78",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Curvature regulation of the ciliary beat through axonemal twist",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sartori",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Geyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Howard",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "J\u00fclicher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Physical Review E",
+            "volume": "94",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Dynamic curvature regulation accounts for the symmetric and asymmetric beats of chlamydomonas flagella",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sartori",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Geyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Scholich",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "J\u00fclicher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Howard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Elife",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Coronavirus envelope protein: current knowledge",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schoeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fielding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Virology journal",
+            "volume": "16",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Polygonal motion and adaptable phototaxis via flagellar beat switching in the microswimmer euglena gracilis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Riedel-Kruse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature Physics",
+            "volume": "14",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Anisotropic escrt-iii architecture governs helical membrane tube formation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Von Filseck",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Barberi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Talledge",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Frost",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lenz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Roux",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "BioRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "A comparison of paraxial rods in the flagella of euglenoids and kinetoplastids",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Walne",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dawson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Archiv f\u00fcr Protistenkunde",
+            "volume": "143",
+            "issn": "1-3",
+            "pages": "177--194",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "On the unity and diversity of cilia",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "J\u00e9kely",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+            "volume": "375",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Use of chiral cell shape to ensure highly directional swimming in trypanosomes",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wheeler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS computational biology",
+            "volume": "13",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Twirling and whirling: Viscous dynamics of rotating elastic filaments",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wolgemuth",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Powers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Goldstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Physical Review Letters",
+            "volume": "84",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Evidence for a sliding-resistance at the tip of the trypanosome flagellum",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Woolley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gadelha",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gull",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Cell motility and the cytoskeleton",
+            "volume": "63",
+            "issn": "12",
+            "pages": "741--746",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Flexural rigidity and shear stiffness of flagella estimated from induced bends and counterbends",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Okamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-Y",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dutcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Bayly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Biophysical journal",
+            "volume": "110",
+            "issn": "12",
+            "pages": "2759--2768",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Flagellar beat kinematics of freely swimming Euglena gracilis. a) N = 10 flagellar configurations in evenly spaced instants (phases) within a periodic beat. b) The same configurations overlapped and color coded according to their phases. c) Calculated torsion \u03c4 = \u03c4 (s) as a function of the flagellar arc length s. The plot is presented in terms of the normalized quantities \u03c4 /L \u22121 and s/L, where L is the total length of the flagellum.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "a) A specimen of Euglena gracilis trapped at the tip of a capillary (bottom). The typical outline of its beating flagellum is that of a looping curve, which is consistent with the outline of a simple curve with two concentrated torsional peaks of alternate sign along the length of the curve, i.e. a torsional dipole (top). b) Close-up images of the same specimen of capillary-trapped (CT) Euglena seen from different viewpoints, upon successive turns of the capillary tube. The body orientation with respect to the objective is estimated from the anatomy of the cell, and in particular from the position of the eyespot (a visible light-sensing organelle present on the cell surface). Microscopy images are decorated with the tracked outlines of the flagellum in different phases (same color coding as inFigure 2). The outlines (2d projections) of the 3d reconstructed flagellar beat of freely swimming (FS) specimens are shown for comparison.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 3. While with fixed specimens we cannot reconstruct reliably the 3d flagellar shapes, Figure 3 shows that there is a high stereographical consistency with the flagellar shapes obtained from swimming organisms. Flagellar non-planarity is thus not intrinsically associated with swimming, which reinforce the idea that the mechanism that generates non-planar flagellar shapes might be structural in origin. Moreover, these observations justify the choice we made in our study to focus on a model of flagellar mechanics for stationary organisms, allowing for substantial simplifications. As a final remark we observe how, from a simple geometric construction, we can show that the torsional pattern in Figure 2 is consistent with Euglena's flagellar shapes as seen from common 2d microscopy, for either swimming or trapped organisms. Typically, the 2d outline (i.e. the projection on the optic plane) of a beating euglenid flagellum is that of a looping curve, see e.g. [30] for independent observations. Consider now an idealized 3d model of the spinning lasso geometry: a curve with two singular points of concentrated torsion with opposite sign, such as the one shown in Figure 3. If we move along the curve, from proximal end to distal end, we first remain on a fixed plane (blue). Then the plane of the curve abruptly rotates by 90 degrees (red plane) first, and then back by 90 degrees in the opposite direction (yellow plane). These abrupt changes correspond to concentrated torsional peaks of opposite sign. When seen in a two dimensional projection, this torsion dipole generates a looping curve that closely matches euglenid flagella's outlines during a spinning lasso beat.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "are complemented by the boundary conditions B a U(L) + H \u22a5 = 0 and U 3 (L) = 0 ,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "a) The bending vector U(s) = (U 1 (s), U 2 (s)) traces a curve on the plane of the bending parameters U 1 and U 2 . The norm of the bending vector determines the curvature \u03ba(s) = |U(s)| of the flagellum. The rate of change of the angle \u03c8(s) determines the torsion \u03c4 = \u2202 s \u03c8. b-f) Bending vectors of flagellar equilibrium configurations under the same (steady) dynein actuation, but different values of the material parameter \u03bd = D p /(B a L \u22122 ). Equilibria are minimizer of the energy W = W a + W p . For small values of \u03bd the Ax component of the energy W a dominates. In this case U is close to the target bending vector (0, U * 2 ) where U * 2 (s) = A 0 + A 1 sin(2\u03c0s/L)). For large values of \u03bd the PFR component of the energy W p dominates, and equilibria are dragged closer to the line orthogonal to the vector e p (dashed green). The bending vector undergoes rotations which result in torsional peaks of alternating sing.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "a-b) Dynein shear forces. c) Resulting bending strains and torsion for an Ax actuated by the force pattern (a-b), beating in a viscous fluid, and free of extra-axonemal structures. The beat is planar (Chlamydomonas-like). d) Resulting bending strains and torsion for an euglenid flagellum (composite structure Ax+PFR) actuated by (a-b) and beating in a viscous fluid. The Ax-PFR interaction generates torsional peaks with alternate sign travelling from the proximal to the distal end of the flagellum. e) Resulting shapes for the euglenid flagellum at different instants within a beat, and comparison with experimental observations.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": ", (39) and (41) we have\u03b4W = M(L) \u00b7 \u03b4\u03b8(L) \u00b7 (\u2202 s r a \u2212 d 3 ) = \u039b(L) \u00b7 \u03b4r a (L) \u2212 L 0 \u2202 s \u039b \u00b7 \u03b4r a \u2212 L 0 (d 3 \u00d7 \u039b) \u00b7 \u03b4\u03b8 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "with \u039b(L) = 0 , and M(L) = 0 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "[u n ] , where \u03b4w \u03b4u [u n ] = u n \u2212 0 u * 2 + \u03bde p \u2297 e p 1 x x 0 u n (x )dx dx ,",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". CC-BY-NC 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.15.991331 doi: bioRxiv preprint",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank A. Beran for his assistance with E. gracilis samples. This study was supported by the European Research Council through the ERC Advanced Grant 340685-MicroMotility.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "and \u03b1 is a conveniently chosen step size. We initiate the algorithm with u 0 = (0, u * 2 ), and then we iterate (54) until u n+1 \u2212 u n falls below a pre-set tolerance parameter.The dynamic equations (17) are recast, and then solved, in terms of the shear vector \u03b3 = (\u03b3 1 , \u03b3 2 ) whereAfter solving for \u03b3, we obtain the bending strains by differentiation. The equation for \u03b3 isand h = (h 1 , h 2 ). The corresponding boundary conditions are given bywhere\u0125 = (\u0125 1 ,\u0125 2 ). The above (57) are point-wise conditions, which do not involve integral terms as in (19) . Avoiding this non-locality allows for an easier numerical implementation. The finite difference scheme we employ to solve (56)-(57) is illustrated in the remainder. We consider the discrete time sequence y n = n\u2206y with n = 0, 1, 2, . . . and we defineand complemented by the boundary conditionsThe adimensional arc length interval [0, 1] is discretized uniformly in M + 1 points x k = k\u2206x , with k = 0, 1, . . . , M = 1/\u2206x. We also consider the extra \"ghost points\"x k = k\u2206x with k = \u22121, M + 1, M + 2. The discrete values \u2202 2 x \u03b3 n k = \u2202 2 x \u03b3 n (x k ) of the second derivative in (58) are approximated by the finite difference schemewhere \u03b3 n k = \u03b3 n (x k ). Analogous formulas are employed for the second derivative of h n . The discrete values \u2202 4x \u03b3 n+1 k = \u2202 4 x \u03b3 n+1 (x k ) of the forth derivative in (58) are given by the schemewhich involves the ghost points values \u03b3 \u22121 , \u03b3 M +1 , and \u03b3 M +2 . The discretized approximations of the boundary conditions (59) are given by.",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 203,
+                    "text": "(17)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 554,
+                    "end": 558,
+                    "text": "(19)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

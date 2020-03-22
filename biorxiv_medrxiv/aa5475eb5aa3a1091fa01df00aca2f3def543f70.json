@@ -1,0 +1,1318 @@
+{
+    "paper_id": "aa5475eb5aa3a1091fa01df00aca2f3def543f70",
+    "metadata": {
+        "title": "Health, distress and life satisfaction of people in China one month into the COVID-19 outbreak",
+        "authors": [
+            {
+                "first": "Stephen",
+                "middle": [
+                    "X"
+                ],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Adelaide",
+                    "location": {
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yifei",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tongji University",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andreas",
+                "middle": [],
+                "last": "Rauch",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Sydney",
+                    "location": {
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Feng",
+                "middle": [],
+                "last": "Wei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tongji University",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": "fwei@tongji.edu.cn"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Background What are the health and wellbeing of people in China during the COVID-19 outbreak? We aim to assess the health and wellbeing of normal adults living and working after one month of confinement to contain the COVID-19 outbreak in China. Interpretation Our findings support the need to pay attention to the health of people who were not affected by the virus epidemiologically. We especially need to support people who stopped working during the outbreak. Our results also highlight that physically active people, as indicated by more hours of exercise, might be more susceptible to wellbeing issues due to the lockdown. Policymakers who are considering introducing restrictive measures to contain COVID-19 may benefit from understanding such health and wellbeing implications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 outbreak Summary"
+        },
+        {
+            "text": "Since the escalation of COVID-19 to a public health emergency in China on Jan 21, 2020, over a billion people across China have faced restrictions due to varying degrees of confinement such as . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20034496 doi: medRxiv preprint banning public transport, restricting movement, and imposing a 14-day quarantine after travel. 1,2 One month into the outbreak, many people were still not working or exercising as usual, which may have associated implications on health and wellbeing. Yet, the implications of the unusually prolonged state of not working and exercising on individuals' health and wellbeing remain unknown. It is important to understand not only the implications of the restrictions on COVID-19 disease prevalence rates but also the implications of such unprecedented disruptions on the health and wellbeing of the community. 3 To control the COVID-19 outbreak, China has enacted restrictive measures \"unprecedented in public health history\" as stated by WHO. 5 On January 23, 2020, China locked down Wuhan, a metropolitan area of 12 million people. 6 The lockdown in Wuhan soon triggered similar measures in all 15 other cities in Hubei province with a total of 57 million people. Other prefectures (the administrative areas of a city) in China subsequently implemented varying levels of restrictive measures. For instance, the prefecture of Wenzhou in Zhejiang province restricted its citizens in such a way that only one person per household could leave home once every two days.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 115,
+                    "text": "13.20034496",
+                    "ref_id": null
+                },
+                {
+                    "start": 746,
+                    "end": 747,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 880,
+                    "end": 881,
+                    "text": "5",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 970,
+                    "end": 971,
+                    "text": "6",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Such restrictive measures in China seemed to be effective in containing the spread of COVID-19 by mid-February and were applauded by WHO. 7 However, those measures have disrupted people's jobs and lives immensely and hence may have important implications for their health and wellbeing. 8 For example, evidence from the SARS crisis indicated that reduced mobility affected the wellbeing of quarantined residents in a complex manner. An article in Lancet COVID-19 series specifically highlighted that people who had been in quarantine reported a high prevalence of symptoms of psychological distress and disorder and some of these symptoms seem to stay long after the quarantine. 2 Relatedly, another Lancet article argued we need to pay attention to the psychological issues of children who are not able to go to school. 9 This issue is important not only for children or suspected cases under quarantine but also for other people, as over one billion people in China who did not carry the virus epidemiologically but had their work and life disrupted to varying degrees.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 139,
+                    "text": "7",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 679,
+                    "end": 680,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 821,
+                    "end": 822,
+                    "text": "9",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20034496 doi: medRxiv preprint Therefore, we aim to provide the first analysis of the health and wellbeing of people one month into the COVID-19 outbreak.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 115,
+                    "text": "13.20034496",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Understanding the health and wellbeing implications of the measures introduced to reduce the COVID-19 infection allows better-informed decisions. As many parts of the world are starting to consider measures to contain COVID-19, with South Korea and Italy having introduced lockdowns in early March 2020, 10 we may benefit from understanding the health and wellbeing implications of the measures implemented early on in China.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We conducted a cross-sectional survey one month into the COVID-19 outbreak on February 20-21, 2020, about one month into the COVID-19 emergency in China. All the participants were adults not affected by the virus epidemiologically but they lived in locations that were affected by COVID-19 to varying degrees. To cover people in areas of varying severity of COVID-19, we surveyed adults from 64 prefectures across China. The 64 prefectures were chosen to cover a wide spectrum of regions based on the severity of COVID-19 and should not be taken as a representative national sample. All respondents agreed to participate in the study, which was approved by the ethics committee at Tongji University. We reached 529 adults, and 369 of them answered the survey, with a response rate of 69\u00b78%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "We assessed individual health by the Short Form-12 (SF12), a standard scale on mental and physical health function. 11 The scale had been translated into Chinese and validated in China. 12 SF12 contains 12 items and 8 dimensions: physical functioning (2 items), role physical (2 items), bodily pain (1 item), general health (1 item), vitality (1 item), social functioning (1 item), role emotional (2 items) and mental health (2 items). The eight dimensions form two composite scores of physical and mental composite scale (PCS and MCS), with a possible score ranging from 0 to 100. 13 As a formative score, a higher SF12 score indicates a better health condition.",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 118,
+                    "text": "11",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 582,
+                    "end": 584,
+                    "text": "13",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "We measured distress by the six-item Kessler psychological distress scale (K6) with a Cronbach's alpha of 0\u00b779. 14 We measured life satisfaction with the Satisfaction With Life Scale (SWLS), 15 which consists of five items with a Cronbach's alpha of 0\u00b772.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 114,
+                    "text": "14",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 191,
+                    "end": 193,
+                    "text": "15",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20034496 doi: medRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 85,
+                    "text": "13.20034496",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The adults also provided their socio-demographic characteristics, such as gender, age, education, and their location (prefecture). Using their locations, we searched for the number of confirmed COVID-19 cases in their prefectures on February 20 as well as the total population to calculate the number of confirmed cases per 10,000 people as an indicator of the severity of COVID-19 at their location. The number of cases per 10,000 people (i.e. infected rate) varied from 42\u00b745 (Wuhan) to 0\u00b701 on February 21. 16 Because COVID-19 is more dangerous for people with comorbidity, 17 it is likely that people who have ongoing medical issues would suffer more during the outbreak and therefore we asked whether the participants had any chronic disease. On the contrary, people who lead a healthy lifestyle and exercise often would be expected to fare better during the outbreak. Hence, we also asked the participants to indicate 'how many hours did you exercise per day during the past week'.",
+            "cite_spans": [
+                {
+                    "start": 510,
+                    "end": 512,
+                    "text": "16",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 577,
+                    "end": 579,
+                    "text": "17",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The restrictive measures of COVID-19 also caused major disruption to people's work. By the time of our survey on February 20, the growth rate of COVID-19 cases in China had fallen to single percentages per day. Some people still stopped work, while some had returned to work in offices, and others were working at home. All individuals reported their work status.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "We report the descriptive statistics of the study variables and the regression models to examine the relationships. All analyses were done on unweighted data with STATA 16\u00b70, and statistical significance was assessed by p < 0\u00b705. Table 1 and 139 (37\u00b77%) resorted to working from home; 32 (8\u00b77%) participants had not been working before the outbreak started; and 6 (1\u00b76%) reported losing their work during the COVID-19 outbreak.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 230,
+                    "end": 237,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20034496 doi: medRxiv preprint In terms of exercise, 51 (13\u00b78%) people had not exercised at all during the past week; 226 (61\u00b72%) exercised but for less than 1 hour per day; 63 (17\u00b71%) exercised 1 to 2\u00b75 hours per day; and 29 (7\u00b79%) exercised more than 2\u00b75 hours per day. Of the participants, 45 (12\u00b72%) had chronic diseases.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 107,
+                    "text": "13.20034496 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Based on the scoring algorithm of SF12, 7 the participants scored 48\u00b774 (SD 9\u00b730) in mental health (MCS) and 49\u00b755 (SD 7\u00b700) in physical health (PCS). The mean values of distress and life satisfaction of the participants were 1\u00b741 (SD 0\u00b746) and 3\u00b722 (SD 0\u00b764) respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "People who worked in the office, worked at home, or had stopped working differed in health (SF12) and distress (K6) Table 2 shows the results of regressing SF12 on the job status of the participants one month into the COVID-19 outbreak. Compared with people who stopped working during the outbreak, people who worked at their office had better mental health (\u03b2=3\u00b746, p=0\u00b701, 95% CI 0\u00b779-6\u00b714) and physical health (\u03b2=2\u00b719, p=0\u00b701, 95% CI 0\u00b720-4\u00b718). Moreover, people who worked at home also had better mental health than those who stopped working (\u03b2=2\u00b760, p=0\u00b703, 95% CI 0\u00b745-5\u00b716).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 116,
+                    "end": 123,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "We did further analysis on the eight specific dimensions of SF12. Compared with people who returned to work at their office, those who stopped working reported lower general health (\u03b2=-0\u00b728, p=0\u00b703, 95% CI -0\u00b755--0\u00b703), mental health (\u03b2=-0\u00b738, p=0\u00b7002, 95% CI -0\u00b763--0\u00b714), and increased limitations for physical issues (\u03b2=-0\u00b716, p=0\u00b7009, 95% CI -0\u00b728--0\u00b704) and emotional issues (\u03b2=-0\u00b713, p=0\u00b7035, 95% CI -0\u00b726--0\u00b701). There were fewer differences between people who worked at home and worked at offices, except those who worked at home reported more limitations for physical issues than those who worked at offices (\u03b2=-0\u00b713, p=0\u00b702, 95% CI -0\u00b724--0\u00b702).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "There were also certain dimensions of SF12 that did not vary much by job status. For instance, people who stopped working and those who worked at their offices did not differ in bodily pain (\u03b2=0\u00b716, p=0\u00b7160, 95% CI -0\u00b706-0\u00b739), physical function (\u03b2=0\u00b710, p=0\u00b7141, 95% CI -0\u00b703-0\u00b724), and social function (\u03b2=0\u00b722, p=0\u00b7260, 95% CI -0\u00b716-0\u00b759). Those who stopped working and those who worked at home respectively also did not differ in the same dimensions of bodily pain (\u03b2=0\u00b715, p=0\u00b7186, 95% CI -0\u00b707-0\u00b736), physical function (\u03b2=0\u00b700, p=0\u00b7961, 95% CI -0\u00b713-0\u00b713), and social function (\u03b2=0\u00b719, p=0\u00b7294, 95% CI -0\u00b717-0\u00b755).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20034496 doi: medRxiv preprint Similar findings emerged from the regression results on distress (K6) and life satisfaction (Table 3) .",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 85,
+                    "text": "13.20034496",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 200,
+                    "end": 209,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "People who worked at their office suffered less distress than people who stopped working (\u03b2=-0\u00b713, p=0\u00b7048, 95% CI -0\u00b725-0\u00b700). Also, people who worked at their office reported higher life satisfaction than those who stopped working (\u03b2=0\u00b723, p=0\u00b7024, 95% CI 0\u00b703-0\u00b743).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Are people in areas more affected by COVID-19 less satisfied with their life? It depends.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Next, we analyzed how the severity of COVID-19 in individual locations predicts individuals' life satisfaction. Table 4 shows that the relationship between the severity of COVID-19 and individual life satisfaction depends on individuals' existing health and exercise status. The severity of COVID-19 had a negative relationship with the life satisfaction only for people with chronic medical issues (\u03b2=-2\u00b711, p=0\u00b7036, 95% CI -4\u00b709 --0\u00b713) but not for people without chronic medical issues (\u03b2=-0\u00b701, p=0\u00b7510, 95% CI -0\u00b702 -0\u00b701). We plot the effect of the severity of COVID-19 on life satisfaction by whether the individuals had chronic medical issues in Figure 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 112,
+                    "end": 119,
+                    "text": "Table 4",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 654,
+                    "end": 662,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The results also indicate that the relationship between the severity of COVID-19 in a location and life satisfaction depends on individuals' level of exercise, but in a direction opposite to our expectation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "While we expected people who exercised more during the outbreak had a healthy lifestyle and would be less influenced, for people who exercised more than 2\u00b75 hours per day during the outbreak, the relationship between the severity of COVID-19 in their location and life satisfaction was significantly negative (e.g. for people who exercised 3 hours per day: \u03b2=-0\u00b702, p=0\u00b7043, 95% CI -0\u00b704 -0\u00b700).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The relationship is not significant for people who exercised between 1 and 2\u00b75 hours a day during the outbreak. Surprisingly, for people who exercised 0\u00b75 hours or less per day during the outbreak, their life satisfaction was significantly positively associated with more affected locations (e.g. for people who did not exercise: \u03b2=0\u00b704, p=0\u00b7023, 95% CI 0\u00b701-0\u00b708). We plot the effect of the severity of COVID-19 in the location on life satisfaction by the exercise hours of individuals in Figure 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 490,
+                    "end": 498,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20034496 doi: medRxiv preprint Although the hardline restrictive measures in China showed success in containing COVID-19 after a month, there is little research on the extent to which the disruptions affected people in the community.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 107,
+                    "text": "13.20034496 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Our findings show that adults who were not working reported worse health, as captured by SF12 in certain dimensions as well as distress (K6). The insignificant differences in the dimensions of SF12 in bodily pain, physical function and social function are expected, because people who were not affected by the virus directly would not differ much in those dimensions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The results on life satisfaction are more nuanced. Overall, the severity of COVID-19 in a prefecture did negatively predict people's life satisfaction in that prefecture, with this relationship depending on individuals' existing medical conditions and exercise levels. For individuals who exercised a lot during the outbreak (>2\u00b75 hours per day), life satisfaction was significantly negatively associated with more affected locations; on the contrary, for individuals who exercised half an hour a day or less, life satisfaction was significantly positively associated with more affected locations. Maybe these people could better justify or rationalize their inactive lifestyles in more severely affected cities. The finding that those who exercised a lot (>2\u00b75 hours per day) were less satisfied in more affected cities suggests we may need to pay attention to more physically active individuals, who might be more frustrated by the restrictions due to the outbreak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The study has certain limitations. First, this study relied on an observational survey. Because the measures of the dependent variables of SF12, distress and life satisfaction used Likert scales, we tried to use predictors that were non-Likert scales, such as job status and severity of COVID-19 calculated based on archival data using the reported locations. Second, our sample is not a national representative sample. Our focus was to examine the differential effects on adults depending on the level of disruption, as captured by their job status, existing chronic issues, and exercise levels to identify who in the community of non-COVID-19 cases might need the most help for policymakers and potential caregivers. Third, even though we had data from people who had not been working even before the outbreak started (8\u00b77%) and people who went out of work during the outbreak (1\u00b76%), the sample size of those two groups was small and we are cautious not to report them in the findings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Nevertheless, people with these two job statuses could be important targets for future studies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20034496 doi: medRxiv preprint We provide preliminary evidence on the health conditions of adults in COVID-19 affected regions.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 107,
+                    "text": "13.20034496 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The identification of who might be more affected by COVID-19, not epidemiologically but simply by working and living in affected regions, carries important implications. Such identification can help to prioritize those who might need more help, and psychologists, mental health professionals and social workers can provide services to start addressing at least the mental health issues, even during the lockdown. Affected regions are growing globally by the day, and COVID-19 is no longer confined to China. 10, 18 To contain COVID-19 transimission, 19 policymakers in other countries are considering implementing restrictive measures. 20 We present this early evidence of disruptions one month into the outbreak to provide evidence on the health of the general community living and working under restrictive measures.",
+            "cite_spans": [
+                {
+                    "start": 508,
+                    "end": 511,
+                    "text": "10,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 512,
+                    "end": 514,
+                    "text": "18",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 550,
+                    "end": 552,
+                    "text": "19",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 636,
+                    "end": 638,
+                    "text": "20",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "We declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest Statement"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest Statement"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20034496 doi: medRxiv preprint . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20034496 doi: medRxiv preprint . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20034496 doi: medRxiv preprint Note: N=369. * p < 0\u00b705; ** p < 0\u00b701.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 85,
+                    "text": "13.20034496",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The Note: N=369. * p < 0\u00b705; ** p < 0\u00b701.",
+            "cite_spans": [
+                {
+                    "start": 30,
+                    "end": 33,
+                    "text": "The",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The 1 : 1 = people with a chronic health condition, 2 = people without a chronic health condition.",
+            "cite_spans": [
+                {
+                    "start": 30,
+                    "end": 33,
+                    "text": "The",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Note: N=369. *p < 0\u00b705; **p < 0\u00b701.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20034496 doi: medRxiv preprint CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 115,
+                    "text": "13.20034496",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 30,
+                    "end": 33,
+                    "text": "The",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 13.20034496 doi: medRxiv preprint ",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 137,
+                    "text": "13.20034496 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The lockdown of Hubei Province causing different transmission dynamics of the novel coronavirus (2019-nCoV) in Wuhan and Beijing",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.09.20021477"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A novel coronavirus outbreak of global health concern",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P W",
+                    "middle": [],
+                    "last": "Horby",
+                    "suffix": ""
+                },
+                {
+                    "first": "F G",
+                    "middle": [],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "470--473",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The psychological impact of quarantine and how to reduce it: rapid review of the evidence",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Brooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "COVID-19 Update: Encouraging numbers from Korea",
+            "authors": [],
+            "year": null,
+            "venue": "Moodie Davitt Report",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Japan suspends visas for Chinese and Korean visitors",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Wuhan lockdown 'unprecedented', shows commitment to contain virus: WHO representative in China",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Reuters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Timeline: How coronavirus got started",
+            "authors": [
+                {
+                    "first": "Abc",
+                    "middle": [],
+                    "last": "News",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Chinese officials note serious problems in coronavirus response. The World Health Organization keeps praising them",
+            "authors": [
+                {
+                    "first": "Washington",
+                    "middle": [],
+                    "last": "The",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Post",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Online mental health services in China during the COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Psychiatry",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2215-"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Mitigate the effects of home confinement on children during the COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Strategies shift as coronavirus pandemic looms",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kupferschmidt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "6481",
+            "pages": "962--963",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "A 12-Item Short-Form Health Survey: construction of scales and preliminary tests of reliability and validity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ware",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jr",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kosinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Keller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Med Care",
+            "volume": "34",
+            "issn": "3",
+            "pages": "220--233",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Reliability and validity of SF-12 among floating population (in Chinese)",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Chin J Public Health",
+            "volume": "27",
+            "issn": "2",
+            "pages": "226--233",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "How to score version 2 of the SF-12 Health Survey (with a supplement documenting version 1) Lincoln: QualityMetric Inc",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ware",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kosinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Turner-Bowker",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gandek",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qualitymetric",
+                    "middle": [],
+                    "last": "Incorporated",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not peer-reviewed) The copyright holder for this preprint",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.13.20034496"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Short screening scales to monitor population prevalences and trends in non-specific psychological distress",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kessler",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Andrews",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Colpe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Psychol Med",
+            "volume": "32",
+            "issn": "6",
+            "pages": "959--976",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The satisfaction with life scale",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Diener",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Emmons",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Larsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "J Pers Assess",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "National Health Commission of the PRC. Real-time tracking of new coronavirus outbreaks",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Responding to Covid-19-A once-in-a-century pandemic",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gates",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine. New Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMp2003762"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "COVID-19: Lessons from South Korea's quick response",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Croakey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirusinfected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001316"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Can China's COVID-19 strategy work elsewhere",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kupferschmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "One month into the COVID-19 public emergency, on Feb 20-21, 2020, we surveyed 369 adults in 64 cities in China that varied in their rates of confirmed coronavirus cases on the eight dimensions of health (SF12), distress (K6) and life satisfaction. The participants also reported their work status, whether they had chronic health issues, and the number of hours they exercised per day in the past week. Findings In general, people's lives have been severely disrupted. One third (33%) of the participants had not left their home at all during the previous one month due to the restrictive measures to contain COVID-19 in China. Of the sample, 27% of the participants worked at the office, 38% resorted to working from home, and 25% stopped working due to the outbreak. Those who stopped working reported worse health conditions by SF12 as well as distress (K6). The severity of COVID-19 in an individual's home city predicts their life satisfaction, and this relationship is moderated by individuals' existing chronic health issues and their hours of exercise.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "presents the descriptive characteristics of the participants. From January 21 to February 20, in the one month of the restrictive measures, 124 (33\u00b76%) of the participants had not left home at all, 51 (13\u00b78%) had left their home only once, and 81 (22\u00b70%) had left their home more than five times. At the time of the survey, 99 (26\u00b78%) were going to work at their office; 93 (25\u00b72%) had stopped working;",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "effect of the severity of COVID-19 on life satisfaction depends on the chronic medical issues of the individuals .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "The effect of the severity of COVID-19 on life satisfaction depends on the exercising hours of the individuals",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "From a policy perspective, understanding the health and wellbeing of people under the varying degrees of lockdown in China has implications for countries that are just starting to fight coronavirus, as such restrictions started in Korea, Italy, parts of the US, etc. in March 4",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Descriptions of the participants (n=369)The scores of physical composite scale range from 27\u00b754 to 63\u00b783; the scores of mental composite scale range from 18\u00b783 to 68\u00b706; the scores of distress and life satisfaction both range from 1 to 5.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "OLS regression results on the Mental Composite Scale (MCS) and PhysicalComposite Scale (PCS) of SF12 by job status.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20034496 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "OLS regression results on distress and life satisfaction by job status.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.20034496 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "The severity of COVID-19 in a location interacts with individuals' chronic health condition and exercise time to predict their life satisfaction",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "copyright holder for this preprint . https://doi.org/10.1101/2020.03.13.Effects of Severity of COVID-19 on Life Satisfaction Exercise Hours per day Note: The dashed lines indicate 95% CIs.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We acknowledge funding from the National Social Science Foundation, China (Grant number: 1509093).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

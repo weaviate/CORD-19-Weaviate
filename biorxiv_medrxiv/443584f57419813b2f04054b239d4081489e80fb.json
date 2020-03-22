@@ -1,0 +1,1076 @@
+{
+    "paper_id": "443584f57419813b2f04054b239d4081489e80fb",
+    "metadata": {
+        "title": "Evidence of the Recombinant Origin and Ongoing Mutations in Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)",
+        "authors": [
+            {
+                "first": "Jiao-Mei",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Tropical Biological Resources of Ministry of Education",
+                    "institution": "Hainan University",
+                    "location": {
+                        "settlement": "Haikou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Syed",
+                "middle": [],
+                "last": "Sajid Jan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Provincial University Key Laboratory of Cellular Stress Response and Metabolic Regulation",
+                    "institution": "Fujian Normal University",
+                    "location": {
+                        "settlement": "Fuzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaobin",
+                "middle": [],
+                "last": "Wei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Central South University",
+                    "location": {
+                        "settlement": "Haikou",
+                        "region": "Hainan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yi",
+                "middle": [
+                    "Wan"
+                ],
+                "last": "1#",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Tropical Biological Resources of Ministry of Education",
+                    "institution": "Hainan University",
+                    "location": {
+                        "settlement": "Haikou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Songying",
+                "middle": [],
+                "last": "Ouyang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Provincial University Key Laboratory of Cellular Stress Response and Metabolic Regulation",
+                    "institution": "Fujian Normal University",
+                    "location": {
+                        "settlement": "Fuzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The recent global outbreak of viral pneumonia designated as Coronavirus Disease 2019 by coronavirus (SARS-CoV-2) has threatened global public health and urged to investigate its source. Whole genome analysis of SARS-CoV-2 revealed ~96% genomic similarity with bat CoV (RaTG13) and clustered together in phylogenetic tree. Furthermore, RaTG13 also showed 97.43% spike protein similarity with SARS-CoV-2 suggesting that RaTG13 is the closest strain. However, RBD and key amino acid residues supposed to be crucial for human-to-human and cross-species transmission are homologues between SARS-CoV-2 and pangolin CoVs. These results from our analysis suggest that SARS-CoV-2 is a recombinant virus of bat and pangolin CoVs. Moreover, this study also reports mutations in coding regions of 125 SARS-CoV-2 genomes signifying its aptitude for evolution. In short, our findings propose that homologous recombination has been occurred between bat and pangolin CoVs that triggered cross-species transmission and emergence of SARS-CoV-2, and, during the ongoing outbreak, SARS-CoV-2 is still evolving for its adaptability. 2019). MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization. Brief.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The family Coronaviridae is comprised of large, enveloped, single stranded, and positivesense RNA viruses that can infect a wide range of animals including humans Guan et al., 2003) . The viruses are further classified into four genera: alpha, beta, gamma, and delta coronavirus (King et al., 2012) . So far, all coronaviruses (CoVs) identified in human belong to the genera alpha and beta. Among them betaCoVs are of particular importance. Different novel strains of highly infectious betaCoVs have been emerged in human populations in the past two decades that have caused severe health concern all over the world. Severe acute respiratory syndrome coronavirus (SARS-CoV) was first recognized in 2003, causing a global outbreak (Zhong, 2004; Peiris et al., 2004; Cherry, 2004) . It was followed by another pandemic event in 2012 by a novel strain of coronavirus designated as Middle East respiratory syndrome coronavirus (MERS-CoV) (Lu et al., 2013) . Both CoVs were zoonotic pathogens and evolved in animals. Bats in the genus Rhinolophus are natural reservoir of coronaviruses worldwide, and it is presumed that both SARS-CoV and MERS-CoV have been transmitted to human through some intermediate mammalian hosts (Li et al., 2005a; Bolles et al., 2011; Al-Tawfiq and Memish, 2014 The large trimeric spike glycoprotein (S) located on the surface of CoVs is crucial for viral infection and pathogenesis, which is further subdivided into N-terminal S1 subunit and C-terminal S2 domain. The S1 subunit is specialized in recognizing receptors on host cell, comprising of two separate domains located at N-and C-terminal which can fold independently and facilitate receptor engagement (Masters, 2006) . Receptor-binding domains (RBDs) of most CoVs are located on S1 C-terminus and enable attachment to its host receptor (Li et al., 2005b) . The host specificity of virus particle is determined by amino acid sequence of RBD and is usually dissimilar among different CoVs. Therefore, RBD is a core determinant for tissue tropism and host range of CoVs. This article presents SARS-CoV-2 phylogenetic trees, comparison and analysis of genome, spike protein, and RBD amino acid sequences of different CoVs, deducing source and etiology of COVID-19 and evolutionary relationship among SARS-CoV-2 in human.",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 181,
+                    "text": "Guan et al., 2003)",
+                    "ref_id": null
+                },
+                {
+                    "start": 279,
+                    "end": 298,
+                    "text": "(King et al., 2012)",
+                    "ref_id": null
+                },
+                {
+                    "start": 730,
+                    "end": 743,
+                    "text": "(Zhong, 2004;",
+                    "ref_id": null
+                },
+                {
+                    "start": 744,
+                    "end": 764,
+                    "text": "Peiris et al., 2004;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 765,
+                    "end": 778,
+                    "text": "Cherry, 2004)",
+                    "ref_id": null
+                },
+                {
+                    "start": 934,
+                    "end": 951,
+                    "text": "(Lu et al., 2013)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1216,
+                    "end": 1234,
+                    "text": "(Li et al., 2005a;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1235,
+                    "end": 1255,
+                    "text": "Bolles et al., 2011;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1256,
+                    "end": 1282,
+                    "text": "Al-Tawfiq and Memish, 2014",
+                    "ref_id": null
+                },
+                {
+                    "start": 1682,
+                    "end": 1697,
+                    "text": "(Masters, 2006)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1817,
+                    "end": 1835,
+                    "text": "(Li et al., 2005b)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "To determine the evolutionary relationship of the SARS-CoV-2, phylogenetic analysis was performed on whole genomic sequences of different CoVs from various hosts. The Maximum-likelihood (ML) phylogenetic tree is shown in Figure 1 , which illustrates four main groups representing four genera of CoVs, alpha, beta, gamma, and delta. In the phylogenetic tree, strains of SARS-CoV-2 (red colored) are cluster together and belong to the genera Betacoronavirus. Among Beta-CoVs, SARS-CoV, Civet SARS CoV, Bat SARS-like CoVs, bat/RaTG13 CoV, and SARS-CoVs-2 clustered together forming a discrete clade from MERS-CoVs. The clade is further divided into two branches and one of the branches comprises all SARS-CoV-2 strains clustered together with Bat/Yunnan/RaTG13 CoV forming a monophyletic group. Bat/Yunnan/RaTG13 exhibited ~96% genomic similarity with SARS-CoV-2. This specifies that SARS-CoV-2 is closely related to Bat/Yunnan/RaTG13 CoV.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 221,
+                    "end": 229,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Phylogenetic classification of SARS-CoV-2 and its closely related CoVs"
+        },
+        {
+            "text": "The ML phylogenetic tree demonstrates that CoVs from bat source are found in the inner joint or neighboring clade of SARS-CoV-2. This indicates that bats CoVs particularly Bat/Yunnan/RaTG13 are the source of SARS-CoV-2, and they are emerged and transmitted from bats to humans through some recombination and transformation events in intermediate host.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Phylogenetic classification of SARS-CoV-2 and its closely related CoVs"
+        },
+        {
+            "text": "To explore the emergence of SARS-CoV-2 in humans, we investigated CoVs S-protein and its RBD as they are responsible for determining the host range ( Table 1) . The S-protein amino acid sequence identity between SARS-CoV-2 and related beta-CoVs showed that bat/Yunnan/RaTG13 shares highest similarity of 97.43%. However, the amino acid sequence identity of RBD of SARS-CoV-2 with bat/Yunnan/RaTG13 is 89.57%. On the other hand, Beta-CoVs from pangolin sources (pangolin/Guandong/1/2019 and . CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.993816 doi: bioRxiv preprint pangolin/Guangdong/lung08) revealed highest RBD amino acid sequence identity of 96.68% and 96.08% respectively with SARS-CoV-2. These indication shows the existence of homologous recombination events within the S-protein gene between bat and pangolin CoVs.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 150,
+                    "end": 158,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Detection of putative recombination within the spike protein"
+        },
+        {
+            "text": "Similarity plot analysis of CoVs genome sequences from bat, pangolin and human also indicated a possible recombination within S-protein of SARS-CoVs-19 ( Figure S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 154,
+                    "end": 163,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Detection of putative recombination within the spike protein"
+        },
+        {
+            "text": "The amino acid residues change in S-protein of SARS-CoV-2 was further analyzed with SARS-CoV, pangolin and bat CoVs including pangolin/Guandong/1/2019, pangolin/Guangdong/lung08, and bat/Yunnan/RaTG13 (Figure 2) . Regardless of low homology between SARS-CoV-2 (Wuhan-Hu-1_MN908947) and SARS-CoV (SARS_AAR07630), they had many homologues areas in S-protein. The five key amino acid residues of S-protein at positions 442,472, 479,480, and 487 of SARS-CoVs are described to be at the angiotensin-converting enzyme-2 (ACE2) receptor complex interface and supposed to be crucial for human to human and cross-species transmission (Li et al., 2005b; Wu et al., 2012) . Figure 2b and Table S1 describe that all key amino acid residues of RBD (except two positions) are completely homologues between SARS-CoV-2 (Wuhan-Hu-1_MN908947) and pangolin CoVs (pangolin/Guandong/1/2019 and pangolin/Guangdong/lung08), supporting our postulation of recombination event in S-protein gene. Even though, all five crucial amino acid residues of SARS-CoV-2 for binding to ACE2 are different from SARS-CoV, their hydrophobicity and polarity are similar, having same S-protein structural confirmation and identical RBD 3-D structure (Xu et al., 2020) . In addition, six critical key residues in MERS-CoV RBD binding to its receptor dipeptidyl peptidase 4 (DPP4) are all different in SARS-CoV and SARS-CoV-2 related coronavirus (Figure 2a) .",
+            "cite_spans": [
+                {
+                    "start": 625,
+                    "end": 643,
+                    "text": "(Li et al., 2005b;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 644,
+                    "end": 660,
+                    "text": "Wu et al., 2012)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1208,
+                    "end": 1225,
+                    "text": "(Xu et al., 2020)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 201,
+                    "end": 211,
+                    "text": "(Figure 2)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 663,
+                    "end": 672,
+                    "text": "Figure 2b",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 677,
+                    "end": 685,
+                    "text": "Table S1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1402,
+                    "end": 1413,
+                    "text": "(Figure 2a)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Detection of putative recombination within the spike protein"
+        },
+        {
+            "text": "We also investigated some of the important evolutionary and phylogenetic aspects of SARS-CoV-2 during its spread in human population. Mutation in encoding segments of 125 SARS-CoV-2 genomes obtained from public-domain databases were investigated. In comparison with the first reported SARS-CoV-2 (Wuhan-Hu-1_MN908947), amino acid substitutions were observed at 87 positions of SARS-CoV-2 open reding frames (orfs) (Figure 3) . Total number of amino acid substitution in corresponding orfs are listed in Table 2 . Among different orfs of SARS-CoV-2, orf1a was most variable segment with total number of 44 . CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.993816 doi: bioRxiv preprint dissimilar amino acid substitutions. It was followed by spike segment S orf with 13 amino acid residue substitutions. However, orf6 and orf7b are the most conserved regions without amino acid changes. In addition, orf10, E, M and orf7a have tended to be more conserved, with only one or two amino acid substitutions.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 414,
+                    "end": 424,
+                    "text": "(Figure 3)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 503,
+                    "end": 510,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Ongoing mutations in SARS-CoV-2 during its spread"
+        },
+        {
+            "text": "With the global spread of SARS-CoV-2, its amino acid sequence is also significantly varied (Figure 3) . Usually, RNA viruses have high rate of genetic mutations, which leads to evolution and provide them with increased adaptability (Lin et al., 2019) . To further explore SARS-CoV-2 evolution in human, we have performed phylogenetic analysis based on the aforementioned SARS-CoV-2 in correspondence with their amino acid substitution. Figure   4 . illustrates the phylogenetic tree of SARS-CoV-2 and associated amino acid changes. Our phylogenetic tree demonstrates that BetaCoV/Chongqing/YC01/2020 is the closest SARS-CoV-2 to bat CoV (Bat/Yunnan/RaTG13) as compared to the first reported SARS-CoV-2 (Wuhan-Hu-1_MN908947). Taking BetaCoV/Chongqing/YC01/2020 as a reference group, South Korea SARS-CoV-2 (BetaCoV/South_Korea/SNU01/2020) has 7 amino acid substitutions in six orfs (S, E, orf1a, orf31, and orf8). BetaCoV/Shenzhen/SZTH-001/2020 has total of 16 amino acid substitutions in four coding regions with highest substitution of 11 amino acid residues in orf1a. United States of America (USA) SARS-CoV-2 (BetaCoV/USA/MA1/2020) has 5 amino acid substitutions in N, orf1a, orf1ab, and orf8.",
+            "cite_spans": [
+                {
+                    "start": 232,
+                    "end": 250,
+                    "text": "(Lin et al., 2019)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 91,
+                    "end": 101,
+                    "text": "(Figure 3)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 436,
+                    "end": 446,
+                    "text": "Figure   4",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Ongoing mutations in SARS-CoV-2 during its spread"
+        },
+        {
+            "text": "France CoV (BetaCoV/France/IDF0571/2020) has 3 amino acid mutations in orf1a and 1 amino acid mutation in orf8.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ongoing mutations in SARS-CoV-2 during its spread"
+        },
+        {
+            "text": "Based on amino acid and genome sequences analysis and comparison, our results suggest that SARS-CoV-2 is a recombinant virus between bat and pangolin coronaviruses, and the recombination event has been occurred in spike protein genes. Our finding suggest that pangolin is the most possible intermediate SARS-CoV-2 reservoir, which may have given rise to cross-species transmission to humans. These new findings suggest further research to investigate pangolin as a SARS-CoV-2 reservoir. Another important outcome of our analysis is the genetic mutations and evolution of SARS-CoV-2 as it spread globally. These findings are very significant for controlling the SARS-CoV-2 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi. org/10.1101 org/10. /2020 ",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 180,
+                    "text": "org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 181,
+                    "end": 194,
+                    "text": "org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "One hundred and twenty-five newly sequenced SARS-CoV-2 complete genomes were obtained from Global Initiative on Sharing All Influenza Data EpiFluTM database (GISAID EpiFlu TM ) and GenBank. Closely related beta-CoVs genomes sequences from different hosts were also collected and analyzed together with SARS-CoV-2. Open reading frames (orfs) of CoVs genomes were predicted using ORFfinder (v0.4.3) with default parameters ignoring nested orfs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sequence data collection"
+        },
+        {
+            "text": "Raw pair-end reads of pangolin dataset sample (SRR10168377) obtained from NCBI were filtered with bbmap.sh (v38.79) by removing adaptors, trimming low quality reads from both sides (quality value < 20), and reads length less than 50 nt were ignored. Host reference genome (pangolin ManJav1.0, GCF_001685135.1) contaminant reads were removed by bowtie2 (v2.3.5.1) [13] . Pangolin CoV genome fragments were assembled via MEGAHIT (v1.2.9) (Li et al., 2015) .",
+            "cite_spans": [
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "[13]",
+                    "ref_id": null
+                },
+                {
+                    "start": 436,
+                    "end": 453,
+                    "text": "(Li et al., 2015)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sequence data collection"
+        },
+        {
+            "text": "The sequences of CoVs were aligned using multiple sequence alignment MAFFT (v7.450) (Katoh et al., 2019) . Aligned sequences were visualized with Jalview (v2.10.3) (Waterhouse et al., 2009) . Poorly aligned regions and gaps were removed by trimAL (v1.4.rev22) (Capellaguti\u00e9rrez et al., 2009) . Maximum likelihood (ML) phylogenetic trees of whole genome sequences were constructed in IQ-TREE (v1.6.12) (Nguyen et al., 2015) . Support for inferred relationships in the phylogenetic tree was assessed by bootstrap analysis with 1000 replicates and the best-fit substitution model was determined by IQ-TREE model test.",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 104,
+                    "text": "(Katoh et al., 2019)",
+                    "ref_id": null
+                },
+                {
+                    "start": 164,
+                    "end": 189,
+                    "text": "(Waterhouse et al., 2009)",
+                    "ref_id": null
+                },
+                {
+                    "start": 260,
+                    "end": 291,
+                    "text": "(Capellaguti\u00e9rrez et al., 2009)",
+                    "ref_id": null
+                },
+                {
+                    "start": 401,
+                    "end": 422,
+                    "text": "(Nguyen et al., 2015)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Phylogenetic and recombination analysis"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.993816 doi: bioRxiv preprint Figure S1 . Similarity plot of the full genome sequence among Bat/Yunnan/RaTG13, BetaCoV/pangolin/Guandong/1/2019, pangolin/Guangdong/lung08 and Wuhan-Hu-1_MN908947 (as the query). Grey box highlights the Spike protein coding region, supposed to be involved in recombination. Similarity scores between genomic sequences were generated by Simplot (v3.5.1) (Lole et al., 1999) .",
+            "cite_spans": [
+                {
+                    "start": 575,
+                    "end": 594,
+                    "text": "(Lole et al., 1999)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 220,
+                    "end": 229,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Phylogenetic and recombination analysis"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.993816 doi: bioRxiv preprint Table S1 . The interactions of SARS-CoV RBD with ACE2 and their comparison with RBD of SARS-Cov-2, BetaCoV/pangolin/Guandong/1/2019 and pangolin/Guangdong/lung08. Red color highlights interaction positions of SARS-CoV-2 and pangolin CoVs with different amino acids residues.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 220,
+                    "end": 228,
+                    "text": "Table S1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Phylogenetic and recombination analysis"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10. 1101 /2020 ",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 180,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 181,
+                    "end": 186,
+                    "text": "/2020",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Phylogenetic and recombination analysis"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Structure of SARS coronavirus spike receptor-binding domain complexed with receptor",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Science",
+            "volume": "309",
+            "issn": "",
+            "pages": "1864--1868",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Bats are natural reservoirs of SARS-like coronaviruses",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Crameri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Science",
+            "volume": "310",
+            "issn": "",
+            "pages": "676--679",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Naturally occurring mutations in PB1 affect influenza A virus replication fidelity, virulence, and adaptability",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tseng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lien",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shih",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Liao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMC Biol",
+            "volume": "26",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Full-length human immunodeficiency virus type 1 genomes from subtype C-infected seroconverters in India, with evidence of intersubtype recombination",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lole",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bollinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Paranjape",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gadkari",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kulkarni",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Novak",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ingersoll",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Sheppard",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ray",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Virol",
+            "volume": "73",
+            "issn": "",
+            "pages": "152--160",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Middle East respiratory syndrome coronavirus (MERS-CoV): challenges in identifying its source and controlling its spread",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Microbes Infect",
+            "volume": "15",
+            "issn": "",
+            "pages": "625--629",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The molecular biology of coronaviruses",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Masters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Adv. Virus Res",
+            "volume": "66",
+            "issn": "",
+            "pages": "193--292",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Von Haeseler",
+                    "suffix": ""
+                },
+                {
+                    "first": "Minh",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Mol. Biol. Evol",
+            "volume": "32",
+            "issn": "",
+            "pages": "268--274",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S M"
+                    ],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nat. Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "88--97",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "From SARS coronavirus to novel animal and human coronaviruses",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Thorac. Dis",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Jalview Version 2-a multiple sequence alignment editor and analysis workbench",
+            "authors": [],
+            "year": null,
+            "venue": "Bioinformatics",
+            "volume": "25",
+            "issn": "",
+            "pages": "1189--1191",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Mechanisms of host receptor adaptation by severe acute respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wilken",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Geraghty",
+                    "suffix": ""
+                },
+                {
+                    "first": "Li",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Biol. Chem",
+            "volume": "287",
+            "issn": "",
+            "pages": "8904--8911",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Evolution of the novel coronavirus from the ongoing Wuhan outbreak and modeling of its spike protein for risk of human transmission",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci. China, C, Life Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Phylogenetic tree of different CoVs with SARS-CoV-2 based on full genome sequences.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The amino acid residues change in S-protein of CoVs. (A) Amino acid residues change in S1 domain (Asterisks indicate five key amino acid residues of SARS-CoV critical for RBD binding to ACE2\uff1bDots specify critical amino acid residues of MERS-CoV RBD for binding to DPP4). Rectangles specify positions unique in SARS-CoV-2. (B) The combination of five key amino acid residues in SARS-CoVs, SARS-CoV-2, and pangolinCoVs. (C) The amino acid residues change in S2 domain (Rectangles designate changes near two cleavage sites).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Amino acid substitutions in different open reading frames (orfs) of SARS-CoV-2 (125 genomic sequences collected till February 22, 2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Phylogenetic analysis of SARS-CoV-2 (left) and the number of amino acid substitutions in orfs of corresponding SARS-CoV-2 (right). Bat/Yunnan/RaTG13 was treated as the outgroup.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "). Recently, emergence of another pandemic termed as Coronavirus Disease 2019 (COVID-19) by World Health Organization(WHO) caused by a novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has been reported (Zhu et al., 2020). To date, more than 174,000 people are infected and over 6,600 death tolls, having transmission clusters worldwide including China, Italy, South Korea, Iran, Japan, USA, France, Spain, Germany and several other countries causing alarming global health concern.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Amino acid sequence identity of S-Protein and RBD of BetaCoVsTable 2. Open reading frame (orf) variation between different SARS-CoV-2 . CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.993816 doi: bioRxiv preprint SUPPLEMENTAL INFORMATION",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

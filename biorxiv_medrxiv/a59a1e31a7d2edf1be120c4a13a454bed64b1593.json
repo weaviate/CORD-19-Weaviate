@@ -1,0 +1,2749 @@
+{
+    "paper_id": "a59a1e31a7d2edf1be120c4a13a454bed64b1593",
+    "metadata": {
+        "title": "Novel and potent inhibitors targeting DHODH, a rate-limiting enzyme in de novo pyrimidine biosynthesis, are broad-spectrum antiviral against RNA viruses including newly emerged coronavirus SARS-CoV-2",
+        "authors": [
+            {
+                "first": "Rui",
+                "middle": [],
+                "last": "Xiong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Leike",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "430071",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shiliang",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuan",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "430071",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Minyi",
+                "middle": [],
+                "last": "Ding",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yong",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Virology",
+                    "institution": "Wuhan University",
+                    "location": {
+                        "postCode": "430072",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yongliang",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Virology",
+                    "institution": "Wuhan University",
+                    "location": {
+                        "postCode": "430072",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yan",
+                "middle": [],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "430071",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Weijuan",
+                "middle": [],
+                "last": "Shang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "430071",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaming",
+                "middle": [],
+                "last": "Jiang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "430071",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jiwei",
+                "middle": [],
+                "last": "Shan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zihao",
+                "middle": [],
+                "last": "Shen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yi",
+                "middle": [],
+                "last": "Tong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Liuxin",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chen",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Virology",
+                    "institution": "Wuhan University",
+                    "location": {
+                        "postCode": "430072",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yingle",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Virology",
+                    "institution": "Wuhan University",
+                    "location": {
+                        "postCode": "430072",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gang",
+                "middle": [],
+                "last": "Zou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Chinese Academy of Sciences",
+                    "location": {
+                        "addrLine": "320 YueYang Road",
+                        "postCode": "200031",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dimitri",
+                "middle": [],
+                "last": "Lavillete",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Chinese Academy of Sciences",
+                    "location": {
+                        "addrLine": "320 YueYang Road",
+                        "postCode": "200031",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhenjiang",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rui",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lili",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gengfu",
+                "middle": [],
+                "last": "Xiao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "430071",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ke",
+                "middle": [],
+                "last": "Lan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Virology",
+                    "institution": "Wuhan University",
+                    "location": {
+                        "postCode": "430072",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Honglin",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Bioreactor Engineering",
+                    "institution": "East China University of Science and Technology",
+                    "location": {
+                        "postCode": "200237",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": "hlli@ecust.edu.cn@fax:86-21-64250213."
+            },
+            {
+                "first": "Ke",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Virology",
+                    "institution": "Wuhan University",
+                    "location": {
+                        "postCode": "430072",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Emerging and re-emerging RNA viruses occasionally cause epidemics and pandemics worldwide, such as the on-going outbreak of coronavirus SARS-CoV-2. Existing direct-acting antiviral (DAA) drugs cannot be applied immediately to new viruses because of virus-specificity, and the development of new DAA drugs from the beginning is not timely for outbreaks. Thus, host-targeting antiviral (HTA) drugs have many advantages to fight against a broad spectrum of viruses, by blocking the viral replication and overcoming the potential viral mutagenesis simultaneously. Herein, we identified two potent inhibitors of DHODH, S312 and S416, with favorable drug-like and pharmacokinetic profiles, which all showed broad-spectrum antiviral effects against various RNA viruses, including influenza A virus (H1N1, H3N2, H9N2), Zika virus, Ebola virus, and particularly against the recent novel coronavirus SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Our results are the first to validate that DHODH is an attractive host target through high antiviral efficacy in vivo and low virus replication in DHODH knocking-out cells. We also proposed the drug combination of DAA and HTA was a promising strategy for anti-virus treatment and proved that S312 showed more advantageous than Oseltamivir to treat advanced influenza diseases in severely infected animals. Notably, S416 is reported to be the most potent inhibitor with an EC50 of 17nM and SI value >5882 in SARS-CoV-2-infected cells so far. This work demonstrates that both our self-designed candidates and old drugs (Leflunomide/Teriflunomide) with dual actions of antiviral and immuno-repression may have clinical potentials not only to influenza but also to",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Acute viral infections, such as influenza virus, SARS-CoV, MERS-CoV, Ebola virus, Zika virus, and the very recent SARS-CoV-2 are an increasing and probably lasting global threat 1 . Broad-spectrum antivirals (BSA) are clinically needed for the effective control of emerging and re-emerging viral infectious diseases. However, although great efforts have been made by the research community to discover therapeutic antiviral agents for coping with such emergencies, specific and effective drugs or vaccines with low toxicity have been rarely reported 2 . Thus, unfortunately, there is still no effective drugs for the infection of the novel coronavirus SARS-CoV-2 at present, which outbreak in December 2019 firstly identified by several Chinese groups [3] [4] [5] , and now has quickly spread throughout China and to more than 90 other countries, infecting 101,923 patients and killing 3486 ones by March 7, 2020 6 .",
+            "cite_spans": [
+                {
+                    "start": 752,
+                    "end": 755,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 756,
+                    "end": 759,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 760,
+                    "end": 763,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction\uff1a"
+        },
+        {
+            "text": "Discovery of nucleoside or nucleotide analogs and host-targeting antivirals (HTAs) are two main strategies for developing BSA [7] [8] [9] . With the former drug class usually causing drug resistance and toxicity, the discovery of HTAs has attracted much attention 10 . Several independent studies searching for HTAs collectively end up to compounds targeting the host's pyrimidine synthesis pathway to inhibit virus infections, which indicates that the replication of viruses is widely dependent on the host pyrimidine synthesis [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] . However, most of these compounds lack verified drug targets making subsequent drug optimization and further application impossible 11, [13] [14] [15] [17] [18] [19] 21, 25 .",
+            "cite_spans": [
+                {
+                    "start": 126,
+                    "end": 129,
+                    "text": "[7]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 130,
+                    "end": 133,
+                    "text": "[8]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 134,
+                    "end": 137,
+                    "text": "[9]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 264,
+                    "end": 266,
+                    "text": "10",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 529,
+                    "end": 533,
+                    "text": "[11]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 534,
+                    "end": 538,
+                    "text": "[12]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 539,
+                    "end": 543,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 544,
+                    "end": 548,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 549,
+                    "end": 553,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 554,
+                    "end": 558,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 559,
+                    "end": 563,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 569,
+                    "end": 573,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 574,
+                    "end": 578,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 579,
+                    "end": 583,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 584,
+                    "end": 588,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 589,
+                    "end": 593,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 594,
+                    "end": 598,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 599,
+                    "end": 603,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 737,
+                    "end": 740,
+                    "text": "11,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 741,
+                    "end": 745,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 746,
+                    "end": 750,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 751,
+                    "end": 755,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 756,
+                    "end": 760,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 761,
+                    "end": 765,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 766,
+                    "end": 770,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 771,
+                    "end": 774,
+                    "text": "21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 775,
+                    "end": 777,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction\uff1a"
+        },
+        {
+            "text": "There are only a few inhibitors against pyrimidine synthesis that can be carried forward to animal studies, however, their antiviral efficacies were unsatisfactory or even ineffective at all 12, 16, 17, 21, [23] [24] [25] . For example, a pyrimidine synthesis inhibitor FA-613 without a specific target protected only 30.7% of mice from lethal influenza A virus infection when compared to the DAA drug Zanamivir (100%) in parallel 23 . Another two compounds, Cmp1 24 and FK778 25 , which target DHODH, a rate-limiting enzyme in the fourth step of the de novo pyrimidine synthesis pathway, could only inhibit the DNA virus (CMV) replication in RAG -/mice, but their therapeutic effects on the upcoming diseases were unexplored. Therefore, more potent pyrimidine synthesis inhibitors, especially ones with the specific drug target, are urgent to be developed to prove whether such an HTA drug is valuable towards clinical use or has any advantages over DAA drugs in antiviral treatment.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 194,
+                    "text": "12,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 195,
+                    "end": 198,
+                    "text": "16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 199,
+                    "end": 202,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 203,
+                    "end": 206,
+                    "text": "21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 207,
+                    "end": 211,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 212,
+                    "end": 216,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 431,
+                    "end": 433,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 477,
+                    "end": 479,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction\uff1a"
+        },
+        {
+            "text": "To identify potent and low-toxicity DHODH inhibitors (DHODHi), we previously conducted a hierarchal structure-based virtual screening (Fig. 1A) against ~280,000 compounds library towards the ubiquinone-binding site of DHODH 26 . We finally obtained two highly potent DHODHi S312 and S416 with IC50s of 29.2 nM and 7.5 nM through structural optimization 27, 28 , which are > 10-folds potent than the FDA approved DHODHi Teriflunomide (IC50 of 307.1 nM). By using these two potent inhibitors, we could fully evaluate DHODH as a valuable host target both in infected cells and in vivo in infected animals. We identified that targeting DHODH offers broad-spectrum antiviral efficacies against various RNA viruses, including the DAA-resistant influenza virus and the newly emerged coronavirus SARS-CoV-2. Especially, our potent DHODHi can protect 100% mice from lethal influenza challenge, which is as good as the DAA drugs, and is even effective in the late phase of infection when DAA drug is no longer responding.",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 226,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 353,
+                    "end": 356,
+                    "text": "27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 357,
+                    "end": 359,
+                    "text": "28",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 134,
+                    "end": 143,
+                    "text": "(Fig. 1A)",
+                    "ref_id": "FIGREF13"
+                }
+            ],
+            "section": "Introduction\uff1a"
+        },
+        {
+            "text": "By determination of the X-ray crystal structure of DHODH in complex with S416",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The discovery of potent DHODH inhibitors with low toxicity in vivo and high antiviral efficacies in influenza-A-virus infected cells."
+        },
+        {
+            "text": "( Supplementary Data Fig. 1A, Table S1 ), we verified the binding mode of S416 at the ubiquinone-binding site of DHODH that similar to S312. The binding free energies for S312 and S416 were -45.06 and -46.74 kJ/mol, and the binding equilibrium dissociation constants (KD) were 20.3 and 1.69 nM, respectively ( Fig. 1B and 1C) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2,
+                    "end": 38,
+                    "text": "Supplementary Data Fig. 1A, Table S1",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 310,
+                    "end": 325,
+                    "text": "Fig. 1B and 1C)",
+                    "ref_id": "FIGREF13"
+                }
+            ],
+            "section": "The discovery of potent DHODH inhibitors with low toxicity in vivo and high antiviral efficacies in influenza-A-virus infected cells."
+        },
+        {
+            "text": "Additionally, the two inhibitors exhibited a clear trait of fast-associating (kon) and slowdissociating (koff) inhibition (Table S2) , providing themselves as ideal drug candidates with a high level of target occupancy. Moreover, S312 and S416 showed proper halflives (8.20 and 9.12 h, respectively) ( Table S3) , which are much shorter than that of Teriflunomide and Leflunomide, indicating that they may have less possibility to bring side effects from drug accumulation in the body (Supplementary Data Fig. 1B and   1C ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 122,
+                    "end": 132,
+                    "text": "(Table S2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 302,
+                    "end": 311,
+                    "text": "Table S3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 485,
+                    "end": 521,
+                    "text": "(Supplementary Data Fig. 1B and   1C",
+                    "ref_id": "FIGREF13"
+                }
+            ],
+            "section": "The discovery of potent DHODH inhibitors with low toxicity in vivo and high antiviral efficacies in influenza-A-virus infected cells."
+        },
+        {
+            "text": "To examine the antiviral activities of these DHODHi, we use the influenza A virus as a model virus. A labor stain of A/WSN/33(H1N1, WSN) with 20 TCID50 was applied to infect MDCK cells, and serial dilutions of drugs (DMSO as controls) were added at the same time when cells were infected. Drug efficacies were evaluated by quantification of cell viability in both infected and non-infected cells, and the halfmaximal effective concentration (EC50) and the half-cytotoxic concentration (CC50) of the indicated drug were obtained accordingly. The selectivity index (SI) was calculated by CC50/EC50. As shown in Fig. 1D , the antiviral effect of Leflunomide is hardly detectable at the cell culture level (EC50>25 \u03bc M). However, Teriflunomide, the active metabolite of Leflunomide, exhibited a clear antiviral effect against the WSN virus (EC50=29.33\u03bcM, CC50=178.50\u03bcM\uff0cSI=6.08). As compared to Teriflunomide, the potent DHODHi S312 is ~12-fold stronger (EC50=2.36\u03bcM) and S416 is ~480-fold stronger (EC50=0.061\u03bcM) than Teriflunomide in their antiviral efficacies. We also tested different influenza A virus subtypes of H3N2 and H9N2. The antiviral efficacies of DHODHi followed the same pattern as they were against H1N1, which is S416>S312>Teriflunomide>Leflunomide in viral inhibitory efficacies (summarized in Table 1 ). The drug effective curve of S416 to H3N2 (EC50=0.013\u03bcM) and H9N2 (EC50=0.020\u03bcM) is shown in Fig. 1E and 1F . When we compared the drug efficacy by virus plaque assay, the results in Fig. 1G showed that the positive control DAA drug Oseltamivir (Osel) could reduce the plaque size to needlepoint size. However, the virus plaque in equivalent S312-treatment was not observable at all indicating that S312 is more efficient in inhibiting virus replication than Osel.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 609,
+                    "end": 616,
+                    "text": "Fig. 1D",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 1308,
+                    "end": 1315,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1411,
+                    "end": 1425,
+                    "text": "Fig. 1E and 1F",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 1501,
+                    "end": 1508,
+                    "text": "Fig. 1G",
+                    "ref_id": "FIGREF13"
+                }
+            ],
+            "section": "The discovery of potent DHODH inhibitors with low toxicity in vivo and high antiviral efficacies in influenza-A-virus infected cells."
+        },
+        {
+            "text": "The results in all indicate that DHODHi, especially S312 and S416 exhibited direct antiviral activities to different subtypes of influenza A viruses by shutting off virus multiplication more thoroughly than Osel.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The discovery of potent DHODH inhibitors with low toxicity in vivo and high antiviral efficacies in influenza-A-virus infected cells."
+        },
+        {
+            "text": "As all actuate infectious viruses rely on cellular pyrimidine synthesis process to replicate, it is reasonable to speculate that DHODHi have broad-spectrum antiviral efficacies. We, therefore, tested several highly impacted acute infectious RNA viruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The broad-spectrum antiviral activities of DHODHi to Zika, Ebola and newly emerged SARS-CoV-2 viruses in infected cells."
+        },
+        {
+            "text": "All compounds of Teriflunomide, Brequinar, S312, and S416, showed inhibitory effects against Ebola virus (EBOV) mini-replicon, with EC50 of 6.43, 0.102, 14.96 and 0.018\u03bcM, respectively ( Fig. 2A) . To our supersize, S416 showing relatively high cytotoxicity in MDCK cells (CC50=1.64\u03bcM in Fig.1D ) was less toxic to EBOV-minireplicon supporting BSR-T7/5 cells (CC50=85.84\u03bcM). Thus, a significantly high SI=4746.11 was achieved by S416. We subsequently tested the inhibitory effects of DHODHi against Zika virus (Fig. 2B) . EC50 values were 17.72, 0.268, 2.29 and 0.021\u03bcM for Teriflunomide, Brequinar, S312 and S416, respectively. Again, the selective index of S416 reached the top of SI=1087.62.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 187,
+                    "end": 195,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 288,
+                    "end": 294,
+                    "text": "Fig.1D",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 510,
+                    "end": 519,
+                    "text": "(Fig. 2B)",
+                    "ref_id": "FIGREF14"
+                }
+            ],
+            "section": "The broad-spectrum antiviral activities of DHODHi to Zika, Ebola and newly emerged SARS-CoV-2 viruses in infected cells."
+        },
+        {
+            "text": "When we prepared the manuscript, a severe outbreak of SARS-CoV-2 occurred in Wuhan in December 2019, we responded quickly to examine the antiviral activity of DHODHi against this new coronavirus. The data in Fig. 2C showed that all the DHODHi tested is low toxic to SARS-CoV-2 susceptible Vero E6 cells. Teriflunomide had a solid antiviral efficacy of EC50=26.06uM (at MOI=0.05, ~2.4-fold stronger than Favipiravir [EC50=61.88\u03bcM] 29 ) (Fig. 2C upper right) , whereas its pro-drug Leflunomide showed less inhibition of EC50=63.56uM (data not shown). We therefore further did immuno-florescent assay to visualize the drug efficacy. To determine more carefully the efficacy of Teriflunomide, which can be transferred to clinical treatment of SARS-CoV-2 immediately as an approved drug, a bit low MOI of 0.03 (Fig. 2C upper left) were applied. In this condition, the EC50 of Teriflunomide could reach 6\u03bcM with SI>33, indicating that Teriflunomide with effective EC50 and SI values have all the potentials to treat SARS-CoV-2-induced COVID-19 disease as an 'old drug in new use' option.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 208,
+                    "end": 215,
+                    "text": "Fig. 2C",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 435,
+                    "end": 456,
+                    "text": "(Fig. 2C upper right)",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 805,
+                    "end": 813,
+                    "text": "(Fig. 2C",
+                    "ref_id": "FIGREF14"
+                }
+            ],
+            "section": "The broad-spectrum antiviral activities of DHODHi to Zika, Ebola and newly emerged SARS-CoV-2 viruses in infected cells."
+        },
+        {
+            "text": "Additionally, S312 and S416 exhibited ideal antiviral efficacies of EC50=1.55\u03bcM (SI>64.62) and EC50=0.017\u03bcM (extensively high SI>5882.4), respectively ( Fig. 2C lower panel). Compared with our previous publication of Remdesivir (EC50=0.77\u03bcM, SI>129.87) and Chloroquine (EC50=1.13\u03bcM, SI>88.5) 29 , which are currently used in clinical trials against SARS-CoV-2, S416 had much greater EC50 and SI values (66.5fold stronger than Chloroquine in EC50) against SARS-CoV-2. The data in Fig. 2D clearly showed that as little as 4.6nM (0.3EC50) of S416 can dramatically inhibit SARS-CoV-2 infections, while, increased drug concentration of 370nM (22EC50) could further eliminate viral infected cells. Thus, S416 turns to be the best efficient chemical so far against SARS-CoV-2 at the cellular level.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 294,
+                    "text": "29",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 153,
+                    "end": 160,
+                    "text": "Fig. 2C",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 479,
+                    "end": 486,
+                    "text": "Fig. 2D",
+                    "ref_id": "FIGREF14"
+                }
+            ],
+            "section": "The broad-spectrum antiviral activities of DHODHi to Zika, Ebola and newly emerged SARS-CoV-2 viruses in infected cells."
+        },
+        {
+            "text": "In all the previous studies, inhibitors to DHODH or pyrimidine synthesis pathway were Fig. 3A) . The data in Fig. 3B showed that the bodyweights of mice from the DMSO-treated 'virus group' all dropped to less than 75% and died at D8 p.i.. DAA drug of Osel could indeed totally rescue all the mice from bodyweight loss and death. Equivalently, S312 (5mg/kg, red line) was also able to confer 100% protection and little bodyweight loss similar to Osel. Even S312 of 2.5mg/kg and 10mg/kg cold confer 75% protection and 50% protection, respectively.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 86,
+                    "end": 94,
+                    "text": "Fig. 3A)",
+                    "ref_id": "FIGREF15"
+                },
+                {
+                    "start": 109,
+                    "end": 116,
+                    "text": "Fig. 3B",
+                    "ref_id": "FIGREF15"
+                }
+            ],
+            "section": "S312 exhibited equivalent antiviral activities to Oseltamivir in influenza-A-virusinfected animals."
+        },
+        {
+            "text": "Considering the Cmax of S312 (\u224815\u03bcM), we used both 5mg/kg and 10mg/kg in the following experiments. The results suggest that S312 of a modest dose (5mg/kg) would achieve the equivalent 100% protection to DAA drug when used from the beginning of infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "S312 exhibited equivalent antiviral activities to Oseltamivir in influenza-A-virusinfected animals."
+        },
+        {
+            "text": "Except for broad active to different viruses, HTA drug such as DHODHi has another advantage over DAA drug to overcome drug-resistant. To prove this, we generated a current-circulating Oseltamivir-resistant NA H275Y mutant virus (in WSN backbone) by reverse genetics (Supplementary data Fig. 2A and 2B) . We found that the NA H275Y virus did not respond to Osel (20mg/kg/day)-treatment at all but 2.5mg/kg/day of S312 can rescue 50% of mice from lethal infection of NA H275Y virus (Supplementary data Fig. 2C ). When mice were infected with a natural-isolated pandemic strain SC09, which is less sensitive to either Osel (40% protection) or S312 (20% protection) ( Fig.   3C ), we further observed 100% protection in combined treatment of S312+Osel, indicating that HTA and DAA drug combination can augment therapeutic effects.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 286,
+                    "end": 301,
+                    "text": "Fig. 2A and 2B)",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 500,
+                    "end": 507,
+                    "text": "Fig. 2C",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 664,
+                    "end": 673,
+                    "text": "Fig.   3C",
+                    "ref_id": "FIGREF15"
+                }
+            ],
+            "section": "S312 exhibited equivalent antiviral activities to Oseltamivir in influenza-A-virusinfected animals."
+        },
+        {
+            "text": "The data in all refresh DHODH as an attractive host target in treating viral disease with equivalent efficacy to DAA drug, and is advantageous when facing DAA-drugresistant viruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "S312 exhibited equivalent antiviral activities to Oseltamivir in influenza-A-virusinfected animals."
+        },
+        {
+            "text": "To elucidate the essential role of DHODH in the viral replication cycle, we generated a DHODH -/-A549 cell line by CRISPR-Cas9 gene knock-off (KO) technology (Fig. 4A) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 158,
+                    "end": 167,
+                    "text": "(Fig. 4A)",
+                    "ref_id": "FIGREF16"
+                }
+            ],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "Unexpectedly, the cell proliferation rate was barely affected in DHODH -/cells indicating DHODH is not indispensable for cell growth at least for three days (72 hours)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . (Supplementary Fig. 3 ). By contrast, virus growth was largely inhibited in DHODH -/cells as compared to wild-type (WT) A549 cells with almost 1000-fold reduction of infectious particles at 72 hours post-infection (h.p.i.) (Fig. 4B) . When S312 (5IC50) was added into the culture medium, dramatic reduction of virus growth only occurred in WT cells but not in DHODH -/cells ( Fig. 4C and 4D) . These results prove that virus growth but not the coincident cell growth requires DHODH activity, and antiviral action of S312 is implemented by targeting DHODH.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 162,
+                    "end": 183,
+                    "text": "(Supplementary Fig. 3",
+                    "ref_id": "FIGREF15"
+                },
+                {
+                    "start": 385,
+                    "end": 394,
+                    "text": "(Fig. 4B)",
+                    "ref_id": "FIGREF16"
+                },
+                {
+                    "start": 538,
+                    "end": 553,
+                    "text": "Fig. 4C and 4D)",
+                    "ref_id": "FIGREF16"
+                }
+            ],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "The general virus growth cycle includes virus entry, viral genome replication, and virus release. To further validate virus genome replication is the major target of DHODHi, we used the influenza-A-virus mini-replicon system to quantify viral genome replication. Brequinar, another potent inhibitor of DHODH was included as a positive control 30 , whereas, Osel targeting influenza NA protein served as a negative control. The results in Fig.4E showed no inhibition on viral genome replication in the Osel-treated group, but there were obvious inhibitions on viral genome replication in both S312-and S416-treated groups as well as Brequinar-treated group in dosedependent manners. Almost 90% of viral genome replication was suppressed by 10IC50 of S312 (24\u03bcM) and S416 (0.6\u03bcM). As DHODH catalyzes oxidation of dihydroorotate (DHO) to produce orotic acid (ORO) and finally forms UTP and CTP\uff0c we add four nucleotides (adenine nucleotide(A), guanine nucleotide(G), uracil nucleotide(U), and cytosine nucleotide(C)), DHO, ORO respectively to mini-replicon system to identify the target of S312 and S416. The results in Fig. 4F showed that the addition of 50\u03bcM either U or C could effectively rescue viral genome replication in S312-and S416-treated cells (as well as Brequinar-treated cells), whereas addition of neither A nor G changed the inhibitory effects. Moreover, supplement of DHODH substrate DHO cannot rescue viral genome replication (Fig. 4G) , but a supplement of DHODH product ORO can gradually reverse the inhibition effects of S312 and S416 (Fig. 4H) . The results further confirm that compounds S312 and S416 inhibit viral genome replication via targeting DHODH and interrupting the fourth step in de novo pyrimidine synthesis. The copyright holder for this preprint (which was not peer-reviewed) is the . S312 is advantageous over the DAA drug to treat advanced and late-phase disease with decreasing cytokine/chemokine storm.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 438,
+                    "end": 444,
+                    "text": "Fig.4E",
+                    "ref_id": "FIGREF16"
+                },
+                {
+                    "start": 1116,
+                    "end": 1123,
+                    "text": "Fig. 4F",
+                    "ref_id": "FIGREF16"
+                },
+                {
+                    "start": 1441,
+                    "end": 1450,
+                    "text": "(Fig. 4G)",
+                    "ref_id": "FIGREF16"
+                },
+                {
+                    "start": 1553,
+                    "end": 1562,
+                    "text": "(Fig. 4H)",
+                    "ref_id": "FIGREF16"
+                }
+            ],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "It is documented elsewhere that DAA drugs such as Osel is only completely effective in the early phase of infection, optimally within 48 hours of symptom onset 31 . And till now, there is no approved drug to treat advanced influenza disease at the late phase specifically. We suppose that S312 could be effective in the middle or late phase of disease because it targets a host pro-viral factor of DHODH not affected by viral replication cycle. To test this, we compared the therapeutic windows of S312 and Osel in early (D3-D7), middle & late (D5-D9)\uff0csevere late (D7-D11 or D6-D14) phases (workflow shown in Fig. 5A ). When drugs were given in the early phase, both Oseltreatment and 'Osel+S312'-combination-treatment conferred 100% protection (Fig.   5B ). When drugs were given at the middle & late phase (Fig. 5C) , single Osel-treatment wholly lost its antiviral effect with no surviving. However, S312-treatment could provide 50% protection, and drug combination reached to 100% protection. When drugs were given at severe late phase of disease that mice were starting dying (Fig. 5D) , neither single treatment of Osel nor S312 can rescue the mice from death but combined treatment still conferred to 25% survival. To really show the advantage of S312 in treating severe disease, we additionally treated the mice a bit early before dying around 80% of initial weights (D6-D14) with a more optimal dose of S312 (5mg/kg). The data in Fig. 5E showed that S312 rescued 50% of mice from severe body-weight losses, and combined treatment coffered additional 25% survival. These results once again highlight that S312 has remarkable advantages over Osel to treat severe diseases at the late phase, and its therapeutic effectiveness could even be improved when S312 was combined with DAA drug.",
+            "cite_spans": [
+                {
+                    "start": 160,
+                    "end": 162,
+                    "text": "31",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 609,
+                    "end": 616,
+                    "text": "Fig. 5A",
+                    "ref_id": null
+                },
+                {
+                    "start": 745,
+                    "end": 755,
+                    "text": "(Fig.   5B",
+                    "ref_id": null
+                },
+                {
+                    "start": 808,
+                    "end": 817,
+                    "text": "(Fig. 5C)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1081,
+                    "end": 1090,
+                    "text": "(Fig. 5D)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1439,
+                    "end": 1446,
+                    "text": "Fig. 5E",
+                    "ref_id": null
+                }
+            ],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "It is known that severe acute infections including influenza and COVID-19 always induce pathogenic immunity as cytokine/chemokine storms. Leflunomide and Teriflunomide are already clinically used in autoimmune disease to inhibit pathogenic cytokines and chemokines. We, therefore, suspect that DHODHi should also be anticytokine-storm in viral infectious disease. BALF from either Osel-or 'S312+Osel'treated mice were collected at D14 in an independently repeated experiment with a . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . lower infection dose. A parallel body weights excluded differences in virus load (Supplementary Fig. 4A) . The data in Supplementary Fig. 4B showed that the pathogenic inflammatory cytokines in 'S312+Osel'-treated group was largely reduced as compared to Osel-treated mouse in the levels of IL6, MCP-1, IL5, KC/GRO(CXCL1), IL2, IFN-\u03b3, IP-10, IL9, TNF-\u03b1, GM-CSF, EPO, IL12p70, MIP3\u03b1 and IL17A/F (listed in the order of reduce significance).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 725,
+                    "end": 748,
+                    "text": "(Supplementary Fig. 4A)",
+                    "ref_id": "FIGREF16"
+                },
+                {
+                    "start": 763,
+                    "end": 784,
+                    "text": "Supplementary Fig. 4B",
+                    "ref_id": "FIGREF16"
+                }
+            ],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "The results in all provide striking information that DHODH inhibitors are effective in infected animals not only by inhibiting virus replication (Shown in Fig. 3 and Fig. 4) but also by eliminating excessive cytokine/chemokine storm. Usage of DHODHi could finally benefit to advanced disease in late infection. In this study, we applied DHODH inhibitors including a computer-aided designed compound S312 into viral infectious disease. We found that direct-targeting DHODHi are broad-spectrum antiviral both in cell culture and in vivo. The candidate S312 had further advantage to be used in infected animals with low toxicity and high efficiency.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 155,
+                    "end": 161,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF15"
+                },
+                {
+                    "start": 166,
+                    "end": 173,
+                    "text": "Fig. 4)",
+                    "ref_id": "FIGREF16"
+                }
+            ],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "Moreover, S312 can rescue severe influenza infection by limiting inflammatory cytokine storm in vivo.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "DHODH is a rate-limiting enzyme catalyzing the fourth step in pyrimidine de novo synthesis. It catalyzes the dehydrogenation of dihydroorotate (DHO) to orotic acid (ORO) to finally generate Uridine (U) and Cytosine (C) to supply nucleotide resources in a cell. Under normal conditions, nucleotides are supplied via both de novo biosynthesis and salvage pathways, the latter of which is a way of recycling pre-existing nucleotides from food or other nutrition. However, in virus-infected cells, a large intracellular nucleotide pool is demanded by rapid viral replication. It is therefore reasonable that de novo nucleotides biosynthesis rather than salvage pathway is more critical for virus replication. Our data indeed show that virus replication is largely restricted when the DHODH gene was knocked off even with a complete culture medium. By contrast, cell growth was not affected by lacking DHODH at all, indicating that de novo nucleotides biosynthesis is not indispensable in normal cell growth without infection at least for days. More interestingly, we notice that compared with DNA viruses, RNA viruses need unique UMP but not TMP in their genomes. UMP is the . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . particular nucleoside produced by DHODH, which means RNA viruses might be more sensitive to DHODH activity. SARS-CoV-2, for instance, has around 32% of UMP in its genome explaining why DHODHi are effective and superior to SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "Nevertheless, the comparison between different viruses is worth to be studied in the future.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "Although several DHODHi have been documented to be antiviral by high-throughput screening [34] [35] [36] [37] . Most of these compounds are still at cell culture level with unknown in vivo efficacy. Therefore, the development of broad-spectrum antiviral agents targeting DHODH is still an exciting avenue in antiviral research. S312 and S416 present more potent inhibition and favorable pharmacokinetic profiles, moreover, the half-lives of S312 and S416 (8.20 and 9.12 h, respectively) are much shorter and more appropriate than that of Teriflunomide, indicating that they may have less possibility to bring toxic side effects from drug accumulation in the body. Strikingly, S312 showed active effects in vivo in lethal dose infection of influenza A viruses not only when used from the beginning of infection but also in the late phase when DAA drug is not responding anymore. Another surprise is the high SI value of S416 to against Zika (SI=1087.62), Ebola (SI=4746.11), and the current SARS-CoV-2 (SI>5882). These data interpreted that S416 is highly promising to develop further as it should be to S312. The extremely high SI of S416 may be due to its high binding affinity and favorable occupation of the ubiquinone-binding site of DHODH with faster-associating characteristics (kon = 1.76\u00d710 6 M -1 s -1 ) and slower dissociating binding characteristic (koff=2.97\u00d710 -3 s -1 ), which will reduce the possibility of off-target in vivo.",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 94,
+                    "text": "[34]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 95,
+                    "end": 99,
+                    "text": "[35]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 100,
+                    "end": 104,
+                    "text": "[36]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "[37]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "Acute viral infections usually cause severe complications associated with hyper induction of pro-inflammatory cytokines, which is also known as \"cytokine storm\" firstly named in severe influenza disease 38, 39 . Several studies showed that lethal SARS patients expressed high serum levels of pro-inflammatory cytokines (IFN-\u03b3, IL-1, IL-6, IL-12, and TGF\u03b2) and chemokines (CCL2, CXCL10, CXCL9, and IL-8) compared to uncomplicated SARS patients [40] [41] [42] [43] . Similarly, in severe COVID-19 cases, ICU patients had higher plasma levels of IL-2, IL-7, IL-10, GSCF, MCP1, MIP1A, and TNF\u03b1 compared to non-ICU patients 44 . Moreover, A clinical study of 123 patients with . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.11.983056 doi: bioRxiv preprint COVID-19 showed that the percentage of patients with IL-6 above normal is higher in severe group 45 . In terms of treatment, immunomodulatory agents can reduce mortality and organ injury of severe influenza. However, these immunomodulatory are mostly non-specific to viral infection but rather a systemic regulation, such as corticosteroid, intravenous immunoglobulin (IVIG) or angiotensin receptor blockers [46] [47] [48] [49] . Leflunomide and its active metabolite Teriflunomide have been approved for clinical treatment for excessive inflammatory diseases such as rheumatoid arthritis and multiple sclerosis 50 .",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 206,
+                    "text": "38,",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 207,
+                    "end": 209,
+                    "text": "39",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 443,
+                    "end": 447,
+                    "text": "[40]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 448,
+                    "end": 452,
+                    "text": "[41]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 453,
+                    "end": 457,
+                    "text": "[42]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 458,
+                    "end": 462,
+                    "text": "[43]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 619,
+                    "end": 621,
+                    "text": "44",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 995,
+                    "end": 997,
+                    "text": "45",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1306,
+                    "end": 1310,
+                    "text": "[46]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1311,
+                    "end": 1315,
+                    "text": "[47]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1316,
+                    "end": 1320,
+                    "text": "[48]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1321,
+                    "end": 1325,
+                    "text": "[49]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "Our data once again proved that DHODHi could further reduce cytokine storm than DAA drugs when using influenza-A-virus infected animal as a model. We believe that a similar immune-regulating role of DHODHi will exist in COVID-19 patients. Thus, by targeting DHODH, the single key enzyme in viral genome replication and immuneregulation, a dual-action of DHODH can be realized in fighting against a broad spectrum of viruses and the corresponding pathogenic-inflammation in severe infections. We hope our study may quickly and finally benefit the patients now suffering from severe COVID-19 and other infectious diseases caused by emerging and reemerging viruses. The copyright holder for this preprint (which was not peer-reviewed) is the . was kindly provided by Bo Zhang from Wuhan Virology Institute of CAS 52 . DHODH inhibitors S312 and S416 were synthesized using our previously reported synthetic routes 27, 53 . Leflunomide, Teriflunomide, Brequinar, Oseltamivir, Adenosine, Uridine, Cytidine, Guanosine, Orotic acid, Dihydroorotate were purchased from Sigma-Aldrich. The copyright holder for this preprint (which was not peer-reviewed) is the . DHODH in the cell was 20 \u00b5M, and the concentration of inhibitor in the syringe was 150 \u00b5M for S312 or 100 \u00b5M for S416. All titration experiments were performed by adding the inhibitor in steps of 2 \u00b5L. The data were analyzed using Microcal origin software by fitting to a one-site binding model.",
+            "cite_spans": [
+                {
+                    "start": 810,
+                    "end": 812,
+                    "text": "52",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 910,
+                    "end": 913,
+                    "text": "27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 914,
+                    "end": 916,
+                    "text": "53",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway."
+        },
+        {
+            "text": "Surface plasmon resonance experiments were performed with a BIAcore T200 (GE Healthcare) according to our previous work 53 . The running buffer contained 1.05\u00d7PBS, 0.005% (vol/vol) surfactant P20, pH 7.4, and 1% DMSO. The purified DHODH, which was diluted in sodium acetate solution (pH 5.5) with a final concentration of 30 \u03bcg/mL, was immobilized on a CM5 sensor chip by amine coupling. All analyte measurements were performed at a flow rate of 30 \u03bcL/min. The analyte was diluted in the running buffer from the top concentration. Data processing and analysis were performed using BIAevaluation 1.1 software. Data were processed with Graphpad prism software to calculate EC50 and CC50 values of the compounds.",
+            "cite_spans": [
+                {
+                    "start": 120,
+                    "end": 122,
+                    "text": "53",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Surface plasmon resonance (SPR)"
+        },
+        {
+            "text": "Aliquots of Huh7 (1x10 4 cells/well) were seeded into 12-well plates and infected with the Zika virus (MOI=0.05). At 4h post-infection, the medium was removed, and cells . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Anti-Zika virus activity"
+        },
+        {
+            "text": "were treated with appropriate concentration of compounds in infection medium (DMEM+2% FBS+25 mM HEPES). After 7 days, the supernatant was collected and RNA was extracted by TRIzol Reagent (Invitrogen) and submitted to reverse transcription-quantitative PCR with the PrimeScript RT reagent kit (TaKaRa). The primers to detect Zika-specific RNA were listed below: Zika virus NS3 (F: 5'-CTCCAGGATGCAAGTCTAAG -3', R: 5'-ACCCAGCAGGAACTTCAGGA -3').",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Anti-Zika virus activity"
+        },
+        {
+            "text": "All drug concentrations were performed at least three replicates. Data were processed with Graphpad prism software to calculate EC50 and CC50 values of the compounds.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Anti-Zika virus activity"
+        },
+        {
+            "text": "Ebolavirus must be operated in the BSL-4 laboratory. To reduce the biological safety risks, the Ebolavirus replicon system was chosen for antiviral efficacy assay 54 The copyright holder for this preprint (which was not peer-reviewed) is the .",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 165,
+                    "text": "54",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Bright-Glo Pharmacodynamic assay for Ebola Replicon"
+        },
+        {
+            "text": "To detect viral protein expression in Vero E6 cells, cells were fixed with 4% paraformaldehyde and permeabilized with 0.5% Triton X-100. The cells were then incubated with the primary antibody (a polyclonal antibody against the NP of a bat SARS-related CoV) after blocking, followed by incubation with the secondary antibody (Alexa 488-labeled goat anti-rabbit, Abcam).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IFA assay of SARS-CoV-2"
+        },
+        {
+            "text": "To determine the viral growth curve, A549 ( ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 42,
+                    "end": 43,
+                    "text": "(",
+                    "ref_id": null
+                }
+            ],
+            "section": "Virus growth curve and plaque assay"
+        },
+        {
+            "text": "The 293T cells were seeded into 24-well plates at 1\u00d710 5 respectively. Diluted compounds were given by intraperitoneal (i.p) injection once a day. The drug treatment was initiated on days 0, 3, 5, 6, 7 post-infection respectively and continued for several days. Animal weight and survival were monitored daily, and mice were euthanized until the end of the experiment or when body-weight lost more than 25%.",
+            "cite_spans": [
+                {
+                    "start": 55,
+                    "end": 56,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza mini-replicon system and DHODH substrates assay"
+        },
+        {
+            "text": "The protein structure data has been uploaded to the Protein Data Bank with accession number 6M2B.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability"
+        },
+        {
+            "text": "Group Co., Ltd and Beijing Taikang Yicai Foundation for their great supports to this work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability"
+        },
+        {
+            "text": "The authors declare no competing interests. The copyright holder for this preprint (which was not peer-reviewed) is the . concentrations of Teriflunomide, Brequinar, S312 and S416 respectively. Inhibitory effects of these compounds (EC50) to EBOV mini-genome replication were determined using Bright-Glo Luciferase Assay (left-hand scale, red curve). CC50 of compounds were determined by analyzing BSR-T7/5 cell viability using CellTiterGlo Assay (righthand scale, green curve). The results are presented as a mean of at least two replicates \u00b1 SD. (B) Anti-Zika virus efficacy. Huh7 cells were infected with Zika virus (MOI=0.05) for 4 hours and then treated with increasing concentrations of compounds Teriflunomide, Brequinar, S312 and S416 respectively. The viral yields in cell supernatants were then quantified by qRT-PCR to reflect the replication efficiency of Zika virus. (C) Anti-SARS-CoV-2 virus efficacy. Aliquots of Vero E6 cells were seeded in 96-well plates and then infected with Beta CoV/Wuhan/WIV04/2019 at MOI of 0.03. At the same time, different concentrations of the compounds were added for co-culture. Cell supernatants were harvested 48 h.p.i. and RNA was extracted and quantified by qRT-PCR to determine the numbers of viral RNA copies. (D) Immuno-fluorescence assay of SARS-CoV-2-infected cells. Vero E6 cells were infected with SARS-CoV-2 under the same procedure of C. Cells were fixed and permeabilized for staining with anti-viral NP antibody, followed by staining with Alexa 488-labeled secondary antibody. Green represents infected cells. Nuclei were stained by DAPI, and the merge of NP and nuclei were shown. Scale bar, 400uM. The results (B, C) are presented as a mean of at least three replicates \u00b1 SD. Statistical analysis, One-way ANOVA for (B). NS, p >0.05; *, p <0.05; **, p <0.01; ***, p <0.001. (2.5, 5, 10mg/kg), Oseltamivir (20mg/kg) and S312+Oseltamivir (10mg/kg+20mg/kg) once per day from D1-D14 respectively. The body weight and survival were monitored for 14 days or until body weight reduced to 75% (n = 4 mice per group). (C) Mice were inoculated intranasally with 600 PFU of A/SC/09 (H1N1) and then i.p. with S312 (10mg/kg), Oseltamivir (20mg/kg) and S312+Oseltamivir (10mg/kg+20mg/kg) once per day from D1 to D14. The body weight and survival were monitored until 14 days post-infection or when the bodyweight reduced to 75%. The dotted line indicates endpoint for mortality (75% of initial weight). The body weights are present as the mean percentage of the initial weight \u00b1SD of 4-5 mice per group and survival curve were shown. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A\"IV to \"Z\"IKV: Attacks from Emerging and Re-emerging Pathogens",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "From",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cell",
+            "volume": "172",
+            "issn": "",
+            "pages": "1157--1159",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Expanding the activity spectrum of antiviral agents",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ianevski",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Andersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Merits",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bj\u00f8r\u00e5s",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kainov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Drug Discov. Today",
+            "volume": "24",
+            "issn": "",
+            "pages": "1224--1228",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "RNA based mNGS approach identifies a novel human coronavirus from two individual pneumonia cases in 2019 Wuhan outbreak",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "",
+            "pages": "313--319",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Advances in the development of nucleoside and nucleotide analogues for cancer and viral diseases",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jordheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Durantel",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zoulim",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dumontet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat Rev Drug Discov",
+            "volume": "12",
+            "issn": "",
+            "pages": "447--464",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Nucleosides for the treatment of respiratory RNA virus infections",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K S"
+                    ],
+                    "last": "Paul C Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jerome",
+                    "middle": [],
+                    "last": "Deval",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Antiviral Chemistry and Chemotherapy",
+            "volume": "26",
+            "issn": "",
+            "pages": "1--19",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Cellular targets for influenza drugs",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Min",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Subbarao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nat Biotechnol",
+            "volume": "28",
+            "issn": "",
+            "pages": "239--240",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Broad-Spectrum Antiviral Agents: A Crucial Pandemic Tool",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Adalja",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Inglesby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Expert Rev. Anti Infect. Ther",
+            "volume": "17",
+            "issn": "",
+            "pages": "467--470",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Discovery of a broad-spectrum antiviral compound that inhibits pyrimidine biosynthesis and establishes a type 1 interferon-independent antiviral state",
+            "authors": [
+                {
+                    "first": "D.-H",
+                    "middle": [],
+                    "last": "Chung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Antimicrob. Agents Chemother",
+            "volume": "60",
+            "issn": "",
+            "pages": "4552--4562",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Characterization of dengue virus resistance to brequinar in cell culture",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qing",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Inhibiting pyrimidine biosynthesis impairs Ebola virus replication through depletion of nucleoside pools and activation of innate immune responses",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Luthra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Antiviral Res",
+            "volume": "158",
+            "issn": "",
+            "pages": "288--302",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Broad-spectrum antiviral that interferes with de novo pyrimidine biosynthesis",
+            "authors": [
+                {
+                    "first": "H.-H",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kunz",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Simon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "108",
+            "issn": "",
+            "pages": "5777--5782",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Atovaquone inhibits arbovirus replication through the depletion of intracellular nucleotides",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kottkamp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Virol",
+            "volume": "93",
+            "issn": "",
+            "pages": "389--00319",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Antiviral effects of selected IMPDH and DHODH inhibitors against foot and mouth disease virus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mei-Jiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Biomed. Pharmacother",
+            "volume": "118",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Discovery of potent broad spectrum antivirals derived from marine actinobacteria",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Raveh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS One",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Original chemical series of pyrimidine biosynthesis inhibitors that boost the antiviral interferon response",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lucas-Hourani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Antimicrob. Agents Chemother",
+            "volume": "61",
+            "issn": "",
+            "pages": "383--00317",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Inhibition of pyrimidine biosynthesis pathway suppresses viral growth through innate immunity",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lucas-Hourani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS Pathog",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "SAR-based optimization of a 4-quinoline carboxylic acid analogue with potent antiviral activity",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Das",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "ACS Med. Chem. Lett",
+            "volume": "4",
+            "issn": "",
+            "pages": "517--521",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Respiratory syncytial virus infection in macaques is not suppressed by intranasal sprays of pyrimidine biosynthesis inhibitors",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Grandin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Antiviral Res",
+            "volume": "125",
+            "issn": "",
+            "pages": "58--62",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Discovery, optimization, and target identification of novel potent broadspectrum antiviral inhibitors",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Med. Chem",
+            "volume": "62",
+            "issn": "",
+            "pages": "4056--4073",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Broad-spectrum inhibition of common respiratory RNA viruses by a pyrimidine synthesis inhibitor with involvement of the host antiviral response",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Gen. Virol",
+            "volume": "98",
+            "issn": "",
+            "pages": "946--954",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Assessment of drug candidates for broad-spectrum antiviral therapy targeting cellular pyrimidine biosynthesis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marschall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Antiviral Res",
+            "volume": "100",
+            "issn": "",
+            "pages": "640--648",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Mechanistic study of malononitrileamide FK778 in cardiac transplantation and CMV infection in rats",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Transplantation",
+            "volume": "79",
+            "issn": "",
+            "pages": "17--22",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Discovery of Diverse Human Dihydroorotate Dehydrogenase Inhibitors as Immunosuppressive Agents by Structure-Based Virtual Screening",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Diao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Med. Chem",
+            "volume": "55",
+            "issn": "",
+            "pages": "8341--8349",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Rational Design of Benzylidenehydrazinyl-Substituted Thiazole Derivatives as Potent Inhibitors of Human Dihydroorotate Dehydrogenase with in Vivo Anti-arthritic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Activity. Sci. Rep",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Design, synthesis, X-ray crystallographic analysis, and biological evaluation of thiazole derivatives as potent and selective inhibitors of human dihydroorotate dehydrogenase",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Inhibition of dihydroorotate dehydrogenase activity by brequinar sodium",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Perrella",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Behrens",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Papp",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Cancer Res",
+            "volume": "52",
+            "issn": "",
+            "pages": "3521--3527",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Neuraminidase inhibitors: zanamivir and oseltamivir",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mcnicholl",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcnicholl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Ann Pharmacother",
+            "volume": "35",
+            "issn": "",
+            "pages": "57--70",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Broad-spectrum antiviral agents",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Frontiers in microbiology",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The future of antivirals: broad-spectrum inhibitors. Current opinion in infectious diseases",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Debing",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Neyts",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Delang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "28",
+            "issn": "",
+            "pages": "596--602",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "GSK983: a novel compound with broad-spectrum antiviral activity",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Harvey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Antiviral Res",
+            "volume": "82",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Broad-spectrum inhibition of common respiratory RNA viruses by a pyrimidine synthesis inhibitor with involvement of the host antiviral response",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "The Journal of general virology",
+            "volume": "98",
+            "issn": "",
+            "pages": "946--954",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Inhibition of dengue virus through suppression of host pyrimidine biosynthesis",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "6548--6556",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Evaluation of anti-Zika virus activities of broad-spectrum antivirals and NIH clinical collection compounds using a cell-based, highthroughput screen assay",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Adcock",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Golden",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Antiviral Res",
+            "volume": "138",
+            "issn": "",
+            "pages": "47--56",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Influenza-associated encephalopathy--pathophysiology and disease mechanisms",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yokota",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Human infection by avian influenza A H5N1",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Hong Kong Med J",
+            "volume": "11",
+            "issn": "",
+            "pages": "189--199",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Temporal changes in cytokine/chemokine profiles and pulmonary involvement in severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jung-Yien",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Persistence of lung inflammation and lung cytokines with high-resolution CT abnormalities during recovery from SARS",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Plasma inflammatory cytokines and chemokines in severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Clinical & Experimental Immunology",
+            "volume": "136",
+            "issn": "",
+            "pages": "95--103",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Analysis of Serum Cytokines in Patients with Severe Acute Respiratory Syndrome",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Infection & Immunity",
+            "volume": "72",
+            "issn": "",
+            "pages": "4410--4415",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Characteristics of lymphocyte subsets and cytokines in peripheral blood of 123 hospitalized patients with 2019 novel coronavirus pneumonia (NCP). medRxiv",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Clinical findings in 111 cases of influenza A (H7N9) virus infection",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "368",
+            "issn": "",
+            "pages": "2277--2285",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Hyperimmune Intravenous Immunoglobulin Treatment: A Multicentre Double-Blind Randomized Controlled Trial for Patients with Severe A(H1N1)pdm09 Infection",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hung",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "144",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Meta-Analysis: Convalescent Blood Products for Spanish Influenza Pneumonia: A Future H5N1 Treatment?",
+            "authors": [
+                {
+                    "first": "Thomas",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Luke",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M K"
+                    ],
+                    "last": "Jeffrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hoffman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Annals of Internal Medicine",
+            "volume": "145",
+            "issn": "",
+            "pages": "599--609",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Evaluation of the efficacy and safety of a statin/caffeine combination against H5N1, H3N2 and H1N1 virus infection in BALB/c mice",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "38",
+            "issn": "",
+            "pages": "215--223",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "On dihydroorotate dehydrogenases and their inhibitors and uses",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Munier-Lehmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Vidalain",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tangy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Janin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Med Chem",
+            "volume": "56",
+            "issn": "",
+            "pages": "3148--3167",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Sumoylation of influenza A virus nucleoprotein is essential for intracellular trafficking and virus growth",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "9379--9390",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Isolation and characterization of Zika virus imported to China using C6/36 mosquito cells",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Virol Sin",
+            "volume": "31",
+            "issn": "",
+            "pages": "176--179",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Structure-based design of potent human dihydroorotate dehydrogenase inhibitors as anticancer agents",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Med. Chem. Commun",
+            "volume": "7",
+            "issn": "",
+            "pages": "1441--1448",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Minigenome-Based Reporter System Suitable for High-Throughput Screening of Compounds Able To Inhibit &lt",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jasenosky",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Neumann",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kawaoka",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Replication and/or Transcription",
+            "authors": [],
+            "year": 2010,
+            "venue": "Antimicrob Agents Chemother",
+            "volume": "54",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "New low-viscosity overlay medium for viral plaque assays",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hd",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Virology journal",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "only active in vivo at low efficacy showing no obvious superior to DAA drugs. To test whether our potent DHODHi could refresh the important role of targeting DHODH in viral disease, we next explored in vivo efficacy of S312 by intranasally infecting BALB/c mice at a lethal dose of WSN (2LD50=4000pfu) or 2009 pandemic H1N1 (A/Sichuan/01/2009, SC09) (300pfu) virus. Treatment of S312 or Osel or combined treatment of 'S312+Osel' was given by the intraperitoneal (i.p.) route at 4h p.i. once per day from the beginning of infection to Day 14 to determine body weight changes and mortality (experimental procedure shown in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Many different RNA viruses had caused epidemics and pandemics in the past 20 years, from avian influenza virus (AIV) H5N1 in 1997, SARS-CoV in 2002, pandemic H1N1 in 2009, MERS-CoV in 2012, AIV H7N9 in 2013, Ebola virus in 2013, Zika virus in 2016, to SARS-CoV-2 in 2019. Many of them are still prevalent in certain countries and SARS-CoV-2 continues causing huge damage to China and worldwide. Theconventional one-bug-one-drug paradigm is insufficient to deal with the challenges of these emerging and re-emerging pathogenic viruses 32 , moreover, it is too late to develop drugs against each virus behind epidemics33 . Thus, it is imperative to develop new ideas, highly effective, broad-spectrum antiviral agents that can treat various viral infections.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "MDCK, A549, Vero E6, Huh7 cells were obtained from the American Type Culture Collection (ATCC). 293FT cells were kindly provided by Paul Zhou (Institute Pasteur of Shanghai, China). BSR T7/5 cells stably expressing the T7 RNA polymerase gene were kindly provided by Gang Zou (Institute Pasteur of Shanghai, China). MDCK, A549, Vero E6, Huh7, 293FT cells were cultured in DMEM (Gibco) supplemented with 10%FBS (Gibco) and 1% P/S (Gibco). BSR T7/5 cells were cultured in GMEM (Gibco) supplemented with 10%FBS (Gibco), 1% L-Glutamine (Gibco), 2% MAA and 1% P/S (Gibco). The A/WSN/33 virus was generated by reverse genetics as previously described 51 . The A/Sichuan/1/2009(H1N1)(SC09), A/Jiangxi-Donghu/312/2006(H3N2), A/Guangzhou/333/99(H9N2) were kindly provided by Prof. Yuelong Shu (Chinese National Influenza Center). Zika virus SZ-WIV001 (KU963796)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "DHODH knock-out engineered A549 cell line was generated by CRISPR/Cas9 gene-editing system. The following four group primers for sgRNA were synthesized by Generay Company (Shanghai, China), and cloned into lentiCRISPRv2 vector provided by Dimitri Lavillette (Institute Pasteur of Shanghai, China). 293FT cells were then cotransfected with lentivirus packaging plasmids (lenti-CRISPR v2-DHODH-sgRNA, psPAX2, and PMD2.G) by Lipofectamine\u00ae 2000 (ThermoFisher) for 48 hours. The lentivirus supernatants were harvested after centrifugation and filtration to (then mix supernatants of four sgRNAs) to transduce 1.5 x 10 6 A549 cells into a 6-well plate for 72 h at 37 \u00b0C. Cells were expanded into 10 mm plates and grown in the presence of puromycin (5 \u03bcg/mL) for 3-5 days to select sgRNA-positive cells. Thereafter, singlecell sorting was performed in a 96-well plate to grow single clones, and western blot using the anti-DHODH antibody (Santa Cruz) was performed to detect the expression level of DHODH. The best KO cells with the lowest residue DHODH level were finally used. The primers of DHODH sgRNAs were listed belowIsothermal titration calorimetry (ITC)ITC measurements were carried out at 25 \u00b0C on a MicroCal iTC200 (GE Healthcare).For the titration of an inhibitor to DHODH, both were diluted using the buffer (20 mM HEPES, pH8.0, 150 mM KCl, 10% Glycerol and 10% DMSO). The concentration of",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Based on CellTiter-Glo\u00ae Cell Viability Assay (Promega), anti-influenza virus activities of compounds were evaluated. For compound toxicity assays (CC50), MDCK in a 96well plate at a density of 2\u00d710 4 cell/well were cultured in the present of serial dilutions of compounds in infection solution (DMEM + 0.2% BSA + 25 mM HEPES + 1 \u03bcg/mL TPCK). After 72 hours of incubation in a 37 \u00b0C, 5% CO2 incubator, 25 \u00b5l of CellTiter-Glo\u00ae reagent was added to each well, and then record the fluorescence (Luminescence) value to reflect cell viability. For compound effective assays (EC50), the same numbers of cells were seeded in a 96-well plate and were infected by 50 \u00b5L of a 20 TCID50 virus suspension and another 50 \u00b5L of drug dilutions. The cells were then incubated at 37 \u00b0C until the virus control group reached a 75%-100% cytopathic effect. Cell viability was quantified as above. All drug concentrations were performed at least three replicates.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "(T7 RNA polymerase stable expressing cell) were seeded in 96-well plates and co-transfected with p3E5E-Luc (25 ng), pCEZ-NP (25 ng), pCEZ-VP35 (25 ng), pCEZ-VP30(15 ng), and pCEZ-L (150 ng) per well. Afterward, 50 \u03bcL of drug dilutions were added into each well and cultured in at 37 \u00b0C, 5% CO2 for 24 hours. Replicon efficacy was determined by adding 50 \u03bcL/well of Bright-Glo reagent to record the fluorescence (Luminescence) values. All drug concentrations were performed at least three two replicates. Data were processed with Graphpad prism software to calculate EC50 and CC50 values of the compounds. Detection of anti-SARS-CoV-2 efficacy by real-time quantitative PCR Vero E6 cells seeded on 48-well plates were infected with virus 2019BetaCoV/Wuhan/WIV04/2019 isolated by Wuhan Institute of Virology, Chinese Academy of Sciences at MOI of 0.03. At the same time, different concentrations of the drugs were added for co-culture, and DMSO dilution was used as a negative control. Cell supernatants were harvest 24 hours post-infection and RNA was extracted by a viral RNA extraction kit (Takara, Cat no. 9766). The number of viral copies was detected by real-time quantitative reverse transcription PCR (qRT-PCR) (Takara Cat no.RR820A) to reflect the replication efficiency of the virus. Data were processed by Graphpad prism software to calculate EC50 of the compound. The cytotoxicity of the tested drugs on cells was determined by CCK8 assays (Beyotime, China).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "WT and DHODH -/-) cells were infected with the indicated viruses at an MOI of 0.01. The supernatant of infected cells was collected at different time points post-infection and titrated by plaque assay on MDCK cells. The viral plaque assay with immunostaining was performed as previously described 55 . Briefly, MDCK cells cultivated in 24-well plates were infected with WSN virus. After 0.5 hours of incubation at 37 \u2103 in 5% CO2, the virus medium was removed, and 1 ml of 2.4% Avicel (FMC Corporation) medium in the presence of indication drugs was added. Cells were incubated for another 48 hours at 37 \u2103 in 5% CO2 and then fixed with 4% PFA. Immunostaining was performed using an anti-NP polyclonal antibody conjugated with HRP (Antibody Research Center, Shanghai Institute of Biological Science). True Blue substrate (KPL) was added to visualize the plaques.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "cells per well and were transfected with influenza A/WSN/33 virus PB1-, PB2-, PA-and NP-expressing plasmids (100 ng each), the influenza virus-specific RNA polymerase I driven firefly luciferase reporter (pPo\u2161-NP-luc) (100 ng, provide by Han-D Klenk, Marburg University), and the Renilla luciferase reporter pRLSV40 10 ng, Promega). After 12 hours, the transfected 292T cells were treated with different concentrations of the test compounds or exogenous nucleosides (Adenosine, Uridine, Cytidine, Guanosine) or orotic acid or dihydroorotate. Cells were harvested after another 24 hours and firefly luciferase and Renilla luciferase expression were determined using the Dual-Luciferase Assay Kit (Promega).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "the specific pathogen-free animal facility. All animal experiments were approved by the Institutional Animal Care and Use Committee of Institut Pasteur of Shanghai and Wuhan University. For animal infection studies, mice were anesthetized using diethyl ether and intranasally challenged with virus suspension, i.e. 4000 PFU of A/WSN/33 H1N1 in 50ul of PBS and 600 PFU of A/SC/09 (H1N1) in 30ul of PBS,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "X. and H.L. conceived the project and designed the experiments; K.X., R.X., LK.Z., S.L., M.D., Y.W., Y.Z., Y.W., W.S., X.J., J.S., Y.T., L.X., Z.S., LL.Z. performed the experiments; D.L., K.L., G.X, C.Y., Y.L., Z.Z., R.W., G.Z. provide materials or technological supports, K.X., H.L., R.X., LK.Z., S.L., Y.W., Y.Z., Y.T., L.X., Z.S., K.L., G.X, Z.Z., R.W. and LL.Z., analyzed and discussed the data; K.X., H.L., R.X., LK.Z., S.L., Y.W., Y.Z., K.L., and LL.Z. wrote the manuscript.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Legends\uff1a",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Discovery of potent DHODH inhibitors and their anti-influenza-A-virus activities. (A)The discovery and design diagram. Binding analysis of S312 (B) and S416 (C). Thermodynamic analysis of the binding of S312 and S416 to DHODH were carried out at 25 \u00b0C on a MicroCal iTC200 instrument. Kinetic analysis of the binding of S312 and S416 to DHODH were performed with a Biacore T200 instrument.(D) Inhibitory activities of DHODH inhibitors against influenza A virus (A/WSN/33 [H1N1]). MDCK cells were infected with WSN virus (20 TCID50/mL) in the presence of increasing concentrations of compounds (Teriflunomide, Leflunomide, S312 and S416) for 72h. Inhibition efficiencies of these four compounds against the WSN virus (left-hand scale, red curve) and their cytotoxicity (right-hand scale, green curve) were all determined using cell viability assay. (E) and (F) Antiviral activities of S416 against influenza A virus H3N2 and H9N2. The experimental procedure and the detection method were the same as shown in (D). EC50 of the S416 was shown. The results (D, E, and F) are presented as a mean of at least three replicates \u00b1 SD. (G) Observation of virus morphology in the presence of the indicated compound. MDCK cells were treated with 5IC50 of S312 or Oseltamivir at the meantime of infection. Cells were fixed and stained after 48 h.p.i., Upper well, S312 (12.5 \u03bcM); Centre well, Oseltamivir (3 \u03bcM); Bottom well, Control (DMSO).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Broad-spectrum antiviral activities of DHODH inhibitors. (A) Anti-Ebola replication efficacy. BSR-T7/5 cells were transfected with the EBOV mini-genome replication system (NP, VP35, VP30, MG, and L) in the presence of increasing",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "The in vivo antiviral activity of S312 in influenza-A-virus infected mice. (A) Diagram of the experimental procedure. (B) BALB/c mice were intranasal infected with 4000PFU of WSN virus and then intraperitoneal injected (i.p.) with PBS, S312",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "DHODHi inhibit virus replication through interrupting the de novo pyrimidine synthesis pathway. (A) The expression levels of DHODH protein in WT and DHODH -/-A549 cells. (B) The growth curve of the WSN virus on A549 (WT or DHODH -/-) cells. A549 (WT or DHODH -/-) cells were infected with WSN virus with MOI of 0.01. The supernatants were assayed for viral titers at 2h, 24h, 48h, and 72h post-infection by plaque assay. (C) The same experimental procedures were performed as shown in (B) after adding S312 at a final concentration of 12.5 \u03bcM (5IC50). (D) Statistics of 48h and 72h of viral titers with or without S312 on A549 (WT or DHODH -",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "/-) cells. (E) The 293T cells were co-transfected with the influenza virus minigenome plasmid system (PB1, PB2, PA, NP, pPo\u2161-NP-luc, and pRLSV40). After 12 h.p.i., cells were treated with 2-fold serial dilutions of Oseltamivir, S312, S416, and Brequinar respectively. The luciferase activities were measured 24 h of post-treatment. (F) Effects of nucleotides addition on the antiviral efficacies of S312 and S416. The 10-fold IC50 of S312 (24 \u03bcM) or S416 (0.6 \u03bcM) and 50\u03bcM four nucleotides (Adenosine, Uridine, Cytidine, Guanosine) were added at the same time on 293T cells. After 24 h of treatment, the luciferase activities were measured. (G and H) Effects of addition of dihydroorotate (DHO) or Orotic acid (ORO) on the antiviral efficacies of S312 and S416. The luciferase activities were detected as above after treating with indicated concentrations of DHO or ORO. All results are presented as a mean of three replicates \u00b1 SD. Statistical analysis, two-way ANOVA for B, C, and D. One-way ANOVA for E, F, G and H. NS, p >0.05; *, p <0.05; **, p <0.01; ***, p <0.001. D7-11 (D) . Another groups of S312 (5mg/kg) or S312+Oseltamivir (5mg/kg+20mg/kg) were given i.p. once per day from D6 to D13 in E. The green bars indicate the period of drug administration. The body weight and survival were monitored until 14 days post-infection or when the bodyweight reduced to 75%, respectively (n =4-5 mice per group). The dotted line indicates endpoint for mortality (75% of initial weight). The body weights are present as the mean percentage of the initial weight \u00b1SD of 4-5 mice per group and survival curve were shown.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1072,
+                    "end": 1081,
+                    "text": "D7-11 (D)",
+                    "ref_id": null
+                }
+            ],
+            "section": "annex"
+        }
+    ]
+}

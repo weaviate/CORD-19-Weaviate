@@ -1,0 +1,1235 @@
+{
+    "paper_id": "b5be10942198c0a79dff8aea2253b77ae2401882",
+    "metadata": {
+        "title": "Early, low-dose and short-term application of corticosteroid treatment in patients with severe COVID-19 pneumonia: single-center experience from Wuhan, China",
+        "authors": [
+            {
+                "first": "Yin",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Weiwei",
+                "middle": [],
+                "last": "Jiang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qi",
+                "middle": [],
+                "last": "He",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Cheng",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Baoju",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pan",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "addrLine": "Jiefang Avenue 1277#, Wuhan, Hubei",
+                        "postCode": "430000",
+                        "settlement": "Wuhan",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nianguo",
+                "middle": [],
+                "last": "Dong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qiaoxia",
+                "middle": [],
+                "last": "Tong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Severe patients with 2019 novel coronavirus (2019-nCoV) pneumonia progressed rapidly to acute respiratory failure. We aimed to evaluate the definite efficacy and safety of corticosteroid in the treatment of severe COVID-19 pneumonia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: Forty-six hospitalized patients with severe COVID-19 pneumonia hospitalized at Wuhan Union Hospital from January 20 to February 25, 2020, were retrospectively reviewed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The patients were divided into two groups based on whether they received corticosteroid treatment. The clinical symptoms and chest computed tomography(CT) results were compared.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": ": A total of 26 patients received intravenous administration of methylprednisolone with a dosage of 1-2mg/kg/d for 5-7 days, while the remaining patients not. There was no significant difference in age, sex, comorbidities, clinical or laboratory parameters between the two groups on admission. The average number of days for body temperature back to the normal range was significantly shorter in patients with administration of methylprednisolone when compared to those without administration of methylprednisolone (2.06\u00b10.28 vs. 5.29\u00b10.70, P=0.010). The patients with administration of methylprednisolone had a faster improvement of SpO2, while patients without administration of methylprednisolone had a significantly longer interval of using supplemental oxygen therapy (8.2days[IQR 7.0-10.3] vs. 13.5days(IQR 10.3-16); P<0.001).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In terms of chest CT, the absorption degree of the focus was significantly better in patients with administration of methylprednisolone.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Our data indicate that in patients with severe COVID-19 pneumonia, early, lowdose and short-term application of corticosteroid was associated with a faster improvement of clinical symptoms and absorption of lung focus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Corona Virus Disease 2019 (COVID- 19) was first reported in late December 2019, originating in Wuhan, China and then transmitted in Hubei Province, throughout China and even other countries [1, 2] . This ongoing outbreak has already been declared by World Health Organization(WHO) as a Public Health Emergency of International Concern (PHEIC). As of February 28, there are 78,824 confirmed cases, 7,952 severe cases and 2,788 confirmed deaths across China [3] . COVID-19 is a beta-coronavirus, presenting as viral pneumonia with high infectiousness through respiratory droplets or direct contact and appears to have greater infectivity and a lower-case fatality rate when compared to severe acute respiratory syndrome (SARS) and Middle Eastern respiratory syndrome(MERS) [4, 5] . Moreover, the pathological features of COVID-19 pneumonia greatly resemble those seen in SARS and MERS, and show diffuse alveolar damage with cellular fibromyxoid exudates, desquamation of pneumocytes and hyaline membrane formation, indicating acute respiratory distress syndrome(ARDS) [6] .",
+            "cite_spans": [
+                {
+                    "start": 34,
+                    "end": 37,
+                    "text": "19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 190,
+                    "end": 193,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 194,
+                    "end": 196,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 456,
+                    "end": 459,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 771,
+                    "end": 774,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 775,
+                    "end": 777,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1066,
+                    "end": 1069,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Corticosteroid are widely used as therapy for ARDS and have been used to treat SARS with proof of efficacy, which could significantly decrease the mortality of severe SARS patients [7, 8] .",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 184,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 185,
+                    "end": 187,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "However, there is no evidence-based medical evidence to confirm the definite efficacy and safety of corticosteroid in the treatment of severe COVID-19 pneumonia. To address this issue, we have performed a retrospective study on the clinical and radiographic outcomes of treatment with or without corticosteroid for a cohort of patients with severe COVID-19 pneumonia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We studied patients with severe COVID-19 pneumonia from January 20 to February 25, 2020 at the isolation ward of Union Hospital of Huazhong University of Science and Technology.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "Union Hospital is sentinel general hospital located in the endemic areas of COVID-19 in Wuhan, Hubei Province, and is designated by the government for the treatments of COVID-19 infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "The study was approved by the Research Ethics Committee of Tongji Medical College, Huazhong . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "University of Science and Technology, Wuhan, China. Verbal consent was obtained from patients before the enrollment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "Diagnosis of 2019-nCoV pneumonia in this study were diagnosed according to the WHO interim guideline [9] . Throat swab sample of the patients was collected and COVID-19 was confirmed by real-time RT-PCR assay using a 2019-nCoV nucleic acid detection kit according to the manufacturer protocol (Shanghai bio-germ Medical Technology Co Ltd) [10] . The clinical classification according to the coronavirus pneumonia diagnosis and treatment plan (trial version 5) developed by the National Health Committee of the People's Republic of China, and those meet any of the followings were diagnosed as severe case: (1) respiratory distress, respiratory rate per min\u226530; (2) in the resting state, means oxygen saturation\u226493%; (3) arterial blood oxygen partial pressure/oxygen concentration\u2264300mmHg (1mmHg = 0.133kPa). (4) other conditions such as older than 60 years, with complication of hypertension, diabetes, coronary disease, cancer, pulmonary heart disease, structural lung disease and immunosuppressed individuals.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 104,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 339,
+                    "end": 343,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 661,
+                    "end": 664,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "The demographic characteristics, comorbidities, symptoms, clinical parameters, laboratory indexes and chest computed tomographic (CT) scan findings were extracted from electronic medical records. The vital signs of the patients (temperature, heart rate, blood pressure, respiratory frequency and oxygen saturation [SpO2]) were monitored daily; The blood tests (complete blood count, liver and renal function, C-reactive protein, Inflammatory factors and lactate dehydrogenase) were examined every 3 days; The chest CT scan was performed every 7-10 days. Assessment criteria of this study was the dynamic changes of the indexes mentioned above.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "The Statistical Packages for Social Sciences, version 19.0 (SPSS) were used for data analysis with P < 0.05 as the criterion for significance. Continuous variables were reported as means and standard deviations, or medians and interquartile range (IQR) values. Categorical variables were reported as counts and percentages. Continuous variables were compared using Student's ttests, Mann-Whitney U test and categorical variables were compared using Fisher's exact tests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . (Table 1 ). Among the 3 deaths, 2 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 78,
+                    "end": 86,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.06.20032342 doi: medRxiv preprint happened in the patients with methylprednisolone administration and the other one did not receive methylprednisolone treatment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Among the 46 patients, 27 patients suffered from fever(\u226537.3\u2103) on admission, and 15 patients received methylprednisolone therapy, while the remaining patients not. The dynamic change of the body temperature for the 27 patients was shown in Figure 1A . The number and percentage of the patients whose body temperature decreased to the normal range on different day from treatment beginning was reported as follows(methylprednisolone therapy vs. no methylprednisolone therapy ): day 2, 7(46.7%) vs. 2 Figure 1B ).",
+            "cite_spans": [
+                {
+                    "start": 497,
+                    "end": 498,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 240,
+                    "end": 249,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 499,
+                    "end": 508,
+                    "text": "Figure 1B",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The median of SpO2 at rest was similar between patients with and without methylprednisolone therapy on admission. Due to the low SpO2, all of the 46 patients received oxygen therapy. The daily SpO2 of each patient was shown in Figure 2A . The average SpO2 of every day was compared between patients with and without methylprednisolone therapy, as shown in Figure 3B , the methylprednisolone therapy group had a faster improvement of SpO2: (Table 2 ). However, in terms of chest CT scan on day 7 and 14, we found the absorption degree of the focus was significantly better in the patients with methylprednisolone ( Figure 4) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 227,
+                    "end": 236,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 356,
+                    "end": 365,
+                    "text": "Figure 3B",
+                    "ref_id": null
+                },
+                {
+                    "start": 439,
+                    "end": 447,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 614,
+                    "end": 623,
+                    "text": "Figure 4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.06.20032342 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The pathological process of severe COVID-19 pneumonia is the inflammation reaction characterized by destruction of deep airway and alveolar [6] . It is currently considered that the lung injury is not only associated with direct virus-induced injury, but also COVID-19 invasion triggers the immune responses that lead to the activation of immune cells(monocyte, macrophage, T and B-lymphocyte) to release a large number of pro-and anti-inflammatory cytokines including TNF, IL-1\u03b2, IL-6 and so on. Overwhelming secretion of cytokines causes severe lung damage, which manifest as extensive damage of pulmonary vascular endothelial and alveolar epithelial cells as well as increased pulmonary vascular permeability, leading to the pulmonary edema and hyaline membrane formation [11, 12] . Histologic examination has shown diffuse alveolar damage and mucinous exudate, which similar to acute respiratory distress syndrome [6] .",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 143,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 775,
+                    "end": 779,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 780,
+                    "end": 783,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 918,
+                    "end": 921,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "For the patients of severe COVID-19 pneumonia, aggravation of symptoms always occurs during 5-7 days after onset [13] . Therefore, it is important to strengthen the treatment for suppression of pro-inflammatory response and control of cytokine storm at this stage. A majority of patients can survival and recover if they overcome this period. Corticosteroid are the classical immunosuppressive drugs, which are important to stop or delay the progression of the pneumonia and have been proved to be effective for treatment of ARDS [14, 15] . In addition to immunosuppressive activities, corticosteroid have an anti-inflammatory role to reduce systemic inflammatory, decrease exudative fluid in the lung tissue, promote absorption of inflammasome and prevent further diffuse alveolar damage, which can relieve hypoxemia and effectively protect the lung to prevent further progression of respiratory insufficiency [16] .",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 117,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 530,
+                    "end": 534,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 535,
+                    "end": 538,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 911,
+                    "end": 915,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Meanwhile, corticosteroid can induce a decrease in body temperature and help alleviate the poisoning symptom caused by hyperthermia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In the present study, the patients with severe COVID-19 pneumonia had markedly increased inflammatory markers such as CRP, IL-6 and FER, which signified occurrence of the inflammatory reaction phase. Meanwhile, most patients developed fever, cough, dyspnea and markedly decline in oxygen saturation, which are the early clinical manifestations of ARDS.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Based on these, we believed there was the indictor for corticosteroid admission to treat these patients. Judging from the results, early application of low-dose corticosteroid could improve the treatment effect, presenting as improvement of hypoxia and fever symptom, shorten the disease course, and accelerating focus absorption. Benefited from condition monitoring and refined management, no serious complications caused by corticosteroid happened in these patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In addition to the timing of treatment, it is also important to master the treatment duration and choose appropriate corticosteroid formulations and dosage. The basic principles of corticosteroid formulations selection lie in the following two aspects: a short half-life and strong penetrating ability. The corticosteroid formulation used in our cohort was methylprednisolone, a median effect corticosteroid with a half-life of 12-36, which has been proved to be associated with a better intensity of immunosuppression [17] . In our experience, the dosage, duration and route of methylprednisolone administration was 1-2mg/kg/d for 5-7 days via intravenous injection. Nevertheless, the specific dosage and duration for individual patient was determined on the clinical manifestations, leucocyte and lymphocyte count, inflammatory index and lesion range.",
+            "cite_spans": [
+                {
+                    "start": 519,
+                    "end": 523,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Corticosteroid treatment-induced complications is the other main concern. The most common complication caused by corticosteroid is secondary infection(fungi and bacteria) [18] .",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 175,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In our experience, once the secondary infection occurs in patients with severe COVID-19 pneumonia, sensitive and full-dose antibacterial drugs should be immediately added. The majority of patients are prone to secondary bacterial infection due to exudate accumulation in the lungs, that push the prophylactic use of antibiotics such as moxifloxacin, levofloxacin and cephalosporins. Secondly, the use of immune regulators(human immunoglobulin) can enhance the immune function of the patients. In our experience, human immunoglobulin was usually used in the critical patients with a dosage of 10-20 g/d for 7-10 days as the pulse therapy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Thirdly, thymosin secreted by thymic epithelial cells can promote the maturation of Tlymphocytes and regulate function of cellular immunity. We suggest using thymosin during hospitalization and the course of treatment can be determined according to the results of lymphocyte test. Fourthly, ensure adequate caloric, protein and vitamins intake and maintain . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.06.20032342 doi: medRxiv preprint the electrolyte and acid-base balance. The other common complication is hyperglycemia [19] ; therefore, continual blood glucose monitoring is recommended, and antidiabetic agents should be used when necessary. The uncommon complications caused by corticosteroid are gastrointestinal bleeding, hypertension, venous thrombosis, hypokalemia and so on, all of these should be paid attention by us [20] . The prudent use of corticosteroid and preventive measure are essential to prevent deterioration in elder patients with these comorbidities.",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 234,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 537,
+                    "end": 541,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study has several limitations. First, the study was a retrospective single center observational research with a small size and no external validation cohort, therefore, unmeasured confounders may influence the accuracy of the results. Secondly, the study has not included the mid-and long-term outcome of the cohort after discharge, and continued followup observation was needed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, our data indicate that in patients with severe COVID-19 pneumonia, early, low-dose and short-term application of corticosteroid was associated with a faster improvement of clinical symptoms and absorption of lung focus. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.06.20032342 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.06.20032342 doi: medRxiv preprint Figure 3 Images of chest CT scan on day 1, 7 and 14 after hospitalization in severe COVID-19 pneumonia patients with and without methylprednisolone treatment . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 152,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.06.20032342 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "20",
+            "issn": "",
+            "pages": "382--390",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "COVID-19) Situation Report-32",
+            "authors": [],
+            "year": 2020,
+            "venue": "WHO. Coronavirus disease 2019",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kuiken",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fouchier",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schutten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "362",
+            "issn": "",
+            "pages": "263--70",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Boheemen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bestebroer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "The New England journal of medicine",
+            "volume": "367",
+            "issn": "",
+            "pages": "1814--1834",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Pathological findings of COVID 19 associated with acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Development of a standard treatment protocol for severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "So",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "361",
+            "issn": "",
+            "pages": "1615--1622",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Medical treatment of viral pneumonia including SARS in immunocompetent adult",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Infect",
+            "volume": "49",
+            "issn": "",
+            "pages": "262--73",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinical management of severe acute respiratory infection when Novel coronavirus (nCoV) infection is suspected: interim guidance",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Clinical features of patients with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "10223",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Insights into the immuno-pathogenesis of acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "Jjm",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Leong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ann Transl Med",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Pathogenic human coronavirus infections cause and consequences of cytokine storm and immunopathology",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Channappanavar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Semin Immunopathol",
+            "volume": "39",
+            "issn": "",
+            "pages": "529--568",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Clinical characteristics of 2019 novel coronavirus infection in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Corticosteroid and acute lung injury",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Crit Care Med",
+            "volume": "31",
+            "issn": "4",
+            "pages": "253--260",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Immune regulation by corticosteroid",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Cain",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cidlowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat Rev Immunol",
+            "volume": "17",
+            "issn": "",
+            "pages": "233--280",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Anti-inflammatory action of corticosteroid--new mechanisms for old drugs",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rhen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cidlowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "N Engl J Med",
+            "volume": "353",
+            "issn": "",
+            "pages": "1711--1734",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Corticosteroid physiology, pharmacology and stress",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Munck",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Guyre",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Adv Exp Med Biol",
+            "volume": "196",
+            "issn": "",
+            "pages": "81--96",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Corticosteroid suppression of antiviral immunity increases bacterial loads and mucus production in COPD exacerbations",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Singanayagam",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Glanville",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Girkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat Commun",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Corticosteroid-induced hyperglycemia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jansen-Chaparro",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Saigi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Diabetes",
+            "volume": "6",
+            "issn": "",
+            "pages": "9--20",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Prevention and management of corticosteroid-induced side effects: A comprehensive review: Gastrointestinal and endocrinologic side effects",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Caplan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Fett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rosenbach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Am Acad Dermatol",
+            "volume": "76",
+            "issn": "",
+            "pages": "11--16",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "3%]). The median and interquartile range of the main clinical and laboratory parameters are as following: body temperature 37\u2103(36.8,38.4) \u2103, heart rate 86bpm (74,96), BP 132(121,141)/77(70,85)mmHg, respiratory frequency 26bpm(21,31), SpO2 at rest 91% (86,92), and white blood cell(WBC) 7.74(5.24,9.96) G/L, neutrophil(PMN) 5.53(3.85,7.87) G/L, lymphocyte(LYM) 0.86(0.58,1.15) G/L, C-reactive protein(CPR) 61.5(14.4,109.9) mg/L, procalcitonin(PCT) 0.55(0.14,1.09) mg/L, interleukin-2(IL-2) 2.77(2.32,3.55) pg/ml, interleukin-4(IL-4) 2.17(1.87,2.61) pg/ml, interleukin-6(IL-6) 18.4(10.4,53.0) pg/ml, interleukin-10(IL-10) 6.7(3.9,8.1) pg/ml and ferroprotein(FER) 787(300,1057) \u00b5g/L. Three(5.4%) patients died during the hospitalization: a 89 years old man with the end stage of prostate cancer died because of multiple organ failure; a 51 years old woman with diabetic foot and gangrene died at 2 days after the amputation surgery; a 49 years old man died of respiratory failure. All of the other 43 patients were successfully cured and discharged. Oxygen therapy, antiviral therapy(a-interferon, Kaletra[lopinavir/ritonavir]), immunoenhancement therapy (thymosin), prevention of bacterial infection, relieving cough eliminating phlegm and nutritional support were commonly used for all of the 46 patients; while, 26 of them received extra low-dose methylprednisolone treatment with the dosage of 1-2mg/kg/d for 5-7 days via intravenous injection. The specific dosage and duration of methylprednisolone for the patients were determined according to the clinical manifestations, leucocyte count, lymphocyte count, inflammatory index and lesion range. There was no significant difference of age, sex, comorbidities, clinical or laboratory parameters between patients with and without methylprednisolone administration",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "day 2, 11(42.3%) vs.4(20.0%); day 3, 17(65.4%) vs.4(20.0%); day 4, 16(61.5%) vs.4(20.0%); day 5, 18(69.2%) vs.7(35.0%); day 6, 22(84.6%) vs.12(60%); day 7, 25(96.2%) vs.14(70.0%); Moreover, patients without methylprednisolone therapy had significantly longer interval of using supplemental oxygen therapy than those with methylprednisolone therapy (8.2days[IQR 7.0-10.3] vs. 13.5days(IQR 10.3-16); P<0.001). The main laboratory parameters had similar trends between patients with and without methylprednisolone therapy during the hospitalization. The WBC, PMN, LYM, CPR, PCT 0.55, IL-2,IL-4, IL-6 and IL-10 were not significantly different between the two groups on day 6 after the treatment",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Comparison of the dynamic change of the body temperature between severe COVID-19 pneumonia patients with and without methylprednisolone treatment. (A) the dynamic change of individual patient; (B) comparison for the average and median number.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Comparison of the dynamic change of SpO2 at rest between severe COVID-19 pneumonia patients with and without methylprednisolone treatment. (A) the dynamic change of individual patient; (B)the trend of SpO2 change and comparison for SpO2 on daily basis.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "A total of 46 hospitalized patients with severe COVID-19 pneumonia were diagnosed and included in this study, the age, sex, comorbidities, clinical and laboratory parameters on admission for the are shown inTable 1. Their average age was 54 years (IQR 48-64), and 26 (57%) were males. Of these patients, 18 (32.1%) had at least one of the following underlying",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "(16.7%); day 3, 13(86.7%) vs.4(33.4%); day 4, 13(86.7%) vs.5(41.7%); day 5, 14(93.3%) vs.7(58.3%); day 6, 15(100%) vs.9(75%); day 7, 15(100%) vs.7(58.3%); day 8, 15(100%) vs.10(83.3%); day 9, 15(100%) vs.12(100%); The average number of days required for no fever was significant shorter in the patients with methylprednisolone therapy (2.06\u00b10.28 vs. 4.39\u00b10.70, P=0.010,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Clinical characters and main laboratory parameters of 46 patients with severe COVID-19Data are n (%), or median (interquartile range). 2019-nCoV, 2019 novel coronavirus; SBP, Systolic Pressure; DBP, diastolic pressure; SpO2, oxygen saturation; WBC, white blood cell PMN, neutrophil; LYM, lymphocyte; CRP, C-reactive protein, PCT, procalcitonin; IL-2, interleukin-2; IL-4, interleukin-4; IL-6, interleukin-6; IL-10, interleukin-10; FER, ferroprotein",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Comparison of the main laboratory parameters between severe COVID-19 pneumonia patients with and without methylprednisolone treatment on the sixth day following treatment Data are median (interquartile range). 2019-nCoV, 2019 novel coronavirus; WBC, white blood cell PMN, neutrophil; LYM, lymphocyte; CRP, C-reactive protein, PCT, procalcitonin; IL-2, interleukin-2; IL-4, interleukin-4; IL-6, interleukin-6; IL-10, interleukin-10; FER, ferroprotein . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.06.20032342 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This study was financially supported by the Natural Science Foundation of China (NO.81700317).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The authors declare no conflicts of interest..",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        }
+    ]
+}

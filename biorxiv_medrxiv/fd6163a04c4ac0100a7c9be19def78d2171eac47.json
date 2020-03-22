@@ -1,0 +1,3657 @@
+{
+    "paper_id": "fd6163a04c4ac0100a7c9be19def78d2171eac47",
+    "metadata": {
+        "title": "Prediction of the COVID-19 outbreak based on a realistic stochastic model",
+        "authors": [
+            {
+                "first": "Yuan",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Peking University",
+                    "location": {
+                        "postCode": "100871",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chong",
+                "middle": [],
+                "last": "You",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Peking University",
+                    "location": {
+                        "postCode": "100871",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhenghao",
+                "middle": [],
+                "last": "Cai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Peking University",
+                    "location": {
+                        "postCode": "100871",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jiarui",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Peking University",
+                    "location": {
+                        "postCode": "100871",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wenjie",
+                "middle": [],
+                "last": "Hu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Peking University",
+                    "location": {
+                        "postCode": "100871",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiao-Hua",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Peking University",
+                    "location": {
+                        "postCode": "100871",
+                        "settlement": "Beijing",
+                        "region": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The current outbreak of coronavirus disease 2019 (COVID-19) has become a global crisis due to its quick and wide spread over the world. A good understanding of the dynamic of the disease would greatly enhance the control and prevention of COVID-19. However, to the best of our knowledge, the unique features of the outbreak have limited the applications of all existing models. In this paper, a novel stochastic model is proposed which aims to account for the unique transmission dynamics of COVID-19 and capture the effects of intervention measures implemented in Mainland China. We find that, (1) instead of aberration, there is a remarkable amount of asymptomatic individuals, (2) an individual with symptoms is approximately twice more likely to pass the disease to others than that of an asymptomatic patient, (3) the transmission rate has reduced significantly since the implementation of control 1 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The current outbreak of coronavirus disease 2019 has become a global crisis due to its quick and wide spread over the world. According to Official Report by the National Heath Commission of the People's Republic of China (2020b), as of March 4, 2020, the outbreak of COVID-19 has caused 80 409 confirmed cases and 3012 fatalities in Mainland China. For the purpose of control and prevention, various containment measures have been implemented by the Chinese authorities, including traffic restrictions, medical tracking, entry or exit screening, isolation, quarantine and awareness campaigns since January 19, 2020. Especially on January 23, 2020, a strict travel restriction was introduced in Hubei province, cities in Hubei have been locked down since then (Government of the People's Republic of China (2020)).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A good understanding of the epidemic dynamic would greatly enhance the control and prevention of COVID-19 as well as other infectious diseases, while dynamic model is probably one of the oldest and best-known mathematical tools to study the law of epidemic development. To the best of our knowledge, the SIR model proposed by Kermack and McKendrick (1927) almost a century ago is the first (and one of the most important) attempt to describe the development of an epidemic with a deterministic ordinary differential equation (ODE) system. Over the years, numerous modifications and generalizations have been made on the original SIR model to accommodate different epidemic characteristics, among which, the SIS model and SEIR model are most widely accepted ones. It is not surprising various deterministic dynamic models have been again designed and employed to the current outbreak of COVID-19. We hereby present a brief review on some of the representative works as follows.",
+            "cite_spans": [
+                {
+                    "start": 326,
+                    "end": 355,
+                    "text": "Kermack and McKendrick (1927)",
+                    "ref_id": "BIBREF61"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "such as quarantine and medical tracking into account. Furthermore, it was also assumed that exposed population are not infectious. For more similar or simpler deterministic ODE models to COVID-19, we refer to for an overview.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Besides the ODE models, an even older approach is to discretize the time and consider a difference equation (DE) model, which can be seen as a self-propelled sequence of numbers (or vectors). In such models, the increment or decrement of different compartment at each step is a function of the configuration in the previous step (s) . Earliest examples of a DE include the well-known geometric and Fibonacci sequence, which can both be used to describe the growth of a biological population. Recently, a discrete time DE model was introduced in Yang et al. (2020) to predict the epidemic trend of COVID-19. The proposed model correctly took the infectious incubation into account. However, this model did not consider the time lag between symptoms onset and diagnosis or the medical tracking. Besides, the rationale behind the assumption of the equal transmission probability between symptomatic and asymptomatic patients is questionable.",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 332,
+                    "text": "(s)",
+                    "ref_id": null
+                },
+                {
+                    "start": 545,
+                    "end": 563,
+                    "text": "Yang et al. (2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In contrast to the deterministic models (ODE or DE) summarized above, the transmission of a real world disease is inevitably random in nature. As a result, numerous stochastic dynamics models (see Section 3 for references) have been developed since the pioneering randomization of SIR model in . In fact, a deterministic ODE model can often be seen as the mean-field equation of the corresponding stochastic counterpart. Under certain conditions, the mean-field equation may represent the evolution of the expectation of the corresponding stochastic model. In some more generalized cases, the mean-field equation is a large scale approximation of the corresponding stochastic model, which can be seen as a process version of Law of Large Numbers. However, when the size of outbreak is not comparable to that of the total population, the approximation aforementioned may not be interpreted that the stochastic and deterministic models are close to each other by themselves, since they have both been rescaled to approximately a constant in these scenarios. See Section 3 for more details. Thus compared with deterministic models, the stochastic model may be a better choice to account for the non-negligible random nature of the COVID-19 outbreak. Furthermore, the stochastic dynamic model is also known for its expandability to incorporate individual variations , or even spatial structures Durrett (1988) , which may not be fully captured by its mean-field equations. To our knowledge, the stochastic dynamic modeling for COVID-19 is yet relatively rare comparing to its deterministic counterparts, though preliminary approaches such as statistic exponential growth models was considered in recent studies of Zhao et al. (2020) . Very recently in , an existing discrete time, stochastic model ) was employed to estimate the \"effect of travel restrictions on the spread\" of COVID-19. However, unique features of SARS-CoV-2, such as the infectious incubation and asymptomatic carriers, as well as control measures such as medical tracking, are still yet to be captured in .",
+            "cite_spans": [
+                {
+                    "start": 1391,
+                    "end": 1405,
+                    "text": "Durrett (1988)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1710,
+                    "end": 1728,
+                    "text": "Zhao et al. (2020)",
+                    "ref_id": "BIBREF82"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To remedy the aforementioned issues in the existing studies, and to depict a more realistic transmission mechanism, we propose a novel stochastic compartmental model which captures the unique transmission dynamics of COVID-19 and the effects of intervention measures implemented in Mainland China. Our proposed stochastic model aims to study the COVID-19 outbreak in the following aspects:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "\u2022 Estimation of key epidemiology parameters: Parameters in the model have specific epidemiology meanings. For example, \u03c1 stands for the proportion of symptomatic virus carriers, \u03b8 E represents the proportion of infectivity of asymptomatic carriers and symptomatic carriers and q can reflect the strength of quarantine in each region. These parameters have very limited information in medical reports for direct access and can be estimated through our model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "With a set of estimated parameters and initial values of the stages, we are able to simulate the development of epidemic over time t. This is helpful for capturing the spread tendency of the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Prediction of epidemic development:"
+        },
+        {
+            "text": "\u2022 Estimation of un-observable carriers and epidemic containment date:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Prediction of epidemic development:"
+        },
+        {
+            "text": "Un-observable virus carriers in the crowd are nonnegligible for assess of epidemic control. Instead of epidemic control assessment only through existing infections, our model is able to take the trend of un-observable carriers into account. Based on the simulated trend of un-observable carriers, epidemic containment date can also be calculated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Prediction of epidemic development:"
+        },
+        {
+            "text": "The controlled reproduction number, R c , which reflects the transmission ability of the epidemic, is essential for the assessment of control measures and speed of disease transmission. R c can be estimated from the ratio between the in-and-out flows of the active virus carriers in a given time period in our model. Moreover, we can also conduct hypothetical \"controlled \" test and evaluate the effectiveness of medical tracking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Assessment of control measures"
+        },
+        {
+            "text": "Our main findings are as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Assessment of control measures"
+        },
+        {
+            "text": "1. There exist a non-negligible portion of asymptomatic virus carriers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Assessment of control measures"
+        },
+        {
+            "text": "2. Patients with symptoms have approximately twice the potential of transmission comparing with that of asymptomatic carriers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Assessment of control measures"
+        },
+        {
+            "text": "3. The epidemic containment times in the selected provinces and cities (see Section 5 for a precise definition of the epidemic containment times) are estimated to be around late February to early March. 4. The time dependent controlled reproduction numbers R c are between 2 and 3 in the selected provinces and cites at the beginning of the epidemic, and have been significantly reduced since the implement of control measures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Assessment of control measures"
+        },
+        {
+            "text": "5. Medical tracking endeavors contribute significantly in containing the epidemic in the selected provinces and cities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Assessment of control measures"
+        },
+        {
+            "text": "The rest of this paper is structured as follows. In Section 2 we describe the data used in this study. Section 3 introduces the proposed stochastic dynamic model and compares its features with some representative models in the recent literature. Parameter estimations are described in Section 4. In Section 5 we present our findings. We discuss our results, advantages and limitations in Section 6.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Assessment of control measures"
+        },
+        {
+            "text": "Data used in this study include the numbers of confirmed diagnosis, recoveries and fatalities in the following provinces and cities of China: Beijing, Shanghai, Chongqing, Guangdong, Zhejiang and Hunan. These publicly available data were retrieved from Beijing Municipal Health Commission (2020); Shanghai Municipal Health Commission (2020); Chongqing Municipal Health Commission (2020); Health Commission of Guangdong Province (2020); Health Commission of Zhejiang Province (2020) and Health Commission of Hunan Province (2020) based on a daily update (see Table 5 and Table 6 in Appendix A). The corresponding population of residents in each region is collected from China National Bureau of Statistics (2018) (see Table 7 in Appendix A).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 558,
+                    "end": 565,
+                    "text": "Table 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 570,
+                    "end": 577,
+                    "text": "Table 6",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 717,
+                    "end": 724,
+                    "text": "Table 7",
+                    "ref_id": "TABREF7"
+                }
+            ],
+            "section": "Data Sources"
+        },
+        {
+            "text": "Note that we exclude Hubei province which is the epicenter of the current outbreak in this study due to the following reasons: (1) the medical resources in Hubei province were overburdened at the beginning of the epidemic, not all individual with confirmed diagnosis could get immediate hospitalization; in fact according to the Official Press Briefing by the Information Office of Hubei Provincial People's Government (2020) , as of February 8, 2020, there were 1499 patients remained with confirmed diagnosis and serve symptom who had yet been hospitalized; (2) the diagnostic criteria were changed overtime in Hubei which resulted in a massive surge of confirmed cases in mid February (National Heath Commission of the People's Republic of China (2020a)); (3) the fatality rate in Hubei province was much higher than other regions in China. These features distinct the dynamic model in Hubei from the model in other regions of China, which will be considered in our future studies, see Section 6 for details.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Sources"
+        },
+        {
+            "text": "The evolution of an epidemic is usually described by either a deterministic dynamic model Kermack and McKendrick (1927) or a stochastic one ; Bailey (1975) , among which, the stochastic model is generally considered more realistic than the deterministic counterpart. Stochastic models often use a continuous time, compartment Markov Process to describe the evolution of the epidemic. See for instances, ; ; ; Bailey (1975) for pioneering works, and ; Zhang and Wang (2013) ; ; for recent developments. See also Wilkinson et al. (2017) and the references therein for a brief review.",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 119,
+                    "text": "Kermack and McKendrick (1927)",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 142,
+                    "end": 155,
+                    "text": "Bailey (1975)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 409,
+                    "end": 422,
+                    "text": "Bailey (1975)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 451,
+                    "end": 472,
+                    "text": "Zhang and Wang (2013)",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 511,
+                    "end": 534,
+                    "text": "Wilkinson et al. (2017)",
+                    "ref_id": "BIBREF76"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "Especially, when the size of outbreak is not comparable to that of the total population, the randomness is more significant, hence a stochastic model is needed to quantify the uncertainty in estimates and predictions in such case. In our study, none of selected provinces and cities has more than 2000 accumulated confirmed by now (see table 5 in Appendix A). These number, though alerting, are not comparable to the total population in provinces or cities, which are of an order 10 million-100 million (see table 7 in Appendix A). Hence, a novel stochastic dynamic model is designed to capture the unique features of the COVID-19 outbreak, where the unique features here refer to \u2022 Infectious incubation period: according to an Official Press Briefing by the State Council Information Office of the People's Republic of China (2020), unlike the SARS-CoV, SARS-Cov-2 can induce an infectious incubation period.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 336,
+                    "end": 343,
+                    "text": "table 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 508,
+                    "end": 515,
+                    "text": "table 7",
+                    "ref_id": "TABREF7"
+                }
+            ],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 Large portion of asymptomatic virus carriers: according to an Official Report by the Japanese Ministry of Health, Labour and Welfare (2020), it has been found that the proportion of asymptomatic infected population is considerable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 Unprecedented contact control and medical tracking measures: since January 19, 2020, various containment measures have been implemented by the Chinese authorities. Especially on January 23, 2020, strict travel restriction was introduced in Hubei province at a unprecedented scale, cities in Hubei have been locked down since then (Government of the People's Republic of China (2020)). At the same time, great efforts have also been taken in the medical tracking and quarantine of close contacts. For instance, remarkable efforts have been made by the The People's Govern-ment of Zhejiang Province (2020), which till March 2, 2020 have successfully tracked more than forty thousand close contacts (People's Government of Zhejiang Province (2020)).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "To our knowledge, these features have not yet been fully captured by the existing stochastic dynamic models for the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "Under mild assumptions that (1) motions of all individuals in the system are independent, (2) the total population in the system is a fixed number of N , we devise the stochastic model with states listed as follow,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 S: Susceptible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 E: Exposed. It is divided into four sub-states: -E 1 : will become symptomatic in the future and is not traceable in medical tracking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-E 2 : will become symptomatic in the future and is traceable in medical tracking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-A 1 : won't become symptomatic in the future and is not traceable in medical tracking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-A 2 : won't become symptomatic in the future and is traceable in medical tracking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 Q: Quarantined. It is divided into two sub-states:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-E q : will become symptomatic in the future.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-A q : won't become symptomatic in the future.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 IN: Infected, symptomatic, but not yet admitted to hospital. They are divided into two sub-states:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-IN 1 : not traceable in medical tracking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-IN 2 : traceable in medical tracking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 IH: Infected, symptomatic and currently under hospitalization. They are divided into two sub-states:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-IH L : with light symptom.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-IH S : with severe symptom.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 R: Recovered. They are divided into three sub-states:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "7 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033803 doi: medRxiv preprint -R A : recover from state A 1 and A 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-R N : recover from state IN 1 and IN 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "-R H : recover from state IH L .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 D: Dead.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "Note that each individual can be classified into one of the above states at a specific time. For the purpose of conciseness, we denote S(t), E 1 (t), E 2 (t) and so on as the population sizes in the corresponding states at time t. The evolution of \u2022 Infection: Every primary case (including those of states",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "passes a pathogen to its secondary case at Poisson rate",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "To be specific, a primary case chooses an individual randomly from the total population, and the individual is infected if it is of state S. At each transmission event,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "with probability \u03c1, the secondary case becomes E 1 or E 2 , meanwhile, this contact is traceable with probability q;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "with probability 1 \u2212 \u03c1, the secondary case becomes A 1 or A 2 , meanwhile, this contact is traceable with probability q.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 Quarantine: Every individual of state E 2 , A 2 and IN 2 will be quarantined and consequently transfer into E q , A q and IH respectively at a Poisson rate of r q . Note we assume such individuals will keep quarantined or will be hospitalized until recovery or death.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 Symptom onset: Every individual of state E 1 , E 2 or E q will develop symptoms and transfer into IN 1 , IN 2 and IH respectively at a rate of r s .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 Hospitalization: Every individual of state IN will admitted to hospital at a Poisson rate of r H . With probability p 1 , it will transfer into IH L and with probability 1 \u2212 p 1 , it will transfer into IH S .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 Symptom relief: Every individual of state IH S will transfer into IH L at a Poisson rate of r b .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 Recovery: Every individual of state A 1 , A 2 , IN and IH L will recover at Poisson rates of \u03b3 A , \u03b3 IN and \u03b3 IH respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "\u2022 Death: Every individual of state IN and IH S will die at Poisson rates of \u03b4 IN and \u03b4 IH respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Description"
+        },
+        {
+            "text": "The process can be illustrated by Figure 1 . The precise definition of the continuous time Markov process can be found in Appendix B.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 34,
+                    "end": 42,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model Description"
+        },
+        {
+            "text": "From a more theoretical, functional analysis point of view, the stochastic dynamic model defined above can be equivalently described with its Markov Semigroup/ infinitesimal generator, see ; for details. From those operators, it is natural for us to consider the following Mean-field Differential Equation System, which itself serves as a deterministic counterpart of the stochastic model, that is, 9 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 1: Process Illustration"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 1: Process Illustration"
+        },
+        {
+            "text": "(2.14)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 1: Process Illustration"
+        },
+        {
+            "text": "(2.15) Intuitively, the mean-field ODE system above serves as a degenerated case of our stochastic model, where all randomness has been averaged out. When the differential equations are linear, which is not true in our case, the ODE also describes the evolution of the expectation of the stochastic system (Dynkin's Formula, see Da Prato and Zabczyk (2014) Section 4.4 for example). Besides, according to and , we may see that this deterministic model can also serve, under a much weaker condition, as a scaling approximation of the stochastic one after recaled by the renormalizing factor N . To be more specific, the renormalized random path \u03be N (t)/N as a stochastic process is \"almost\" deterministic, and fluctuates closely around the deterministic trajectory\u03be N (t)/N if the total population N is large and the renormalized initial values \u03be N (0)/N and\u03be N (0)/N are close to each other,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 1: Process Illustration"
+        },
+        {
+            "text": ", and\u03be N (t) and \u03be N (t) be copies of the deterministic and stochastic model with total population N . Using a mathematical lan-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 1: Process Illustration"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "10"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "10"
+        },
+        {
+            "text": "guage, with probability one there is the pathwise convergence",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "10"
+        },
+        {
+            "text": "for all t 0 \u2208 [0, \u221e). However, we would like to specifically bring to the reader's attention that, NO MATTER the size of the total population N , as long as the size of epidemic outbreak is NOT comparable to N , the convergence above in (2.16) DOES NOT imply that the un-renormalized \u03be(t) is non-random by itself or that the epidemic involved populations. For example, E 1 (t) and\u1ebc 1 (t) are close to each other in any sense without the rescaling factor. Actually the fact that the size of epidemic outbreak is not comparable to N itself already implies that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "10"
+        },
+        {
+            "text": "which perfectly satisfies (2.16) while at the same time provides no information on whether the actual values of E 1 (t) and\u1ebc 1 (t) are close to each other. To summarize, when the size of epidemic outbreak is NOT comparable to N , the stochastic model possesses intrinsic randomness, and may not be well approximated by a deterministic ODE in any non-degenerate sense. The parameters and initial values of the proposed stochastic model can be estimated based on a simplified model in Figure 2 . Here the stage D is removed as fatality rate is extremely low in all the selected regions. The populations of IH(t), R H (t) can be observed directly from the collected data, that is, the number of existing confirmed cases and reported recoveries at time t respectively, while, the remaining states are latent, namely not observable. Among the latent states, the initial value S(0) can be approximated by 11 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 483,
+                    "end": 491,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "10"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Choices of initial values and estimation of model parameters"
+        },
+        {
+            "text": "the population of permanent residents in the city or province, E q (0) is set to be zero as there was no quarantine implemented before January 23, 2020 and R N (0) can be set to any number as it would not affect the estimation and prediction of the model. However, the choices for initial values, IN (0) and E(0), is also non-observable and could be a challenge to determine apriori . In this study, IN (0) and E(0) are treated as unknown parameters and to be estimated together with other model parameters as described below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Choices of initial values and estimation of model parameters"
+        },
+        {
+            "text": "There is a total of 9 model parameters in the proposed model for each selected region. They are \u03bb IN , \u03b8 E , \u03c1, q, \u03b3 IH , \u03b3 A , r s , r q and r H , among which, r s , r q and r H are related to the clinical characteristics of the disease and can be prefixed through existing studies. To be more specific, r H is the inverse of the average time from symptoms onset to diagnosis, r s is the inverse of the mean incubation period, while r q is the inverse of mean difference between infectious period and serial interval. Based on preliminary trials, we find there is very limited information of \u03b3 A which can be obtained from the data, and the estimate is highly influenced by the choices of prior. A possible explanation towards it is that \u03b3 A is less related to the observations. Hence, instead of estimating \u03b3 A with large uncertainty, we prefix \u03b3 A = 1/10. Sensitivity analysis is conducted on the different choices of \u03b3 A .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Choices of initial values and estimation of model parameters"
+        },
+        {
+            "text": "The rest of parameters would be estimated from the model. Among which, the parameters, \u03c1 and \u03b8 E , are directly related to the nature of the disease, and hence are considered as constants in China, while, \u03bb IN , q and \u03b3 IH may vary in different regions depending the local medical resources, population densities and containment measures. Furthermore, it is more realistic to consider \u03bb IN and \u03b3 IH as time varying parameters to reflect the effect of intervention measures and improvement of the medical treatment. In this study, a simple setting for the time varying function is used, that is, \u03bb",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Choices of initial values and estimation of model parameters"
+        },
+        {
+            "text": "The time T 1 is set to be January 29 as there is an obvious change of rates occurred on January 29 illustrated in Figure 3 (You et al., 2020) . We use observed R H (t+1)\u2212R H (t)",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 141,
+                    "text": "(You et al., 2020)",
+                    "ref_id": "BIBREF80"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 114,
+                    "end": 122,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Choices of initial values and estimation of model parameters"
+        },
+        {
+            "text": "to approximate \u03b3 IH on day t. The time T 2 is selected to be the time when \u03b3 IH has a significant change for each province/city.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IH(t)"
+        },
+        {
+            "text": "The likelihood function is obtained by assuming that daily confirmed cases and recoveries are independent Poisson random variables (Wu et al., 2020) , that is,",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 148,
+                    "text": "(Wu et al., 2020)",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [],
+            "section": "IH(t)"
+        },
+        {
+            "text": "where \u2206H t and \u2206R t are the newly confirmed and recovered cases on day t, \u03bb t and \u03b3 t are the functions of model parameters E(0), IN (0),\u03bb IN , \u03b8 E , \u03c1, q and \u03b3 IH based on the Mean-field Differential Equation System. Parameters are estimated by the posterior means through the Metropolis-Hastings algorithm implemented in the R package POMP where non-informative uniform distributions are chosen as the prior distributions, see Table 1 and 2 for more details.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 429,
+                    "end": 436,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "IH(t)"
+        },
+        {
+            "text": "12 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IH(t)"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . 13 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IH(t)"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033803 doi: medRxiv preprint Figure 3 : Visualization of daily numbers of newly confirmed case along with date, an obvious change of rate occurred on January 29, 2020. 14 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 152,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "IH(t)"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033803 doi: medRxiv preprint 3 Results",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IH(t)"
+        },
+        {
+            "text": "A summary of the estimated model parameters is given in Table 3 , from which we find that \u2022 The estimate of \u03c1 is not sensitive to the choice of \u03b3 A , about 30% infected individuals are asymptomatic.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 56,
+                    "end": 63,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Interpretation of parameters"
+        },
+        {
+            "text": "\u2022 The estimate of \u03b8 E is reasonably close to each other with different choices of \u03b3 A , patients with symptoms are about twice as likely to pass a pathogen to others as asymptomatic patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Interpretation of parameters"
+        },
+        {
+            "text": "\u2022 The estimate of q is not sensitive to the choice of \u03b3 A except in Shanghai. Zhejiang has the highest q in the selected regions, which is consistent with the remarkable efforts made by the The People's Government of Zhejiang Province (2020), which till March 2, 2020 has successfully tracked more than forty thousand close contacts (People's Government of Zhejiang Province (2020)).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Interpretation of parameters"
+        },
+        {
+            "text": "The sensitive analysis of \u03b3 A shows that, (1) the estimates of \u03b3 IH and b are consistent regardless the choice of \u03b3 A as the states RH and IH are both observable; (2) the estimated initial populations for states E and IN in each regions vary over different choices of \u03b3 A , but are still in the same order of magnitude; (3) the estimate of \u03bb IN and a vary with the choices of \u03b3 A notably in Guangdong, Zhejiang and Shanghai, cautions need to be taken when making inferences on \u03bb IN and a. 16 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Interpretation of parameters"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https: //doi.org/10.1101 //doi.org/10. /2020 ",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 102,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 122,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Interpretation of parameters"
+        },
+        {
+            "text": "Based on the estimated parameters, future trajectories of the epidemic are simulated using the proposed stochastic dynamic model. For each region, 1000 simulations are conducted to produce the 95% confidence interval for the epidemic evolution of some key populations. In this section, the predictions of populations of states, the containment time of the outbreak, the controlled reproduction number R c , and a test on the effectiveness of the current medical tracking policy are reported. Figure 4 plots the 95% confidence interval of:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 492,
+                    "end": 500,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "\u2022 accumulated confirmed cases, namely, the sum of IH, RH and D.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "\u2022 the population of state IH, representing the people in hospitals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "\u2022 population of active virus carriers, consisting of the states E and IN .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "Note that the first two populations can be directly observed, but population of E and IN is not observable. We can see that the observed accumulated confirmed cases and the population in IH lie in the calculated confidence interval well. Sensitivity analysis shows that the predicted confidence interval is stable against the uncertainty of \u03b3 A , which gives us more confidence in that the proposed model can capture the spread tendency of the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "The containment time of the outbreak is defined as the moment when the number of active virus carriers is first less than a threshold T c . Noting that the spread of the disease is due to the existing active virus carriers in the proposed model, thus when the number of the active virus carriers decreases to a certain level, the new infections are limited, which means the epidemic is under control. Figure 5 shows the 95% confidence interval of the containment time of the outbreak for each region when T c = 10. Among the six regions in this study, Shanghai is predicted to have the earliest containment time of February 21, while the containment time in Guangdong is predicted to be the latest, around March 7. From the daily report of NHC of China, new infections in Shanghai from February 17 to February 21 are 0,0,0,1,0; and new infections in Guangdong in the same period are 6,3,1,1,6, which potentially supports our prediction. Notice that in sensitivity analysis on \u03b3 A , we find that when the recover rate of asymptomatic patients \u03b3 A gets smaller, the expected containment time is longer. This is because smaller \u03b3 A means that infected asymptomatic patients need 17 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 401,
+                    "end": 409,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . more time to recover, which making the number of active virus carriers stays large for a longer time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "The controlled reproduction number, R c , reflects the transmission ability of the epidemic, which is one of the most important quantities in epidemiology. In this study, the evolution of R c is approximated by the ratio between the in-and-out flows of the active virus carriers in a given time period, that is, for a time interval of length \u2206t, say [t, t + \u2206t], we keep tracking the transitions that leads to the increase/decrease of the active virus carrier population E and IN , with their accumulative numbers recorded. Precisely speaking, we define",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "Recalling that our stochastic epidemic model evolves as a non-explosive continuous time Markov process, RC IN (\u00b7) and RC OU T (\u00b7) are both non-negative finite integers. And when RC OU T ([t, t + \u2206t]) = 0, we approximate the controlled reproduction number over [t, t + \u2206t] by its average value",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "Simulation results for the approximated R c in each region is shown in Figure 6 . In most provinces and cities we find R c is between 2 and 3 before control measures, and drops rapidly to about 0.2 during January 29 and February 1 in all selected regions.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 71,
+                    "end": 79,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "Finally, we evaluate the effectiveness of the current medical tracking policy with a hypothetical controlled test as follows: while keeping the other parameters we estimated unchanged, we set the traceable ratio q = 0 to represent the scenario where no medical tracking were implemented, and let the system evolve. Under this setting, the epidemic would still be contained, see Figure 7 for details, due to the contact control measures that reduce the values of \u03bb's and the reduction of diagnosis waiting time. However, for selected the provinces and cities in this study, there are significant delays in the dates of containment when q = 0, which indicates the current medical tracking policy contribute significantly in containing the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 378,
+                    "end": 386,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Prediction of the epidemic trend"
+        },
+        {
+            "text": "In this article, we propose a novel stochastic dynamic model in order to depict the transmission mechanism of COVID-19. In comparison with some existing models on COVID-19,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033803 doi: medRxiv preprint CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "20"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033803 doi: medRxiv preprint Figure 6 : Predicted time-varying R c curve.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 152,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "20"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "21"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "21"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "22"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "22"
+        },
+        {
+            "text": "our model features the employment of a stochastic dynamic as well as a comprehensive account for the infectious incubation period, the asymptomatic virus carriers, and the medical tracking measure with time latency, which make it probably closer to reality in these aspects. Moreover our proposed model also sets the basis for further studies with individual/network based models, which may not have an exact mean-field counterpart.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "22"
+        },
+        {
+            "text": "In the selected provinces and cities in our study, none of them has more than 2000 accumulated confirmed by now (See Table 5 in Appendix A). The numbers of confirmed cases, though alerting, are still not comparable to the total populations of these provinces, which are of the order 10 million-100 million (see Section 2 for exact population data). Moreover, for a system of size 1000 or so, it is not safe to argue the randomness is negligible due to the Law of Large Numbers, which makes it already sufficiently close to its hydrodynamic limit. This justifies the use of stochastic dynamic in our model.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 117,
+                    "end": 124,
+                    "text": "Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "22"
+        },
+        {
+            "text": "Since the outbreak of COVID-19, the government has conducted large-scale medical tracking and quarantine measures. These non-negligible measures have a significant impact on the spread of COVID-19. The sub-states of E, A and IN in our model are able to reflect such tracking and quarantine measures. Moreover, we also take the latency between medical tracking and quarantine into account. What's more, it has been found that the proportion of asymptomatic infected population is considerable. This justifies the introduction of state A. Finally, for an exposed and symptomatic individual, this model describes the complete process from infection to recovery(or death).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "22"
+        },
+        {
+            "text": "In comparison, the model of Tang et al. (2020)(hereafter abbreviated as T.model) failed to consider the infectivity of the incubative virus carriers(E). What's more, T.model assumed quarantine measures will complete at the moment of contact. It is not completely physical since there should always be a time lag between the transition and the medical tracking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "22"
+        },
+        {
+            "text": "In Wu et al. (2020) , they didn't explicitly consider the impact of medical tracking and quarantine measures in dynamic. As we mentioned above, there are large-scale medical tracking and quarantine measures after the outbreak of COVID-19, and these measures have a significant impact on the spread of the virus. The questionable assumption that the exposed population is non-infectious has also been made in these two models.",
+            "cite_spans": [
+                {
+                    "start": 3,
+                    "end": 19,
+                    "text": "Wu et al. (2020)",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [],
+            "section": "22"
+        },
+        {
+            "text": "The recent work of Yang et al. (2020) proposed a discrete time difference equation(DE) which correctly accounted the infectious incubation period. However, they assumed a symptomatic patient is hospitalized (\"quarantine\" in their term, see Page 4 of Yang et al. (2020) ) immediately at symptom onset, and did not consider the time lag between symptom onset diagnosis/hospitalization. Moreover, the probability of transmission b are questionably assumed to be the same for both the symptomatic and asymptomatic population. See Page 3-4 of Yang et al. (2020) ; and no medical tracking mechanism has been considered. Finally,",
+            "cite_spans": [
+                {
+                    "start": 19,
+                    "end": 37,
+                    "text": "Yang et al. (2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 250,
+                    "end": 268,
+                    "text": "Yang et al. (2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 538,
+                    "end": 556,
+                    "text": "Yang et al. (2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "22"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "23"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "23"
+        },
+        {
+            "text": "there seems to be multiple imperfections in the interpretation of dynamic and estimation of parameters.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "23"
+        },
+        {
+            "text": "The differences among models mentioned above are hereby summarized in From the estimated parameters, we find that about 30% of the infected are asymptomatic, patients with symptoms are about twice as likely to pass a pathogen to others as asymptomatic patients, and current containment measures are effective to reduce the contact and transmission rate. The containment time of the outbreak for different regions are predicted. Time-varying R c is calculated and a rapid drop of R c is observed due to containment measures that governments take. We have also conducted controlled test and find that in addition of the control measures reducing the contacts of people, the current medical tracking policy also contributes significantly in containing the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "23"
+        },
+        {
+            "text": "However, we acknowledge there are limitations in the propose model, 1. Given the limited data available, certainly parameters, especially those \"far away\" from observation in the proposed model may have a potential risk of identification issues.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "23"
+        },
+        {
+            "text": "2. The current estimation method converges slowly;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "23"
+        },
+        {
+            "text": "3. The proposed model does not apply if significant changes apply to the current epidemic control/treatment measure in the future;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "23"
+        },
+        {
+            "text": "4. The proposed model need further modification if a non-negligible portion of the asymptomatic patients remain infectious after the end of quarantine.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "23"
+        },
+        {
+            "text": "5. Parameter estimates may lose precision if the stochastic model differs excessively from its simplification described in Section 4.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "23"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "24"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10. 1101 In our future study, we propose to complement/generalize our current stochastic model from the following aspects:",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "1101",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "24"
+        },
+        {
+            "text": "\u2022 Improved medical tracking dynamic: In this ongoing work, we are to introduce a more realistic dynamic for medical tracking. Our current model has already considered the latency between transmission and quarantine. While in this modification, medical tracking is triggered in a more physical manner by the affirmative diagnosis of the transmission source. In this new model the quarantine process of each exposed agent depends on his/her individual contact history. Thus an individual based, rather than compartment dynamic is needed. Then the parameters we have estimated can be used as a basis for the individual-based model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "24"
+        },
+        {
+            "text": "\u2022 Introduction of medical service capacity: In this modification, the maximal capacity of the medical service system is to be considered, which might be overloaded when facing a massive outbreak. This idea was first inspired by an Amateur Demonstration made by Ele laboratory (2020) on a site named \"bilibili\", and seems to be among the key features of the initial phase of the COVID-19 outbreak in Wuhan. We may also allow such capacity to be time/configuration dependent to model the contribution of building the \"emergency hospitals\" in Wuhan.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "24"
+        },
+        {
+            "text": "\u2022 Population flows over cities: We will model the migration of people over different regions, which could have played an essential role in the spread of the epidemic before the Chinese New Year of 2020. We will also consider the transmissions on board and even allow the population flow to react on the information they have about the epidemic situation. Kermack, W. O. and McKendrick, A. G. (1927) . A contribution to the mathematical theory of epidemics. Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character, 115(772):700-721.",
+            "cite_spans": [
+                {
+                    "start": 355,
+                    "end": 398,
+                    "text": "Kermack, W. O. and McKendrick, A. G. (1927)",
+                    "ref_id": "BIBREF61"
+                }
+            ],
+            "ref_spans": [],
+            "section": "24"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "27"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10. 1101 Shanghai Municipal Health Commission (2020). Situation report (in chinese). Available at http://wsjkw.sh.gov.cn/xwfb/20200222/0a10b6df11c845368af2d627d9551ed1.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "1101",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "27"
+        },
+        {
+            "text": "State Council Information Office of the People's Republic of China (2020). State council information office holds press conference on joint prevention and control of pneumonia outbreak with new coronavirus infection(in chinese). Available at http://www.scio.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "html."
+        },
+        {
+            "text": "gov.cn/xwfbh/xwbfbh/wqfbh/42311/42478/index.htm.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "html."
+        },
+        {
+            "text": "Tang, B., Wang, X., Li, Q., Bragazzi, N. L., Tang . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 45,
+                    "end": 49,
+                    "text": "Tang",
+                    "ref_id": null
+                }
+            ],
+            "section": "html."
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "html."
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "html."
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10. 1101 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "1101",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "html."
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.10.20033803 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "html."
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10. 1101 ",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "1101",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "html."
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Die Grundlehren der mathematischen Wissenschaften",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Athreya",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ney",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Multiscale mobility networks and the spatial spreading of infectious diseases",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Balcan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Colizza",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gon\u00e7alves",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ramasco",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "106",
+            "issn": "51",
+            "pages": "21484--21489",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The principle of the diffusion of arbitrary constants",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Barbour",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "J. Appl. Probability",
+            "volume": "9",
+            "issn": "",
+            "pages": "519--541",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Beijing Municipal Health Commission (2020)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A stochastic SIRS epidemic model incorporating media coverage and driven by L\u00e9vy noise",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Berrhazi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "El Fatini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Laaribi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pettersson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Taki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Chaos Solitons Fractals",
+            "volume": "105",
+            "issn": "",
+            "pages": "60--68",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Annual data by province",
+            "authors": [],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The effect of travel restrictions on the spread of the 2019 novel coronavirus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chinazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ajelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gioannini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Litvinova",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Merler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pastore Y Piontti",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Halloran",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Longini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Chongqing Municipal Health Commission (2020)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A stochastic SIR model with contact-tracing: large population limits and statistical inference",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cl\u00e9men\u00e7on",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "De Arazoza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Biol. Dyn",
+            "volume": "2",
+            "issn": "4",
+            "pages": "392--414",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Stochastic equations in infinite dimensions",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Da Prato",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zabczyk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "of Encyclopedia of Mathematics and its Applications",
+            "volume": "152",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Characterization and convergence. Government of the People's Republic of China (2020). Notice of the pneumonia outbreak prevention and control command of new coronary virus infection in wuhan",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ethier",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kurtz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Markov processes. Wiley Series in Probability and Mathematical Statistics: Probability and Mathematical Statistics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Situation report on new coronavirus pneumonia outbreak in guangdong province",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Situation report on new coronavirus pneumonia outbreak in hunan province",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Situation report on new coronavirus pneumonia outbreak in guangdong province",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Information Office of Hubei Provincial People's Government (2020). \"prevention and control of pneumonia outbreak of new coronary virus infection\" press conference",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "About the new-style coronavirus infectious disease which was checked in the cruise ship which is being quarantined at yokohama port (in japanese)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Threshold behaviour of a stochastic SIR model",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Appl. Math. Model",
+            "volume": "38",
+            "issn": "",
+            "pages": "5067--5079",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Deterministic and stochastic epidemics in closed populations",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kendall",
+                    "suffix": ""
+                }
+            ],
+            "year": 1954,
+            "venue": "Proceedings of the Third Berkeley Symposium on Mathematical Statistics and Probability",
+            "volume": "IV",
+            "issn": "",
+            "pages": "149--165",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Statistical Inference for Partially Observed Markov Processes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ionides",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bret\u00f3",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ellner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ferrari",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kendall",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lavine",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Reuman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wearing",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Statistical inference for partially observed Markov processes via the R package pomp",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ionides",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of Statistical Software",
+            "volume": "69",
+            "issn": "12",
+            "pages": "1--43",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Solutions of ordinary differential equations as limits of pure jump markov processes",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kurtz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "Journal of applied Probability",
+            "volume": "7",
+            "issn": "1",
+            "pages": "49--58",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Limit theorems for sequences of jump markov processes approximating ordinary differential processes",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kurtz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1971,
+            "venue": "Journal of Applied Probability",
+            "volume": "8",
+            "issn": "2",
+            "pages": "344--356",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Interacting particle systems",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Liggett",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Grundlehren der Mathematischen Wissenschaften",
+            "volume": "276",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Time-varying transmission dynamics of novel coronavirus pneumonia in china. bioRxiv",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Rong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The reproductive number of covid-19 is higher compared to sars coronavirus",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gayle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilder-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rockl\u00f6v",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of travel medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "National Heath Commission of the People's Republic of China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "National Heath Commission of the People's Republic of China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Epidemic analysis of COVID-19 in China by dynamical modeling",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhuge",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "2019-ncov) in china, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv",
+            "authors": [],
+            "year": 2020,
+            "venue": "Notice of new coronavirus pneumonia in zhejiang province on march",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "A 1 + 1",
+            "authors": [
+                {
+                    "first": ".",
+                    "middle": [
+                        "."
+                    ],
+                    "last": "\u2022 [s",
+                    "suffix": ""
+                },
+                {
+                    "first": ".",
+                    "middle": [
+                        "."
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "] \u2192 [s \u2212 1",
+                    "suffix": ""
+                },
+                {
+                    "first": ",",
+                    "middle": [
+                        ". ; ."
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "D] At",
+                    "middle": [],
+                    "last": "Rate",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "A 2 + 1",
+            "authors": [
+                {
+                    "first": ".",
+                    "middle": [
+                        "."
+                    ],
+                    "last": "\u2022 [s",
+                    "suffix": ""
+                },
+                {
+                    "first": ".",
+                    "middle": [
+                        "."
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "] \u2192 [s \u2212 1",
+                    "suffix": ""
+                },
+                {
+                    "first": ",",
+                    "middle": [
+                        ". ; ."
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "D] At",
+                    "middle": [],
+                    "last": "Rate",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Die Grundlehren der mathematischen Wissenschaften",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Athreya",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ney",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The mathematical theory of infectious diseases and its applications",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "T J"
+                    ],
+                    "last": "Bailey",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Multiscale mobility networks and the spatial spreading of infectious diseases",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Balcan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Colizza",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gon\u00e7alves",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ramasco",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "106",
+            "issn": "51",
+            "pages": "21484--21489",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "The principle of the diffusion of arbitrary constants",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Barbour",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "J. Appl. Probability",
+            "volume": "9",
+            "issn": "",
+            "pages": "519--541",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Beijing Municipal Health Commission (2020)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "A stochastic SIRS epidemic model incorporating media coverage and driven by L\u00e9vy noise",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Berrhazi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "El Fatini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Laaribi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pettersson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Taki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Chaos Solitons Fractals",
+            "volume": "105",
+            "issn": "",
+            "pages": "60--68",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Annual data by province",
+            "authors": [],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "The effect of travel restrictions on the spread of the 2019 novel coronavirus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chinazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ajelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gioannini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Litvinova",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Merler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pastore Y Piontti",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Halloran",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Longini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Chongqing Municipal Health Commission (2020)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "A stochastic SIR model with contact-tracing: large population limits and statistical inference",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cl\u00e9men\u00e7on",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "De Arazoza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Biol. Dyn",
+            "volume": "2",
+            "issn": "4",
+            "pages": "392--414",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Stochastic equations in infinite dimensions",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Da Prato",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zabczyk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "of Encyclopedia of Mathematics and its Applications",
+            "volume": "152",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Lecture notes on particle systems and percolation. The Wadsworth & Brooks/Cole Statistics/Probability Series",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Durrett",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Computer simulation programs tell you why it's not time to go out now",
+            "authors": [],
+            "year": 2020,
+            "venue": "Ele laboratory",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Characterization and convergence. Government of the People's Republic of China (2020). Notice of the pneumonia outbreak prevention and control command of new coronary virus infection in wuhan",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ethier",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kurtz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Markov processes. Wiley Series in Probability and Mathematical Statistics: Probability and Mathematical Statistics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Situation report on new coronavirus pneumonia outbreak in guangdong province",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Situation report on new coronavirus pneumonia outbreak in hunan province",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Situation report on new coronavirus pneumonia outbreak in guangdong province",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Information Office of Hubei Provincial People's Government (2020). \"prevention and control of pneumonia outbreak of new coronary virus infection\" press conference",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "About the new-style coronavirus infectious disease which was checked in the cruise ship which is being quarantined at yokohama port (in japanese)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Threshold behaviour of a stochastic SIR model",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Appl. Math. Model",
+            "volume": "38",
+            "issn": "",
+            "pages": "5067--5079",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Deterministic and stochastic epidemics in closed populations",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kendall",
+                    "suffix": ""
+                }
+            ],
+            "year": 1954,
+            "venue": "Proceedings of the Third Berkeley Symposium on Mathematical Statistics and Probability",
+            "volume": "IV",
+            "issn": "",
+            "pages": "149--165",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "A contribution to the mathematical theory of epidemics",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kermack",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mckendrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 1927,
+            "venue": "Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character",
+            "volume": "115",
+            "issn": "772",
+            "pages": "700--721",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Statistical Inference for Partially Observed Markov Processes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ionides",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bret\u00f3",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ellner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ferrari",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kendall",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lavine",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Reuman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wearing",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Statistical inference for partially observed Markov processes via the R package pomp",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ionides",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of Statistical Software",
+            "volume": "69",
+            "issn": "12",
+            "pages": "1--43",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Solutions of ordinary differential equations as limits of pure jump markov processes",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kurtz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "Journal of applied Probability",
+            "volume": "7",
+            "issn": "1",
+            "pages": "49--58",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Limit theorems for sequences of jump markov processes approximating ordinary differential processes",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kurtz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1971,
+            "venue": "Journal of Applied Probability",
+            "volume": "8",
+            "issn": "2",
+            "pages": "344--356",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Interacting particle systems",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Liggett",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Grundlehren der Mathematischen Wissenschaften",
+            "volume": "276",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Time-varying transmission dynamics of novel coronavirus pneumonia in china. bioRxiv",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Rong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "The reproductive number of covid-19 is higher compared to sars coronavirus",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gayle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilder-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rockl\u00f6v",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of travel medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "National Heath Commission of the People's Republic of China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "National Heath Commission of the People's Republic of China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Epidemic analysis of COVID-19 in China by dynamical modeling",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhuge",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "People's Government of Zhejiang Province",
+            "authors": [],
+            "year": 2020,
+            "venue": "Notice of new coronavirus pneumonia in zhejiang province on march",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Shanghai Municipal Health Commission (2020)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "State council information office holds press conference on joint prevention and control of pneumonia outbreak with new coronavirus infection",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "The relationships between message passing, pairwise, Kermack-McKendrick and stochastic SIR epidemic models",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ball",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sharkey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Math. Biol",
+            "volume": "75",
+            "issn": "6-7",
+            "pages": "1563--1590",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-ncov outbreak originating in wuhan, china: a modelling study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "30260--30269",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Modified SEIR and AI prediction of the epidemics trend of COVID-19 in China under public health interventions",
+            "authors": [],
+            "year": null,
+            "venue": "Journal of Thoracic Disease",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.21037/jtd.2020.02.64"
+                ]
+            }
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Estimation of the time-varying reproduction number of covid-19 outbreak in China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "You",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X.-H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "medRxiv:10.1101/2020.02.08.20021253"
+                ]
+            }
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Stochastic SIR model with jumps",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Appl. Math. Lett",
+            "volume": "26",
+            "issn": "8",
+            "pages": "867--874",
+            "other_ids": {}
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Preliminary estimation of the basic reproduction number of novel coronavirus (2019-ncov) in china",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ran",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Musa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "over time t forms a continuous time Markov Process with state space {0, 1, 2, ..., N } 15 , with transitions described as follows:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "A Simplified Version of process",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Predicted confidence interval for key populations 19 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Prediction of the containment time of the outbreak. The containment time of 1000 simulations is plotted as a histogram and is fitted with normal distribution for each region. The y axis represents the density of containment time.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Prediction of the containment time of the outbreak with q = 0. The containment time of 1000 simulations is plotted as a histogram and is fitted with normal distribution for each region. The y axis represents the density of containment time.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": ", S., Xiao, Y., and Wu, J. (2020). Estimation of the transmission risk of the 2019-ncov and its implication for public health interventions. Journal of Clinical Medicine, 9(2):462. The People's Government of Zhejiang Province (2020). The office of the leading group for the prevention and control of new coronavirus infection in zhejiang province issued a notice (provisional) on the prevention and control of new coronavirus infection in rural areas of zhejiang province (in chinese). Available at http://www.zj.gov.cn/art/2020/ 2/10/art_1228996604_41898059.html. Wilkinson, R. R., Ball, F. G., and Sharkey, K. J. (2017). The relationships between message passing, pairwise, Kermack-McKendrick and stochastic SIR epidemic models. J. Math. Biol., 75(6-7):1563-1590. Wu, J. T., Leung, K., and Leung, G. M. (2020). Nowcasting and forecasting the potential domestic and international spread of the 2019-ncov outbreak originating in wuhan, china: a modelling study. Lancet, doi:10.1016/S0140-6736(20)30260-9. Yang, Z., Zeng, Z., Wang, K., Wong, S.-S., Liang, W., Zanin, M., Liu, P., Cao, X., Gao, Z., Mai, Z., Liang, J., Liu, X., Li, S., Li, Y., Ye, F., Guan, W., Yang, Y., Li, F., Luo, S., Xie, Y., Liu, B., Wang, Z., Zhang, S., Wang, Y., Zhong, N., and He, J. (2020). Modified SEIR and AI prediction of the epidemics trend of COVID-19 in China under public health interventions. Journal of Thoracic Disease, doi: 10.21037/jtd.2020.02.64. You, C., Deng, Y., Hu, W., Sun, J., Lin, Q., Zhou, F., Pang, C. H., Zhang, Y., Chen, Z., and Zhou, X.-H. (2020). Estimation of the time-varying reproduction number of covid-19 outbreak in China. medRxiv: 10.1101/2020.02.08.20021253. Zhang, X. and Wang, K. (2013). Stochastic SIR model with jumps. Appl. Math. Lett., 26(8):867-874. Zhao, S., Lin, Q., Ran, J., Musa, S. S., Yang, G., Wang, W., Lou, Y., Gao, D., Yang, L., He, D., and Wang, M. H. (2020). Preliminary estimation of the basic reproduction 29",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Priors for parameter estimation and values for prefixed parameters Priors for estimation",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "\u03b3 A = 1/7 \u03b3 A = 1/10 \u03b3 A = 1/14",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Comparison of Models * Latency MT= Latency in medical tracking * * Latency H= Latency in hospitalization",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Cumulative recoveries. The data for the six regions are available at Beijing Municipal Health Commission (2020); Shanghai Municipal Health Commission (2020); Chongqing Municipal Health Commission (2020); Health Commission of Guangdong Province (2020); Health Commission of Zhejiang Province (2020); Health Commission of Hunan Province (2020).City/Province Permanent population",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Permanent population. The data for the six regions are available at China National Bureau of Statistics (2018) .",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This research is supported by National Natural Science Foundation of China grant 8204100362 and Zhejiang University special scientific research fund for COVID-19 prevention and control.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgment"
+        },
+        {
+            "text": "In this appendix, we present the transition rates of the system \u03be(t) = {S(t), E 1 (t), E 2 (t), E q (t), A 1 (t), A 2 (t), A q (t), IN 1 (t), IN 2 (t), IH L (t), IH S (t), R A (t), R N (t), R H (t), D(t)}, which uniquely determines the continuous time Markov Process in our proposed model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Appendix B: Formal Definition of the Markov Process"
+        },
+        {
+            "text": "\u2022 [S, E 1 , ..., D] \u2192 [S \u2212 1, E 1 + 1, ..., D] at rate",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "infection:"
+        }
+    ]
+}

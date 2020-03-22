@@ -1,0 +1,1303 @@
+{
+    "paper_id": "e05ece9c6fdb3e9942598685bb94748b97d88e16",
+    "metadata": {
+        "title": "The sequence of human ACE2 is suboptimal for binding the S spike protein of SARS coronavirus 2",
+        "authors": []
+    },
+    "abstract": [
+        {
+            "text": "The rapid and escalating spread of SARS coronavirus 2 (SARS-CoV-2) 6 poses an immediate public health emergency, and no approved therapeutics or 7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "vaccines are currently available. The viral spike protein S binds ACE2 on host cells to 8 initiate molecular events that release the viral genome intracellularly. Soluble ACE2 9",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "inhibits entry of both SARS and SARS-2 coronaviruses by acting as a decoy for S 10 binding sites, and is a candidate for therapeutic and prophylactic development.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Using deep mutagenesis, variants of ACE2 are identified with increased binding to 12 the receptor binding domain of S at a cell surface. Mutations are found across the 13 interface and also at buried sites where they are predicted to enhance folding and 14 presentation of the interaction epitope. The N90-glycan on ACE2 hinders association.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The mutational landscape offers a blueprint for engineering high affinity ACE2 16 receptors to meet this unprecedented challenge.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In December, 2018, a novel zoonotic betacoronavirus closely related to bat coronaviruses 18 spilled over to humans at the Huanan Seafood Market in the Chinese city of Wuhan (1, 2) . 19 The virus, called SARS-CoV-2 due to its similarities with the severe acute respiratory 20 syndrome (SARS) coronavirus responsible for a smaller outbreak nearly two decades prior 21",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 176,
+                    "text": "(1,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 177,
+                    "end": 179,
+                    "text": "2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 182,
+                    "end": 184,
+                    "text": "19",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "(3, 4), has since spread human-to-human rapidly across the world, precipitating 22 extraordinary containment measures from governments (5). Stock markets have fallen, 23 travel restrictions have been imposed, public gatherings canceled, and large numbers of 24 people are quarantined. These events are unlike any experienced in generations. 25 Symptoms of coronavirus disease 2019 (COVID-19) range from mild to dry cough, fever, 26 pneumonia and death, and SARS-CoV-2 is devastating among the elderly and other 27 vulnerable groups (6, 7). 28",
+            "cite_spans": [
+                {
+                    "start": 80,
+                    "end": 82,
+                    "text": "22",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 167,
+                    "end": 169,
+                    "text": "23",
+                    "ref_id": null
+                },
+                {
+                    "start": 341,
+                    "end": 343,
+                    "text": "25",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The S spike glycoprotein of SARS-CoV-2 binds angiotensin-converting enzyme 2 (ACE2) on 29 host cells (2, 8-13). S is a trimeric class I viral fusion protein that is proteolytically 30 processed into S1 and S2 subunits that remain noncovalently associated in a prefusion 31 state (8, 11, 14) . Upon engagement of ACE2 by a receptor binding domain (RBD) in S1 (15), 32 conformational rearrangements occur that cause S1 shedding, cleavage of S2 by host 33 proteases, and exposure of a fusion peptide adjacent to the S2' proteolysis site (14, (16) (17) (18) Fc region of  41  human immunoglobulin can provide an avidity boost while recruiting immune effector  42  functions and increasing serum stability, an especially desirable quality if intended for  43 prophylaxis (23, 24), and sACE2 has proven safe in healthy human subjects (25) typically yield no more than one coding variant per cell, providing a tight link between 60 genotype and phenotype (30, 31). Cells were then incubated with a subsaturating dilution 61 of medium containing the RBD of SARS-CoV-2 fused C-terminally to superfolder GFP 62 (sfGFP: (32)) ( Fig. 1A) . Levels of bound RBD-sfGFP correlate with surface expression levels 63",
+            "cite_spans": [
+                {
+                    "start": 279,
+                    "end": 282,
+                    "text": "(8,",
+                    "ref_id": null
+                },
+                {
+                    "start": 283,
+                    "end": 286,
+                    "text": "11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 287,
+                    "end": 290,
+                    "text": "14)",
+                    "ref_id": null
+                },
+                {
+                    "start": 534,
+                    "end": 538,
+                    "text": "(14,",
+                    "ref_id": null
+                },
+                {
+                    "start": 539,
+                    "end": 543,
+                    "text": "(16)",
+                    "ref_id": null
+                },
+                {
+                    "start": 544,
+                    "end": 548,
+                    "text": "(17)",
+                    "ref_id": null
+                },
+                {
+                    "start": 549,
+                    "end": 553,
+                    "text": "(18)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 554,
+                    "end": 753,
+                    "text": "Fc region of  41  human immunoglobulin can provide an avidity boost while recruiting immune effector  42  functions and increasing serum stability, an especially desirable quality if intended for  43",
+                    "ref_id": null
+                },
+                {
+                    "start": 1117,
+                    "end": 1125,
+                    "text": "Fig. 1A)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "of myc-tagged ACE2 measured by dual color flow cytometry. Compared to cells expressing 64 wild type ACE2 (Fig. 1C ), many variants in the ACE2 library fail to bind RBD, while there 65 appeared to be a smaller number of ACE2 variants with higher binding signals (Fig. 1D ). 66",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 105,
+                    "end": 113,
+                    "text": "(Fig. 1C",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 261,
+                    "end": 269,
+                    "text": "(Fig. 1D",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Cells expressing ACE2 variants with high or low binding to RBD were collected by 67 fluorescence-activated cell sorting (FACS), referred to as \"nCoV-S-High\" and \"nCoV-S-Low\" 68 sorted populations, respectively. During FACS, fluorescence signal for bound RBD-sfGFP 69 continuously declined, requiring the collection gates to be regularly updated to 'chase' the 70 relevant populations. This is consistent with RBD dissociating over hours during the 71 experiment. Reported affinities of RBD for ACE2 range from 1 to 15 nM (8, 10). 72 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994236 doi: bioRxiv preprint Transcripts in the sorted populations were deep sequenced, and frequencies of variants 98",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "were compared to the naive plasmid library to calculate the enrichment or depletion of all 99 2,340 coding mutations in the library (Fig. 2 ). This approach of tracking an in vitro 100 selection or evolution by deep sequencing is known as deep mutagenesis (33). Enrichment 101 ratios ( Fig. 3A and 3B) and residue conservation scores ( Fig. 3D and 3E) closely agree 102 between two independent sort experiments, giving confidence in the data. For the most 103 part, enrichment ratios (Fig. 3C ) and conservation scores (Fig. 3F) in the nCoV-S-High sorts 104",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 132,
+                    "end": 139,
+                    "text": "(Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 286,
+                    "end": 293,
+                    "text": "Fig. 3A",
+                    "ref_id": null
+                },
+                {
+                    "start": 336,
+                    "end": 343,
+                    "text": "Fig. 3D",
+                    "ref_id": null
+                },
+                {
+                    "start": 484,
+                    "end": 492,
+                    "text": "(Fig. 3C",
+                    "ref_id": null
+                },
+                {
+                    "start": 519,
+                    "end": 528,
+                    "text": "(Fig. 3F)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "are anticorrelated with the nCoV-S-Low sorts, with the exception of nonsense mutations 105 which were appropriately depleted from both gates. This indicates that most, but not all, 106 nonsynonymous mutations in ACE2 did not eliminate surface expression. The library is 107 biased towards solvent-exposed residues and has few substitutions of buried hydrophobics 108 that might have bigger effects on plasma membrane trafficking (31). 109 ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Mapping the experimental conservation scores from the nCoV-S-High sorts to the structure 124 of RBD-bound ACE2 (19) shows that residues buried in the interface tend to be conserved, 125",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "123"
+        },
+        {
+            "text": "whereas residues at the interface periphery or in the substrate-binding cleft are 126 mutationally tolerant (Fig. 4A) . The region of ACE2 surrounding the C-terminal end of the 127 ACE2 \u03b11 helix and \u03b23-\u03b24 strands has a weak tolerance of polar residues, while amino acids 128 at the N-terminal end of \u03b11 and the C-terminal end of \u03b12 prefer hydrophobics (Fig. 4B) , 129 likely in part to preserve hydrophobic packing between \u03b11-\u03b12. These discrete patches 130 contact the globular RBD fold and a long protruding loop of the RBD, respectively. 131 Two ACE2 residues, N90 and T92 that together form a consensus N-glycosylation motif, are 132 notable hot spots for enriched mutations (Fig. 2 and 4A) . Indeed, all substitutions of N90 133 and T92, with the exception of T92S which maintains the N-glycan, are highly favorable for 134 RBD binding, and the N90-glycan is thus predicted to partially hinder S/ACE2 interaction. 135 were also enriched at buried positions where they will change local packing (e.g. A25V, 169 L29F, W69V, F72Y and L351F). The selection of ACE2 variants for high binding signal 170 therefore not only reports on affinity, but also on presentation at the membrane of folded 171 structure recognized by SARS-CoV-2 S. The presence of enriched structural mutations in 172 the sequence landscape is especially notable considering the ACE2 library was biased 173 towards solvent-exposed positions. 174",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 108,
+                    "end": 117,
+                    "text": "(Fig. 4A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 352,
+                    "end": 361,
+                    "text": "(Fig. 4B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 678,
+                    "end": 693,
+                    "text": "(Fig. 2 and 4A)",
+                    "ref_id": null
+                }
+            ],
+            "section": "123"
+        },
+        {
+            "text": "Deep mutational scans in human cells have errors (34), and it is unclear how large an effect 175 an enriched mutation in a selection will have when introduced in a purified protein.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "123"
+        },
+        {
+            "text": "Mutations of interest for ACE2 engineering will need careful assessment by targeted 177 mutagenesis, as well as considerations on how best to combine mutations for production of 178 conformationally-stable, high affinity sACE2. Other considerations will be whether to fuse 179 sACE2 to Fc of IgG1 or IgA1 to evoke specialized immune effector functions, or to fuse with 180 albumin to boost serum stability without risking an excessive inflammatory response. 181",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "176"
+        },
+        {
+            "text": "These are unknowns. 182 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the the myc-positive (Alexa 647) population, the top 67% were gated (Fig. 1B) . Of these, the 15 216 % of cells with the highest and 20% of cells with the lowest GFP fluorescence were 217 collected (Fig. 1D ) in tubes coated overnight with fetal bovine serum and containing 218",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 248,
+                    "end": 257,
+                    "text": "(Fig. 1B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 378,
+                    "end": 386,
+                    "text": "(Fig. 1D",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "176"
+        },
+        {
+            "text": "Expi293 Expression Medium. Total RNA was extracted from the collected cells using a 219",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "176"
+        },
+        {
+            "text": "GeneJET RNA purification kit (Thermo Scientific), and cDNA was reverse transcribed with 220 high fidelity Accuscript (Agilent) primed with gene-specific oligonucleotides. Diversified 221 regions of ACE2 were PCR amplified as 5 fragments. Flanking sequences on the primers 222 added adapters to the ends of the products for annealing to Illumina sequencing primers, 223 unique barcoding, and for binding the flow cell. Amplicons were sequenced on an Illumina 224 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994236 doi: bioRxiv preprint NovaSeq 6000 using a 2\u00d7250 nt paired end protocol. Data were analyzed using Enrich (36), 225 and commands are provided in the GEO deposit. Briefly, the frequencies of ACE2 variants in 226 the transcripts of the sorted populations were compared to their frequencies in the naive 227 plasmid library to calculate an enrichment ratio. ",
+            "cite_spans": [
+                {
+                    "start": 777,
+                    "end": 780,
+                    "text": "225",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "176"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable 240 bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "270--273",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Coronavirus as a possible cause of severe acute respiratory 242 syndrome",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S M"
+                    ],
+                    "last": "Peiris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "361",
+            "issn": "",
+            "pages": "1319--1325",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronaviridae Study Group of the International Committee on Taxonomy of Viruses, 244 The species Severe acute respiratory syndrome-related coronavirus: classifying 245 2019-nCoV and naming it SARS-CoV-2",
+            "authors": [],
+            "year": 2020,
+            "venue": "Nat Microbiol",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "2019-nCoV CDC Response Team, Initial Public Health 247 Response and Interim Clinical Guidance for the 2019 Novel Coronavirus Outbreak -248",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Jernigan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "United States",
+            "authors": [],
+            "year": 2019,
+            "venue": "MMWR Morb. Mortal. Wkly. Rep",
+            "volume": "249",
+            "issn": "",
+            "pages": "140--146",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Updated understanding of the outbreak of 2019 novel 251 coronavirus (2019-nCoV) in Wuhan",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. J. Med. Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "441--447",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in 253",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Structure, Function, and Antigenicity of the SARS-CoV-2 Spike 255 Glycoprotein",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "256",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.058"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Receptor recognition by novel 257 coronavirus from Wuhan: An analysis based on decade-long structural studies of",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion 260 conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is 262 Blocked by a Clinically Proven Protease Inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.052"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Angiotensin-converting enzyme 2 is a functional receptor for the SARS 265 coronavirus",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "426",
+            "issn": "",
+            "pages": "450--454",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Functional assessment of cell entry and receptor 267 usage for SARS-CoV-2 and other lineage B betacoronaviruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Letko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Microbiol",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Structural insights into coronavirus entry",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tortorici",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Veesler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Adv. Virus Res",
+            "volume": "270",
+            "issn": "105",
+            "pages": "93--116",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "A 193-amino acid fragment of the 272 SARS coronavirus S protein efficiently binds angiotensin-converting enzyme 2",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Choe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Biol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Characterization of a highly 275 conserved domain within the severe acute respiratory syndrome coronavirus spike 276 protein S2 domain with characteristics of a viral fusion peptide",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Madu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Roth",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Belouzard",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Whittaker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Virol",
+            "volume": "83",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Tectonic conformational changes of a coronavirus spike 279 glycoprotein promote membrane fusion",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Walls",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proc. Natl. Acad. Sci. U.S.A",
+            "volume": "114",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Host cell entry of Middle East respiratory syndrome 282 coronavirus after two-step, furin-mediated activation of the spike protein",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Millet",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Whittaker",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Proc. Natl",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Structural basis for the recognition of the SARS-CoV-2 by full-length 285 human ACE2",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Structure of SARS coronavirus spike receptor-287 binding domain complexed with receptor",
+            "authors": [
+                {
+                    "first": ".",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Science",
+            "volume": "309",
+            "issn": "",
+            "pages": "1864--1868",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Susceptibility to SARS coronavirus S protein-driven infection 289 correlates with expression of angiotensin converting enzyme 2 and infection can be 290 blocked by soluble receptor",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hofmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Biochem. Biophys. Res. Commun",
+            "volume": "319",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Potent neutralization of 2019 novel coronavirus by recombinant ACE2-Ig. 293 bioRxiv",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Retroviruses pseudotyped with the severe acute respiratory 295 syndrome coronavirus spike protein efficiently infect cells expressing angiotensin-296 converting enzyme 2",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Virol",
+            "volume": "78",
+            "issn": "",
+            "pages": "10628--10635",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Novel ACE2-Fc chimeric fusion provides long-lasting hypertension 298 control and organ protection in mouse models of systemic renin angiotensin system 299 activation",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Kidney Int",
+            "volume": "94",
+            "issn": "",
+            "pages": "114--125",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Pharmacokinetics and pharmacodynamics of recombinant human 301 angiotensin-converting enzyme 2 in healthy human subjects",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haschke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Clin Pharmacokinet",
+            "volume": "52",
+            "issn": "",
+            "pages": "783--792",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "A pilot clinical trial of recombinant human angiotensin-converting 304 enzyme 2 in acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Crit Care",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "ACE2 X-ray structures reveal a large hinge-bending motion 306 important for inhibitor binding and catalysis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Towler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Biol. Chem",
+            "volume": "279",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Therapeutic strategies in an outbreak scenario to treat the novel 309 coronavirus originating in Wuhan, China",
+            "authors": [
+                {
+                    "first": ".",
+                    "middle": [
+                        "R L"
+                    ],
+                    "last": "Kruse",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Angiotensin-converting 311 enzyme 2 (ACE2) as a SARS-CoV-2 receptor: molecular mechanisms and potential 312 therapeutic target",
+            "authors": [
+                {
+                    "first": ".",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Penninger",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Slutsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Intensive Care Med",
+            "volume": "309",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Mapping Interaction Sites on Human Chemokine Receptors by 314 Deep Mutational Scanning",
+            "authors": [
+                {
+                    "first": ".",
+                    "middle": [
+                        "J D"
+                    ],
+                    "last": "Heredia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Immunol",
+            "volume": "200",
+            "issn": "",
+            "pages": "1800343--3839",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Structural architecture of a dimeric class C GPCR based on co-trafficking 316 of sweet taste receptor subunits",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal of Biological Chemistry",
+            "volume": "294",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Engineering and 319 characterization of a superfolder green fluorescent protein",
+            "authors": [
+                {
+                    "first": ". J.-D",
+                    "middle": [],
+                    "last": "P\u00e9delacq",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cabantous",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Terwilliger",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Waldo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nat. Biotechnol",
+            "volume": "24",
+            "issn": "",
+            "pages": "79--320",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Deep mutational scanning: a new style of protein science",
+            "authors": [
+                {
+                    "first": ".",
+                    "middle": [
+                        "D M"
+                    ],
+                    "last": "Fowler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fields",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nat. 322 Methods",
+            "volume": "11",
+            "issn": "",
+            "pages": "801--807",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Env Based on Mutational Tolerance in the CD4 and PG16 Bound States",
+            "authors": [],
+            "year": 2019,
+            "venue": "J. Virol",
+            "volume": "93",
+            "issn": "",
+            "pages": "219--238",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Computational design of a protein-based enzyme inhibitor",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Procko",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Mol",
+            "volume": "327",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Enrich: software for analysis of protein 329 function by enrichment and depletion of variants",
+            "authors": [
+                {
+                    "first": ".",
+                    "middle": [
+                        "D M"
+                    ],
+                    "last": "Fowler",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Araya",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Gerard",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fields",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Bioinformatics",
+            "volume": "27",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.16.994236"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "A selection strategy for ACE2 variants with high binding to the RBD of SARS-74 CoV-2 S.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "A) Media from Expi293F cells secreting the SARS-CoV-2 RBD fused to sfGFP was collected 76 and incubated at different dilutions with Expi293F cells expressing myc-tagged ACE2. Bound77 RBD-sfGFP was measured by flow cytometry. The dilutions of RBD-sfGFP-containing medium 78 used for FACS selections are indicated by arrows.79 (B-C) Expi293F cells were transiently transfected with wild type ACE2 plasmid diluted with a 80 large excess of carrier DNA. It has been previously shown that under these conditions, cells 81 typically acquire no more than one coding plasmid and most cells are negative. Cells were 82 incubated with RBD-sfGFP-containing medium and co-stained with fluorescent anti-myc to 83 detect surface ACE2 by flow cytometry. During analysis, the top 67% (magenta gate) were 84 chosen from the ACE2-positive population (purple gate) (B). Bound RBD was subsequently 85 measured relative to surface ACE2 expression (C).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "D) Expi293F cells were transfected with an ACE2 single site-saturation mutagenesis library and 87 analyzed as in B. During FACS, the top 15% of cells with bound RBD relative to ACE2 88 expression were collected (nCoV-S-High sort, green gate) and the bottom 20% were collected 89 separately (nCoV-S-Low sort, blue gate).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "A mutational landscape of ACE2 for high binding signal to the RBD of SARS-91 CoV-2 S.92 Log 2 enrichment ratios from the nCoV-S-High sorts are plotted from \u2264 -3 (i.e. 93 depleted/deleterious, orange) to neutral (white) to \u2265 +3 (i.e. enriched, dark blue). ACE2 primary 94 structure is on the vertical axis, amino acid substitutions are on the horizontal axis. *, stop 95 codon.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Data from independent replicates show close agreement.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "A-B) Log 2 enrichment ratios for ACE2 mutations in the nCoV-S-High (A) and nCoV-S-Low (B) 112 sorts closely agree between two independent FACS experiments. Nonsynonymous mutations 113 are black, nonsense mutations are red. Replicate 1 used a 1/40 dilution and replicate 2 used a 114 1/20 dilution of RBD-sfGFP-containing medium. R 2 values are for nonsynonymous mutations.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "C) Average log 2 enrichment ratios tend to be anticorrelated between the nCoV-S-High and 116 nCoV-S-Low sorts. Nonsense mutations (red) and a small number of nonsynonymous 117 mutations (black) are not expressed at the plasma membrane and are depleted from both sort 118 populations (i.e. fall below the diagonal).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "D-F) Correlation plots of residue conservation scores from replicate nCoV-S-High (D) and 120 nCoV-S-Low (E) sorts, and from the averaged data from both nCoV-S-High sorts compared to for all amino acid substitutions at each residue position.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Sequence preferences of ACE2 residues for high binding to the RBD of SARS-Conservation scores from the nCoV-S-High sorts are mapped to the cryo-EM structure 139 (PDB 6M17) of RBD (pale green ribbon) bound ACE2 (surface). The view at left is looking 140 down the substrate-binding cavity, and only a single protease domain is shown for clarity.141Residues conserved for high RBD binding are orange; mutationally tolerant residues are pale 142 colors; residues that are hot spots for enriched mutations are blue; and residues maintained as 143 wild type in the ACE2 library are grey. Glycans are dark red sticks.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "B) Average hydrophobicity-weighted enrichment ratios are mapped to the RBD-bound ACE2 145 structure, with residues tolerant of polar substitutions in blue, while residues that prefer 146 hydrophobic amino acids are yellow.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "C) A magnified view of part of the ACE2 (colored by conservation score as in A) / RBD (pale 148 green) interface. Accompanying heatmap plots log 2 enrichment ratios from the nCoV-S-High 149 sort for substitutions of ACE2-T27, D30 and K31 from \u2264 -3 (depleted) in orange to \u2265 +3 150 (enriched) in dark blue.151 Mining the data identifies many ACE2 mutations that are enriched for RBD binding. For 152 instance, there are 122 mutations to 35 positions in the library that have log2 enrichment 153 ratios >1.5 in the nCoV-S-High sort. At least a dozen ACE2 mutations at the structurally 154 characterized interface enhance RBD binding, and may be useful for engineering highly 155 specific and tight binders of SARS-CoV-2 S, especially for point-of-care diagnostics. The 156 molecular basis for how some of these mutations enhance RBD binding can be rationalized 157 from the RBD-bound cryo-EM structure (Fig. 4C): hydrophobic substitutions of ACE2-T27 158increase hydrophobic packing with aromatic residues of S, ACE2-D30E extends an acidic 159 side chain to reach S-K417, and aromatic substitutions of ACE2-K31 contribute to an 160 interfacial cluster of aromatics. However, engineered ACE2 receptors with mutations at 161 the interface may present binding epitopes that are sufficiently different from native ACE2 162 that virus escape mutants can emerge, or they may be strain specific and lack breadth. 163 Instead, attention was drawn to mutations in the second shell and farther from the 164 interface that do not directly contact S but instead have putative structural roles. For 165 example, proline substitutions were enriched at five library positions (S19, L91, T92, T324 166and Q325) where they might entropically stabilize the first turns of helices. Proline was 167 also enriched at H34, where it may enforce the central bulge in \u03b11. Multiple mutations 168",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "receptors, thereby attenuating virulence. Furthermore, fusion of sACE2 to the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "The ACE2 library was transiently expressed in human Expi293F cells under conditions that 59",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994236 doi: bioRxiv preprint 97 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.16.994236 doi: bioRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "After thawing and immediately prior to use, remaining cell debris and precipitates were 201 removed by centrifugation at 20,000 \u00d7 g for 5 minutes. 202 Deep mutagenesis. 117 residues within the protease domain of ACE2 were diversified by 203 overlap extension PCR (35) using primers with degenerate NNK codons. The plasmid 204 library was transfected in to Expi293F cells using Expifectamine under conditions 205 previously shown to typically give no more than a single coding variant per cell (30, 31); 1 206 ng coding plasmid was diluted with 1,500 ng pCEP4-\u0394CMV carrier plasmid per ml of cell 207 culture at 2 \u00d7 10 6 / ml, and the medium was replaced 2 h post-transfection. The cells were 208 collected after 24 h, washed with ice-cold PBS-BSA, and incubated for 30 minutes on ice 209 with a 1/20 (replicate 1) or 1/40 (replicate 2) dilution of medium containing RBD-sfGFP 210 into PBS supplemented with 0.2 % bovine serum albumin (PBS-BSA). Cells were co-stained 211 with anti-myc Alexa 647 (clone 9B11, 1/250 dilution; Cell Signaling Technology). Cells 212 were washed twice with PBS-BSA, and sorted on a BD FACS Aria II at the Roy J. Carver 213Biotechnology Center. The main cell population was gated by forward/side scattering to 214 remove debris and doublets, and DAPI was added to the sample to exclude dead cells. Of 215",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Reagent and data availability. Plasmids are deposited with Addgene under IDs 141183-5. 229 Raw and processed deep sequencing data are deposited in NCBI's Gene Expression 230 Omnibus (GEO). At this time, a series accession number has not been assigned. 231 ACKNOWLEDGEMENTS. Staff at the UIUC Roy J. Carver Biotechnology Center assisted with 232 FACS and Illumina sequencing. The development of deep mutagenesis to study virus-233 receptor interactions was supported by NIH award R01AI129719. 234 CONFLICT OF INTEREST STATEMENT. E.P. is the inventor on a provisional patent filing 235 by the University of Illinois covering aspects of this work. 236",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

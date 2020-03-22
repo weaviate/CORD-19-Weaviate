@@ -1,0 +1,2315 @@
+{
+    "paper_id": "28b53e0cab53b10ab87431d6cc4ac1e0a7c4d6b9",
+    "metadata": {
+        "title": "Effects of temperature variation and humidity on the mortality of COVID-19 in Wuhan",
+        "authors": [
+            {
+                "first": "Yueling",
+                "middle": [],
+                "last": "Ma",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lanzhou University",
+                    "location": {
+                        "postCode": "730000",
+                        "settlement": "Lanzhou",
+                        "region": "Gansu",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yadong",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jiangtao",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lanzhou University",
+                    "location": {
+                        "postCode": "730000",
+                        "settlement": "Lanzhou",
+                        "region": "Gansu",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaotao",
+                "middle": [],
+                "last": "He",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lanzhou University",
+                    "location": {
+                        "postCode": "730000",
+                        "settlement": "Lanzhou",
+                        "region": "Gansu",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bo",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lanzhou University",
+                    "location": {
+                        "postCode": "730000",
+                        "settlement": "Lanzhou",
+                        "region": "Gansu",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shihua",
+                "middle": [],
+                "last": "Fu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lanzhou University",
+                    "location": {
+                        "postCode": "730000",
+                        "settlement": "Lanzhou",
+                        "region": "Gansu",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jun",
+                "middle": [],
+                "last": "Yan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "the First Hospital of Lanzhou University",
+                    "location": {
+                        "postCode": "730000",
+                        "settlement": "Lanzhou",
+                        "region": "Gansu",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jingping",
+                "middle": [],
+                "last": "Niu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lanzhou University",
+                    "location": {
+                        "postCode": "730000",
+                        "settlement": "Lanzhou",
+                        "region": "Gansu",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bin",
+                "middle": [],
+                "last": "Luo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lanzhou University",
+                    "location": {
+                        "postCode": "730000",
+                        "settlement": "Lanzhou",
+                        "region": "Gansu",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Object Meteorological parameters are the important factors influencing the infectious diseases like severe acute respiratory syndrome (SARS). in Wuhan, China. Then, the generalized additive model was applied to explore the impact of temperature, humidity and diurnal temperature range on daily mortality of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "There were in total 2299 COVID-19 mortality counts in Wuhan. A positive association with COVID-19 mortality was observed for diurnal temperature range (r = 0.44), but negative association for relative humidity (r = \u22120.32). In addition, each 1 unit increase in diurnal temperature range was only associated with a 2.92% (95% CI: 0.61%, 5.28%) increase in COVID-19 mortality at lag 3.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "However, both per 1 unit increase of temperature and absolute humidity were related to the decreased COVID-19 mortality at lag 3 and lag 5, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In summary, this study suggests the temperature variation and humidity may be important factors affecting the COVID-19 mortality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In December 2019, a novel coronavirus disease (COVID-19) broke out in Wuhan, China, which caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) [1, 2] . The COVID-19 had been affirmed to have human-to-human transmissibility [3] and has now spread worldwide, which raised high attention not only within China but internationally. The World Health Organization (WHO) reported that there are 118, 326 confirmed cases and 4292 deaths in globally until March 11, 2020 [4] , and evaluated as global pandemic on the same day [5] .",
+            "cite_spans": [
+                {
+                    "start": 161,
+                    "end": 164,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 165,
+                    "end": 167,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 241,
+                    "end": 244,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 376,
+                    "end": 381,
+                    "text": "(WHO)",
+                    "ref_id": null
+                },
+                {
+                    "start": 465,
+                    "end": 483,
+                    "text": "March 11, 2020 [4]",
+                    "ref_id": null
+                },
+                {
+                    "start": 535,
+                    "end": 538,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In retrospect studies, the outbreak of severe acute respiratory syndrome (SARS) in Guangdong in 2003 gradually faded with the warming weather coming, and was basically ended until July [6] . It has been documented that the temperature and its variations might have affected the SARS outbreak [7] . A study in Korea found that the risk of influenza incidence was significantly increased with low daily temperature and low/high relative humidity, a positive significant association was observed for diurnal temperature range (DTR) [8] . Moreover, temperature [9] and DTR [10] have been linked to the death from respiratory diseases. A study demonstrated that absolute humidity had significant correlations with influenza viral survival and transmission rates [11] . Couple of studies reported that the COVID-19 was related to the meteorological factors, which decreased with the temperature increasing [12, 13] , but their effects on the mortality had not been reported. Therefore, we assume that the weather conditions might also contributed to the mortality of COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 188,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 292,
+                    "end": 295,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 529,
+                    "end": 532,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 557,
+                    "end": 560,
+                    "text": "[9]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 569,
+                    "end": 573,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 757,
+                    "end": 761,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 900,
+                    "end": 904,
+                    "text": "[12,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 905,
+                    "end": 908,
+                    "text": "13]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "As the capital of Hubei Province and one of the largest city in central China, Wuhan is located in the middle of the Yangtze River Delta, which has a typical subtropical, humid, monsoon climate with cold winters and warm summers [14] . The average annual temperature and rainfall are 15.8 \u00b0C-17.5 \u00b0C and 1050 mm-2000 mm, respectively [15] . Besides, Wuhan owns an area of 8494 km 2 and a population over 11 million (as of 2018) [16] . So far, this COVID-19 has caused 5393 deaths globally, . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 334,
+                    "end": 338,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 428,
+                    "end": 432,
+                    "text": "[16]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 15.20036426 doi: medRxiv preprint and caused 2456 deaths in Wuhan. Although the deaths may be affected by many factors, the present is to explore the effect from meteorological angel with generalized additive model (GAM).",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "15.20036426 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Data from 20 January to 29 ",
+            "cite_spans": [
+                {
+                    "start": 24,
+                    "end": 26,
+                    "text": "29",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Absolute humidity was calculated according to the previous study and was measured by vapor pressure (VP) [17] . The density of water vapor, or absolute humidity [\u03c1 v (g/m 3 )], is the mass of moisture per total volume of air. It is associated to VP via the ideal gas law for the moist portion of the air:",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Calculation of absolute humidity"
+        },
+        {
+            "text": "Where e is vapor pressure (VP), R v is the gas constant for water vapor [461.53 J/(kg K)], and T is the daily ambient temperature (K). VP is a commonly used indicator of absolute humidity and is calculated from ambient temperature and relative humidity using the Clausius-Clapeyron relation [18] . Briefly, we first calculated the saturation vapor pressure [e s (T) (mb)] from daily ambient temperature using the following equation:",
+            "cite_spans": [
+                {
+                    "start": 291,
+                    "end": 295,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Calculation of absolute humidity"
+        },
+        {
+            "text": "Where e s (T 0 ) denotes saturation vapor pressure at a reference temperature T 0 (273.15 K) which equals to 6.11 mb. L denotes the latent heat of evaporation for water (2257 kJ/kg). R v is the gas constant for water vapor [461.53 J/(kg K)]. T denotes daily ambient temperature (K). Then, VP (Pa) was calculated by combining the e s (T) calculated using Eq. (2) with relative humidity (RH):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Calculation of absolute humidity"
+        },
+        {
+            "text": "A descriptive analysis was performed. We used a generalized additive model (GAM) to analyze the associations between meteorological factors (temperature, DTR, relative humidity and absolute humidity) and the daily mortality of COVID-19. The core analysis was a GAM with a quasi-Poisson link function based on the previous studies [19, 20] . We first built the basic models for mortality . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 330,
+                    "end": 334,
+                    "text": "[19,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 335,
+                    "end": 338,
+                    "text": "20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 15.20036426 doi: medRxiv preprint outcomes without including air pollution or weather variables. We incorporated smoothed spline functions of time, which accommodate nonlinear and nonmonotonic patterns between mortality and time, thus offering a flexible modeling tool. Then, we introduced the weather variables and analyzed their effects on mortality. Akaike's information criterion was used as a measure of how well the model fitted the data. Consistent with several recent time-series studies [21, 22] , the penalized smoothing spline function was applied to control the effects of confounding factors, such as time trends, day-of-week and air pollution. The core GAM equation is:",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "15.20036426",
+                    "ref_id": null
+                },
+                {
+                    "start": 607,
+                    "end": 611,
+                    "text": "[21,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 612,
+                    "end": 615,
+                    "text": "22]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": "Where t is the day of the observation; E(Y t ) is the expected number of daily mortality for COVID-19 on day t; \u03b1 is the intercept;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": "\u03b2 is the regression coefficient; X t is the daily level of weather variables on day t; s() denotes the smoother based on the penalized smoothing spline. Based on quasi Akaike information criterion (QAIC), the 2 degrees of freedom (df) was used for time trends and 3 df for air pollutants, temperature and relative humidity; DOW is a categorical variable indicating the date of the week.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": "After establishing the core model, we also considered the lag effects of weather conditions on death of COVID-19, and examined the potentially lagged effects, i.e., single day lag (from lag 0 to lag 5) and multiple-day average lag (from lag 01 to lag 05) [23] . The exposure and response correlation curves between weather variables and COVID-19 mortality were plotted using a spline function in the GAM. We also performed a sensitivity analysis by changing the df of the penalized smoothing spline function from 2 to 9 for calendar time and from 3 to 8 for temperature and humidity.",
+            "cite_spans": [
+                {
+                    "start": 255,
+                    "end": 259,
+                    "text": "[23]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": "All of the statistical analyses were two-sided, and at a 5% level of significance. All analyses were conducted using R software (version 3.5.3) with the GAM fitted by the \"mgcv\" package (version 1.8-27). The effect estimates were expressed as the percentage changes and their 95% confidence intervals (CIs) in daily mortality of COVID-19 associated with per 1 unit increase in weather variables. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": "The correlation results between mortality counts of COVID-19, meteorological measures and air pollutant concentrations were presented in Table 2 . The mortality counts of COVID-19 was negatively associated with relative humidity (r = \u22120.32), PM 2.5 (r = \u22120.53) and PM 10 (r = \u22120.45). A positive . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 137,
+                    "end": 144,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Correlation between COVID-19 mortality and meteorological factors and air pollutants"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 15.20036426 doi: medRxiv preprint association with COVID-19 mortality was observed for DTR (r = 0.44), and SO 2 (r = 0.31). and COVID-19 mortality at current day. Generally, the curves tended to be not associated with COVID-19 mortality for DTR but were strongly positive for temperature. In addition, the curves associated with relative humidity and absolute humidity presented similar linear trends, which indicated that the higher level of humidity might cause decrease in the COVID-19 mortality. ",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "15.20036426",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Correlation between COVID-19 mortality and meteorological factors and air pollutants"
+        },
+        {
+            "text": "The study was conducted in Wuhan during 20 January, 2020 to 29 February, 2020, in order to investigate the association between weather variables and daily death number of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Significant positive effect of DTR on the daily mortality counts of COVID-19 was first identified through our study. It is also found that a significant negative association with COVID-19 mortality is observed for temperature and absolute humidity. The results indicate that the effects of DTR should also be paid attention on the mortality of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study demonstrated a negative association between COVID-19 case fatality and temperature, while a positive association for DTR. The results are consistent with the following investigations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Respiratory diseases mortality increased with decreasing temperature [24], and was strongly associated with low temperature [25-27]. While another study found that both cold and heat effects may have adverse impact on respiratory mortality [28] . Otherwise, the study conducted in 30 East Asian cities showed that increased DTR was associated with increased risk of mortality for respiratory and cardiovascular diseases [29] . In the cold season, the cumulative relative risk of non-accidental, respiratory and cardiovascular death increased at high DTR values in Tabriz [30] . A time-series study done in Shanghai on the effect of DTR and daily chronic obstructive pulmonary disease (COPD) mortality showing that each 1\u00b0C elevation in the 4-day moving average for DTR accounted for 1.25% of increased risk of COPD mortality [31] . A review for cold exposure and immune function reported that lower temperature may repress the immune function [32] , particularly, our previous finding suggested that the phagocytic function of pulmonary alveolar macrophages declined under cold stress in vitro experiment [33] . Breathing cold air can lead to bronchial constriction, which may promote susceptibility to pulmonary infection [34] . Additionally, since SARS-CoV-2 is sensitive to heat, and high temperature makes it difficult to survive, not to mention the beneficial factors for virus transmission like indoor crowding and poor ventilation in cold days [35] . Also, cold temperature has been discovered to be associated with the reduction of lung function and increases in exacerbations for people with COPD [36] . In addition, DTR represents a stable measure of temperature, which is an indicator of temperature variability to evaluate effects on human health, including mortality and . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 240,
+                    "end": 244,
+                    "text": "[28]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 420,
+                    "end": 424,
+                    "text": "[29]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 571,
+                    "end": 575,
+                    "text": "[30]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 825,
+                    "end": 829,
+                    "text": "[31]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 943,
+                    "end": 947,
+                    "text": "[32]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1105,
+                    "end": 1109,
+                    "text": "[33]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1223,
+                    "end": 1227,
+                    "text": "[34]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1451,
+                    "end": 1455,
+                    "text": "[35]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1606,
+                    "end": 1610,
+                    "text": "[36]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 15.20036426 doi: medRxiv preprint morbidity [37] . Besides, abrupt temperature changes may add the burden of cardiac and respiratory system causing cardiopulmonary events and high DTR levels may be a source of environmental stress [30] . Our findings highlight a need to strengthen the awareness of the effects of temperature and DTR on COVID-19 mortality.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "15.20036426",
+                    "ref_id": null
+                },
+                {
+                    "start": 155,
+                    "end": 159,
+                    "text": "[37]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 342,
+                    "end": 346,
+                    "text": "[30]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Researchers confirmed that respiratory infection was enhanced during unusually cold and low humidity conditions [38] , indicating low humidity may be also an important risk factor for respiratory diseases. Worse, a study with data of more than 25 years found that humidity was an important determinant of mortality and low-humidity levels may cause a large increase in mortality rates, potentially by influenza-related mechanisms [39] , similar to a study carried out in the United States [40] . Consistent to these finding, our results also indicated that the risk of dying from COVID-19 decreased only with absolute humidity increasing. Breathing dry air could cause epithelial damage and/or reduction of mucociliary clearance, and then lead to render the host more susceptible to respiratory virus infection; The formation of droplet nuclei is essential to transmission, but exhaled respiratory droplets settle very rapidly at high humidity so that it is hard to contribute to influenza virus spread [41] . Moreover, the transmission of pandemic influenza virus is the most efficient under cold, dry conditions [42] , and influenza virus survival rate increased markedly in accordance with decreasing of absolute humidity [43] , which may be similar to coronavirus. Therefore, the increase of COVID-19 mortality may also be related to the lower humidity in winter.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 116,
+                    "text": "[38]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 430,
+                    "end": 434,
+                    "text": "[39]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 489,
+                    "end": 493,
+                    "text": "[40]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1003,
+                    "end": 1007,
+                    "text": "[41]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1114,
+                    "end": 1118,
+                    "text": "[42]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1225,
+                    "end": 1229,
+                    "text": "[43]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "However, many limitations should not be ignored. Firstly, there are some other factors may affect the COVID-19 mortality, such as population migration, government intervention and so on. Secondly, ecologic time-series study design was adopted in the study, which might exist ecologic fallacy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Furthermore, it is difficult to obtain the meteorological and air pollution data at the individual level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Nevertheless, this study showed that DTR might be associated with the death risk of COVID-19 in Wuhan, which deserves further investigation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This is the first study to investigate the effects of temperature, DTR and humidity on daily mortality of COVID-19 in Chinese population by utilizing publicly accessible data on COVID-19 statistics and weather variables. Our finding shows that daily mortality of COVID-19 is positively association with DTR but negatively with relative humidity. In summary, this study suggests the temperature variation and humidity may be important factors affecting the COVID-19 mortality. GAM: generalized additive model; CI: confidence interval; RR: relative risk.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical Approval and Consent to participate"
+        },
+        {
+            "text": "Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 15.20036426 doi: medRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "15.20036426",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        },
+        {
+            "text": "The datasets used and/or analyzed during the current study are available from the websites.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of supporting data"
+        },
+        {
+            "text": "The authors declare that they have no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        },
+        {
+            "text": "This work was supported by the Novel Coronavirus Disease Science and Technology Major Project in Gansu Province. CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 15.20036426 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "15.20036426 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Author Contributions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 15.20036426 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "15.20036426",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Author Contributions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 15.20036426 doi: medRxiv preprint Fig. 2 The exposure-response curves of meteorological factors and COVID-19 daily mortality counts in Wuhan, China, from 20 January to 29 February 2020. The X-axis is the concurrent day meteorological data, Y-axis is the predicted log relative risk (RR), is shown by the solid line, and the dotted lines represent the 95% confidence interval (CI). COVID-19, coronavirus disease; DTR, diurnal temperature range.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "15.20036426",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 145,
+                    "end": 151,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Author Contributions"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author Contributions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 15.20036426 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "15.20036426",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Author Contributions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 15.20036426 doi: medRxiv preprint ",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "15.20036426 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Author Contributions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "265--269",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Severe acute respiratory syndrome-related coronavirus-The species and its viruses, a statement of the Coronavirus Study Group",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "BioRxiv",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A novel coronavirus outbreak of global health concern. The Lancet",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Horby",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "470--473",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "WHO: Coronavirus disease 2019 (COVID-19) Situation Report -51",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "WHO: WHO characterizes COVID-19 as a pandemic",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Disease metaphors in new epidemics: the UK media framing of the 2003 SARS epidemic",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wallis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nerlich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Soc Sci Med",
+            "volume": "60",
+            "issn": "11",
+            "pages": "2629--2639",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "An initial investigation of the association between the SARS outbreak and weather: with the view of the environmental temperature and its variation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Epidemiology & Community Health",
+            "volume": "59",
+            "issn": "3",
+            "pages": "186--192",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Effects of temperature, humidity, and diurnal",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Son",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ryu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Kwon",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ahn",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "doi: medRxiv preprint temperature range on influenza incidence in a temperate region",
+            "authors": [],
+            "year": 2019,
+            "venue": "Influenza Other Resp",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.15.20036426"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Isolated and synergistic effects of PM10 and average temperature on cardiovascular and respiratory mortality",
+            "authors": [
+                {
+                    "first": "Sdll",
+                    "middle": [],
+                    "last": "Pinheiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "Phn",
+                    "middle": [],
+                    "last": "Saldiva",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zanobetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Revista de Sa\u00fade P\u00fablica",
+            "volume": "48",
+            "issn": "6",
+            "pages": "881--888",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Lagged effect of diurnal temperature range on mortality in a subtropical megacity of China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rutherford",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Plos One",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Influenza and humidity -Why a bit more damp may be good for you!",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Metz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Finn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Infection",
+            "volume": "71",
+            "issn": "",
+            "pages": "54--58",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Temperature significant change COVID-19 Transmission in 429 cities",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Role of temperature and humidity in the modulation of the doubling time of COVID-19 cases",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Oliveiros",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Caramelo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ferreira",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Caramelo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Global climate change: impact of heat waves under different definitions on daily mortality in Wuhan, China. Global Health Research and Policy",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Study of Haze Pollution During Winter in Wuhan, China",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "IEEE International Geoscience and Remote Sensing Symposium",
+            "volume": "",
+            "issn": "",
+            "pages": "7568--7571",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Humidity: A review and primer on atmospheric moisture and human health",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mcgregor",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Enfield",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Environ Res",
+            "volume": "144",
+            "issn": "",
+            "pages": "106--116",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Absolute humidity modulates influenza survival, transmission, and seasonality",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kohn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "106",
+            "issn": "9",
+            "pages": "3243--3248",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Characterizing temperature and mortality in nine California counties",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Basu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ostro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Epidemiology",
+            "volume": "",
+            "issn": "",
+            "pages": "138--145",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Effects of apparent temperature on daily mortality in Lisbon and Oporto, Portugal. Environmental health : a global access science source",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Almeida",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Casimiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Calheiros",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Estimating Temperature-Mortality Exposure-Response Relationships and Optimum Ambient Temperature at the Multi-City Level of China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Int J Env Res temperature in",
+            "volume": "61",
+            "issn": "2",
+            "pages": "239--246",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Temperature, temperature extremes, and cause-specific respiratory mortality in China: a multi-city time series analysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Air Quality, Atmosphere & Health",
+            "volume": "12",
+            "issn": "5",
+            "pages": "539--548",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Comprehensive approach to understand the association between diurnal temperature range and mortality in East Asia",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Honda",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hashizume",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Sci Total Environ",
+            "volume": "539",
+            "issn": "",
+            "pages": "313--321",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Diurnal temperature range and mortality in Tabriz (the northwest of Iran). Urban Climate",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sharafkhani",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Khanjani",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bakhtiari",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jahani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tabrizi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tabrizi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "27",
+            "issn": "",
+            "pages": "204--211",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Diurnal temperature range as a novel risk factor for COPD death",
+            "authors": [
+                {
+                    "first": "Chen",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Song G",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jiang L",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chen",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Zhao N",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kan H",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Respirology",
+            "volume": "13",
+            "issn": "",
+            "pages": "1066--1069",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Cold exposure and immune function",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Shephard",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Shek",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Can J Physiol Pharm",
+            "volume": "76",
+            "issn": "9",
+            "pages": "828--836",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Impact of probable interaction of low temperature and ambient fine particulate matter on the function of rats alveolar macrophages",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fei",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Environ Toxicol Phar",
+            "volume": "49",
+            "issn": "",
+            "pages": "172--178",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Climate change, thermal stress and mortality changes",
+            "authors": [
+                {
+                    "first": "Wjm",
+                    "middle": [],
+                    "last": "Martens",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Soc Sci Med",
+            "volume": "46",
+            "issn": "3",
+            "pages": "331--344",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Effects of Air Temperature on Climate-Sensitive Mortality and Morbidity Outcomes in the Elderly; a Systematic Review and Meta-analysis of Epidemiological Evidence",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bunker",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wildenhain",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vandenbergh",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Henschke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rockl\u00f6v",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hajat",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sauerborn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Ebiomedicine",
+            "volume": "6",
+            "issn": "",
+            "pages": "258--268",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Effect of temperature on lung function and symptoms in chronic obstructive pulmonary disease",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Donaldson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Seemungal",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jeffries",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wedzicha",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Eur Respir J",
+            "volume": "13",
+            "issn": "4",
+            "pages": "844--849",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Maximum and minimum temperature trends for the globe",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Easterling",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Horton",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Peterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Karl",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Parker",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Salinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Razuvayev",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Plummer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jamason",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Cold, dry air is associated with influenza and pneumonia mortality in Auckland",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dougherty",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mcarthur",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Influenza Other Resp",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Climate change, humidity, and mortality in the United States",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Barreca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Environ Econ Manag",
+            "volume": "63",
+            "issn": "1",
+            "pages": "19--34",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Absolute Humidity, Temperature, and Influenza Mortality: 30 Years of County-Level Evidence from the United States",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Barreca",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shimshack",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Am J Epidemiol",
+            "volume": "176",
+            "issn": "suppl_7",
+            "pages": "114--122",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Influenza virus transmission is dependent on relative humidity and temperature",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lowen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mubareka",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Plos Pathog",
+            "volume": "3",
+            "issn": "10",
+            "pages": "1470--1476",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Transmission of a 2009 Pandemic Influenza Virus Shows a Sensitivity to Temperature and Humidity Similar to That of an H3N2 Seasonal Strain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lowen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Absolute Humidity Modulates Influenza Survival, Transmission, and Seasonality",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Singer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "P Natl Acad Sci",
+            "volume": "106",
+            "issn": "9",
+            "pages": "3243--3248",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "presented the temporal pattern of daily mortality counts of COVID-19 and meteorological factor levels in the study period, showing the daily death number of COVID-19 had a similar pattern with temperature and absolute humidity.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "flexibly plotted the exposure-response relationship curves between meteorological factors",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "displayed the percentage changes of COVID-19 mortality with per 1 unit increase in meteorological factor levels for different lag days in the models. DTR, temperature and absolute humidity were significantly associated with the increased/decreased COVID-19 mortality, after controlling the effects of air pollution and other factors. Each 1 unit increase in DTR was only associated with a 2.92% (95% CI: 0.61%, 5.28%) increase in COVID-19 mortality at lag 3. However, both per 1 unit increase of temperature and absolute humidity were related to the decreased COVID-19 mortality at lag 3 and lag 5, with the greatest decrease both at lag 3 [-7.50% (95% CI: -10.99%, -3.88%)and -11.41% (95% CI: -",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "AbbreviationsCOVID-19: coronavirus disease; Tem: temperature; DTR: diurnal temperature range; RH: relative humidity; AH: absolute humidity; PM 2.5 , particulate matter with aerodynamic diameter",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "dioxide; SO 2 , sulfur dioxide; CO, carbon monoxide; O 3 , ozone;",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Luo, Jingping Niu, Yueling Ma and Yadong Zhao contributed to idea formulation, study design, data preparation, data analysis, reporting results, data interpretation, and writing of the manuscript. Jiangtao Liu and Jun Yan contributed to data preparation and data analysis. Xiaotao He, Bo Wang and Shihua Fu contributed to study design and interpretation of the data. All authors have seen and approved the final version. Pub He. 2016; 13(3):279. 22. Cheng Y, Kan H. Effect of the Interaction Between Outdoor Air Pollution and Extreme Temperature on Daily Mortality in Shanghai, China. J Epidemiol. 2012; 22(1):28-36. 23. Kan H, London SJ, Chen H, Song G, Chen G, Jiang L, Zhao N, Zhang Y, Chen B. Diurnal temperature range and daily mortality in Shanghai, China. Environ Res. 2007; 103(3):424-431. 24. Fallah GG, Mayvaneh F. Effect of Air Temperature and Universal Thermal Climate Index on Respiratory Diseases Mortality in Mashhad, Iran. Arch Iran Med. 2016; 19(9):618-624. 25. G\u00f3mez-Acebo I, Llorca J, Dierssen T. Cold-related mortality due to cardiovascular diseases, respiratory diseases and cancer: a case-crossover study. Public Health. 2013; 127(3):252-258. 26. Macfarlane A. Daily mortality and environment in English conurbations. Air pollution, low temperature, and influenza in Greater London. Br J Prev Soc Med. 1977; 31(1):54-61. 27. Dadbakhsh M, Khanjani N, Bahrampour A, Haghighi PS. Death from respiratory diseases and.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Temporal pattern of COVID-19 daily mortality and meteorological factor levels in Wuhan, China, from 20 January to 29 February 2020. Tem: temperature; DTR, diurnal temperature range; RH: relative humidity; AH: absolute humidity.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Percentage change (95% confidence interval) of COVID-19 daily mortality with per 1 unit increase in meteorological factors for different lag days in the models in Wuhan, China, from 20 January to 29 February 2020. COVID-19, coronavirus disease.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "February 2020 in Wuhan were collected, including daily death number of coronavirus disease (COVID-19), meteorological, and air pollutant data. Daily death number of COVID-19 were collected from the official website of Health Commission of Hubei Province, people's Republic of China http://wjw.hubei.gov.cn/). The simultaneous daily meteorological and air pollutant data were obtained from Shanghai Meteorological Bureau and Data Center of Ministry of Ecology and Environment of the People's Republic of China, respectively. Meteorological variables included daily average temperature, diurnal temperature range (DTR) and relative humidity, and air pollutant data included particulate matter with aerodynamic diameter CO), ozone (O 3 ). Therefore, there is no need to have ethical review.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "showed the descriptive statistics for daily deaths of COVID-19, meteorological variables and air pollutants. Over the observation period (January 20, 2020 to February 29, 2020), there were 2,299 COVID-19 deaths in Wuhan. On average, there were approximately 56 deaths of COVID-19 per day. Temperatures ranged from 1.8 \u00b0C to 18.7 \u00b0C, and DTR ranged from 2 \u00b0C to 17.5 \u00b0C. Average temperature and DTR during this period were 7.44\u00b0C and 9.15 \u00b0C, respectively. The relative humidity",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Summary of COVID-19 mortality counts, meteorological data and air pollutants COVID-19, coronavirus disease; SD, standard deviance; Min, Minimum; P 25 , 25th percentile; P 75 , 75th percentile; Max, Maximum; DTR, diurnal temperature range; PM 2.5 , particulate matter with aerodynamic sulfur dioxide; CO, carbon monoxide; O 3 , ozone.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Spearman's correlation between meteorological factors and air pollutants and COVID-19 COVID-19, coronavirus disease; Tem, temperature; DTR, diurnal temperature range; RH, relative humidity; AH, absolute humidity; PM 2.5 , particulate matter with aerodynamic diameter",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Not applicable. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

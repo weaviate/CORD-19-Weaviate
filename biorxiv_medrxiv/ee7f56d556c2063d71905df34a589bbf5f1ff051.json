@@ -1,0 +1,1727 @@
+{
+    "paper_id": "ee7f56d556c2063d71905df34a589bbf5f1ff051",
+    "metadata": {
+        "title": "Effectiveness of isolation and contact tracing for containment and slowing down a COVID-19 epidemic: a modelling study",
+        "authors": [
+            {
+                "first": "Mirjam",
+                "middle": [
+                    "E"
+                ],
+                "last": "Kretzschmar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Julius Center for Health Sciences and Primary Care University Medical Center Utrecht",
+                    "institution": "National Institute of Public Health and the Environment",
+                    "location": {
+                        "postBox": "P.O. Box 85500",
+                        "postCode": "3508 GA",
+                        "settlement": "Bilthoven, UTRECHT",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": "m.e.e.kretzschmar@umcutrecht.nl"
+            },
+            {
+                "first": "Ganna",
+                "middle": [],
+                "last": "2#",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Julius Center for Health Sciences and Primary Care University Medical Center Utrecht",
+                    "institution": "National Institute of Public Health and the Environment",
+                    "location": {
+                        "postBox": "P.O. Box 85500",
+                        "postCode": "3508 GA",
+                        "settlement": "Bilthoven, UTRECHT",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Rozhnova",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "settlement": "Utrecht",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michiel",
+                "middle": [],
+                "last": "Van Boven",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Utrecht University",
+                    "location": {
+                        "settlement": "Utrecht",
+                        "country": "the Netherlands"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Novel coronavirus (SARS-CoV-2) is extending its range of transmission in all parts of the world, with substantial variation in rates of transmission and severity of associated disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We evaluated whether and under which conditions it is possible to control and slow down a COVID-19 epidemic in the early stages by isolation and contact tracing. We used a stochastic transmission model in which every person generates novel infections according to a probability distribution that is affected by the incubation period distribution (time from infection to symptoms), distribution of the latent period (time from infection to a person becoming infectious), and overall transmissibility. The model distinguishes between close contacts (e.g., within a household) and other contacts in the population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The analyses showed that transmissibility and the duration of the latent period relative to the duration of incubation period have strong impact on the controllability of the disease. Delays in diagnosis of cases and proportion of asymptomatic cases are key factors for containment and slowing down the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Interpretation: Isolation and contact tracing can be an effective means to control early epidemics, but only if transmissibility as measured by R0 is in the lower ranges of reported values. Timeliness as well as completeness of tracing and diagnosis of cases are paramount to achieve containment and effective slowing down of the epidemic growth rate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Evidence before this study Information on the epidemiological characteristics of SARS-CoV-2 and COVID-19 disease are accumulating at an astounding pace. Evidence to date suggests that a substantial portion of transmission may occur before the onset of symptoms and before cases can be isolated. This has potentially important implications for the prospect of containment by isolation and contact tracing, which had previously been successful in the control of SARS.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research in context"
+        },
+        {
+            "text": "Using a stochastic transmission model armed with current best estimates of epidemiological parameters, we evaluated under which conditions containment would be possible for various delays in diagnosis, isolation, and contact tracing. In addition, if containment is not possible, as seems likely in many settings, we estimated the impact of isolation and contact tracing on the epidemic growth rate and the doubling time for the number of infections. Our results indicated that substantial reductions in the epidemic growth rate (from more than 0.1 per day to well under 0.1 per day) and epidemic doubling time (from approximately 6 days to perhaps more than 14 days) are feasible if the diagnosis delay is short (<3 days) and a high proportion of non-household contacts are traced and isolated (>70%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Added value of this study"
+        },
+        {
+            "text": "Even with containment out of reach, our analyses based on best understanding of the epidemiology of COVID-19, highlight that isolation and contact tracing can be valuable by delaying and lowering the epidemic peak, thus reducing stress on healthcare systems.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications of all the available evidence"
+        },
+        {
+            "text": "As of early March 2020, the number of infections of the novel coronavirus (SARS-CoV-2) is still increasing at an almost exponential rate, while the virus is rapidly expanding its range in all parts of the world. There are no registered effective medicines, treatment options are mainly supportive, and there are no vaccines available, limiting preventive measures mainly to isolation of infected persons and those that have high likelihood of being infected, for instance because they have been traced as contacts of infected persons. 1 To what extent local containment or local slowing down of an early epidemic is successful depends on the effectiveness of case isolation and contact tracing. It is known that a high probability of asymptomatic infection, a high proportion of transmission occurring before the onset of symptoms, a long delay between case finding and isolation, and high overall transmissibility all factor in negatively in the likelihood that an outbreak can be contained. [2] [3] [4] [5] For SARS-CoV-2, evidence indicates that a high fraction of infected persons is infectious before they show symptoms (up to 50%), that a substantial fraction of infections may be asymptomatic or show only mild symptoms, and that the epidemic doubling time in the absence of interventions is approximately one week. [6] [7] [8] [9] [10] [11] [12] [13] [14] Here we provide model-based analyses of the impact of isolation and contact tracing, using varying levels of the effectiveness of contact tracing and varying delays in diagnosis, isolation, and contact tracing. We focus on conditions that make containment of an early epidemic possible, but also on the impact of isolation and contact tracing when containment is not possible. In the latter case we report the (exponential) rate of increase and the doubling time of the epidemic for scenarios without and with interventions. Considering that the capacity of healthcare systems is limited, it is important to assess which interventions are most effective in slowing down the rate of increase of healthcare demand during an ongoing outbreak. As it is likely that isolation and contact tracing will be more effective in close contact settings with well-defined contacts (household, workplace) than in the community (commuting, public spaces), while the potential impact of household interventions on the epidemic could be smaller, we stratify the analyses by transmission settings (henceforth called household and non-household). 4 As many of the relevant epidemiological and intervention parameters are still quite uncertain, or may be variable in different settings, we focus throughout on a systematic analysis of the relation between key parameters for timeliness and completeness of contact tracing and main outcomes such as effective reproduction number and epidemic growth rate.",
+            "cite_spans": [
+                {
+                    "start": 535,
+                    "end": 536,
+                    "text": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 993,
+                    "end": 996,
+                    "text": "[2]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 997,
+                    "end": 1000,
+                    "text": "[3]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1001,
+                    "end": 1004,
+                    "text": "[4]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1005,
+                    "end": 1008,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1323,
+                    "end": 1326,
+                    "text": "[6]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1327,
+                    "end": 1330,
+                    "text": "[7]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1331,
+                    "end": 1334,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1335,
+                    "end": 1338,
+                    "text": "[9]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1339,
+                    "end": 1343,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1344,
+                    "end": 1348,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1349,
+                    "end": 1353,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1354,
+                    "end": 1358,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1359,
+                    "end": 1363,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2491,
+                    "end": 2492,
+                    "text": "4",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We modify a model that was developed earlier for similar aims in another context. 4 The stochastic model describes an epidemic in its early phase as a branching process. Starting from a small set of initially infected individuals, the model calculates the numbers of latently infected persons, infectious persons, and persons that are diagnosed and isolated in time steps of one day. Latent infection, infectivity during the infectious period, and daily contact rates are quantified using distributions taken from published literature ( Table 1) . We distinguish between household contacts and non-household contacts, which differ in the risk of infection and the delay and effectiveness of tracing and isolation. Intervention effectiveness is determined by the daily probability of being diagnosed during the infectious period, which can differ between cases occurring before the first diagnosis has taken place, and later cases (Table 2) . Furthermore, intervention effectiveness depends on the delays in tracing household and non-household contacts, respectively, and which proportions of contacts can be found and isolated. We assume that isolation is perfect, i.e. that isolated persons cannot transmit any longer. The model is described by a set of difference equations, and allows for explicit computation of the basic reproduction number R0 and the effective reproduction number under interventions Re . The model was coded in Mathematica 11.2.",
+            "cite_spans": [
+                {
+                    "start": 82,
+                    "end": 83,
+                    "text": "4",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 537,
+                    "end": 545,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 930,
+                    "end": 939,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "We assume that the latent period lasts between 4 and 6 days. Individuals then become infectious for at most 10 days. Infectivity is high at the beginning of the infectious period and decays to low levels during these 10 days (Figure 1a ). The probability of symptoms onset increases during the first 4 days of the infectious period, thereby influencing the daily probability of diagnosis during the infectious period (see below).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 225,
+                    "end": 235,
+                    "text": "(Figure 1a",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Natural history"
+        },
+        {
+            "text": "An infectious individual makes contact with household members and persons outside the household. We model the daily number of household contacts with a Poisson distribution, and the numbers of non-household contacts with a negative binomial distribution (Table 1) , with parameters based on the average household size in the Netherlands, and numbers of contacts observed in a contact study in the Netherlands (Figure1b). 15 With the chosen parameters, the mean number of contacts per day is 13.2 (SD 8.5).",
+            "cite_spans": [
+                {
+                    "start": 421,
+                    "end": 423,
+                    "text": "15",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 254,
+                    "end": 263,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Natural history"
+        },
+        {
+            "text": "On each day of the infectious period, an individual makes a number of contacts according to the contact distribution. This number is reduced by a factor describing the probability that the contact person has already been infected during earlier contacts with the index person. More precisely, the number of contacts is reduced by a factor fk per day k of the infectious period, describing the probability that a contact has already been infected on previous days of the infectious period of the index case, such that the probability of transmitting to a contact on day k is given by \" = \u220f (1 \u2212 ) ) \" \"+, )-, , where pi denotes the probability of transmission on day i of the infectious period. The probability of transmission upon contact with a susceptible household contact is given by the distribution in Figure 1a . As contacts with persons outside the household are assumed to be less close, we assumed that the transmission probability for these contacts is lower by factor 0.25. Figure 1c shows the percentage of onward transmissions per day of the infectious period, e.g. more than half of all onward transmissions occur during the first 3 days of the infectious period.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 808,
+                    "end": 817,
+                    "text": "Figure 1a",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 986,
+                    "end": 995,
+                    "text": "Figure 1c",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Natural history"
+        },
+        {
+            "text": "An infectious person becomes symptomatic with a given probability per day of the infectious period. We assume that the probability of developing symptoms is high in the first few days of the infectious period. If an infected person has not developed symptoms by day 6, the probability that he/she will still do so is very small. The probability of developing symptoms determines whether he/she will be diagnosed and isolated. The total probability of developing symptoms determines the fraction that remains asymptomatic or otherwise undiagnosed, i.e. if the total probability of developing symptoms is smaller than 1, a proportion of infected will remain undiagnosed and can transmit throughout their infectious period. With the assumed distributions, on average about half of all potential onward transmissions will have occurred before an infected person is diagnosed and isolated. The diagnosis can be delayed, which in the model is implemented by setting the diagnosis probability to zero for the number of days of delay. This delay describes the time between symptom onset until a symptomatic person visits a GP or hospital and gets diagnosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Diagnosis, contact tracing, and isolation"
+        },
+        {
+            "text": "If an individual is diagnosed, his/her contacts will be traced, and in case they are infected will be diagnosed and isolated. Tracing goes back in time to trace all contacts during the infectious period of the index case. There may be a delay before contacts are found and diagnosed, and only a fraction of all contacts may be found. These parameters, tracing delay and tracing coverage, may be different for household and non-household contacts. We assume that all traced infected persons are immediately isolated and cannot transmit any further. So the only individuals who will continue transmitting are those who are not found by tracing and are not yet diagnosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Diagnosis, contact tracing, and isolation"
+        },
+        {
+            "text": "We use a best case scenario, where all parameters are set to very optimistic values. We assume that all cases develop symptoms at some point during their infectious period, and will then immediately be diagnosed and isolated. Isolation will stop onward transmission completely. With respect to contact tracing, we assume that all contacts will be traced and if found infected will be isolated immediately. We assume that it takes 1 day to find and isolate both household and non-household contacts. The rationale for using these overly optimistic assumptions as a baseline is that we want to investigate for various control parameters at which point of diverging from the baseline parameters control of the outbreak will be lost. To contrast the analysis of the baseline scenario, we also considered an alternative scenario, where we used more pessimistic parameter settings. For the alternative, we assumed that 80% of cases will be diagnosed and isolated, but that there is a . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline scenario"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint delay in diagnosis of 5 days. It takes 4 days to trace and isolate non-household contacts, and only 50% of those will be found and isolated if infected.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 85,
+                    "text": "10.20033738",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The model allows an explicit calculation of the basic reproduction number R0 and the effective reproduction number Re. 4 R0 is defined as the number of secondary cases an index case generates on average in a susceptible population, and Re is the number of secondary infections per case when an intervention is in place. R0 is determined by daily transmission probabilities and numbers of contacts. The effective reproduction number is in addition determined by diagnosis probabilities, tracing delays, and tracing coverages per day of the infectious period. We can therefore investigate how Re depends on R0 and on those intervention parameters.",
+            "cite_spans": [
+                {
+                    "start": 119,
+                    "end": 120,
+                    "text": "4",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Output variables"
+        },
+        {
+            "text": "We are interested in the critical tracing coverage, i.e. what proportion of non-household contacts needs to be found and isolated to control the outbreak, and in the epidemic growth rate (or epidemic doubling time) without and with contact tracing and isolation. We study how these quantities depend on the delay to diagnosis of cases and on the delay in contact tracing. We assume that household contacts can be traced with a high coverage and without delay, but that tracing of non-household contact may take longer and be less complete.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Output variables"
+        },
+        {
+            "text": "Based on the distribution of the latent and infectious periods and infectivity, we calculate the exponential growth rate and doubling time under various assumptions on the intervention parameters. This gives additional information for situations where the outbreak is not controllable, because intervention measures will lower the growth rate and increase the epidemic doubling time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Output variables"
+        },
+        {
+            "text": "We are interested in how controllability of the outbreak depends on the fraction of infections that develop symptoms. In our baseline scenario we assume that all infected persons develop symptoms, and we then vary this percentage between 0% and 100%. Although simulations of outbreaks can be run with the model, we focus here on general results with regard to the dependence on R0, Re, and the exponential growth rate. Finally, we consider an alternative scenario, where we assume that contact tracing is not perfect.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Output variables"
+        },
+        {
+            "text": "The funders of the study had no role in study design, data collection, data analysis, data interpretation, writing of the manuscript, or the decision to submit for publication. All authors had full access to all the data in the study and were responsible for the decision to submit the manuscript for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the funding source"
+        },
+        {
+            "text": "In the baseline scenario without intervention we calibrate the transmission probability such that R0 = 2.5. In that case, 39% of transmissions take place among household contacts. The basic reproduction number of household contacts is 0.97, that of non-household contacts 1.53. So, if all non-household transmissions could be prevented, the outbreak would be just under the control limit. In the baseline scenario without interventions the exponential growth rate is 0.127 per day and the doubling time is 5.5 days, which seem reasonable. 11 In Figure 2 we show how basic and effective reproduction number are related. We explore how varying the fraction of non-household contacts that are traced, and the time to diagnosis of index cases influence the effective reproduction number. In the first case, we observe that failure to find all infected contacts does not lead to a loss of control for R0=2.5 or lower (Figure 2a) . This is only due to the optimistic values of all other parameters, in particular that cases will be diagnosed and isolated without delay as soon as they become symptomatic. If there is delay in diagnosis, loss of control will occur for delays above 1 week, even if all non-household contacts can be found and isolated (Figure 2b ). Contacts have then already entered the infectious period and have had time to spread the infection. So we conclude that timeliness of diagnosis is of utmost importance for controlling an outbreak.",
+            "cite_spans": [
+                {
+                    "start": 539,
+                    "end": 541,
+                    "text": "11",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 545,
+                    "end": 553,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 912,
+                    "end": 923,
+                    "text": "(Figure 2a)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1244,
+                    "end": 1254,
+                    "text": "(Figure 2b",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Basic and effective reproduction numbers"
+        },
+        {
+            "text": "If there is a diagnosis delay, the question arises how successful contact tracing has to be to keep the outbreak under control. We therefore computed the minimum fraction of nonhousehold contacts that need to be traced and isolated (henceforth termed \"critical tracing coverage\") to bring Re to below 1. The results are shown in Figures 3a and 3b . For a diagnosis delay up to 4 days, there is a chance of controlling the outbreak if the coverage of tracing non-household contacts is above the critical fraction (Figure 3a ). In Figure 3b , we varied the time it takes to trace non-household contacts between 1 and 7 days, assuming no diagnosis delay. In this case, the time needed to trace contacts does not have a large impact on the critical tracing coverage. This is because diagnosis is quick enough, such that despite a delay in tracing infected contacts, they are found before they become infectious, or if they are not found by contact tracing, they get rapidly diagnosed themselves.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 329,
+                    "end": 346,
+                    "text": "Figures 3a and 3b",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 512,
+                    "end": 522,
+                    "text": "(Figure 3a",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 529,
+                    "end": 538,
+                    "text": "Figure 3b",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Fraction of non-household contacts needed to trace and isolate"
+        },
+        {
+            "text": "If we look at these same plots for situations where not all infected cases are diagnosed, the possibility of controlling the outbreak quickly fades. Not being diagnosed can be a consequence of not developing symptoms, having only mild symptoms, or any other reason why infected persons might not be identified by health care. We subsume these possible reasons for cases not being ascertained under the term \"asymptomatic\". In Figure 3b critical tracing coverages are shown for a situation of 80% symptomatic cases, and in Figure 3c for 60% symptomatic cases. In the latter case, control of the outbreak is not possible, even if all other parameters are set at the most optimistic values. This is also shown in Figure 4 , where we plotted the critical tracing coverage for several values of R0 as a function of the fraction of symptomatic cases (i.e. the fraction of those who will eventually develop symptoms during their entire infectious period). The figure shows that for R0 = 2.5 control is not possible with isolation and contact tracing, if less than 60% of all infected persons develop symptoms or are otherwise not detected by the health care system, even if all other parameters are at the most optimistic values. Other interventions measures are then needed for containment of the outbreak.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 426,
+                    "end": 435,
+                    "text": "Figure 3b",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 522,
+                    "end": 531,
+                    "text": "Figure 3c",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 710,
+                    "end": 718,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "Impact of asymptomatic cases"
+        },
+        {
+            "text": "In situations, where control of the outbreak is not possible with isolation and contact tracing only, it might still be possible to slow down the epidemic by those measures and thereby gain time for the health care system to deal with the outbreak. We find that contact tracing has an impact on the epidemic growth rate for diagnosis delays less than 3 days (Figure 5a ) and high coverages of tracing non-household contacts (Figure 5c ). Figures 5b and 5d show doubling times of the epidemic for situations where the fraction of symptomatic cases is 60% or lower. For very successful contact tracing interventions (i.e. small diagnosis delays and high tracing coverages) the doubling time can be increased to 30 days if 60% are symptomatic. Below that value there is little impact on the doubling time.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 358,
+                    "end": 368,
+                    "text": "(Figure 5a",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 424,
+                    "end": 434,
+                    "text": "(Figure 5c",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 438,
+                    "end": 455,
+                    "text": "Figures 5b and 5d",
+                    "ref_id": "FIGREF13"
+                }
+            ],
+            "section": "Exponential growth rate and doubling time"
+        },
+        {
+            "text": "In the above we considered the impact of diverging from an optimistic baseline scenario one parameter at a time. In reality, many parameters will be imperfect and their impact on the success of contact tracing will add up. As an illustration, we considered a more pessimistic scenario, where it takes 7 days to find and isolate infected non-household contacts, the coverage of tracing is 50%, the delay in diagnosis is 5 days, and only 80% of cases develop symptoms. For this scenario, the effective reproduction number is 1.4, the exponential growth rate is 0.05, and the doubling time is 14.4 days. So while containment is not possible in this scenario, the doubling time can be increased by a factor of 2.6, which implies a substantial slowing down of epidemic spread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Realistic scenario"
+        },
+        {
+            "text": "Our analyses showed that rapid diagnosis and isolation of infections based on COVID-19 disease alone cannot control outbreaks of SARS-CoV-2, but that the addition of tracing and isolation of traced cases could in theory be successful (Figure 2 ). In practice, however, the potential for containment will be seriously jeopardized by various delays and imperfections . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 234,
+                    "end": 243,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint in the tracing process. Especially delays in diagnosis and isolation, and the existence of asymptomatic and mild infections that contribute to onward transmission could easily make an outbreak uncontrollable (Figure 3 ). For instance, if in our default scenario the delay between onset of infectiousness and isolation is more than 4 to 6 days, the outbreak cannot be controlled even with perfect tracing. Likewise, if the fraction of asymptomatic cases is more than 40%, containment is not possible with contact tracing.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 107,
+                    "text": "10.20033738 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 316,
+                    "end": 325,
+                    "text": "(Figure 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Even though it is unlikely that early SARS-CoV-2 epidemics can be contained by a mix of contact tracing and rapid isolation alone, this does not render contact tracing useless. In fact, healthcare systems throughout the world generally are ill-prepared for sudden spikes in healthcare demand, especially in intensive care units, where laws of economics dictate that costly surplus capacity is kept to a minimum. 16 Our analyses showed that isolation and contact tracing can contribute to reducing the growth rate and doubling time of epidemics, thereby buying time, spreading the number of severe cases out over a longer period of time, and potentially also reducing the total number of infections (the \"final size\"). 17 This will lower peak healthcare demand, alleviate the stress on healthcare systems, and contribute to reducing the burden of disease.",
+            "cite_spans": [
+                {
+                    "start": 412,
+                    "end": 414,
+                    "text": "16",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 718,
+                    "end": 720,
+                    "text": "17",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Our analyses add to an earlier study by a more systematic analysis of the relation between key parameters (transmissibility, fraction asymptomatic, fraction of contacts traced, diagnosis delays), and by incorporating household versus non-household contacts. 18 Household contacts are at a higher risk of becoming infected than non-household contacts as persons in a household will usually have repeated contacts. On the other hand, our analyses show that household infections contribute less to onward transmission than non-household infections simply because the numbers of household contacts are much lower than numbers of other contacts. As a consequence, the effectiveness in isolating nonhousehold contacts is key for a successful contact tracing strategy.",
+            "cite_spans": [
+                {
+                    "start": 258,
+                    "end": 260,
+                    "text": "18",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "A strength of the model is that quantitative information about distributions of the latent and infectious periods, and the infectivity per day of the infectious period can be incorporated easily, such that if new and better data on those quantities emerge, the analysis can be updated quickly. In particular, the model can incorporate non-standard distributions based on empirical data (e.g. viral load measurements to quantify infectiousness per day), should they become available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "A limitation of the analyses presented here is that they apply to a situation in which the epidemic is described by a branching process and is growing exponentially. This also applies to another modelling using a (one-type) branching process. 18 Ultimately, as the number of persons who are or have been infected increases, the number of persons that are still susceptible will start to dwindle, and epidemic growth will ultimately come to a halt. Hence, . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 243,
+                    "end": 245,
+                    "text": "18",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint strictly speaking our results apply to the early stages of an epidemic. In fact, even when the number of infected persons is still relatively small in the early stage of an epidemic it is possible that exponential growth is not observed, for instance due to local depletion of susceptible persons in combination with clustering in contact patterns, spatial effects, and inhomogeneous mixing. 19 Therefore, our model results should be viewed as a worst-case scenario in which the epidemic (without interventions) is growing unchecked.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 85,
+                    "text": "10.20033738",
+                    "ref_id": null
+                },
+                {
+                    "start": 500,
+                    "end": 502,
+                    "text": "19",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Another limitation that deserves scrutiny is that we have assumed that epidemiological parameters remain constant throughout the epidemic. This is unlikely to be the case, and it is to be expected that there will be behavioral changes and consideration of interventions such as school closure and limiting of mass gatherings. Such measures have proven effective earlier during the 2009 influenza pandemic [20] [21] [22] , and are increasingly being considered for COVID-19 as well. 23 If implemented, transmissibility of the virus at the population level will be reduced, and this could help to increase the effectiveness of isolation and contact tracing.",
+            "cite_spans": [
+                {
+                    "start": 405,
+                    "end": 409,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 410,
+                    "end": 414,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 482,
+                    "end": 484,
+                    "text": "23",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "In conclusion, our results show that isolation and contact tracing are not expected to be able to fully control outbreaks of COVID-19, but are still important ingredients of effective containment strategies, as they are expected to reduce growth rates and increase epidemic doubling times. This is especially true when combined with transmission-reducing behavioral changes and interventions such as school closures and reducing community events.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint Contributors MEK, MvB, and GR conceived the study. MK designed and programmed the model, and produced output. All authors interpreted the results, contributed to writing the manuscript, and approved the final version for submission.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 107,
+                    "text": "10.20033738 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "We declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "No data were used in this study. The code can be requested from MK.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sharing"
+        },
+        {
+            "text": "To be included later . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "The copyright holder for this preprint . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 85,
+                    "text": "10.20033738",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint The critical fraction of non-household contacts that need to be found and isolated to control the outbreak for a range of the basic reproduction number R0. The vertical green line depicts the baseline value of R0=2.5. Blue shows the critical tracing coverage in the optimistic baseline scenario, pink the worst case scenario. In panels A, C, and E, the delay in diagnosis was varied between 1 and 10 days in steps of 1 day; in the panels B, D, and F, the time needed to trace non-household contacts was varied between 1 and 7 days in steps of 1 day. The rows differ in the fraction of asymptomatic infections: 100% symptomatic (A and B), 80% symptomatic (C and D), and 60% symptomatic (E and F). Figure 4 : The critical tracing coverage needed for control of the outbreak for varying percentages of asymptomatic infections and values of R0 between 1.5 and 3.5. If more than 40% of cases escape diagnosis because they are asymptomatic or have only mild infections, for R0 = 2.5 the outbreak is not controllable even with our optimistic baseline values for the intervention parameters. Figure 5 : The exponential growth rate for (A) varying delay in diagnosis and (C) varying tracing coverage. The colors depict varying levels of symptomatic infections: Blue: 100% symptomatic cases; Pink: 2% symptomatic cases. When the exponential growth rate is smaller than zero (red horizontal line), the outbreak is controlled. In (B) and (D), the doubling time of the epidemic is shown for situations where the exponential growth rate is positive. In (B) delay in diagnosis is varied and in (D) tracing coverage is varied. The uppermost curve corresponds to a situation with 60% symptomatic cases, the lowest one to 2% symptomatic cases. For the situation with 60% asymptomatic cases, contact tracing and isolation can slow down the epidemic substantially, but not control it, even if there is no diagnosis delay and all non-household contacts are traced.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 85,
+                    "text": "10.20033738",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 804,
+                    "end": 812,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF11"
+                },
+                {
+                    "start": 1192,
+                    "end": 1200,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF13"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 85,
+                    "text": "10.20033738",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 115,
+                    "text": "10.20033738",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 115,
+                    "text": "10.20033738",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 115,
+                    "text": "10.20033738",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 115,
+                    "text": "10.20033738",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033738 doi: medRxiv preprint ",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 137,
+                    "text": "10.20033738 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "in France: surveillance, investigations and control measures",
+            "authors": [],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Factors that make an infectious disease outbreak controllable",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "101",
+            "issn": "16",
+            "pages": "6146--51",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The effectiveness of contact tracing in emerging epidemics",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klinkenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "PLoS One",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Ring vaccination and smallpox control",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kretzschmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Den Hof",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Wijngaarden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Emerg Infect Dis",
+            "volume": "10",
+            "issn": "5",
+            "pages": "832--873",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Contact tracing in stochastic and deterministic epidemic models",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kretzschmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dietz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Math Biosci",
+            "volume": "164",
+            "issn": "1",
+            "pages": "39--64",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Incubation period of 2019 novel coronavirus (2019-nCoV) infections among travellers from Wuhan, China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Backer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klinkenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "5",
+            "pages": "20--28",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Pathogenicity and Transmissibility of 2019-nCoV-A Quick Overview and Comparison with Other Emerging Viruses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Microbes Infect",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "507--520",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The course of clinical diagnosis and treatment of a case infected with coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Quan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Pattern of early human-to-human transmission of Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Riou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Althaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rothe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schunk",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sothmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Social contacts and mixing patterns relevant to the spread of infectious diseases",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mossong",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hens",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "PLoS Med",
+            "volume": "5",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "ICU Bed Supply, Utilization, and Health Care Spending: An Example of Demand Elasticity",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gooch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kahn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "JAMA",
+            "volume": "311",
+            "issn": "6",
+            "pages": "567--575",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Mathematical Tools for Understanding Infectious Disease Dynamics",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Diekmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Britton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hellewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gimma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Characterizing the reproduction number of epidemics with early subexponential growth dynamics",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Simonsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Moghadas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J R Soc Interface",
+            "volume": "13",
+            "issn": "123",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Closure of schools during an influenza pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cauchemez",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wachtel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Lancet Infect Dis",
+            "volume": "9",
+            "issn": "8",
+            "pages": "473--81",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "School closures and influenza: systematic review of epidemiological studies",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vynnycky",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hawker",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Olowokure",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mangtani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "BMJ Open",
+            "volume": "3",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Joint modelling of serological and hospitalization data reveals that high levels of pre-existing immunity and school holidays shaped the influenza A pandemic of 2009 in the Netherlands",
+            "authors": [
+                {
+                    "first": "Te",
+                    "middle": [],
+                    "last": "Beest",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Birrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wallinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Angelis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Van Boven",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J R Soc Interface",
+            "volume": "12",
+            "issn": "103",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Covid-19: school closures and bans on mass gatherings will need to be considered, says England's CMO",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Moberly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Epidemiology and Transmission of COVID-19 in Shenzhen China: Analysis of 391 cases and 1,286 of their close contacts",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "514--537",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Epidemiological determinants of spread of causal agent of severe acute respiratory syndrome in Hong Kong",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Donnelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ghani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "361",
+            "issn": "9371",
+            "pages": "1761--1767",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Transmission of pandemic A/H1N1 2009 influenza on passenger aircraft: retrospective cohort study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Thornley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mills",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "BMJ",
+            "volume": "340",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Timeliness of contact tracing among flight passengers for influenza A/H1N1",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Swaan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Appels",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kretzschmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Van Steenbergen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "BMC Infect Dis",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Figure legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Baseline assumptions concerning transmission and diagnosis: (a) Transmission probability per contact per day of the infectious period. (b) Probability distribution for the number of contacts per day, including both household and non-household contacts. (c) Distribution of percent onward transmission per day of the infectious period. (d) Probability of being diagnosed by day of infectious period for the when all infections are symptomatic there is no delay in diagnosis.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The effective reproduction number Re for varying the basic reproduction number R0 in the optimistic baseline scenario. (a) Colors indicate a range from 100% of infected nonhousehold contacts isolated (Blue) to no non-household contacts isolated (Pink) in steps of 10%; (b) Colors indicate a range of no delay in diagnosis (Blue) to 10 days delay in diagnosis (Pink) in steps of 1 day; all other parameters are at baseline values.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 3: The critical fraction of non-household contacts that need to be found and isolated to control the outbreak for a range of the basic reproduction number R0. The vertical green line depicts the baseline value of R0=2.5. Blue shows the critical tracing coverage in the optimistic baseline scenario, pink the worst case scenario. In panels A, C, and E, the delay in diagnosis was varied between 1 and 10 days in steps of 1 day; in the panels B, D, and F, the time needed to trace non-household contacts was varied between 1 and 7 days in steps of 1 day. The rows differ in the fraction of asymptomatic infections: 100% symptomatic (A and B), 80% symptomatic (C and D), and 60% symptomatic (E and F).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Figure 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Figure 3",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Figure 4",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Figure 5",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Disease and transmission related parameters.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Parameters related to diagnosis and contact tracing.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

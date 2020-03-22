@@ -1,0 +1,852 @@
+{
+    "paper_id": "92413565e9d507fdf5550d5123ef420948ae993c",
+    "metadata": {
+        "title": "Analysis clinical features of COVID-19 infection in secondary epidemic area and report potential biomarkers in evaluation",
+        "authors": [
+            {
+                "first": "Weiping",
+                "middle": [],
+                "last": "Ji",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Second Affiliated Hospital of Wenzhou Medical University",
+                    "location": {
+                        "postCode": "325003, 325003",
+                        "settlement": "Zhejiang, Zhejiang",
+                        "country": "China.), China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gautam",
+                "middle": [],
+                "last": "Bishnu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Second Affiliated Hospital of Wenzhou Medical University",
+                    "location": {
+                        "postCode": "325003, 325003",
+                        "settlement": "Zhejiang, Zhejiang",
+                        "country": "China.), China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhenzhai",
+                "middle": [],
+                "last": "Cai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Second Affiliated Hospital of Wenzhou Medical University",
+                    "location": {
+                        "postCode": "325003, 325003",
+                        "settlement": "Zhejiang, Zhejiang",
+                        "country": "China.), China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xian",
+                "middle": [],
+                "last": "Shen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Second Affiliated Hospital of Wenzhou Medical University",
+                    "location": {
+                        "postCode": "325003, 325003",
+                        "settlement": "Zhejiang, Zhejiang",
+                        "country": "China.), China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "A new viral pneumonia disease outbreak in Wuhan city at the beginning of 2020 was confirmed to be caused by the \"COVID-19\" novel coronavirus infection [1] . COVID-19 has not been previously found in the human body, and no previous case of COVID-19 pneumonia has been detected. The primary clinical symptoms of those infected with coronavirus are chills, severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) [2] . According to a report from Wuhan city, the main epidemic area, people infected with COVID-19 often have symptoms of fever, cough, shortness of breath, dyspnea, and severe infection, which can lead to pneumonia or even death [3] . The epidemic has spread from the main epidemic areas, Hubei Province and Wuhan city, to other provinces and cities, where new successive cases of COVID-19 infection have been reported. In some cities, such as Wenzhou city of Zhejiang Province, the epidemic situation is serious. Therefore, these locations outside the main epidemic area have been designated secondary epidemic areas**. In this study, the first cluster of cases of COVID-19 infection in Wenzhou city, Zhejiang Province, which is the leading secondary epidemic area, is reported. **Note: Secondary epidemic areas refer to new areas that are experiencing epidemics caused by the arrival of the infected patients from main epidemic areas and in which the disease is spreading, similar to the main epidemic areas of Hubei Province and Wuhan city. The clinical data of patients who were diagnosed with novel coronavirus COVID-19 positive  by nucleic acid test from sputum, throat swab, lower respiratory secretion and other samples were collected from  January 15 to February 1, 2020. All patients gave signed, informed consent for their dates to be used for scientific research. Ethical approval for the study was obtained from the Second Affiliated Hospital of Wenzhou Medical University (Zhejiang, China).",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 154,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 439,
+                    "end": 442,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 669,
+                    "end": 672,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1484,
+                    "end": 1699,
+                    "text": "The clinical data of patients who were diagnosed with novel coronavirus COVID-19 positive  by nucleic acid test from sputum, throat swab, lower respiratory secretion and other samples were collected from  January 15",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "1.2 Inclusion criteria: Patients aged 18 years or older who met the NCP diagnostic criteria were included [4] .",
+            "cite_spans": [
+                {
+                    "start": 106,
+                    "end": 109,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "1.3 Exclusion criteria: Patients with non-COVID-19 infectious respiratory diseases; and patients with suspected COVID-19 but multiple negative sputum, throat swab, lower respiratory secretion and other samples were excluded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "1.4 Grouping method: According to the previous histories of the patients who met the COVID-19 infection diagnostic criteria, the cases that occurred after returning to Wenzhou from Wuhan were assigned to the direct contact (DC) group. Those with no history of residence in Wuhan or the main epidemic area before the onset of the disease were assigned to the indirect contact (IDC) group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "1.5 Clinical and test indicators: Symptoms such as fever, cough, fatigue and soreness at the time of examination and the results of tests were compared between the two groups.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "1.6 Statistical method: SAS 9.4 statistical analysis software was used. The t-test was used for comparisons between groups for continuous variables. The comparison between groups for categorical variables was performed using Fisher's exact probability method. Means and standard deviations are used to describe centralized discrete trends. The t-test, rank-sum test, and Fisher's exact probability method were used for comparisons between groups. P\u22640.05 indicates that the difference was statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "According to the descriptions of basic symptoms and signs of the total study population, the data of 33 conformed COVID-19 cases, including 17 males (51.5%) and 16 females (48.5%), were analyzed. The DC group contained 15 patients, nine males (60%) and six females (40%), with an average age of 44.67 \u00b1 12.62 years. In the IDC group, there were 18 patients, eight males (44.4%) and ten females (55.6%), with an average age of 47.11 \u00b1 10.09 years; In the DC group, 2 patients (20%) had hypertension, 3 patients (30%) had hyperglycemia , and 1 patient (10%) had hyperlipemia. In the IDC group, 4 (22.2.%) patients had hypertension, 0 patients (0%) had hyperglycemia, and 0 patients (0%) had hyperlipemia. The DC group, the average body temperature was 37.97 \u00b1 0.36, and 15 cases had fever (100%), 10 cases had sore throat (33.3%), 10 cases had cough (33.3%), 9 cases had cough (60%), 7 cases has nasal congestion (46.7%), 8 cases (53.3%) had fatigue, and 6 cases (40%) had muscle soreness. In the IDC group, the average body temperature was 38.14 \u00b1 0.67\u00b0, and there was fever in 17 cases (94.4%), sore throat in 3 cases (16.7%), cough in 14 cases (77.8%), productive cough in 8 cases (44.4%), nasal congestion in 2 cases (11.1%), fatigue in 8 cases (44.4%), and muscle soreness in 5 cases (27.8%). There were no significant differences between the groups. See Tables 1 for other data on nausea, vomiting, respiratory distress and chest pain.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2.1"
+        },
+        {
+            "text": "The comparison of blood test results and C-reactive protein (CRP) test results in the two groups showed that the average white blood cell count in the DC group was 4.90 (3.55-6.38) \u00d7 10 9 /L, the neutrophil count was 3.02 \u00b1 1.38 \u00d7 10 9 /L, the lymphocyte count was 1.24 \u00b1 0.45 \u00d7 10 9 /L, the monocyte count was 0.44 (0.30-0.78) \u00d7 10 9 /L, the eosinophil count was 0.01 (0.00-0.02) \u00d7 10 9 /L, the eosinophil basic granulocyte count was 0.01 (0.01-0.02) \u00d7 10 9 /L, hemoglobin (Hb) was 149.50 \u00b1 15.15 g/L, the red blood cell count was 4.83 \u00b1 0.53 \u00d7 10 9 /L, the platelet (PLT) count was 172.14 + 36.42 \u00d7 10 9 /L, and C-reactive protein (CRP) was 5.68 (2.80-13.00) mg/L. In the IDC group, the average white blood cell count was 4.45 (3.77-6.15) \u00d7 10 9 /L, the neutrophil count was 2.98 \u00b1 1.20 \u00d7 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2.2"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 10.20033613 doi: medRxiv preprint \u00b1 0.30 \u00d7 10 9 /L, the monocyte count was 0.32 (0.24-0.48) \u00d7 10 9 /L, the eosinophil count was 0.01 (0.00-0.02) \u00d7 10 9 /L, the eosinophil basic granulocyte count was 0.01 (0.01-0.02) \u00d7 10 9 /L, hemoglobin (Hb) was 143.33 \u00b1 15.96 g/L, the red blood cell count was 4.93 \u00b1 0.44 \u00d7 10 9 /L, the platelet (PLT) count was 187.62 \u00b1 39.55 \u00d7 10 9 /L, and C-reactive protein (CRP) was 11.89 (9.74-23.36) mg/ L; neutrophil ratios and other data are shown in Table 2. 2.3 Serum amyloid protein A (SAA) test: Among the 33 patients enrolled in the study, 5 patients in the DC group were tested for serum amyloid protein A (SAA). It was found that SAA in 4 patients was increased significantly, with an average value of 61.51 mg/L (normal value \u2264 10) mg/L). The increase in this protein was more obvious than the increase in CRP, but due to the limited data, a comparative statistical analysis was not performed. In the future, we will focus on the SAA of NCP patients. See Table 3 for the detailed data.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "10.20033613",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 590,
+                    "end": 598,
+                    "text": "Table 2.",
+                    "ref_id": null
+                },
+                {
+                    "start": 1102,
+                    "end": 1109,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "2.2"
+        },
+        {
+            "text": "2.4 Comparison of the blood cell count to C-reactive protein (CRP) ratio: In the DC group, the leukocyte count/C-reactive protein, monocyte ratio/C-reactive protein, neutrophil count/C-reactive protein, monocyte count/C-reactive protein, and hemoglobin/C-reactive protein values were 0.55 (0.42-1.89), 0.02 (0.01-0.05), 0.39 (0.29-1.02), 0.07 (0.05-0.18), and 23.20 (11.54-56.79), respectively. In the IDC group, the leukocyte count/C-reactive protein, monocyte ratio/C-reactive protein, neutrophil count/C-reactive protein, monocyte count/C-reactive protein, and hemoglobin/C-reactive protein values were 0.31 (0.19-0.86), 0.01 (0.00-0.01), 0.18 (0.10-0.40), 0.02 (0.01-0.05), and 11.51 (4.75-16.67), respectively. The differences between the blood cell counts and C-reactive protein ratios between the two groups were statistically significant (all P < 0.05). See Table 4 for detailed data.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 866,
+                    "end": 873,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "2.2"
+        },
+        {
+            "text": "According to the reports of scholars in the main epidemic area, the primary clinical symptoms of COVID-19-infected patients are fever, dry cough, fatigue, and the gradual development of respiratory problems, with fever being the most typical. Only few patients will present with obvious upper respiratory symptoms (e.g., runny nose, sneezing and sore throat), and diarrhea, headache and hemoptysis are rare [5] . Patients with mild infection may show only slight fatigue and no fever [6] . Critically ill patients may develop symptoms such as acute respiratory distress syndrome, septic shock, metabolic acidosis, and coagulation dysfunction [7] in addition to symptoms such as shortness of breath, audible wet sounds in both lungs, and weak breath sounds. Dullness on percussion and tactile tremor may be increased or decreased [8] . In our study, we found that the clinical symptoms in COVID-19-infected patients in the secondary epidemic area were similar to those in patients in the primary epidemic area, but there were some inconsistencies. In the secondary epidemic area, the main symptoms were fever, mainly moderate-to low-grade fever. Cough was not usually dry and was often accompanied by white phlegm. Fatigue and muscle aches were not seen in most patients. The symptoms of upper respiratory tract infection (such as sneezing, runny nose, sore throat and itching) were not uncommon. The symptoms of chest distress and chest pain were less common in the secondary epidemic area than in the main epidemic area; this may be related to the rapid diagnosis in the secondary epidemic area and early treatment and intervention. Moreover, critical patients were rare, which may be related to the younger age of patients and the presence fewer complications in the secondary epidemic area than in the main epidemic area.",
+            "cite_spans": [
+                {
+                    "start": 407,
+                    "end": 410,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 484,
+                    "end": 487,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 642,
+                    "end": 645,
+                    "text": "[7]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 829,
+                    "end": 832,
+                    "text": "[8]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "According to a report from the main epidemic area, COVID-19-infected patients had limited lung lesions at the early stage of onset. CT showed multiple lesions and rarely single lesions in the lungs. CT findings appeared as localized small patches, sub-segmented or large ground glass shadows. Local leaflets were widely spaced and were with or without thickening. Progressive CT showed increased lesions, with some expanded lesions, and multiple lung lobes were involved; the density of the lesions increased, and irregular, wedge-shaped or fan-shaped consolidations of varying sizes and degrees within the lesions appeared. Mutated shadows or strip shadows coexisted. Diffuse lung lesions can be seen on CT in severe patients, with consolidation as the primary cause, in addition to ground glass shadows and multiple fiber strand shadows; in a few severe cases, \"white lung\" manifestations appeared when most of the lungs were affected, and an air bronchus sign was present [9] [10] [11] [12] . The results of imaging examinations of 33 patients in the secondary epidemic area collected in this study were similar to those reported in the main epidemic area, so no further explanation is given in the article.",
+            "cite_spans": [
+                {
+                    "start": 975,
+                    "end": 978,
+                    "text": "[9]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 979,
+                    "end": 983,
+                    "text": "[10]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 984,
+                    "end": 988,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 989,
+                    "end": 993,
+                    "text": "[12]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In patients with COVID-19 infection diagnosed in the main epidemic area, the laboratory examination results at the early stage of the disease showed that the total number of white blood cells decreased or remained normal; the lymphocyte count decreased; the monocyte count increased or remained normal; the liver enzyme, muscle enzyme and myoglobin levels increased in some patients; the C-reactive protein and ESR increased in most patients; procalcitonin remained normal; D-dimer increased in severe patients; lymphocytes progressively decreased; and coagulation function decreased. Inflammatory cytokines, such as interleukin-2, tumor necrosis factor-\u03b1 (TNF-\u03b1), IL-6, and interferon-\u03b3 (IFN-\u03b3), remained normal or slightly increased. The level of cytokines in patients with organ failure was significantly increased. In addition, coronavirus nucleic acids were detected in throat swabs, sputum samples, lower respiratory secretions and blood samples [6, 7] . Among the infected patients, the viral load detected in the secretion of the lower respiratory tract was higher than that detected in the upper respiratory tract [9, 13] . The laboratory examination results of the 33 patients showed that the total number of leukocytes in patients with COVID-19 infection in the secondary epidemic area was slightly reduced, normal or slightly increased, and the proportion of lymphocytes in some patients was significantly reduced. Rarely, lymphocytes or neutrophils were increased, and monocytes and eosinophilic acid-base granulocytes were not changed significantly. CRP did not change significantly in all patients with COVID-19 infection, and some patients maintained a normal CRP level, but it was found that serum amyloid A (SAA) increased significantly in most patients that were tested; however, due to the limited amount of data, a statistical analysis was not performed. SAA is an acute-phase protein. SAA significantly increases in viral infection, whereas CRP may not increase or only slightly increase in viral infection without bacterial infection. Moreover, SAA increases in both viral and bacterial infections, and the increase reflects the severity of the infection. At present, it is generally agreed that SAA and CRP should be combined to judge inflammatory activity [14] . Considering that COVID-19 in the secondary epidemic area may occur after the primary epidemic in the main epidemic area, and its toxicity and pathogenicity may be weakened, SAA detection in the secondary epidemic area should be considered to evaluate the occurrence and development of COVID-19 infection. We will focus on the detection of SAA in COVID-19-infected people in follow-up studies. The significant differences in the ratios between various blood parameters and CRP between the two groups are interesting findings in this study. It has been reported that CRP may not increase or only slightly increase in viral infection without bacterial infection, and the increase indirectly reflects the severity of infection. At present, it is generally accepted that CRP or combined CRP can be used to judge the inflammatory activity [15] . In this study, we found that the ratio between various blood parameters and CRP was significantly increased in patients who had indirect contact with the disease in the epidemic area, suggesting that the change in the reactivity of CRP in COVID-19 infection is greater than the response of various blood parameters. In addition, considering that COVID-19 in the secondary epidemic area may occur after the primary epidemic in the main epidemic area, its toxicity and pathogenicity may be weakened. CRP can be used as a predictive factor prior to changes in leukocytes, lymphocytes, neutrophils and other inflammatory-related blood parameters to comprehensively evaluate the occurrence and development of COVID-19 infection.",
+            "cite_spans": [
+                {
+                    "start": 952,
+                    "end": 955,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 956,
+                    "end": 958,
+                    "text": "7]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1123,
+                    "end": 1126,
+                    "text": "[9,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1127,
+                    "end": 1130,
+                    "text": "13]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2281,
+                    "end": 2285,
+                    "text": "[14]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 3121,
+                    "end": 3125,
+                    "text": "[15]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "No Funding supported the project Authors' contributions Manuscript was designed and completed by Weiping Ji, Gautam Bishnu completed data and language work, Zhenzhai Cai completed statistics and verification, Xian Shen completed the review and revision of the paper, and guided the whole process.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A novel coronavirus from patients with pneumonia in",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wang W",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China\uff0cN Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Middle East Respiratory Syndrome Coronavirus Transmission",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Killerby",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Biggs",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Midgley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Gerber",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Watson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Infect Dis",
+            "volume": "26",
+            "issn": "2",
+            "pages": "191--198",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Early Transmission Dynamics in Wuhan, China,of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001316"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Detection of 2019 novel coronavirus (COVID-19) byreal-time RT-PCR",
+            "authors": [
+                {
+                    "first": "Olfert",
+                    "middle": [],
+                    "last": "Victor M Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Marco",
+                    "middle": [],
+                    "last": "Landt",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kaiser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.3.2000045"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical features of patients infected with 2019 novelcoronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "Chaolin",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yeming",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xingwang",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China.Lancet",
+            "volume": "",
+            "issn": "20",
+            "pages": "30183--30188",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Novel Coronavirus-Infected Pneumonia in Wuhan, China. JAMA",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan\uff0cChina\uff1aa descriptive study",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Chen N S",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zhou M",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Dong X",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A guidelines for rapid recommendations for the diagnosis and treatment of Novel coronavirus (COVID-19) infection (Standard Version",
+            "authors": [
+                {
+                    "first": "Jin",
+                    "middle": [],
+                    "last": "Yinghui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cai",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wang Xinghuan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "PLA medical journal",
+            "volume": "",
+            "issn": "",
+            "pages": "1--20",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "20",
+            "pages": "30154--30163",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30154-9"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Clinical Features and Imaging Features of Pneumonia Infected by New Coronavirus (COVID-19)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Shi He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Han",
+                    "middle": [],
+                    "last": "Shui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fan",
+                    "middle": [
+                        "Yanqing"
+                    ],
+                    "last": "Xiaoyu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Radiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Preliminary study on clinical imaging characteristics of Wuhannew 2019 coronavirus (COVID-19) pneumonia .radiology practice",
+            "authors": [
+                {
+                    "first": "Guan",
+                    "middle": [],
+                    "last": "Hanxiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiong",
+                    "middle": [],
+                    "last": "Ying",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shen",
+                    "middle": [],
+                    "last": "Nanxi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Discovery of Bat Coronaviruses through Surveillance and Probe Capture-Based Next-Generation Sequencing. mSphere",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Si",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "807--826",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/mSphere.00807-19"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Recent advances in the detection of respiratory virus infection in humans",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25674"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Protein chip array profiling analysis in patients with severe acute respiratory syndrome identified serum amyloid a protein as a biomarker potentially useful in monitoring the extent of pneumonia",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Yip",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Clin Chem",
+            "volume": "51",
+            "issn": "1",
+            "pages": "47--55",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Evaluation of C-reactive protein and serum amyloid A in the detection of inflammatory and infectious diseases in children",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dos Anjos",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Grotto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Clin Chem Lab Med",
+            "volume": "48",
+            "issn": "",
+            "pages": "493--499",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "1 Data and Methods 1.1 Clinical Data:",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors declared no competing interests exist.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

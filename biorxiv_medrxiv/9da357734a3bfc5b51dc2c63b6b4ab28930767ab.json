@@ -1,0 +1,1424 @@
+{
+    "paper_id": "9da357734a3bfc5b51dc2c63b6b4ab28930767ab",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [
+        {
+            "text": "well as cytokines important for immune reactions and inflammation. Our data indicate that patients with severe COVID-19 exhibited an overall decline of lymphocytes including CD4+ and CD8+ T cells, B cells, and NK cells. The number of immunosuppressive regulatory T cells was moderately increased in patients with mild COVID-19. IL-2, IL-6, and IL-10 were remarkably up-regulated in patients with severe COVID-19. The levels of IL-2 and IL-6 relative to the length of hospital stay underwent a similar \" rise-decline\"pattern, probably reflecting the therapeutic effect. In conclusion, our study shows that the comprehensive decrease of lymphocytes, and the elevation of IL-2 and IL-6 are reliable indicators of severe COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Coronavirus disease 2019 (COVID-19) is a respiratory disorder caused by a new coronavirus termed SARS-CoV-2 1 . This virus probably arose from an unidentified animal source and is subsequently transmitted from person to person 2 . Transmission of COVID-19 is through the air by coughing and sneezing, close personal contact, or . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 109,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 12.20034736 doi: medRxiv preprint touching a virus-contaminated object and then touching mouth, nose, or possibly eyes.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "12.20034736",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "COVID-19's initial manifestations include cough, fever, and respiratory distress. The thorough clinical profile of COVID-19 has not been completely comprehended.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Reported illnesses range from mild to severe or even death. The severity of COVID-19 varies among individual patients during the same outbreak and among patient groups during different outbreaks in different regions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The immune response in COVID-19 patients, either systemic or local, has not been well studied even one month after the COVID-19 outbreak in China. Although the chest CT scan has suggested progressive pneumonia in COVID-19 patients, the inflammatory process and immune reaction have not been detailed. In one report, elevation of neutrophil cellularity, serum IL-6, and c-reactive protein was found together with lymphopenia in COVID-19 patients 3 . Other clinical studies indicate that COVID-19 patients develop lymphopenia and high-levels of various cytokines such as G-CSF, IP-10, MCP-1, MIP-1A, and TNF-\u03b1 4, 5 . The surge of proinflammatory cytokines incurred the cytokine storm which might induce viral sepsis and tissue/organ damages to result in shock or even multiple organ failure. SARS-CoV-2specific antibodies seem to be produced in COVID-19 patients, suggesting the mounting of humoral responses 3 . However, the comprehensive status of either innate immunity or adaptive immunity in COVID-19 patients remains largely unknown.",
+            "cite_spans": [
+                {
+                    "start": 445,
+                    "end": 446,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 608,
+                    "end": 610,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 611,
+                    "end": 612,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In the current study, we analyzed multiple cytokines and immune cell populations in the blood of Chinese COVID-19 patients. Our study outlines the immunopathological profile in COVID-19 patients, and may provide helpful information for developing future therapies against SARS-CoV-2 infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Two to four milliliters of peripheral venous blood was withdrawn from each patient into K3 EDTA blood collection tubes. The complete blood cell count was performed . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample collection"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034736 doi: medRxiv preprint on an XN-A1 automatic blood analyzer (Sysmex). The reagents, calibrators, and quality controls were from the same vendor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample collection"
+        },
+        {
+            "text": "To analyze serum cytokines, the whole blood was centrifuged at 500\u00d7g for 5 minutes at 4 o C. The serum was carefully harvested and stored at -80 o C before analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Flow cytometry assay"
+        },
+        {
+            "text": "Multiple serum cytokines were quantified using the Human Th1/Th2 Cytokine Kit II (Guangzhou Weimi Bio-Tech) following the manufacturer's manual.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Flow cytometry assay"
+        },
+        {
+            "text": "To measure lymphocytes and T cell subsets, 100 \u00b5l of whole blood was incubated in 900 \u00b5l of Tris-NH 4 Cl buffer (Thermo Fisher Scientific) at room temperature for 5 minutes to lyse erythrocytes. After two washes with phosphate-buffered saline (PBS), cells were incubated with BD Multitest 6-Color TBNK Reagent or BD Multitest CD3/CD8/CD45/CD4 (BD Biosciences) following the vendor's instructions. After another two washes with PBS, cells were resuspended in 500 \u00b5l of PBS To evaluate regulatory T cells, erythrocytes were lysed as described above. The blood samples were then incubated with FITC-conjugated CD4 antibody, Violet 450conjugated CD127 antibody, Percp-conjugated CD45 antibody, and APC-conjugated CD25 antibody (5\u00b5g/ml each, all from BD Biosciences) for 15 minutes on ice. After another two washes with PBS, cells were resuspended in 500 \u00b5l of PBS.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Flow cytometry assay"
+        },
+        {
+            "text": "Samples were analyzed on a BD FACSCanto Plus flow cytometer. Among all collected events, single events were gated between FSC-A and FSC-H. Cell debris was excluded and intact cells were then gated from single events based on FSC-A and SSC. Each cell population was then detected based on the antibody staining.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Flow cytometry assay"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 12.20034736 doi: medRxiv preprint The data were indicated as mean \u00b1 standard deviation and measured by GraphPad Prism 6.0. Non parametric Kruskal-Wallis test or One-way ANOVA with post-hoc Tukey HSD test was applied to compare the mean values or mean ranks among different groups, depending on the presence or absence of Gaussian distribution.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "12.20034736 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 12.20034736 doi: medRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "12.20034736",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "To assess the general immune status of COVID-19 patients, we first quantified the absolute number of whole white blood cells (WBC) and immune cell populations in blood samples of patients at inpatient admission. As indicated in Figure 1A , WBC number was significantly decreased in mild patients as compared with the control group. However, WBC number was not remarkably changed in severe patients. Total lymphocyte number was decreased in severe patients but not in mild patients, suggesting the lymphopenia severe patients ( Figure 1B ). Neutrophils were increased in severe patients but not in mild patients ( Figure 1C ). The neutrophil-to-lymphocyte ratio (NLR), consistent with the change in lymphocytes, was moderately increased in mild patients and profoundly increased in severe patients, in comparison to the control group ( Figure 1D ). To analyze the adaptive immune cell populations, we conducted flow cytometry analysis on CD45+CD3+ total T cells, CD3+CD4+ T helper cells and CD3+CD8+ cytotoxic T cells ( Figure 1E ). We found a similar decrease in CD45+ lymphocytes in COVID-19 patients ( Figure 1F ). Total T cell number was significantly decreased in COVID-19 patients, but no significant difference was observed between mild and severe patients ( Figure 1G ). Similarly, CD4+ T helper cells and CD8+ cytotoxic T cells were diminished in COVID-19 patients as compared with the control group, but no significant difference was found between mild and severe patients ( Figure 1H & 1I) . The ratio between CD4+ T cells and CD8+ T cells was not changed ( Figure 1J) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 228,
+                    "end": 237,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 527,
+                    "end": 536,
+                    "text": "Figure 1B",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 613,
+                    "end": 622,
+                    "text": "Figure 1C",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 835,
+                    "end": 844,
+                    "text": "Figure 1D",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1019,
+                    "end": 1028,
+                    "text": "Figure 1E",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1104,
+                    "end": 1113,
+                    "text": "Figure 1F",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1265,
+                    "end": 1274,
+                    "text": "Figure 1G",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1484,
+                    "end": 1499,
+                    "text": "Figure 1H & 1I)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1568,
+                    "end": 1578,
+                    "text": "Figure 1J)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "T cell cellularity is reduced in COVID-19 patients"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B cells and NK cells are decreased in COVID-19 patients"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 12.20034736 doi: medRxiv preprint Other immune cells including CD3-CD19+ B cells, CD3-CD16+CD56+ NK cells and CD3+CD16+CD56+ NKT cells were also evaluated in blood samples (Figure 2A ).",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "12.20034736 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 283,
+                    "end": 293,
+                    "text": "(Figure 2A",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "B cells and NK cells are decreased in COVID-19 patients"
+        },
+        {
+            "text": "We found that in comparison with the control group, there was a trend of decrease in B cell cellularity in mild COVID-19 patients, and a notable reduction in B cells of severe COVID-19 patients ( Figure 2B) . A similar decrease was also seen in COVID-19 patients' NK cells ( Figure 2C ). No remarkable change in NKT cellularity was observed in COVID-19 patients ( Figure 2D ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 196,
+                    "end": 206,
+                    "text": "Figure 2B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 275,
+                    "end": 284,
+                    "text": "Figure 2C",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 364,
+                    "end": 373,
+                    "text": "Figure 2D",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "B cells and NK cells are decreased in COVID-19 patients"
+        },
+        {
+            "text": "Tregs are an important T cell subset for immune tolerance and anti-inflammatory reaction. In our study, we measured the cellularity of CD3+CD4+CD25+CD127-T cells which were considered a Treg-enriched population ( Figure 3A ). We found that Tregs were increased in mild COVID-19 patients as compared with controls ( Figure   3B ). There was only a slight increase in Tregs in severe patients ( Figure 3B ). Figure 4A ). As demonstrated in Figure 4B , as compared with controls, IL-2 was considerably increased in severe patients but not in mild patients. IL-4 was remarkably raised in mild patients but not in severe patients ( Figure 4C ). IL-6 was significantly increased in severe patients but not in mild patients ( Figure 4D ). Like IL-2 and IL-6, IL-10 and TNF-\u03b1 were significantly increased in severe patients but not in mild patients ( Figure 4E & 4F) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 213,
+                    "end": 222,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 315,
+                    "end": 326,
+                    "text": "Figure   3B",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 393,
+                    "end": 402,
+                    "text": "Figure 3B",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 406,
+                    "end": 415,
+                    "text": "Figure 4A",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 438,
+                    "end": 447,
+                    "text": "Figure 4B",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 627,
+                    "end": 636,
+                    "text": "Figure 4C",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 719,
+                    "end": 728,
+                    "text": "Figure 4D",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 843,
+                    "end": 858,
+                    "text": "Figure 4E & 4F)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Regulatory T cells (Tregs) are increased in mild COVID-19 patients"
+        },
+        {
+            "text": "IFN-\u03b3, however, showed no significant change in COVID-19 patients ( Figure 4G ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 68,
+                    "end": 77,
+                    "text": "Figure 4G",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "IL"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IL"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 12.20034736 doi: medRxiv preprint We also evaluated the cytokine concentrations relative to the length of stay hospital.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 144,
+                    "text": "12.20034736 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "IL"
+        },
+        {
+            "text": "We found that severe patients always had a higher IL-2 level than mild patients in the same time intervals, and IL-2 reached a peak in severe patients on day 15-20, followed by a moderate decline. IL-2 was not significantly changed in mild patients along the stay ( Figure 4H ). No dramatic temporal change of IL-4 was observed in either mild patients or severe patients ( Figure 4I ). The IL-6 level in mild patients was always very low, while IL-6 was drastically increased in severe patients. Interestingly, as IL-2, IL-6 stayed at a relatively stable levels within two weeks, and then went up on day 15-20 followed by a decline back to the initial level ( Figure 4J ). IL-10, too, was always higher in severe patients than mild patients. Besides, IL-10 in severe patients underwent a further up-regulation on day 5-10 and day 10-15, respectively ( Figure 4K ). The changes in the levels of TNF-\u03b1 and IFN-\u03b3 were almost neglectable ( Figure 4L & 4M) , suggesting that they probably are not good indicators of COVID-19 severity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 266,
+                    "end": 275,
+                    "text": "Figure 4H",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 373,
+                    "end": 382,
+                    "text": "Figure 4I",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 660,
+                    "end": 669,
+                    "text": "Figure 4J",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 852,
+                    "end": 861,
+                    "text": "Figure 4K",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 936,
+                    "end": 951,
+                    "text": "Figure 4L & 4M)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "IL"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IL"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 12.20034736 doi: medRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "12.20034736",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "IL"
+        },
+        {
+            "text": "The outbreak of COVID-19 poses an urgent demand of understanding the role of immunity in the progression of viral infection and subsequent pneumonia. As a new coronavirus, SARS-CoV-2 is highly contagious probably owing to the virus spread through asymptomatic-infected individuals 6 . Until recently, very few publications characterized the comprehensive changes in the innate and adaptive immunity in SARS-CoV-2 infected people, although some non-peer reviewed sources such as Medrxiv released some information.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 282,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In the present clinical study, we analyzed almost all immune cell types in both mild and severe COVID-19 patients. We found lymphopenia consistent with former reports 4, 7, 8 . Neutrophils, however, were increased in severe patients. It is noteworthy that the lymphopenia seemed to arise from a comprehensive reduction of all lymphocyte populations, including CD4+ and CD8+ T cells, B cells, and NK cells.",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 169,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 170,
+                    "end": 172,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 173,
+                    "end": 174,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The decrease in blood lymphocytes might be due to the recruitment of reactive lymphocytes in the lungs. It will be helpful to investigate infiltrating cells in the lungs to test if the infiltrates are predominantly lymphocytes other than granulocytes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Another possibility is that lymphocytes are more sensitive than granulocytes to the disturbed homeostasis and then underwent significant cell death. Whatever the case, lymphopenia is an indicator of severe COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "COVID-19 patients. This phenomenon might suggest the recruitment of reactive antiviral CD8+ T cells into the infection site. According to reported T cell response in SARS-CoV infection, CD8+ T cell reaction was more frequent and robust than CD4+ T cell reaction 9 . It is therefore possible that this is also the case in COVID-19. Indeed, a latest case report shows the sign of excessive T cell activation in COVID-19, as . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 262,
+                    "end": 263,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034736 doi: medRxiv preprint evidenced by high proportions of HLA-DR (CD4 3.47%) and CD38 (CD8 39.4%) double-positive T cell fraction 5 . unpublished data indicate highly expanded clonal CD8+ T cells in the lung microenvironment of mild COVID-19 patients, suggesting a robust adaptive immune response connected to a better control of COVID-19 (https://www.medrxiv.org/content/10.1101/2020.02.23.20026690v1.full.pdf). However, B cell and NK cell number were also remarkably reduced in severe patients, suggesting a profound suppression of lymphocytes. Interestingly, Tregs, which play a crucial role in immunoregulation and anti-inflammatory response 10 , were elevated in mild patients, suggesting a possible immunosuppression. In severe patients, the Tregs cellularity was comparable to that in control individuals, probably due to an overall T cell deficiency. Although the reduction of lymphocytes is clear, the changes in the functions of lymphocyte populations remain unknown. In future it will be necessary to test the functions of distinct immune cell populations, so as to tell whether the innate or adaptive immunity is activated or impaired in COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 249,
+                    "end": 250,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": "Recent research reveals the fatal cytokine storm in critical COVID-19 patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": "Increased serum IL-6, IP-10, MCP-1, MIP-1A, and TNF\u03b1 were observed in COVID-19 patients 8 . Several cytokine levels were also evaluated in our study. We found that serum IL-2, IL-6, IL-10 and TNF-\u03b1 were mainly up-regulated in severe patients, while the first three cytokines exhibited a more meaningful increase. Thus, serum IL-2, IL-6, IL-10 could be used to assess the severity of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": "Cytokines are produced by both innate immune cells and adaptive immune cells. IL-2 is mainly secreted by activated T cells 11, 12 . The higher IL-2 level in COVID-19",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 126,
+                    "text": "11,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 127,
+                    "end": 129,
+                    "text": "12",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": "patients likely reflects T cell activation. IL-6 is a well-known pro-inflammatory cytokine but it can also act as an anti-inflammatory mediator 13 . The cellular sources of IL-6 include myeloid cells, T cells, smooth muscle cells, endothelial cells, etc 14 . In . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 146,
+                    "text": "13",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 254,
+                    "end": 256,
+                    "text": "14",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03. 12.20034736 doi: medRxiv preprint COVID-19 patients, the dramatic increase in IL-6 likely originated from activated macrophages, consistent with another report 3 and similar to the IL-6 up-regulation in SARS patients 15 . IL-10 acts as an anti-inflammatory cytokine deriving from alternatively activated macrophages, Th2 cells, Tregs, etc 16 In conclusion, our study shows that the comprehensive decrease of lymphocytes, and the elevation of IL-2 and IL-6 are reliable indicators of severe COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 122,
+                    "text": "12.20034736",
+                    "ref_id": null
+                },
+                {
+                    "start": 328,
+                    "end": 330,
+                    "text": "15",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 450,
+                    "end": 452,
+                    "text": "16",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034736 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034736 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034736 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blood conventional T cells especially CD8+ T cells were reduced even in mild"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Immune responses in COVID-19 and potential vaccines: Lessons learned from SARS and MERS epidemic",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Prompetchara",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ketloy",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Palaga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Asian Pac J Allergy Immunol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Covid-19: a puzzle with many missing pieces",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vetter",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Eckerle",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kaiser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Pathological findings of COVID-19 associated with acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rothe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schunk",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sothmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bretzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Froeschl",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wallrauch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "970--971",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "T cell responses to whole SARS coronavirus in humans",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Immunol",
+            "volume": "181",
+            "issn": "",
+            "pages": "5490--500",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Regulatory T cells in the treatment of disease",
+            "authors": [],
+            "year": 2018,
+            "venue": "Nat Rev Drug Discov",
+            "volume": "17",
+            "issn": "",
+            "pages": "823--867",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The role of interleukin-2 during homeostasis and activation of the immune system",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Boyman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sprent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nat Rev Immunol",
+            "volume": "12",
+            "issn": "",
+            "pages": "180--90",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Signaling and Function of Interleukin-2 in T Lymphocytes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cantrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Annu Rev Immunol",
+            "volume": "36",
+            "issn": "",
+            "pages": "411--444",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The pro-and antiinflammatory properties of the cytokine interleukin-6",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Scheller",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chalaris",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schmidt-Arras",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rose-John",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Biochim Biophys Acta",
+            "volume": "1813",
+            "issn": "",
+            "pages": "878--88",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "IL-6 in inflammation, immunity, and disease",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Narazaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kishimoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Cold Spring Harb Perspect Biol",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Up-regulation of IL-6 and TNF-alpha induced by SARS-coronavirus spike protein in murine macrophages via NF-kappaB pathway",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Virus Res",
+            "volume": "128",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Regulation and functions of the IL-10 family of cytokines in inflammation and disease",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ouyang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rutz",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Crellin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Valdez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hymowitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Annu Rev Immunol",
+            "volume": "29",
+            "issn": "",
+            "pages": "71--109",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Direct Antiviral Mechanisms of Interferon-Gamma",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hwang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Immune Netw",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Sources of interferon-gamma (IFN-gamma) in early immune response to Listeria monocytogenes",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Thale",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Kiderlen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Immunobiology",
+            "volume": "210",
+            "issn": "",
+            "pages": "673--83",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "An interferongamma-related cytokine storm in SARS patients",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Theron",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Med Virol",
+            "volume": "75",
+            "issn": "",
+            "pages": "185--94",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "IL-10, and IL-6 reflect the severity of COVID-19 Cytokines are crucial biomarkers of the progression of various inflammatory disorders including pneumonia. We characterized the expression of Th1 cytokine (IL-2 & IFN\u03b3 ), Th2 cytokines (IL-4 & IL-10), and pro-inflammatory cytokines (IL-6 & TNF-\u03b1) in the blood samples of patients at inpatient admission (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ". The significant increase of IL-10 in severe patients might be a negative feedback of the systemic and local inflammation. It is noteworthy that both IL-2 and IL-6 were dramatically up-regulated in severe patients on day 15-20 after inpatient admission and then declined. This similar pattern might suggest the aggravation of the disease and the following remission caused by therapies. However, more data are in demand to accurately explain the changes. Surprisingly, IFN-\u03b3, which is a crucial anti-viral cytokine produced by both CD4+ T cells, CD8+T cells, NK cells and macrophages 17, 18 , remained at a low level in COVID-19 patients. It has been reported that IFN-\u03b3 participated in the cytokine storm in SARS patients 19 . Perhaps serum IFN-\u03b3 remains unchanged while IFN-\u03b3 in the lung tissue is elevated. More investigations are needed to test this hypothesis. Moreover, IFN-\u03b3 can downregulate the expression of the SARS coronavirus receptor ACE2 in a lab study 20 . SARS-CoV-2 seems to bind to the same receptor to infect target cells 21 . Hence, the potential effect of IFN-\u03b3 against SARS-CoV-2 infection needs further research.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Cellularity of blood T cells in COVID-19 patients at hospital admission. (A to C) Absolute cell number of white blood cells (WBC), lymphocytes (LYM), and neutrophils. (D) Neutrophil-to-Lymphocyte ratios. (E) Representative flow cytometry dot plots showing the gating strategy for total T cells, CD4+ T cells, and CD8+ T cells. C: control; M: mild; S: severe. (F to I) Quantification of the number of CD45+ lymphocytes, total T cells, CD4+ T cells, and CD8+ T cells using flow cytometry analysis. (J) Ratio between CD4+ T cells and CD8+ T cells. *, p<0.05; **, p<0.01; ***, p<0.001.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Cellularity of blood B cells, NK cells and NKT cells in COVID-19 patients at hospital admission. (A) Representative flow cytometry dot plots showing the gating strategy for B cells, NK cells and NKT cells. (B to D) Quantification of the number of B cells (B), NK cells (C) and NKT cells (D). *, p<0.05; **, p<0.01.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Cellularity of blood Tregs in COVID-19 patients at hospital admission. (A) Representative flow cytometry dot plots showing the gating strategy for Tregs. (B)Quantification of the number of Tregs. **, p<0.01.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Cytokine levels in COVID-19 patients. (A) Representative flow cytometry dot plots showing the cytokine expression in patients. (B to G) Expression of indicated cytokines in COVID-19 patients at hospital admission. **, p<0.01; ***, p<0.001. (H to M) Expression of indicated cytokines in COVID-19 patients relative to the length of hospital stay. *, p<0.05; ***, p<0.001 in comparison to \"Mild\" of the same time interval. #, p<0.05; ###, p<0.001 in comparison to the corresponding \"Severe 1-5\" group.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "The study was approved by the Ethics Committee of Guangzhou Eighth People's Hospital. Thirty-one individuals who were diagnosed to have mild/moderate COVID-19 symptoms (17 men, 14 women, average age=44.5), and 25 individuals who were diagnosed to show severe COVID-19 symptoms (18 males, 7 females, average age=66) in Guangzhou Eighth People's Hospital between January 2020 and February 2020 were enrolled in the study with informed consent. Diagnosis of COVID-19 infection, pneumonia and clinical classification was based on the new coronavirus pneumonia diagnosis and treatment plan (trial version 6) issued by the National Health Committee of the People's Republic of China. The clinical classifications are on the basis of the following manifestations: (1) mild/moderate: fever, respiratory tract symptoms, and pneumonia on chest CT scan. Respiratory rate > 30 beats/min, or mean oxygen saturation < 93% (2) severe: one of the following: respiratory distress",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ". https://doi.org/10.1101/2020.03.12.20034736 doi: medRxiv preprint 20. de Lang A, Osterhaus AD, Haagmans BL. Interferon-gamma and interleukin-4 downregulate expression of the SARS coronavirus receptor ACE2 in Vero E6 cells. Virology 2006; 353:474-81. 21. Letko M, Marzi A, Munster V. Functional assessment of cell entry and receptor usage for SARS-CoV-2 and other lineage B betacoronaviruses. Nat Microbiol 2020.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Yaling Shi designed the study and wrote the paper. Mingkai Tan and Xing Chen collected samples and performed most immune cell detection. Yanxia Liu and Jide Huang conducted cytokine assays. Jingyi Ou did statistical analysis. Xilong deng evaluated Tregs.The study is supported by Natural Science Foundation of Guangzhou (S2018010009732).. CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034736 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgement"
+        },
+        {
+            "text": "The authors declare no conflict of interests.. CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.12.20034736 doi: medRxiv preprint CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.is the (which was not peer-reviewed) The copyright holder for this preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interests"
+        }
+    ]
+}

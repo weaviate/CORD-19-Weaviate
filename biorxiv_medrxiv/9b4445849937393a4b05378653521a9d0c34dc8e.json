@@ -1,0 +1,735 @@
+{
+    "paper_id": "9b4445849937393a4b05378653521a9d0c34dc8e",
+    "metadata": {
+        "title": "Demographic science aids in understanding the spread and fatality rates of COVID-19",
+        "authors": [
+            {
+                "first": "Jennifer",
+                "middle": [
+                    "Beam"
+                ],
+                "last": "Dowd",
+                "suffix": "",
+                "affiliation": {},
+                "email": "jennifer.dowd@sociology.ox.ac.uk"
+            },
+            {
+                "first": "Valentina",
+                "middle": [],
+                "last": "Rotondi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Liliana",
+                "middle": [],
+                "last": "Andriano",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "M"
+                ],
+                "last": "Brazel",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xuejie",
+                "middle": [],
+                "last": "Ding",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yan",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Melinda",
+                "middle": [
+                    "C"
+                ],
+                "last": "Mills",
+                "suffix": "",
+                "affiliation": {},
+                "email": "melinda.mills@nuffield.ox.ac.uk"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Governments around the world must rapidly mobilize and make difficult policy decisions to mitigate the COVID-19 pandemic. Because deaths have been concentrated at older ages, we highlight the important role of demography, particularly how the age structure of a population may help explain differences in fatality rates across countries and how transmission unfolds. We examine the role of age structure in deaths thus far in Italy and South Korea and illustrate how the pandemic could unfold in populations with similar population sizes but different age structures, showing a dramatically higher burden of mortality in countries with older versus younger populations. This powerful interaction of demography and current age-specific mortality for COVID-19 suggests that social distancing and other policies to slow transmission should consider both the age composition of local and national contexts as well as the social connectedness of older and younger generations. We also call for countries to provide case and fatality data disaggregated by age and sex to improve real-time targeted nowcasting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "interactions, co-residence, and commuting patterns may have accelerated the outbreak in Italy through social networks that increased the proximity of elderly to initial cases (see Supp Info).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Age structure, along with early detection and treatment, also likely explains the low numbers of fatalities in South Korea and Singapore compared to Italy. The Korean outbreak, while large, was concentrated amongst the young recruits of the Schincheonji religious group (6) , with only 3.3% of cases falling into the very vulnerable >80 group. (7) Singapore is notable with zero deaths thus far, but have had only one confirmed case over 80 and only 10/200 cases above age 70. (8) COVID-19 transmission chains that begin in younger populations may have a low number of severe cases and thus go longer undetected, (9, 10) with countries thereby slow to raise the alarm. The low case fatality rate in England thus far (0.01%) may reflect the relatively young age structure of populations impacted to date, including Greater London, which has a small fraction of residents over age 65 compared to more rural areas (11). COVID-19 was only detected in King County, Washington once it reached the Life Care Centre in Kirkland, where 19 out of 22 deaths occurred, despite estimates based on virus genetic sequences suggesting it circulated for several weeks prior (12). Once community transmission is established, countries that have a high level of intergenerational contacts and coresidence may see faster transmission to high-fatality age groups as seen in Italy.",
+            "cite_spans": [
+                {
+                    "start": 270,
+                    "end": 273,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 344,
+                    "end": 347,
+                    "text": "(7)",
+                    "ref_id": null
+                },
+                {
+                    "start": 477,
+                    "end": 480,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In Figure 1 , we use population pyramids to illustrate how population age structure interacts with high COVID-19 mortality rates at older ages to generate large differences across populations in the number of deaths, using existing assumptions about infection prevalence and age-specific mortality. The top panel considers two countries currently affected, Italy and South Korea. The larger number of expected fatalities for Italy is clearly visible in the right panel. In the bottom panel, we consider two countries yet untouched by the pandemic who have similar population sizes but very different age distributions. In Brazil, which has 2.0% of its population age 80+, the simulated scenario leads dramatically more deaths (478,629) compared to Nigeria (137,489), where the fraction over 80 is only 0.2%. Figure 2 uses an alternative visualization to depict the expected deaths by age groups in Italy, Brazil, Nigeria, UK and US, together with the proportion of the population in different age groups. Both figures demonstrate the stark implications of an older population age structure for higher fatalities and critical cases.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 11,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 808,
+                    "end": 816,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Going forward, demographically informed projections will better predict the COVID-19 burden and inform governments about targeted action. While population age structure is crucial for understanding the populations at the highest risk of mortality both across and within countries, it is also vital for understanding how much social distancing measures are required in each population to reduce the number of most critical cases and overload on the health system-aka \"flattening the curve\"(13). Our illustrations show that countries with older populations will need to take more aggressive protective measures to stay below the threshold of critical cases that outstrip health system capacity. For these measures to be effective, special attention should be devoted to those population groups that are more at risk and patterns of intergenerational contact.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic Science and COVID-19 Policy"
+        },
+        {
+            "text": "Consideration of population age structure also necessitates understanding the interlinkage of policy measures and how one policy might create a domino effect of unintended consequences. While schools may be a hub of contact and virus transmission, school closings may inadvertently bring grandparents and children into closer contact if they become the default carers. In aged populations with close . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic Science and COVID-19 Policy"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint intergenerational ties, governments need to facilitate childcare solutions that reduce contact. In a pending decree, for instance, the Italian government will introduce a special leave for parents with children at home from school and a voucher (around 600 euros) for babysitting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic Science and COVID-19 Policy"
+        },
+        {
+            "text": "The age structure of populations also suggest that the often squeezed \"sandwich\" generation of adults who care for both the old and young are an important link for mitigating transmission. Beyond introducing sick pay for those who need to self-isolate or care for family members, joint government and industry emergency policy measures should seek to counter family economic crises by delaying rent and mortgage payments for example, particularly for vulnerable and precarious workers. In the absence of economic security measures, this crucial sandwich generation may be less able to comply with policies that allow social distancing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic Science and COVID-19 Policy"
+        },
+        {
+            "text": "The rapid spread of COVID-19 has revealed the need to understand how population dynamics interact with pandemics now and in the future. Population ageing is currently more pronounced in wealthier countries, which mercifully may lessen the impact of this pandemic on poorer countries with weaker health systems but younger age structures. It is plausible that poor general health status and coinfections such as tuberculosis may still increase the danger of COVID-19 among younger cases in these countries. Thus far, the lower than expected number of cases detected in Africa (despite extensive trade and travel links with China), suggests that the young age structure of the continent may be protective of severe and thus detectable cases, or it may be undetected. Beyond age structure, there are large sex differences in mortality that need to be understood -with men at higher risk -some of which may be accounted for by the stark differences in smoking rates by sex in Asia. Distributions of underlying comorbidities such as diabetes, hypertension and COPD will likewise refine risk estimates. Until these more nuanced data are available, the concentration of mortality risk in the oldest old ages remains one of the best tools we have to predict the burden of critical cases and thus more precise planning of availability of hospital beds, staff and other resources.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "At this moment, few countries are routinely releasing their COVID-19 data with key demographic information such age, sex, or comorbidities. We call for the timely release of this disaggregated data to allow researchers and governments to nowcast risk for more focused prevention and preparedness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint Data Analysis. For Figures 1 and 2 , the total number of expected deaths by age group was derived by multiplying the total number of people in each age group and country by an assumed population infection rate of 0.4 and age-and sex-specific mortality rates extracted from most recent Italian data.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 163,
+                    "end": 178,
+                    "text": "Figures 1 and 2",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The male-to-female relative risk of 1.65 based on current estimates from China,(1) as Italian estimates by sex have not consistently released.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint Data analysis is conducted in R using the packages [ggplot2]. Additional analyses are shown in the SI including: regional variation in Italy, variation in population pyramid estimates by differences in the infection rate and relative risk by sex, and additional countries not shown in the main article. Istituto Superiore di Sanit\u00e0, Age specific mortality rates COVID-19 (2020) (March 13, 2020).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Demographic science aids in understanding the spread and fatality rates of COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Information"
+        },
+        {
+            "text": "After Japan, Italy is currently the world's second oldest population, with 23% of the population aged 65 years and older compared to 13.2% aged 15 and under. 1 This population ageing and population decline has been driven by very low fertility rates and growing rates of childlessness, 1 which are not compensated by immigration flows. In the ranking of current cases and deaths from coronavirus in the world, Italy sadly occupies the second position after China.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "On Friday February 21 st 2020, the first case of COVID-19 in Italy was confirmed in in the province of Lodi, in Lombardy. 2 Since then, other regions in Northern Italy -including Emilia Romagna, Piedmont, and Veneto -started to report rapid increases. Between February 24 th and March 13 th , the number of cases and deaths in these regions increased exponentially ( Figure S1 ).",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 123,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 367,
+                    "end": 376,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "The response of the Italian government to the spread of the coronavirus across Italy has been firm, yet not always effective. Most of the initial interventions targeted the four regions in northern Italy that were the most affected: Lombardy, Piedmont, Veneto, and Emilia Romagna. In particular, on February 23 rd , the government issued a decree which prohibited the movement of people outside of 10 municipalities located in Lombardy, in the province of Lodi, and a municipality located in Veneto, in the province of Padova. 3 While cases in the province of Bergamo began to increase from Feb 24th, in contrast to Lodi no shutdowns or restrictions were imposed. A few hours later, the Veneto and Lombardy regions issued an ordinance by which all schools of all levels and grades, including Universities, were closed and all cultural, recreational, sporting and religious events, being them public or private, were suspended.",
+            "cite_spans": [
+                {
+                    "start": 527,
+                    "end": 528,
+                    "text": "3",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "Starting from March 8 th , the shutdown implemented in the province of Lodi, was expanded to the entirety of Lombardy (including Bergamo) and to fourteen provinces in Veneto, Emilia 1 Balbo N, Billari FC, Mills M. Fertility in Advanced Societies: A Review of Research. Eur J Popul / Rev Eur D\u00e9mographie 2013; 29: 1-38. 2 Lombardy is one of those Northern Italian regions that experienced a slight growth in the population in recent years. However, this growth is mainly due to immigration flows both from within and outside the country. Indeed, also in Lombardy the natural balance is negative and decreasing since 2012. According to Eurostat, Lombardy is also the most populated region in Italy and one among the wealthier regions in Europe, with a GDP per capita amounting to \u20ac37,800 in 2017 (compared to \u20ac28,400 in Italy and \u20ac29,500 in the EU) (https://ec.europa.eu/growth/tools-databases/regional-innovation-monitor/base-profile/lombardy) 3 However, the decree did not have immediate implementation. The control plan did not start rigidly, and checkpoints were not very effective. Law enforcement officers (at least 500 men) are deployed only on February 25 to ensure that no one enters and exits the so-called red areas creating 35 gates.",
+            "cite_spans": [
+                {
+                    "start": 319,
+                    "end": 320,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 943,
+                    "end": 944,
+                    "text": "3",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint Romagna, Piedmont, and Marche. The decree, however, leaked in the late evening of March 7 th , generating a massive outflow of people from these regions in the North to several regions in the South, where the lowest number of cases are currently registered. Only two days later, a new decree of the Prime Minister, Giuseppe Conte, extended until April 3 rd identical measures to the entire country of Italy. On March 11 th , a further crackdown resulted in the closure of all shops (except for groceries and pharmacies), pubs, and restaurants. Figure S1 . Number of cases and deaths across regions over time, March 13, 2020",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 688,
+                    "end": 697,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "As of March 13th, the number of cases that tested positive for COVID-19 in Italy amounted to 17,660, the number of deaths to 1,266 and the number of recovered to 1,439. With a total of 9,820 (i.e. 55.6% of the total) cases tested positive to COVID-19, 890 deaths, and 1,198 recovered, Lombardy is the most affected region in Italy ( Figure S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 333,
+                    "end": 342,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint Figure S2 illustrates the number of cases in Lombardy as of March 12 th by province. The more intense red indicates a greater number of cases, as reported in the legend. Figure S2 . Number of cases by province as of March 13, 2020",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 153,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 314,
+                    "end": 323,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "As of March 13th, the most affected province of Bergamo (2,368 cases) has largely overcome the province of Lodi (1,133 cases) where the outbreak started and the containment measures were introduced first, as shown in Figure S3 . We note that social distancing interventions were invoked on Feb 23 rd in Lodi but until March 8 th in Bergamo, providing some empirical evidence for the potential of \"flattening the curve\" interventions.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 217,
+                    "end": 226,
+                    "text": "Figure S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "As already suggested, Italy is a country characterized by extensive intergenerational contacts which are supported by a high degree of residential proximity between adult children and their parents. Although proximity is the highest in smaller villages and in poorer regions, the geography of proximity across Italy is rather homogeneous, with the two richest regions -Lombardy and Trentino-Alto Adige -showing high rates of proximity as well. Even when intergenerational families do not live under the same roof, daily contacts among non-co-resident parent-child pairs are frequent. While on the one hand, this geographical proximity guarantees high rates of mutual intergenerational solidarity, both financial and in-kind, one obvious consequence is that Italians often prefer not to move for work but to live close to their family and commute daily to go to work. According to the latest available data by the Italian National . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint Institute of Statistics, in the northern regions this extensive commuting affect over half of the population 4 . Figure S3 . Number of cases in the Province of Bergamo (red) and Lodi (green) as of March 13, 2020",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 257,
+                    "end": 266,
+                    "text": "Figure S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "A stylized example from social network theory can be helpful in explaining why intergenerational interactions, co-residence, and commuting patterns might have played a role in the spread of the COVID-19 infection to the older population in Italy. Individuals' social networks are generally composed of people similar in age. The population structure of contact can be represented as age-homogeneous communities that have low contact between groups. If the initial infections in northern Italy were younger people commuting to cities and having plausibly international contacts, a crucial determinant of risk for the elderly is their network distance to these younger sources, i.e. how many intermediaries need to be infected until they are reached. Network science showed that even relatively few connections between communities can lead to a stark reduction in average network distances; the so-called small world phenomenon 5 . Such community \"connecting\" individuals might be those young people around Milan that work in the city but reside in the most hard-hit villages in the surrounding with their parents and grandparents. Thus, intergenerational co-residence may have accelerated the outbreak by creating intercommunity connections that increase the proximity of elderly to the initial cases, an area for further study. . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "This stylized example may serve, once more, to show why while population age structure is crucial for understanding the populations at the highest risk of mortality both across and within countries, it is also important for understanding how much social distancing measures are required in each population to reduce the number of most critical cases and overload on the health system-aka \"flattening the curve.\" 6 At this time of severe crisis, policy makers are called to define containment measures which are often difficult to sustain in the long run and which have immense repercussions in terms of socio-economic sustainability. For these measures to be effective, a special attention should be devoted to those population groups that are more at risk and to the strength of the connections across generations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "An interesting example in this direction comes from the Canton Ticino, 7 the canton in Switzerland bordering to Lombardy. On March the 12 th , the Canton Ticino has adopted measures aimed at contrasting the diffusion of the virus which are explicitly aimed at protecting the elderly and atrisk populations. To this aim, the resolution 1262 8 \"strongly discourages\" people over 65 (and those categories at risk of incurring serious complications that can endanger their lives) to \"look after children, participate in public or private events, use public transportation, except for medical and professional needs or for the purchase of basic necessities, and attend public exercise.\" Further research to test how population age structure, intergenerational contacts, and social distancing measures interact to best mitigate risk is needed. 6 https://www.nytimes.com/2020/03/11/science/coronavirus-curve-mitigation-infection.html 7 We thank Prof. Luca Crivelli for this suggestion. 8 ",
+            "cite_spans": [
+                {
+                    "start": 838,
+                    "end": 839,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 927,
+                    "end": 928,
+                    "text": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 979,
+                    "end": 980,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Case Study of Population Ageing, Intergenerational Contacts, and COVID-19 in Italy"
+        },
+        {
+            "text": "Here we replicate Figure 1 in Figures S4-S6 and show the variation in fatality rates with varying assumptions about the infection rate and relative risk differences between males and females. Note: Total number of expected deaths by age group is derived by multiplying the total number of people in each age group and country by an assumed infection rate of 0.2 and age-and sex-specific mortality rates extracted from Italian data. The male-to-female relative risk of 1.65 based on current estimates from China.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 18,
+                    "end": 26,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 30,
+                    "end": 43,
+                    "text": "Figures S4-S6",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Variation in fatality rates by different population structures"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Note: Total number of expected deaths by age group is derived by multiplying the total number of people in each age group and country by an assumed infection rate of 0.6 and age-and sex-specific mortality rates extracted from Italian data. The male-to-female relative risk of 1.65 based on current estimates from China.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variation in fatality rates by different population structures"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Note: Total number of expected deaths by age group is derived by multiplying the total number of people in each age group and country by an assumed infection rate of 0.4 and age-and sex-specific mortality rates extracted from Italian data. The male-to-female relative risk of 2.4 based on current estimates from South Korea.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variation in fatality rates by different population structures"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variation in fatality rates by different population structures"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint Figure S7 graphs the population composition and expected deaths in the population for the additional countries of the United States, Japan and South Africa. Japan has a relatively old population, South Africa a younger population and the US is more evenly distributed. Based on the age-specific mortality rates extracted from the Italian data, we project how these different countries will experience deaths attributed to COVID-19 by age and sex. Figure S8 depicts the population composition (left panel) and the expected deaths in the population (right panel), this time for Italy versus South Korea (top panel) and Italy versus the United Kingdom. Here we immediately see from the upper right panel that Korea is expected to experience markedly fewer deaths than Italy, largely attributed to the population age structure.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 153,
+                    "text": "Figure S7",
+                    "ref_id": null
+                },
+                {
+                    "start": 591,
+                    "end": 600,
+                    "text": "Figure S8",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Variation in fatality rates by different population structures"
+        },
+        {
+            "text": "The United Kingdom is as of March 13 2020 is standing out as one of the few European countries to take not stringent actions such as closing schools or stopping large public events. 9 In spite of the comparatively younger population of the UK, the bottom right panel illustrates that the UK could face similar numbers of COVID-19 deaths as Italy. Due to age structure differences, the UK will likely have slightly fewer deaths of those 80+ in comparison to Italy, but in the coming weeks still likely to face considerable pressure on its healthcare system. 9 https://en.unesco.org/themes/education-emergencies/coronavirus-school-closures . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 183,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 557,
+                    "end": 558,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Demographic population pyramid projections for additional countries"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint Figure S7 . Population composition (left panel) and expected deaths in population (right panel), United States, Japan and South Africa . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 153,
+                    "text": "Figure S7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Demographic population pyramid projections for additional countries"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint Note: Total number of expected deaths by age group is derived by multiplying the total number of people in each age group and country by an assumed infection rate of 0.4 and age-and sex-specific mortality rates extracted from Italian data. The male-to-female relative risk of 1.65 based on current estimates from China. Note: Total number of expected deaths by age group is derived by multiplying the total number of people in each age group and country by an assumed infection rate of 0.4 and age-and sex-specific mortality rates extracted from Italian data. The male-to-female relative risk of 1.65 based on current estimates from China.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic population pyramid projections for additional countries"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic population pyramid projections for additional countries"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.15.20036293 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic population pyramid projections for additional countries"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The epidemiological characteristics of an outbreak of 2019 novel cornavirus diseases (COVID-19) in China. Zhonghua liu xing bing xue za zhi=",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "P E R E"
+                    ],
+                    "last": "Novel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Zhonghua liuxingbingxue zazhi",
+            "volume": "41",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Istituto Superiore di Sanit\u00e0 (Higher Institute of Health) official website",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Di",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A Comparative Perspective on Intergenerational Support",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kalmijn",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Saraceno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Eur. Soc",
+            "volume": "10",
+            "issn": "",
+            "pages": "479--508",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Spostamenti quotindiani e nuove forme di mobilit\u00e0 [Daily shifts and new forms of mobility",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Di",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Why are Korea's COVID-19 death rates so low",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Salmon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Asia Times",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Updates on COVID-19 Local Situation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Presumed Asymptomatic Carrier Transmission of COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.2565"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Population composition (left panel) and expected deaths in population (right panel), Italy and Republic of Korea (top panel) and Nigeria and Brazil (bottom panel)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Expected deaths by total population (top panel) and proportion of total population by age group (bottom panel), Italy, Brazil and Nigeria Methods Data. The data to produce Figures 1 and 2 use population data from (https://population.un.org/wpp) with the relative risk of death taken from the most recent Italian data, last accessed March 13, 2020.(14) SI analyses breakdown data across regions in Italy over time and geographically, with detailed data sources listed there.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "4 https://www.istat.it/it/archivio/224469 5 Watts, D. J. (1999). \"Networks, dynamics, and the small-world phenomenon.\" American Journal of Sociology 105(2): 493-527.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Population composition (left panel) and expected deaths in population (right panel), Italy and Republic of Korea (top panel) and Nigeria and Brazil (bottom panel) using Infection rate = 0.2; Relative risk M/F = 1.65",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Population composition (left panel) and expected deaths in population (right panel), Italy and Republic of Korea (top panel) and Nigeria and Brazil (bottom panel) using Infection rate = 0.6; Relative risk M/F = 1.65",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Population composition (left panel) and expected deaths in population (right panel), Italy and Republic of Korea (top panel) and Nigeria and Brazil (bottom panel) using Infection rate = 0.4; Relative risk M/F = 2.4",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Population composition (left panel) and expected deaths in population (right panel), Italy and Republic of Korea (top panel) and Italy and United Kingdom (bottom panel)",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Author Contributions. All authors jointly devised the study. JBD & MCM drafted the manuscript in which all authors contributed and commented. VR & LA wrote the Italian case and graphics. PB worked on intergenerational transmission. LA and DMB generated graphics and with XD & YL, updated country statistics. 10. T. Ganyani, et al., Estimating the generation interval for COVID-19 based on symptom onset data. medRxiv (2020) https:/doi.org/10.1101/2020.03.05.20031815. 11. P. H. E. (PHE), COVID-19: track coronavirus cases (2020) (March 13, 2020). 12. T. Bedford, Cryptic transmission of novel coronavirus revealed by genomic epidemiology. Bedford Lab Blog (2020) (March 12, 2020). 13. S. Roberts, Flattening the Cornavirus Curve. New York Times (2020) https://www.nytimes.com/2020/03/11/science/coronavirus-curve-mitigation-infection.html. 14.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/1262.pdf",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

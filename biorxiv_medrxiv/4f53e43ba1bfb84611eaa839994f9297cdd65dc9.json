@@ -1,0 +1,1112 @@
+{
+    "paper_id": "4f53e43ba1bfb84611eaa839994f9297cdd65dc9",
+    "metadata": {
+        "title": "The effectiveness of full and partial travel bans against COVID-19 spread in Australia for travellers from China",
+        "authors": [
+            {
+                "first": "Valentina",
+                "middle": [],
+                "last": "Costantino",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of New South Wales",
+                    "location": {
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "J"
+                ],
+                "last": "Heslop",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of New South Wales",
+                    "location": {
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Raina",
+                "middle": [],
+                "last": "Macintyre",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of New South Wales",
+                    "location": {
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In response to the epidemic of COVID-19, (1) Australia implemented a travel ban from China on February 1 st 2020, adding Iran and then South Korea to the ban on February 29 th and March 5 th respectively. In addition, Australians evacuated from Wuhan and from the Diamond Princess cruise ship were quarantined for two weeks in dedicated quarantine facilities. The ban on travel from China has been periodically reviewed, with lifting of restrictions announced on February 23 rd for high school students, who number less than 800. In contrast, over 120000 university students are unable to enter Australia to commence or resume their studies, and a booming tourism industry has ceased.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Travel bans and social distancing measures are effective public health tools to control epidemic diseases (2), and Australia successfully delayed the introduction of the 1918 pandemic by 1 year and reduced the total mortality compared to other countries (3) . However, travel bans are not sustainable indefinitely, and a careful risk analysis needs to be done comparing the health and economic consequences of alternative scenarios. The epidemic in China peaked on February 5 th and has declined since (4) . The risk of importation of COVID-19 cases through travel from an affected country is proportional to the volume of travel from that country and their prevalence of infection at that time point. We aimed to estimate the impact of the implementation of the travel ban on China from February 1 st 2020 on the epidemic trajectory in Australia, as well as the impact of lifting the ban completely or partially from the 8 of March.",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 257,
+                    "text": "(3)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 502,
+                    "end": 505,
+                    "text": "(4)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Three scenarios were considered.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods:"
+        },
+        {
+            "text": "1. No travel ban -the epidemic curve if the travel ban was never placed 2. Complete travel ban from February 1st to March 8st, followed by complete lifting ban 3. Complete travel ban from February 1st to March 8st, followed by partial lifting ban (allowing university students, but not tourists, to enter the country)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods:"
+        },
+        {
+            "text": "The evacuations from Wuhan and the Diamond Princess Cruise ship are not considered in this model, which only examines regular travel between China and Australia. In order to estimate the effectiveness of the travel ban that has been implemented in Australia for travellers from China, we did not consider bans to other countries. We assumed that the chance of cases coming into Australia from China depends from the number of cases in China and the number of travellers to Australia. To estimate the number of people infected that are predicted to enter Australia every two weeks from 20/01 to April, we utilised 2019 air travel passenger movements between China and Australia, derived from incoming passenger arrival cards, with data aggregated monthly and published by the Australia Bureau of Statistics (5) . For the purpose of this analysis air movements of passengers between China and Australia were derived from 2019 data. A baseline level of entries into Australia from China was calculated from the total number of entries over the April -Jun 2019 time period and was assumed to represent the baseline arrivals for the purpose of tourism and other business. The seasonal excess of travellers was then calculated by deducting this baseline from the January-March 2019 data. The seasonal excess arrivals were assumed to represent the arrival of international students starting the 2019 study year, which begins in February to March each year. Where travel bans were instituted in this analysis, or lifted, it was assumed that international students unable to enter Australia would return to Australia following the lifting of the ban, 60% in the rest of March and the remaining 40% over the month of April. However, tourists not able to travel during a travel ban were not assumed to enter Australia at a later date. Tourism activity was assumed to recover to baseline levels immediately after the lifting of a travel ban. The daily number of travellers from China to Australia in each month and for each scenario is showed in Table S2 of the supplementary material.",
+            "cite_spans": [
+                {
+                    "start": 806,
+                    "end": 809,
+                    "text": "(5)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2034,
+                    "end": 2042,
+                    "text": "Table S2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Estimation of infected cases coming into Australia from China"
+        },
+        {
+            "text": "To then calculate the probable number of those that could be infected we used an epidemiological dataset of confirmed cases of COVID-19 in China collected from WHO situation reports (6) and available in our supplementary materials (Table S1 ). The dataset includes all confirmed cases in China reported from 31/12/2019 to 23/02/2020. We then assumed that notified cases reflect only 10% of the real new infections per day, due to under-reporting, mild cases and asymptomatic infections. This assumption is based on data from Japan (7), which estimated that only 9.2% of cases in China were notified or detected. This estimate is based on testing of all evacuees from Wuhan to Japan and the documented cases in China at the time (7). Furthermore it has been showed that a high proportion of infected people will have very mild symptoms (8) which are unlikely to be reported. We then estimated the possible true epidemic curve. In order to project the future incidence cases in China we used a Poisson regression model to fit data from the 5 th (start of the incidence declining) to 23 rd of February and estimated the decreasing rate per day (z) as:",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 185,
+                    "text": "(6)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 835,
+                    "end": 838,
+                    "text": "(8)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 231,
+                    "end": 240,
+                    "text": "(Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Estimation of infected cases coming into Australia from China"
+        },
+        {
+            "text": "Where I(t) is the number of new infected at time t and I0 is the initial value at time t=0 (Incidence at day 5 of February). Once the decreasing rate z was estimated and the incidence forecasted from 23 of February onwards, we then calculated the number of infected people coming from China every two weeks period ( , + 14) as:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of infected cases coming into Australia from China"
+        },
+        {
+            "text": "Where N is the total population of China and ( , + 14) is the number of people travelling from China to Australia in every two weeks period. When calculating the prevalence of infection in China, we started from two weeks before the period travelling in order to include the people that could be infected and in a latent state. In scenarios 2 and 3, we assumed a linear declining distribution in time of travel for university students waiting to enter the country after lifting of the travel ban. A full and partial lifting of the ban was examined. In the partial ban, over 150,000 university students can enter Australia, but the just over 80,000 expected tourists not.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of infected cases coming into Australia from China"
+        },
+        {
+            "text": "The cases of COVID-19 occurring over time in Australia due to imported cases from China were estimated for each scenario. We used an age specific deterministic model, with 8 mutually exclusive compartments: susceptible (S), Latent traced (LT), Latent untraced (LU), Infectious (I), Isolated (I), Recovered (R) and dead (D). Each of those compartments is divided in 18 age stratified groups each of 5 years duration, ranging from 0 to 84 years old plus an additional age group of 85+ years. The entire Australian population was considered susceptible. The duration of each model run is 400 days. The initial infected cohort is assumed to be generated from cases arriving from China by air. After arrival of an infected case, it is assumed that, if and when they become symptomatic, they are isolated, and a designated portion of their contacts will also be quarantined. Cases transition between epidemiological compartments in accordance with transition rates determined by their duration of stay in each compartment. Model parameters are shown in Table 1 . Further details of the model (diagram and differential equations) are described in the supplementary material. We conducted a sensitivity analyses on the proportion of asymptomatic people, and based on growing evidence of equal viral loads in symptomatic and asymptomatic cases(9-12), we considered the latent period to be equally infectious as the symptomatic period. The proportion of asymptomatic infections, being the main source of community transmission in scenarios where the travel bans are lifted, was assumed to be 34.6% based on testing of passengers aboard the Diamond Princess cruise ship (13, 14) . The model uses an optimistic assumption that 80% of contacts are identified and quarantined, and 90% of symptomatic cases are isolated after 5 days (17) . Studies show a long, mild prodrome of several days before people feel unwell enough to seek medical attention, which is also considered in the model (15) . ",
+            "cite_spans": [
+                {
+                    "start": 1659,
+                    "end": 1663,
+                    "text": "(13,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1664,
+                    "end": 1667,
+                    "text": "14)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1818,
+                    "end": 1822,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1974,
+                    "end": 1978,
+                    "text": "(15)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1047,
+                    "end": 1054,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Epidemic curve in Australia from cases imported from China"
+        },
+        {
+            "text": "to the 23 of February. Figure 2 shows the modelled epidemic curve fitting the incidence data from 5 to 23 of February and then forecasted until the 4 of April, which is the time we expect the incidence decreasing to almost zero should the current trend in China continue.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 23,
+                    "end": 31,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Figure one shows the notified and estimated epidemic in China from the 31 December 2019"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 2: Estimated Incidence data in China (blue) and model fit to the data and forecasting future daily incidence (red)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.09.20032045 doi: medRxiv preprint We found that following the peak on February 5 th and decline of the epidemic in China, the probability that an infected traveller can arrive in the partial ban scenario (allowing university students only) is low. The complete removal of travel restrictions on 8 th of March results in an estimated arrival of 5 cases in the first two weeks and 1 in the following two weeks. However, if we compare a 5 week ban scenario (scenario 2) with the scenario without a travel ban (scenario 1), we estimate that 32, 43 and 36 infected coming every two weeks from the 26 of January would have been averted. Due to a surge of students coming in the first two weeks following the lifting of the ban in the second scenario, an additional 2 more infected are estimated to enter from 8 to 21 of March (Table 2 ). In Figure 3 we show the epidemic curve without and with the ban implemented for 5 weeks followed by a full lifting (scenario 1 and 2) and we show a large impact on averting an epidemic in Australia. In both cases, the model reproduces the 15 notified imported cases reported in Australia between the 20 of January and 8 of February. The modelled epidemic in scenario 2, with the full ban, predicts 57 cases in Australia by the 6 th of March. The notified cases by 6 th of March were 66, however we did not account for imported cases from other countries",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 893,
+                    "end": 901,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 908,
+                    "end": 916,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "In the epidemic curve for scenario 2, when travel resumes there will be a small surge in cases followed by a decrease and the epidemic can be controlled, with a total of less than 300 cases and about 8 deaths. If the ban was never in place (scenario 1), the epidemic would continue for more than a year resulting in more than 2000 cases and about 400 deaths.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Varying the proportion of asymptomatic cases to 20% or 50% keeps about the same percentages of cases and deaths prevented by the ban in the two scenarios, however the total number of cases and deaths are almost 6 times higher and 2 times lower in the case of the proportion of asymptomatic being 50% and 20% respectively (results not shown).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 3: Daily incidence, cumulative number of cases and the cumulative number of deaths from the 20 of January onward for 400 days with and without a travel ban"
+        },
+        {
+            "text": "We estimated that the travel ban implemented on 1 of February by Australia has been very effective, reducing the number of cases and deaths from COVID-19 by about 87%. Studies have been published on effectiveness of domestic and international travel restrictions on COVID-19 (19, 20) . However, this study is the first one to show the effectiveness of travel ban in Australia, and can inform a phased approach of partial lifting of bans when cases in the source country decline. This allows monitoring of the ongoing situation in China, which may yet see a second wave of the epidemic. Our estimate of the true epidemic curve is supported by other studies (7, 8, 21) , and projected case numbers would change with any change in this estimate. Even if the true number of cases in China is 10 or 100 times that reported, only a fraction of the entire population of China has been infected, which leaves a possibility of a subsequent wave of the epidemic. If cases increase in China, the model can provide estimates of risk based on daily new case numbers.",
+            "cite_spans": [
+                {
+                    "start": 275,
+                    "end": 279,
+                    "text": "(19,",
+                    "ref_id": null
+                },
+                {
+                    "start": 280,
+                    "end": 283,
+                    "text": "20)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 656,
+                    "end": 659,
+                    "text": "(7,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 660,
+                    "end": 662,
+                    "text": "8,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 663,
+                    "end": 666,
+                    "text": "21)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We do not consider cases coming in from other countries -however, this study illustrates the principle of travel bans and public health impact on epidemic control using China as a case study. A further limitation is the uncertainty of parameters used, particularly the proportion of asymptomatic cases. We have used a conservative estimate, but if the rate is higher than 40%, the outcomes would be worse. While it has been showed that distancing measures are highly effective (2, 22) a systematic review looking at the effectiveness of travel restrictions (23) , shows that international travel restriction are effective in delaying the epidemic but may not contain it. We also assumed a very optimistic scenario of 80% of contacts being identified, which may not occur with high case numbers, if a high proportion of asymptomatic transmission is occurring, or if self-quarantine is ineffective. In this study we assumed voluntary home quarantine, which is showed to be about 50% effective in R0 reduction (16) , however there could be an increased risk of intra-household transmission infected people to contacts (24) , which is not considered in this model.",
+            "cite_spans": [
+                {
+                    "start": 557,
+                    "end": 561,
+                    "text": "(23)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1007,
+                    "end": 1011,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1115,
+                    "end": 1119,
+                    "text": "(24)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We showed that the ban implemented for travellers from China, when the epidemic was almost at its peak, substantially delayed the spread into Australia. There is now evidence of community transmission in Australia, but the epidemic is still in the early stages, and this study provide evidence to support the new travel bans that have been implemented on Iran and South Korea, in order to delay the epidemic. The model predicted 57 cases by March 6 th in Australia, which is slightly less than the notified number of 66, which suggests the model assumptions were reasonable, given we did not account for cases coming in from other countries. Community transmission in Australia in early March is likely linked to imported cases from China, given the fairly long incubation period and less than 3 incubation periods since the first evacuation of Australians from Wuhan on February 3rd. The model fit to observed data was good, also suggesting the epidemic is still possible to contain, if adequate resources are available for thorough contact tracing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This analyses is a first insight into the effectiveness of travel restrictions for COVID-19 outbreak, supports the effectiveness of the Australian response, informs gradual lifting of the bans or placing of new bans on other countries, and could inform other countries in reducing the burden of importations and resulting domestic transmission of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Valentina Costantino: Methodology and modelling construction, parameterisation of model, writing and revision David Heslop: Manipulation of travelling data, writing and revision Raina MacIntyre: Conception of the study and scenarios, parametrisation of model, writing and revision. All: Designing and conceptualising the model",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contributions:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "2020. 2. Peak CM, Childs LM",
+            "volume": "114",
+            "issn": "",
+            "pages": "4023--4031",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Anomalies of the 1919 influenza pandemic remain unexplained after 100 years",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shanks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Internal medicine journal",
+            "volume": "49",
+            "issn": "7",
+            "pages": "919--942",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coronavirus disease 2019 (COVID-19) Situation Report -29 2020",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "ABS. 3401.0 -Overseas Arrivals and Departures",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "World Health Organization. Coronavirus disease (COVID-2019) situation reports",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2019--2020",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The Rate of Underascertainment of Novel Coronavirus (2019-nCoV) Infection: Estimation Using Japanese Passengers Data on Evacuation Flights",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Miyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kinoshita",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Medicine",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Epidemiologic Features and Clinical Course of Patients Infected With SARS-CoV-2 in Singapore",
+            "authors": [
+                {
+                    "first": "Beo",
+                    "middle": [],
+                    "last": "Young",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "X; Kalimuddin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.3204"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Asymptomatic Novel Coronavirus Pneumonia Patient Outside Wuhan: The Value of CT Images in the Course of the Disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y;",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clinical Imaging",
+            "volume": "63",
+            "issn": "",
+            "pages": "7--9",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rothe",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sothmann",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "2020.10.1056/NEJMc2001468"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "2020.10.1056/NEJMc2001737"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The serial interval of COVID-19 from publicly reported confirmed cases. medRxiv",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Meyers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Transmission potential of the novel coronavirus (COVID-19) onboard the Diamond Princess Cruises Ship, 2020. Infectious Disease Modelling",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mizumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Estimating the Asymptomatic Ratio of 2019 Novel Coronavirus onboard the Princess Cruises Ship",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mizumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kagaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zarebski",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Estimation of the reproductive number of Novel Coronavirus (COVID-19) and the probable outbreak size on the Diamond Princess cruise ship: A data-driven analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Diao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pei",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Infectious Diseases",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.02.033"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Health system capacity in Sydney, Australia in the event of a biological attack with smallpox",
+            "authors": [
+                {
+                    "first": "Crc",
+                    "middle": [],
+                    "last": "Macintyre",
+                    "suffix": ""
+                },
+                {
+                    "first": ";",
+                    "middle": [],
+                    "last": "Valentina",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mohana",
+                    "middle": [],
+                    "last": "Kunasekaram",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Priya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLOS One",
+            "volume": "14",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team. The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Zhonghua liu xing bing xue za zhi= Zhonghua liuxingbingxue zazhi",
+            "authors": [
+                {
+                    "first": "China",
+                    "middle": [],
+                    "last": "In",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "41",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Assessing the Impact of Reduced Travel on Exportation Dynamics of Novel Coronavirus Infection (COVID-19)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Anzai",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Linto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Medicine",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Quantifying the association between domestic travel and the exportation of novel coronavirus (2019-nCoV) cases from Wuhan, China in 2020: a correlational analysis Journal of Travel Medicine",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/jtm/taaa022"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Using predicted imports of 2019-nCoV cases to determine locations that may not be identifying all imported cases. medRxiv",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Salazar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Niehus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Buckee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.04.20020495"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Backcalculating the Incidence of Infection with COVID-19 on the",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diamond Princess Journal of Clinical Medicine",
+            "volume": "9",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Effectiveness of travel restrictions in the rapid containment of human influenza: a systematic review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mateus",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Otete",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Beck",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Dolan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Nguyen-Van-Tam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Bulletin of the World Health Organization",
+            "volume": "92",
+            "issn": "",
+            "pages": "868--80",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Evidence compendium and advice on social distancing and other related measures for response to an influenza pandemic",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rashid",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ridda",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Begun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tekin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Paediatric respiratory reviews",
+            "volume": "16",
+            "issn": "2",
+            "pages": "119--145",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Imported cases in Australia from China under no, partial and full travel bans per each two weeks period",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

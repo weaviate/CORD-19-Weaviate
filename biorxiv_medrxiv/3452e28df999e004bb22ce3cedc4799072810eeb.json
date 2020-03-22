@@ -1,0 +1,1639 @@
+{
+    "paper_id": "3452e28df999e004bb22ce3cedc4799072810eeb",
+    "metadata": {
+        "title": "Ecological and evolutionary drivers of hemoplasma infection and bacterial genotype 1 sharing in a Neotropical bat community 2 3",
+        "authors": [
+            {
+                "first": "Daniel",
+                "middle": [
+                    "J"
+                ],
+                "last": "Becker",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indiana University",
+                    "location": {
+                        "settlement": "Bloomington",
+                        "region": "IN",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kelly",
+                "middle": [
+                    "A"
+                ],
+                "last": "Speer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alexis",
+                "middle": [
+                    "M"
+                ],
+                "last": "Brown",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stony Brook University",
+                    "location": {
+                        "settlement": "Stony Brook",
+                        "region": "NY",
+                        "country": "USA 15"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "Brock"
+                ],
+                "last": "Fenton",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Museum of Natural History",
+                    "location": {
+                        "addrLine": "Smithsonian 11 Institution",
+                        "settlement": "Washington",
+                        "region": "D.C",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alex",
+                "middle": [
+                    "D"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Washburne",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sonia",
+                "middle": [],
+                "last": "Altizer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Georgia",
+                    "location": {
+                        "settlement": "Athens",
+                        "region": "GA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [
+                    "G"
+                ],
+                "last": "Streicker",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Georgia",
+                    "location": {
+                        "addrLine": "18 10",
+                        "settlement": "Athens",
+                        "region": "GA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Raina",
+                "middle": [
+                    "K"
+                ],
+                "last": "Plowright",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Montana State University",
+                    "location": {
+                        "settlement": "Bozeman",
+                        "region": "MT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vladimir",
+                "middle": [
+                    "E"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Chizhikov",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u00a7",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nancy",
+                "middle": [
+                    "B"
+                ],
+                "last": "Simmons",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dmitriy",
+                "middle": [
+                    "V"
+                ],
+                "last": "Volokhov",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Georgia",
+                    "location": {
+                        "settlement": "Athens",
+                        "region": "GA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Most emerging pathogens can infect multiple species, underscoring the importance of 33 understanding the ecological and evolutionary factors that allow some hosts to harbor greater 34 infection prevalence and share pathogens with other species. However, our understanding of 35 pathogen jumps is primarily based around viruses, despite bacteria accounting for the greatest 36 proportion of zoonoses. Because bacterial pathogens in bats (Order: Chiroptera) can have 37 conservation and human health consequences, studies that examine the ecological and 38 evolutionary drivers of bacterial prevalence and barriers to pathogen sharing are crucially 39 needed. We here studied hemotropic Mycoplasma spp. (i.e., hemoplasmas) across a species-rich 40 bat community in Belize over two years. Across 469 bats spanning 33 species, half of individuals 41",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "and two-thirds of species were hemoplasma positive. Infection prevalence was higher for males 42 and for species with larger body mass and colony sizes. Hemoplasmas displayed high genetic 43 diversity (21 novel genotypes) and strong host specificity. Evolutionary patterns supported co-44 divergence of bats and bacterial genotypes alongside phylogenetically constrained host shifts. 45",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Bat species centrality to the network of shared hemoplasma genotypes was phylogenetically 46 clustered and unrelated to prevalence, further suggesting rare-but detectable-bacterial sharing 47 between species. Our study highlights the importance of using fine phylogenetic scales when 48 assessing host specificity and suggests phylogenetic similarity may play a key role in host shifts 49 for not only viruses but also bacteria. Such work more broadly contributes to increasing efforts to 50 understand cross-species transmission and epidemiological consequences of bacterial pathogens. 51",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "asymptomatic (Messick, 2004) . As Mycoplasma spp. lack many of the metabolic pathways 94 associated with energy production and synthesis of cell components found in other bacteria, they 95 are fully dependent on host cells (Citti & Blanchard, 2013) . Hemoplasmas have therefore been 96 described as mostly host specialists (Pitcher & Nicholas, 2005 ), yet interspecies and potentially 97 . CC-BY-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2019.12.21.885921 doi: bioRxiv preprint 8 (e.g., inter-roost movement of Desmodus rotundus occurs rarely). At least 44 of the 70 bat 144 species in Belize have been recorded in this region (Herrera et al., 2018; Reid, 1997) . Bats were 145 captured with mist nets primarily along flight paths and occasionally at the exits of roosts from 146 19:00 until 22:00. Harp traps were also set from 18:00 to 05:00. In KK, Desmodus rotundus, 147",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 28,
+                    "text": "(Messick, 2004)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 223,
+                    "end": 248,
+                    "text": "(Citti & Blanchard, 2013)",
+                    "ref_id": null
+                },
+                {
+                    "start": 323,
+                    "end": 348,
+                    "text": "(Pitcher & Nicholas, 2005",
+                    "ref_id": null
+                },
+                {
+                    "start": 760,
+                    "end": 782,
+                    "text": "(Herrera et al., 2018;",
+                    "ref_id": null
+                },
+                {
+                    "start": 783,
+                    "end": 794,
+                    "text": "Reid, 1997)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Trachops cirrhosus, and Chrotopterus auritus were captured at their shared roost. In the LAR, 148",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Desmodus rotundus, Saccopteryx bilineata, and Glossophaga soricina were sampled from a 149 shared roost, although individuals were also sampled along flight paths across the greater site. 150",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "More broadly, patterns of roost sharing of bat species in northern Belize remain elusive. 151",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Bats were placed in cloth bags until processing and were identified to species (and sex) 152 based on morphology (Reid, 1997). Reproductive activity was indicated by the presence of 153 scrotal testes in males and by the evidence of pregnancy or lactation in females; across bat 154 species, 69% of males and 42% of females were in reproductive condition. We also visually 155 screened bats for the presence of ectoparasites (i.e., bat flies, ticks, bat bugs, mites; Ter Hofstede, 156 Mart\u00ednez-Meyer, & L\u00f3pez-Santiago, 2014). We also considered the proportion of plant-based 209 items in diet. We simplified foraging strata into aerial (n=14), arboreal (n=16, including 210 scansorial), and ground-or aquatic-level foraging (n=3). We also expanded prior compilations of 211 only foliage; n=6) or closed (e.g., hollows, caves; n=27), and roost flexibility was simplified to 214 using one (n=16) or multiple roost types (n=17). We classified maximum colony sizes as small-215 to-medium (e.g., under 100 individuals; n=20) or large (e.g., hundreds to thousands; n=13; Reid, in Belize (Fig. S2 ). Yet because more widely distributed species could have more opportunities 219 for pathogen sharing due to range overlap, we used the geosphere package and data from the 220 GLMMs that considered all fixed effects as well as interactions between sex and reproduction 230 and between site and year. We also considered a model that excluded site to account for possible 231 non-independence of LAR and KK alongside an intercept-only model. As vampire bats were 232 banded for a mark-recapture study (Volokhov et al., 2017) and some were sampled between and 233 within years (n=14), we randomly selected one of each recapture. After removing recaptures and 234 . CC-BY-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2019.12.21.885921 doi: bioRxiv preprint 12 missing values (n=323), we fit the phylogenetic GLMMs using the brms package, default priors, 235 and infection status as a Bernoulli-distributed response. We included random effects for bat 236 species and phylogeny, the latter of which used the phylogenetic covariance matrix (B\u00fcrkner, 237 2017). We ran four chains for 20,000 iterations with a burn-in period of 10,000, thinned every 10 238 steps, for a total 4,000 samples. We compared GLMMs using the leave-one-out cross-validation 239 (LOOIC) and assessed fit with a Bayesian R 2 , including the total modeled variance and that The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2019.12.21.885921 doi: bioRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 1589,
+                    "end": 1612,
+                    "text": "(Volokhov et al., 2017)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1081,
+                    "end": 1089,
+                    "text": "(Fig. S2",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To identify species trait correlates of prevalence, we fit 11 PGLS models (weighted by 258 sampling variance) with body mass, annual fecundity (litters per year * pups per litter), dietary 259 guild, quantitative diet, foraging strata, aspect ratio, roost type, roost flexibility, colony size, 260 geographic range size, and evolutionary distinctiveness as predictors. We also fit PGLS models 261 with only sample size or an intercept. We compared models with Akaike information criterion 262 corrected for small sample sizes (AICc) and estimated Genotypes were designated as novel if (i) sequences differed from the closest hemoplasma 273 sequences in GenBank by \u2265 1.5% and/or (ii) if sequence similarity was <1.5% but genotype-274 specific reproducible mutations (at least two per sequence) were observed between hemoplasma 275 sequences from at least two independent bat samples and the nearest GenBank hemoplasma 276 sequences. These genotype-specific mutations were further used to differentiate closely related 277 hemoplasma genotypes from our sample. We caution that genotype is not synonymous with 278 species, as analysis of the 16S rRNA gene alone is insufficient for accurate species identification 279 . CC-BY-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2019.12.21.885921 doi: bioRxiv preprint 14 of Mycoplasma spp. (Volokhov et al., 2012) . Future studies using genomics or housekeeping 280 genes may identify independent but closely related hemoplasma species in our genotypes. 281",
+            "cite_spans": [
+                {
+                    "start": 1460,
+                    "end": 1483,
+                    "text": "(Volokhov et al., 2012)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "13"
+        },
+        {
+            "text": "To assess if hemoplasma genotype assignments were associated with site and year, we 282 used \u03c7 2 tests with p values generated through a Monte Carlo procedure. Prior to our phylogenetic 283 and network analyses of genotype distributions across bat species (see below), we used another 284 \u03c7 2 test to assess the association between hemoplasma genotype identify and bat host identity. 285 286",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "13"
+        },
+        {
+            "text": "To determine the degree to which bat hemoplasma genotypes display host specificity and to 288 describe their evolutionary relationships with host species, we used our bat and hemoplasma 289 phylogenies to construct a binary association matrix. To test the dependence of the hemoplasma 290 phylogeny upon the bat phylogeny and thus assess evidence of evolutionary codivergence, we 291 applied the Procrustes Approach to Cophylogeny (PACo) using distance matrices and the paco 292 We used hemoplasma genotype assignments to create a network, with each node representing a 299 bat species and edges representing shared genotypes among bat species pairs. We built an 300 adjacency matrix using the igraph package and used the Louvain method to assess the structure 301 of bat-hemoplasma communities within this network (Csardi & Nepusz, 2006) . To test whether 302 . CC-BY-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2019.12.21.885921 doi: bioRxiv preprint the distribution of hemoplasma genotypes across our Neotropical bat species is shaped by host 303 phylogeny, we used two GLMs to predict counts of shared genotypes (Poisson errors) and the 304 presence of sharing (binomial errors) by phylogenetic distance between bat species. We assessed 305 statistical significance with a quadratic assignment procedure via the sna package (Butts, 2008). 306",
+            "cite_spans": [
+                {
+                    "start": 815,
+                    "end": 838,
+                    "text": "(Csardi & Nepusz, 2006)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Evolutionary relationships between bats and hemoplasmas 287"
+        },
+        {
+            "text": "We calculated two metrics of network centrality to quantify different aspects of how 307 important a node (bat species) is to hemoplasma genotype sharing: degree and eigenvector 308 centrality (Bell, Atkinson, & Carlson, 1999). Whereas degree indicates the number of other 309 species with which a host shares bacterial genotypes (i.e., links per node), eigenvector centrality 310 indicates the tendency for a host to share genotypes with species that also share more genotypes 311 (i.e., connectivity). Eigenvector centrality is thus an extension of degree that can identify hubs of 312 parasite sharing (G\u00f3mez, Nunn, & Verd\u00fa, 2013). These two metrics were moderately correlated 313 (\u03c1=0.59), with many non-zero degree species displaying zero eigenvector centrality. To examine 314 spatial and temporal patterns in host centrality, we built separate adjacency networks per each 315 site and year. We fit separate GLMs to ask how hemoplasma sharing centrality was predicted by 316",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Evolutionary relationships between bats and hemoplasmas 287"
+        },
+        {
+            "text": "site, year, and the two-way interaction. Degree was modeled as a Poisson-distributed response, 317 while eigenvector centrality was logit-transformed and used Gaussian errors. We next applied 318 phylogenetic factorization to both metrics and weighted the algorithms by the square-root sample 319 size per species (Garamszegi, 2014). We then fit the same PGLS models used in our prevalence 320 analysis to identify the most competitive trait predictors of bat species centrality to hemoplasma 321 sharing. To lastly assess whether network centrality is associated with hemoplasma prevalence, 322 we fit two weighted PGLS models with each centrality metric as a univariate predictor. Fig. 2A) . This result was weakly sensitive to overrepresentation by Desmodus rotundus, as 333 effect size and the prevalence sex difference was weaker when we randomly subsampled this 334 species (Fig. 2) . Across all models, fixed effects only explained up to 7% of the modeled 335 variance, suggesting more variation explained by the species and phylogeny random effects. 336",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 683,
+                    "end": 691,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 880,
+                    "end": 888,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Evolutionary relationships between bats and hemoplasmas 287"
+        },
+        {
+            "text": "Inter-species variation in hemoplasma prevalence 338 Across bat species, hemoplasma prevalence ranged from 0% to 100% (x =0.37). We estimated 339",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "337"
+        },
+        {
+            "text": "Pagel's \u03bb in logit-transformed prevalence to be 0.39, indicating moderate phylogenetic signal. 340",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "337"
+        },
+        {
+            "text": "Similarly, phylogenetic factorization identified one bat clade with significantly lower prevalence 341 compared to the paraphyletic remainder: the Emballonuridae (12% infected; Fig. 3A ). Our trait-342 based analysis showed that relatively larger species (\u03b2=1.48, p=0.01, R 2 =0.24) and those with 343 larger colonies (\u03b2=0.67, p=0.06, R 2 =0.20) had higher prevalence ( Fig. 3B; Table 1 ). Relatively 344 heavier (\u2265 20 g) and larger colony species included Desmodus rotundus, Molossus rufus, and 345",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 177,
+                    "end": 184,
+                    "text": "Fig. 3A",
+                    "ref_id": null
+                },
+                {
+                    "start": 370,
+                    "end": 386,
+                    "text": "Fig. 3B; Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "337"
+        },
+        {
+            "text": "Pteronotus mesoamericanus, for which prevalence was greater than 58%. Although these three 346 species were also heavily sampled, other well-sampled species such as Sturnira parvidens and 347",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "337"
+        },
+        {
+            "text": "Carollia sowelli had lower prevalence, and sample size did not predict prevalence (Table 1) . 348 description of these 29 bacterial genotypes is provided in the Supporting Information (Fig. S3) . 361",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 82,
+                    "end": 91,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 184,
+                    "end": 193,
+                    "text": "(Fig. S3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "337"
+        },
+        {
+            "text": "After controlling for multiple comparisons, our 29 bacterial genotypes were associated 362 with site (\u03c7 2 =47.11, p<0.01) and year (\u03c7 2 =40.40, p<0.01). Genotype composition was more 363 diverse at LAR (Fig. S4) , and KK hemoplasmas were dominated by vampire bat genotypes 364 (VBG1-3). Genotype composition was more idiosyncratic by study year. However, these 29 365 bacterial genotypes were most strongly associated with bat species (\u03c7 2 =3532, p<0.01; Fig. S4 ). 366 367",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 202,
+                    "end": 211,
+                    "text": "(Fig. S4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 455,
+                    "end": 462,
+                    "text": "Fig. S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "337"
+        },
+        {
+            "text": "Although some hemoplasma genotypes were shared between bat species (i.e., VBG1, CS2, PPM, 369 EF1, AH1-2, MYE, PLU, SP; n=9), most showed strong host specificity (n=20; Fig. 4 ), suggesting that hemoplasma evolution has 372 mostly tracked bat speciation. However, PACo also demonstrated that only 56% of the 41 unique 373 bat-hemoplasma links displayed significant evidence of coevolution (Fig. S5) , and these patterns 374 were almost exclusively found within the Phyllostomidae (with the exception of Saccopteryx 375 bilineata and its Mycoplasma muris-like bacterial genotype). The other 18 bat-hemoplasma 376 links therefore displayed evidence of phylogenetic incongruence and thus likely host shifts. 377 378",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 169,
+                    "end": 175,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 389,
+                    "end": 398,
+                    "text": "(Fig. S5)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Bat-hemoplasma evolutionary relationships 368"
+        },
+        {
+            "text": "Within our bat-hemoplasma network, genotype sharing was restricted to five host communities, 380 whereas six genotypes were each restricted to a single bat species (Fig. 5A ). GLMs showed that 381 both the frequency and presence of genotype sharing declined with phylogenetic distance 382 between bat species (Poisson: p<0.001, R 2 =0.08; binomial: p<0.001, R 2 =0.51; Fig. 5B ). 383",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 164,
+                    "end": 172,
+                    "text": "(Fig. 5A",
+                    "ref_id": null
+                },
+                {
+                    "start": 369,
+                    "end": 376,
+                    "text": "Fig. 5B",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hemoplasma genotype sharing networks 379"
+        },
+        {
+            "text": "Bat species shared hemoplasma genotypes with zero to five other species (i.e., degree), 384 and most hosts were not central to the network of genotype sharing (i.e., eigenvector centrality of 385 zero). Six bat species had non-zero eigenvector centrality values that ranged from 37% to 100%, 386 indicating that these hosts generally shared more hemoplasma genotypes with other highly 387 connected hosts. Stratifying our hemoplasma genotype network across sites and years showed 388 that centrality measures varied by space but not time (Fig. S7, Table S5 ). We observed no 389 hemoplasma genotype sharing at KK, likely reflecting lower host diversity (Herrera et al., 2018) . 390",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 538,
+                    "end": 556,
+                    "text": "(Fig. S7, Table S5",
+                    "ref_id": null
+                },
+                {
+                    "start": 653,
+                    "end": 675,
+                    "text": "(Herrera et al., 2018)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Hemoplasma genotype sharing networks 379"
+        },
+        {
+            "text": "Phylogenetic factorization identified similar bat clades with significantly different 391 centrality compared to the paraphyletic remainder (Fig. 6A-B) . For degree, the algorithm only 392",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 140,
+                    "end": 151,
+                    "text": "(Fig. 6A-B)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hemoplasma genotype sharing networks 379"
+        },
+        {
+            "text": "identified Artibeus lituratus as being more central (x =5) than other bats (x =1.14). However, 393 phylogenetic factorization identified three taxa in the subfamily Stenodermatinae that had 394 Trait-based analyses showed that degree centrality was best predicted by diet (Table S6) ; 400 bat species feeding more heavily on fruit and nectar shared more bacterial genotypes with other 401 species (\u03b2=0.004, p<0.001, R 2 =0.20; Fig. 6C ). Similarly, eigenvector centrality was best 402 predicted by bat colony size and diet (Table S7 ); highly central species had small colonies 403 (\u03b2 large =-1.93, p=0.05, R 2 =0.13) and fed more on plants (\u03b2=0.03, p<0.01, R 2 =0.10; Fig. 6D ). 404",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 272,
+                    "end": 282,
+                    "text": "(Table S6)",
+                    "ref_id": null
+                },
+                {
+                    "start": 427,
+                    "end": 434,
+                    "text": "Fig. 6C",
+                    "ref_id": null
+                },
+                {
+                    "start": 523,
+                    "end": 532,
+                    "text": "(Table S7",
+                    "ref_id": null
+                },
+                {
+                    "start": 669,
+                    "end": 676,
+                    "text": "Fig. 6D",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hemoplasma genotype sharing networks 379"
+        },
+        {
+            "text": "As a final analysis, we assessed whether network centrality (i.e., a bat species' role in 405 hemoplasma genotype sharing) predicted contemporary infection prevalence (Fig. S8) . However, 406",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 167,
+                    "end": 176,
+                    "text": "(Fig. S8)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hemoplasma genotype sharing networks 379"
+        },
+        {
+            "text": "we found no associations between species-level infection prevalence and centrality as measured 407 by degree (\u03b2=-0.13, R 2 =0.03, p=0.42) or eigenvector centrality (\u03b2=-0.20, R 2 <0.01, p=0.79). prevalence were distinct from those in genotype sharing centrality (e.g., large-colony species had 482 higher prevalence but lower connectivity), and prevalence accordingly did not predict centrality. 483 Second, we found general congruence between bat and hemoplasma phylogenies. Although this 484",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hemoplasma genotype sharing networks 379"
+        },
+        {
+            "text": "shows codivergence is a strong evolutionary force, congruence can also stem from preferential 485 Similar to bat viruses, we found moderate phylogenetic signal in hemoplasma prevalence. 525",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hemoplasma genotype sharing networks 379"
+        },
+        {
+            "text": "However, these phylogenetic patterns in prevalence were decoupled from those describing bat 526 species centrality in sharing hemoplasmas, such that genotype sharing was generally restricted 527 by bat phylogeny. These findings imply codivergence of bats and their bacterial pathogens 528 alongside rare and phylogenetically constrained host shifts. Future work more broadly 529 characterizing the ecological and evolutionary determinants of bacterial infections in diverse host 530 For assistance with field logistics, bat sampling, and permits, we thank Mark Howells, Neil 558",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hemoplasma genotype sharing networks 379"
+        },
+        {
+            "text": "Duncan, James Herrera, Melissa Ingala, and staff of the Lamanai Field Research Center. We also 559 thank the many colleagues who helped net bats during 2017-2018 bat research in Belize. We 560 thank Seth Walk, Susan Broadway, and Jonathan Martinson for laboratory access and assistance. 561",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hemoplasma genotype sharing networks 379"
+        },
+        {
+            "text": "Lastly, we thank two anonymous reviewers for helpful suggestions to improve this manuscript. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2019.12.21.885921 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hemoplasma genotype sharing networks 379"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Phylogenetically related and ecologically similar carnivores harbour similar parasite 706 assemblages",
+            "authors": [],
+            "year": null,
+            "venue": "Journal of Animal Ecology",
+            "volume": "83",
+            "issn": "3",
+            "pages": "671--680",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Parasite diversity declines 708 with host evolutionary distinctiveness: A global analysis of carnivores",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Drake",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gittleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Altizer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Evolution",
+            "volume": "69",
+            "issn": "3",
+            "pages": "621--630",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/evo.12611"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "711 implementing Procrustean Approach",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hutchinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Cagua",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Balbuena",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Stouffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Poisot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Evidence and molecular characterization of Bartonella spp. and 715 hemoplasmas in neotropical bats in Brazil",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Epidemiology & Infection",
+            "volume": "",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Living fast and dying of infection: host life history drives interspecific variation in 718 infection and disease risk",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Jombart",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kendall",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Colijn",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Molecular Ecology Resources",
+            "volume": "15",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1461-7190248.2011.01730.x72054"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Foraging and 724 roosting behaviour of the fringe-lipped bat",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "H\u00e4msch",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Page",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kalko",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "O&apos;mara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Trachops cirrhosus",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": 2012,
+            "venue": "Environmental Microbiology",
+            "volume": "14",
+            "issn": "2",
+            "pages": "291--317",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2019.12.21.885921"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Transmission pathways and spillover of an erythrocytic bacterial pathogen from 730 domestic cats to wild felids",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ecology and Evolution",
+            "volume": "8",
+            "issn": "19",
+            "pages": "9779--9792",
+            "other_ids": {
+                "DOI": [
+                    "73110.1002/ece3.4451"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Sexual 733 dimorphism in immunity across animals: a meta-analysis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Stoehr",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Nunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Smyth",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Prokop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ecology Letters",
+            "volume": "21",
+            "issn": "12",
+            "pages": "1885--734",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ele.13164"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Picante: R tools for integrating phylogenies and ecology",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Webb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Evolutionary Genetics Analysis across Computing Platforms",
+            "authors": [],
+            "year": null,
+            "venue": "Molecular Biology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Preliminary information on the home range and 742 movement patterns of Sturnira lilium (Phyllostomidae) in a naturally fragmented landscape 743 in Bolivia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Loayza",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Loiselle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Biotropica",
+            "volume": "40",
+            "issn": "5",
+            "pages": "630--635",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The 745",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Longdon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brockhurst",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Welch",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jiggins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Evolution and Genetics of Virus Host Shifts",
+            "authors": [],
+            "year": null,
+            "venue": "PLOS Pathogens",
+            "volume": "10",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "e1004395.doi:74610.1371/journal.ppat.1004395"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Network analysis of host-virus communities in bats and rodents 749",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "Ecology Letters",
+            "volume": "18",
+            "issn": "11",
+            "pages": "1153--1162",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2019.12.21.885921"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Infection with hemotropic Mycoplasma species in patients with 753 or without extensive arthropod or animal contact",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Breitschwerdt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of Clinical Microbiology",
+            "volume": "51",
+            "issn": "10",
+            "pages": "754--3237",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Hemotropic mycoplasmas in little brown bats (Myotis lucifugus). Parasit Vectors",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "How should pathogen transmission be 759 modelled?",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mccallum",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Barlow",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Trends in Ecology & Evolution",
+            "volume": "16",
+            "issn": "6",
+            "pages": "2144--2153",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0169-7605347"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Host phylogeny, geographic overlap, and roost sharing shape parasite communities in 763",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Hemotrophic mycoplasmas (hemoplasmas): a review and new insights 765 into pathogenic potential",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Messick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Veterinary Clinical Pathology",
+            "volume": "33",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1939-766165X.2004.tb00342.x"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "rotl : an R package to interact with 768 the Open Tree of Life data",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Michonneau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Winter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Methods in Ecology and Evolution",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/2041-769"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mill\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cevidanes",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sacrist\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alvarado",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sep\u00falveda",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ramos-Mella",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2019.12.21.885921"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Detection and Characterization of Hemotropic Mycoplasmas in Bats in 772",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lis\u00f3n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Widespread 774 infection with hemotropic mycoplasmas in bats in Spain, including a hemoplasma closely 775 related to \"Candidatus Mycoplasma hemohominis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mill\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "L\u00f3pez-Roig",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Delicado",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Serra-Cobo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Esper\u00f3n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Microbiology 776 and Infectious Diseases",
+            "volume": "39",
+            "issn": "",
+            "pages": "9--12",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cimid.2015.01.002"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Evolutionary patterns and processes in the 778 radiation of phyllostomid bats",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Monteiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Nogueira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "BMC Evolutionary Biology",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2148-77911-137"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Bats and Bacterial Pathogens: A Review",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "M\u00fchldorfer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "In vivo transmission studies of \"Candidatus Mycoplasma turicensis\" in 784 the domestic cat",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lehmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Veterinary Research",
+            "volume": "40",
+            "issn": "5",
+            "pages": "45--59",
+            "other_ids": {
+                "DOI": [
+                    "10.1051/vetres/2009028"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "An amniote life-history database to perform comparative analyses with birds, 787 mammals, and reptiles",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Myhrvold",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Baldridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sivam",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Freeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ernest",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Ecology",
+            "volume": "96",
+            "issn": "11",
+            "pages": "3109--3109",
+            "other_ids": {
+                "DOI": [
+                    "10.1890/15-0846R.1"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Host and viral traits predict zoonotic spillover from mammals",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olival",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hosseini",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zambrana-Torrelio",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bogich",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Daszak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature",
+            "volume": "546",
+            "issn": "7660",
+            "pages": "790--646",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature22975"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "APE: analyses of phylogenetics and evolution 792 in R language",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Paradis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Claude",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Strimmer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Bioinformatics",
+            "volume": "20",
+            "issn": "2",
+            "pages": "289--290",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2019.12.21.885921"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "-species transmission of viruses can be extended to other pathogens (Bonneaud, 78 Weinert, & Kuijper, 2019). Bacterial pathogens have been especially understudied for bats 79 (M\u00fchldorfer, 2013), in contrast to intensive studies of zoonotic viruses across the Chiroptera 80 (Luis et al., 2015). However, many bacterial pathogens are likely important to both bat 81 conservation and human health due to pathogenic effects on bats themselves as well as their 82 zoonotic potential (Becker et al., 2018; Evans, Bown, Timofte, Simpson, & Birtles, 2009). 83 To determine the ecological and evolutionary drivers of bacterial prevalence and barriers 84 to pathogen sharing, we focused on hemotropic Mycoplasma spp. (i.e., hemoplasmas) in a 85 species-rich bat community in Belize (Fenton et al., 2001; Herrera, Duncan, Clare, Fenton, & 86 Simmons, 2018). The Neotropics have remarkable bat diversity owing to adaptive radiation in 87 the Phyllostomidae (Gunnell & Simmons, 2012), producing a range of feeding strategies (e.g., 88 frugivory, carnivory, sanguivory), body sizes, and roost preferences (Monteiro & Nogueira, 89 2011). Hemoplasmas are intracellular erythrocytic bacteria transmitted through direct contact 90 (Cohen et al., 2018; Museux et al., 2009) and also possibly arthropod vectors (Willi, Boretti, 91 Meli, et al., 2007). Hemoplasmas can cause acute and chronic anemia, especially for 92 immunocompromised hosts; however, many animals develop inapparent infections and are 93",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "blood (volumes were dependent on bat 157 mass) by lancing the propatagial vein with a sterile needle. Blood was collected with heparinized 158 capillary tubes and stored on Whatman FTA cards to preserve bacterial DNA. Field procedures 159 followed guidelines for safe and humane handling of bats published by of the American Society 160 of Mammalogists (Sikes, Care, & Mammalogists, 2016) and were approved by the Institutional 161 Animal Care and Use Committees of the University of Georgia (A2014 04-016-Y3-A5) and 162 American Museum of Natural History (AMNHIACUC-20170403 and AMNHIACUC-163 20180123",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Santana, Dial, Eiting, & Alfaro, 2011), as most values were reported in ranges. We did not 217 record pairwise sympatry (e.g., Luis et al., 2015; McKee et al., 2019) given that all species occur 218",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "240 attributed to only the fixed effects (Gelman, Goodrich, Gabry, & Vehtari, 2019; Vehtari, 241 Gelman, & Gabry, 2017). We then estimated fixed effects (means and 95% highest density 242 intervals [HDI]) from the posterior distributions of each predictor from the top GLMM. Lastly, 243 we assessed the sensitivity of individual-level analyses to overrepresentation of Desmodus 244 rotundus by randomly subsampling this species by the maximum n for other bat species. 245 246 Species-level analysis of hemoplasma prevalence 247 We next calculated infection prevalence per species, using the metafor package to estimate logit-248 transformed proportions and sampling variances (Viechtbauer, 2010). We used the nlme package 249 to estimate phylogenetic signal as Pagel's \u03bb with a weighted phylogenetic generalized least 250 squares (PGLS) model to account for within-species variance (Garamszegi, 2014). We next used 251 a graph-partitioning algorithm, phylogenetic factorization, to flexibly identify clades with 252 significantly different prevalence estimates at various taxonomic depths. We used the taxize 253 package to obtain a bat taxonomy from the National Center for Biotechnology Information 254 (Chamberlain & Sz\u00f6cs, 2013) and used the phylofactor package to partition prevalence as a 255Bernoulli-distributed response in a GLM(Washburne et al., 2019). We determined the number of 256 significant bat clades using Holm's sequentially rejective test with a 5% family-wise error rate. 257",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Burnham phylogenetic analyses and genotype assignment 265 We compared our 16S rRNA sequences to those in GenBank (Volokhov et al., 2017; Volokhov 266 et al., 2011). Briefly, we aligned sequences using Clustal X, and inter-and intra-species 267 similarity values were generated using BioEdit. Genetic distances were calculated with the 268 Kimura two-parameter and Tamura-Nei models, and the phylogeny was constructed using 269 MEGA X with the minimum evolution algorithm (Kumar, Stecher, Li, Knyaz, & Tamura, 2018). 270 We assigned hemoplasma genotypes to positive bats based on analysis of the 16S rRNA 271 partial gene (860-1000 bp) sequences in GenBank and their clustering on the phylogeny. 272",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "package (Hutchinson, Cagua, Balbuena, Stouffer, & Poisot, 2017). We used a jackknife 293 procedure to estimate the degree to which each bat-genotype link supported a hypothesis of 294 phylogenetic congruence; links were supported if their upper 95% confidence interval was below 295 the mean of all squared jackknife residuals (Balbuena, M\u00edguez-Lozano, & Blasco-Costa, 2013). 296 297 Hemoplasma genotype sharing among bat species 298",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Table 2), including three previously identified from vampire bats (VBG1-3; Volokhov et al., 352 2017). All genotypes demonstrated minor levels of sequence variability (99.5-100%; Table 2). 353Based on comparisons with sequences from GenBank, 21 of these genotypes represent novel 354 hemoplasmas, five are closely related to non-hemoplasma mycoplasmas, and many are 355 phylogenetically related to previously identified Mycoplasma spp. and hemoplasmas identified 356 from other bat species (e.g., Di Cataldo et al., 2020; Mill\u00e1n et al., 2019, 2015), bat ticks (e.g., 357 Hornok et al., 2019), primates including humans (e.g., Alcorn et al., 2020; Bonato, Figueiredo, 358 Gon\u00e7alves, Machado, & Andr\u00e9, 2015; Hattori et al., 2020), and rodents (e.g., Gon\u00e7alves et al., 359 2015; Goto, Yasuda, Hayashimoto, & Ebukuro, 2010; Vieira et al., 2009). A more detailed 360",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "the prevalence and distribution of a common bacterial pathogen (hemoplasmas) in 411 a diverse bat community, we expanded analysis of the ecological and evolutionary predictors of 412 bat infection and pathogen sharing beyond viruses. Across the bat community, hemoplasma 413 infection risk was weakly higher for males but was better predicted by phylogeny, with large-414 bodied and large-colony bat species showing greater prevalence. Hemoplasmas showed high 415 diversity and mostly strict host associations, with strong congruence between the bat and 416 hemoplasma phylogenies. Although codivergence was supported by our analyses, we also 417 genotype sharing and evidence of historical host shifts between closely 418 related bats. Species most central to this hemoplasma sharing network displayed taxonomic 419 clustering and were disproportionately frugivores and nectarivores. Yet these highly central bat 420 species did not also have the highest hemoplasma prevalence, reinforcing mostly infrequent 421 bacterial sharing between species. Our work reveals phylogenetic patterns in hemoplasma 422 infection in a diverse bat community while contributing to broader efforts to understand the host 423 specificity of bacterial pathogens and their cross-species transmission patterns in wildlife.424 Whereas many bacterial pathogens, including hemoplasmas, are common in bats (Bai et 425 al., 2011; Becker et al., 2018; Ikeda et al., 2017; Mascarelli et al., 2014; Mill\u00e1n et al., 2015; 426 Volokhov et al., 2017), the factors that confer high infection probability are poorly understood. 427 In the Belize bat community, the odds of hemoplasma infection tended to be higher in males, 428 suggesting male-biased transmission as detected in feline and canine systems (Soto et al., 2017; 429 Walker Vergara et al., 2016). Such patterns could stem from males mounting weaker immune 430 responses than females (Kelly, Stoehr, Nunn, Smyth, & Prokop, 2018) or to male defense of 431 multi-female roosts in many Neotropical bat species (Voigt, von Helversen, Michener, & Kunz, 432 2001). Direct transmission of hemoplasmas has been demonstrated in feline and rodent systems 433 (Cohen et al., 2018; Museux et al., 2009) but only inferred in bats from metagenomic studies 434 detecting these bacteria in saliva (Volokhov et al., 2017). We found weak support for the 435 hypothesis that ectoparasites play a role in infection risks (Hornok et al., 2019; Willi, Boretti, 436 Meli, et al., 2007). The weak male bias in infection could cast further doubt on vector-borne 437 transmission, as females in some bat species have elevated ectoparasitism (Frank, support for a female bias in ectoparasitism in our system (Fig. S9). Future work 440 assessing ectoparasite burdens could better elucidate the roles of vectors in hemoplasma risk. 441 Across Neotropical bats sampled in Belize, we found phylogeny to be a better predictor 442 of hemoplasma risk than individual traits, site, or year. Phylogenetic factorization identified one 443 clade, the Emballonuridae, with significantly lower prevalence than all other bats in the 444 community. This moderate phylogenetic signal mirrors comparable effects of phylogeny for bat 445 viruses (Guy, Thiagavel, Mideo, & Ratcliffe, 2019), similarly suggesting potential for innate 446 differences in species susceptibility or pathogen exposure. Trait-based analyses revealed that this 447 taxonomic pattern was driven by heavier and large-colony species having greater hemoplasma 448 prevalence. Small-bodied species could have low prevalence due to small blood volumes and 449 low bacterial titers (Volokhov et al., 2017). Alternatively, the positive, saturating relationship 450 between body mass and bacterial prevalence could be driven by allometric patterns in 451 competence (Downs et al., 2019), in contrast to weak or opposite relationships between mass and 452 viral richness across bats (Guy et al., 2019; Han, Schmidt, et al., 2016). As larger-bodied bat 453 species can also be more abundant in Neotropical habitat fragments (Herrera et al., 2018), these 454 results suggest land conversion could increase the frequency of bat species most capable of 455 maintaining hemoplasma infection. Similarly, positive relationships between colony size and 456 prevalence could support density-dependent transmission of bacteria (McCallum et al., 2001), 457 whereas mixed support has been found for bat viruses (Streicker et al., 2012; Webber, Fletcher, 458 & Willis, 2017). Future work could test how community-wide infection patterns vary across 459 broader habitat gradients and use multiple bacteria to assess the generality of these trends. 460 Approximately two-thirds of the Neotropical bat species sampled in Belize were infected 461 by hemoplasmas, for which we observed high genetic diversity consistent with other studies of 462 previously identified from vampire bats (Volokhov et al., 2017). When considering the 466 phylogenetic scale of genotypes, most hemoplasmas were host specific. Over half our 467 hemoplasma communities consisted of a single bat-genotype association, matching the degree of 468 host specificity observed more generally for Mycoplasma spp. (Citti & Blanchard, 2013; Pitcher 469 & Nicholas, 2005). When we did detect genotype sharing between species, this occurred mostly 470 between closely related hosts (e.g., PPM was detected in Pteronotus mesoamericanus and P. 471 fulvus), indicating bat phylogenetic distance decreased the probability of bacterial transfer. 472 Analyses to characterize species centrality to the hemoplasma genotype sharing network 473 showed that one species (Artibeus lituratus) and the subfamily Stenodermatinae played key 474 roles. This clade, and especially the genera Artibeus and Dermanura (formerly all classified in 475 Artibeus), was the only taxon with non-zero connectivity, and this pattern was reflected in fruit-476 and nectar-based diets and small colonies being the primary predictors of centrality. The strictly 477 frugivorous Stenodermatinae represents a recent divergence in the Phyllostomidae (Botero-478 Castro et al., 2013), and high centrality of these species may indicate weaker phylogenetic 479 barriers for bacterial transmission between hosts in this clade. Two other analyses reinforced 480 infrequent and conserved hemoplasma sharing between species. First, phylogenetic patterns in 481",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "closely related hosts (De Vienne et al., 2013). Though we cannot rule out that some 486 host shifts may be artefacts of the limited resolution of both the phylogenies, our evolutionary 487 analyses and genotype sharing results imply that hemoplasma host shifts are possible yet rare. 488 By sampling a diverse assemblage of bacterial genotypes in an ecologically and 489 evolutionary rich host community, our work has broader implications for our understanding of 490 disease emergence. Many bacterial pathogens are thought to be generalists and relatively 491 unlikely to specialize in a novel host (Pedersen, Altizer, Poss, Cunningham, & Nunn, 2005; 492 Woolhouse & Gowtage-Sequeria, 2005), in contrast to many viruses in which host shifts are 493 more common owing to high mutation rates and short infectious periods (Geoghegan et al., 2017; 494 Longdon, Brockhurst, Russell, Welch, & Jiggins, 2014). Recent theoretical work suggests host 495 shift speciation may be less common for bacteria because of higher phenotypic plasticity (e.g., 496 the ability to reside in diverse habitats) and a slower tempo of evolution (Bonneaud et al., 2019). 497 Obligate reliance of Mycoplasma spp. on host cells and more chronic infections likely explains 498 their propensity to specialize (Citti & Blanchard, 2013; Cohen et al., 2018). More broadly, 499 however, using genetics to infer pathogen sharing, rather than coarser phylogenetic scales (e.g., 500 species complexes or genera), is increasingly showing that many bacterial strains may be more 501 host specific (Withenshaw, Devevey, Pedersen, & Fenton, 2016). The high specialism of bat 502 hemoplasma genotypes thus underscores the importance of using finer phylogenetic scales in the 503 study of infectious disease (Fountain-Jones et al., 2018; Graham, Storch, & Machac, 2018). 504 Comparative analyses of viruses have suggested that phylogenetically conserved 505 pathogen jumps between species may be a broader generality in the study of disease emergence 506 (Albery, Eskew, Ross, & Olival, 2019; Luis et al., 2015; Streicker et al., 2010). With few 507 exceptions, our results on hemoplasma genotype sharing between Neotropical bat species are 508 with this pattern for a bacterial pathogen. Two cases in which hemoplasmas 509 were shared between more distantly related species included the VBG1 genotype in Desmodus 510 rotundus and Pteronotus fulvus (Phyllostomidae and Mormoopidae) and the EF1 genotype in 511 Glossophaga soricina and Saccopteryx bilineata (Phyllostomidae and Emballonuridae). For the 512 latter, both bat species co-roost in the LAR, which suggests an ecological context for pathogen 513 exposure over current timescales. However, other genetic markers (e.g., rpoB, rpoC, gyrB) 514 would be necessary to infer contemporary cross-species transmission (K\u00e4mpfer & Glaeser, 2012; 515 Volokhov et al., 2012), as analysis of the 16s rRNA gene alone is insufficient for hemoplasma 516 species identification (Volokhov et al., 2012). If hemoplasmas are more likely to specialize 517 rather than expand their range into new and unrelated species, genotype sharing between 518 unrelated bats could represent more transient spillovers (Bonneaud et al., 2019). As specialized 519 pathogens could be more transmissible than generalists (Garamszegi, 2006), species with high 520 infection prevalence of specialist genotypes could be prioritized for bacterial surveillance. 521 In conclusion, our analysis of a diverse community of bats and their pathogen genotypes 522 identifies several key ecological and evolutionary factors structuring bacterial infection within 523 and between species and provides a starting point for contrasts with such patterns for viruses. 524",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "KAS, and AMB collected samples; NBS and MBF coordinated fieldwork; RKP, SA, and 565 DGS supported laboratory analyses; DVV and VEC conducted molecular and phylogenetic 566 analyses; and ADW and DGS assisted with statistical analyses. DJB analyzed data, produced 567 figures, and wrote the manuscript. All authors provided critical review of the manuscript. , K., Gerrard, J., Cochrane, T., Graham, R., Jennison, A., Irwin, P. J., & Barbosa, A. 573 D. (2020). First report of Candidatus Mycoplasma haemohominis infection in Australia 574 causing persistent fever in an animal carer. Clinical Infectious Diseases: An Official 575 Publication of the Infectious Diseases Society of America. doi: 10.1093/cid/ciaa089 576 3. Bai, Y., Kosoy, M., Recuenco, S., Alvarez, D., Moran, D., Turmelle, A., \u2026 Rupprecht, C. 577 (2011). Bartonella spp. in Bats, Guatemala. Emerging Infectious Diseases, 17(7), Baillie, J., Hilton-Taylor, C., & Stuart, S. N. (2004). IUCN red list of threatened species: a 580 global species assessment. IUCN. 581 5. Balbuena, J. A., M\u00edguez-Lozano, R., & Blasco-Costa, I. (2013). PACo: A Novel Procrustes 582 Application to Cophylogenetic Analysis. PLOS ONE, 8(4), e61048. doi: 583 10.1371/journal.pone.0061048 584 6. Becker, D. J., Bergner, L. M., Bentz, A. B., Orton, R. J., Altizer, S., & Streicker, D. G. 585 (2018). Genetic diversity, infection prevalence, and possible transmission routes of 586 Bartonella spp. in vampire bats. PLOS Neglected Tropical Diseases, 12(9), e0006786. doi: 587 10.1371/journal.pntd.0006786 588 7. Becker, D. J., Crowley, D. E., Washburne, A. D., & Plowright, R. K. (2019). Temporal and 589 spatial limitations in global surveillance for bat filoviruses and henipaviruses. Biology 590 Letters, 15(12), 20190423. doi: 10.1098/rsbl.types of host contacts are equal when it comes to E. coli transmission. Ecology 595 Letters, 17(8), 970-978. doi: 10.1111/ele.12300 596 10. Bonato, L., Figueiredo, M. A. P., Gon\u00e7alves, L. R., Machado, R. Z., & Andr\u00e9, M. R. (2015). 597 Occurrence and molecular characterization of Bartonella spp. and hemoplasmas in 598 neotropical primates from Brazilian Amazon. Comparative Immunology, Microbiology and 599 Infectious Diseases, 42, 15-20. doi: 10.1016/j.cimid.2015.09.001 600 11. Bonneaud, C., Weinert, L., & Kuijper, B. (2019). Understanding the emergence of bacterial 601 pathogens in novel hosts. Phil. Trans. R. Soc. B. doi: 10.1098/rstb.2018.0328 602 12. Botero-Castro, F., Tilak, M., Justy, F., Catzeflis, F., Delsuc, F., & Douzery, E. J. P. (2013). 603 Next-generation sequencing and phylogenetic signal of complete mitochondrial genomes for 604 resolving the evolutionary history of leaf-nosed bats (Phyllostomidae). Molecular 605 Phylogenetics and Evolution, 69(3), 728-739. doi: 10.1016/j.ympev.2013.07.003 606 13. B\u00fcrkner, P.-C. (2017). brms: An R package for Bayesian multilevel models using Stan. 607 Journal of Statistical Software, 80(1), 1-28. 608 14. Burnham, K. P., & Anderson, D. R. (2002). Model selection and multimodel inference: a 609 practical information-theoretic approach. Springer Science & Business Media. 610 15. Butts, C. T. (2008). Social network analysis with sna. Journal of Statistical Software, 24(",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "). Fieldwork was authorized by the Belize Forest Department under permits 164 WL/2/1/17(16), WL/2/1/17(19), and WL/2/1/18(16). Sample size was similar between years 165 (2017=202, 2018=267) but varied by site (LAR=365, KK=101). More species were sampled for 166 blood at LAR (n=33) than KK (n=17;Fig. 1), reflecting site differences in species richness 167 (Herrera et al., 2018). We sampled 1-139 individuals per bat species (the maximum being 168Desmodus rotundus), with a mean of 14 individuals per bat species(Table S1). 169 DNA extraction, PCR amplification, and amplicon sequencing 171 Genomic DNA was extracted from blood on FTA cards using QIAamp DNA Investigator Kits 172(Qiagen). We tested DNA for hemoplasmas using PCR with primers and procedures described in173 prior analyses (Volokhov et al., 2017). We included blank FTA punches as an extraction control, 174 ultrapure water as a negative control, and Candidatus Mycoplasma haemozalophi DNA as a 175 positive control (Volokhov et al., 2011). Amplicons from PCR-positive samples were purified by 176 electrophoresis and extracted using the QIAquick Gel Extraction Kit (Qiagen). 177 To determine hemoplasma infection status, all 16S rRNA amplicons were directly 178 sequenced by Macrogen (https://www.macrogenusa.com/). Amplicons were sequenced with the 179 same primers used for PCR amplification and then with internal (walking) primers when needed 180 (Volokhov et al., 2017). Negative DNA samples were tested for amplification quality using the 181 universal PCR primers targeting the mammal mitochondrial 16S rRNA gene (Volokhov, Kong, 182 George, Anderson, & Chizhikov, 2008) or the mitochondrial cytochrome c oxidase subunit 1 183 gene (Clare, Lim, Engstrom, Eger, & Hebert, 2007); all hemoplasma-negative DNA samples 184 gave positive signal in the mitochondrial 16S rRNA gene-and/or the COI-specific PCR assays. 185 All amplified sequences were subjected to chimeric sequence analysis using DECIPHER 186 (Wright, Yilmaz, & Noguera, 2012) and UCHIME (Edgar, Haas, Clemente, Quince, & Knight, 187 2011). All hemoplasma sequences have been deposited in GenBank under accession numbers 188 Bartonella spp. during sequencing and were considered hemoplasma negative in our analyses. 190 Bat phylogenetic data 192 We used the rotl and ape packages in R to extract a bat phylogeny from the Open Tree of Life 193 and to calculate branch lengths with Grafen's method (Michonneau, Brown, & Winter, 2016; 194 Paradis, Claude, & Strimmer, 2004). To assess hemoplasma genotype sharing as a function of 195 host phylogenetic similarity, we derived pairwise phylogenetic distances between the 33 sampled 196 bat species (Fig. S1). Because more evolutionarily distant and distinct species could display less 197 frequent bacterial genotype sharing owing to ecological and immunological barriers to pathogen 198 exposure and replication (Huang, Drake, Gittleman, & Altizer, 2015), we used the picante 199 package and our bat phylogeny to derive evolutionary distinctiveness (Kembel et al., 2010). 200We obtained species-level data on host traits relevant to pathogen transmission from previously 203 published sources(Table S2). We obtained fecundity (litter size, litters per year), body mass, and 204 diet from the Amniote Life History and EltonTraits databases (Myhrvold et al., 2015; Wilman et 205 al., 2014). For foraging ecology, which could affect bacterial exposure (e.g., trophic interactions; 206",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "wing aspect ratios and roost preferences to serve as proxies for ecological overlap among species 212(Fenton et al., 2001; Herrera et al., 2018; Reid, 1997). Roost type was simplified to open (e.g., 213",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "International Union for Conservation of Nature to derive geographic range size (Baillie, Hilton-221 Taylor, & Stuart, 2004; Hijmans, Williams, Vennes, & Hijmans, 2019). Missing species-level 222 traits were taken from other databases, primary literature, or closely related species(Table S2). 223We first used the prevalence package to estimate hemoplasma infection prevalence and its 95% 226 confidence interval (Wilson method). We then used phylogenetic generalized linear mixed 227 models (GLMMs) to test if infection status varied by sex, reproductive status, year, site, and 228 ectoparasite presence while accounting for bat phylogenetic relatedness. We fit candidate 229",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "We detected sequence-confirmed hemoplasma infection in 239 of 469 individuals (51%; 95% 327 CI: 46-55%), with positive individuals in 23 of the 33 sampled bat species(Table S3). The most 328 parsimonious phylogenetic GLMM explained 22% of the modeled variance in infection status 329 and included only sex, reproductive status, ectoparasites, and year (\u0394LOOIC=0.16, w i =0.27; 330 Table S4), suggesting site to be uninformative. Males had higher odds of infection than females 331",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "significantly elevated eigenvector centrality: the genera Artibeus and Dermanura (x =0.67 395 compared to =0.02 in all other bats), the species Artibeus lituratus (x =1 compared to 396 =0.12), and the species Sturnira parvidens (x =0.37 compared to",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "BY-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2019.12.21.885921 doi: bioRxiv preprint 25 communities will improve our understanding of cross-species transmission beyond viruses and 531 contribute to efforts to understand the epidemiological consequences of bacterial pathogens. 532Individual-level data are available in Dryad 538 (https://datadryad.org/stash/share/7qOGkejyIldAcD9FEZHNNVCc_4k0lmmiABy0EiRwZoo). 539Bat species trait data are available inTable S2. Hemoplasma sequences are available in GenBank 540 (MH245119-MH245194 and MK353807-MK353892).541 DJB was funded by the ARCS Foundation, American Society of Mammalogists, Odum School 544 of Ecology, Explorer's Club, and NSF DEB-1601052. RKP was supported by NSF DEB-545 1716698, the Defense Advanced Research Projects Agency (DARPA D16AP00113 and the 546 DARPA PREEMPT program Cooperative Agreement D18AC00031), U.S. National Institutes of 547 General Medical Sciences IDeA Program (P20GM103474 and P30GM110732), and the USDA 548 National Institute of Food and Agriculture (Hatch project 1015891). DJB and KAS were both 549 supported by the American Museum of Natural History Theodore Roosevelt Memorial Fund. 550 NBS was supported by the American Museum of Natural History Taxonomic Mammalogy Fund. 551 DGS was supported by a Sir Henry Dale Fellowship, jointly funded by the Wellcome Trust and 552 Royal Society (102507/Z/13/Z). The views, opinions, and/or findings expressed are those of the 553 . CC-BY-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2019.12.21.885921 doi: bioRxiv preprint authors and should not be interpreted as representing the official views or policies of the 554 Department of Defense or the U.S. Government. 555",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2019.12.21.885921 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

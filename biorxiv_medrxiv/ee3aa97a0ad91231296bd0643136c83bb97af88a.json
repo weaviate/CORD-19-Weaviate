@@ -1,0 +1,445 @@
+{
+    "paper_id": "ee3aa97a0ad91231296bd0643136c83bb97af88a",
+    "metadata": {
+        "title": "Multi-city modeling of epidemics using spatial networks: Application to 2019-nCov (COVID-19) coronavirus in India",
+        "authors": [
+            {
+                "first": "Bhalchandra",
+                "middle": [
+                    "S"
+                ],
+                "last": "Pujari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Savitribai Phule University of Pune",
+                    "location": {
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Snehal",
+                "middle": [],
+                "last": "Shekatkar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Savitribai Phule University of Pune",
+                    "location": {
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The ongoing pandemic of 2019-nCov (COVID-19) coronavirus has made reliable epidemiological modeling an urgent necessity. Unfortunately, most of the existing models are either too fine-grained to be efficient or too coarse-grained to be reliable. Here we propose a computationally efficient hybrid approach that uses SIR model for individual cities which are in turn coupled via empirical transportation networks that facilitate migration among them. The treatment presented here differs from existing models in two crucial ways: first, self-consistent determination of coupling parameters so as to maintain the populations of individual cities, and second, the incorporation of distance dependent temporal delays in migration. We apply our model to Indian aviation as well as railway networks taking into account populations of more than 300 cities. Our results project that through the domestic transportation, the significant population is poised to be exposed within 90 days of the onset of epidemic. Thus, serious supervision of domestic transport networks is warranted even after restricting international migration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Following its onset in Wuhan, China, the pandemic of 2019-nCov (COVID-19) coronavirus has wreaked havoc in various countries 1,2 . In less than three months the epidemic has engulfed over 100 nations with more than 100,000 confirmed infections and 4000 deaths 3, 4 . Although the early cases indicate the illness is less severe than other coronaviruses like SARS-CoV and MERS-CoV, the evidences of rapid human-tohuman transmission indicates that 2019-nCoV is more contagious than others 5 . Thus, it is utmost necessary to develop models that are computationally efficient yet realistic enough to assist medical personals, policy makers and general public.",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 262,
+                    "text": "3,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 263,
+                    "end": 264,
+                    "text": "4",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "One of the most celebrated models to study epidemics is the SIR model, and its subsequent variations [6] [7] [8] . This model distributes the total population into compartments for Susceptible, Infected and Recovered individuals, and a set of coupled differential equations describes the movement of population from one compartment to another. Although the model has been used extensively it fails to account for the demographic details and spatial heterogeneity. Several remedies have been proposed to overcome this limitation. For example, 'fully-mixed' assumption can be replaced with network of con-tacts between individuals 9,10 . In the last few days network based SIR-type models were also used to predict the spread of ongoing epidemic of COVID-19 coronavirus 11, 12 . Many studies have used the transmission dynamics of virus in metapopulation patches where the total population is subdivided into a number of discrete patches, each of which is treated as being well-mixed 13 . Bolker et al. 14 used such a model to demonstrate the effectiveness of vaccination against measles outbreak. Arino and van den Driessche 15,16 have proposed a model in which the population of a city is coupled with other cities via a mobility parameter that describes the net rate of intercity migration 16 . Lloyd and Jansen 17 also used metapopulation of n-patches to epidemics' dynamics to see the patterns of synchrony in outbreaks. A more involved model with cross-patch infection was investigated for various cases by Muroya et al. 18 , who looked at the global stability of an endemic.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 104,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 105,
+                    "end": 108,
+                    "text": "[7]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 109,
+                    "end": 112,
+                    "text": "[8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 768,
+                    "end": 771,
+                    "text": "11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 772,
+                    "end": 774,
+                    "text": "12",
+                    "ref_id": null
+                },
+                {
+                    "start": 1511,
+                    "end": 1527,
+                    "text": "Muroya et al. 18",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "We note that the network based models are computationally inefficient while those using metapopulations, although efficient, usually fail to maintain initial populations of patches. In fact Arino and van den Driessche 15 have pointed out that a multi-city model achieves an equilibrium population that may not be the one started with.",
+            "cite_spans": [
+                {
+                    "start": 218,
+                    "end": 220,
+                    "text": "15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "Here we introduce a new technique to main-tain the desired population of a city via selfconsistent parametrisation. In this approach, disease dynamics inside individual cities are treated with SIR model that accounts for the intra-city mixing. On the other hand, intercity migration is modeled by spatially realistic networks of airports and train stations. Put differently, the \"fully-mixed\" approximation is assumed to be valid inside cities but not between the cities. Another notable feature of the scheme proposed here is the introduction of distancedependent delay inherent in the transportation. Additionally, the model is also capable of simultaneously handling cities with different populations. This is achieved by scaling the product terms inside the SIR equations by respective populations as discussed in the next section. As an application to ongoing COVID-19 outbreak, we run our model on aviation and rail networks of India where links connect multiple cities of varying population sizes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "The paper is organised as follows: In Sec. II, we outline the details of our model. Then in Sec. III we discuss our main findings in depth. In the last section, Sec IV we summarise the results and their implications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "We assume the existence of several metapopulation units inside a given geographical region such that for each of these the dynamics of disease is well approximated by the standard SIR model. The disease transmission among the units is due to migrating population described using a coupling term.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. METHODOLOGY"
+        },
+        {
+            "text": "In classic SIR model the s, x, and r represent the susceptible, infected and recovered fractions respectively. However while dealing with multiple meta-populations of heterogeneous sizes we are required to represent them in arbitrary units, typically taking smallest meta-population as the unit. If \u03c6 i = s i + x i + r i is the size of metapopulation i in these units, then product terms in SIR model must be divided by \u03c6 i for sake of consistency.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. METHODOLOGY"
+        },
+        {
+            "text": "We can view this system as a network in which metapopulations are the nodes that are connected by links representing migration. We assume that the outward migration rate from node i is proportional to its size \u03c6 i . Assuming that a migrating individual at i is equally likely to migrate to any of the k i neighbours, the fraction of population reaching a neighbour is proportional to 1/k i .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. METHODOLOGY"
+        },
+        {
+            "text": "Finally, we note that, in reality when dealing with spatially extended network, migration between i and j takes place with finite speed and hence there is an associated delay \u03b4 ij , which we consider to be proportional to the geographic distance between i and j. Combining all these, our model of interacting meta-populations is the following day) for COVID-19 following the recent estimate by Zhu et al 11 . Now we make a crucial observation that in the real world, in spite of migrations the total population of a city remains more or less constant during the span of a typical epidemic. To enforce this condition the net migration of a node should be zero, although the same cannot be said for s, x, and r sub-populations. Thus",
+            "cite_spans": [
+                {
+                    "start": 404,
+                    "end": 406,
+                    "text": "11",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. METHODOLOGY"
+        },
+        {
+            "text": "This is a self-consistent equation for \u03b7 i 's, and can be solved iteratively, starting from arbitrary values of \u03b7's. The \u03b7's thus obtained are determined up to a proportionality constant, say D.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. METHODOLOGY"
+        },
+        {
+            "text": "In the subsequent sections we consider India to be our geographical region and cities as metapopulation units. The required data is obtained from various online resources [19] [20] [21] .",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 175,
+                    "text": "[19]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 176,
+                    "end": 180,
+                    "text": "[20]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 181,
+                    "end": 185,
+                    "text": "[21]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. METHODOLOGY"
+        },
+        {
+            "text": "We apply our model to study the spread of ongoing epidemic of 2019-nCov (COVID-19) in India using aviation and railway networks as substrates. In these networks a link represents a direct flight/train between the given nodes. The sizes of our aviation and train networks are 69 and 320 respectively. Given the time scale of epidemic, it is reasonable to assume that the transport from city i to j via air is instantaneous, making the delay \u03b4 ij = 0. However the same assumption cannot be made for train transport, and we make the corresponding delay \u03b4 ij proportional to the geographic distance between the stations by assuming the average speed to be 50 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03. 13.20035386 doi: medRxiv preprint km/h. As mentioned above, the \u03b7's are determined only up to the scale D by Eq(2), and hence their converged values depend on the initial guess. We start by calculating \u03b7 i 's with starting guess of \u03b7 = 1 for all the nodes. In practice, D depends on the actual migration data and its accurate estimation is beyond the scope of this work. Instead, we vary D and examine the behaviour of the system.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 118,
+                    "text": "13.20035386",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "We investigate the infected population of all the cities in time for both the networks separately, by first infecting Delhi with x Delhi (0) = 0.0001\u03c6 Delhi as it is well connected internationally. Fig. 1 shows the time series of infected population of several cities for D = 0.01. We note several key features of these time series. First, as a result of our modification of the SIR model that allows us to handle heterogeneous population sizes, the values of the maxima are proportional to the populations of the corresponding cities. Second, because \u03b2 and \u03b3 are same for all the cities, bigger cities take longer to achieve their maxima. Also, for both the networks, most of the maxima occur in close proximity with each other implying the necessity of the preparedness against simultaneous large-scale outbreaks. Since the train network includes delay, the maxima tend to occur much later relative to that of Delhi. Because the train transport is the dominant means of transport in India, this shift of the peaks is more relevant for the response against coronavirus.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 198,
+                    "end": 204,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "III. RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "After this, We take a more realistic situation in which more than one city is initially infected. For this, we consider six different cities and corresponding initial infected fractions: Delhi (10 \u22124 ), Mumbai (10 \u22125 ), Chennai (10 \u22125 ), Kolkata (2 \u00d7 10 \u22125 ), Bengaluru (10 \u22125 ), and Kochi (10 \u22126 ) with D = 0.01. The results are shown in Fig. 2 for the train network. The cities which are initially infected tend to peak earlier hence the peaks are no longer as synchronous as before. Because the delay in the air network is zero, this loss of synchrony is not as prominent, and we show only the network snapshots in Fig. 3 . From the figure, we see that almost all the nodes become maximally infected after about 90 days.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 339,
+                    "end": 345,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 618,
+                    "end": 624,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "III. RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "The accurate estimation of the parameter D which is related to the migration is unavailable. Thus, to check its effect on the epidemic, we vary it and observe the behaviour of the time t max at which the infection maximum occurs for each city. The results are shown in Fig 4 with initial infection only at Delhi. D = 0 corresponds to quarantining Delhi from the rest of the nodes, and hence only Delhi has finite t max while for others t max is undefined. For D > 0, infection spreads to other nodes, and understandably very small values of D result in very large values of t max . Upon increasing D, the value of t max decreases rapidly as more fraction of individuals migrate among the cities. Interestingly, for each node except the initially infected one, there exists a critical value of D at which this trend reverses and t max starts increasing again. We can understand this unexpected behaviour with the following argument. When D is very high, it is analogous to having all the population wellmixed. As a result, too many infected individuals migrate from node to node to infect any one node effectively. In other words, too few infected individuals remain in any given city compared to low D. As a result, even the initially infected node takes long time to get maximally infected, and peaks for all the cities appear simultaneously.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 269,
+                    "end": 279,
+                    "text": "Fig 4 with",
+                    "ref_id": null
+                }
+            ],
+            "section": "III. RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "Although the spread of epidemic on spatially extended systems is a well studied area, the majority of models are either computationally expensive since they consider individuals and interactions between them, or too coarse-grained to account for spatial migrations. Here we have proposed a novel approach that addresses both these issues, and offers fast and realistic predictions that are useful for policy-makers and health personnels. Our hybrid approach to SIR model with well-mixed intra-city populations and intercity coupling based on transportation network lets us predict the course of ongoing pandemic of COVID19 coronavirus in India. The forecasts based on our model indicate that within 90 days of the start of the epidemic, All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is most of the urban population will be exposed to the virus unless preventive measures are taken. Our work also shows that because of the contagious nature of the COVID19 and the crucial role of the domestic transportation networks, even a small infected population is sufficient to sustain and spread the pandemic. Thus, along with restricting international links, it is equally important to monitor the domestic transportation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Map, data and timeline",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Wikipedia: 2019-20 coronavirus outbreak",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Infectious diseases of humans: dynamics and control",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "May",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Proceedings of the third Berkeley symposium on mathematical statistics and probability",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bartlett",
+                    "suffix": ""
+                }
+            ],
+            "year": 1956,
+            "venue": "",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Flight logging, mapping, stats and sharing",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Openflights",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Org",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Indian railways data",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhangar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Anwar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Population of cities in india (2020). world population review",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "where A is the adjacency matrix of the network with A ij = 1 if i and j are connected, and 0 otherwise. The \u03b2, and \u03b3 are respectively the infection and transmission rates as used in classic SIR model, with basic reproduction number R 0 = \u03b2/\u03b3. Here we choose \u03b2 = 0.2 and \u03b3 = 0.07 (per The time series of the infected populations for select cities of (a) the aviation network, and (b) the train network of India when Delhi is infected initially. Both the values of the maximum and its location are governed by the population of the corresponding city.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The time series of infected population when multiple cities are initially infected. Delhi, Mumbai, Kolkata, Chennai are Bengaluru are initially infected.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Snapshots of the Indian aviation networks after 60 days (left) and after 90 days (right) when several internationally well connected cities are infected. The dark red color indicates higher levels of infected fractions of populations. After 60 days, a sudeen growth in the infected population is clearly seen. The variation of t max with D for several cities, when only Delhi is infected initially. Legend also shows the populations of the corresponding cities.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". https://doi.org/10.1101/2020.03.13.20035386 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

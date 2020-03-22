@@ -1,0 +1,1224 @@
+{
+    "paper_id": "15bad8368522a05f32dee771e5a8259f0e9cbbfd",
+    "metadata": {
+        "title": "Title: The SARS-CoV-2 exerts a distinctive strategy for interacting with the ACE2 human receptor",
+        "authors": [
+            {
+                "first": "Esther",
+                "middle": [
+                    "S"
+                ],
+                "last": "Brielle",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Hebrew University of Jerusalem",
+                    "location": {
+                        "settlement": "Jerusalem",
+                        "country": "Israel"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dina",
+                "middle": [],
+                "last": "Schneidman-Duhovny",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Hebrew University of Jerusalem",
+                    "location": {
+                        "settlement": "Jerusalem",
+                        "country": "Israel"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michal",
+                "middle": [],
+                "last": "Linial",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Hebrew University of Jerusalem",
+                    "location": {
+                        "settlement": "Jerusalem",
+                        "country": "Israel"
+                    }
+                },
+                "email": "michall@cc.huji.ac.il"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The COVID-19 disease has plagued over 110 countries and has resulted in over 4,000 deaths within 10 weeks. We compare the interaction between the human ACE2 receptor and the SARS-CoV-2 spike protein with that of other pathogenic coronaviruses using molecular dynamics simulations. SARS-CoV, SARS-CoV-2, and HCoV-NL63 recognize ACE2 as the natural receptor but present a distinct binding interface to ACE2 and a different network of residue-residue contacts. SARS-CoV and SARS-CoV-2 have comparable binding affinities achieved by balancing energetics and dynamics. The SARS-CoV-2-ACE2 complex contains a higher number of contacts, a larger interface area, and decreased interface residue fluctuations relative to SARS-CoV. These findings expose an exceptional evolutionary exploration exerted by coronaviruses toward host recognition. We postulate that the versatility of cell receptor binding strategies has immediate implications on therapeutic strategies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "One Sentence Summary: Molecular dynamics simulations reveal a temporal dimension of coronaviruses interactions with the host receptor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "To gain access to host cells, coronaviruses rely on spike proteins, which are membrane-anchored trimers containing a receptor-binding S1 segment and a membrane-fusion S2 segment (6) . The S1 segment contains a receptor binding domain (RBD) that recognizes and binds to a host cell receptor. The angiotensin-converting enzyme 2 (ACE2) was identified as the critical receptor for mediating SARS-2002 entry into host cells (7, 8) . Binding of the spike protein to the receptor is a critical phase where the levels of the ACE2 expressed on the cell membrane correlates with viral infectivity, and govern clinical outcomes (9) . Consistent with the clinical pulmonary manifestation, ACE2 is widely expressed in almost all tissues, with the highest expression levels in the epithelium of the lung (10) . Similar to the SARS-2002 virus, the COVID-19 virus enters the host cell by RBD binding to the host cell ACE2 receptor (7, 11, 12) . Host receptor recognition for cell entry is, however, not specified by the CoV genus classification. MERS-CoV is a member of the BCoV genus but does not recognize the ACE2 receptor. In contrast, HCoV-NL63 is a member of the ACoV genus and does recognize the ACE2 receptor (13) . Herein, we analyze the binding of several CoV RBDs to ACE2 with molecular dynamics (MD) simulations and compare the stability, relative interaction strength, and dynamics of the interaction between the viral spike protein and the human ACE2 receptor.",
+            "cite_spans": [
+                {
+                    "start": 178,
+                    "end": 181,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 420,
+                    "end": 423,
+                    "text": "(7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 424,
+                    "end": 426,
+                    "text": "8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 618,
+                    "end": 621,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 791,
+                    "end": 795,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 916,
+                    "end": 919,
+                    "text": "(7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 920,
+                    "end": 923,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 924,
+                    "end": 927,
+                    "text": "12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1202,
+                    "end": 1206,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The COVID-19 RBD (residues 319-529) shares a 72.8% sequence identity and high structural similarity with the SARS-2002 RBD ( Table 1 ). In contrast, the RBD of HCoV-NL63 is only 17.1% identical to that of COVID-19 and there are no significant structural similarities between them (Fig. S1) . Remarkably, the RBD of MERS-CoV, which is structurally similar to that of COVID-19 (20.1% sequence identity, 65% structure similarity) recognizes a different host receptor (DPP4) for its cell entry and does not bind ACE2 (14) . We ran 100ns molecular dynamic (MD) simulations of ACE2 in complex with the RBDs of the COVID-19, SARS-2002, and HCoV-NL63 viruses to quantify the energetics and the dynamics of the different RBD-ACE2 interactions. The simulation trajectory snapshots at 10 ps intervals (10,000 frames) were analyzed by a statistical potential to assess the probability of the RBD-ACE2 interaction (SOAP score, (16)), with lower values corresponding to higher probabilities and thus higher affinities. The interaction scores for COVID-19 RBD-ACE2 were comparable to those of SARS-2002, median of -1865.9 and -1929.5, respectively (Fig. 1A) . HCoV-NL63 has RBD-ACE2 interaction scores are higher than both of the SARS-CoVs (median of -941.6). MERS, which is structurally similar to COVID-19 (Table 1) does not bind ACE2. MERS virus which binds dipeptidyl peptidase-4 (DPP4, also known as CD26 (14)), has RBD-ACE2 interaction scores that indicate extremely weak affinity (median of -692.6), as expected from a non-cognate receptor interaction. COVID-19 has the largest buried surface area at the interface (1204\u00c5 2 ), followed by the interface area for SARS-2002 (998\u00c5 2 ) and HCoV-NL63 (973\u00c5 2 ). The number of ACE2 contacting residues maintains the same order, with 30, 24, and 23 for COVID-19, SARS-2002, and HCoV-NL63, respectively (Fig. 1C) . The three RBDs exploit specific binding sites on ACE2 based on the analysis of the MD trajectories ( Fig. 1 , C and D; Movie S1). There is a significant overlap of ACE2 interacting residues between COVID-19 and SARS-2002 (at least 73%), while HCoV-NL63 shares only 17% and 36% of contacts with SARS-2002 and COVID-19, respectively. These findings suggest that the coronaviruses exert different interaction strategies with their cognate receptors to achieve the affinity that is required for effective cell entry. An ACE2 residue is considered as part of the interface if one of its atoms is within 4\u00c5 from any RBD atom in at least 10% of the 10,000 MD simulation frames. (D) Overlay of 50 snapshots for each of the three RBDs. The ACE2 is in surface representation (gray). The frames were aligned using the N-terminal fragment of ACE2 that contains the two helices participating in the RBDs binding.",
+            "cite_spans": [
+                {
+                    "start": 513,
+                    "end": 517,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 125,
+                    "end": 132,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 280,
+                    "end": 289,
+                    "text": "(Fig. S1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1133,
+                    "end": 1142,
+                    "text": "(Fig. 1A)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1293,
+                    "end": 1302,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1837,
+                    "end": 1846,
+                    "text": "(Fig. 1C)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1950,
+                    "end": 1956,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "While the sequence identity between the RBDs of COVID-19 and SARS-2002 is 73% (Table 1) , we observe a significantly higher residue substitution rate at the interaction interface with the ACE2 receptor. Out of 29 RBD interface residues, only 10 residues (34%) in COVID-19 are conserved with respect to SARS-2002 ( Fig. 2A, Table S1, Fig. S1 ). Similarly, only 12 residues (40%) in SARS-2002 are conserved with respect to COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 78,
+                    "end": 87,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 314,
+                    "end": 340,
+                    "text": "Fig. 2A, Table S1, Fig. S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To investigate these interface residues, we construct and overlay the contact maps for the RBD-ACE2 interfaces for COVID-19 and SARS-2002 (Fig. 2B) . We define a residue-residue contact frequency (CF) as the fraction of MD trajectory frames in which the contact appears.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 138,
+                    "end": 147,
+                    "text": "(Fig. 2B)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Remarkably, only 8 out of the total 72 residue-residue interface contacts have comparable (<50% difference) contact frequencies between the COVID-19-ACE2 and SARS-2002-ACE2 interfaces ( Fig. 2B , colored gray). Furthermore, we find two interaction patches unique to COVID-19 ( The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986398 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 186,
+                    "end": 193,
+                    "text": "Fig. 2B",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To investigate the dynamics of COVID-19 binding compared to SARS-2002, we calculate the root-mean-square fluctuation (RMSF) of each residue with respect to the lowest energy snapshot from their respective 100ns MD simulation trajectory. The interface region in the RBD contains two loops (loop1: residues 474-489, loop2: residues 498-505; using COVID-19 numbering, Fig.  3D ) that bind to the ACE2 N-terminal helix on both of its ends. These two loops are highly flexible in the SARS-2002 RBD (Fig. 3, A and D) . While loop1 is also fluctuating in the COVID-19 RBD, albeit much less, loop2 remains relatively rigid in the COVID-19 RBD. In addition, we find that in the COVID-19-RBD, a region centered around K417 leads to further stability relative to the corresponding region in SARS-2002. We attribute this difference to the unique interaction of COVID-19 at position K417 with the middle of the N-terminal ACE2 helix, thus serving as an anchor site to the receptor (Fig. 2C and Fig. 3A) . The contribution of K417 to ACE2 binding is observed in a recent cryoEM structure of the COVID-19 spike protein bound to ACE2 (17) . Overall, COVID-19 is more rigid compared to SARS-2002 (Fig. 3, A and D) .",
+            "cite_spans": [
+                {
+                    "start": 1118,
+                    "end": 1122,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 365,
+                    "end": 373,
+                    "text": "Fig.  3D",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 493,
+                    "end": 510,
+                    "text": "(Fig. 3, A and D)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 968,
+                    "end": 989,
+                    "text": "(Fig. 2C and Fig. 3A)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1179,
+                    "end": 1196,
+                    "text": "(Fig. 3, A and D)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "We investigate the dynamics of a designed SARS (SARS-des) variant (11) Table S1 ). The L486F mutation is of special interest for the COVID-19 RBD as well because it has this same substitution. Our MD simulation analysis reveals that the SARS-des has a substantially lower interaction scores with ACE2 (median of -2199.2, Fig. S2) , as expected for an optimized human ACE2-binding RBD design. We observed that these two mutations not only enhance the binding affinity to ACE2, but also lead to a substantial stabilization of the interaction interface. The fluctuation signatures along the RBD of SARS-des are surprisingly similar to those recorded for COVID-19 (Fig. 3, B and C) . Thus, the switch from a flexible binding mode (for SARS-2002) to a stable one (COVID-19 and SARSdes, Fig. 3B ) highlights the remarkable capacity of the RBD to adopt alternative receptor binding strategies driven by a minimal number of amino acid substitutions. This analysis reveals the critical role of L486F (SARS-des residue F472) for stabilizing the COVID-19-ACE2 interface and a reduction in the number of states of the COVID-19 spike protein bound to an ACE2 receptor.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 71,
+                    "end": 79,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 321,
+                    "end": 329,
+                    "text": "Fig. S2)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 660,
+                    "end": 677,
+                    "text": "(Fig. 3, B and C)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 781,
+                    "end": 788,
+                    "text": "Fig. 3B",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Experimental affinity measurements (e.g. surface plasmon resonance, SPR) confirm the high affinity of SARS-2002 RBD-ACE2 binding, with an equilibrium dissociation constant (KD) of ~15 mM (18) (19) (20) (21) , similar to the binding affinity of ACE2 and the COVID-19 RBD (22, 23) . Our MD based calculation is consistent with SARS-2002 displaying a similar but slightly higher affinity relative to COVID-19 (Fig. 1A, Fig. S2 and Table S2 ). Binding affinity is achieved through a combination of interface contact optimization and protein stability (Fig. 3E) . While the RBD-ACE2 complex can be resolved at high-resolution by cryo-EM (17, 23) , MD simulations provide orthogonal information about the interaction dynamics on a nanosecond timescale. In the case of CoVs, MD simulations reveal an exceptional versatility of viral receptor binding strategies (Fig. 3E) . COVID-19 adopted a different strategy for achieving comparable affinity to SARS-2002: the interface of COVID-19 is significantly larger than that of SARS-2002 (1204\u00c5 vs. 998\u00c5) with a remarkable number of interacting residues (ACE2: 30 vs. 24, Fig. 1C) . In contrast, SARS-2002 is more flexible in its interaction with ACE2, interacting through fewer contacts that serve as \"hot spots\". Therefore, we predict that SARS-2002 RBD neutralizing antibodies will not be effective for COVID-19. The failure of several of these antibodies to neutralize the binding of COVID-19 RBD to its receptor is consistent with our findings (20, 23) . The fluctuation from high-to low-affinity conformations in SARS-2002 leads to an increased . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986398 doi: bioRxiv preprint efficacy for inhibiting peptides (24) and high-affinity antibodies (25) compared to COVID-19. This implies a therapeutic challenge is attributed to the enhanced rigidity of the COVID-19 RBD relative to that of the SARS-2002. The geometric and physicochemical properties of RBD-ACE2 interfaces resemble those of antibody-antigen interactions. In both cases the interface benefits from long loop plasticity, bulky aromatic side chains as anchoring sites, and the stabilization of the complex by distributed . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986398 doi: bioRxiv preprint electrostatic interactions (26) . Both COVID-19 and SARS-2002 interfaces contain long flexible loops and nine aromatic residues (Tyr, Trp, Phe) in the interface with ACE2 ( Fig. 2A) . Moreover, in the SARS designed variant (SARS-des (11)), the addition of an aromatic residue (L486F substitution) significantly improved the interaction scores and interface stability (Fig. 3,  B and D) . Our findings shed light on the accelerated evolution of spike protein binding to the ACE2 receptor similar to the rapid evolution along the antibody-antigen affinity maturation process.",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 191,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 192,
+                    "end": 196,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 197,
+                    "end": 201,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 202,
+                    "end": 206,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 270,
+                    "end": 274,
+                    "text": "(22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 275,
+                    "end": 278,
+                    "text": "23)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 632,
+                    "end": 636,
+                    "text": "(17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 637,
+                    "end": 640,
+                    "text": "23)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1486,
+                    "end": 1490,
+                    "text": "(20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1491,
+                    "end": 1494,
+                    "text": "23)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1847,
+                    "end": 1851,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 2572,
+                    "end": 2576,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 406,
+                    "end": 423,
+                    "text": "(Fig. 1A, Fig. S2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 428,
+                    "end": 436,
+                    "text": "Table S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 547,
+                    "end": 556,
+                    "text": "(Fig. 3E)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 854,
+                    "end": 863,
+                    "text": "(Fig. 3E)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1091,
+                    "end": 1117,
+                    "text": "(ACE2: 30 vs. 24, Fig. 1C)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2718,
+                    "end": 2726,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2912,
+                    "end": 2930,
+                    "text": "(Fig. 3,  B and D)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The structural model of the COVID-19 spike protein receptor binding domain (RBD) in complex with ACE2 was generated by comparative modeling using Modeller 9.18 (27) with the COVID-19 sequence (RefSeq: YP_009724390.1). We relied on the crystal structure of the spike protein receptor-binding domain from a SARS coronavirus designed human strain complexed with the human receptor ACE2 (PDB 3SCI, resolution 2.9\u00c5) as a template for comparative modeling. The SARS-2002 spike protein RBD and HCoV-NL63 in complex with ACE2 were taken from PDB 2AJF (resolution 2.9\u00c5) and 3KBH (resolution 3.3\u00c5), respectively. Missing residues were added in MODELLER. MERS RBD structure was taken from the complex with the neutralizing antibody CDC2-C2 (PDB 6C6Z, resolution 2.1\u00c5) and structurally aligned onto SARS-2002 RBD in complex with ACE2 receptor. The designed variant is from PDB 3SCI.",
+            "cite_spans": [
+                {
+                    "start": 160,
+                    "end": 164,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Structural modeling"
+        },
+        {
+            "text": "The MD simulations were performed with GROMACS 2020 software (28) using the CHARMM36m force field (29) . Each of the complexes was solvated in transferable intermolecular potential with 3 points (TIP3P) water molecules and ions were added to equalize the total system charge. The steepest descent algorithm was used for initial energy minimization until the system converged at Fmax < 1,000 kJ/(mol \u00b7 nm). Then water and ions were allowed to equilibrate around the protein in a two-step equilibration process. The first part of equilibration was at a constant number of particles, volume, and temperature (NVT). The second part of equilibration was at a constant number of particles, pressure, and temperature (NPT). For both MD equilibration parts, positional restraints of k = 1,000 kJ/(mol \u00b7 nm 2 ) were applied to heavy atoms of the protein, and the system was allowed to equilibrate at a reference temperature of 300 K, or reference pressure of 1 bar for 100 ps at a time step of 2 fs. Following equilibration, the production simulation duration was 100 nanoseconds with 2 fs time intervals. Altogether 10,000 frames were saved for the analysis at intervals of 10 ps. We superimposed several MD snapshots on the recently submitted to the PDB x-ray structure (6VW1, resolution 2.7\u00c5) of COVID-19-ACE2 complex. The average RMSD over the interface Ca atoms is ~1\u00c5. Interaction scores between the virus spike RBD and ACE2 were calculated for each frame of the trajectory using the SOAP statistical potential (16) . In the interface contact analysis, a residue-residue contact was defined based on the inter-atomic distance, with a cutoff of 4\u00c5. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986398 doi: bioRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "(29)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1508,
+                    "end": 1512,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Molecular dynamic simulations"
+        },
+        {
+            "text": "Comparison between the x-ray structure of COVID-19-ACE2 complex (PDB 6VW1, pink) and MD trajectory frames. The MD snapshots are colored gray and blue for ACE2 and COVID-19 RBD, respectively. The average RMSD over the interface Ca atoms is ~1\u00c5. Table S2 . RBD-ACE2 interface evaluated by several methods for analysis of protein-protein interactions . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986398 doi: bioRxiv preprint Movie S1. Overlay of 50 random snapshots from the MD trajectories of COVID-19-ACE2, SARS-2002-ACE2, and HCoV-NL63-ACE2 complexes. For clarity only one copy of ACE2 is shown (gray), COVID-19, SARS-2002, and HCoV-NL63 are colored blue, red, and green, respectively.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 244,
+                    "end": 252,
+                    "text": "Table S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Fig. S3."
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986398 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. S3."
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Characterization of a novel coronavirus associated with severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rota",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1394--1399",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Return of the Coronavirus: 2019-nCoV",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gralinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Menachery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coronavirus pathogenesis and the emerging pathogen severe acute respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Navas-Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Microbiol Mol Biol Rev",
+            "volume": "69",
+            "issn": "",
+            "pages": "635--664",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Epidemiology and clinical characteristics of human coronaviruses OC43, 229E, NL63, and HKU1: a study of hospitalized children with acute respiratory tract infection in Guangzhou, China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Eur J Clin Microbiol Infect Dis",
+            "volume": "37",
+            "issn": "",
+            "pages": "363--369",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Structural basis for human coronavirus attachment to sialic acid receptors",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tortorici",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature structural & molecular biology",
+            "volume": "26",
+            "issn": "",
+            "pages": "481--489",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A crucial role of angiotensin converting enzyme 2 (ACE2) in SARS coronavirusinduced lung injury",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kuba",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature medicine",
+            "volume": "11",
+            "issn": "",
+            "pages": "875--879",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Susceptibility to SARS coronavirus S protein-driven infection correlates with expression of angiotensin converting enzyme 2 and infection can be blocked by soluble receptor",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hofmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Biochemical and biophysical research communications",
+            "volume": "319",
+            "issn": "",
+            "pages": "1216--1221",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Exogenous ACE2 expression allows refractory cell lines to support severe acute respiratory syndrome coronavirus replication",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mossel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "3846--3850",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Tissue distribution of ACE2 protein, the functional receptor for SARS coronavirus. A first step in understanding SARS pathogenesis",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hamming",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "The Journal of Pathology: A Journal of the Pathological Society of Great Britain and Ireland",
+            "volume": "203",
+            "issn": "",
+            "pages": "631--637",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Human coronavirus NL63 employs the severe acute respiratory syndrome coronavirus receptor for cellular entry",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hofmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "102",
+            "issn": "",
+            "pages": "7988--7993",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The S proteins of human coronavirus NL63 and severe acute respiratory syndrome coronavirus bind overlapping regions of ACE2",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Virology",
+            "volume": "367",
+            "issn": "",
+            "pages": "367--374",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Structure of MERS-CoV spike receptor-binding domain complexed with human receptor DPP4",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Cell research",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "TM-align: a protein structure alignment algorithm based on the TM-score",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Skolnick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nucleic acids research",
+            "volume": "33",
+            "issn": "",
+            "pages": "2302--2309",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Optimized atomic statistical potentials: assessment of protein interfaces and loops",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schneidman-Duhovny",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Bioinformatics",
+            "volume": "29",
+            "issn": "",
+            "pages": "3158--3166",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Structural basis for the recognition of the 2019-nCoV by human ACE2. bioRxiv",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Computational characterization and design of SARS coronavirus receptor recognition and antibody neutralization",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Computational biology and chemistry",
+            "volume": "31",
+            "issn": "",
+            "pages": "129--133",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Receptor and viral determinants of SARS-coronavirus adaptation to human ACE2",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "EMBO J",
+            "volume": "24",
+            "issn": "",
+            "pages": "1634--1643",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirusspecific human monoclonal antibody",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "",
+            "pages": "382--385",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Crystal structure of NL63 respiratory coronavirus receptor-binding domain complexed with its human receptor",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "106",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Structure, function and antigenicity of the SARS-CoV-2 spike glycoprotein. bioRxiv",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "A hexapeptide of the receptorbinding domain of SARS corona virus spike protein blocks viral entry into host cells via the human receptor ACE2",
+            "authors": [
+                {
+                    "first": "A.-W",
+                    "middle": [],
+                    "last": "Struck",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Axmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pfefferle",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Meyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Antiviral research",
+            "volume": "94",
+            "issn": "",
+            "pages": "288--296",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "The spike protein of SARS-CoV--a target for vaccine and therapeutic development",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nat Rev Microbiol",
+            "volume": "7",
+            "issn": "",
+            "pages": "226--236",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The indistinguishability of epitopes from protein surface is explained by the distinct binding preferences of each of the six antigen-binding loops",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kunik",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ofran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Protein Eng Des Sel",
+            "volume": "26",
+            "issn": "",
+            "pages": "599--609",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Comparative protein structure modeling using MODELLER",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Current protocols in bioinformatics",
+            "volume": "47",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "GROMACS 4.5: a high-throughput and highly parallel open source molecular simulation toolkit",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pronk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Bioinformatics",
+            "volume": "29",
+            "issn": "",
+            "pages": "845--854",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "CHARMM36m: an improved force field for folded and intrinsically disordered proteins",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature methods",
+            "volume": "14",
+            "issn": "",
+            "pages": "71--73",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Analysis of RBD-ACE2 interactions based on MD trajectories. COVID-19, SARS-2002, and HCoV-NL63 are colored blue, red, and green, respectively. (A) Histograms of the RBD-ACE2 interaction scores throughout the simulation trajectory. Darker color represents 75% of all frames. (B) The score values along the simulation trajectory, smoothed along the elapsed time. (C) Venn diagram of ACE2 interacting residues for COVID-19, SARS-2002, and HCoV-NL63.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "patches 1 and 3) and another patch unique to SARS-2002(Fig. 2B, patch 2). COVID-19 has a significant and unique contact site between residues 500-505 of the RBD and residues 353-357 of ACE2(Fig. 2, B and C). COVID-19 also creates a new interaction patch with the middle of the N-terminal ACE2 helix(Fig. 2, B and C), while SARS-2002 has a unique interaction patch with the end of the same helix(Fig. 2, B and C). The rest of the changes in the interface contact frequencies are due to the different interface loop conformations (COVID-19 residue numbers 474-498, SARS-2002 residue numbers 461-484)(Fig. 2, A and B,Table S1). COVID-19 has a significantly higher number of well-defined contact pairs compared to SARS-2002: 52 vs. 28 contacts (with 44 and 20 unique pairs, excluding the ones with similar CFs) were found for RBD-ACE2 of the COVID-19 and SARS-2002, respectively(Fig. 2B). Results fromFig. 2expose the accelerated evolution among the key anchoring residues of the RBD-ACE2 interface. This comparison raises the following question: How does SARS-2002 RBD reach an ACE2 binding affinity that is comparable to that of COVID-19 but with fewer contact pairs and a smaller interface area? The distribution of SOAP scores throughout the simulation trajectory has a larger fluctuation range for SARS-2002, relative to COVID-19(Fig. 1, A and B; Fig. S2A) suggesting that SARS-2002-ACE2 interaction is fluctuating between several structural states. Moreover, analysis of contact frequencies along the entire trajectory reveals that none of the SARS-2002 contacts are maintained over 90% of the frames while COVID-19 still maintains about half of its contacts at 90% of the trajectory(Fig. S2B).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Interaction interfaces of RBD-ACE2. A residue is considered as part of the interface if one of its atoms is within 4\u00c5 from any atom of the other partner in at least 30% of the 10,000 MD simulation frames. (A) Interface residue side-chain heavy atoms that vary between COVID-19 (blue) and SARS-2002 (red) are shown with ball-and-stick representations. ACE2 is colored gray. (B) Contacts difference plot between COVID-19 and SARS-2002. Contacts with 50% greater CF in COVID-19 RBD-ACE2 vs. SARS-2002 RBD-ACE2 are colored blue. Contacts with 50% greater CF in SARS-2002 RBD-ACE2 vs. COVID-19 RBD-ACE2 are colored red. Similar interface-residue CFs (<50%) in both RBDs are colored gray. The residue numbering is according to COVID-19 (RefSeq: YP_009724390.1). (C) Difference plots for interface residue CFs that are in the interface for ACE2 (left) and RBD (right). (D) Zoom on the interface contacts unique to each virus.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": ", which differs from SARS-2002 at only 2 positions: Y455F and L486F (The matched position in SARS-2002 residues are 442 and 472, respectively;",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Dynamics of the RBD domains. The dynamics of COVID-19 and SARS2002, with a comparison to a designed SARS mutant are shown. The graphs show the root-mean-square fluctuation (RMSF) of each residue along the simulation trajectory with respect to the structure with minimum energy. The residue numbers are according to COVID-19 numbering (RefSeq: YP_009724390.1). The top graph (A) compares COVID-19 with SARS-2002. The middle graph (B) compares COVID-19 with SARSdesigned. The bottom graph (C) compares SARS-2002 with SARS-designed. For all three graphs, positions highlighted in red or blue indicate those that have an increase or decrease, respectively, of 50% RMSF with respect to the comparison graph. Contact positions are written in gray, with solid vertical lines denoting the contact residues that exist in both comparison structures, and dashed vertical lines denote contact residues that exist in only one of the comparison structures.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": ". S2. (A) Numbers of RBD residues in contact with ACE2 vs. the fraction of trajectory frames for COVID-19 (blue) and SARS-2002 (red). (B) Box plots of the SOAP interaction scores for the trajectories frames. The center point is the median score, while 50% of the scores are within the box. The whiskers extend to cover >99% of the scores.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "The sequence and structural resemblance of the RBDs of various human coronaviruses. The sequence identity between the RBDs is shaded blue. The structural similarity as measured by the TM-score (15) between the RBD domains of the viruses, with the RMSD in parentheses, is shaded red. The CoV genera and recognized receptor are shaded gray. Significant values are in boldface.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986398 doi: bioRxiv preprintFig. S1. Multiple sequence alignment of the analyzed RBDs . CC-BY-NC-ND 4.0 International license author/funder. It is made available under aThe copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986398 doi: bioRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.Table S1. RBD interface residues that have substitutions between COVID-19 and SARS-2002 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.10.986398 doi: bioRxiv preprint PRODIGY \u0394G (kcal mol -1 ) PRODIGY Kd 10 -9 (M) FoldX (kcal/mol -1 )",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors gratefully acknowledge Barak Raveh for useful suggestions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments."
+        }
+    ]
+}

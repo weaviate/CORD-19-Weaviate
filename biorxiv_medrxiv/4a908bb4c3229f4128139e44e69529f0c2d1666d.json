@@ -1,0 +1,1207 @@
+{
+    "paper_id": "4a908bb4c3229f4128139e44e69529f0c2d1666d",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Haohui",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Caron",
+                "middle": [
+                    "&quot;"
+                ],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Commonwealth Scientific and Industrial Research Organization",
+                    "location": {
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Weipan",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sun Yat-sen University",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Cecile",
+                "middle": [],
+                "last": "Paris",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Commonwealth Scientific and Industrial Research Organization",
+                    "location": {
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andrew",
+                "middle": [],
+                "last": "Reeson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Commonwealth Scientific and Industrial Research Organization",
+                    "location": {
+                        "country": "Australia"
+                    }
+                },
+                "email": "andrew.reeson@data61.csiro.au."
+            },
+            {
+                "first": "Xun",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sun Yat-sen University",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": "lixun@mail.sysu.edu.cn"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Public awareness is important in managing the spread of infectious diseases. Individual actions, such as increased attention to hygiene and avoiding crowds, can reduce disease spread. Awareness also supports rapid identification and treatment of new cases and facilitates collective responses, such as closures of schools or transit systems 1 . In the modern world, diseases can move faster than ever due to the growing movement of people between cities, regions and countries. However, digital technology means information can move even faster, providing an opportunity for individuals and communities to protect themselves ahead of the disease itself arriving. 2 This study considers the spread, and persistence, of public awareness of the novel Wuhan coronavirus which emerged in late 2019. During the first few weeks of this outbreak there was little coverage from mainstream media outlets, providing an unusual opportunity to study the spread of awareness of an emerging disease via other channels.",
+            "cite_spans": [
+                {
+                    "start": 663,
+                    "end": 664,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Previous studies show that the spread of awareness is strongly related to the physical locations of individuals in a social network in relation to the unfolding events [2] [3] [4] , termed the social distance effect. In online social networks, people with more connections tend to receive earlier warnings of catastrophic events. For example, in Hurricane Sandy in the USA, Twitter users with more followers had an awareness lead-time of up to 26 hours than less connected users 4 . Moreover, the magnitude of awareness increases over decreasing distances to the epidemic centers. For example, public awareness in Weibo, a Chinese social media platform, was two orders of magnitude stronger for the H7N9 influenza outbreak that occurred in China than the Middle East Respiratory Syndrome Coronavirus (MERS-CoV) outbreak that occurred elsewhere 5 .",
+            "cite_spans": [
+                {
+                    "start": 168,
+                    "end": 171,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 172,
+                    "end": 175,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 176,
+                    "end": 179,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 479,
+                    "end": 480,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 844,
+                    "end": 845,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Experience of similar events, such as outbreaks of H5NI influenza in 2001, SARS (Severe Acute Respiratory Syndrome) in 2003, H1N1 influenza in 2009 and Ebola in 2014 is also likely to influence awareness. In China, the outbreak of SARS between 2003 and 2004 caused a total of 7,429 reported cases and 685 deaths 6 , and had a lasting traumatic impact on survivors and communities 7, 8 . In this work, we set out to test whether public awareness of the new disease outbreak is related to social distance from the centre of the epidemic and past experience of the SARS epidemic in 2003. The SARS outbreak was 17 years ago, but its horror might still condition public awareness of lethal infectious diseases. To the best of our knowledge, few studies were carried out to understand how past severe outbreaks affect public awareness when a new outbreak occurs. This study estimates the post-SARS effect, called SARS memory effect, on the current outbreak.",
+            "cite_spans": [
+                {
+                    "start": 312,
+                    "end": 313,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 380,
+                    "end": 382,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 383,
+                    "end": 384,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We use the continuing Wuhan coronavirus outbreak as our case study to estimate the effects of social distance and SARS memory on the spread of public awareness. In late 2019, a new coronavirus, designated as COVID-19, was identified in Wuhan, the capital of China's Hubei province 9 . As of February 1st, 2020, the virus has caused approximately 11,184 cases and 258 deaths in 21 countries with the majority of cases in mainland China 10 . The first symptoms were reported on December 1st, 2019 11 , but there was no solid evidence of human-to-human transmission until January 10 th , 2020, when a patient, who did not travel to Wuhan, became infected with the virus after several days of contact with four family members 12 . However, there was little information available to the public until an official announcement about human-to-human transmission of the virus on January 20 th , 2020 13 . Wuhan City, long known as the \"Nine Provinces\" thoroughfare (\"\u4e5d\u7701\u901a\u8862\"), is in the central part of China, serving as a major transportation hub transiting more than 120 million passengers every year 14 . The massive numbers of transits provided a perfect opportunity for the virus to spread. Another feature is the timing of the outbreak, close to the Spring Festival travel season, Chunyun (\"\u6625\u8fd0\"), which started on January 10 th , 2020. While the virus spread across almost all provinces, 16 cities had been locked down by January 23 rd , 2020 15 . Accordingly, this study focuses on the time period between December 15 th , 2019 and Jan 23 rd , 2020.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 282,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 495,
+                    "end": 497,
+                    "text": "11",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1092,
+                    "end": 1094,
+                    "text": "14",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1438,
+                    "end": 1440,
+                    "text": "15",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Seeking epidemic-related information online can provide an indicator of public awareness of this new disease. In this study, we use the Baidu Search Index (BSI), available publicly at http://index.baidu.com, to measure the public awareness over time and locations (e.g., city). The total number of internet users using the Baidu search engine reached 649 million in 2014, accounting for 47.9% of the national population 16 . BSI has been used to predict epidemic outbreak 17 , HIV/AIDS incidence 18 and tourism flows 19 , suggesting BSI can provide a representative proxy for public awareness. BSI provides a weighted index for each search term. In this study, we used the term \"Wuhan pneumonia\" (\"\u6b66\u6c49\u80ba \u708e\"), as the public has widely used. We also tried \"novel coronavirus\" (\"\u65b0\u578b\u51a0\u72b6\u75c5\u6bd2\") and \"Wuhan outbreak\" (\"\u6b66\u6c49\u7206\u53d1\"), but the former did not exhibit a search surge, and the latter was not indexed by Baidu. Due to the privacy concern, Baidu masks daily readings that are below 57 as zero. Therefore, we used the maximum BSI value of the search term \"common cold\" (\"\u611f\u5192\") between Dec 10 th and 31 th , 2019, to control the size effect for each city. We use the Ljung-Box test 20 to estimate whether or not the daily readings of \"common cold\" are stationary. As a result, the daily readings of 18 out of 364 cities were found to be non-stationary, so they were excluded from this study. The magnitude of public awareness of the Wuhan outbreak over time and city \u2208 {1, \u2026 , 346} can be represented as The earliest day the magnitude of public awareness exceeds the arbitrary thresholds \u2208 {1.5, 2, 3, 4} is defined as the earliest warning day, ( ) , for city . We also define the starting day of Chunyun as \u210e , indicating the onset day when it is likely the virus would reach all cities. As Chunyun transited approximately 3 billion million passengers in 40 days in 2019 21 , crowded transport hubs create perfect opportunities for the virus to spread. Therefore, the earlier the lead-time awareness, the better for infection control. The lead-time of awareness for city is thus defined as:",
+            "cite_spans": [
+                {
+                    "start": 420,
+                    "end": 422,
+                    "text": "16",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 496,
+                    "end": 498,
+                    "text": "18",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Public awareness measurement"
+        },
+        {
+            "text": "Awareness typically follows a cyclical process, called the unaware-aware-unaware (UAU) process, as time passes. Keeping the public at a high level of awareness could help mitigate the virus transmission process. Therefore, we also measure the awareness retention rate as the average of magnitude from the next day of ( ) to the day of Chunyun over the magnitude at ( ) .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Public awareness measurement"
+        },
+        {
+            "text": "Microblogs (e.g., Weibo) and private social media (e.g., WeChat) are the primary communication tools used by most Chinese people 16 . While information flows cannot be observed directly, empirical studies show that social networks are influenced by long distance travel. 22 We therefore use migration flows as a proxy for long-distance information flows To be more specific, if workers born and raised in city A now work in city B, they are likely to relate information about an epidemic in city B back to friends and family in city A. This is particularly relevant in the Chinese context, where migrant workers account for more than one-third of the working population 23 . We use the migration flows extracted from the Baidu Migration Matrix (BMM) to build a migration network ( Fig. 1 ). We then compute the shortest steps between any city to Wuhan, deriving the variable social distances for city as \u2208 (1, 8) . Wuhan and the cities located in Hubei province have = 1, while cities located far away from Wuhan tend to have larger values, e.g., = \u210e = 6.",
+            "cite_spans": [
+                {
+                    "start": 129,
+                    "end": 131,
+                    "text": "16",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 271,
+                    "end": 273,
+                    "text": "22",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 906,
+                    "end": 909,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 910,
+                    "end": 912,
+                    "text": "8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 781,
+                    "end": 787,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Measuring social distances"
+        },
+        {
+            "text": "Moreover, we added = = 1, based on the rationale that Hong Kong has more airline traffic flows to Wuhan than Shanghai 24 , which has = \u210e \u210e = 1. Macau and Taiwan both have frequent traffic flows to Hong Kong 24 , so we added = = 2 and = = 2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measuring social distances"
+        },
+        {
+            "text": "We collected all reported SARS cases in mainland China, Hong Kong, Taiwan and Macau, and assign the numbers of cases to each city as , \u2208 {1, \u2026 , 346}. The values range between zero (no reported cases) and 2,521 ( = ), with an average of 70.8 and a median of 4 cases in cities with at least one case reported. We then use the logarithm, as most cities reported zero cases of SARS resulting in:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measuring SARS memory"
+        },
+        {
+            "text": "We build three groups of regression models to estimate the effects of social distance and SARS memory on public awareness measures \u0394 , ( ) COVID\u221219 and \u0394 respectively. _ _ represents the gross domestic product (GDP) per capita for city .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating social distance and SARS memory effects"
+        },
+        {
+            "text": "indicates whether or not city has sub-provincial or greater administrative power. Sub-provincial cities are mostly capitals of the provinces in which they are located, or important cities designated by the central government. Four cities, including Beijing, Shanghai, Tianjin and Chongqing, which are under direct control of the central government are also labelled as = 1. Those sub-provincial and above cities have much better facilities and expertise for infection control than other cities 25 , so we assume residents could be more alert.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating social distance and SARS memory effects"
+        },
+        {
+            "text": "is used to control the effects of administrative level. We also introduce Euclidean distances as a control variable, denoted as .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating social distance and SARS memory effects"
+        },
+        {
+            "text": "All data necessary to replicate the analysis is attached as S2 of the SM.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating social distance and SARS memory effects"
+        },
+        {
+            "text": "The early warnings of the outbreak As early as Dec 31 st , 2019, most of the cities (326 out of 346) have exhibited at least some awareness of the emerging Wuhan outbreak (Fig. 2B) . However, awareness then decreased until Jan 19 th , 2020, one day before the Chinese Centre for Disease Control and Prevention confirmed human-to-human transmissions of the novel coronavirus. Since Jan 20 th , 2020, overall awareness has increased by a magnitude of at least five, demonstrating significant awareness across all cities (Fig. 2B ). Awareness remained low as the epidemic spread, falling close to its lowest point on the starting day of Chunyun (Jan 10 th , 2020). Considering cities that showed initial novel coronavirus awareness levels at least 1.5 times that of the search term \"common cold\", we found a total of 166 alert cities as early as Dec 31 st , 2019 (48 cities at a tighter threshold of = 3.0 times, illustrated in Fig. 2A) . However, awareness decreased significantly during Chunyun. The evolution of public awareness over time followed an unusual pattern. In a typical UAU process, people are unaware of emerging catastrophic events until they are told by their social contacts. They remain aware during the event, and awareness then fades subsequently 2, 26 . However, during the Wuhan outbreak, the public experienced a process as aware-unaware-aware, with public awareness declining during the early phase of the outbreak.",
+            "cite_spans": [
+                {
+                    "start": 1265,
+                    "end": 1267,
+                    "text": "2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1268,
+                    "end": 1270,
+                    "text": "26",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 171,
+                    "end": 180,
+                    "text": "(Fig. 2B)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 518,
+                    "end": 526,
+                    "text": "(Fig. 2B",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 925,
+                    "end": 933,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Dividing cities into two groups of equal size according to the numbers of reported SARS cases, we found the cities that had been struck by SARS to be more alert ( p < 0.05 ) during onset (2B). Therefore, we believe the SARS memory still conditions public awareness. We provide evidence of its effects at the end of this section.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Three features define the awareness advantage of alert cities, including early awareness, strong magnitude and high retention of awareness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Awareness advantage"
+        },
+        {
+            "text": "During onset, between Dec 31 st , 2019 and Jan 23 rd , 2020, 266 cities exhibited significant public awareness (using a threshold at = 3.0; 210 cities at = 4.0; 314 cities at = 2.0; and 322 cities at = 1.5). The lead-time advantage \u0394 ranges between -13 and 10 ( = 3.0), with an average of -7.4",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lead-time advantage"
+        },
+        {
+            "text": "days and a median of -10 days. Forty-eight cities emerge with early signals of public awareness, as early as Dec 31 st , 2019, while for most others (255 cities), awareness is as late as Jan 20 th , 2020 ( Fig.  2A) . The cities of substantial lead-time advantage are those either closed to Wuhan in terms of social distances or struck by the SARS outbreak. For example, Changchun in Jilin province with 34 SARS cases and far away from Wuhan still achieved a ten days lead-time advantage. The cities that did not exhibit awareness, such as Qaramay and Heihe, are mainly located far away from Wuhan and did not suffer from the SARS outbreak.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 206,
+                    "end": 215,
+                    "text": "Fig.  2A)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Lead-time advantage"
+        },
+        {
+            "text": "In terms of the magnitude of awareness, all 346 cities exhibit at least some awareness during the onset. The values of ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Magnitude of awareness"
+        },
+        {
+            "text": "Even though most of the cities exhibit at least some awareness as early as Dec 31 st , 2019, only a few retain it over the following weeks as the virus began to spread. The retention rates, \u0394 , range between zero and 137%, with an average of 54% and a median of 55%. Eight cities lost awareness before Chunyun, while four cities developed greater awareness. Xilingol League in Inner Mongolia ranked 4 th , with a retention rate at 103%. Xilingol is far away from Wuhan in terms of social distance, but it was struck by SARS. It is worth noting that a confirmed case of plague was reported in Xilingol on Nov 16 th , 2019, only 45 days before the Wuhan outbreak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Retention of awareness"
+        },
+        {
+            "text": "The effects of social distance and SARS memory on the lead-time advantage are estimated according to Eq. 4, controlled by Euclidean distances, GDP per capita and the city's administrative level (Table 1) . We found that, in model (3) in Table 1 , exhibits positive effects, while shows a negative association with awareness. That means cities of strong SARS memory and which are closer to Wuhan in terms of Social distances develop early awareness. Moreover, the interaction term * exhibits negative effects, indicating that the SARS memory effect becomes stronger where cities are closer to Wuhan in terms of social distances. While controlling the model with Euclidean distances (model (5) in Table 1 ), we found that SARS memory effect becomes non-significant, but social distance and its interaction with SARS memory hold. Meanwhile, Euclidean distances effect are non-significant, even though it exhibits negative effect alone in model (4) in Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 688,
+                    "end": 691,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 194,
+                    "end": 203,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 237,
+                    "end": 244,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 695,
+                    "end": 702,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 948,
+                    "end": 955,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Estimation of the social distance and SARS memory effects"
+        },
+        {
+            "text": "We further control the model with GDP per capita and administrative level (model (6) & (7) in Table  1 ). Model (6) is more favorable than model (7), because the former achieves slightly lower AIC scores (Akaike's Information Criteria) 27 at 1893.132 with fewer degrees of freedom (df = 8) than the latter (AIC = 1894.160, df = 9). In model (6) in Table 1 , we found that both social distance and Euclidean distances exhibit negative effects, but the social distance effects decrease almost half compared to model (5) in Table 1 . The SARS memory effects hold. Also, the interaction term * is still significant, which means cities of stronger SARS memory will develop more lead-time advantage, particularly when they are closer to Wuhan. GDP per capita and the binary variable exhibit significant positive effects on the lead-time advantage.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 115,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 341,
+                    "end": 344,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 514,
+                    "end": 517,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 94,
+                    "end": 102,
+                    "text": "Table  1",
+                    "ref_id": null
+                },
+                {
+                    "start": 348,
+                    "end": 355,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 521,
+                    "end": 528,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Estimation of the social distance and SARS memory effects"
+        },
+        {
+            "text": "Lead-time \u0394 ( = 3.0) . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dependent variable:"
+        },
+        {
+            "text": "The copyright holder for this preprint Note:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "*p**p***p<0.01",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The effects of social distance and SARS memory on the magnitude of awareness are estimated according to Eq. 5 (Table 2 ). Similar to the findings in Table 1 , memory positively affects public awareness in all models. Social distances show a significant negative effect only in the models without controlling variables (model (1), (2) & (3) in Table 2 ). However, the interaction term between social distances with SARS memory show a significant negative effect. When we control by Euclidean distances, GDP per capita and the administrative level (model (5) and (6) in Table 2 ), those effects still hold. Moreover, the effects of administrative level and development level both exhibit positive effects on the magnitude of awareness. We hypothesize that residents with better education (proxied by GDP per capita) better understand the danger of deadly infectious diseases and, accordingly, tend to seek up-to-date information online.",
+            "cite_spans": [
+                {
+                    "start": 553,
+                    "end": 556,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 561,
+                    "end": 564,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 110,
+                    "end": 118,
+                    "text": "(Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 149,
+                    "end": 156,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 343,
+                    "end": 350,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 568,
+                    "end": 575,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Magnitude of awareness at the earliest day of awareness: Note:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dependent variable:"
+        },
+        {
+            "text": "*p**p***p<0.01",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dependent variable:"
+        },
+        {
+            "text": "The effects of social distance and SARS memory on retention of awareness are estimated according to Eq. 6. Unlike the results in Tables 1 and 2 , we observe no effects from SARS memory (model (6) in Table 3 ). When we control Euclidean distances, the development level and the administrative level, the explanatory power of the model is still relatively weak (Adj. 2 = 0.104). It seems the decreasing awareness is a collective behavior that occurred simultaneously. Interestingly, social distances have a significant effect while the Euclidean distances do not. Development level exhibits positive effects, which suggests residents of better educated cities could be more alert during the epidemic onset. However, administrative level shows a negative effect. It seems residents living in important cities (in terms of administrative power) lost interest in the infectious diseases before Chunyun. Note:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 129,
+                    "end": 143,
+                    "text": "Tables 1 and 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 199,
+                    "end": 206,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Dependent variable:"
+        },
+        {
+            "text": "*p**p***p<0.01",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dependent variable:"
+        },
+        {
+            "text": "The Wuhan coronavirus outbreak is still striking China, with thousands of cases and dozens of deaths reported every day. From this study, we found that the spread of public awareness varies markedly across Chinese cities. Through controlling for development, administrative levels, and Euclidean distances, we observe cities that were struck by SARS and have more migration to the epicentre, Wuhan, showed earlier, stronger and more durable public awareness of the outbreak. Moreover, 48 cities had developed public awareness as early as Dec 31 st , 2019, with up to 19 days of lead-time advantage against some other 255 cities. The study suggests that memory of previous events, as well as social links to an emerging threat, may influence public behaviour. Greater awareness could help slow the spread of a disease, for example through increased attention to hygiene, mask-wearing and reduced interpersonal contact. It might also facilitate collective responses such as enforced quarantine measures. However, in some circumstances enhanced awareness could have negative impacts, such as unnecessary panic or ostracism of groups perceived as being at greater risk of infection",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Due to the lack of infection statistics, we cannot yet statistically estimate the effect of public awareness on the subsequent seriousness of the outbreak. We note that Xilingol League in Inner Mongolia, which had relatively stronger and more durable public awareness, had fewer cases (two cases as reported at Feb 7 th , 2020 10 ) than other cities in the same province (totally 50 cases, with an average of 4.55 cases per city 10 ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "To the best of our knowledge, this study is the first to investigate how memory of previous catastrophic events, e.g., SARS, and social distances could affect the spread of public awareness. Further studies will be needed to understand whether this holds in other context, beyond the unusual and tragic circumstances of the noel coronavirus in Wuhan.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The effect of public health measures on the 1918 influenza pandemic in U",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C J"
+                    ],
+                    "last": "Bootsma",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "S. cities",
+            "volume": "104",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Dynamical interplay between awareness and epidemic spreading in multiplex networks",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Granell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "G\u00f3mez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arenas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Phys. Rev. Lett",
+            "volume": "111",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Rapid assessment of disaster damage using social media activity",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kryvasheyeu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Sci. Adv",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Performance of social network sensors during Hurricane Sandy",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kryvasheyeu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Moro",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Hentenryck",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cebrian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PLoS One",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Chinese social media reaction to the MERS-CoV and avian influenza A(H7N9) outbreaks",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fung",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Infect. Dis. Poverty",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Responding to global infectious disease outbreaks: Lessons from SARS on the role of risk perception, communication and management",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Soc. Sci. Med",
+            "volume": "63",
+            "issn": "",
+            "pages": "3113--3123",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Psychological impact on SARS survivors: Critical review of the english language literature",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gardner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Moallef",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Canadian Psychology",
+            "volume": "56",
+            "issn": "",
+            "pages": "123--135",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Pandemic cities: biopolitical effects of changing infection control in post-SARS Hong Kong",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "F\u00fcller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Geogr. J",
+            "volume": "182",
+            "issn": "",
+            "pages": "342--352",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "What you need to know about the Wuhan coronavirus",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fox",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/d41586-020-00209-y10.Tencent"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N. Engl. J. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "Fuk-Woo",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30154-9"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "China coronavirus: cases surge as official admits human to human transmission",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Parry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "236",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m236"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Wuhan Urban and Rural Construction Bureau -Wuhan transits ranked No. 1, becoming the largest transit station in China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "and at least 15 other cities have been quarantined as China attempts to halt the spread of the coronavirus. That's about 50 million people on lockdown",
+            "authors": [
+                {
+                    "first": "China",
+                    "middle": [],
+                    "last": "Wuhan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "| Business Insider. Available",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "CNNIC. China Internet Network Information Center The Thirty-Sixth Statistics Report of China Internet Development",
+            "authors": [],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Using Baidu Search Index to Predict Dengue Outbreak in China",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Sci. Rep",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Using the Baidu search index to predict the incidence of HIV/AIDS in China",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The Baidu Index: Uses in predicting tourism flows-A case study of the Forbidden City",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Management",
+                    "suffix": ""
+                }
+            ],
+            "year": 1920,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "On a measure of lack of fit in time series models",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ljung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E P"
+                    ],
+                    "last": "Box",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Biometrika",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/biomet/65.2.297"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Approximately 3 billion passengers transited in the Chunyun of 2019 -Xinhuanet",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Friendship and mobility: User movement in location-based social networks",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Myers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Leskovec",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1145/2020408.202057923"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The basic situation and expertise development of infection control facilities in sub-provincial cities",
+            "authors": [
+                {
+                    "first": "Zhenxi",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "W L H S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Chinese J. Public Heal. Manag",
+            "volume": "28",
+            "issn": "",
+            "pages": "741--743",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Competing spreading processes on multiplex networks: Awareness and epidemics",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Granell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "G\u00f3mez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arenas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Phys. Rev. E -Stat. Nonlinear, Soft Matter Phys",
+            "volume": "90",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Akaike Information Criterion Statistics",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Bertrand",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sakamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ishiguro",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kitagawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "J. R. Stat. Soc. Ser. A (Statistics Soc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2307/2983028"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "The migration network based on Baidu Migration Matrix. The nodes represent cities in mainland China, and the length and thickness of the edges indicate the travel frequency between the corresponding pair of cities. The node size is proportional to the numbers of transit passengers at the corresponding city. The network does not include Hong Kong, Macau and Taiwan, as the Baidu Migration Matrix does not include them.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Public awareness over time. a) the frequency distributions of cities that exhibit the first significant signal of awareness over time. The number of cities for which searches for \"Wuhan pneumonia\" exceed = times the search term \"common cold\" is reported every day. b) public awareness on the topic of \"Wuhan pneumonia\" over time. All 346 cities exhibit at least some searches of the term \"Wuhan pneumonia\" during the initial outbreak period. Of these, 326 cities recorded searches about it as early as Dec 31 st , 2019. Cities are divided into two groups according to whether or not they had reported SARS cases in 2003-04.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "19 range between 0.50 and 61.51, with an average of 2.18 and a median of 1.49. Wuhan undoubtedly ranked the first, while Wuzhong in Ningxia ranked last. Cities in Hubei province exhibit much greater awareness, with an average of 7.83 and a median of 3.46. Shenzhen, Shanghai and Beijing also had high scores at 10.40, 10.65, and 9.78 respectively. Those three cities are both close to Wuhan in terms of social distances and struck by SARS.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF2": {
+            "text": "Estimate social distance and SARS memory effects on the awareness retention rate.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Dr. Ross Sparks from Data61, CSIRO for helpful suggestions and advice on the methodologies. We also thank the anonymous reviewers for their valuable suggestions.Funding: X.L. and W.X. were supported by the National Natural Science Foundation of China, No. 41571118.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments:"
+        },
+        {
+            "text": "The authors declare that they have no competing interests.Author contributions: X.L., H.C., C.P. and A.R. conceived of the research question. H.C. and W.X. processed the Baidu Search Index data. X.L. and W.X. collected the other meta data including SARS cases and GDP per capita. H.C., X.L., W.X., A.R. and C.P. interpreted the result. H.C., X.L., W.X., A.R. and C.P. drafted the manuscript and compiled supplementary information. All authors edited the manuscript and supplementary information and aided in concept development.Data and materials availability: All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests:"
+        },
+        {
+            "text": "File S1: Baidu Search Index data File S1: Baidu Search Index data File S2: The data necessary to replicate the analysis of this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Materials:"
+        }
+    ]
+}

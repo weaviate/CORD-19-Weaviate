@@ -1,0 +1,584 @@
+{
+    "paper_id": "598d3eb737dfa7701ce8c29c86bc9f6589d8a581",
+    "metadata": {
+        "title": "Duration of viral detection in throat and rectum of a patient with COVID-19",
+        "authors": [
+            {
+                "first": "Le",
+                "middle": [
+                    "Van"
+                ],
+                "last": "Tan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City",
+                        "country": "Vietnam"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nghiem",
+                "middle": [
+                    "My"
+                ],
+                "last": "Ngoc",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City",
+                        "country": "Vietnam"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bui",
+                "middle": [
+                    "Thi"
+                ],
+                "last": "Ton That",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Le",
+                "middle": [],
+                "last": "Thi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tam",
+                "middle": [],
+                "last": "Uyen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nguyen",
+                "middle": [
+                    "Thi"
+                ],
+                "last": "Thu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City",
+                        "country": "Vietnam"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hong",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thi",
+                "middle": [
+                    "Phuong"
+                ],
+                "last": "Nguyen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Dung",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City",
+                        "country": "Vietnam"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Le",
+                "middle": [],
+                "last": "Nguyen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Truc",
+                "middle": [],
+                "last": "Nhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City",
+                        "country": "Vietnam"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tran",
+                "middle": [
+                    "Tan"
+                ],
+                "last": "Thanh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City",
+                        "country": "Vietnam"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nguyen",
+                "middle": [],
+                "last": "Dinh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Huy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Man",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nguyen",
+                "middle": [
+                    "Thanh"
+                ],
+                "last": "Phong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tran",
+                "middle": [
+                    "Tinh"
+                ],
+                "last": "Hien",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City",
+                        "country": "Vietnam"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nguyen",
+                "middle": [
+                    "Thanh"
+                ],
+                "last": "Truong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Guy",
+                "middle": [],
+                "last": "Thwaites",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City",
+                        "country": "Vietnam"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nguyen",
+                "middle": [],
+                "last": "Van",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Vinh",
+                "middle": [],
+                "last": "Chau",
+                "suffix": "",
+                "affiliation": {},
+                "email": "chaunvv@oucru.org"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The rapid spread of coronavirus disease 2019 (COVID-19) raises concern about a global 16 pandemic. Knowledge about the duration of viral shedding remains important for patient 17 management and infection control. We report the duration of viral detection in throat and rectum 18 of a COVID-19 patient treated at the Hospital for Tropical Diseases in Ho Chi Minh City, 19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Vietnam. Despite clinical recovery, SARS-CoV-2 RNA remained detectable by real time RT-20 PCR in throat and rectal swabs until day 11 and 18 of hospitalization, respectively. Because live 21 SARS-CoV-2 has been successfully isolated from a stool sample from a COVID-19 patient in 22",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "China, the results demonstrate that COVID-19 patients may remain infectious for long periods, 23",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "and fecal-oral transmission may be possible. Therefore, our finding has important implications 24 for infection control. 25 . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint On January 31, 2020, a 73-year-old man with a history of benign prostatic hyperplasia was 33 admitted to HTD with dry cough and breathing difficulties, but without fever. He had become ill 34 with respiratory symptoms on January 26, 2020, ten days after arrival in Vietnam from the 35 United States. Whilst travelling to Vietnam, he had two hours of transit at an airport in Wuhan, 36",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "China. His clinical condition improved, and from February 9 th he no longer required supplementary 47 oxygen. However, follow-up throat swabs remained positive for SARS-CoV-2 by real-time RT-48 . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.07.20032052 doi: medRxiv preprint PCR positive until day 18 of hospitalization (day 23 of illness). Additionally, a plasma sample 50 collected on day 2 of admission was weakly positive; urine samples were negative (Figure 1) . 51",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 324,
+                    "end": 334,
+                    "text": "(Figure 1)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The patient was discharged with full recovery on February 21, 2020 after 21 days of 52",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Since his arrival in Vietnam, the patient had stayed in a hotel in Ho Chi Minh City, and had 54 sought for medical treatments at private clinics before hospital admission. A total of 14 close 55 contacts were identified and followed for 14 days, but none had signs of respiratory infections, 56",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "hospitalization. 53"
+        },
+        {
+            "text": "and their throat swabs collected on day 14 of quarantine were RT-PCR negative for SARS-CoV-57",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "hospitalization. 53"
+        },
+        {
+            "text": "Long duration of viral detection in throat swabs by RT-PCR has been reported in a case series 59 from China (2) Collectively, our report shows the persistence of PCR positivity in throat and rectum of a patient 64 with COVID-19, which may potentially indicate persistent viral shedding. As such COVID-19 65 patients may remain infectious for long periods, and fecal-oral transmission may be possible. 66 Therefore, our finding has important implications for infection control. 67 . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "58"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.07.20032052 doi: medRxiv preprint . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "58"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity. CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "58"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.07.20032052 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "58"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Landt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Molenkamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meijer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "First Case of 2019 Novel Coronavirus in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Holshue",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Debolt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lindquist",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lofy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wiesman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bruce",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Isolation of 2019-nCoV from a Stool Specimen of a Laboratory-Confirmed Case of the Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "37 Blood tests on hospital admission showed an elevation of white cells (22,9\u00d710 3 cells per cubit 38 millimeter), but others parameters (platelet and hematocrit) were in normal ranges (data not 39 shown). His chest radiographs obtained on admission showed bilateral infiltrates (Supplementary 40 Figure 1). The patient was empirically treated with a combination of antivirals and antibiotics, 41 and received supplemental oxygen through an oxygen mask. 42 On February 1, 2020, a throat swab collected on admission from the patient was positive for 43 SARS-CoV-2 by reverse-transcription polymerase chain reaction (RT-PCR) (Supplementary 44",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "and a patient in the US (3). Together with the recent success of SARS-CoV-2 60 isolation in cell culture in a stool sample of a COVID-19 patient in China (4), our finding on the 61 persistent PCR positivity in rectal swabs raise concerns about the possibility of fecal-oral 62 transmission of SARS-CoV-2. 63",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Results of real-time RT-PCR analysis of serial samples Note to figure 1: a Ct value of 0 indicates no samples available for RT-PCR analysis. Ct value of 40 is the cut-off of assay detection limit (blue line). A Ct value of 45 represents for a negative real-time RT-to the patient for his participations in this study, and all the nursing and medical staff at Ward D of the Hospital for Tropical Diseases who provided care for the patient and helped collect clinical data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Chest radiograph taken on admission (January 31 st , 2020) showing bilateral infiltrates .",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "current global spread have prompted the World Health Organization to declare a Public Health 27Emergency of International Concern. We report the duration of viral detection in throat and 28 rectal swabs taken from a patient treated at the Hospital for Tropical Diseases (HTD) in Ho Chi 29Minh City, Vietnam. HTD is a referral hospital responsible for receiving and treating patients 30",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ", followed by sequencing of the amplified product to confirm the result. Testing for other 45 pathogens (routine bacterial culture and influenza A/B viruses) were negative. 46",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Supplementary Table 1: List of oligo sequences used for initial detection of SARS-CoV-2 in admission throat swab of the patient Modified based on pan-coronavirus primers described elsewhere (Methods in Molecular Biology, vol. 454: SARS-and Other Coronaviruses, 2008). Sequencing of amplified product was carried using the PCR primers.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,2687 @@
+{
+    "paper_id": "6ede7d40a9858d89341de780a3be9e8b43291151",
+    "metadata": {
+        "title": "SARS-CoV-2 invades host cells via a novel route: CD147-spike protein",
+        "authors": [
+            {
+                "first": "Ke",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Beijing Institute of Biotechnology",
+                    "location": {
+                        "postCode": "100071",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yu-Sen",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Beijing Institute of Biotechnology",
+                    "location": {
+                        "postCode": "100071",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jian-Qi",
+                "middle": [],
+                "last": "Lian",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710038",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zheng",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peng",
+                "middle": [],
+                "last": "Du",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Beijing Institute of Biotechnology",
+                    "location": {
+                        "postCode": "100071",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Li",
+                "middle": [],
+                "last": "Gong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710038",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yang",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hong-Yong",
+                "middle": [],
+                "last": "Cui",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jie-Jie",
+                "middle": [],
+                "last": "Geng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bin",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiu-Xuan",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chun-Fu",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710038",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xu",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peng",
+                "middle": [],
+                "last": "Lin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yong-Qiang",
+                "middle": [],
+                "last": "Deng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Beijing Institute of Biotechnology",
+                    "location": {
+                        "postCode": "100071",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ding",
+                "middle": [],
+                "last": "Wei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiang-Min",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yu-Meng",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kui",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "region": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhao-Hui",
+                "middle": [],
+                "last": "Zheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "region": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jin-Lin",
+                "middle": [],
+                "last": "Miao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ting",
+                "middle": [],
+                "last": "Guo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ying",
+                "middle": [],
+                "last": "Shi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jun",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Beijing Institute of Biotechnology",
+                    "location": {
+                        "postCode": "100071",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ling",
+                "middle": [],
+                "last": "Fu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Beijing Institute of Biotechnology",
+                    "location": {
+                        "postCode": "100071",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qing-Yi",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bian",
+                "middle": [],
+                "last": "#1",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ping",
+                "middle": [
+                    "Zhu"
+                ],
+                "last": "#2",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "region": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhi-Nan",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fourth Military Medical University",
+                    "location": {
+                        "postCode": "710032",
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": "znchen@fmmu.edu.cn"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Currently, COVID-19 caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has been widely spread around the world; nevertheless, so far there exist no specific antiviral drugs for treatment of the disease, which poses great challenge to control and contain the virus. Here, we reported a research finding that SARS-CoV-2 invaded host cells via a novel route of CD147-spike protein (SP). SP bound to CD147, a receptor on the host cells, thereby mediating the viral invasion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Our further research confirmed this finding. First, in vitro antiviral tests indicated Meplazumab, an anti-CD147 humanized antibody, significantly inhibited the viruses from invading host cells, with an EC 50 of 24.86 \u03bcg/mL and IC 50 of 15.16 \u03bcg/mL. Second, we validated the interaction between CD147 and SP, with an affinity constant of 1.85\u00d710 -7 M. Co-Immunoprecipitation and ELISA also confirmed the binding of the two proteins. Finally, the localization of CD147 and SP was observed in SARS-CoV-2 infected Vero E6 cells by immuno-electron microscope. Therefore, the discovery of the new route CD147-SP for SARS-CoV-2 invading host cells provides a critical target for development of specific antiviral drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "the treatment of COVID-19. Therefore, intensive researches are urgently needed to elucidate the invasive mechanisms of SARS-CoV-2, thereby providing a potential target for developing specific antiviral drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "It has been reported that CoVs are non-segmented positive sense RNA viruses, which primarily cause enzootic infections in birds and mammals and have demonstrated strong lethality in humans [1, 2] . These viruses are known to have four structural proteins, including E, M, N and S protein [3, 4] . The primary determinant of CoVs tropism is the S protein, which binds to the membrane receptor on the host cells, mediating the viral and cellular membrane fusion [5] . Angiotensin-converting enzyme 2 (ACE2), a homologue of ACE, is one of the important receptors on the cell membrane of the host cells.",
+            "cite_spans": [
+                {
+                    "start": 189,
+                    "end": 192,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 193,
+                    "end": 195,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 288,
+                    "end": 291,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 292,
+                    "end": 294,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 460,
+                    "end": 463,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The interaction of SP and ACE2 contributes to the SARS-CoV invasion for host cells [6] . Interestingly, the structure of SARS-CoV-2 SP is highly similar to that of SARS-CoV SP, and SARS-CoV-2 SP binds to ACE2 with a higher affinity than SARS-CoV SP, indicative of a stronger ability of SAR-CoV-2 to invade host cells [7, 8] . In addition to ACE2, other receptors for SP binding on the host cell membrane remain unclear.",
+            "cite_spans": [
+                {
+                    "start": 83,
+                    "end": 86,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 317,
+                    "end": 320,
+                    "text": "[7,",
+                    "ref_id": null
+                },
+                {
+                    "start": 321,
+                    "end": 323,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "CD147, also known as Basigin or EMMPRIN, is a transmembrane glycoprotein that belongs to the immunoglobulin superfamily [9] , which is involved in tumor development, plasmodium invasion and virus infection [10] [11] [12] [13] [14] [15] [16] . Our previous researches show that CD147 plays a functional role in facilitating SARS-CoV invasion for host cells, and CD147-antagonistic peptide-9 has a high binding rate to HEK293 cells and an inhibitory effect on SARS-CoV [16] . These researches affirm the importance of CD147 in virus invasion for host cells. Owing to the similar characteristics of SARS-CoV and SARS-CoV-2, we conduct the present study to investigate the possible function of CD147 in invasion for host cells by SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 120,
+                    "end": 123,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 206,
+                    "end": 210,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 211,
+                    "end": 215,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 216,
+                    "end": 220,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 221,
+                    "end": 225,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 226,
+                    "end": 230,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 231,
+                    "end": 235,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 236,
+                    "end": 240,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 467,
+                    "end": 471,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In our study, we reported SARS-CoV-2 invaded host cells via a novel route of CD147-SP.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Meplazumab, a humanized anti-CD147 antibody, could competitively inhibit the binding of SP and CD147 and prevent the viruses from invading host cells, which provides a potential target for developing antiviral drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The antiviral tests were performed to investigate the possible function of CD147 in SARS-CoV-2 invasion for host cells. Vero E6 cells were cultured in a 96-well plate, and CD147 on Vero E6 cells was blocked with Meplazumab. Then, the cells were infected with SARS-CoV-2 (100TCID 50 ) and the cell damage of Vero E6 and viral load were detected by crystal violet staining and quantitative PCR, respectively. Compared with the control group, the inhibitory rate for viruses was significantly increased in CD147-blocking group in a dose-dependent manner, with a concentration for 50% of maximal effect (EC 50 ) of 24.86 \u03bcg/mL ( Figure 1A ) and the half maximal inhibitory concentration (IC 50 ) of 15.16 \u03bcg/mL ( Figure 1B) . These results show that blocking CD147 on the host cells has an inhibitory effect on SARS-CoV-2, suggesting an essential role of CD147 in facilitating SARS-CoV-2 invasion for host cells.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 625,
+                    "end": 634,
+                    "text": "Figure 1A",
+                    "ref_id": null
+                },
+                {
+                    "start": 709,
+                    "end": 719,
+                    "text": "Figure 1B)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Blocking CD147 inhibits SARS-CoV-2 replication"
+        },
+        {
+            "text": "CD147 is closely associated with SARS-CoV-2 invasion for host cells, and SP binds to cellular receptors to mediate infection of host cells [7] , leading to the question whether there is some author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 142,
+                    "text": "[7]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Identification of interaction between CD147 and SP"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.14.988345 doi: bioRxiv preprint relationship between CD147 and SP that affects the invasion of the SARS-CoV-2. Therefore, the interaction assays was conducted to clarify the interaction of the two proteins. Surface Plasmon Resonance (SPR) assay confirmed the interaction of CD147 and SP (RBD), with an affinity constant of 1.85\u00d710 -7 M (Figure 2A ). In Co-IP assay, anti-SP antibody and anti-CD147 antibody were used for antibody immobilization, respectively. The mIgG and rIgG were selected as negative control. Then, the mixture of His-CD147 and His-SP (RBD) was added in each group for IP, and the eluted protein was detected by western blot. The result showed that there was an interaction between CD147 and SP (RBD), which was consistent with the SPR assay ( Figure 2B ). In addition, the interaction of CD147-SP (RBD) was also confirmed by ELISA assay ( Figure 2C ). In the meanwhile, competitive inhibition assay showed that Meplazumab could competitively inhibit the binding of SP and CD147, with an IC 50 of 16.44 \u03bcg/mL ( Figure 2D ). These results confirm the interaction of CD147 and SP, indicating a novel potential route for SARS-CoV-2 to invade host cells.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 446,
+                    "end": 456,
+                    "text": "(Figure 2A",
+                    "ref_id": null
+                },
+                {
+                    "start": 874,
+                    "end": 883,
+                    "text": "Figure 2B",
+                    "ref_id": null
+                },
+                {
+                    "start": 970,
+                    "end": 979,
+                    "text": "Figure 2C",
+                    "ref_id": null
+                },
+                {
+                    "start": 1141,
+                    "end": 1150,
+                    "text": "Figure 2D",
+                    "ref_id": null
+                }
+            ],
+            "section": "Identification of interaction between CD147 and SP"
+        },
+        {
+            "text": "To further determine the localization of CD147 and SP in the process of viral infection, the Vero E6 cells infected with SARS-CoV-2 were observed by immune-electron microscope. After traced by 10 nm (CD147) and 20 nm (SP) gold colloid-labeled antibodies, we found that the two proteins mainly presented in viral inclusion bodies of Vero E6 cells ( Figure 3A -C). These results reinforce the finding that the CD147-SP interaction enhances viral invasion for host cells.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 348,
+                    "end": 357,
+                    "text": "Figure 3A",
+                    "ref_id": null
+                }
+            ],
+            "section": "Detection of localization of CD147 and SP by immuno-electron microscope"
+        },
+        {
+            "text": "The emergence of SARS-CoV-2 and its rapid spread across the world has triggered a global health emergency. Patients with COVID-19 show abnormal findings on chest computed tomography, along with common symptoms that include cough, fever and fatigue [17] . Middle-aged and elderly patients with underlying comorbidities are susceptible to respiratory failure and may have a poorer prognosis [18] . The pathological features of patients with COVID-19 are very similar to those of patients with SARS and MERS infection [19] . However, COVID-19 is more contagious than SARS and MERS [20] . Therefore, it is urgent to develop a specific antiviral drug against COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 248,
+                    "end": 252,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 389,
+                    "end": 393,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 515,
+                    "end": 519,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 578,
+                    "end": 582,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "It is known that ACE2 has been widely recognized as an essential receptor in virus invasion, and viral replication was specifically inhibited by an anti-ACE2 antibody [21] . However, ACE2 is widely distributed in variety of tissues, especially in the heart, kidney and testes [22] , which plays a profound role in controlling blood pressure, preventing heart failure and kidney injury [23] [24] [25] . For lung diseases, the loss of ACE2 enhances vascular permeability and lung edema, activates the renin-angiotensin system and contributes to pathogenesis of severe lung injury [26] . Therefore, treatment with ACE2 as target may have a negative effect on its protective role.",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 171,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 276,
+                    "end": 280,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 385,
+                    "end": 389,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 390,
+                    "end": 394,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 395,
+                    "end": 399,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 578,
+                    "end": 582,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In our study, CD147 was identified as a novel receptor of SP, and the CD147-SP interaction facilitated the viral invasion for host cells. As mentioned earlier, CD147 is highly expressed in tumor tissues, inflamed tissues and pathogen infected cells, which leads to low cross-reaction with normal cells [27, 28] . In the meanwhile, Meplazumab, a humanized anti-CD147 antibody, could effectively inhibit the viruses from invading host cells by blocking CD147. Our previous research and development of original antibody drugs, such as Metuximab, Metuzumab, Meplazumab, all exhibits sound safety in preclinical research and clinical administration. Therefore, the CD147 targeted drug is safe and reliable in its application, and is a receptor-blocking drug, which blocks the virus from invading host cells, without being affected by virus variation. author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 302,
+                    "end": 306,
+                    "text": "[27,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 307,
+                    "end": 310,
+                    "text": "28]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.14.988345 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In general, our study reported that CD147 was a novel receptor for SP. The route of CD147-SP facilitated SARS-CoV-2 invasion for host cells. Therefore, this route provides a novel target, with a good druggability, for specific antiviral drug development in the treatment of COVID-19. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The cell lines (Vero E6 and 293T) have been tested and authenticated using Short Tandem Repeat DNA profiling by Beijing Microread Genetics Co., Ltd (Beijing, China) and were cultured at 37\u2103 under 5% CO 2 in DMEM or RPMI 1640 medium supplemented with 10% fetal bovine serum, 1% penicillin/streptomycin and 2% L-glutamine. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cell culture"
+        },
+        {
+            "text": "SPR analysis was performed by BIAcore 3000 system (BIAcore). His-CD147 (produced by our laboratory) was fixed to the surface of CM5 sensor chips (GE Healthcare Bio-Sciences AB) by amino coupling kit (GE Healthcare, BR-1000-50); interaction between CD147 and SP (RBD) (GenScript, China) was detected using Kinetic Analysis/Concentration Series/Direct Binding mode, and the flow rate was set to 15 \u03bcl/min, both binding time and dissociation time were 3 min. The results were analyzed by BIAevaluation software to determine the affinity constant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SPR assay"
+        },
+        {
+            "text": "Co-IP assay was performed using Pierce \u00ae Co-Immunoprecipitation Kit (26149, Thermo Fisher Scientific, USA) according to the manufacturer's protocol. Anti-CD147 antibody (HAb18, produced by our laboratory) and anti-SARS-CoV-2 Spike antibody (40150-R007, Sino Biological, China) were used for antibody immobilization for Co-IP. The eluted proteins were detected by western blot. After boiling for 5-10 minutes, the eluted proteins were loaded to 12% SDS-PAGE gel and then transferred to PVDF author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Co-IP assay"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.14.988345 doi: bioRxiv preprint membranes (Millipore, Boston, USA). After blocking with 5% non-fat milk for 1 hour, the membrane was incubated with the corresponding primary antibodies (anti-CD147, HAb18, produced by our laboratory, dilution 1:2000; anti-SARS-CoV-2 Spike antibody, 40150-R007, Sino Biological, China, dilution 1:2000) at 4\u00ba C overnight. The images were developed after incubation with the secondary antibodies (goat anti-mouse IgG(H+L) antibody, 31430, Thermo Fisher Scientific, MA, USA, dilution 1:5000; goat anti-rabbit IgG(H+L) antibody; 31460, Thermo Fisher Scientific, MA, USA, dilution 1:5000) at room temperature for 1 hour.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Co-IP assay"
+        },
+        {
+            "text": "ELISA assay was performed to identify the interaction of CD147 and SP. The His-SP (RBD) protein was coated on microplate, and then incubated with different concentrations of His-CD147 protein (2-fold dilution, 400-0.195 \u03bcg/mL) at 37\u00b0C for 1 hour. After washing with PBST, the samples were incubated with anti-CD147 antibody (HAb18, produced by our laboratory) for 1 hour; and then incubated with horseradish peroxidase (HRP)-labeled goat anti-mouse antibody for 1 hour. After coloration, the OD value at 450 nm was measured with a full-wavelength microplate reader (Epoch,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ELISA"
+        },
+        {
+            "text": "BioTek Instruments, Inc.). The ability of Meplazumab to compete with SP for CD147 binding was performed by competitive inhibition ELISA. The protein His-CD147 was coated onto the wells of microplate, the mixture of His-SP (RBD) and Meplazumab ( 2-fold dilution, 200-0.781 \u00b5g/mL) was added and incubated. Subsequently, the samples were incubated with anti-SARS-CoV-2 Spike antibody (40150-R007, Sino Biological, China) and then detected with HRP-labeled goat anti-rabbit antibody for 1 hour at 37\u00b0C, the following steps were similar to those described earlier.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ELISA"
+        },
+        {
+            "text": "Vero E6 cells infected with SARS-CoV-2 were harvested and treated with fixative at 4\u00b0C . The sections of the cells were prepared through dehydration and embedding. After washing with ultrapure water, the sections were treated with 1% H 2 O 2 for 10 min. Having been blocked with goat serum for 30min, the sections was incubated with corresponding primary antibodies (anti-CD147, HAb18, produced by our laboratory, dilution 1:200; anti-SARS-CoV-2 Spike antibody, 40150-R007, Sino Biological, China, dilution 1:400) for 16 hours at 4\u00ba C overnight. Subsequently, the sections were washed with PBS for 5 min, and treated with PBS (containing 1% bovine serum albumin, BSA, pH 8.2) for 7 min. Then the gold colloid-labeling method was used to determine the localization of CD147 and SP for 1h at room temperature, and the sections were consecutively stained with 5% uranium acetate and lead acetate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immuno-electron microscope"
+        },
+        {
+            "text": "Immune-electron microscope was used to observe the protein location.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immuno-electron microscope"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. LANCET",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Coronavirus envelope protein: current knowledge",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schoeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fielding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "VIROL J",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Characterization of a novel coronavirus associated with severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rota",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Oberste",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Monroe",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Nix",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Campagnoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Icenogle",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Penaranda",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bankamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Maher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tamin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lowe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "SCIENCE",
+            "volume": "300",
+            "issn": "",
+            "pages": "1394--1399",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Mechanisms and enzymes involved in SARS coronavirus genome expression",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Thiel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ivanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Putics",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hertzig",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schelle",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Weissbrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Snijder",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rabenau",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Doerr",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J GEN VIROL",
+            "volume": "84",
+            "issn": "",
+            "pages": "2305--2315",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus Spike Protein and Tropism Changes",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hulswit",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "De Haan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bosch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "ADV VIRUS RES",
+            "volume": "96",
+            "issn": "",
+            "pages": "29--57",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Epidemic and Emerging Coronaviruses (Severe Acute Respiratory Syndrome and Middle East Respiratory Syndrome)",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "CLIN CHEST MED",
+            "volume": "38",
+            "issn": "",
+            "pages": "71--86",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Structural basis for the recognition of the SARS-CoV-2 by full-length human ACE2",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "N-glycosylation by N-acetylglucosaminyltransferase V enhances the interaction of CD147/basigin with integrin beta1 and promotes HCC metastasis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jing",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J PATHOL",
+            "volume": "245",
+            "issn": "",
+            "pages": "41--52",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "CD147 promotes reprogramming of glucose metabolism and cell proliferation in HCC cells by inhibiting the p53-dependent signaling pathway",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J HEPATOL",
+            "volume": "61",
+            "issn": "",
+            "pages": "859--866",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "HAb18G/CD147 promotes cell motility by regulating annexin II-activated RhoA and Rac1 signaling pathways in hepatocellular carcinoma cells",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tavernier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "HEPATOLOGY",
+            "volume": "54",
+            "issn": "",
+            "pages": "2012--2024",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Basolateral CD147 induces hepatocyte polarity loss by E-cadherin ubiquitination and degradation in hepatocellular carcinoma progress",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nan",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Bian",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "HEPATOLOGY",
+            "volume": "68",
+            "issn": "",
+            "pages": "317--332",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Disrupting CD147-RAP2 interaction abrogates erythrocyte invasion by Plasmodium falciparum",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BLOOD",
+            "volume": "131",
+            "issn": "",
+            "pages": "1111--1121",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "CD147 facilitates HIV-1 infection by interacting with virus-associated cyclophilin A",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pushkarsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zybarth",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dubrovsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Yurchenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Toole",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sherry",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bukrinsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "98",
+            "issn": "",
+            "pages": "6360--6365",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Redistribution of cyclophilin A to viral factories during vaccinia virus infection and its incorporation into mature particles",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Carvalho",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Moussatche",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Damaso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J VIROL",
+            "volume": "77",
+            "issn": "",
+            "pages": "9052--9068",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Function of HAb18G/CD147 in invasion of host cells by severe acute respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J INFECT DIS",
+            "volume": "191",
+            "issn": "",
+            "pages": "755--760",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A novel coronavirus (2019-nCoV) causing pneumonia-associated respiratory syndrome",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ying",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "CELL MOL IMMUNOL",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Clinical characteristics of novel coronavirus cases in tertiary hospitals in Hubei Province",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiao",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Chin Med J (Engl",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Pathological findings of COVID-19 associated with acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) in China",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Vasilieva",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sui",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Berne",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Somasundaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Luzuriaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Greenough",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Choe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "NATURE",
+            "volume": "426",
+            "issn": "",
+            "pages": "450--454",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "A human homolog of angiotensin-converting enzyme. Cloning and functional expression as a captopril-insensitive carboxypeptidase",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tipnis",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hyde",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Karran",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Christie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J BIOL CHEM",
+            "volume": "275",
+            "issn": "",
+            "pages": "33238--33243",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Loss of angiotensin-converting enzyme-2 (Ace2) accelerates diabetic kidney injury",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Oudit",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Reich",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Kassiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Backx",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Penninger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Herzenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Scholey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "AM J PATHOL",
+            "volume": "171",
+            "issn": "",
+            "pages": "438--451",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Transgenic angiotensin-converting enzyme 2 overexpression in vessels of SHRSP rats reduces blood pressure and improves endothelial function",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rentzsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Todiras",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Iliescu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Popova",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Campos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baltatu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bader",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "HYPERTENSION",
+            "volume": "52",
+            "issn": "",
+            "pages": "967--973",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Cardiac overexpression of angiotensin converting enzyme 2 protects the heart from ischemia-induced pathophysiology",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Der Sarkissian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Grobe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Narielwala",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Walter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Katovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Raizada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "HYPERTENSION",
+            "volume": "51",
+            "issn": "",
+            "pages": "712--718",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Trilogy of ACE2: a peptidase in the renin-angiotensin system, a SARS receptor, and a partner for amino acid transporters",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kuba",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ohto-Nakanishi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Penninger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Pharmacol Ther",
+            "volume": "128",
+            "issn": "",
+            "pages": "119--128",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "CD147 (EMMPRIN/Basigin) in kidney diseases: from an inflammation and immune system viewpoint",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kosugi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Maeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Sato",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Maruyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kadomatsu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nephrol Dial Transplant",
+            "volume": "30",
+            "issn": "",
+            "pages": "1097--1103",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "The roles of CyPA and CD147 in cardiac remodelling",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "EXP MOL PATHOL",
+            "volume": "104",
+            "issn": "",
+            "pages": "222--226",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "This study was approved by the ethics committee of First Affiliated Hospital of Fourth Military Medical University (KY20202005-1). SARS-CoV-2 strain (2019-nCoV BetaCoV /Beijing /AMMS01 /2020) was isolated and preserved in State Key Laboratory of Pathogen and Biosecurity at Beijing Institute of Microbiology and Epidemiology. All the experiments involved with viruses were performed in BSL-3 Laboratory of Beijing Institute of Microbiology and Epidemiology.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Vero E6 cells were cultured in a 96-well plate at 37\u00baC overnight, the supernatant was discard and 100 \u03bcl of medium (containing 3.125, 6.25, 12.5, 25, 50, 100, 150, 200 \u03bcg/mL Meplazumab) was added into the plates to incubate for 1 h. Then the cells were infected with SARS-CoV-2 (100TCID 50 ). After one-hour infection, the supernatants were removed and 200 \u03bcl of medium (containing 3.125, 6.25, 12.5, 25, 50, 100, 150, 200 \u03bcg/mL Meplazumab) was added, the cells were cultured to observe the cytopathic changes for 2-3 days. The supernatants were harvested to detect the gene copy number of virus with quantitative PCR. Finally, the value of optical density (OD) at 570 nm was measured with a microplate reader (Epoch, BioTek Instruments, Inc.). A virus control group and a blank control group were set at the same time. The same method was conducted with different antibody concentration (containing 6.25, 12.5, 25, 50, 100, 200, 400, 800, 1000 \u03bcg/mL Meplazumab), and the Vero E6 cells were stained by crystal violet staining.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank Prof. Nanshan Zhong and members of Zhong lab for their critical guidance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGEMENTS"
+        },
+        {
+            "text": "All the statistical analyses were performed using GraphPad prism 5.0. Data from ELISA were analyzed using parameter curve fitting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

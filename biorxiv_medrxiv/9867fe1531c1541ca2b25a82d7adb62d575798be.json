@@ -1,0 +1,1888 @@
+{
+    "paper_id": "9867fe1531c1541ca2b25a82d7adb62d575798be",
+    "metadata": {
+        "title": "The SARS-CoV-2 transcriptome The architecture of SARS-CoV-2 transcriptome The SARS-CoV-2 transcriptome",
+        "authors": [
+            {
+                "first": "Dongwan",
+                "middle": [],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Joo-Yeon",
+                "middle": [],
+                "last": "Lee",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Korea National Institute of Health",
+                    "location": {
+                        "postCode": "28159",
+                        "settlement": "Osong",
+                        "country": "Korea, Republic of Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jeong-Sun",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Korea National Institute of Health",
+                    "location": {
+                        "postCode": "28159",
+                        "settlement": "Osong",
+                        "country": "Korea, Republic of Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jun",
+                "middle": [
+                    "Won"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Korea National Institute of Health",
+                    "location": {
+                        "postCode": "28159",
+                        "settlement": "Osong",
+                        "country": "Korea, Republic of Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "V",
+                "middle": [
+                    "Narry"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hyeshik",
+                "middle": [],
+                "last": "Chang",
+                "suffix": "",
+                "affiliation": {},
+                "email": "hyeshik@snu.ac.kr"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "SARS-CoV-2 is a betacoronavirus that is responsible for the COVID-19 2 pandemic. The genome of SARS-CoV-2 was reported recently, but its 3 transcriptomic architecture is unknown. Utilizing two complementary 4 sequencing techniques, we here present a high-resolution map of the 5 SARS-CoV-2 transcriptome and epitranscriptome. DNA nanoball sequencing 6 shows that the transcriptome is highly complex owing to numerous 7 recombination events, both canonical and noncanonical. In addition to the 8 genomic RNA and subgenomic RNAs common in all coronaviruses, 9 SARS-CoV-2 produces a large number of transcripts encoding unknown ORFs 10 with fusion, deletion, and/or frameshift. Using nanopore direct RNA 11 sequencing, we further find at least 41 RNA modification sites on viral 12 transcripts, with the most frequent motif being AAGAA. Modified RNAs have 13 shorter poly(A) tails than unmodified RNAs, suggesting a link between the 14 internal modification and the 3 \u2032 tail. Functional investigation of the unknown 15 ORFs and RNA modifications discovered in this study will open new directions 16 to our understanding of the life cycle and pathogenicity of SARS-CoV-2. 17 Kim et al. Highlights 21 \u2022 We provide a high-resolution map of SARS-CoV-2 transcriptome and 22 epitranscriptome using nanopore direct RNA sequencing and DNA 23 nanoball sequencing. 24 \u2022 The transcriptome is highly complex owing to numerous recombination 25 events, both canonical and noncanonical. 26 \u2022 In addition to the genomic and subgenomic RNAs common in all 27 coronaviruses, SARS-CoV-2 produces transcripts encoding unknown 28 ORFs. 29 \u2022 We discover at least 41 potential RNA modification sites with an AAGAA 30 motif. 31 Kim et al. designated as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) 34 (Zhou et al., 2020; Zhu et al., 2020). Like other coronaviruses (order Nidovirales, 35 family Coronaviridae, subfamily Coronavirinae), SARS-CoV-2 is an enveloped 36 virus with a positive-sense, single-stranded RNA genome of~30 kb. 37 SARS-CoV-2 belongs to the genus betacoronavirus, together with SARS-CoV 38 and Middle East respiratory syndrome coronavirus (MERS-CoV) (with 80% and 39 50% homology, respectively) (Kim et al., 2020; Zhou et al., 2020). Coronaviruses 40 (CoVs) were thought to primarily cause enzootic infections in birds and 41 mammals. But, the recurring outbreaks of SARS, MERS, and now COVID-19 42 have clearly demonstrated the remarkable ability of CoVs to cross species 43 barriers and transmit between humans (Menachery et al., 2017). 44 CoVs carry the largest genomes (26-32 kb) among all RNA virus families 45 (Figure 1). Each viral transcript has a 5 \u2032 -cap structure and a 3 \u2032 poly(A) tail (Lai 46 and Stohlman, 1981; Yogo et al., 1977). Upon cell entry, the genomic RNA is 47 translated to produce nonstructural proteins (nsps) from two open reading 48 frames (ORFs), ORF1a, and ORF1b. The ORF1a produces polypeptide 1a (pp1a, 49 440-500 kDa) that is cleaved into 11 nsps. The \u22121 ribosome frameshift occurs 50 immediately upstream of the ORF1a stop codon, which allows continued 51 translation of ORF1b, yielding a large polypeptide (pp1ab, 740-810 kDa) which 52 is cleaved into 16 nsps. The proteolytic cleavage is mediated by viral proteases 53 nsp3 and nsp5 that harbor a papain-like protease domain and a 3C-like protease 54 domain, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "55",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The viral genome is also used as the template for replication and 56 transcription, which is mediated by nsp12 harboring RNA-dependent RNA 57 polymerase (RdRP) activity (Snijder et al., 2016; Sola et al., 2015) . 58 Negative-strand RNA intermediates are generated to serve as the templates for 59 the synthesis of positive-sense genomic RNA (gRNA) and subgenomic RNAs 60 (sgRNAs). The gRNA is packaged by the structural proteins to assemble progeny 61 virions. Shorter sgRNAs encode conserved structural proteins (spike protein (S), 62 Kim et al.",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 191,
+                    "text": "(Snijder et al., 2016;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 192,
+                    "end": 210,
+                    "text": "Sola et al., 2015)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "From the full-length genomic RNA (29, 903 nt) which also serves as an mRNA, ORF1a and ORF1b are translated. In addition to the genomic RNA, nine major subgenomic RNAs are produced. The sizes of the boxes representing small accessory proteins are bigger than the actual size of the ORF for better visualization. The black box indicates leader sequence. Note that ORF10 is not included here because our data show no evidence for ORF10 expression. (Warkocki et al., 2018) . 98 In this study, we combined two complementary sequencing approaches, DRS 99 and SBS. We unambiguously mapped the sgRNAs, ORFs, and TRSs of A, Read counts from nanopore direct RNA sequencing of total RNA from Vero cells infected with SARS-CoV-2. \"Leader+\" indicates the viral reads that contain the 5 \u2032 end leader sequence. \"No leader\" denotes the viral reads lacking the leader sequence.",
+            "cite_spans": [
+                {
+                    "start": 33,
+                    "end": 37,
+                    "text": "(29,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 38,
+                    "end": 41,
+                    "text": "903",
+                    "ref_id": null
+                },
+                {
+                    "start": 445,
+                    "end": 468,
+                    "text": "(Warkocki et al., 2018)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 471,
+                    "end": 473,
+                    "text": "98",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "\"Nuclear\" reads match to mRNAs from the nuclear chromosome while \"mitochondrial\" reads are derived from the mitochondrial genome. \"Control\" indicates quality control RNA for nanopore sequencing. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "To delineate the SARS-CoV-2 transcriptome, we first performed DRS runs on 106 a MinION nanopore sequencer using total RNA extracted from Vero cells 107 infected with SARS-CoV-2 (BetaCoV/Korea/KCDC03/2020). The virus was 108 isolated from a patient who was diagnosed with COVID-19 on January 26, 2020, 109 after traveling from Wuhan, China (Kim et al., 2020) . We obtained 879,679 110 reads from infected cells (corresponding to a throughput of 1.9 Gb) (Figure 2A ). 111",
+            "cite_spans": [
+                {
+                    "start": 339,
+                    "end": 357,
+                    "text": "(Kim et al., 2020)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 452,
+                    "end": 462,
+                    "text": "(Figure 2A",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "105"
+        },
+        {
+            "text": "The majority (65.4%) of the reads mapped to SARS-CoV-2, indicating that viral 112 transcripts dominate the transcriptome while the host gene expression is 113 strongly suppressed. Although nanopore DRS has the 3 \u2032 bias due to directional 114 sequencing from the 3 \u2032 -ends of RNAs, approximately half of the viral reads still 115 contained the 5 \u2032 leader.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "105"
+        },
+        {
+            "text": "The SARS-CoV-2 genome was fully covered, missing only 12 nt from the 5 \u2032 117 end ( Figure 2B ). The longest tags (111 reads) correspond to the full-length 118 gRNA ( Figure 2B ). The coverage of the 3 \u2032 side of the viral genome is substantially 119 higher than that of the 5 \u2032 side, which reflects the nested sgRNAs. This is also 120 partly due to the 3 \u2032 bias of the directional DRS technique. The presence of the 121 leader sequence (72 nt) in viral RNAs results in a prominent coverage peak at the 122 5 \u2032 end, as expected. We could also clearly detect vertical drops in the coverage, 123 whose positions correspond to the leader-body junction in sgRNAs. All known 124 sgRNAs are supported by DRS reads, with the exception of ORF10 (see below). 125",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 83,
+                    "end": 92,
+                    "text": "Figure 2B",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 166,
+                    "end": 175,
+                    "text": "Figure 2B",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "116"
+        },
+        {
+            "text": "In addition, we observed unexpected reads reflecting noncanonical 126 recombination events. Such fusion transcripts resulted in the increased coverage 127 towards the 5 \u2032 end ( Figure 2B , inner box). Early studies on coronavirus mouse 128 hepatitis virus reported that recombination frequently occurs (Furuya and Lai, exhibits a high coverage as expected for the nested transcripts.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 177,
+                    "end": 186,
+                    "text": "Figure 2B",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "116"
+        },
+        {
+            "text": "The depth of DNB sequencing allowed us to confirm and examine the 138 junctions on an unprecedented scale for a CoV genome. We mapped the 5 \u2032 and 139 3 \u2032 sites at the fused junctions and estimated the recombination frequency by 140 counting the reads spanning the junctions ( Figure 3A ). The leader represents the 141 most prominent 5 \u2032 site, as expected ( Figure 3A , red asterisk on the x-axis). The 142 known TRSs are detected as the top 3 \u2032 sites ( Figure 3A , red dots on the y-axis).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 276,
+                    "end": 285,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 358,
+                    "end": 367,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 454,
+                    "end": 463,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "137"
+        },
+        {
+            "text": "These results confirm that SARS-CoV-2 uses the canonical TRS-mediated 144 mechanism for discontinuous transcription to produce major sgRNAs ( Table S3 ). The second cluster shows a long-distance fusion 160 between sequences that do not have similarity to the leader ( Figure 3F , The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988865 doi: bioRxiv preprint Figure 3 (previous page) | A, Positions of recombination sites determined by using junction-spanning reads from DNBseq data. The x-axis and y-axis show the positions of the 5 \u2032 sites and their joined 3 \u2032 sites, respectively. The frequency of the recombination was estimated by the read counts of the junction-spanning reads. The red asterisk on the x-axis is to indicate that the leader sequence. Please note that the left-most bins containing the leader TRS was expanded horizontally on this heatmap to improve visualization. The red dots on the sub-plot alongside the y-axis denote local peaks which coincide with the 5 \u2032 end of the body of each sgRNA. B, Transcript abundance was estimated by counting the DNBseq reads that span the junction of the corresponding RNA. C, Top 50 sgRNAs. The asterisk indicates an ORF beginning at 27,825 which may encode the 7b protein with an N-terminal truncation of 23 amino acid. The grey bars denote minor transcripts that encode proteins with an N-terminal truncation compared with the corresponding overlapping transcript. The black bars indicate minor transcripts that encode proteins in a different reading frame from the overlapping major mRNA. D, Canonical recombination. E, TRS-L-dependent noncanonical recombination between the leader TRS and a noncanonical 3 \u2032 site in the body. F, TRS-L-independent long-distance (>5,000 nt) recombination. G, TRS-L-independent local recombination yielding a deletion between proximal sites (20-5,000 nt distance).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 142,
+                    "end": 150,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 268,
+                    "end": 277,
+                    "text": "Figure 3F",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 422,
+                    "end": 430,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "143"
+        },
+        {
+            "text": "Of note, the junctions in these noncanonical transcripts do not contain a numerous signal level changes corresponding to 5mC modification, even with 225 the unmodified controls ( Figure S1C ). We obtained highly comparable results 226 from the viral RNAs from infected cells ( Figure S1D ), demonstrating that the 227 5mC sites detected without a control may be false positives. 228 We, however, noticed intriguing differences in the ionic current (called 229 \"squiggles\") between negative control and viral transcripts ( Figure 5A ). At least 230",
+            "cite_spans": [
+                {
+                    "start": 379,
+                    "end": 382,
+                    "text": "228",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 179,
+                    "end": 189,
+                    "text": "Figure S1C",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 277,
+                    "end": 287,
+                    "text": "Figure S1D",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 522,
+                    "end": 531,
+                    "text": "Figure 5A",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "143"
+        },
+        {
+            "text": "Kim et al.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "143"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988865 doi: bioRxiv preprint potential RNA modifications (Table S5) . Notably, some of the sites showed 232 different frequencies depending on the sgRNA species. Figures 5A-5C show an 233 example that is modified more heavily on the S RNA than the N RNA, while is longer than that of the unmodified base ( Figure 5D, right) , suggesting that the 237 modification interferes with the passing of RNA molecules through the pore.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 254,
+                    "end": 264,
+                    "text": "(Table S5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 359,
+                    "end": 372,
+                    "text": "Figures 5A-5C",
+                    "ref_id": "FIGREF11"
+                },
+                {
+                    "start": 503,
+                    "end": 520,
+                    "text": "Figure 5D, right)",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "12/29"
+        },
+        {
+            "text": "Among the 41 potential modification sites, the most frequently observed 239 motif is AAGAA (Figures 5E and S2D ). The modification sites on the The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988865 doi: bioRxiv preprint Refer to Methods for the experimental procedure.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 91,
+                    "end": 110,
+                    "text": "(Figures 5E and S2D",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "238"
+        },
+        {
+            "text": "The genomic coordinates in the \"5 \u2032 site\" and \"3 \u2032 site\" point to the 3 \u2032 -most and the 5 \u2032 -most nucleotides that survive the recombination event, respectively. \"Count\" is the number of the junction-spanning reads that supports the recombination event. \"Skip\" is the size of the deletion. \"5p_before\" is the 3 \u2032 -most sequence from the 5 \u2032 -side of the recombination event. \"5p_after\" is the bases immediately following the \"5 \u2032 site. \" The sequence is the first nucleotides of the region that is excluded by the recombination event.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Table 2 | Recombination sites detected from junction-spanning reads."
+        },
+        {
+            "text": "\"3p_before\" is the last nucleotide sequence of the region that is excluded by the recombination. \"3p_after\" is the 5 \u2032 -most nucleotides of the 3 \u2032 -side of the recombination product.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Table 2 | Recombination sites detected from junction-spanning reads."
+        },
+        {
+            "text": "leader-body junction (related to Fig. 3E) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 33,
+                    "end": 41,
+                    "text": "Fig. 3E)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Supplementary Table 3 | TRS-L-dependent recombination events resulting in noncanonical"
+        },
+        {
+            "text": "This table extends the information for the recombination events using the canonical leader TRS joined to noncanonical 3 \u2032 sites. \"Startpos\" is the genomic coordinate where the first AUG appears in the resulting recombination product. \"Resultingsequence\" shows the sequence near the recombination site with the nucleotides from the 5 \u2032 -side in lowercase, and those from the 3 \u2032 -side in uppercase. \"Annot_cds\" is the name of an ORF that shares the start codon position with the recombination product by the \"first AUG\" rule.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Table 3 | TRS-L-dependent recombination events resulting in noncanonical"
+        },
+        {
+            "text": "\"Annot_cds_start\" and \"annot_cds_end\" indicate the interval of the annotated canonical ORF that matches to the start codon in the recombination product. \"Startmatch_name\" and \"startmatch_offset\" show the canonical ORF that overlaps with the position of the first appearing AUG in the recombination product, and the distance between the AUG and the start codon position of the ORF. \"Stopmatch_name\" and \"stopmatch_offset\" show the canonical ORF that overlaps with the expected stop codon position in case the translation starts at the first appearing AUG, and the relative coordinate of the \"expected\" stop codon Kim et al.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Table 3 | TRS-L-dependent recombination events resulting in noncanonical"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988865 doi: bioRxiv preprint position from the stop codon of the canonical ORF. \"Translation\" shows the peptide sequence that is expected to be produced by the first ORF in the recombination product. Table 4 | TRS-L-independent distant recombination events from the 5 \u2032 sites located within the \"hot spots\" (related to Fig. 3F ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 397,
+                    "end": 404,
+                    "text": "Table 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 516,
+                    "end": 523,
+                    "text": "Fig. 3F",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "18/29"
+        },
+        {
+            "text": "Many distant recombination events do not involve the leader sequence. Instead, the 5' sites are often found in \"hot spots\" near ORFs or nsp2 and nsp3. \"Count\" indicates the number of reads that share the same 5 \u2032 and 3 \u2032 sites. \"Skip\" is the size of the deletion in the given combination of 5 \u2032 and 3 \u2032 sites.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary"
+        },
+        {
+            "text": "\"Truncated_prod\" is the name of a mature peptide that is truncated by recombination. \"Lost_aa\" is the number of amino acids lost from the mature peptide by recombination. \"Added_aa\" is the number of amino acids introduced to the potentially truncated product by recombination. By the recombination event, the sequence indicated in \"ctx_orig\" turns into the sequence in \"ctx_new\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary"
+        },
+        {
+            "text": "The \"pos\" column shows all genomic positions reported to be modified at least 20% in any species of sgRNA. \"Location\" indicates the name of ORF or mature peptide that the position codes. The percentage numbers below the names of sgRNAs are the estimated fraction of modified reads at the position. \"Context\" shows the sequence context around the modified bases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Table 5 | Detected modification sites in sgRNAs."
+        },
+        {
+            "text": "Kim et al.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Table 5 | Detected modification sites in sgRNAs."
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988865 doi: bioRxiv preprint One fragment marked with a green rectangle is longer than others (~4.4 kb) to circumvent difficulties in the PCR amplification. The sequenced reads were downsampled so that every region is equally covered. u c a a g a a u  27488 u u a a a a g a a  27947 a c c a a g a a u  28591 g u c c a a g a u  28612 a c c u a g g a a  28653 a a c a a a g a c  28701 c c a a a a g a u  28803 a g c a g a g g c  28856 u u c a a g a a a  28898 u g c u a g a a u  29015 c a c u a a g a a  29039 u u c u a a g a a  29123 c c a a g g a a a  29155 g a c a a g g a a  29298 g a c a a a g a u 29313 u u c a a a g a u 29378 g c c u a a a a a 29405 u g a u g a a a c 29776 u g c u a g g g a Table S1 . for the JSRs that the 5 \u2032 site is in a region that is annotated as a UTR. For the cases 386 that the 5 \u2032 site is in a known ORF or an AUG is introduced by recombination, 387 we checked if the concatenated sequence generates a protein product with the 388 same reading frame as a canonical ORF after the 3 \u2032 site. used the reads that were reported as modified at three or more sites with a 408 statistic < 0.01 as \"highly modified\" reads. \"Not modified\" reads were reported 409 with the statistic \u2265 0.01 in all eight sites. 410 Kim et al.",
+            "cite_spans": [
+                {
+                    "start": 1075,
+                    "end": 1078,
+                    "text": "387",
+                    "ref_id": null
+                },
+                {
+                    "start": 1428,
+                    "end": 1431,
+                    "text": "410",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 432,
+                    "end": 779,
+                    "text": "u c a a g a a u  27488 u u a a a a g a a  27947 a c c a a g a a u  28591 g u c c a a g a u  28612 a c c u a g g a a  28653 a a c a a a g a c  28701 c c a a a a g a u  28803 a g c a g a g g c  28856 u u c a a g a a a  28898 u g c u a g a a u  29015 c a c u a a g a a  29039 u u c u a a g a a  29123 c c a a g g a a a  29155 g a c a a g g a a  29298",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 894,
+                    "end": 902,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "19/29"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.12.988865 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "29/29"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Epitranscriptomic Enhancement of Influenza A Virus Gene Expression and Replication",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Courtney",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kennedy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dumm",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bogerd",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Heaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Cullen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cell Host Microbe",
+            "volume": "22",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "STAR: ultrafast universal RNA-seq aligner",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dobin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Schlesinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Drenkow",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zaleski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jha",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Batut",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chaisson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gingeras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Bioinformatics",
+            "volume": "29",
+            "issn": "",
+            "pages": "15--21",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Three different cellular proteins bind to complementary sites on the 5'-end-positive and 3'-end-negative strands of mouse hepatitis virus RNA",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Furuya",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J Virol",
+            "volume": "67",
+            "issn": "",
+            "pages": "7215--7222",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "RNA modifications go viral",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gokhale",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Horner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS Pathog",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "N6-Methyladenosine in Flaviviridae Viral RNA Genomes Regulates Infection",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gokhale",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B R"
+                    ],
+                    "last": "Mcintyre",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcfadden",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Roder",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kennedy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gandara",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hopcraft",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Quicke",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Vazquez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Willer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Cell Host Microbe",
+            "volume": "20",
+            "issn": "",
+            "pages": "654--665",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kariko",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Buckstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Weissman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Immunity",
+            "volume": "23",
+            "issn": "",
+            "pages": "165--175",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Identification of Coronavirus Isolated from a Patient in Korea with COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Woo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Osong Public Health Res Perspect",
+            "volume": "11",
+            "issn": "",
+            "pages": "3--7",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Influenza viral mRNA contains internal N6-methyladenosine and 5'-terminal 7-methylguanosine in cap structures",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Krug",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Morgan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Shatkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1976,
+            "venue": "J Virol",
+            "volume": "20",
+            "issn": "",
+            "pages": "45--53",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Comparative analysis of RNA genomes of mouse hepatitis viruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stohlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "J Virol",
+            "volume": "38",
+            "issn": "",
+            "pages": "661--670",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Minimap2: pairwise alignment for nucleotide sequences",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bioinformatics",
+            "volume": "34",
+            "issn": "",
+            "pages": "3094--3100",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "RNA recombination in a coronavirus: recombination between viral genomic RNA and transfected RNA fragments",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "J Virol",
+            "volume": "66",
+            "issn": "",
+            "pages": "6117--6124",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Dynamics of Human and Viral RNA Methylation during Zika Virus Infection",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lichinchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rana",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Cell Host Microbe",
+            "volume": "20",
+            "issn": "",
+            "pages": "666--673",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Replication of synthetic defective interfering RNAs derived from coronavirus mouse hepatitis virus-A59",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Luytjes",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gerritsma",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Spaan",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Virology",
+            "volume": "216",
+            "issn": "",
+            "pages": "174--183",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Defective Interfering RNAs: Foes of Viruses and Friends of Virologists",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Pathak",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Nagy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Viruses",
+            "volume": "1",
+            "issn": "",
+            "pages": "895--919",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The Nonstructural Proteins Directing Coronavirus RNA Synthesis and Processing",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Snijder",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Decroly",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Adv Virus Res",
+            "volume": "96",
+            "issn": "",
+            "pages": "59--126",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Continuous and Discontinuous RNA Synthesis in Coronaviruses",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sola",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Almazan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zuniga",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Enjuanes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Annu Rev Virol",
+            "volume": "2",
+            "issn": "",
+            "pages": "265--288",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "De novo Identification of DNA Modifications Enabled by Genome-Guided Nanopore Signal Processing",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stoiber",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Quick",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Egan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Eun Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Celniker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Neely",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Loman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pennacchio",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Identification of a novel human nuclear-encoded mitochondrial poly(A) polymerase",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tomecki",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dmochowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gewartowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dziembowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Stepien",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res",
+            "volume": "32",
+            "issn": "",
+            "pages": "6001--6014",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Identification and Characterization of a Human Coronavirus 229E Nonstructural Protein 8-Associated RNA 3'-Terminal Adenylyltransferase Activity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tvarogova",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Madhugiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bylapudi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Karl",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Virol",
+            "volume": "93",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Direct RNA nanopore sequencing of full-length coronavirus genomes provides novel insights into structural variants and enables modification analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Viehweger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Krautwurst",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lamkiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Madhugiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Holzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Genome Res",
+            "volume": "29",
+            "issn": "",
+            "pages": "1545--1554",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Virtanen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gommers",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Oliphant",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haberland",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Reddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cournapeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Burovski",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Peterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Weckesser",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bright",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Methods",
+            "volume": "17",
+            "issn": "",
+            "pages": "261--272",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Terminal nucleotidyl transferases (TENTs) in mammalian RNA metabolism",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Warkocki",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Liudkovska",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Gewartowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mroczek",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dziembowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Philos Trans R Soc Lond B Biol Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Regulation of Viral Infection by the RNA Modification N6-Methyladenosine",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gokhale",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Horner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Annu Rev Virol",
+            "volume": "6",
+            "issn": "",
+            "pages": "235--253",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Regulation of coronaviral poly(A) tail length during infection",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ke",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chang",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS One",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Polyadenylate in the virion RNA of mouse hepatitis virus",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yogo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hirano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hino",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shibuta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Matumoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "J Biochem",
+            "volume": "82",
+            "issn": "",
+            "pages": "1103--1108",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Si",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--733",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Schematic presentation of the SARS-CoV-2 genome organization, the canonical subgenomic mRNAs, and the virion structure.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "envelope protein (E), membrane protein (M), and nucleocapsid protein (N)),63    and several accessory proteins. SARS-CoV-2 is known to have six accessory64 proteins (3a, 6, 7a, 7b, 8, and 10) according to the current annotation (NCBI Illumina and MGI platforms confer high accuracy and coverage. But they are 87 limited by short read length (200-400 nt), so the fragmented sequences should 88 be re-assembled computationally, during which the haplotype information is 89 lost. More recently introduced is the nanopore-based direct RNA sequencing 90 (DRS) approach. While nanopore DRS is limited in sequencing accuracy, it 91 enables long-read sequencing, which would be particularly useful for the 92 analysis of long nested CoV transcripts. Moreover, because DRS does not 93 require reverse transcription to generate cDNA, the RNA modification 94 information can be detected directly during sequencing. Numerous RNA 95 modifications have been found to control eukaryotic RNAs and viral RNAs 96 (Williams et al., 2019). Terminal RNA modifications such as RNA tailing also 97 plays a critical role in cellular and viral RNA regulation",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Statistics of sequencing data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "). Quantitative comparison of the junction-spanning reads shows that the N 146 RNA is the most abundantly expressed transcript, followed by S, 7a, 3a, 8, M, E, 147 6, and 7b (Figure 3C). It is important to note that ORF10 is represented by only 148 one read in DNB data (0.000009 % of viral junction-spanning reads) and that it 149 was not supported at all by DRS data. ORF10 does not show significant 150 homology to known proteins. Thus, ORF10 is unlikely to be expressed, and the 151 annotation of ORF10 should be reconsidered. Taken together, SARS-CoV-2 152 expresses nine canonical sgRNAs (S, 3a, E, M, 6, 7a, 7b, 8, and N) together with 153 the gRNA(Figures 1 and 3C).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "In addition to the canonical sgRNAs with expected structure and length155 (Figure 3D), our results show many minor recombination sites (Figures 3E-3G, 156 Table S2). There are three main types of such recombinant events. The RNAs in 157 the first cluster have the leader combined with the body at unexpected 3 \u2032 sites in 158 the middle of ORFs or UTRs (Figure 3E, TRS-L-dependent noncanonical 159 recombination;",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "161 TRS-L-independent distant recombination). The last group undergoes local 162 recombination, which leads to smaller deletions, mainly in structural and 163 accessory genes, including S (Figure 3G, TRS-L-independent local 164 recombination).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "L-dependent, noncanonical, in-frame (0.2%) TRS-L-dependent, noncanonical, out-of-frame (0.2%) TRS-L-independent, distant, in-frame (1.5%) TRS-L-independent, distant, out-of-frame (2.6%) TRS-L-independent, local, in-frame (1.1%) TRS-L-independent, local, out-of-frame (Viral subgenomic RNAs and their recombination sites.(continued on the next page)Kim et al.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "166known TRS-B, indicating that at least some of these transcripts may be 167 generated through a different mechanism(s). It was previously shown in other168    coronaviruses that transcripts with partial sequences are produced(Furuya and 169    Lai, 1993;Liao and Lai, 1992;Luytjes et al., 1996). These RNAs are considered as 170 parasites that compete for viral proteins, hence referred to as \"defective171 interfering RNAs\" (DI-RNAs) (Pathak and Nagy, 2009). Similar sgRNAs have 172 also been described in a recent sequencing analysis on alphacoronavirus 173 HCoV-229E (Viehweger et al., 2019), suggesting this mechanism may be 174 conserved among coronaviruses. While this may be due to erroneous replicase 175 activity, it remains an open question if the noncanonical recombinations have an 176 active role in the viral life cycle and evolution. Although individual RNA species 177 are not abundant, the combined read numbers are often comparable to the levels 178 of accessory transcripts. Most of the RNAs have coding potential to yield examine if these unknown ORFs are actually translated and yield functional 187 products. 188 As nanopore DRS is based on single-molecule detection of RNA, it offers a 189 unique opportunity to examine multiple epitranscriptomic features of individual 190 RNA molecules. We recently developed software to measure the length of 191 poly(A) tail from DRS data (Choi and Chang, unpublished). Using this software, 192 we confirm that, like other CoVs, SARS-CoV-2 RNAs carry poly(A) tails 193 (Figures 4A-B). The tail is likely to be critical for both translation and replication. 194 The tail of viral RNAs is 47 nt in median length. The full-length viral RNA has a 195 relatively longer tail than sgRNAs. Notably, sgRNAs have two tail populations: a 196 minor peak at~30 nt and a major peak at~45 nt (Figure 4B, arrowheads). Wu 197 and colleagues previously observed that the poly(A) tail length of bovine CoV 198 mRNAs change during infection: from~45 nt immediately after virus entry to 199 65 nt at 6-9 h.p.i. and~30 nt at 120-144 h.p.i. (Wu et al., 2013). Thus, the short 200 tails of~30 nt observed in this study may represent aged RNAs that are prone to 201 decay. Viral RNAs exhibit a homogenous length distribution, unlike host 202 nuclear genome-encoded mRNAs (Figure 4C). The distribution is similar to that 203 of mitochondrial chromosome-encoded RNAs whose tail is generated by 204 MTPAP (Tomecki et al., 2004). It was recently shown that HCoV-229E nsp8 has 205 an adenylyltransferase activity, which may extend poly(A) tail of viral RNA 206 (Tvarogova et al., 2019). Because poly(A) tail should be constantly attacked by 207 host deadenylases, the regulation of viral RNA tailing is likely to be important 208 for viral end replication. 209 Next, we examined the epitranscriptomic landscape of SARS-CoV-2 by using 210 the DRS data. Viral RNA modification was first described more than 40 years 211 ago (Gokhale and Horner, 2017). N6-methyladenosine (m6A) is the most widely 212 used modification (Courtney et al., 2017; Gokhale et al., 2016; Krug et al., 1976; 213 Lichinchi et al., 2016; Narayan et al., 1987), but other modifications have also 214 been reported on viral RNAs, including 5-methylcytosine methylation (5mC), 215 2 \u2032 -O-methylation (Nm), deamination, and terminal uridylation. In a recent 216 analysis of HCoV-229E using DRS, modification calling suggested frequent 217 Kim et al. Length of poly(A) tail. A-B, Poly(A) tail length distribution of viral transcripts. Arrowheads indicate peaks at~30 and~45 nt. C, Poly(A) tail length distribution of quality control RNA which has a 30-nt poly(A) tail, host mRNAs from the nuclear chromosome, or host RNAs from the mitochondrial chromosome. 5mC signal across viral RNAs (Viehweger et al., 2019). But since no direct 218 control group was included in the analysis, the proposed modification needed 219 validation. To unambiguously investigate the modifications, we generated 220 negative control RNAs by in vitro transcription of the viral sequences and 221 performed a DRS run on these unmodified controls (Figure S1A). The partially 222 overlapping control RNAs are~2.3 kb or~4.4 kb each and cover the entire 223 length of the genome (Figure S1B). Detection using pre-trained models reported 224",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "S2C present a site that is modified more frequently on the ORF8 235 RNA compared with the S RNA. Moreover, the dwell time of the modified base 236",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "AAGAA-like' motif (including AAGAA and other A/G-rich sequences) are 241 found throughout the viral genome but particularly enriched in genomic 242 positions 28,500-29,500 (Figure 5F). Long viral transcripts (gRNA, S, 3a, E, and 243 M) are more frequently modified than shorter RNAs (6, 7a, 7b, 8, and N) (Figure 244",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "5G), suggesting a modification mechanism that is specific for certain RNA245 species. 246 Since DRS allows simultaneous detection of multiple features on individual 247 molecules, we cross-examined the poly(A) tail length and internal modification 248 sites. Interestingly, modified RNA molecules have shorter poly(A) tails than 249 unmodified ones (Figures 5H and S3). These results suggest a link between the 250 internal modification and 3 \u2032 end tail. Since poly(A) tail plays an important role 251 in RNA turnover, it is tempting to speculate that the observed internal 252 modification is involved in viral RNA stability control. It is also plausible that 253 RNA modification is a mechanism to evade the host immune response. The type 254 of modification(s) is yet to be identified, although we can exclude 255 METTL3-mediated m6A (for lack of consensus motif RRACH), 256 ADAR-mediated deamination (for lack of A-to-G sequence change in the 257 DNBseq data), and m1A (for lack of the evidence for RT stop). Our finding 258 implicates a hidden layer of CoV regulation. It will be interesting in the future to 259 identify the chemical nature, enzymology, and biological functions of the 260 modification(s).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Frequent RNA modification sites. (continued on the next page) Kim et al.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "previous page) | A, Distinct ionic current signals (\"squiggles\") from viral S transcript (green lines) and in vitro transcribed control (IVT, black lines) indicate RNA modification at the genomic position 29,016. B, The ionic current signals from viral N transcript at the genomic position 29,016 (yellow lines) are similar to those from IVT control (black lines), indicating that modification is rare on the N sgRNA.C, Ionic current distribution at A29016. Blue line shows the signal distribution in the standard model of tombo 1.5. D, Dwell time difference supports RNA modification. The dwell time of the region 29,015-29,017 of the S RNA (right) is significantly longer than those of IVT control and N RNAs. On the contrary, the neighboring region 28,995-28,997 of IVT, N, and S RNA is indistinguishable (left). E, Position-specific base frequency of a motif enriched in the frequently modified sites. F, Genomic location of modification sites with the AAGAA-like motif (top row) and the others grouped by the detected nucleotide base. G, Location and modification levels in different RNA species. H, Poly(A) length distribution of gRNA (left) and S RNA (right). Modified viral RNAs carry shorter poly(A) tails. In this study, we delineate the transcriptomic and epitranscriptomic 262 architecture of SARS-CoV-2. Unambiguous mapping of the expressed sgRNAs 263 and ORFs is a prerequisite for the functional investigation of viral proteins, 264 replication mechanism, and host-viral interactions involved in pathogenicity. 265 An in-depth analysis of the joint reads revealed a highly complex landscape of 266 viral RNA synthesis. Like other RNA viruses, CoVs undergo frequent 267 recombination, which may allow rapid evolution to change their host/tissue 268 specificity and drug sensitivity. The ORFs found in this study may serve as 269 accessory proteins that modulate viral replication and host immune response. 270 The RNA modifications may also contribute to viral survival and immune 271 evasion in infected tissues as the innate immune system is known to be less 272 sensitive to RNAs with nucleoside modification (Kariko et al., 2005). It is yet to 273 be examined if the ORFs and RNA modifications are unique to SARS-CoV-2 or 274 conserved in other coronaviruses. Comparative studies on their distribution and 275 functional significance will help us to gain a deeper understanding of 276 SARS-CoV-2 and coronaviruses in general. Our data provide a rich resource 277 and open new directions to investigate the mechanisms underlying the 278 pathogenicity of SARS-CoV-2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "False positive calling of 5mC modification demonstrated by using unmodified negative control RNAs. A, Read counts from nanopore direct RNA sequencing of in vitro transcribed (IVT) RNAs that have viral sequences. \"Control\" indicates quality control RNA for nanopore sequencing. B, The 15 partially overlapping patches cover the entire genome (blue rectangles at the bottom). Each RNA is~2.3 kb in length.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Detected modified sites in viral RNAs. A, Ionic current levels near the genomic position 27,947 in viral S RNA (green lines) and IVT control RNA (black lines). B, Ionic current levels for the identical region in the viral ORF8 RNA (orange lines) and IVT control RNA (black lines). C, Signal distributions at the position 27,947 in the different RNAs. The blue line shows the standard model used for modification detections without controls (\"alternative base detection\" and \"de novo\" modes) in Tombo. D, Sequence alignment of the detected modification sites with \"AAGAA\"-type motif. Base positions on the left hand side correspond to the genomic coordinates denoted with red arrowhead. Related to Figure 5",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Highly modified viral RNAs carry shorter poly(A) tails. Poly(A) tail length distribution of each viral transcript other than shown in Figure 5. Related to Figure 5Kim et al. Korea/KCDC03/2020, at a multiplicity of infection (MOI) of 0.05, and 309 cultured in DMEM supplemented with 2% fetal bovine serum and 310 penicillin-strepamycin. The virus is the fourth passage and not plaque-isolated. 311 Cells were harvested at 24 hours post-infection and washed once with PBS 312 before adding TRIzol. Viral culture was conducted in a biosafety level-3 facility. 313 In vitro transcription Total RNA from SARS-CoV-2-infected Vero cell was 314 extracted by using TRIzol (Invitrogen) followed by DNaseI (Takara) treatment. 315 Reverse transcription (SuperScript IV Reverse Transcriptase [Invitrogen]) was 316 done with virus-specific RT primers. Templates for in vitro transcription were 317 prepared by PCR (Q5\u00ae High-Fidelity DNA Polymerase [NEB]) with 318 virus-specific PCR primers followed by in vitro transcription (MEGAscript\u2122 T7 319 Transcription Kit [Invitrogen]). The oligonucleotides used in this study were 320 listed in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "Nanopore direct RNA sequencing For nanopore sequencing on non-infected 322 and SARS-CoV-2-infected Vero cells, each 4 \u00b5g of DNase I (Takara)-treated 323 total RNA in 8 \u00b5l was used for library preparation following the manufacturer's 324 instruction (the Oxford Nanopore DRS protocol, SQK-RNA002) with minor 325 adaptations. 20 U of SUPERase-In RNase inhibitor (Ambion, 20 U/\u00b5l) was 326 added to both adapter ligation steps. SuperScript IV Reverse Transcriptase 327 (Invitrogen) was adopted instead of SuperScript III, and the reaction time of 328 reverse transcription was lengthened by 2 hours. The library was loaded on 329 FLO-MIN106D flow cell followed by 42 hours sequencing run on MinION 330 device (Oxford Nanopore Technologies). For nanopore sequencing on 331 SARS-CoV-2 RNA fragments by in vitro transcription, the same method was 332 applied except for a total 2 \u00b5g of fragment RNAs and 30 minutes reaction time 333 of reverse transcription. The nanopore direct sequencing data were basecalled 334 using guppy 3.4.5 (Oxford Nanopore Technologies) using the high-accuracy 335 model. The sequence reads were aligned to the reference sequence database 336 Kim et al. -k 13 -x splice -N 32 -un\". We used the sequence of the Wuhan-Hu-1 strain 340 (GenBank NC_045512.2) as a backbone for the viral reference genome, then 341 corrected the four single nucleotide variants found in 342 BetaCoV/Korea/KCDC03/2020; T4402C, G5062T, C8782T, and T28143C 343 (GISAID). The sequence alignments were further improved by re-mapping the 344 identified viral reads to the viral genome using minimap2 options \"-k 8 -w 1 345 --splice -g 30000 -G 30000 -A1 -B2 -O2,24 -E1,0 -C0 -z 400,200 --no-end-flt 346 --junc-bonus=100 -F 40000 -N 32 --splice-flank=no --max-chain-skip=40 -un 347 --junc-bed=FILE -p 0.7\". Chimeric reads were filtered out according to the flag 348 from minimap2. The mapped reads from canonical sgRNAs were identified 349 using the start and end positions of large deletions \u2265 10000 nt. For a valid 350 assignment to a species of sgRNA, we required that the start position is between 351 55 and 85 in the genomic coordinate. The first AUG in the downstream of the 352 end position of a large deletion was used for identification of the \"spliced\" 353 product. The dwell time of poly(A) tails were measured using poreplex 0.5.0 ( 354 https://github.com/hyeshik/poreplex). For the conversion from a dwell time to a 355 nucleotide length, we divided a poly(A) dwell measurement by 1/30 of the mode 356 of the poly(A) dwell time of the ONT sequencing calibration control which has a 357 30 nt-long poly(A) tail. 358 DNBseq RNA sequencing Total RNA from SARS-CoV-2-infected Vero cell was 359 extracted by using TRIzol (Invitrogen) followed by DNaseI (Takara) treatment. 360 Dynabeads\u00ae mRNA Purification Kit (Invitrogen) was applied to 1 \u00b5g of total 361 RNA for rRNA depletion. RNA-seq library for 250 bp insert size was constructed 362 following the manufacturer's instruction (MGIEasy RNA Directional Library 363 Prep Set). The library was loaded on MGISEQ-200RS Sequencing flow cell with 364 MGISEQ-200RS High-throughput Sequencing Kit (PE 100), and the library was 365 run on DNBSEQ-G50RS (paired-end run, 100 \u00d7 100 cycles). The sequences 366 from DNBseq were aligned to the reference sequences used in nanopore DRS.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "367We used STAR(Dobin et al., 2013) with many switches to completely turn off368 Kim et al. 20 --alignIntronMax 1000000 --alignMatesGapMax 1000000\". 376 Analysis of junction-spanning reads The junction-spanning reads (JSR) were 377 prepared by extracting all large deletion (\u2265 20 nt) events from the sequence 378 alignments. [Figure 3A] We counted the number of 5 \u2032 and 3 \u2032 sites in 100nt-wide 379 bins. The red dots that indicate the frequently used 3 \u2032 sites were identified using 380 the SciPy's scipy.signals.find_peaks(prominence=2) (Virtanen et al., 2020). 381 [Figures 3B-3G] The JSRs were categorized by the position of 5 \u2032 and 3 \u2032 site 382 positions. A JSR was marked as a leader-to-body junction when the 5 \u2032 site of the 383 deletion is between 55 and 85. The sgRNA identity and the frame matching were 384 determined by the first AUG position in the downstream sequence of the 3 \u2032 site 385",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "389Modified base detection and the downstream analyses The DRS reads of the 390 IVT RNAs were downsampled to balance the coverage between different 391 fragments that were split into equal-sized patches. Sampling frequency of a 392 fragment was controlled by the read counts within a 100-nt bin with the lowest 393 coverage in each fragment. We sampled the reads so that the result contain 394 roughly 10,000 reads from every IVT fragment. The viral RNA reads and the 395 downsampled IVT reads were processed for squiggle analyses by ONT tombo396 1.5 (Stoiber et al., 2017) with a minor tune to improve the sensitivity of sequence 397 alignments (-k8 -w1). The modified base detection was done by using the 398 \"model_sample_compare\" mode with an option \"--sample-only-estimates\" 399 unless otherwise specified. [Figure 5E-5F] The classification of sequence 400 Kim et al. reported by tombo. Then, the rest were further divided 403 into four groups according to the nucleotide base with the highest modification 404 fraction. [Figures 5H and S3] \"Highly modified\" sgRNA reads were detected by 405 referring to eight modification sites which were at least 40% modified in any 406 species of sgRNAs: 28591, 28612, 28653, 28860, 28958, 29016, 29088, 29127. We 407",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "B, Genome coverage of the nanopore direct RNA sequencing data shown in panel A. The stepwise reduction in coverage corresponds to the borders expected for the canonical sgRNAs. The smaller inner plot magnifies the 5 \u2032 part of the genome. C, Read counts from DNA nanoball sequencing using MGISEQ. Total RNA from Vero cells infected with SARS-CoV-2 was used for sequencing. D, Genome coverage of the DNA nanoball sequencing (DNBseq) data shown in panel C.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "SupplementaryTable 1 | Oligonucleotide sequences used in preparation of IVT control RNAs.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

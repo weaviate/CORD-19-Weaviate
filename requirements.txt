@@ -1,0 +1,6 @@
+numpy==1.17.2
+weaviate_client==0.3.3
+requests==2.23.0
+pandas==0.25.1
+tqdm==4.36.1
+PyYAML==5.3.1

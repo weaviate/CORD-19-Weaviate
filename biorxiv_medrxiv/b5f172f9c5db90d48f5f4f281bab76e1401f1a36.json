@@ -1,0 +1,786 @@
+{
+    "paper_id": "b5f172f9c5db90d48f5f4f281bab76e1401f1a36",
+    "metadata": {
+        "title": "CoViD-19: An Automatic, Semiparametric Estimation Method for the Population Infected in Italy",
+        "authors": [
+            {
+                "first": "Livio",
+                "middle": [],
+                "last": "Fenga",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Italian National Institute of Statistics ISTAT",
+                    "location": {
+                        "postCode": "00184",
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": "livio.fenga@istat.it"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "To date, official data on the number of people infected with the SARS-CoV-2 -responsible for the CoViD-19 -have been released by the Italian Government just on the basis of a non representative sample of population which tested positive for the swab. However a reliable estimation of the number of infected, including asymptomatic people, turns out to be crucial in the preparation of operational schemes and to estimate the future number of people, who will require, to different extents, medical attentions. In order to overcome the current data shortcoming, this paper proposes a bootstrap-driven, estimation procedure for the number of people infected with the SARS-CoV-2. This method is designed to be robust, automatic and suitable to generate estimations at regional level. Obtained results show that, while official data at March the 12th report 12.839 cases in Italy, people infected wiyh the SARS-CoV-2 could be as high as 105.789.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Cases of COVID-19 break out in Italy where it is first attested a capillary spread of this disease in the European continent after the Asian one: the scenario that is developing in these days is creating an example that unfortunately will certainly be repeated in other states all over the world. In this framework, the availability of a reliable data sources on the diffusion of SARS-CoV-2 -the virus responsible for this disease -is crucial in many ways. It is needed to maximize coordination among emergency services located in different parts of the County and within EU, it is crucial for the preparation of operational schemes, and pivotal to allow a proper prediction of the development of the pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "At the moment, official data on the infection in Italy are based on non random, non representative samples of the population: as a matter of fact people are tested for SARS-CoV-2 on the condition that some symptoms related to the virus are present. These data can ensure a proper estimation of total deaths and total hospitalizations due to the virus-related disease: this is crucial to proceed in terms of optimization available resources, of rationalization of accesses to hospitals, of other health facilities and so forth. Nonetheless, form a pure statistical point of view they are not suitable to provide a reliable source of information on the real number of infected people (thereafter \"positive cases\").",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Starting from the number of deaths and the number of people tested positive to the virus and improving on the methodology originally proposed by Pueyo (2020) , this paper aims to estimate the real number of people infected by the SARS-CoV-2, simply called CORONAVIRUS, in each of the 20 Italian regions.",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 157,
+                    "text": "Pueyo (2020)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Small sample size -which is suitable to lead to a strong bias in asymptotic results and which is very likely to imply the construction of incorrect confidence intervals -and the distortion of the sample introduced by the mentioned testing strategy are the two mayor obstacles in reliable estimations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The presented procedure is designed to overcome these problems. As it will be detailed in the sequel, in order to reduce the impact of biasing components on the parameter estimations, a recent bootstrap scheme, called Maximum Entropy Bootstrap and proposed by Vinod et al. (2009) , has been employed. In addition to that, a distance measure -based on the theory of stochastic processes and proposed by Piccolo (1990) -has been employed to guarantee statistical coherence among all the Italian regions.",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 279,
+                    "text": "Vinod et al. (2009)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 402,
+                    "end": 416,
+                    "text": "Piccolo (1990)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In small data sets it is essential to save degrees of freedom (DOF). In this perspective, the adopted model -of the type semiparametric -consists of two parts: a purely nonparametric and a parametric one. While the former does not pose problems in terms of DOF, the latter clearly does. However, the sacrifice in terms of DOF is very limited as an autoregressive model of order 1 (employed in a suitable distance function, as below illustrated) has proved sufficient for the purpose. DOF-saving strategy is also the driving force of the choice not to consider as an exogenous parameter the georeferencing of Regions or to include the regional population in a regression-like scheme but to implicitly assumed these variable embedded in the dynamic of the time series in question.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The proposed method"
+        },
+        {
+            "text": "The paper makes use of official data published by Italian Authorities, on the following two variables of interest 1. number of deaths from CoViD-19 (denoted by the Latin letter M ) 2. number of currently positive cases recorded after the administration of the test (denoted by the Latin letter C).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "The data set includes 18 daily datapoints collected at regional level during the period of February 24 th to March 12 th . The total number of Italian regions considered is 20. However, one special administrative area (Trentino Alto Adige) is divided in two subregions, i.e. Trento and Bolzano. Therefore, the set containing all the Italian regions -called \u2126 -has cardinality |\u2126| = 22 (the cardinality function is denoted by the symbol | \u00b7 | = 22). Two different subsets are built from \u2126 i.e. \u2126 \u2022 -containing the regions for which at least one death, out of the group of tested people, has been recorded and \u2126 \u2022 (no recorded deaths):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "1. \u2126 \u2022 \u2261 P iemonte, Lombardia, V eneto, F riuli, Liguria, Emilia, T oscana, M arche, Lazio, Abbruzzo, V alleAosta, Bolzano, Campania, P uglia, Sicilia 2. \u2126 \u2022 \u2261 T rento, U mbria, M olise, Basilicata, Calabria, Sardegna,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "being \u2126 \u2261 \u2126 \u2022 \u222a \u2126 \u2022 . In what follows, the two superscripts \u2022 and \u2022 will be always used respectively with reference to the regions {r 1 , r 2 , . . . r 15 } \u2208 \u2126 \u2022 and in {s 1 , s 2 , . . . s 6 } \u2208 \u2126 \u2022 . The time span is denoted as {1, 2, . . . , T }.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "Page 2 of 14 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10. 1101 /2020 In the case of the regions included in \u2126 \u2022 , following Pueyo (2020) , estimates the total number of people infected by CoViD-19 as follows:",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 108,
+                    "text": "/2020",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 164,
+                    "end": 176,
+                    "text": "Pueyo (2020)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "where the superscript \u2022 identifies the regions {r 1 , r 2 , . . . r 15 } \u2208 \u2126 \u2022 , w is the ratio between current positive cases (C) and number of deaths (M) (2), \u03c4 the average doubling time for the CoViD-19 (i.e. the average span of time needed for the virus to double the cases) and \u03b4 the average time for an infected person to die. These two constant terms have been kept fixed as estimated according the data so far available worldwide (see Pueyo (2020) ). They are as follows: \u03c4 = 17.3 and \u03b4 = 6.2.",
+            "cite_spans": [
+                {
+                    "start": 443,
+                    "end": 455,
+                    "text": "Pueyo (2020)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "The case of the regions belonging to \u2126 \u2022 is more complicated. The approach adopted is as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "1. Given the s j \u2208 \u2126 \u2022 a series c \u03c0 \u2208 \u2126 \u2022 minimizing of a suitable distance functiondenoted by the Greek letter \u03c0(\u00b7) -is found. In symbols: c \u03c0 = argmin",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "2. the estimated number of infected at the population level found for c \u03c0 , say I c \u03c0 becomes the weight for which the total cases recorded for s j , i.e.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "I c \u03c0 * Cs j Cr j Therefore, the estimate of the variable of interest for this case is as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "The distance function adopted (\u03c0), called AR distance, has been introduced by Piccolo (2007)). Briefly, the series of interest are considered a realization of an ARMA (Autoregressive Moving Average) model (see, e.g. Makridakis and Hibon (1997) ) so that, each of them can be expressed as an autoregressive model of infinite order, i.e. AR(\u221e) whose infinite sequence of AR parameters is \u03b1 1 , \u03b1 2 , . . . . Without loss of generality, the distance between the series s and c \u03c0(s, c) (Eqn 3) is expressed as",
+            "cite_spans": [
+                {
+                    "start": 216,
+                    "end": 243,
+                    "text": "Makridakis and Hibon (1997)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data and contageon indicator"
+        },
+        {
+            "text": "The bootstrap scheme adopted proved to be a real asset for the problem at hand. Given the pivotal role played it will be briefly presented. In essence, the choice of the most appropriate resampling method is far from being an easy task, especially when the identical and independent distribution iid assumption (Efron's initial bootstrap method) is violated. Under dependence structures embedded in the data, simple sampling with replacement has been proved -see, for example Carlstein et al. (1986) -to yield suboptimal results. As a matter of fact, iid-based bootstrap schmes are not designed to capture, and therefore replicate, dependence structures. This is especially true under the actual conditions (small sample sizes). In such cases, selecting the \"right\" resampling scheme becomes a particularly challenging task. Several ad hoc methods have been therefore Page 3 of 14 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 476,
+                    "end": 499,
+                    "text": "Carlstein et al. (1986)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10. 1101 /2020 proposed, many of which now freely and publicly available in the form of powerful routines working under software package such as Python R or R R . In more details, while in the classic bootstrap an ensemble \u2126 represents the population of reference the observed time series is drawn from, in MEB a large number of ensembles (subsets), say {\u03c9 1 , . . . , \u03c9 N } becomes the elements belonging to \u2126, each of them containing a large number of replicates {x 1 , . . . , x J }. Perhaps, the most important characteristic of the MEB algorithm is that its design guarantees the inference process to satisfy the ergodic theorem. Formally, denoting by the symbol | \u00b7 | the cardinality function (counting function) of a given ensemble of time series {x t \u2208 \u03c9 i ; i = 1, . . . , N }, the MEB procedure generates a set of disjoint subsets",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 108,
+                    "text": "/2020",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "the sample mean. Furthermore, basic shape and probabilistic structure (dependency) is guaranteed to be retained \u2200x * t,j \u2282 \u03c9 i \u2282 \u2126.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "MEB resampling scheme has not negligible advantages over many of the available bootstrap methods: it does not require complicated tune up procedures (unavoidable, for example, in the case of resampling methods of the type Block Bootstrap) and it is effective under non-stationarity. MEB method relies on the entropy theory and the related concept of (un)informativeness of a system. In particular, the Maximum Entropy of a given density \u03b4(x), is chosen so that the expectation of the Shannon Information",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "Under mass and mean preserving constraints, this resampling scheme generates an ensemble of time series from a density function satisfying (4). Technically, MEB algorithm can be broken down, following Koutris et al. (2008) , in 8 steps. They are:",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 222,
+                    "text": "Koutris et al. (2008)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "1. a sorting matrix of dimension T \u00d7 2, say S 1 , accommodates in its first column the time series of interest x t and an Index Set -i.e. I ind = {2, 3, . . . , T } -in the other one;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "2. S 1 is sorted according to the numbers placed in the first column. As a result, the order statistics x (t) and the vector I ord of sorted I ind are generated and respectively placed in the first and second column;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "3. compute \"intermediate points\", averaging over successive order statistics, i.e. c t =",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "x (t) +x (t+1) 2 , t = 1, . . . T \u2212 1 and define intervals I t constructed on c t and r t , using ad hoc weights obtained by solving the following set of equations:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "Page 4 of 14 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20036103 doi: medRxiv preprint 4. from a uniform distribution in [0, 1], generate T pseudorandom numbers and define the interval R t = (t/T ; t + 1/T ] for t = 0, 1, . . . , T \u2212 1, in which each p j falls;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "5. create a matching between R t and I t according to the following equations:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "so that a set of T values {x j,t }, as the j th resample is obtained. Here \u03b8 is the mean of the standard exponential distribution;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "6. a new T \u00d7 2 sorting matrix S 2 is defined and the T members of the set {x j,t } for the j th resample obtained in Step 5 is reordered in an increasing order of magnitude and placed in column 1. The sorted I ord values (",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "Step 2) are placed in column 2 of S 2 ; 7. matrix S 2 is sorted according to the second column so that the order {1, 2, . . . , T } is there restored. The jointly sorted elements of column 1 is denoted by {x S,j,t }, where S recalls the sorting step;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "8. Repeat Steps 1 to 7 a large number of times.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Resampling Method"
+        },
+        {
+            "text": "In what follows, the proposed procedure is presented in a step-by-step fashion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The application of the maximum entropy bootstrap"
+        },
+        {
+            "text": "1. For each time series y \u2022 t and y \u2022 t the bootstrap procedure is applied so that B= 100 \"bona fide\" replications are available, i.e.\u1ef9 The explanation of the T-percentile method goes beyond the scope of this paper, therefore the interested reader is referred to the excellent paper by Berkowitz and Kilian (2000) .",
+            "cite_spans": [
+                {
+                    "start": 286,
+                    "end": 313,
+                    "text": "Berkowitz and Kilian (2000)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The application of the maximum entropy bootstrap"
+        },
+        {
+            "text": "In particular, the lower (upper) CIs will be the lower (upper) bounds of our estimator while the quantities E(v \u2022 ) E(v \u2022 ) are estimated through the mean operator, i.e.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The application of the maximum entropy bootstrap"
+        },
+        {
+            "text": "At this point, it is worth emphasizing that the procedure not only, as just seen, requires very little in terms of data but can be run in an automatic fashion. Once the data become available, one has just to divide them according to the subsets \u2126 i.e. \u2126 \u2022 Page 5 of 14 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The application of the maximum entropy bootstrap"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https: //doi.org/10.1101 //doi.org/10. /2020 and the code will process the new data in an automatic way. The procedure is also very fast as the computing time needed for the generation of the bootstrap samples requires less than 2 minutes. Both code and data used for this Paper are freely made available for any researcher who would consider using it.",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 102,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 122,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "The application of the maximum entropy bootstrap"
+        },
+        {
+            "text": "In order to give the reader the opportunity to gain a better insight, in Figure 2 -5 the time series of the variable C (see Eqn. 2) is reported for each region. Note that sudden variations (i.e. Bolzano in Figure 5 , Valle D'Aosta in Figure 4 and Molise and CAmpania in Figure 3 ) are due to the little number of test administrated (denominator of the variable C T (2)) That said, the main result of the paper is summarized by Table 2 , where three estimates of the number of infected people are reported by region. The regions belonging to the set \u2126 \u2022 (i.e. no deaths) are in Italics (all the others belong to the set \u2126 \u2022 ). In the column \"Mean\" and Lower (Upper) Bounds the bootstrap estimates computed according to Eqn 5 and 6 and the Lower (Upper) Bounds the lower (upper) bootstrap CIs are respectively reported. The column denominated \"Official Cases\" accounts for the number of official cases released by the Italian Authorities whereas the column \"Morbidity\" expresses the percentage ratio between \u00b5 \u2022 (5) or \u00b5 \u2022 (6) and the actual population of each region.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 73,
+                    "end": 81,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 206,
+                    "end": 214,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 234,
+                    "end": 242,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 270,
+                    "end": 278,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 427,
+                    "end": 434,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Empiricical evidences"
+        },
+        {
+            "text": "By examining the data for the whole Country, it is clear how the data collected by the Italian Authorities on the positive cases severely underestimate the current situation by a factor of about 8. As expected, the top three regions in terms of number of infected persons are Lombardia, Emilia Romagna and Veneto, where the estimated infected population is respectively (bootstrap mean) around 45,020, 12,299 and 9,343.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empiricical evidences"
+        },
+        {
+            "text": "On the other hand, the risk of contagion is relatively low in regions -mostly located in the Southern part of Italy -and in the island of Sardegna.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empiricical evidences"
+        },
+        {
+            "text": "Regarding the regions included in the subset \u2126 \u2022 , the application of the Piccolo distance (\u03c0) generated the associations reported in Table   Table 1 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 134,
+                    "end": 149,
+                    "text": "Table   Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Empiricical evidences"
+        },
+        {
+            "text": "It is widespread opinion in the scientific community that current official data on the diffusion of SARS-CoV-2, responsible of the correlated disease, COIVD-19,among population, are likely to suffer from a strong downward bias. In this scenario, the aim of this instant paper is twofold: fist, it can compute realistic figures on the effective number of people infected with SARS-CoV-2 in Italy;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Page 6 of 14 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20036103 doi: medRxiv preprint second, it can provide a methodology, which improves current state of art and can be used to compute similar figures in other countries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Following Pueyo 2020, this paper proposes a methodology which starts from Italian data considered restively certain, such as the number of deaths and the number of people tested positive to the virus, and due to this:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "1. allows a population wide estimation of infected people and the computation of related confidence intervals;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "2. extends Pueyo 2020 methodology to regions and areas where no deaths have been yet registered.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The entire procedure has been written in the programming language R and uses official data as published by the Italian Government. The whole code is made available upon request to any researcher who would consider using it.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Obtained results show that, while official data at March the 12th report 12.839 cases in Italy, people infected with the SARS-CoV-2 could be as high as 105.789. If this estimate were correct, mortality rates would decrease as its denominator increases, compared to what is calculated in official statistics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "On the other hand, considering that, in absence of strong actions, such as the decreasing of social distance among people and that the average doubling time for the Coronavirus (that is, the time it takes to double cases, on average) is 6.2 days (Pueyo (2020) ), the pandemic is to be regarded as much more dangerous than currently foreseen.To overcome the crisis, international solidarity together wit, strong and coordinated actions among countries will be crucial. It is even worth to stress that at micro level everyone is called to act with the greatest responsibility, increasing social distance and respecting what imposed by authorities. Stay at home, and, if you can, do research on this topic, every contribution could be crucial.",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 259,
+                    "text": "(Pueyo (2020)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Page 7 of 14 . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https: //doi.org/10.1101 //doi.org/10. /2020 (5) and (6) . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 102,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 103,
+                    "end": 122,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20036103 doi: medRxiv preprint CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20036103 doi: medRxiv preprint CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20036103 doi: medRxiv preprint CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20036103 doi: medRxiv preprint CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20036103 doi: medRxiv preprint CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.14.20036103 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The author is deeply grateful to Dr. Luigi Di Landro for the generous help in the proofreading process.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Recent developments in bootstrapping time series",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Berkowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kilian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Econometric Reviews",
+            "volume": "19",
+            "issn": "1",
+            "pages": "1--48",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The use of subseries values for estimating the variance of a general statistic from a stationary sequence",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Carlstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "The annals of statistics",
+            "volume": "14",
+            "issn": "3",
+            "pages": "1171--1179",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Testing for nonstationarity using maximum entropy resampling: A misspecification testing perspective",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Koutris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Heracleous",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Spanos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Econometric Reviews",
+            "volume": "27",
+            "issn": "4-6",
+            "pages": "363--384",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "ARMA models and the Box-Jenkins methodology",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Makridakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hibon",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Journal of Forecasting",
+            "volume": "16",
+            "issn": "3",
+            "pages": "147--163",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A distance measure for classifying ARIMA models",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Piccolo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Journal of Time Series Analysis",
+            "volume": "11",
+            "issn": "2",
+            "pages": "153--164",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Statistical issues on the AR metric in time series analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Piccolo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Proceedings of the SIS 2007 intermediate conference",
+            "volume": "",
+            "issn": "",
+            "pages": "221--232",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Coronavirus: Why You Must Act Now",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pueyo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Maximum entropy bootstrap for time series: the meboot R package",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Vinod",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "L\u00f3pez-De Lacalle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of Statistical Software",
+            "volume": "29",
+            "issn": "5",
+            "pages": "1--19",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "\u2022 t,b ; b = 1, 2, . . . B and\u1ef9 \u2022 t,b ; b = 1, 2, . . . B;2. for both the series, the row vector related to the last observation T is extracted,i.e. {v \u2022 =\u1ef9 \u2022 T,1 ,\u1ef9 \u2022 T,2 . . .\u1ef9 \u2022 T,B } and {v \u2022 =\u1ef9 \u2022 T,1 ,\u1ef9 \u2022 T,2 . . .\u1ef9 \u2022 T,B } 3. the expected values (E(v \u2022 ) E(v \u2022 )) are then extracted as well as the \u2248 95% confidence intervals (CI \u2022 and CI \u2022 ), computed according to the t-percentile method.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Percentage ratio deaths / new cases for the following Italian regions: Piemonte, Lombardia, Veneto, Liguria and Friuli-Venezia-Giulia Page 9 of 14 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Percentage ratio deaths / new cases for the following Italian regions Emilia, Toscana, Marche, Lazio and Abruzzo Page 10 of 14 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Percentage ratio deaths / new cases for the following Italian regions: Molise, Campania, Puglia, Basilicata and Calabria Page 11 of 14 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Percentage ratio deaths / new cases for the following Italian regions:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Fig. 5. xxxxxxxxxxxxx",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". Association found between the regions belonging to \u2126 \u2022 and those in \u2126 \u2022 according to the minimum distance \u03c0",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Estimation of the number of people infected from CoViD-19 by Italian regions. Lower and Upper Bounds are computed through the Bootstrap t-percentile method whereas the mean values is computed as in",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "In Italics the regions belonging to the set \u2126 \u2022 are reported",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}
