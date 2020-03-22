@@ -8,4 +8,5 @@ __pycache__/
 # Folder view configuration files
 .DS_Store
 
-.json
+biorxiv_medrxiv/
+*.json
