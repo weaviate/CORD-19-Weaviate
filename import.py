@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 import uuid, os, json, sys, time, weaviate, csv
+from datetime import datetime
 from modules.Weaviate import Weaviate
-from modules.Weaviate import getWeaviateUrlFromConfigFile
 from utils.helper import *
+import csv
 
+DATADIR = sys.argv[2]
 WEAVIATE = Weaviate(sys.argv[1])
 # CACHEDIR = sys.argv[2]
 CLIENT = weaviate.Client(sys.argv[1])
 
+
+journals = [];
 ##
 # Function to clean up data
 ##
 def processInput(k, v):
-
     if k == 'Author':
         v = v.replace(' Wsj.Com', '')
         v = v.replace('.', ' ')
@@ -43,8 +46,12 @@ for publisher in publishers:
 ## 
 print('add papers')
 
-biorxiv_dir = 'biorxiv_medrxiv/'
-papers = load_files(biorxiv_dir)
+dataDirs = {
+    'biorxiv_medrxiv': DATADIR + '/biorxiv_medrxiv/biorxiv_medrxiv/',
+    'custom_license': DATADIR + '/custom_license/custom_license/',
+    'comm_use_subset': DATADIR + '/comm_use_subset/comm_use_subset/',
+    'noncomm_use_subset': DATADIR + '/noncomm_use_subset/noncomm_use_subset/'
+}
 
 i = 1
 
@@ -54,25 +61,59 @@ batch = weaviate.ThingsBatchRequest()
 # create a ReferenceBatchRequest for adding references
 batchRefs = weaviate.ReferenceBatchRequest()
 
-for paper in papers:
-    paper_obj = {}
-    paper_obj['paperId'] = paper['paper_id']
-    paper_obj['title'] = paper['metadata']['title']
-    paper_obj['abstract'] = format_body(paper['abstract'])
-    paper_obj['body'] = format_body(paper['body_text'])
+with open(DATADIR+'/metadata.csv', newline='') as csvfile:
+    reader = csv.DictReader(csvfile, delimiter=',')
+    for row in reader:
+        #CreateJurnal
 
-    # add every 20 by taking the modus of 19 (counter starts at 0)
-    if (i % 19) == 0:
-        # Send the batch to Weaviate
-        CLIENT.create_things_in_batch(batch)
-        
-        # Create an empty batch
-        batch = weaviate.ThingsBatchRequest()
+        print(str(i))
 
-    # Add the thing to the batch request queue
-    batch.add_thing(paper_obj, 'Paper', str(uuid.uuid3(uuid.NAMESPACE_DNS, paper_obj['paperId'])))
+        paper = {}
+        paper_obj = {
+            "abstract": "",
+            "body": ""
+        }
+        if row['full_text_file']:
+            file = 'pmc_json/' + row['pmcid'] + '.xml.json' if row['source_x'] == 'PMC' else 'pdf_json/' + row[
+                'sha'] + '.json'
+            file_path = dataDirs[row['full_text_file']] + file
+            try:
+                with open(file_path) as json_file:
+                    paper = json.load(json_file)
+                    paper_obj['abstract'] = format_body(paper.get('abstract')) if paper.get('abstract') else ""
+                    paper_obj['body'] = format_body(paper.get('body_text')) if paper.get('body_text') else ""
+            except:
+                print('file is missing')
 
-    i += 1
+        journalId = str(uuid.uuid3(uuid.NAMESPACE_DNS, row['journal'].lower()))
 
-# Send the batch to Weaviate
-CLIENT.create_things_in_batch(batch)
+        if journalId not in journals:
+            CLIENT.create_thing({"name": row['journal']}, "Journal", journalId)
+            journals.append(journalId)
+
+        paper_obj['paperId'] = row['sha']
+        paper_obj['title'] = row['title']
+        paper_obj['doi'] = row['doi']
+        paper_obj['pmcId'] = row['pmcid']
+        paper_obj['pubmedId'] = row['pubmed_id']
+        paper_obj['publishTime'] = datetime.strptime(row['publish_time'], '%Y-%m-%d').isoformat() + "Z"
+        paper_obj['journal'] = [{"beacon":"weaviate://localhost/things/"+journalId}]
+        paper_obj['source'] = [{"beacon":"weaviate://localhost/things/"+str(uuid.uuid3(uuid.NAMESPACE_DNS, row['source_x'].lower()))}]
+        paper_obj['license'] = row['license']
+        paper_obj['hasFullText'] = row['has_pdf_parse'] == 'True'
+
+        # add every 20 by taking the modus of 19 (counter starts at 0)
+        if (i % 19) == 0:
+            # Send the batch to Weaviate
+            asd = CLIENT.create_things_in_batch(batch)
+
+            # Create an empty batch
+            batch = weaviate.ThingsBatchRequest()
+
+        # Add the thing to the batch request queue
+        batch.add_thing(paper_obj, 'Paper', str(uuid.uuid3(uuid.NAMESPACE_DNS, paper_obj['paperId'])))
+
+        i += 1
+
+    # Send the batch to Weaviate
+    CLIENT.create_things_in_batch(batch)
