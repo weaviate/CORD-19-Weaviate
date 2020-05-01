@@ -65,12 +65,16 @@ with open(DATADIR+'/metadata.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile, delimiter=',')
     for row in reader:
         #CreateJurnal
-
         print(str(i))
+
+        # skip no abstract
+        if row['abstract'] == None or row['abstract'] == "":
+            print('skip this article, no abstract')
+            continue
 
         paper = {}
         paper_obj = {
-            "abstract": "",
+            "abstract": row['abstract'],
             "body": ""
         }
         if row['full_text_file']:
@@ -80,7 +84,6 @@ with open(DATADIR+'/metadata.csv', newline='') as csvfile:
             try:
                 with open(file_path) as json_file:
                     paper = json.load(json_file)
-                    paper_obj['abstract'] = format_body(paper.get('abstract')) if paper.get('abstract') else ""
                     paper_obj['body'] = format_body(paper.get('body_text')) if paper.get('body_text') else ""
             except:
                 print('file is missing')

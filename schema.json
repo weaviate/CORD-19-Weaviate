@@ -26,7 +26,8 @@
                         ],
                         "description": "Title of the paper",
                         "name": "title",
-                        "vectorizePropertyName": false
+                        "vectorizePropertyName": false,
+                        "index": false
                     },
                     {
                         "dataType": [

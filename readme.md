@@ -23,6 +23,87 @@ Start an English [local Weaviate](https://www.semi.technology/documentation/weav
 0. `$ weaviate-cli schema-import --location=schema.json`
 0. `$ python3 import.py <weaviate-url> <data-folder>`
 
+## Example Queries
+
+Count all papers
+
+```graphql
+{
+  Aggregate{
+    Things{
+      Paper{
+        meta {
+          count
+        }
+      }
+    }
+  }
+}
+```
+
+Get a paper with a graph reference
+
+```graphql
+{
+  Get {
+    Things {
+      Paper {
+        title
+        Journal {
+          ... on Journal {
+            name
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+Search for the concept of _chiroptera_
+
+```graphql
+{
+  Get {
+    Things {
+      Paper(
+        explore:{
+          concepts: ["chiroptera"] # <== basically a bat
+        },
+      	limit: 5
+      ) {
+        title
+        abstract
+      }
+    }
+  }
+}
+```
+
+Search for the concept of _chiroptera_ in a relation to _cattle_
+
+```graphql
+{
+  Get {
+    Things {
+      Paper(
+        explore:{
+          concepts: ["chiroptera"] # <== basically a bat
+          moveTo: {
+            concepts: ["cattle"] # <== relation to cows, bulls, oxen, or calves
+            force: 0.85
+          }
+        },
+      	limit: 5
+      ) {
+        title
+        abstract
+      }
+    }
+  }
+}
+```
+
 ## Status
 
 Currently, the paper id, title, abstract and full body text of 885 papers of `biorxiv_medxriv` can be imported by the script above. Next steps are:
