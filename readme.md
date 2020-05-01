@@ -25,7 +25,12 @@ Start an English [local Weaviate](https://www.semi.technology/documentation/weav
 
 ## Example Queries
 
-Count all papers
+Useful links:
+
+- Learn about Weaviate GraphQL in the [documentation](https://www.semi.technology/documentation/weaviate/current/).
+- Run the queries interactively in the [Weaviate Playground](http://playground.semi.technology/).
+
+#### Count all papers
 
 ```graphql
 {
@@ -41,7 +46,7 @@ Count all papers
 }
 ```
 
-Get a paper with a graph reference
+#### Get a paper with a graph reference
 
 ```graphql
 {
@@ -60,7 +65,7 @@ Get a paper with a graph reference
 }
 ```
 
-Search for the concept of _chiroptera_
+#### Search for the concept of _chiroptera_
 
 ```graphql
 {
@@ -80,7 +85,7 @@ Search for the concept of _chiroptera_
 }
 ```
 
-Search for the concept of _chiroptera_ in a relation to _cattle_
+#### Search for the concept of _chiroptera_ in a relation to _cattle_
 
 ```graphql
 {
