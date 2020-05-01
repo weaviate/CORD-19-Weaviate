@@ -71,8 +71,29 @@
                         "dataType": [
                             "string"
                         ],
+                        "description": "License of the paper",
+                        "name": "license"
+                    },
+                    {
+                        "dataType": [
+                            "string"
+                        ],
                         "description": "Digital Object Identifier of the paper",
                         "name": "doi"
+                    },
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "Identifier that is assigned to every article that is accepted into PMC.",
+                        "name": "pmcId"
+                    },
+                    {
+                        "dataType": [
+                            "string"
+                        ],
+                        "description": "PubMed identifier or PubMed unique identifier",
+                        "name": "pubmedId"
                     },
                     {
                         "dataType": [
