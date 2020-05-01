@@ -10,3 +10,5 @@ __pycache__/
 
 biorxiv_medrxiv/
 *.json
+
+CORD-19-research-challenge/

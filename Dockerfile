@@ -3,7 +3,6 @@ FROM python:3
 ARG WEAVIATE_URL
 
 COPY . ./
-# COPY ./CORD-19-research-challenge ./CORD-19-research-challenge
 
 RUN git clone https://github.com/semi-technologies/weaviate-cli && \
     cd weaviate-cli && \
