@@ -1,5 +1,3 @@
-_UNDER DEVELOPMENT_
-
 # CORD-19 Weaviate
 
 The COVID-19 Open Research Dataset Challenge (CORD-19) is published by Kaggle: https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge. The goal is to explore the dataset and get new insights using [Weaviate](https://github.com/semi-technologies/weaviate).
@@ -8,26 +6,34 @@ The COVID-19 Open Research Dataset Challenge (CORD-19) is published by Kaggle: h
 ## How to get started
 
 ### Download the papers
-Download all `biorxiv_medxriv` json files from https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge into a folder with the same name.
+
+Download all json files from https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge into a folder.
+
+### Run with Docker
+
+1. `docker run --env "WEAVIATE_URL=<weaviate-url>" semitechnologies/weaviate-demo-covid19`
+
+_Please note that the Kaggle data is cached inside the Docker container._
 
 ### Execute the import
 
-1. [Install weaviate-cli](https://www.semi.technology/documentation/weaviate-cli/current/installation.html).
-2. `$ pip3 install -r requirements.txt`
-3. `$ weaviate-cli cluster-create`
-4. `$ weaviate-cli schema-import --location=schema.json`
-5. `$ python3 import.py <weaviate-url>`
+Start an English [local Weaviate](https://www.semi.technology/documentation/weaviate/current/get-started/install.html#docker-compose) or a Weaviate on the cluster service ([Install weaviate-cli](https://www.semi.technology/documentation/weaviate-cli/current/installation.html) then `$ weaviate-cli cluster-create`).
 
+0. `$ pip3 install -r requirements.txt`
+0. `$ weaviate-cli schema-import --location=schema.json`
+0. `$ python3 import.py <weaviate-url> <data-folder>`
 
 ## Status
+
 Currently, the paper id, title, abstract and full body text of 885 papers of `biorxiv_medxriv` can be imported by the script above. Next steps are:
-- [ ] Add metadata (references) of the papers to Weaviate. First, separate objects for authors, institutes, journals etc need to be created.
+- [x] Add metadata (references) of the papers to Weaviate. First, separate objects for authors, institutes, journals etc need to be created.
 - [ ] Add papers from the other collections (commercial, non-commercial, custom licence, see https://pages.semanticscholar.org/coronavirus-research)
-- [ ] EXPLORE! Use GraphQL and do classifications etc!
 
 ## Notes
+
 - [ ] Let's collaborate to make something great
-- [ ] I did not pay full attention to vectorization settings in the schema. When we want to do search and classification, maybe this needs better setting (better check now than later)
+- [x] I did not pay full attention to vectorization settings in the schema. When we want to do search and classification, maybe this needs better setting (better check now than later)
 
 ## References
+
 - Used some code from this kernel: https://www.kaggle.com/xhlulu/cord-19-eda-parse-json-and-generate-clean-csv

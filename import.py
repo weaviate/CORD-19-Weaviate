@@ -96,11 +96,15 @@ with open(DATADIR+'/metadata.csv', newline='') as csvfile:
         paper_obj['doi'] = row['doi']
         paper_obj['pmcId'] = row['pmcid']
         paper_obj['pubmedId'] = row['pubmed_id']
-        paper_obj['publishTime'] = datetime.strptime(row['publish_time'], '%Y-%m-%d').isoformat() + "Z"
         paper_obj['journal'] = [{"beacon":"weaviate://localhost/things/"+journalId}]
         paper_obj['source'] = [{"beacon":"weaviate://localhost/things/"+str(uuid.uuid3(uuid.NAMESPACE_DNS, row['source_x'].lower()))}]
         paper_obj['license'] = row['license']
         paper_obj['hasFullText'] = row['has_pdf_parse'] == 'True'
+        try:
+            paper_obj['publishTime'] = datetime.strptime(
+                row['publish_time'], '%Y-%m-%d').isoformat() + "Z"
+        except:
+            pass
 
         # add every 20 by taking the modus of 19 (counter starts at 0)
         if (i % 19) == 0:

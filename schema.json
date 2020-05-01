@@ -7,6 +7,7 @@
         "classes": [
             {
                 "class": "Paper",
+                "vectorizeClassName": false,
                 "description": "A scolarly article about coronaviruses",
                 "keywords": [
                     {
@@ -24,7 +25,8 @@
                             "string"
                         ],
                         "description": "Title of the paper",
-                        "name": "title"
+                        "name": "title",
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
@@ -32,25 +34,29 @@
                         ],
                         "description": "Abstract text describing the summary of the paper",
                         "name": "abstract",
+                        "index": true,
                         "keywords": [
                             {
                                 "keyword": "summary",
                                 "weight": 0.8
                             }
-                        ]
+                        ],
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
                             "text"
                         ],
                         "description": "Full body text of the paper",
+                        "index": false,
                         "name": "body",
                         "keywords": [
                             {
                                 "keyword": "text",
                                 "weight": 0.8
                             }
-                        ]
+                        ],
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
@@ -58,63 +64,76 @@
                         ],
                         "description": "Other papers that this paper refers to",
                         "name": "hasReferences",
-                        "cardinality": "many"
+                        "cardinality": "many",
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
                             "Publisher"
                         ],
                         "description": "Source of the paper",
-                        "name": "source"
+                        "name": "source",
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
                             "string"
                         ],
                         "description": "License of the paper",
-                        "name": "license"
+                        "name": "license",
+                        "index": false,
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
                             "string"
                         ],
                         "description": "Digital Object Identifier of the paper",
-                        "name": "doi"
+                        "name": "doi",
+                        "index": false,
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
                             "string"
                         ],
                         "description": "Identifier that is assigned to every article that is accepted into PMC.",
-                        "name": "pmcId"
+                        "name": "pmcId",
+                        "index": false,
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
                             "string"
                         ],
                         "description": "PubMed identifier or PubMed unique identifier",
-                        "name": "pubmedId"
+                        "name": "pubmedId",
+                        "index": false,
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
                             "date"
                         ],
                         "description": "Date the paper was published",
-                        "name": "publishTime"
+                        "name": "publishTime",
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
                             "Journal"
                         ],
                         "description": "Journal the paper was published in",
-                        "name": "journal"
+                        "name": "journal",
+                        "vectorizePropertyName": false
                     },
                     {
                         "dataType": [
                             "boolean"
                         ],
                         "description": "Whether the full text of the paper is available",
-                        "name": "hasFullText"
+                        "name": "hasFullText",
+                        "vectorizePropertyName": false
                     },
                     {
                         "cardinality": "atMostOne",
@@ -123,7 +142,8 @@
                         ],
                         "description": "paper id given by the original dataset",
                         "index": false,
-                        "name": "paperId"
+                        "name": "paperId",
+                        "vectorizePropertyName": false
                     }
                 ]
             },
@@ -200,6 +220,7 @@
             },
             {
                 "class": "Institute",
+                "vectorizeClassName": false,
                 "description": "Research center, research institute or university",
                 "keywords": [
                     {
@@ -250,6 +271,7 @@
             },
             {
                 "class": "Settlement",
+                "vectorizeClassName": false,
                 "description": "City or area in a region in a country",
                 "keywords": [
                     {
@@ -284,6 +306,7 @@
             },
             {
                 "class": "Region",
+                "vectorizeClassName": false,
                 "description": "Region in a country",
                 "properties": [
                     {
@@ -305,6 +328,7 @@
             },
             {
                 "class": "Country",
+                "vectorizeClassName": false,
                 "description": "Country",
                 "properties": [
                     {
@@ -319,6 +343,7 @@
             },
             {
                 "class": "Publisher",
+                "vectorizeClassName": false,
                 "description": "Organization that collects and publishes scientific papers",
                 "properties": [
                     {
@@ -333,6 +358,7 @@
             },
             {
                 "class": "Journal",
+                "vectorizeClassName": false,
                 "description": "A scientific magazine that presents papers",
                 "keywords": [
                     {
