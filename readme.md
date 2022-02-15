@@ -17,7 +17,7 @@ _Please note that the Kaggle data is cached inside the Docker container._
 
 ### Execute the import
 
-Start an English [local Weaviate](https://www.semi.technology/documentation/weaviate/current/get-started/install.html#docker-compose) or a Weaviate on the cluster service ([Install weaviate-cli](https://www.semi.technology/documentation/weaviate-cli/current/installation.html) then `$ weaviate-cli cluster-create`).
+Start an English [local Weaviate](https://weaviate.io/developers/weaviate/current/getting-started/installation.html#docker-compose) or a Weaviate on the cluster service ([Install weaviate-cli](https://weaviate.io/developers/weaviate/current/getting-started/installation.html) then `$ weaviate-cli cluster-create`).
 
 0. `$ pip3 install -r requirements.txt`
 0. `$ weaviate-cli schema-import --location=schema.json`
@@ -27,7 +27,7 @@ Start an English [local Weaviate](https://www.semi.technology/documentation/weav
 
 Useful links:
 
-- Learn about Weaviate GraphQL in the [documentation](https://www.semi.technology/documentation/weaviate/current/).
+- Learn about Weaviate GraphQL in the [documentation](https://weaviate.io/developers/weaviate/current/).
 - Run the queries interactively in the [Weaviate Playground](http://playground.semi.technology/).
 
 #### Count all papers
